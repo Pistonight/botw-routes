@@ -1,0 +1,34 @@
+_project: 
+  name: All Shrines
+  authors:
+    - iTNTPiston
+  version: "3.2"
+  description: All Shrines v3. WIth Infinity SCW
+  url: "https://github.com/iTNTPiston/as3"
+
+_config:
+  split-format:
+    Shrine: "[{{%03 Shrine}}] {{_}}"
+    Tower: "Tower"
+    Warp: "Warp {{_}}"
+
+_route:
+  - (==) I made a commentated video guide/runthough of this route. Check it out .link([here]https://youtu.be/QEDwCbvwDQw)
+  - Plateau: __use__ Plateau
+  - Lurelin: __use__ Lurelin
+  - Woodland:
+    -  __use__ KorokForest
+  - Eldin:
+    -  __use__ Eldin
+  - Gerudo: 
+    - __use__ Gerudo
+    - __use__ Wasteland
+  - Tabantha:
+    - __use__ Bloodmoon
+    - __use__ Rito
+  - Hebra + Lanayru:
+    - __use__ Hebra
+    - __use__ HebraSouth
+    - __use__ ZD
+  - Central: __use__ Central
+

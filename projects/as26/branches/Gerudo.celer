@@ -1,0 +1,26 @@
+Gerudo:
+- _Warp::Shrine::MoggLatan:
+    notes: Warp to TK if going for btb
+    line-color: cyan
+- BLSS + 2 WB + glide up
+- _Shrine::KeehaYoog:
+    comment: 1 Shock Arrow activate
+- .dir(<N) Turn + .dir(W>) Turn + .dir(S>) Turn:
+    movements:
+    - to: [-3928,532.6861495118246]
+    - to: [-4320,416.64019492558236]
+    notes: BLSS is pretty fast too
+- _Shrine::KemaKosassa
+- 2 .dir(S) Cardinal Turn:
+    notes: BLSS is pretty fast too
+- _Shrine::KemaZoos
+- .dir(S>) out + .dir(S.) Turn
+- _Shrine::ThoKayu:
+    comment: Check .v(FireArrow) fire arrows
+    notes: Need 8 fire arrows for KT. Also need to save 1 for Goma Assagh
+    var-change:
+      FireArrow: -3
+- BLSS
+- _Shrine::HawaKoth:
+    notes: snap guardian
+

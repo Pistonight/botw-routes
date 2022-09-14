@@ -1,0 +1,150 @@
+Hateno:
+- BLSS
+- _Shrine::BoshKala:
+    line-color: red
+- .dir(N>) TS
+- _Shrine::WahgoKatta
+- .dir(<E) Turn
+- _Shrine::HilaRao
+- .dir(N.) Turn to fairy:
+    coord: [950,500.1411246295402]
+- .dir(.N) Turn
+- _Shrine::KayaWan:
+    notes: Get 8 wood here if you are not going for shield surf. Get raddish/endura shroom if needed
+
+- BLSS to shrine:
+    coord: [917,150.2713926522165]
+- _Shrine::DakaTuss
+- +3WB
+- +_Npc::SheikaFemale<Impa>:
+    coord: [1772.71, 229.43, 984.31]
+- +_Tod::Night:
+    notes: For less lag during scw, TOD for kam urog, and dragon.
+- +_Equipment::Shield<Pot Lid>:
+    hide-icon-on-map: true
+- +_Shop<10 Fire 10 Normal>:
+    coord: [1827,1039.9681091017883]
+    var-change:
+      Rupee: -200
+      FireArrow: 10
+      Arrow: 10
+    notes: Sell ruby. .v(FireArrow) fire arrows and .v(Arrow) normal arrows left
+
+- +_Npc<2 Hearts>:
+    coord: [1841,997.9514703722871]
+- +.dir(N) to shrine
+- _Shrine::TalohNaeg:
+    comment: Get Shield inside
+
+- SCW to Lakna Rokee:
+    notes: Shield surf, EOD inside shrine. Want to use EOD over hammer since need hammer to break rocks
+- _Shrine::LaknaRokee:
+    var-change:
+      Weapons: 1
+    comment: .v(Weapons)/8 Weapons
+
+- +Cut tree wb:
+    notes: 1 Wood
+    var-change:
+      Wood: 1
+- .dir(N>) super + midair
+- _Shrine::MezzaLo:
+    notes: Doing Mezza Lo here so we are not too early for Farosh
+
+- .dir(S) Turn + .dir(S) + .dir(<S) Turn
+- _Shrine::DowNaeh
+
+- .dir(<N) + .dir(S>):
+    coord: [2642,1187.0932957332761]
+- _Shrine::KamUrog:
+    var-change:
+      Arrow: -1
+
+- .dir(S) + BLSS
+- _Shrine::TotoSah
+- +.dir(<N) Turn + .dir(<N) Turn:
+    notes: Want to land instead of midair so you don't run out of stamina while grabing violets
+- +_Material<4 Violets>:
+    coord: [1634,1907.2630503902146]
+- _Shrine::HaDahamar
+- +.dir(<<W) + .dir(NW)
+- _Shrine::ReeDahee
+
+- Shield Surf SCW
+- _Shrine::SheeVaneer
+- _Shrine::SheeVenath
+- BLSS to dragon:
+    coord: [1744,2982.6869418322767]
+    notes: 1 scale (first shot) + 4 horns. 
+    var-change:
+      FireArrow: -1
+      Arrow: -6
+      Wood: -1
+- Drop down (WB if far)
+- _Shrine::ShodaSah:
+    comment: Get ice arrow if going for btb
+- __use__ CheckWoodAndArrows
+
+- BLSS to stable:
+    notes: Turn + wb saves 3-4 seconds over BLSS. I like BLSS because I tend to get stopped by waterfall
+- _Cook<1 Speed>:
+    coord: [1574,3527.943105213035]
+- _Shrine::ShaiUtoh
+
+
+- .dir(E) super + .dir(N>) + .dir(N>) midair
+- _Shrine::QukahNata:
+    notes: Get Pants
+
+- +.dir(<E) TS to blue hinox:
+    coord: [2691,2964.6817917493354]
+- Walk orb:
+    coord: [2636,2844.634252522189]
+- .dir(.E):
+    coord: [2369.37, 321.05, 2862.74]
+- EOD slam kill boko
+- _Material<12 Lotus>:
+    coord: [2367.5,2808.0784397247926]
+- Walk orb:
+    notes: Get knights bow
+    coord: [2616,2824.5849763685255]
+- _Equipment::Weapon<Boko Bat>:
+    var-change: 
+      Weapons: 1
+    comment: .v(Weapons)/8 weapons
+    coord: [2767,2714.5413987436405]
+- Walk orb
+- _Shrine::TawaJinn
+    
+- BLSS to hateno
+- _Shrine::MyahmAgana
+- +.dir(.N) Turn LOOK UP
+- Smuggle blue flame:
+    coord: [3440.5,1976.8258875805732]
+    notes: Use torch or boko bat
+- Camera:
+    icon: snap
+    split-type: UserDefined
+    coord: [3779,2124.8845192940553]
+    var-change:
+      Weapons: -1
+    comment: Throw away torch if you got
+    notes: .v(Weapons)/8 Weapons 
+- BLSS to Muwo Jeem
+- _Shrine::MuwoJeem
+- Shield surf buffered scw:
+    notes: "Buffered scw saves 2 minutes (source: meiju). If you are not going for it. Do Chaas Qeta -> Eventide -> Kah Yah -> Yah Rin"
+- _Shrine::KahYah
+- .dir(S>>) + .dir(W) Turn
+- _Shrine::YahRin
+- BLSS to orb 1
+- _Shrine::KorguChideh:
+    var-change:
+      Rupee: 300
+      Arrow: -1
+    notes: Smuggle arrow only, get bow from chest. Get weapon from hinox
+    comment: .v(Rupee) Rupees
+- BLSS
+- _Shrine::ChaasQeta:
+    notes: Get climbing gear
+

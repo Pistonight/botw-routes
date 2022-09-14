@@ -1,0 +1,35 @@
+Hebra:
+- _Warp::Shrine::ShadaNaw:
+    line-color: yellow
+- wb
+- _Shrine::RokUwog
+- .dir(N) + .dir(<E) Turn Midairs:
+    coord: [-2386,-3399.7266494439036]
+- _Shrine::ShaGehma
+- .dir(E>) Turn + .dir(E) midairs
+- _Shrine::QazaTokki
+- .dir(S) up + BLSS
+- _Shrine::KetohWawai
+- __use__ CheckSlots
+- __use__ CheckWoodAndArrows
+
+- _Warp::Shrine::ShadaNaw:
+    line-color: cyan
+- _Shrine::GomaAsaagh:
+    notes: claymore for ganon
+    var-change:
+      FireArrow: -1
+- _Shrine::LannoKooh
+- .dir(NE):
+    notes: Cryo block out or you will have to eat. Throw snowball and let it roll down. Stasis it in front of the door (leave some space), statis MAX
+- _Shrine::GeeHarah
+
+- .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:
+    coord: [-2388,-2440.6529636418254]
+- _Shrine::RinOyaa
+- BLSS
+- _Shrine::MonyaToma
+- _Shrine::MaagNorah
+- BLSS:
+    coord: [-1434,-2250.5776931988426]
+- _Shrine::RonaKachta

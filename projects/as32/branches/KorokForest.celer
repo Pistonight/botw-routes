@@ -1,0 +1,75 @@
+KorokForest:
+- _Warp::Shrine::MezzaLo:
+    line-color: yellow
+- BLSS or wb
+- _Shrine::SohKofi
+
+- BLSS:
+    coord: [2189,-189.96315709896044]
+- _Shrine::ShehRata
+- .dir(<N) Turn + .dir(<N) Turn:
+    notes: or super but I rarely get lag
+- _Shrine::MirroShaz
+- .dir(S>>) Slight Turn + .dir(W):
+    coord: [956,-812.210757240352]
+- _Shrine::NamikaOzz
+- +wb to scale:
+    notes: Castle example .link(https://www.youtube.com/watch?v=_-JBJapmNeM&t=5022s)
+- _Chest<Dinraal Scale>:
+    coord: [-194,-1220.050312348731]
+- +WB to 5 bomb arrows
+- _Chest<5 Bomb Arrows>:
+    coord: [-294.25,-1157.46140317343]
+- +Drop down+Run to shrine:
+    notes: Get flameblade if need. Optimally you don't need it
+- _Shrine::SaasKosah:
+    comment: light normal arrow activate
+
+- +Run up:
+    notes: Switch to mag + EOD + ice arrow.
+           Walk the metal box forward (don't push it forward hard), climb the box and freeze lizalfos.
+           EOD slam attack. If you don't slam, he might be knocked too far and escape
+    coord: [-161.5,-1079.8605516003681]
+- _Equipment::Weapon<Boomerang>:
+    var-change:
+      Weapons: 1
+    notes: .v(Weapons)/8 weapons
+- +WB out
+- _Chest<3 AA>:
+    comment: optional for ganon
+    coord: [-62.64, 213.94, -1044.27]
+- +.dir(NW)
+- _Chest<Naydra Scale>:
+    coord: [-176,-1164.4475087700248]
+- +.dir(N) super + .dir(N>) Turn:
+    coord: [-34,-1636.1101325428908]
+- Keep rusty shield
+- _Shrine::KuhnSidajj
+
+- Backflip to KF:
+   coord: [376,-2203.3217736927]
+- .dir(NW) midair to Oaki
+- Start quest
+- Backflip to shrine:
+    notes: 1 Wood. .v(Wood) wood left
+    var-change:
+      Wood: 1
+- _Shrine::DaagChokah
+- .dir(E>) Turn
+- _Shop<Razorshroom + 15 Shock>:
+    coord: [417,-2180.402067753478]
+    var-change:
+      Rupee: -320
+    notes: .v(Rupee) rupee left
+- +Cook Attack Food:
+    notes: Used to cancel speed food in the end. If you are rusty on bosses, can get barb armor and cook something else to cancel speed food
+
+- _Shrine::KeoRuug
+- .dir(E) start quest
+- run forward to chus
+- .dir(<E) Turn, throw sword:
+    notes: Can also let sword burn in eldin but sometimes it doesn't burn up
+- _Shrine::MaagHalan
+- __use__ CheckWoodAndArrows
+
+

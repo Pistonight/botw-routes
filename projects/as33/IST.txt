@@ -1,0 +1,23 @@
+# This should be after cooking/making night
+Initialize 2 Weapon 1 Bow 5 NormalArrow 2 Shield 1 Fairy 1 SpeedFood 3 EnduraFood 1 Slate 9 SpiritOrb 1 Glider
+# do smuggle thing in arrow shop and make sure only fairy is left
+Break 5 Slots
+# Equip then Save
+Equip Shield In Slot 2
+Save
+# Eat Everything, Unequip, Reload
+Eat 3 EnduraFood
+Eat SpeedFood
+Eat Fairy
+Unequip Shield
+Reload
+# Save, Eat Everything, Unequip, Reload
+Save
+Eat 3 EnduraFood
+Eat SpeedFood
+Eat Fairy
+Unequip Shield
+Reload
+# Save Reload
+Save
+Reload

@@ -1,0 +1,62 @@
+Wasteland:
+- _Warp::Shrine::KeehaYoog:
+    line-color: "red"
+- +.dir(<E) Turn + .dir(SE):
+    coord: [-3086,1216.453207298804]
+- +Melt Kuh Takkar:
+    notes: Get all wood and 5 fire arrows from camp while doing this. Can also grab 2 truffle for back up food
+    var-change:
+      FireArrow: -3
+      Wood: 14
+    coord: [-3122.5,1326.4799939085751]
+- _Shrine::KuhTakkar
+
+- .dir(<E) TS
+- _Shrine::ShoDantu
+- Shield Surf SCW
+- .dir(S) LOOK UP
+- Campfire Activate:
+    var-change: 
+      Wood: -1
+    notes: .v(Wood) wood left
+- _Shrine::SasaKai
+- .dir(S>) DT
+
+- _Shrine::DaqoChisay
+- stupid trick:
+    var-change:
+      Wood: -9
+    notes: .v(Wood) wood left
+- _Shrine::RaqaZunzo:
+    comment: Radiant Shield
+- Cut Tree BLSS
+- _Shrine::DakoTah
+- wb
+- _Shrine::KayNoh
+- wb
+- _Shrine::KorshOhu:
+    notes: make noon during the orbs
+    var-change:
+      Wood: -1
+- wbs
+- _Shrine::MisaeSuma
+- wbs
+- _Shrine::DilaMaag:
+    notes: Barb armor if need
+- +WB up
+- +.dir(E) + .dir(E) up
+- +.dir(S) + .dir(S) up
+- +.dir(N>) + midairs
+- _Shrine::SumaSahma
+- .dir(E>) Turn
+- _Shrine::IshtoSoh
+- BLSS
+- _Shrine::ShoqaTatone
+- .dir(E) + .dir(N)
+- _Shrine::KaoMakagh
+- .dir(N.) Turn
+- _Shrine::PumaagNitae
+- .dir(N>) Super
+- _Shrine::ShaeKatha
+- .dir(W) up + .dir(<W) TS
+- _Shrine::YaNaga

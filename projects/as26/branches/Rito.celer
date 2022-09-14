@@ -1,0 +1,82 @@
+Rito:
+- _Warp::Shrine::KehNamut:
+    line-color: yellow
+- BLSS + wb:
+    notes: Go grab durians if need a lot backup food
+- _Shrine::MoggLatan
+- .v(Wood) wood left
+- BLSS
+- _Shrine::TenaKosah
+- turn super
+- _Shrine::KahOkeo
+- _Warp::Shrine::TenaKosah:
+    line-color: "#00ff00"
+    
+- BLSS
+- _Tod::Noon:
+    var-change:
+      Wood: -1
+    notes: Before entering shrine
+
+- _Shrine::AkhVaquot
+- +Drop down to materials shop
+- Sell flame breaker:
+    var-change:
+      Rupee: 150
+    notes: .v(Rupee) rupees
+- Buy 10 BA:
+    var-change:
+      Rupee: -400
+    notes: 2 of bomb arrows x5 = 400,  .v(Rupee) rupees left
+- Walk up 1 house
+- Buy pants:
+    var-change:
+      Rupee: -550
+    notes: .v(Rupee) rupees left
+- +.dir(S)
+- _Shrine::BareedaNaag:
+    var-change:
+      FireArrow: -1
+    notes: .v(FireArrow) Fire Arrows Left
+- Shield Surf SCW
+- Cut tree no wood:
+    notes: Be careful not to get textbox
+- _Shrine::VooLota:
+    notes: Rushroom activate. 
+
+- .dir(N>) TS
+- _Shrine::ShaWarvo
+- .dir(N):
+    coord: [-3984,-2549.3553557229257]
+- _Shrine::MakaRah
+
+- +Run out:
+    coord: [-3984,-2549.3553557229257]
+- +.dir(E) HIGH:
+    coord: [-3859,-2534.3494133195322]
+- +.dir(N.) + .dir(E) midair:
+    movements:
+    - to: [-3807,-2720.4230991216104]
+    - to: [-3655,-2710.419137519348]
+- +.dir(N) + .dir(N) midair:
+    coord: [-3575,-3031.5463049519667]
+- _Shrine::MozoShenno
+
+- +.dir(E) HIGH:
+    coord: [-3437,-3053.5550204769434]
+- +.dir(N) + .dir(E) midairs:
+    coord: [-3408,-3217.619990754045]
+- _Shrine::ShadaNaw
+
+- BLSS
+- _Shrine::HiaMiu
+- .dir(E)
+- Clip into mountain
+- _Shrine::ToQuomo:
+    notes: Get claymore. .v(Weapons)/8 Weapons
+    var-change:
+      Weapons: 1
+
+- __use__ CheckSlots
+- __use__ CheckWoodAndArrows
+

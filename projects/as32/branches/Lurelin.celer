@@ -1,0 +1,165 @@
+Lurelin:
+- BLSS
+- _Shrine::BoshKala:
+    line-color: red
+- .dir(N>) TS
+- _Shrine::WahgoKatta
+- .dir(<E) Turn
+- _Shrine::HilaRao
+- .dir(N.) Turn to fairy:
+    coord: [950,500.1411246295402]
+- .dir(.N) Turn to forest:
+    notes: Land at the group of 5 endura shrooms. 
+           Pick them up, then pick up 1 hylian shroom + 1 endura shroom + 1 radish (eat for wb in shrine)
+- _Shrine::KayaWan
+
+- SQ to Beedle:
+    notes: He should always be in front of the stable at this TOD
+- Sell Ruby
+- Buy 3 frogs 2 Butterfly:
+    notes: If you only buy 2 butterfly instead of 3, it's faster to sell later
+    var-change:
+      Rupee: -50
+- BLSS to shrine:
+    coord: [917,150.2713926522165]
+- _Shrine::DakaTuss:
+    comment: Eat Steak
+- +3 WB to impa:
+    notes: Make sure you keep 2 shrooms and 2 peppers. Eat endura shroom if you have to
+- +_Npc::SheikaFemale<Impa>:
+    coord: [1772.71, 229.43, 984.31]
+- +_Shop<3 Carrot 1 Gut>:
+    var-change:
+      Rupee: -140
+    notes: .v(Rupee) rupee left
+    coord: [1794.5,1029.0004800600318]
+- +_Cook<1 Speed>:
+    comment: 3 Frog + Carrot + Gut
+- +_Cook<3 Endura>:
+    notes: Faster to only have 2 endura left. If you have all 6 shrooms, cook 2 of them into one meal (or just cook 4)
+- +_Tod::Night
+- +_Equipment::Shield<Pot Lid>:
+    hide-icon-on-map: true
+    notes: After campfire, grab this shield, and you should get an autosave. Use shroom, pepper, endura, butterfly, carrot
+           Import .link([this simulator file]https://github.com/iTNTPiston/as3/blob/main/IST.txt)
+           to .link([the simulator]https://dupl.itntpiston.app/#options) to see the steps for IST
+- +Do IST:
+    var-change:
+      Rupee: 30 # from the things sold
+- Sell 315+ Fairy:
+    var-change:
+      Rupee: 630
+- +_Shop<20 Fire Arrow>:
+    coord: [1827,1039.9681091017883]
+    var-change:
+      Rupee: -360
+      FireArrow: 20
+    notes: .v(Rupee) rupee
+- Throw away tree branch:
+    var-change:
+      Weapon: -1
+    notes: You don't have to but less clutter in menuing
+- +_Npc<2 Stam Upgrades>:
+    coord: [1841,997.9514703722871]
+    notes: The statue will keep asking if you want to upgrade after 2. Make sure you cancel out, or you will soft lock
+- +.dir(N) to shrine
+- _Shrine::TalohNaeg:
+    comment: Get Shield inside
+
+- SCW to Lakna Rokee:
+    notes: Shield surf, EOD inside shrine. Only use EOD for cutting trees, as we need this for blights
+- _Shrine::LaknaRokee:
+    var-change:
+      Weapons: 1
+    comment: .v(Weapons)/8 Weapons
+
+- Cut tree wb:
+    notes: 1 Wood, for farosh
+    var-change:
+      Wood: 1
+- .dir(N>) super + midair
+- _Shrine::MezzaLo:
+    notes: Doing Mezza Lo here so we are not too early for Farosh
+
+- .dir(S) Turn + .dir(S) + .dir(<S) Turn
+- _Shrine::DowNaeh
+
+- .dir(<N) + .dir(S>):
+    coord: [2642,1187.0932957332761]
+- _Shrine::KamUrog:
+    var-change:
+      Arrow: -1
+
+- .dir(S) + BLSS
+- _Shrine::TotoSah
+- .dir(<N) Turn (super)
+- _Shrine::HaDahamar
+- .dir(<<W) + .dir(NW)
+- _Shrine::ReeDahee
+
+- Shield Surf SCW
+- _Shrine::SheeVaneer
+- _Shrine::SheeVenath
+- BLSS to dragon:
+    coord: [1744,2982.6869418322767]
+    notes: Only get scale
+    var-change:
+      FireArrow: -1
+      Arrow: -1
+      Wood: -1
+- Drop down
+- _Shrine::ShodaSah:
+    comment: Ice arrow
+    var-change:
+      IceArrow: 5
+- __use__ CheckWoodAndArrows
+
+- BLSS
+- _Shrine::ShaiUtoh
+
+- .dir(E) super + .dir(N>) + .dir(N>) midair
+- Clip in:
+    notes: Use potlid. Only use slick shield for scw since you might not have enough durability
+- _Shrine::QukahNata:
+    notes: no pants
+
+- +.dir(<E) TS to blue hinox:
+    coord: [2691,2964.6817917493354]
+- Walk orb:
+    coord: [2636,2844.634252522189]
+- .dir(.E) to black hinox:
+    coord: [2369.37, 321.05, 2862.74]
+- Walk orb:
+    notes: Get knights bow
+    coord: [2616,2824.5849763685255]
+- .dir(NE)
+- _Equipment::Weapon<Boko Bat>:
+    var-change: 
+      Weapons: 1
+    comment: For thundra plat. .v(Weapons)/8 weapons.
+    coord: [2767,2714.5413987436405]
+- Walk orb
+- _Shrine::TawaJinn
+    
+- .dir(E) + BLSS to Muwo Jeem
+- _Shrine::MuwoJeem
+- Shield surf buffered scw:
+    notes: 
+- _Shrine::KahYah
+- .dir(S>>) + .dir(W>) Turn super
+- _Shrine::YahRin
+- BLSS:
+   movements:
+   - to: [3289,3538.288804115233]
+   - to: [3667,3342.21353070222]
+- _Shrine::ChaasQeta:
+    notes: clear skew
+- 1 wood, BLSS:
+    var-change:
+      Wood: 1
+- _Shrine::KorguChideh:
+    var-change:
+      Arrow: -1
+    notes: Smuggle 1 arrow, traveler bow, first potlid
+- __use__ CheckWoodAndArrows
+

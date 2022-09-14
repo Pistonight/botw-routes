@@ -1,0 +1,14 @@
+Hebra:
+- _Warp::Shrine::ShadaNaw:
+    line-color: yellow
+- .dir(E>) + .dir(E) Turn right
+- _Shrine::RokUwog
+- .dir(N) + .dir(<E) Turn Midairs:
+    coord: [-2386,-3399.7266494439036]
+- _Shrine::ShaGehma
+- .dir(E>) Turn + .dir(E) midairs:
+    notes: or blss
+- _Shrine::QazaTokki
+- .dir(S) up + BLSS
+- _Shrine::KetohWawai
+
