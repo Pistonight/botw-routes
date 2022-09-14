@@ -13,7 +13,7 @@ _config:
     Warp: "Warp {{_}}"
 
 _route:
-  - "(==) This is the new route with Eventide and Tawa Jinn SCW. If you are looking for the route with a commentated guide: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/as3/v32)"
+  - "(==) This is the new route with Eventide and Tawa Jinn SCW. If you are looking for the route with a commentated guide: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/as32)"
   - Plateau: __use__ Plateau
   - Korok Forest:
     - __use__ Kakariko

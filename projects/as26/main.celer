@@ -13,6 +13,7 @@ _config:
     Warp: "Warp {{_}}"
 
 _route:
+  - "(==) There's a newer version of the route with Infinity SCWs: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/as33)"
   - Plateau:  __use__ Plateau
   - Hateno:   __use__ Hateno
   - Eldin + Akkala:
