@@ -4,7 +4,7 @@ _project:
     - iTNTPiston
   version: "2.6"
   description: All Shrines v2.6. Based on BingsF 2.5,  Johnny's WR, and meiju's idea 
-  url: "https://github.com/iTNTPiston/as3/v26"
+  url: "https://github.com/iTNTPiston/botw-routes/tree/main/projects/as26"
 
 _config:
   split-format:

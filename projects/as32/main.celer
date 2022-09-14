@@ -3,8 +3,8 @@ _project:
   authors:
     - iTNTPiston
   version: "3.2"
-  description: All Shrines v3. WIth Infinity SCW
-  url: "https://github.com/iTNTPiston/as3"
+  description: All Shrines v3.2 WIth Infinity SCW
+  url: "https://github.com/iTNTPiston/botw-routes/tree/main/projects/as32"
 
 _config:
   split-format:
