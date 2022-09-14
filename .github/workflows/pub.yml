@@ -19,6 +19,7 @@ jobs:
     strategy: 
       matrix:
         project:
+          - adx
           - as33
           - as32
           - as26
