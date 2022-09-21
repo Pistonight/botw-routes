@@ -1,2 +1,5 @@
 build:
     celer build
+
+debug:
+    celer build -D
