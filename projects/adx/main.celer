@@ -5,19 +5,25 @@ _project:
   description: All Dungesons Extedned route with iscw and ist
   name: All Dungeons Extended
   url: ""
-  version: 0.3.0
+  version: 0.4.0
 
 CheckResources: 
-  Check GEB Durability:
-    notes: ".v(GEB)"
+  Check Durability:
+    notes: "GEB=.v(GEB) RC=.v(RC)"
+
+_config:
+  split-format:
+    Warp: "Warp {{_}}"
 
 _route:
   - Plateau:
     - _Equipment::Weapon<Potlid + Spear>:
         coord: [-951.029712524537,1951]
-    - 6 Peppers + Steak
+        notes: Don't throw away spear bc need for IST. If threw it away, get another weapon at tabantha tower
+    - 3 Peppers
     - _Equipment::Bow<Bow + Arrow>:
         coord: [-827.0316672958879,1966]
+    - (^=) Note that you need at least 7 arrows before starting IST to have enough rubies. All 3 peppers are for IST. If you want you can grab steak for back up food
     - BLSS to bombs
     - _Shrine::JaBaij:
         text: Bombs
@@ -26,7 +32,8 @@ _route:
     - WB + FDC, get ruby
     - _Shrine::OmanAu:
         text: Magnesis
-    - 5 Herbs
+    - 5 Herbs:
+        notes: 2 for routed food, 3 for IST
     - BLSS + WB
     - _Shrine::OwaDaim:
         text: Stasis
@@ -35,7 +42,6 @@ _route:
     - _Shrine::KehNamut:
         text: Cryonis
     - BLSS
-    - Throw away boko spear
     - Plateau:
         split-type: UserDefined
         icon: king
@@ -51,28 +57,30 @@ _route:
     - Drop Traveler's Bow
     - _Equipment::Bow<Royal Bow + 5 Arrows>:
         hide-icon-on-map: True
-    - .dir(W) wb + midair:
-        notes: To top of pillar like AD
+    - .dir(W) wb:
+        notes: To middle of pillar
         coord: [-402.15540432241323,-754]
     - BLSS:
         coord: [-2335.0907013906913,-80]
     - _Material<Razorshroom, 2>:
         comment: " "
         notes: BLSS to lower, clime the tree, wb .dir(S) to top
+    - .!!(EAT 2 HERBS)
     - BLSS + WB .dir(<N) to fairy fountain:
         movements:
         - to: [-3483.0259984589698,-555]
         - to: [-3543.0142698308628,-754]
-    - 2 Fairies
+    - 2 Fairies:
+        notes: Grab extra fairy if you are low on health/food
     - 6 Thistles
     - 2 Princesses
     - 2 Endura Carrots
     - .dir(N) wb:
         coord: [-3495.511239935269,-1076]
-    - _Equipment::Weapon<Soldier Claymore>
     - _Equipment::Weapon<Royal Claymore>:
         var-change:
           RC: 40
+        notes: RC durability is extremely tight. Only use when absolutely necessary (i.e. spin attack/tree launch/maz)
     - BLSS to Rito
     - Talk to chief:
         coord: [-3642.738173633326,-1816.5]
@@ -84,7 +92,7 @@ _route:
     - _Cook<2 Endura 1 Attack>:
         notes: 2 razor + 3 shroom for attack. If you mess up the order, you can sort the meals after cooking
     - Do IST
-    - .dir(<N) Turn super
+    - .dir(<N) Turn
     - Activate Sha Warvo:
         coord: [-3821.9400862580887,-2206.5]
         icon: shrine
@@ -95,7 +103,7 @@ _route:
     - Glide up:
         coord: [-3795.945168663601,-2318]
     - Do Minigame:
-        notes: Use AA. If you need normal arrow, get 10 here
+        notes: Use AA. If you need back up normal arrow, get 10 here
     - Enter Medoh:
         split-type: UserDefined
         icon: medoh-enter
@@ -105,7 +113,10 @@ _route:
     - Windblight:
         split-type: UserDefined
         icon: medoh-done
-        notes: Phase 1 = Bullet time headshot 2 + body/head. Phase 2 = Shoot him 3 times
+        var-change:
+          RC: -4
+    - "(^=) Phase 1: Bullet time headshot 2 + body/head"
+    - "(^=) Phase 2: Shoot him 3 times"
     - .!!(SORT KEY ITEMS)
     - _Chest<GEB>:
         hide-icon-on-map: True
@@ -114,6 +125,7 @@ _route:
   - Plateau 2:
     - _Warp::Shrine::KehNamut:
         line-color: yellow
+        text: Cryo (Sort)
     - Blss to gerudo
     - Talk to Spy Guy
     - Activate Daqo Chisay:
@@ -133,7 +145,9 @@ _route:
         - to: [-4133.496188195865,2599]
         - to: [-3791.0756496512877,1874]
         - to: [-3125.205837423272,1322]
-    - _Equipment::Weapon<Dragonbone Weapon>
+    - _Equipment::Weapon<Dragonbone Weapon>:
+        notes: If the lizalfos got it first, you can shock him with thunderblade
+    - 3 Wood from camp
     - Activate Kuh Takkar:
         coord: [-3084.2138519858113,1219]
         notes: Use falcon bow
@@ -141,14 +155,16 @@ _route:
     - Infinity SCW:
         notes: WB .dir(E) + midair + BLSS
     - Ice -> Fire
-    - _Shrine::EtsuKorima
+    - _Shrine::EtsuKorima:
+        notes: OOB movement. Get skew on the way
     - .dir(E>>) Turn
     - Buffered SCW:
         coord: [-923.2498197786717,2324]
+        var-change:
+          RC: -6
     - _Shrine::RuvoKorbah
     - .dir(<E) Turn:
         coord: [-450.3422804635793,1991]
-        comment: 1 Wood
     - Buffered SCW
     - _Shrine::RohtaChigah
     - .dir(W) TS
@@ -156,7 +172,7 @@ _route:
         comment: For iSCW
     - _Warp::Shrine::KuhTakkar
     - Infinity SCW:
-        notes: Same path as previous, 1 wood from tree
+        notes: Same path as previous
     - Korok Activate
     - _Shrine::YowakaIta
   - Rudania:
@@ -180,24 +196,25 @@ _route:
         line-color: "#00ff00"
     - Infinity SCW
     - _Shrine::KiahToza
-    - .gale() + .dir(S):
-        gale: 1
+    - .dir(S):
         coord: [-2141,-3111.211549560805]
     - BLSS to eldin:
         coord: [1233,-2739.905317705932]
-    - .dir(E>>) Turn:
+    - .gale() + .dir(E>>) Turn:
+        gale: 1
         coord: [1702.5,-2448.3995733826514]
     - Talk to Bludo
     - .dir(N>) + .dir(<N) Turn
     - Yunobo:
         coord: [1624,-2928.069724199815]
-    - .dir(<S) Turn back
+    - .dir(.S) Turn back
     - Daruk Memory:
         split-type: UserDefined
         icon: rudania-memory
         coord: [1706.5,-2451.511488646561]
-    - .dir(E>) + .dir(E) + .dir(E):
+    - .dir(E>) + .dir(E) + .dir(E) midair:
         coord: [2159.5,-2292.4484991705904]
+    - AA moblins
     - Enter Rudania:
         split-type: UserDefined
         icon: rudania-enter
@@ -217,6 +234,8 @@ _route:
           warp: True
         var-change:
           GEB: -5
+    - "(^=) Phase 1: 2 Headshots"
+    - "(^=) Phase 2: Bomb, 1 body, 1 head"
     - __use__ CheckResources
   - Ruta:
     - BLSS to ZD:
@@ -248,11 +267,12 @@ _route:
         icon: ruta-done
         coord: [3668,-191.73774193023837]
         var-change:
-          GEB: -8
-    - .!!(SORT KEY ITEMS)
+          GEB: -9
+    - "(^=) Phase 1: headshot, cryo block, 2 body + 1 head"
+    - "(^=) Phase 2: cryo block, head, 2 body + 1 or 2 head"
     - __use__ CheckResources
   - Ruta DLC:
-    - .dir(W):
+    - .dir(W.):
         movements: 
         - to: [3284.5,-429.8320280640801]
           warp: true
@@ -275,8 +295,7 @@ _route:
     - .dir(E>) TS
     - Lotus Activate
     - _Shrine::MahEliya
-    - BLSS of tree:
-        notes: 1 wood
+    - BLSS off tree:
         time-override: 45
     - _Shrine::KeeDafunia
     - _Warp::VahRuta:
@@ -285,6 +304,8 @@ _route:
         icon: ruta-plus
         split-type: UserDefined
         time-override: 60
+    - "(^=) Phase 1: Flurry, 5 stabs + LV 2 charge attack from tail"
+    - "(^=) Phase 2: cryo block 1 head, 2 head in BT, stabs, repeat"
   - Naboris:
     - _Warp::Shrine::DaqoChisay:
         line-color: "#00ff00"
@@ -312,7 +333,10 @@ _route:
         icon: naboris-done
         coord: [-2730.5485088411206,3370]
         var-change:
-          GEB: -6
+          GEB: -7
+          RC: -3
+    - "(^=) Phase 1: 2 hits break shield, 1 extra hit, head, body, head"
+    - "(^=) Phase 2: mag pole, 3 shots"
     - .!!(SORT KEY ITEMS)
     - __use__ CheckResources
     - .dir(W) to sand seal lady:
@@ -331,28 +355,25 @@ _route:
         coord: [-2456,3730.297120169671]
         var-change:
           GEB: -1
-    - .dir(<<E) Turn
+          RC: -3
+    - .gale() + .dir(<<E) Turn:
+        gale: 1
     - _Shrine::KeiveTala:
-        notes: Shock trap
-  - Medoh DLC:
+        notes: Shock trap discard thunderblade
+  - Medoh/Rudania DLC:
     - _Warp::Shrine::KuhTakkar:
         line-color: cyan
     - Infinity SCW:
         time-override: 45
     - _Shrine::ShiraGomar
-    - _Warp::VahMedoh:
-        hide-icon-on-map: true
-    - .enemy(Windblight 2):
-        icon: medoh-plus
-        split-type: UserDefined
-        time-override: 45
-  - Rudania DLC:
-    - _Warp::Shrine::SatoKoda
+    - _Warp::Shrine::SatoKoda:
+        notes: Can eat fireproof here (needed for campfire trigger SCW)
     - SCW
     - .dir(N.) super + .dir(N) super:
         coord: [3304,-1505.7580983873868]
     - BLSS off Akkala Tower:
         time-override: 60
+        
     - Amiibo Trigger
     - _Shrine::SharoLun:
         notes: 零式
@@ -361,8 +382,7 @@ _route:
         notes: Land at the korok to be safe
     - _Shrine::RinuHonika
     - SCW
-    - .gale() + .dir(N) midairs:
-        gale: 1
+    - .dir(<N) + .dir(N)
     - BLSS off cannon:
         time-override: 30
     - Campfire Trigger
@@ -373,32 +393,55 @@ _route:
         icon: rudania-plus
         split-type: UserDefined
         time-override: 45
+    - "(^=) Phase 1: Shoot him twice (head shot second), 3 spin slam, 3 spin"
+    - "(^=) Phase 2: Throw bomb, spin 6 hits slam (double hits)"
 
   - Final Trial:
-
+    - _Warp::VahMedoh:
+        hide-icon-on-map: true
+    - .enemy(Windblight 2):
+        icon: medoh-plus
+        split-type: UserDefined
+        time-override: 45
+    - "(^=) Phase 1: 3 head in BT, 6 head, 3 BA duplex head, wait and glide to middle, 2 or 3 head"
+    - "(^=) Phase 2: 3 head in BT, 6 head, try to kill with duplex or 1 extra cycle"
     - _Warp::VahNaboris
     - .enemy(Thunderblight 2):
         split-type: UserDefined
         icon: naboris-plus
         commands: [EnableFuryPlus]
         time-override: 45
+    - "(^=) Phase 1: EOD 2 hits break shield, back spin like any% slam, 3 hits with one-hand sword + sword throw. If you miss EOD hits, try spin to win instead of use one-hand sword"
+    - "(^=) Phase 2: mag pole, run back as he attacks, break shield, spin to win"
     - BLSS to sor:
         coord: [-1078,1844.9750419057482]
     - Skip the trial:
         time-override: 75
     - .enemy(Maz Koshia) .fury():
+        comment: .gale() phase 3
         icon: maz
         split-type: UserDefined
         var-change:
-          GEB: -16
-        fury: 3
+          GEB: -19
+          RC: -15
+        fury: 1
+        gale: 1
+    - "(^=) Phase 1: 1 full wheel of spin double hits, then 2x 2 combo"
+    - "(^=) Phase 2: fury, shoot 3 times, fury, shoot 3 times, shoot him"
+    - "(^=) Phase 3: gale, shoot 3 or 4 times, eat endura, shoot him"
     - __use__ CheckResources
     - BLSS to castle + .dir(<N):
         coord: [-250,-1077.9770227068784]
-    - Calamity:
+    - Skew bounce
+    - Calamity .fury():
         icon: calamity
         split-type: UserDefined
-        notes: Should go for calam skip bc we don't have fury
+        var-change:
+          GEB: -10
+        fury: 1
+    - "(^=) Phase 1: shoot him"
+    - "(^=) Phase 2: fury, shoot him once, skew bounce, shoot him 3 times"
+    - __use__ CheckResources
     - Dark Beast:
         icon: memory
         split-type: UserDefined
