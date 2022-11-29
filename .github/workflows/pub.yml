@@ -23,6 +23,7 @@ jobs:
           - as33
           - as32
           - as26
+          - akm
 
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
