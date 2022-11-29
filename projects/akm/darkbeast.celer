@@ -1,0 +1,79 @@
+DarkBeast:
+- .dir(N.) + .dir(N):
+    coord: [1871,813]
+- BLSS
+- _Boss::Talus::Luminous:
+    coord: [-2177.46, 322.30, -1585.39]
+    comment: Wake up manually
+- .dir(<E) Turn
+- _Tod::Night:
+    coord: [-1558,-1792]
+    split-type: UserDefined
+- _Material<Flint>:
+    hide-icon-on-map: true
+- .dir(<<E):
+    coord: [-1220,-2060]
+- _Boss::Hinox::Stal:
+    movements:
+    - to: [-1273.50, 213.08, -2113.50]
+      away: true
+    notes: Aim for eye and stay in BT. Might need to shoot eyeball again if you miss
+- .dir(E) + .dir(E) + .dir(E>) Turn:
+    movements:
+    - to: [-784,-2072]
+    - to: [-540,-1948]
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [-480.55, 278.99, -2039.64]
+      away: true
+- .dir(S>) TS + midairs:
+    coord: [-788,-1134]
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [-752.49, 187.41, -1268.12]
+      away: true
+- .dir(.S) Turn:
+    coord: [-731,-894.513865607918]
+- _Boss::Talus::Rare:
+    movements:
+    - to: [-768.74, 152.76, -804.49]
+      away: true
+    comment: BA right side (.dir(W))
+- .dir(NE):
+    coord: [-433,-1119.5]
+    notes: 
+      Glide into middle to avoid opening door.
+      If you messed up, shoot the eye across
+- Run to stalnox:
+    coord: [-491.34, 126.08, -1009.82]
+- _Boss::Hinox::Stal:
+    notes: Press minus as soon as it explodes
+- _Warp::TravelMedallion<-252.5 ,-571>:
+    text: Exit Castle
+    split-type: Warp
+- .dir(N) + .dir(N>):
+    coord: [-177,-894]
+- .!!(Drop all materials except flint)
+- .dir(.N)
+- Get skew bounce
+- Blights:
+    icon: ganon
+    split-type: UserDefined
+    movements: 
+    - to: [-254,-1064.5]
+      away: true
+- Calamity:
+    icon: ganon
+    split-type: UserDefined
+    hide-icon-on-map: true
+- Dark Beast Stuff:
+    notes: You started with 4 potlids and 3 single wild greens. Remove 3 of them. i.e. destroy 3 potlids or eat 3 wild greens, or any combination. If you accidentally ate the wild greens, then no need to do anything
+- Before final shot hits do
+- Pause immediately
+- Unequip BOL
+- Equip OMEGA Bow
+- Unpause
+- Dark Beast:
+    icon: ganon
+    split-type: UserDefined
+    hide-icon-on-map: true

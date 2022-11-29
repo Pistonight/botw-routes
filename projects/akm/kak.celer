@@ -1,0 +1,132 @@
+Kakariko:
+- BLSS + .dir(.E):
+    coord: [1529,1050]
+- 1 night shade
+- _Chest<Phrenic Bow>:
+    coord: [1720.91, 323.75, 996.82]
+    line-color: red
+- .dir(<<E)
+- Fairy Fountain:
+    notes: Eat shroom and herbs down to 3. Get 2 fairies, 3 endura, 3 princess, 5 nightshades (6 nightshates total)
+    coord: [1972,850.5]
+- .dir(SW):
+    coord: [1794,1018]
+- _Cook<6 Sauteed Peppers>:
+    comment: Koko cook pot
+- Run to statue
+- _Npc<Trade 1 Stam>:
+    coord: [1841,999]
+- (==) IST START. Click .link([here]https://ist.itntpiston.app/?c=H4sIAAAAAAACA41VTZPbKBC961d0yockFVdq%2FDGbmsOcUnvMOYcpH5BoWZQxsIDG8b9PNyAZKzO7e7JBTfP69evHCkQf0YPTIjZHjLCFCwpnDWwgevGKmj629gKPILxPv609t2WxAWejVvJFqx6fHx8eDvQ9DN7aMyUSzmmEv8Chc5TlEQb0LZ0JdBfCHmxaHek8%2BmYFrQ4BooWTOCUkGzDqOMQwCIl80%2BDRqI7BNCgYaL6ooO6F8le643YmwA7QyNEL6BhupHVQGk0E55XpMISSiHE1FxWHGWxoOmtPtAxijIiybL%2BcrVS9Qv%2FcWS0PTUCtcyFNIK5ABAhRxBGb1qM4MRnaxgApt6DYRElgDjJJixozvAkdbSRk7%2BQqKfhvIpb%2F1NXzOrOSoheVt%2BMVhqtWwsBgrWw8aivkBH8FzCotPERRuNncs5kZ8laEuPgQKGEkWpJGQmKmpKe8HV%2FoEAy38Z9RuUpP9JmvjNATItisgTW2S016%2F%2Ft2DdJCvKgO4VOnbUBQ5pVqtVQ5yeksTlhElhiEzeeUcdLhrMAaZ7iaDo7ijFJEsaiggrArEFLCms0p6oRXUBHPU9yKPmsJ%2BzXEAQ2MhpfNxVMM5CHaHxh0opVkd69fZXIFewJztqS33TuBvSdh3IculJaEkVu4IUlpefSI5mVwz5sNMUoy6fB59%2FBtDbPkgyEZHv43TUwJvqK%2FxkGZI%2BCvDh3T5kGzZGrh5A6zSO%2BmLW3N2GgA3iy2mQfiDXnyacilzXWksEMRXzG7idlt2a7NRnrrlm44GV%2Bpk5oJKFXLsz2aqDQPi%2BgG0NjH0uuc5hf1zPa8c4YvZD3VwOaLFpO9HOjsqdPMN051JxhdbSg5olhHSrn9Y%2FhTp1bw3Xo%2FuqisyYF11Tz%2FpUZp3PwsNKOpiZuFkBNOfZwa9clwN0nPSQy5PcHC09MT8LFAvH9ulofu27iCImAOacdk4skHlbnNeVPFvGt5NbWFpqm3VeFZdLm4id3dcqMQ869c%2FPzx%2FdbR2aBv%2Fater5KunK92%2BG%2BvlWEanLckZC4jkHn6s9DrmtbkR2nu03gxR3SISOpoOVX6H6y8IbD5WROmi2OGyyyRhjVLk%2B%2Fo4WpHOkLPlCTmycqSvJPqjYVKA1%2BnYLJpwjgo1DKsySE%2FBuiVoYPW3rxtHv35cSogWJB3IP4uD0m1Ndeb%2BKuGq1BbukSlaUv2RL%2Bt1aDCjb41CCOr14mfXtYgshWY0KP3KKmimPcv1p%2B%2Bwo%2BRTg9M2n6qb1bNdsJy01UBw33cVWZVGfhbjrQK1uc2iKNQpvkQLoLT7yYJ4R98%2FAYwZtnu6AkAAA%3D%3D) for Simulator File
+- Run to shop:
+    movements:
+    - to: [1852,981]
+      away: true
+- Break 10 slots:
+    notes:
+      Eat shroom down to 1.
+      Drop 1 shroom, nightshade, princess, herb. 
+      Break 5 with shroom, nightshade, princess, herb, apple.
+      Pick up everything
+      Break 5 with everything but carrots
+- Buy Hood
+- Reload autosave after statue:
+    coord: [1794,1018]
+- ""
+- .!!(CHECK STAR TAB):
+    notes: 
+      If cursor on star, good. 
+      If cursor not on star but can menu to undiscovered tab. Go to material tab, unpause, pause, go to material tab, unpause, pause, check star again. Repeat until you have star. 
+      If you can't menu to undiscovered tab, slot breaking didn't work.
+- ""
+- _Cook<Roast Endura Carrot>:
+    comment: Shoot down to 1 arrow
+- SAVE -> RELOAD
+- ""
+- (==)
+  All Prompt Entaglement used in this run are column 1.
+  Go to 1 tab to the right or 2 tabs to the left of target tab.
+  Go to column 5 and the row below the target row (3 for arrow, 2 for rest).
+  Do right stick left, dpad up, right stick right, dpad left (RSL-DU-RSR-DL).
+  Then go 2 tabs to the left, wait for cursor to appear, press DL.
+  Then DR-DL-DL-DR. Now you can only scroll tabs in multiples of 3.
+  Go to the source item, go to system, go back (R then L), scroll to target item, activate prompt
+- Eat normal arrow
+- Eat Slate
+- Unpause, equip bomb arrow:
+    notes: Do this so glider goes to slot 1 and we don't need to memorize another magic sequence
+- Eat Glider
+- SAVE -> Reload
+- .!!(Sync GameData):
+    notes: By pressing dpad quick menu or open and close inventory
+- SAVE -> Reload
+- ""
+- Run to cooking pot
+- Eat Hylian Hood
+- _Cook<WMC Meal>:
+    notes: 
+      Entangle material tab with last roasted endura carrot.
+      Press X-AAAA to hold 4,
+      Press X to unhold,
+      Press X-AAA to hold 3,
+      Unpause, pause, hold fairy and nightshade, cook
+- SAVE -> Reload
+- .!!(Sync GameData):
+    notes: By pressing dpad quick menu or open and close inventory
+- SAVE -> Reload
+- ""
+- (==) 
+  We now have corrupted roast endura carrot carrying WMC data. 
+  Confirm this by checking if you have 4 tabs of food, 3 full tab and 1 roasted endura carrot at the end.
+  We will now setup inventory for corruption
+- Eat first 3 tabs
+- _Cook<Endura Food>:
+    comment: 5 Endura Carrots
+- Drop all nightshades
+- Drop materials down to 1
+- (except fairies)
+- Drop traveler bow and potlid
+- .!!(EQUIP PHRENIC BOW)
+- .!!(2nd WEAPON EQUIPPED)
+- Drop herb, shroom, apple
+- Pick up herb, shroom apple
+- .!!(CHECK THEY ARE AFTER FOOD)
+- SAVE:
+    notes: This is the base save to corrupt
+- ""
+- Drop bow
+- Drop 2 weapons then pick up
+- Get potlid
+- UNEQUIP WEAPON
+- Reload -> SAVE:
+    notes: Corruption 1 done.
+- ""
+- Eat 2 roasted carrots:
+    notes: This is so that the 999 stack can load in
+- Drop materials 
+- until you have 3 slots left
+- (1xherb, 1xshroom, 1xapple)
+- (in any order)
+- Drop bow and 1 weapon
+- Walk to another spot
+- Drop 3 weapons and pick up
+- Get potlid
+- UNEQIUP WEAPON
+- Reload -> SAVE
+- ""
+- (==) 
+  Corruption done. 
+  The base save now has corrupted bomb arrows, fairy, endura food, and carrots and princess for WMC.
+  We will now setup the inventory for the final modifier transfer
+- Drop all materials 
+- except fairy and princess:
+    notes: This is so that the 999 fairy and princess in the base save doesn't load in
+- Get Potlid
+- Reload
+- Omega Bow:
+    split-type: UserDefined
+    icon: bow
+- (==) IST DONE. Check OMEGA Bow.
+- (?=) 
+  Only eat stam food from last slot. 
+  Otherwise you might not have enough slots to stay positive inventory count,
+  which means weird things might happen if you don't know what you are doing

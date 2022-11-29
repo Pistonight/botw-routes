@@ -1,0 +1,78 @@
+Lurelin:
+- (==) Can Ground Now
+- .dir(<W) Turn + .dir(S) midair:
+    movements:
+    - to: [2989,651.3712021319743]
+    - to: [2992,746.408837353466]
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [2990.90, 251.39, 787.92]
+      away: true
+- .dir(S) + .dir(.S) midairs:
+    coord: [3097,1149.3430747559123]
+- .dir(SE):
+    coord: [3254,1279.394575585322]
+- _Boss::Hinox::Red:
+    movements:
+    - to: [3250.94, 268.75, 1331.63]
+      away: true
+- .dir(S) to korok:
+    coord: [3263.25,1431.7981334674869]
+- (?=) Do Not Ground For Next Branch
+- BLSS:
+    coord: [2678,2660.422702961384]
+- _Boss::Hinox::Red:
+    movements:
+    - to: [2768.06, 258.13, 2711.58]
+      away: true
+- .dir(W):
+    coord: [2470,2756.2178881244245]
+    notes: Land in water and cryo block
+- _Boss::Hinox::Black:
+    movements:
+    - to: [2420.75, 327.47, 2782.60]
+      away: true
+- .dir(W>) Turn:
+    notes: Land in water and cryo block
+    coord: [2716,2958.1064680607988]
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [2693.70, 273.89, 2967.57]
+      away: true
+- .dir(S) Turn Super + midair if need:
+    coord: [3187.75,2915.7796129769104]
+    notes: Land in water near tree
+- _Boss::Hinox::Red:
+    movements:
+    - to: [3210.17, 172.01, 2996.33]
+      away: true
+- Cut tree in water
+- BLSS:
+    coord: [4558.50, 105.41, 2465.00]
+- _Boss::Talus::Luminous:
+    comment: Bomb right (.dir(S))
+- BLSS off rock:
+    movements: 
+    - to: [4542.125,2481.149710494111]
+    - to: [4456.5,3638.696099311983]
+- Cryo block .dir(S):
+    coord: [4447.5,3703.7218497266877]
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [4537.11, 110.76, 3701.95]
+      away: true
+- .dir(W>) Turn Super + midairs:
+    coord: [3271.25,3413.775354254478]
+- _Boss::Talus::Stone:
+    comment: Bomb left (.dir(S))
+    notes: 
+      If rain, face south and hover down. Cycle shields to make the talus load.
+      Midair south and immediately blow up square bomb and enter BT to recharge.
+      Then midair north and immediately enter bullet time.
+      Fall to a height where you can snipe the talus and kill.
+- SAVE -> Reload
+- _Warp::TravelMedallion<3263.25,1431.7981334674869>:
+    text: Lurelin Reload
+    hide-icon-on-map: true
+    line-color: cyan
+      

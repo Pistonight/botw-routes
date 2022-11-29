@@ -1,0 +1,43 @@
+Plateau:
+- Get TOD
+- 1 shroom
+- _Equipment::Weapon<Tree Branch>:
+    coord: [-1031.5,1846.5984458162175]
+- _Material<Apple, 2>:
+    coord: [-996.5,1879.1113210235699]
+- _Equipment::Weapon<Axe>:
+    coord: [-920.93, 220.65, 1871.83]
+- 2 shrooms on the way
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+- _Material<Pepper, 6>:
+    notes: Try your best to not eat. Eat shrooms and herbs down to 3 for food
+    hide-icon-on-map: true
+- _Material<Shroom, 2>:
+    comment: Should have 5 shrooms
+- Surf down, clip
+- _Chest<Traveler Bow>:
+    coord: [-832.5,1963.6016150980267]
+- _Equipment::Bow<5 Arrows>:
+    hide-icon-on-map: true
+- BLSS to bombs
+- _Shrine::JaBaij
+- BLSS to mag
+- _Shrine::OmanAu
+- _Material<Herbs, 5>:
+    coord: [-682.5,1485.5093097653162]
+- BLSS + WB:
+    coord: [-827.5,2254.1812433034984]
+- _Shrine::OwaDaim
+- Boulder + BLSS:
+    movements:
+    - to: [-978.5,2290.1604448916223]
+    - to: [-1038.5,2184.618649987755]
+    - to: [-1169,2094.5829955673944]
+    - to: [-1454,2026.5560566720114]
+- _Chest::Special<5 Bomb Arrows>
+- _Shrine::KehNamut
+- Plateau:
+    split-type: UserDefined
+    icon: king
+    coord: [-810.5,1966.5]

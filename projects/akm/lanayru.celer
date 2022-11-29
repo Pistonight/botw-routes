@@ -1,0 +1,105 @@
+Lanayru:
+- (==) OMEGA bow of light setup. We will also transfer 100 durability from BOL to one phrenic bow 
+- Reload:
+    notes: Should be at second gate house. This makes the wb to East Passage easier.
+- Sort bow:
+    notes: Put BOL as second
+- Equip BOL
+- Drop all flints
+- Drop all potlids
+- SAVE
+- ""
+- Pick up flints
+- Pick up .!!(3) potlids
+- Eat all single wild greens
+- Sort bow:
+    notes: Put Phrenic as second
+- Equip Phrenic
+- Reload
+- ""
+- Equip Middle Phrenic
+- ""
+- .dir(N>)
+- Enter East Passage:
+    coord: [-103.5,-1152.45800701602]
+    notes: Minecart strat
+- _Boss::Talus::Rare:
+    line-color: yellow
+    coord: [-136.65, 127.21, -956.26]
+    comment: Bomb between arms
+- Glide up
+- Bomb Eye
+- Kill Lizalfos
+- WB out like All Shrines, Super:
+    coord: [322,-909.8815480923581]
+- _Boss::Hinox::Stal:
+    movements:
+    - to: [256.50, 142.49, -913.50]
+      away: true
+    notes: For all stal with omega bol, shoot body once, then eye shot and stay in BT until it hits
+- .dir(<E) + .dir(<E) Turn:
+    coord: [730,-992.8157854948045]
+- _Boss::Talus::Luminous:
+    comment: Bomb right long side (.dir(E))
+    movements:
+    - to: [771.50, 152.53, -1014.00]
+      away: true
+- .dir(S>) Turn + midairs:
+    coord: [532,-291.5139114024205]
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [626.49, 123.09, -305.54]
+      away: true
+    notes: Be low enough to get super from this forest
+- .dir(S) Super
+- _Boss::Hinox::Blue:
+    coord: [421.00, 161.27, 329.50]
+    comment: Get Monster Part
+- BLSS:
+    coord: [2034,40.1818375438379]
+- _Boss::Hinox::Red:
+    movements:
+    - to: [1969.04, 115.44, 97.40]
+      away: true
+- .dir(E) + .dir(.E):
+    coord: [2490,-83.8752095287382]
+- _Boss::Hinox::Black:
+    movements:
+    - to: [2485.10, 152.09, -133.56]
+      away: true
+- .dir(.E) + .dir(.E) + .dir(.E):
+    coord: [2942,-229.83836662769954]
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [2930.51, 312.54, -298.40]
+      away: true
+- .dir(E) super + midair:
+    coord: [3468,-178.7527960188345]
+- .dir(E) Turn + midair:
+    coord: [3992.27, 353.03, -158.82]
+- _Boss::Talus::Luminous:
+    comment: Walk to wake up
+- .dir(SW) + .dir(SW):
+    coord: [3517.25,356.3147721969881]
+    notes: If you forgot monster part, get it here
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [3526.26, 251.18, 364.97]
+      away: true
+- (?=) Do Not Ground For Next Branch
+- BLSS:
+    movements:
+    - to: [3577,438.28563152310926]
+    - to: [4498,343.2479963016176]
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [4442.00, 160.79, 350.94]
+      away: true
+- Glide or wb:
+    coord: [4608.5,345.6307328746552]
+- _Warp::TravelMedallion<3517.25,356.3147721969881>:
+    text: Lanayru Drown
+    hide-icon-on-map: true
+    line-color: "#00ff00"
+    
+    
