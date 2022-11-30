@@ -14,4 +14,5 @@ _route:
 - Dark Beast:   __use__ DarkBeast
 - Lanayru:      __use__ Lanayru
 - Lurelin:      __use__ Lurelin
-- Central:      __use__ Central
+- Faron/Lake/Central/Gerudo:      __use__ Central
+- Hebra:        __use__ Hebra

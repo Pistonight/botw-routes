@@ -1,2 +1,287 @@
 Central:
 - (==) Can Ground Now
+- .dir(S>) Turn:
+    coord: [3149,1849.526542735157]
+- _Boss::Talus::Stone:
+    movements:
+    - to: [3199.41, 173.38, 1904.36]
+      away: true
+    comment: Bomb between arms
+    notes: Aim at the rock above
+- .dir(<W) Turn + midairs if need
+- _Boss::Talus::Stone:
+    coord: [2527.50, 242.00, 1904.50]
+    comment: Bomb left (.dir(S))
+    notes: Sometimes it's not loaded, in which case just walk to wake it up
+- .dir(<N) TS + .dir(N) + .dir(N):
+    coord: [2480,1214.9267103581478]
+- _Boss::Hinox::Red:
+    movements:
+    - to: [2414.72, 304.69, 1177.84]
+      away: true
+- .dir(<W) TS:
+    coord: [1432,1377.2785006390377]
+- _Boss::Talus::Stone:
+    movements:
+    - to: [1465.91, 203.77, 1328.91]
+      away: true
+    comment: Bomb between arms
+- .dir(.W) + .dir(S>) Turn:
+    movements:
+    - to: [1280,1430.240073097093]
+    - to: [1174,1594.3050433741946]
+- _Boss::Talus::Stone:
+    comment: Shoot exposed
+    notes: Might need to shoot more than once since it loads slow
+    movements:
+    - to: [1186.62, 254.28, 1642.77]
+      away: true
+- .dir(E):
+    coord: [1372,1668.2099649199]
+- _Material<Wood, 2>
+- _Tod::Night:
+    comment: Bomb pot
+    notes: For 4 stalnoxes
+- Cut apple tree BLSS:
+    movements:
+    - to: [1355,1610.5711107606076]
+    - to: [1487.5,1643.5841840480734]
+    - to: [1918,2327.339509313876]
+- _Boss::Hinox::Stal:
+    movements:
+    - to: [1940.50, 144.41, 2396.50]
+      away: true
+- .dir(W)/.dir(W.) midairs
+- _Boss::Talus::Stone:
+    coord: [1257.12, 355.80, 2176.52]
+    comment: Walk to wake up
+- .dir(.S) Turn:
+    coord: [1358,2668.1982781932265]
+- _Boss::Hinox::Red:
+    movements:
+    - to: [1330.55, 180.38, 2623.94]
+      away: true
+- .dir(S) + .dir(E):
+    movements:
+    - to: [1357,2967.395367905774]
+    - to: [1550,3052.4290415250034]
+- _Boss::Hinox::Red:
+    movements:
+    - to: [1493.39, 306.77, 3092.14]
+      away: true
+- .dir(E>>) TS:
+    coord: [2013.5,3416.1547005683424]
+- _Boss::Hinox::Stal:
+    movements:
+    - to: [2078.62, 110.22, 3450.66]
+      away: true
+- .dir(W) Super:
+    coord: [1664,3420.5881456503357]
+- _Boss::Talus::Stone:
+    comment: Shoot exposed
+    movements:
+    - to: [1690.73, 165.27, 3335.62]
+      away: true
+- .dir(S) + .dir(SW):
+    movements:
+    - to: [1630,3562.689958828476]
+    - to: [1320,3736.758890707839]
+- _Boss::Talus::Stone:
+    comment: Bomb right (.dir(S))
+    movements:
+    - to: [1392.02, 107.03, 3727.59]
+      away: true
+- .dir(NW):
+    coord: [1018,3447.1901569085894]
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [1031.43, 127.22, 3496.26]
+      away: true
+- .dir(<W)/.dir(W>) Turn midairs:
+    notes: Repeated off cardinal turns to get speed
+    movements:
+    - to: [847,3489.19728779266]
+    - to: [464,3461.186195306327]
+    - to: [50,3434.1754989802193]
+- _Boss::Hinox::Stal:
+    movements:
+    - to: [100.50, 111.28, 3371.00]
+      away: true
+- .dir(<W) Turns + .dir(W) midairs:
+    coord: [-1014,3726.340697794554]
+- _Boss::Hinox::Stal:
+    movements:
+    - to: [-1062.00, 275.24, 3771.50]
+      away: true
+- .dir(N) + .dir(N.) Turn:
+    notes: Might need 3 wbs depending on your height
+    coord: [-942,3191.970684143259]
+- _Boss::Talus::Luminous:
+    comment: Bomb between arms
+    movements:
+    - to: [-971.13, 355.71, 3236.14]
+      away: true
+- BLSS:
+    coord: [361,1817.1659911347888]
+- _Boss::Talus::Stone:
+    movements:
+    - to: [359.34, 114.45, 1904.01]
+      away: true
+    comment: Bomb top left (.dir(SW))
+- .dir(NE):
+    coord: [639,1533.0534816305408]
+- _Boss::Talus::Stone:
+    movements:
+    - to: [705.34, 137.62, 1471.88]
+      away: true
+- .dir(<W) Turn + .dir(<W) midairs:
+    coord: [-216,1759.3133627389452]
+- _Boss::Talus::Luminous:
+    movements:
+    - to: [-176.93, 132.59, 1771.62]
+      away: true
+    comment: Bomb .dir(N)
+- .dir(<N) Turn Super
+- _Boss::Talus::Luminous:
+    coord: [-514.75, 127.49, 1181.74]
+    comment: Bomb between arms
+    notes: Land to shoot if not enough height. Can also walk to wake up
+- .dir(S) + .dir(<W) TS:
+    coord: [-526,1394.942952927423]
+    notes: Can also do 2 ordinal super if killed talus midair
+- _Boss::Talus::Stone:
+    coord: [-1087.75, 179.14, 1663.18]
+    comment: Walk to wake up
+- .dir(W) Super + .dir(W) Super:
+    coord: [-1640,1677.054670111219]
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [-1704.30, 111.60, 1776.78]
+      away: true
+- .dir(S>) Turn:
+    coord: [-1697,1859.2781044788117]
+- .dir(SW):
+    coord: [-1885,1997.2872161640144]
+    notes: Land on mountain above talus
+- _Boss::Talus::Luminous:
+    movements:
+    - to: [-1896.00, 200.68, 2044.68]
+      away: true
+- .dir(S) + .dir(S):
+    coord: [-2251,1962.0653664373276]
+- _Boss::Talus::Luminous:
+    movements:
+    - to: [-2277.50, 293.77, 1979.00]
+      away: true
+    comment: Bomb between arms
+- .dir(<W) Turn miadir + midair:
+    coord: [-2898.47, 305.79, 2210.99]
+    notes: 
+      Start gliding toward left of talus for BLSS, but not too much since you won't be able to shoot the talus.
+      If you still don't have a monster part, kill the lizalfos here
+- _Boss::Talus::Luminous:
+    comment: Bomb between arms
+- BLSS:
+    notes: Slide up hills a bit so you have enough height.
+    coord: [-2096.46, 318.46, 3037.91]
+- _Boss::Talus::Luminous:
+    comment: Walk to wake up
+    notes: Run toward the next blss spot while talus is getting up
+- BLSS:
+    coord: [-3766.5,3694.6412311206495]
+- _Boss::Molduga:
+    notes:
+      For moldugas, bomb arrow the ground in his path. Stay in BT until you see "?",
+      then shoot with BOL
+    movements:
+    - to: [-3799.06, 118.76, 3653.43]
+      away: true
+- .dir(<W) Turn:
+    coord: [-4144.75,3773.5330793788908]
+- _Boss::Molduga:
+    movements:
+    - to: [-4191.12, 126.91, 3797.45]
+      away: true
+- .dir(<N) + .dir(NW):
+    coord: [-4525,3198.930275800185]
+- _Boss::Molduga:
+    movements:
+    - to: [-4555.62, 137.14, 3256.35]
+      away: true
+- .dir(<N) Turn + midair:
+    notes: Already start getting height
+    coord: [-4693,2753.000396160226]
+- _Boss::Molduga:
+    movements:
+    - to: [-4832.61, 133.21, 2800.42]
+      away: true
+- .dir(.E) wbs:
+    coord: [-4254,2576.29395088786]
+- .dir(N) a lot of midairs:
+    coord: [-4296,1498.931068120637]
+- _Boss::Talus::Luminous:
+    movements:
+    - to: [-4312.07, 418.11, 1446.89]
+      away: true
+    comment: Bomb left hand
+    notes: left hand is the one on the right from Link's view
+- .dir(E) + .dir(E) + .dir(E) + .dir(E):
+    coord: [-3535,1516.2269998096272]
+- _Boss::Talus::Frost:
+    movements:
+    - to: [-3558.72, 558.36, 1560.07]
+      away: true
+    comment: Bomb right (.dir(W))
+- .dir(NW) midair:
+    coord: [-3814,1230.06932803959]
+- _Boss::Talus::Rare:
+    movements:
+    - to: [-3804.76, 602.57, 1204.77]
+      away: true
+    comment: Bomb between arms
+- .dir(E) Turn + midairs:
+    coord: [-2925,1212.5889379707878]
+- _Boss::Talus::Frost:
+    movements:
+    - to: [-2919.99, 656.12, 1294.27]
+      away: true
+    comment: Bomb between arms
+- _Tod::Night:
+    coord: [-2925,1212.5889379707878]
+    split-type: UserDefined
+- (?=) Do Not Ground For Next Branch
+- BLSS:
+    coord: [-2272.5,607.4205698746418]
+- _Boss::Hinox::Stal:
+    movements:
+    - to: [-2217.00, 372.31, 584.00]
+      away: true
+- .dir(W>) Turn + .dir(NW) midairs:
+    movements:
+    - to: [-2588,462.1667834552418]
+    - to: [-3094,60.00752704429851]
+- _Boss::Talus::Rare:
+    movements:
+    - to: [-3137.50, 317.31, 72.90]
+      away: true
+    comment: Bomb between arms
+- .dir(NE) midairs:
+    coord: [-2393,-384.9817766295937]
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [-2370.05, 261.70, -419.59]
+      away: true
+- .dir(E>) Turns:
+    coord: [-1503,-110.67792173607813]
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [-1534.88, 214.82, -171.59]
+      away: true
+- .dir(SE)
+- _Boss::Hinox::Black:
+    coord: [-1177.05, 139.48, 118.51]
+- SAVE -> Reload
+- _Warp::TravelMedallion<-2925,1212.5889379707878>:
+    text: Central Reload
+    hide-icon-on-map: true
+    line-color: red
