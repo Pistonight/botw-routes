@@ -1,4 +1,85 @@
 Hebra:
-- BLSS to near Shada Naw:
-    coord: [-3011.5,-3157.1615343322437]
-- (==) Ground Here
+- __use__ CANGROUND
+- .!!(Drop Used Phrenic Bow):
+    notes: This is so that you don't mess up the void warp strat if bow breaks
+- BLSS:
+    coord: [-3165,-2927.9992076795475]
+- _Boss::Talus::Frost:
+    movements:
+    - to: [-3073.50, 478.42, -2918.50]
+      away: true
+    comment: Bomb right (.dir(SW))
+- .dir(N) + .dir(E):
+    movements:
+    - to: [-3164,-3083.8660978435355]
+    - to: [-3021,-3156.89501754005]
+    notes: Walk on the rock next to blss tree to make sure game respawns you here
+- __use__ FLOORISLAVA
+- BLSS:
+    coord: [-4144,-3837.164406493884]
+- _Boss::Hinox::Stal:
+    movements:
+    - to: [-4260.15, 327.00, -3777.48]
+      away: true
+- Void out
+- _Warp::TravelMedallion<-3021,-3156.89501754005>:
+    text: Hebra Void Out
+    hide-icon-on-map: true
+    line-color: yellow
+- BLSS:
+    coord: [-4417,-2698.760323063133]
+- _Boss::Hinox::Black:
+    movements:
+    - to: [-4531.00, 333.45, -2679.27]
+      away: true
+- .dir(E) for height:
+    coord: [-4247,-2672.797165964172]
+- .dir(E>) Turns:
+    coord: [-3749,-2294.647417398658]
+- _Boss::Talus::Frost:
+    movements:
+    - to: [-3709.50, 331.28, -2347.00]
+      away: true
+    comment: Bomb right (.dir(S))
+- .dir(E>) Turn Super + .dir(SE):
+    notes: If you didn't get a good initial turn becaues of wind, don't do the ordinal and keep using off cardinals without turns
+    movements:
+    - to: [-3493,-2219.9992076795475]
+    - to: [-3229,-1971.900959943443]
+- .dir(E>) Turn + .dir(E.):
+    coord: [-2904,-1822.6093860169403]
+- _Boss::Talus::Rare:
+    movements:
+    - to: [-2864.50, 408.98, -1825.91]
+      away: true
+    comment: Bomb right (.dir(S))
+- .dir(<W) Turn Super:
+    coord: [-3743,-1566.6973335871626]
+- _Boss::Hinox::Black:
+    movements:
+    - to: [-3793.68, 246.02, -1557.10]
+      away: true
+    notes: This hinox loads really slow if you stay high. Drop down lower. We will wb up later
+- .dir(E) Super for height:
+    coord: [-3423,-1543.7943928425884]
+- .dir(<S) Turn:
+    coord: [-3307,-1182.6513790009203]
+- _Boss::Talus::Rare:
+    movements:
+    - to: [-3248.40, 291.68, -1078.12]
+      away: true
+    comment: Bomb between arms
+- .dir(W) Turn:
+    coord: [-3952,-1136.8229163788765]
+- _Boss::Talus::Rare:
+    movements:
+    - to: [-3929.30, 197.19, -1083.48]
+      away: true
+    comment: Bomb left (.dir(NE))
+- .dir(<W) Turn:
+    coord: [-4117,-1083.8003352459818]
+- Void Out
+- _Warp::TravelMedallion<-3021,-3156.89501754005>:
+    text: Hebra Void Out
+    hide-icon-on-map: true
+    line-color: "#00ff00"

@@ -1,5 +1,5 @@
 Lurelin:
-- (==) Can Ground Now
+- __use__ CANGROUND
 - .dir(<W) Turn + .dir(S) midair:
     movements:
     - to: [2989,651.3712021319743]
@@ -18,7 +18,7 @@ Lurelin:
       away: true
 - .dir(S) to korok:
     coord: [3263.25,1431.7981334674869]
-- (?=) Do Not Ground For Next Branch
+- __use__ FLOORISLAVA
 - BLSS:
     coord: [2678,2660.422702961384]
 - _Boss::Hinox::Red:

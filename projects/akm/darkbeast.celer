@@ -8,7 +8,6 @@ DarkBeast:
 - .dir(<E) Turn
 - _Tod::Night:
     coord: [-1558,-1792]
-    split-type: UserDefined
 - _Material<Flint>:
     hide-icon-on-map: true
 - .dir(<<E):
@@ -38,7 +37,7 @@ DarkBeast:
     movements:
     - to: [-768.74, 152.76, -804.49]
       away: true
-    comment: BA right side (.dir(W))
+    comment: BA top left (.dir(SE))
 - .dir(NE):
     coord: [-433,-1119.5]
     notes: 

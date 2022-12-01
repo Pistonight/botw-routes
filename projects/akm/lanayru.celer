@@ -86,7 +86,7 @@ Lanayru:
     movements:
     - to: [3526.26, 251.18, 364.97]
       away: true
-- (?=) Do Not Ground For Next Branch
+- __use__ FLOORISLAVA
 - BLSS:
     movements:
     - to: [3577,438.28563152310926]
@@ -95,10 +95,9 @@ Lanayru:
     movements:
     - to: [4442.00, 160.79, 350.94]
       away: true
-- Glide or wb:
-    coord: [4608.5,345.6307328746552]
+- SAVE -> Reload
 - _Warp::TravelMedallion<3517.25,356.3147721969881>:
-    text: Lanayru Drown
+    text: Lanayru Reload
     hide-icon-on-map: true
     line-color: "#00ff00"
     

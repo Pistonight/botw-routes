@@ -1,0 +1,120 @@
+Eldin:
+- __use__ CANGROUND
+- .dir(E.) TS:
+    coord: [-2144.88, 491.27, -3082.59]
+- _Boss::Talus::Frost:
+    comment: Bomb between arms
+- BLSS:
+    coord: [1071,-3054.8696632855717]
+- __use__ FLOORISLAVA
+- .dir(W>) DT enter dark forest:
+    coord: [462,-3118.89501754005]
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [341.82, 278.73, -3116.14]
+      away: true
+    notes: Hinox is directly east to shrine pedestal, a bit below the 2 torches
+- SAVE -> Reload
+- _Warp::TravelMedallion<1071,-3054.8696632855717>:
+    text: Thyphlo Reload
+    hide-icon-on-map: true
+    line-color: red
+- __use__ CANGROUND
+- .dir(E):
+    coord: [1345.5,-3031.927898838827]
+- .dir(E.) midair near talus:
+    coord: [1476,-2995.7809233948965]
+    notes: wait for Link to take burn damage before wb
+- _Boss::Talus::Igneo:
+    movements:
+    - to: [1336.10, 507.31, -3043.21]
+      away: true
+- .dir(E):
+    coord: [1638,-2944.879369211114]
+- _Chest<5 Ice Arrows>:
+    comment: EQUIP
+- __use__ FLOORISLAVA
+- .dir(S) Super + .dir(E>>) Super:
+    movements:
+    - to: [1646,-2589.0966630951993]
+    - to: [2151,-2141.932058521202]
+- _Boss::Talus::Igneo:
+    movements:
+    - to: [2141.56, 559.13, -2178.47]
+      away: true
+- .dir(SE):
+    coord: [2320,-1954.10498245995]
+- _Boss::Talus::Igneo:
+    movements:
+    - to: [2372.52, 507.89, -1998.62]
+      away: true
+- .dir(<W) Turn:
+    coord: [1772,-1814.596312729475]
+- _Boss::Talus::Igneo:
+    movements:
+    - to: [1795.54, 394.18, -1746.73]
+      away: true
+    notes: Stay high enough so you can do the next wb. If you don't have enough height, WB south first
+- .dir(<S):
+    coord: [1855,-1665.8981868218598]
+- .dir(E>) Turns
+- .dir(E>) TS:
+    notes: Look at Foodhill Stable for lag. Might want to drop a bit of height before attempting super
+    coord: [2848,-1377.6474173986571]
+- _Boss::Hinox::Blue:
+    coord: [3288.75, 323.08, -1256.24]
+- SAVE -> Reload
+- _Warp::TravelMedallion<1638,-2944.879369211114>:
+    text: Akkala Reload
+    hide-icon-on-map: true
+    line-color: yellow
+- __use__ CANGROUND
+- .dir(<E) Turn:
+    coord: [2087,-3029.948895330817]
+- _Boss::Talus::Igneo:
+    movements:
+    - to: [2146.50, 535.83, -3011.50]
+      away: true
+- .dir(<E) Turn + .dir(NE):
+    coord: [2314,-3263.900563783217]
+- _Tod::Night:
+    comment: Use cooking pot
+    coord: [2678.75,-3469.252376961357]
+- .dir(.E) Turn:
+    coord: [2978.5,-3520.0025750414707]
+- _Boss::Hinox::Black:
+    movements:
+    - to: [2917.42, 343.68, -3561.40]
+      away: true
+- .dir(E>) Turn:
+    coord: [3248.5,-3440.8524303157305]
+- _Npc<Kilton>:
+    comment: Talk
+- .dir(S) + .dir(E):
+    movements:
+    - to: [3280,-3279.288450439195]
+    - to: [3447,-3311.3011275664344]
+- _Boss::Hinox::Black:
+    movements:
+    - to: [3489.38, 179.10, -3335.79]
+      away: true
+- Cut tree BLSS:
+    coord: [4152,-2187.43309471627]
+- _Boss::Hinox::Stal:
+    movements:
+    - to: [4146.69, 130.35, -2225.24]
+      away: true
+- .dir(S) midairs:
+    coord: [4149,-1593.5499619830061]
+- _Npc<Kilton>:
+    comment: 11 Sell
+- Sell monster part
+- _Npc<Talus Medal>:
+    comment: "31323331"
+    split-type: UserDefined
+- _Npc<Hinox Medal>:
+    comment: "32"
+    split-type: UserDefined
+- _Npc<Molduga Medal>:
+    comment: "33"
+    split-type: UserDefined

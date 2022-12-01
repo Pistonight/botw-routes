@@ -8,11 +8,15 @@ _project:
   name: All Kilton Medals
   url: ''
   version: 0.1.0
+
+FLOORISLAVA: (?=) Do Not Ground Until Route Says You Can
+CANGROUND: (==) Can Ground Now
 _route:
 - Plateau:      __use__ Plateau
 - Kakariko WMC: __use__ Kakariko
 - Dark Beast:   __use__ DarkBeast
 - Lanayru:      __use__ Lanayru
 - Lurelin:      __use__ Lurelin
-- Faron/Lake/Central/Gerudo:      __use__ Central
+- Central:      __use__ Central
 - Hebra:        __use__ Hebra
+- Eldin:        __use__ Eldin

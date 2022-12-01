@@ -1,5 +1,5 @@
 Central:
-- (==) Can Ground Now
+- __use__ CANGROUND
 - .dir(S>) Turn:
     coord: [3149,1849.526542735157]
 - _Boss::Talus::Stone:
@@ -248,8 +248,7 @@ Central:
     comment: Bomb between arms
 - _Tod::Night:
     coord: [-2925,1212.5889379707878]
-    split-type: UserDefined
-- (?=) Do Not Ground For Next Branch
+- __use__ FLOORISLAVA
 - BLSS:
     coord: [-2272.5,607.4205698746418]
 - _Boss::Hinox::Stal:
