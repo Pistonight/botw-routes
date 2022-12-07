@@ -1,0 +1,33 @@
+Plateau:
+- SOR Clip, get TOD
+- (==) The items marked with [IST] are used to break slots. You need to keep at least 3 of them
+- _Material<Shroom [IST] + Apples>:
+    coord: [-1007,1872.10]
+- _Equipment::Weapon<Torch + Axe>:
+    coord: [-920.93, 220.65, 1871.83]
+    notes: You can jump off the rock the old man is on, grab the torch midair, and the old man won't talk to you
+- _Equipment::Shield<Pot Lid>:
+    coord: [-948.75,1963.5581365131984]
+- _Material<Shrooms + Peppers [IST]>:
+    coord: [-967,1965.1368733581612]
+- Surf down to TOT, clip through
+- _Equipment::Bow<Bow + Arrow>:
+    coord: [-832,1963.5581365131984]
+    notes: Need at least 3 arrows starting IST. Preferably 4 or 5. Can get RNG arrow from metal crates at Mag
+- BLSS
+- _Shrine::JaBaij
+- BLSS
+- _Tower::GreatPlateau
+- BLSS to mag
+- _Shrine::OmanAu
+- BLSS + Tree WB
+- _Shrine::OwaDaim:
+    comment: No Hammer
+    notes: We are grabbing hammer later in Hateno. Go for stasis wb if you want
+- Boulder + BLSS
+- _Shrine::KehNamut
+- Plateau:
+    icon: king
+    split-type: UserDefined
+    coord: [-812,1969]
+    

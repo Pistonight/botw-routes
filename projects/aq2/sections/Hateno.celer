@@ -1,0 +1,43 @@
+Hateno:
+- _Warp::Shrine::MyahmAgana
+- SQ to bolson
+- _Npc<Bolson>:
+    coord: [3331.625,2277.033772659286]
+    notes: If not 8AM-8PM, make noon
+- .dir(W.)
+- _Npc<Nebb>:
+    coord: [3383.75,2144.7461374377945]
+    comment: 8 Times
+- _Npc<Farmer>:
+    coord: [3380.5,2095.976824626766]
+- _Npc<Shrine Lady>:
+    coord: [3426.25,2162.2530702417534]
+    notes: Cannot do this quest when raining.
+- _Npc<Cricket Quest>:
+    coord: [3447.25,2119.7362334321388]
+    notes: Talk to guy, talk to lady in inn, talk to guy twice
+- .dir(E):
+    coord: [3626,2103.4746457455212]
+- _Npc<Sheep Lady>
+- .dir(E) to Lab
+- Upgrade Sheika Sensor:
+    coord: [3780.5,2127.9843516710644]
+- _Npc<Sunshroom Guy>:
+    coord: [3784,2136.9879171130997]
+    comment: 3 Times
+- .dir(<E) + .dir(N>) Turn:
+    coord: [4116,1944.845101351545]
+- _Shrine::TahnoOah
+- .dir(N) + .dir(N) + .dir(N) + .dir(E) + .dir(<E):
+    coord: [4168,1248.6791102167554]
+- _Shrine::JitanSami:
+    notes: You don't need to free Naydra for the quest
+- BLSS
+- _Shrine::ShaiYota
+- .dir(SW):
+    coord: [4168,357.49806499336955]
+- _Npc<Kass>
+- BLSS + .dir(W>) + .dir(<N):
+    coord: [3726,614.5998781715098]
+    notes: Can also WB, but wind is annoying
+- _Shrine::RuccoMaag

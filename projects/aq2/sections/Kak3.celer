@@ -1,0 +1,87 @@
+Kak3:
+- _Warp::Shrine::TalohNaeg:
+    line-color: magenta
+    notes: Need to be not raining for Koko. Make noon until it's not raining
+- .dir(E)
+- Activate Fairy Fountain:
+    coord: [1976.5,845.9673167813362]
+- _Snap::Quest<Fairy Fountain>
+- .dir(<W) To Cucoo 1:
+    notes: 2 Cucoos, talk to man, play tag with cottla, 3 cucoos, talk to pikango, Koko, make night
+- _Npc::SheikaMale<Cucoo Man>:
+    coord: [1832.75,964.0030702417534]
+- _Npc::SheikaFemale<Cottla>:
+    hide-icon-on-map: true
+    comment: Play Tag
+- _Npc::SheikaMale<Pikango>:
+    comment: Twice
+    coord: [1828.75,992.5143608082008]
+- _Npc::SheikaMale<Koko>:
+    coord: [1798.25,1016.2737696135737]
+    hide-icon-on-map: true
+    comment: Talk until get honey apple
+- _Tod::Night:
+    notes: For the night cucoo + firefly. Cannot be raining or there won't be fireflies
+- _Npc::SheikaFemale<Arrow Quest Lady>:
+    comment: B, talk again
+    coord: [1826.5,1041.4893036738922]
+- 1 cucoo
+- Light torches with firerod
+- _Npc::SheikaFemale<Arrow Quest Lady>:
+    coord: [1826.5,1041.4893036738922]
+- Last cucoo
+- _Npc::SheikaMale<Cucoo Man>:
+    coord: [1832.75,964.0030702417534]
+- _Npc::SheikaFemale<Firefly Lady>:
+    comment: Twice, drop fireflies
+    notes: Grab 5 fireflies as you run toward the house
+    coord: [1901,1028.7342526310076]
+- SQ to impa
+- _Npc::SheikaFemale<Impa>:
+    coord: [1776.75,984.7168215810534]
+- _Npc::SheikaFemale<Paya>:
+    coord: [1775.75,991.2193966225241]
+- _Tod::Night:
+    hide-icon-on-map: true
+    comment: After paya
+- _Shrine::TalohNaeg
+- _Equipment::Weapon<Traveller Sword>:
+    coord: [1927.75,985.9673167813362]
+    comment: Mag from water
+    notes: Make sure you stay close to the guy and keep him in view
+- _Equipment::Weapon<Windcleaver>:
+    coord: [2014,957.4560262148889]
+    notes: Make sure you have empty slot. The windcleaver might despawn after the cutscene so make sure to pick it up
+- _Shrine::LaknaRokee
+- .dir(S.) + .dir(SE) super
+- _Shrine::KamUrog
+- _Tod::Noon:
+    hide-icon-on-map: true
+- _Npc<Doctor>:
+    coord: [2504,1518.5361496206433]
+    comment: B
+- .dir(S) + BLSS
+- _Chest<Saphhire>:
+    notes: The treasure quest
+    coord: [1951,2609.562943681468]
+- SQ to shrine
+- _Shrine::TotoSah
+- .dir(N>) Turn super
+- _Memory::AshSwamp
+- .dir(SW) to horse, ride near stable:
+    coord: [1765,2045.8746152883996]
+- _Npc<Horse Guy>:
+    comment: B, talk again, ride horse to him
+    coord: [1747,1924.3264818209127]
+- _Npc<Treasure Twin>:
+    comment: Twice
+    coord: [1776.5,1931.329254942496]
+- SQ to shrine
+- _Shrine::HaDahamar
+- .dir(<<W) + .dir(NW)
+- _Shrine::ReeDahee
+- Shield surf SCW
+- _Shrine::SheeVaneer
+- _Shrine::SheeVenath
+- .dir(SW)
+- _Shrine::ShaeKatha

@@ -1,0 +1,42 @@
+Medoh:
+- _Warp::Shrine::MoggLatan:
+    line-color: yellow
+- BLSS to rito
+- _Npc::Rito<Chief>:
+    coord: [-3626.75,-1843.5]
+- Revali Memory:
+    split-type: UserDefined
+    icon: medoh-memory
+    hide-icon-on-map: true
+- _Shop<Material Shop>:
+    comment: Wheat Sugar Butter Shroom
+- .dir(<N) TS
+- _Equipment::Bow<10 Arrows + Swallow>:
+    coord: [-3793.25,-2317.5]
+- _Equipment::Bow<Falcon>:
+    hide-icon-on-map: true
+- Enter Medoh:
+    split-type: UserDefined
+    icon: medoh-enter
+- _Chest<Ancient Core>:
+    hide-icon-on-map: true
+    comment: Inside Medoh
+    notes: If you forget this one, there is a backup later in Ketoh Wawai (dark forest shrine)
+- Windblight:
+    split-type: UserDefined
+    icon: medoh-done
+    notes: FDB 2 body 4 head
+- _Material<Cold Darner>:
+    movements:
+    - to: [-3607.75,-1853.25]
+      warp: true
+    comment: On deck, right after medoh
+- _Equipment::Bow<Great Eagle Bow>:
+    hide-icon-on-map: true
+- .dir(N>) to camp:
+    coord: [-3479,-2085.1109248633434]
+- _Chest<5 Shock Arrow>:
+    notes: AA enemies so they don't bother you
+- .dir(<E) voltfin:
+    movements:
+    - to: [-3009,-2138]

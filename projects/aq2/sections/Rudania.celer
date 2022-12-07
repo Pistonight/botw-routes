@@ -1,0 +1,56 @@
+Rudania:
+- _Warp::Shrine::ShaeMosah:
+    line-color: yellow
+- SQ to bludo
+- Daruk Memory:
+    split-type: UserDefined
+    icon: rudania-memory
+    coord: [1708.5,-2451.0614048350653]
+- _Shrine::DaqaKoh
+- .dir(<W)
+- _Equipment::Weapon<Drillshaft>:
+    coord: [1946.80, 632.72, -2203.24]
+- .dir(.S) Turn
+- Do quest:
+    movements: 
+    - to: [2003,-2036.393630979258]
+    - to: [1827.5,-1890.3357915862289]
+    - to: [2005.5,-2035.393234819032]
+- _Shrine::KayraMah
+- Run out + .dir(.N) + .dir(<E):
+    coord: [1982,-2143.7089192814583]
+- kill .enemy(Moblins):
+    coord: [2141,-2282.6549949365435]
+- Enter Rudania:
+    split-type: UserDefined
+    icon: rudania-enter
+    comment: .fury() last 2 drones
+    notes: AA everything. Pick up 3 screws
+    fury: 2
+- .gale() inside:
+    gale: 1
+- .!!(EQUIP BARB):
+    notes: Equip before activating fight
+- Fireblight:
+    split-type: UserDefined
+    icon: rudania-done
+    notes: GEB 1 body 4 head.
+- SQ wb to talus quest:
+    movements:
+    - to: [1625.5,-2435.27733505561]
+      warp: true
+    - to: [1667.25,-2466.789814102736]
+    notes: GC quests 8AM - 8PM. Make noon if not
+- _Npc::Goron<Talus Guy>:
+    comment: Twice
+- Run
+- _Npc::Gerudo<Amber Lady>:
+    comment: Twice
+    coord: [1678.75,-2445.781494737985]
+- _Npc::Goron<Bludo>:
+    coord: [1708.5,-2451.0614048350653]
+    notes: No need to grab reward
+- .dir(S) + .dir(SE):
+    coord: [1684,-2365.9891055937787]
+- _Npc::Goron<Drillshaft Kid>:
+    coord: [1794.5,-2251.943943327989]

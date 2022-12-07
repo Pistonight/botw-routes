@@ -1,0 +1,119 @@
+Kak1Hateno:
+- BLSS to Satori Lotus
+- _Material<Lotus, 5>:
+    coord: [-2542,670.3406977945551]
+    notes: 3 for an early speedfood, 2 for later speedfood
+    line-color: red
+- .dir(E)
+- _Material<Rushroom, 1>:
+    notes: "[IST] keep 3. 2 for early speedfood"
+    hide-icon-on-map: true
+- _Equipment::Bow<Forest Dweller's Bow>:
+    coord: [-2346,687.5794301253582]
+- .dir(N)
+- _Material<Endura Carrot, 3>:
+    coord: [-2312.5,527.5160444891626]
+- .dir(N):
+    coord: [-2299.5,451.48593631196854]
+- _Material<Rushroom, 3>
+- _Shrine::MoggLatan
+- _Korok::R60
+- .dir(.E) SQ
+- _Material<2 Wood 10 Durian [IST]>:
+    coord: [-2187.5,440.4815785494802]
+- BLSS to Guard Chamber:
+    notes: Go for unloaded gate but can clip in
+    coord: [-398.5,-829.5017332009902]
+- Royal Claymore + RGC:
+    notes: Everything here is like Any%, up to the lizal sneakstrike and cooking. Do get razorshroom and naydra fang
+- .!!(DO NOT BREAK RGC)
+- _Material<Razorshroom>:
+    hide-icon-on-map: true
+    comment: Right box
+- _Material<Naydra Fang>:
+    hide-icon-on-map: true
+    comment: Chest below stairs
+- _Chest<3 Ancient Arrow>
+- Kill Lizalfos
+- _Equipment::Weapon<Boomerang>:
+    hide-icon-on-map: true
+- _Equipment::Shield<Lizal Shield>:
+    hide-icon-on-map: true
+- _Cook<Speed Food>:
+    comment: 3 lotus + 2 rushroom, eat
+- Run out:
+    coord: [-319.75,-778.75] 
+- .dir(<S) Turn
+- Kill .enemy(Stalker):
+    notes: need 1 Shaft 2 Spring 2 Screws. Kill up to 3. Order of picking these up does NOT matter
+    coord: [-222.25,-435.75]
+- .dir(S) to wall:
+    coord: [-210,-262]
+- BLSS to fairy:
+    coord: [949.19, 138.58, 502.84]
+- .dir(<N)
+- _Npc<Riverbed Reward>:
+    notes: Keep the weapon for IST
+    coord: [823,146]
+- _Shrine::KayaWan
+- BLSS
+- _Shrine::DakaTuss
+- .dir(S) + .dir(E>>) + .dir(S)
+- _Npc::SheikaFemale<Impa>:
+    coord: [1775,987]
+- Activate Shrine:
+    coord: [1833.5,906.1630199330921]
+- .dir(<<S) Super to camp
+- RGC slam kill 3 bokos:
+    notes: drop down and X->Y. Need the big AOE slam so keep high drop speed
+- _Npc<Hestu>:
+    coord: [2069.5,1425]
+- .dir(<S) to ore
+- _Material<Amber>:
+    notes: 84% chance from 3 normal ores, don't break rare ore because we blss off it
+    coord: [2153,1547.5]
+- BLSS to near hateno:
+    coord: [3190.5,2040.0051500829413]
+- .dir(E>) to shrine
+- _Shrine::MyahmAgana
+- SQ to shop:
+    coord: [3360.5,2135.5]
+- (==) IST START
+- .!!(IST Part 1):
+    notes: "IST sim file: .link([here]https://ist.itntpiston.app/?c=H4sIAAAAAAACA31WTXPbNhC981fsjA5tM5ppJdttLz04tmN74tgZSWmm08kBIiESFUSwAGhF%2BfV9uwApeZL0YAskFvvxdt8DJ%2FTeqqhVX9Q60owCP9GvFBrv3I7mpLrOamxE58sGv%2Bozb3e667THY%2BeiNRXve%2FWsLa3dni5Iee%2F2gc7J%2BTX2aphoX0xoqeDG0IPbF7cId4FV7IOE9n0KKRsb53WIVO21tQizzvZnpNuq94pKDhCPDu9M3RQ3ii2agzWqzemfUehMeRjSzdWIr%2FNjxAm9c3VNDyqqVvaQtfzOfiGEgzvUsHeuguXahgAsqAZMyYa8OyhLpVWHHdIeX9S98tX4Wmy9%2BuL8SZmtOtBGtXUuTrWl0W1M6FH2Hr1Zw1572HF%2FogYm5ouyoTHaVsVHExucFSBR4FjUlXNbCmaHk3%2FvXGU2Rvs%2FQqd19UmQSluo6K2xlvqOiwJcUdmt9mEKDNAychsCgFuD2DDplI%2BBKqdD%2B0OknYoRHlKaQ%2B6hUZvIQA%2FPnefDp29Kr1M7N8r4A2egDoo%2BqnZKW84FOSAF2nNhAkUOsW3R5fgq7JEaHssENvdqQtdqq2jVh5Bt09uVsq6hR6XrKbLmnOvc3QndYcD6KS1uryQq3nx8nTBgv5XuXDAolg%2Bo3Rr5%2FJg8rL1WW4qNRjdh6Fr90wABm8HP64flkj29O6hmR5e1alWx0Dv3rOm3PE%2FFtXdd5k5aM31e8Zzf%2FNub7nsESIUtwTRSgV6rctt3l310AW8Q2fctBy6tA3ShcV2RN24f7ldXd7RcXS5WRargAlR3KFBgng18nx2Z%2FYJqPNX9aJOL%2BIaj%2BVE4Rs6NB%2BcDm%2BZ5CAKqI4U%2FJpcswIgKQZkU8jyMyELXvVWe7pcruu47DUCtU0zIq0aXW5qdk4l6F4qq7eRgnjtZykjySkaGFydETCacjqyGJkpTUuNbRy1ow8gyF0CEBKsfUkiDg7GNvS6WXNPZPE%2BZ5ZFFXCcUQsMTTCKmudVpzXmnFcYWw5Xod3C9HKbrp5vlQDhh%2FDktTsREyD6j3YB02Or9Ke93nManYp9OJq2YMdivRH7K%2F9EKOXORpyHrrtjvja1qr3V7PCJGn4qKsRsJmlrN9c1zK%2FLWPOObTZBYaloQfUqdGzuUpqkAOm%2FuFxiCu8uHN0Dl8YZf1U6agwSbRFhRtNqrSoeBeme0lOBndMXBz3Jek%2F1amsdk0TlsmtI0S5IxXzRwq7lfO9aw1B2QlCvxfReNa3M7vxLoYZZ4zLXqXEv6c6m7yNKTuH%2B8XBMPPo%2BXyMmlktSPBvU7vRYQAlERIuCaLSTLb99BYMvdzdVbun%2F88%2BZx9bT4i95dQhcKUZRcJGT%2BWN3G4O6fYycPvuget7cDH1I141XB1wI9Pq2GMX1vWJ0wOskOTvo25XaEoviQX402DMjP3H%2F9rP0B8YTFGzjMHxVputgF4mg0ygYwUVosgsHX9GgytGBoMsZLS2Eqi%2BYUXraaQp%2BFIXcoZ6qrpLWXgVhlBaXRN2tyViHZSOujYYITut6GTYYz6NK1FXrT4z%2Bu1pPhOZmSPB6JDMd4IoXf17b8faIH6BJy6z4OQi7I8PYsU%2F1rwcD5rElos1W4gBIeU9o3ABtuobJkwksQJokYpweK066SaeWKoIsXeE1kkCQUS7doXcNow1xc8ZkpM7O3Fa11pqIcykvw8zwr9vE%2BeFosPrxf3T89ijxM6fY2sewiCUASaM49PY5jusxMT2q%2BdjZw4fw9NBVRaZR8MN0elxMyG0mbr4cppfsA3znjdImScBfEmXw24rQQ%2BrQpQAKVZNt%2FnHW4cFS6En5%2FMQa5WNp4bhlDOi8GZmY1%2FQ922N3N0AsAAA%3D%3D) I will make a video in the future"
+
+- .dir(N)
+- Trade 5 stam 3 heart:
+    coord: [3436.25,2100.010102085769]
+- Light pot with torch throw
+- _Cook<Endura Speed Attack>:
+    comment: ORDER MATTERS
+
+- .dir(N) Smuggle blue flame:
+    coord: [3437.5,1975]
+- 2 WB to Lab:
+    movements:
+    - to: [3640,2096]
+    - to: [3779.5,2124.5]
+- Camera:
+    icon: snap
+    split-type: UserDefined
+    coord: [3776,2126.5]
+- Upgrade bombs and stasis
+- .dir(W) Turn
+- _Npc<Sheep Lady>:
+    coord: [3623,2101.5]
+- .dir(W) Turn to shop:
+    coord: [3360.5,2135.5]
+- .!!(IST part 2)
+- .dir(SW)
+- _Npc<Horned Statue>:
+    coord: [3285.75,2196.75]
+- .dir(<S) To bolson
+- _Equipment::Weapon<1 Hammer>:
+    hide-icon-on-map: true
+    notes: For breaking ores
+- Omagadupe:
+    icon: camera-plus
+    split-type: UserDefined
+    coord: [3327.5,2282]

@@ -1,0 +1,163 @@
+Naboris:
+- _Warp::Shrine::MoggLatan:
+    line-color: "#00ff00"
+- BLSS + .dir(E) + .dir(E)
+- _Shrine::KeehaYoog
+- BLSS to KT:
+    movements:
+    - to: [-3568,674.5062927691179]
+    - to: [-3272,912.6005789029596]
+- _Tod::Noon:
+    notes: For Sasa Kai. Put the wood right next to a luminous stone ore and shoot the ore with normal arrow. 
+      Make noon during or before melting ice
+- _Material<10 Luminous Stone>:
+    comment: While melting ice
+- _Equipment::Weapon<Ice Rod>:
+    notes: Light your arrows and shoot wizarobe
+- _Shrine::KuhTakkar
+- .dir(<E) TS or BLSS
+- _Material<10 Berry>:
+    coord: [-3655.5,1531.2579003072733]
+- .dir(<E) Turn
+- _Shrine::ShoDantu:
+    notes: Farm luminous to 10
+- .dir(S) + .dir(E):
+    coord: [-3874,1827.213834933158]
+- _Npc<Kass>:
+    comment: "21"
+    coord: [-3672,1845.2209658172305]
+- SQ to shrine
+- _Shrine::SasaKai
+- BLSS to gerudo, talk to guy
+- _Shrine::DaqoChisay
+- BLSS
+- _Shrine::DakoTah
+- .dir(E>) + .dir(E)
+- _Shrine::KayNoh
+- _Material<Flint>:
+    hide-icon-on-map: true
+    notes: If you already have one, can skip this
+- _Npc<Sesami>:
+    coord: [-2814,2239.51842145052]
+- _Shop<1 Winterwing 1 Darner>:
+    comment: Buy from beedle
+    coord: [-2788.75,2249.832302286999]
+- _Npc<Rushroom Guy>:
+    coord: [-2791.25,2231.57507236287]
+
+- .dir(<W) + .dir(SW)
+- Kara Kara:
+    icon: location
+    coord: [-3264,2608.325643705958]
+    split-type: UserDefined
+- BLSS or super to Gerudo Town
+- _Npc::Gerudo<Riju>:
+    coord: [-3882.5,2964.225811328949]
+
+- _Warp::Shrine::KehNamut:
+    line-color: red
+- BLSS toward single tree
+- _Equipment::Weapon<Fire Rod>:
+    coord: [-2158,2143.1041901394974]
+- .dir(SE)
+- _Material<Electric Darner>:
+    coord: [-2220.85, 356.03, 2204.36]
+- .dir(N>) Turn
+- _Npc<Friend 1>:
+    coord: [-2166,1723.5268398553271]
+    notes: AA 2 bokos
+- Drop down
+- _Npc<Friend 2>:
+    coord: [-2187.5,1692.2644598482575]
+- .dir(E>) Turn
+- _Npc<Friend 3>:
+    coord: [-2053.75,1741.2838716993429]
+- .dir(S)
+- _Npc<Friend 4>:
+    coord: [-2059.875,1836.6678348244604]
+- .dir(<<<S) Very Slight Turn
+- _Shrine::JeeNoh
+- .dir(N>) Turn + .dir(N) Turn
+- _Shrine::DahKaso:
+    comment: core
+- .dir(S)
+- _Npc<Horse Quest>:
+    movements:
+    - to: [-1628,2090.083193647508]
+    - to: [-1650,2265.6527197672103]
+    - to: [-1696.5,2302.6673776955804]
+    - to: [-1832.5,2307.6693584967115]
+    - to: [-1992,2164.112509504248]
+    - to: [-2031,1880.5001980801135]
+    notes: AA a boko on horse and take his horse
+- .dir(N.)
+- _Shrine::JolooNah
+- .dir(<W) + .dir(<<W) Turn:
+    notes: can also blss but it's a bit monkaSTEER
+- _Npc<Sesami>:
+    coord: [-2814,2239.51842145052]
+
+- _Warp::Shrine::KuhTakkar
+- .dir(E) kill some wolves:
+    coord: [-3204,1168.4056680716558]
+- _Material<Raw Gourmet Meat>
+- .dir(<E) Turn:
+    coord: [-3516,1356.1299405542022]
+- Clip in
+- _Equipment::Bow<Duplex Bow>
+- Kill .enemy(Kohga):
+    notes: "Phase 1: spam AA after screen goes out. 
+    Phase 2: wait for the ball to go above, shoot 2 AA, turn around and backflip over the hole, spam AA.
+    Phase 3: Mag the ball to kohga from the side and press B as the ball goes over the edge of the hole. Or just do normal kill"
+
+- _Warp::Shrine::DaqoChisay
+- _Shop<1 Durian>:
+    comment: For quest
+    coord: [-3822.5,2878.1249885513744]
+- _Shop<All Fire + Shock>:
+    coord: [-3853.875,2912.5337231392577]
+    notes: Fire for shrines, shock for Ruta + fighting stuff. Technically only need less than 10 fire arrows, but just in case
+- Run to Riju
+- Urbosa Memory:
+    split-type: UserDefined
+    icon: naboris-memory
+    coord: [-3869,2947.3173472384588]
+- .dir(E>>) Super:
+    coord: [-3435,3128.181045223386]
+- Ride sand seal to Misae Suma
+- _Npc::Gerudo<Shrine Lady>:
+    coord: [-2989,3760.314947379851]
+- .dir(E) backflip to naboris
+- Enter Naboris:
+    split-type: UserDefined
+    icon: naboris-enter
+    coord: [-2476,3764.5593782394317]
+- .gale() inside Naboris:
+    gale: 2
+- Thunderblight:
+    split-type: UserDefined
+    icon: naboris-done
+    notes: GEB 2 body 3 head. (bomb self after exiting beast in case ragdoll glitch fails)
+- _Npc<Boots Guy>:
+    movements:
+    - to: [-3767.25,2865.0417949038665]
+      warp: true
+    comment: Equip Snowboots
+- _Npc::Gerudo<Riju + Thunderhelm>:
+    coord: [-3888.5,2970.333490767677]
+- _Npc::Gerudo<Guard Captain>:
+    coord: [-3911.75,2929.317248198402]
+- _Npc::Gerudo<Entrance Guard>:
+    coord: [-3916.75,2873.2950632257334]
+- _Npc::Gerudo<Historian>:
+    coord: [-3880.25,2879.5475392271474]
+    comment: "112"
+- _Npc::Gerudo<Bar Lady>:
+    coord: [-3852.75,2860.289913142792]
+- _Npc::Gerudo<Trash Girl>:
+    coord: [-3834.75,2853.287140021209]
+- .dir(N>) Turn
+- _Npc::Gerudo<Ice Quest>:
+    movements:
+    - to: [-3755,2279.955233894437]
+    - to: [-3762.75,2699.025255214422]

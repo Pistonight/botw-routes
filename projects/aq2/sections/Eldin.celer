@@ -1,0 +1,89 @@
+Eldin:
+- _Warp::Shrine::DagahKeek:
+    line-color: "#00ff00"
+- .dir(N) + midair
+- .loc(Monument):
+    coord: [3224.5,-742.9558281347754]
+-  .dir(W>) + .dir(W) + .dir(W)
+- .loc(Monument):
+    coord: [3707.5,-523.3688709651187]
+- .dir(N) to tree:
+    coord: [3745,-630.4112601093257]
+    notes: Pick up the shock arrows so Link doesn't get distracted
+- BLSS to Eldin memory
+- _Memory::EldinCanyon:
+    time-override: 60
+- .dir(E) Turn
+- _Shrine::QuaRaym
+- .dir(N) + .dir(N) to .loc(South Mine):
+    coord: [1658,-1963.0144598482575]
+- _Material<10 Lizards>:
+    hide-icon-on-map: true
+    time-override: 30
+    notes: Get 1-2 flints here in case rng bad later
+- _Npc<Lizard Guy>:
+    hide-icon-on-map: true
+- _Npc<Greyson>:
+    hide-icon-on-map: true
+    notes: Should be night time already. If not, make night
+- .dir(<N) + .dir(N>):
+    coord: [1644.75,-2463.0383285018875]
+- _Npc::Goron<Shrine Brother>:
+    comment: "21"
+- Run to shop:
+    coord: [1680,-2460.5]
+- .!!(TRANSMUTATE):
+    icon: tots
+    hide-icon-on-map: true
+    comment: 5 Flints + RGC
+    notes: Equip trident, Drop flints, then overload. Hold smuggle 5 rushrooms, equip RGC, sell all, pick up flints, unhold, buy goron spice, slam attack
+- _Npc::Goron<Bludo>:
+    coord: [1705.75,-2447.75]
+- .dir(N>)
+- _Shrine::ShaeMosah
+- .dir(<N) Turn
+- Rescue yunobo:
+    coord: [1635,-2936.561622231986]
+- .dir(W.) Turn
+- _Tod::Night:
+    notes: For Kilton + Xenoblade (<3AM) and East Akkala Stable (>5AM)
+- _Boss::Talus::Igneo:
+    coord: [1337,-3051.971476463712]
+    fury: 3
+    comment: .fury()
+- .dir(<W)
+- _Shrine::ShoraHah
+- Minecart + .dir(N>):
+    coord: [1727,-3315.1350048347513]
+- _Snap::Quest<Eldin Skeleton>:
+    movements:
+    - to: [1580,-3666.1171593680883]
+      away: true
+- .dir(E) Fast Turn + midair
+- _Npc<Gut Check Challenge>:
+    time-override: 40
+    coord: [2670.5,-3468.808037473142]
+    notes: 2 WB up to the final 5 red rupees
+- _Shrine::GoraeTorr
+- .dir(E) Turn:
+    coord: [3322,-3429]
+- Look Sky .dir(E)
+- .dir(<E) Turn
+- _Chest::Special<Salvager Vest>:
+    coord: [3636.00, 302.00, -3520.00]
+- _Shrine::ZunaKai
+- _Snap::Quest<Backup Blupee>:
+    movements:
+    - to: [3360.27, 162.25, -3078.82]
+    - to: [3248,-3373.0527605101324]
+    - to: [3330,-3426.1528503014133]
+      warp: true
+- SQ .dir(W)
+- _Equipment::Weapon<Korok Leaf>:
+    coord: [3223.95, 83.06, -3393.09]
+    notes: For Voo Lota quest and blue flame later
+- SQ to kilton
+- _Snap::Quest<Kilton>:
+    coord: [3247,-3440.5]
+    notes: Snap multiple to be safe
+    time-override: 60

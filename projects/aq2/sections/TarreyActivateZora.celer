@@ -1,0 +1,19 @@
+TarreyActivateZora:
+- _Warp::Shrine::DahHesho:
+    line-color: magenta
+- .dir(N.) Turn:
+    coord: [3984.5,-1597.5796282054716]
+- _Npc<Hudson>:
+    comment: Twice
+- Listen at window
+- _Npc<Mom>:
+    hide-icon-on-map: true
+- _Npc<Mom>:
+    hide-icon-on-map: true
+    comment: Again after fade out
+- _Npc<Guardian Guy>:
+    hide-icon-on-map: true
+    comment: Twice
+- BLSS
+- _Memory::SpringofPower
+- _Shrine::TutsuwaNima

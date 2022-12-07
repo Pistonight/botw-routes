@@ -1,0 +1,50 @@
+Hebra:
+- _Warp::VahMedoh:
+    line-color: "#00ff00"
+- .dir(W) turn
+- _Npc::Rito<Little Bird>:
+    coord: [-3971.25,-1745.5]
+- .dir(N>) Turn
+- _Shrine::ShaWarvo
+- .dir(<N)
+- _Shrine::MakaRah
+- +Run out:
+    coord: [-3984,-2549.3553557229257]
+- +.dir(E) HIGH:
+    coord: [-3859,-2534.3494133195322]
+- +.dir(N.) + .dir(E) midair:
+    movements:
+    - to: [-3807,-2720.4230991216104]
+    - to: [-3655,-2710.419137519348]
+- +.dir(N) + .dir(N) midair:
+    coord: [-3575,-3031.5463049519667]
+- _Shrine::MozoShenno
+- .gale() + .dir(E>) + .dir(E) Fast Turn:
+    gale: 1
+- _Boss::Talus::Frost:
+    coord: [-3078,-2933.6109706578454]
+    fury: 3
+    comment: .fury()
+    notes: Get flints
+- .dir(W) + .dir(E) + .dir(N) + .dir(N)
+- _Shrine::ShadaNaw
+- BLSS:
+   time-override: 45
+- _Shrine::HiaMiu
+- .dir(E) + clip:
+   time-override: 60
+- _Shrine::ToQuomo
+- _Snap::Quest<Hebra Skeleton>
+- _Warp::Shrine::ShadaNaw:
+    line-color: red
+- .dir(E>) + .dir(E) Turn right
+- _Shrine::RokUwog
+- .dir(N) + .dir(<E) Turn:
+    coord: [-2386,-3399.7266494439036]
+- _Shrine::ShaGehma
+- .dir(E>) Turn + .dir(E) midairs:
+    notes: or blss
+- _Shrine::QazaTokki:
+    comment: Barb Legging
+- .dir(S) up + BLSS
+- _Shrine::KetohWawai

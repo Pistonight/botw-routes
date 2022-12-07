@@ -1,0 +1,46 @@
+Lake:
+- .dir(E>) Turn + .dir(E)
+- _Tod::Noon:
+    coord: [-2686,2735.335572362241]
+    notes: For Suma Sahma. You can delay this according to your speed
+- Mag the orbs
+- _Shrine::KorshOhu
+- _Shrine::MisaeSuma
+- .dir(E) Turn + .dir(E) + .dir(E) + .dir(<<E) Turn
+- _Shrine::DilaMaag:
+    comment: Barb Armor
+- +WB straight up land left
+- +.dir(E) + .dir(E) up
+- +.dir(S) + .dir(S) +.dir(N>) + midair
+- _Shrine::SumaSahma
+- .dir(E>) Turn
+- _Shrine::IshtoSoh
+- BLSS to giant horse
+- Ride to camp:
+    movements:
+    - to: [-1208,2652]
+    - to: [-636,3722]
+    - to: [-200,3500]
+    time-override: 200
+- .dir(SE) + .dir(SE)
+- _Shrine::ShoqaTatone
+- .dir(E) + .dir(E) + .dir(N>)
+- _Shrine::KaoMakagh
+- .dir(N) .fury() bokos:
+    fury: 1
+- Take a horse to stable:
+    notes: Or use firerod to burn grass and midair
+    coord: [488,3313.4692913392537]
+- _Tod::Morning:
+    notes: For quest guy here and Goron city quests
+    coord: [524,3455.4142031595566]
+- _Npc<Quest Guy>:
+    coord: [511,3442]
+- _Material<Swift Carrot>:
+    hide-icon-on-map: true
+    comment: Behind horses
+- .dir(N) Turn right
+- _Shrine::PumaagNitae
+- .dir(E.)
+- _Npc<Kass>:
+    coord: [830,3054]

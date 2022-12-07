@@ -1,0 +1,7 @@
+TarreyActivateHateno:
+- _Warp::Shrine::DahHesho
+- .dir(N) Turn to TT:
+    coord: [3949,-1631.4679110216753]
+    notes: This time he is by Rhonson
+- _Npc<Hudson>:
+    comment: 111B

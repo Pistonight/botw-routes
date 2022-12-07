@@ -5,7 +5,7 @@ _project:
   description: All Quests Speedrun
   name: All Quests
   url: ""
-  version: 1.0.0
+  version: 2.0.0
 
 _config:
   split-format:
@@ -13,33 +13,40 @@ _config:
     Warp: "Warp {{_}}"
 
 _route:
-  - (!=) This route may have problems with BM being too early. It is fixed in .link([the latest version]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/aq2). However, if you are slow, this route will make it easier to make blood moon.
+  - (==) This route is tighter for BM. There's an older route that gets BM sooner .link([here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/aq) if you need
   - Plateau: __use__ Plateau
   - Hateno: __use__ Kak1Hateno
-  - Medoh + Naboris: 
+  - Medoh:
     - __use__ Medoh
+  - Naboris:
     - __use__ Naboris
-  - Hebra + Ruta:
+  - Hebra:
     - __use__ Hebra
+  - Ruta:
     - __use__ Kak2Ruta
     - __use__ TarreyActivateGoron
-  - Gerudo + Lake:
+  - Eldin:
     - __use__ Eldin
     - __use__ TarreyActivateGerudo
+  - Gerudo:
     - __use__ Gerudo
+  - Lake:
     - __use__ Lake
-  - Rudania + Central:
+  - Faron:
+    - __use__ Faron
+  - Rudania:
     - __use__ Rudania
     - __use__ KorokForest
     - __use__ KorokForest2
+  - Central:
     - __use__ Central
-  - Kakariko + Faron:
+  - Kakariko:
     - __use__ TarreyActivateRito
     - __use__ Rito
     - __use__ TarreyActivateZora
     - __use__ ZDQuests
     - __use__ TarreyActivateHateno
-    - __use__ Kak3Faron
+    - __use__ Kak3
   - Hateno + Tarrey Town:
     - __use__ Hateno
     - __use__ ForgottenTemple
