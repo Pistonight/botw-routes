@@ -1,0 +1,117 @@
+Kak1Hateno:
+- BLSS to Satori Lotus
+- _Material<Lotus, 5>:
+    coord: [-2542,670.3406977945551]
+    notes: 2 for IST, 3 for an early speedfood
+    line-color: red
+- .dir(E)
+- _Equipment::Bow<Forest Dweller's Bow>:
+    coord: [-2346,687.5794301253582]
+- .dir(N)
+- _Material<Endura Carrot, 3>:
+    coord: [-2312.5,527.5160444891626]
+- .dir(N):
+    coord: [-2299.5,451.48593631196854]
+- _Material<Rushroom, 4>:
+    notes: 2 for IST, 2 for early speedfood
+- _Shrine::MoggLatan
+- _Korok::R60
+- .dir(.E) SQ
+- _Material<2 Wood 10 Durian>:
+    coord: [-2187.5,440.4815785494802]
+- BLSS to Guard Chamber:
+    notes: Go for unloaded gate but can clip in
+    coord: [-398.5,-829.5017332009902]
+- Royal Claymore + RGC:
+    notes: Everything here is like Any%, up to the lizal sneakstrike and cooking. Do get razorshroom and naydra fang
+- .!!(DO NOT BREAK RGC)
+- _Material<Razorshroom>:
+    hide-icon-on-map: true
+    comment: Right box
+- _Material<Naydra Fang>:
+    hide-icon-on-map: true
+    comment: Chest below stairs
+- _Chest<3 Ancient Arrow>
+- Kill Lizalfos
+- _Equipment::Weapon<Boomerang>:
+    hide-icon-on-map: true
+- _Equipment::Shield<Lizal Shield>:
+    hide-icon-on-map: true
+- _Cook<Speed Food>:
+    comment: 3 lotus + 2 rushroom, eat
+- Run out:
+    coord: [-319.75,-778.75] 
+- .dir(<S) Turn
+- Kill .enemy(Stalker):
+    notes: need 1 Shaft 2 Spring 2 Screws. Kill up to 3. Order of picking these up does NOT matter
+    coord: [-222.25,-435.75]
+- .dir(S) to wall:
+    coord: [-210,-262]
+- BLSS to fairy:
+    coord: [949.19, 138.58, 502.84]
+- .dir(<N)
+- _Npc<Riverbed Reward>:
+    notes: Keep the weapon for IST
+    coord: [823,146]
+- _Shrine::KayaWan
+- BLSS
+- _Shrine::DakaTuss
+- .dir(S) + .dir(E>>) + .dir(S)
+- _Npc::SheikaFemale<Impa>:
+    coord: [1775,987]
+- Activate Shrine:
+    coord: [1833.5,906.1630199330921]
+- .dir(<<S) Super to camp
+- RGC slam kill 3 bokos:
+    notes: drop down and X->Y. Need the big AOE slam so keep high drop speed
+- _Npc<Hestu>:
+    coord: [2069.5,1425]
+- .dir(<S) to ore
+- _Material<Amber>:
+    notes: 84% chance from 3 normal ores, don't break rare ore because we blss off it
+    coord: [2153,1547.5]
+- BLSS to near hateno:
+    coord: [3190.5,2040.0051500829413]
+- .dir(E>) to shrine
+- _Shrine::MyahmAgana
+- SQ to shop:
+    coord: [3360.5,2135.5]
+- .!!(IST Part 1):
+    notes: "IST sim file: .link(https://github.com/iTNTPiston/botwaq/blob/main/IST.txt) I will make a video in the future"
+- .dir(N)
+- Trade 5 stam 3 heart:
+    coord: [3436.25,2100.010102085769]
+- Light pot with torch throw
+- _Cook<Endura Speed Attack>:
+    comment: ORDER MATTERS
+- _Npc<Shrine Lady>:
+    coord: [3426.25,2162.2530702417534]
+    notes: Cannot do this quest when raining. You can talk to her on second visit
+- .dir(N) Smuggle blue flame:
+    coord: [3437.5,1975]
+- 2 WB to Lab:
+    movements:
+    - to: [3640,2096]
+    - to: [3779.5,2124.5]
+- Camera:
+    icon: snap
+    split-type: UserDefined
+    coord: [3776,2126.5]
+- Upgrade bombs and stasis
+- .dir(W) Turn
+- _Npc<Sheep Lady>:
+    coord: [3623,2101.5]
+- .dir(W) Turn to shop:
+    coord: [3360.5,2135.5]
+- .!!(IST part 2)
+- .dir(SW)
+- _Npc<Horned Statue>:
+    coord: [3285.75,2196.75]
+- .dir(<S) To bolson
+- _Equipment::Weapon<1 Hammer>:
+    hide-icon-on-map: true
+    notes: For breaking ores
+- Omagadupe:
+    icon: camera-plus
+    split-type: UserDefined
+    coord: [3327.5,2282]

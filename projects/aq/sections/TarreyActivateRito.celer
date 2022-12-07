@@ -1,0 +1,8 @@
+TarreyActivateRito:
+- _Warp::Shrine::DahHesho:
+    line-color: cyan
+- .dir(N.) to TT:
+    coord: [3984.5,-1597.5796282054716]
+- _Npc<Hudson>:
+    comment: Twice
+- _Tod::Noon

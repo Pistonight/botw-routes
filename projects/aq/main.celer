@@ -1,0 +1,62 @@
+---
+_project:
+  authors:
+    - iTNTPiston
+  description: All Quests Speedrun
+  name: All Quests
+  url: ""
+  version: 0.3.0
+
+_config:
+  split-format:
+    Shrine: "[{{%03 Shrine}}] {{_}}"
+    Warp: "Warp {{_}}" # Checking rupee during warp for quests
+
+_route:
+  - (!=) This route is an archive. The most recent route can be found at .link(https://celer.itntpiston.app#/gh/iTNTPiston/botw-routes/aq)
+  - Plateau: __use__ Plateau
+  - Hateno: __use__ Kak1Hateno
+  - Medoh + Naboris: 
+    - __use__ Medoh
+    - __use__ Naboris
+  - Hebra + Ruta:
+    - __use__ Hebra
+    - __use__ Kak2Ruta
+    - __use__ TarreyActivateGoron
+  - Gerudo + Lake:
+    - __use__ Eldin
+    - __use__ TarreyActivateGerudo
+    - __use__ Gerudo
+    - __use__ Lake
+  - Rudania + Central:
+    - __use__ Rudania
+    - __use__ KorokForest
+    - __use__ KorokForest2
+    - __use__ Central
+  - Kakariko + Faron:
+    - __use__ TarreyActivateRito
+    - __use__ Rito
+    - __use__ TarreyActivateZora
+    - __use__ ZDQuests
+    - __use__ TarreyActivateHateno
+    - __use__ Kak3Faron
+  - Hateno + Tarrey Town:
+    - __use__ Hateno
+    - __use__ ForgottenTemple
+    - __use__ TarreyFinal
+  - Ganon:
+    - _Warp::Shrine::KeoRuug
+    - _Npc<Trial Korok>:
+        coord: [432.25,-2167.49078927474]
+    - .dir(N) + Acorn BLSS:
+        coord: [-256,-1060.8995733826514]
+    - Get Skew Bounce:
+        notes: Can also just kill him normally
+    - Calamity:
+        icon: calamity
+        split-type: UserDefined
+        notes: FURY + stasis 8AA headshots
+    - Dark Beast:
+        icon: ganon
+        split-type: UserDefined
+        hide-icon-on-map: true

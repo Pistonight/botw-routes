@@ -4,3 +4,4 @@ build:
     just projects/as32/build
     just projects/as33/build
     just projects/akm/build
+    just projects/aq/build

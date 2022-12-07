@@ -1,0 +1,114 @@
+TarreyActivateGoron:
+- .dir(N>) delay:
+    movements:
+    - to: [3284.5,-430.83222614419265]
+      warp: true
+- finish quest
+- _Chest<Lightscale Trident>:
+    coord: [3331.5,-539.2848849971588]
+    notes: Don't throw away. For durability transfer later
+- _Npc::ZoraMale<Fronk>:
+    coord: [3340.375,-535.4719221439664]
+    notes: At SPA area 8PM to 7AM, otherwise fixing pillars. If you mess up too much it will be after 7AM, in which case it will be better to do diving quest first, then fronk, then WB to shrine from fronk, and do lynel lady on second visit
+    time-override: 30 # for 2 quests
+- _Npc::ZoraFemale<Lynel Lady>:
+    comment: Twice
+    coord: [3349.375,-509.8367705381688]
+- _Npc::ZoraMale<Diving Quest>:
+    coord: [3292.625,-519.5906331003753]
+    comment: midair after swimming up.
+- .dir(W) Activate Shrine
+- .!!(DO NOT THROW TRIDENT)
+- _Shrine::DagahKeek
+- .dir(<<W)
+- _Boss::Hinox::Blue:
+    coord: [2923,-290.92037179452836]
+    fury: 3
+    comment: .fury()
+- .dir(S.) Turn (can super)
+- .loc(Monument):
+    coord: [2838.5,188.50332156742115]
+- .dir(S>) to deer:
+    coord: [2492,339.23175373234244]
+- Ride to pedestal:
+    time-override: 20
+- _Npc<Kass>:
+    coord: [2576,481.28800848446645]
+- _Shrine::MezzaLo
+- .dir(N>) TS
+- _Npc::ZoraFemale<Letter Girl>:
+    coord: [2749,-88.23029102874534]
+- Bomb Letter
+- .dir(E)
+- .loc(Monument):
+    coord: [2867,-71.59968009139811]
+- Run to the other side
+- .loc(Monument):
+    coord: [2879,-33.08442792268852]
+- .dir(W>), Letter BLSS:
+    movements:
+    - to: [2732.5,-82.47801310744399]
+    - to: [2661,-147.41660827237956]
+    - to: [2603,-161.9223525956595]
+    - to: [2237,-198.7975621243986]
+    - to: [1780,-78.75002289725126]
+    time-override: 30
+- .dir(<E) TS
+- _Shrine::SohKofi
+- Elevator BLSS
+- _Shrine::ShehRata
+- .dir(<N) Turn (super)
+- _Shrine::MirroShaz:
+    time-override: 40
+- SQ .dir(S)
+- Kill .enemy(Octorok):
+    notes: Get Octoballoon. Not guaranteed, 84%. We do the shrine so that it's less time loss to rng
+    coord: [1257,-1111.1588602507172]
+- .dir(W)
+- _Tod::Noon:
+    comment: Make 12pm-3pm if not
+    notes: For Balloon Girl (7AM-8PM), Darner Girl (8AM-8PM) and Greyson (>9PM). 
+      If it's after 3PM, it will be really tight to make it for Darner Girl, and if you set TOD at darner girl, you have to set TOD again for Greyson. So just setting it once here is better.
+- _Npc<Balloon Girl>:
+    coord: [1066,-1136.1687642563725]
+- .dir(E) + .dir(S)
+- _Shrine::NamikaOzz:
+    time-override: 30
+    notes: Eat ATK 3, stasis + 4AA headshots with GEB. Snap. Grab axe and Frostspear in chest
+- _Snap::Quest<Small Guardian>:
+    hide-icon-on-map: true
+    comment: Inside Shrine
+- _Equipment::Weapon<Axe and Frostspear>:
+    hide-icon-on-map: true
+    comment: For Nebb
+- .gale() + BLSS:
+    gale: 1
+    coord: [2052,-726.1045862997235]
+- _Shrine::TahMuhl
+- .dir(E) + .dir(NE) to stable
+- _Npc<Shrine Guy>:
+    coord: [2610,-1140.0332774590024]
+- .dir(<E) to shrine
+- _Shrine::MoaKeet
+- .dir(N) Turn to shrine
+- _Shrine::SahDahaj
+- .dir(E) + Run + .dir(<E)
+- _Shrine::ZeKasho
+- .dir(E) Turn
+- _Material<Armoranth>:
+    coord: [3256,-1740.5062927691179]
+- SQ to stable
+- _Npc<Darner Quest>:
+    coord: [3142,-1690.6525216870973]
+    notes: Talk to big sis give flower, 2ng option, then little sis, big sis, little sis, big sis
+    time-override: 30
+- .dir(E) super + midairs
+- _Material<2 Apples>:
+    hide-icon-on-map: true
+    comment: From the korok
+    notes: 1 for baked apple, 1 for fruit cake
+- _Shrine::DahHesho
+- .dir(N.) Turn to TT:
+    coord: [3984.5,-1597.5796282054716]
+- _Npc<Hudson>:
+    comment: Twice

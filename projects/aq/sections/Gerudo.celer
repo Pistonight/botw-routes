@@ -1,0 +1,87 @@
+Gerudo:
+- _Warp::Shrine::KeehaYoog:
+    line-color: cyan
+- _Tod::Morning:
+    notes: For Farosh + Gerudo Town quests
+- .dir(N) + .dir(W) + .dir(S):
+    movements:
+    - to: [-3845,605]
+    - to: [-4023,595]
+    - to: [-4038,881]
+- Kill .enemy(Lynel):
+    time-override: 60
+- _Material<Lynel Hoof>
+- _Snap::Quest<Big Sword>:
+    movements: 
+    - to: [-3986,970]
+      away: true
+    notes: You can snap from where the lynel was. Also keep an eye on farosh and shoot a scale
+- _Material<Farosh Scale>:
+    coord: [-4150,788]
+- .dir(<N) Turn:
+    coord: [-4295,489]
+- _Snap::Quest<Big Statue>:
+    movements: 
+    - to: [-4377,524]
+      away: true
+- .dir(S>) Turn
+- _Shrine::KemaKosassa
+- BLSS
+- _Shrine::KemaZoos
+- .dir(S>>) + .dir(S.) Turn
+- _Boss::Molduga:
+    coord: [-4810.5,2784.5]
+    fury: 3
+    comment: .fury(), Get Guts
+- _Shrine::ThoKayu
+- BLSS
+- _Shrine::HawaKoth:
+    comment: Snap backup guardian
+- _Snap::Quest<Gerudo Skeleton>:
+    coord: [-4846.5,3763.3366904384147]
+- _Npc::Gerudo<Durian Lady>:
+    coord: [-4832.625,3733.598231800006]
+- .dir(<<E) Turn + .dir(NE) midairs:
+    notes: Equip gerudo outfit middle
+- _Npc::Gerudo<Sand Seal Race>:
+    coord: [-3764,3129.2366464057413]
+- _Shrine::RaqaZunzo
+- .dir(N) Turn
+- _Npc<Boots Guy>:
+    comment: Three times
+    coord: [-3760.5,2873.5]
+- _Npc<Secret Club>:
+    comment: "3334"
+    coord: [-3793,2931.5]
+- .dir(W)
+- _Npc::Gerudo<Berry Lady>:
+    coord: [-3917.75,2949.25]
+    comment: Twice
+- Drop down
+- _Npc<Guard Captain>:
+    coord: [-3911.25,2930.25]
+- _Npc::Gerudo<Molduga Lady>:
+    coord: [-3907,2911.75]
+    notes: If after 2PM, she will be in front of Riju's palace
+- _Npc::Gerudo<Trash Girl>:
+    coord: [-3835,2853.5]
+- _Npc::Gerudo<Flint Lady>:
+    comment: Twice
+    coord: [-3825,2897.171471657931]
+- _Npc::Gerudo<Riju>:
+    coord: [-3884.5,2964.5]
+- Climb up + BLSS
+- _Npc<Watchtower Guy>:
+    coord: [-3277,2558]
+- _Cook<Chilly Elixir>:
+    comment: Spring + Winterwing
+    coord: [-3275,2571]
+- _Npc::Gerudo<Rhondson>:
+    notes: Need to take off gerudo outfit. Equip Flamebreaker
+    coord: [-3269.43, 129.00, 2585.22]
+- _Npc::Rito<Ice Guy>:
+    comment: Twice
+    coord: [-3237.75,2574.5]
+- SQ .dir(NE)
+- _Memory::KaraKaraBazaar:
+    time-override: 200 # for all gerudo and bazzar quests

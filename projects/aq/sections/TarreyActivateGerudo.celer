@@ -1,0 +1,48 @@
+TarreyActivateGerudo:
+- _Warp::Shrine::DahHesho:
+    line-color: red
+- .dir(NW) to stalkers:
+    notes: Land in the middle of them so you attract both, use falcon bow and aim a tiny bit above eye
+- Kill .enemy(2 Stalkers):
+    time-override: 40
+- _Snap::Quest<Guardian Stalker>:
+    coord: [3654,-1552.409629673918]
+- .dir(E) to TT:
+    coord: [3984.5,-1597.5796282054716]
+- .dir(S) midairs
+- _Shrine::KenaiShakah
+- Jump out + .dir(SE) midair:
+    notes: Strong wind
+- updraft + .dir(NE) super
+- _Shrine::KahMael
+- .gale() + .dir(.N) Turn:
+    gale: 1
+- .!!(READ TABLET)
+- .!!(READ TABLET)
+- .!!(READ TABLET)
+- BLSS with orb
+- _Shrine::RitaagZumo
+- .dir(N) + .dir(<N) midairs
+- _Shrine::KatosaAug
+- _Npc<Guard>:
+    comment: Twice
+- _Npc<Quest Lady>:
+    comment: 2nd Option
+- .dir(N) midairs
+- Smuggle blue flame:
+    coord: [4153.5,-3173]
+    notes: If you don't have any wood weapon, there's a moblin nearby with one
+    time-override: 60
+- .dir(E) super to lab:
+    coord: [4506,-3168]
+- _Npc<Robbie>:
+    notes: Your AA would reset to 999 after he gives you 3
+- _Npc<Robbie's Wife>
+- .dir(N>) Turn:
+    coord: [4627.5,-3683.5]
+- _Snap::Quest<Skywatcher>:
+    movements:
+    - to: [4573.5,-3679.5]
+      away: true
+- _Shrine::TuKaloh:
+    comment: Barb Helm
