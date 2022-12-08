@@ -1,5 +1,6 @@
 Gerudo:
 - _Warp::Shrine::KeehaYoog:
+    comment: Lightning pedestal shrine
     line-color: cyan
 - _Tod::Morning:
     notes: For Farosh + Gerudo Town quests
@@ -9,24 +10,25 @@ Gerudo:
     - to: [-4023,595]
     - to: [-4038,881]
 - Kill .enemy(Lynel):
+    notes: Eat attack food, headshot with shock arrows, spin to win with RGC, can eat stam food to maintain spin
     time-override: 60
 - _Material<Lynel Hoof>
 - _Snap::Quest<Big Sword>:
     movements: 
     - to: [-3986,970]
       away: true
-    notes: You can snap from where the lynel was. Also keep an eye on farosh and shoot a scale
+    notes: You can snap from where the lynel was. Also keep an eye on Farosh and shoot a scale
 - _Material<Farosh Scale>:
     coord: [-4150,788]
 - .dir(<N) Turn:
     coord: [-4295,489]
-- _Snap::Quest<Big Statue>:
+- _Snap::Quest<Eighth Heroine Statue>:
     movements: 
     - to: [-4377,524]
       away: true
 - .dir(S>) Turn
 - _Shrine::KemaKosassa
-- BLSS
+- BLSS .dir(S)
 - _Shrine::KemaZoos
 - .dir(S>>) + .dir(S.) Turn
 - _Boss::Molduga:
@@ -34,44 +36,54 @@ Gerudo:
     fury: 3
     comment: .fury(), Get Guts
 - _Shrine::ThoKayu
-- BLSS
+- BLSS .dir(S)
 - _Shrine::HawaKoth:
-    comment: Snap backup guardian
+    comment: Get outside skew
+    notes: Snap backup guardian
 - _Snap::Quest<Gerudo Skeleton>:
     coord: [-4846.5,3763.3366904384147]
-- _Npc::Gerudo<Durian Lady>:
+- _Npc::Gerudo<Give Barta durian>:
     coord: [-4832.625,3733.598231800006]
 - .dir(<<E) Turn + .dir(NE) midairs:
     notes: Equip gerudo outfit middle
 - _Npc::Gerudo<Sand Seal Race>:
     coord: [-3764,3129.2366464057413]
-- _Shrine::RaqaZunzo
+- _Shrine::RaqaZunzo:
+    comment: Radiant shield
 - .dir(N) Turn
 - _Npc<Boots Guy>:
-    comment: Three times
+    comment: The Eighth Heroine
+    notes: Talk three times
     coord: [-3760.5,2873.5]
-- _Npc<Secret Club>:
-    comment: "3334"
+- _Npc<The Secret Club's Secret>:
+    notes: "Password 3334"
+    comment: Talk to lady inside
     coord: [-3793,2931.5]
 - .dir(W)
-- _Npc::Gerudo<Berry Lady>:
+- _Npc::Gerudo<Polluting Lady>:
     coord: [-3917.75,2949.25]
-    comment: Twice
+    notes: Talk twice
 - Drop down
 - _Npc<Guard Captain>:
+    comment: The Search for Barta
     coord: [-3911.25,2930.25]
-- _Npc::Gerudo<Molduga Lady>:
+- _Npc::Gerudo<Molduga Guts Lady>:
+    comment: Medicinal Molduga
     coord: [-3907,2911.75]
     notes: If after 2PM, she will be in front of Riju's palace
-- _Npc::Gerudo<Trash Girl>:
+- _Npc::Gerudo<Berry Girl>:
+    comment: The Mystery Polluter
     coord: [-3835,2853.5]
 - _Npc::Gerudo<Flint Lady>:
-    comment: Twice
+    comment: Tools of the Trade
+    notes: Talk twice
     coord: [-3825,2897.171471657931]
 - _Npc::Gerudo<Riju>:
+    comment: The Thunder Helm
     coord: [-3884.5,2964.5]
-- Climb up + BLSS
+- Climb up + BLSS .dir(NE) to Kara Kara Bazaar
 - _Npc<Watchtower Guy>:
+    comment: The Eye of the Sandstorm
     coord: [-3277,2558]
 - _Cook<Chilly Elixir>:
     comment: Spring + Winterwing
@@ -80,8 +92,8 @@ Gerudo:
     notes: Need to take off gerudo outfit. Equip Flamebreaker
     coord: [-3269.43, 129.00, 2585.22]
 - _Npc::Rito<Ice Guy>:
-    comment: Twice
+    notes: Talk twice
     coord: [-3237.75,2574.5]
 - SQ .dir(NE)
 - _Memory::KaraKaraBazaar:
-    time-override: 200 # for all gerudo and bazzar quests
+    time-override: 200 # for all gerudo and bazaar quests

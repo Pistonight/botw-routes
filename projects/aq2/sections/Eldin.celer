@@ -4,13 +4,15 @@ Eldin:
 - .dir(N) + midair
 - .loc(Monument):
     coord: [3224.5,-742.9558281347754]
+    icon: npc-zora-male
 -  .dir(W>) + .dir(W) + .dir(W)
 - .loc(Monument):
     coord: [3707.5,-523.3688709651187]
+    icon: npc-zora-male
 - .dir(N) to tree:
     coord: [3745,-630.4112601093257]
     notes: Pick up the shock arrows so Link doesn't get distracted
-- BLSS to Eldin memory
+- BLSS .dir(W) to Eldin memory
 - _Memory::EldinCanyon:
     time-override: 60
 - .dir(E) Turn
@@ -18,40 +20,41 @@ Eldin:
 - .dir(N) + .dir(N) to .loc(South Mine):
     coord: [1658,-1963.0144598482575]
 - _Material<10 Lizards>:
-    hide-icon-on-map: true
     time-override: 30
     notes: Get 1-2 flints here in case rng bad later
 - _Npc<Lizard Guy>:
-    hide-icon-on-map: true
+    comment: Fireproof Lizard Roundup
+    notes: Equip Flamebreaker Armor
 - _Npc<Greyson>:
-    hide-icon-on-map: true
     notes: Should be night time already. If not, make night
 - .dir(<N) + .dir(N>):
     coord: [1644.75,-2463.0383285018875]
-- _Npc::Goron<Shrine Brother>:
-    comment: "21"
+- _Npc::Goron<Brother's Roast Goron>:
+    comment: "Text 21"
 - Run to shop:
     coord: [1680,-2460.5]
 - .!!(TRANSMUTATE):
     icon: tots
     hide-icon-on-map: true
     comment: 5 Flints + RGC
-    notes: Equip trident, Drop flints, then overload. Hold smuggle 5 rushrooms, equip RGC, sell all, pick up flints, unhold, buy goron spice, slam attack
+    notes: Equip trident, Drop flints, then overload. Equip RGC, hold smuggle 5 rushrooms, sell all, pick up flints, unhold, buy goron spice, slam attack
 - _Npc::Goron<Bludo>:
     coord: [1705.75,-2447.75]
 - .dir(N>)
 - _Shrine::ShaeMosah
 - .dir(<N) Turn
-- Rescue yunobo:
+- _Npc::Goron<Rescue Yunobo>:
     coord: [1635,-2936.561622231986]
 - .dir(W.) Turn
 - _Tod::Night:
+    coord: [1350,-3040]
     notes: For Kilton + Xenoblade (<3AM) and East Akkala Stable (>5AM)
 - _Boss::Talus::Igneo:
     coord: [1337,-3051.971476463712]
     fury: 3
     comment: .fury()
-- .dir(<W)
+    notes: Pick up flint (need 11)
+- .dir(<E)
 - _Shrine::ShoraHah
 - Minecart + .dir(N>):
     coord: [1727,-3315.1350048347513]
@@ -85,5 +88,5 @@ Eldin:
 - SQ to kilton
 - _Snap::Quest<Kilton>:
     coord: [3247,-3440.5]
-    notes: Snap multiple to be safe
+    notes: Snap multiple to be safe. Don't have to talk
     time-override: 60

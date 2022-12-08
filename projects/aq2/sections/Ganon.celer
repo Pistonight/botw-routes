@@ -1,0 +1,17 @@
+Ganon:
+- _Warp::Shrine::KeoRuug
+- _Npc<The Korok Trials>:
+    coord: [432.25,-2167.49078927474]
+- .dir(N) to top of Deku Tree
+- Acorn BLSS .dir(SW) to castle:
+    coord: [-256,-1060.8995733826514]
+- Get Skew Bounce:
+    notes: Can also just kill him normally
+- Calamity:
+    icon: calamity
+    split-type: UserDefined
+    notes: FURY + stasis 8AA headshots
+- Dark Beast:
+    icon: ganon
+    split-type: UserDefined
+    hide-icon-on-map: true

@@ -6,82 +6,88 @@ Kak3:
 - Activate Fairy Fountain:
     coord: [1976.5,845.9673167813362]
 - _Snap::Quest<Fairy Fountain>
-- .dir(<W) To Cucoo 1:
-    notes: 2 Cucoos, talk to man, play tag with cottla, 3 cucoos, talk to pikango, Koko, make night
+- .dir(<W) To cucoo by shrine:
+    notes: 2 Cucoos, talk to cucco man, play tag with cottla, 3 cucoos, talk to pikango, Koko, make night
 - _Npc::SheikaMale<Cucoo Man>:
     coord: [1832.75,964.0030702417534]
-- _Npc::SheikaFemale<Cottla>:
+- _Npc::SheikaFemale<Playtime with Cottla>:
     hide-icon-on-map: true
-    comment: Play Tag
+    comment: Play tag
 - _Npc::SheikaMale<Pikango>:
-    comment: Twice
+    comment: Find the Fairy Fountain
+    notes: Talk twice
     coord: [1828.75,992.5143608082008]
-- _Npc::SheikaMale<Koko>:
+- _Npc::SheikaMale<Koko's Kitchen>:
     coord: [1798.25,1016.2737696135737]
     hide-icon-on-map: true
-    comment: Talk until get honey apple
+    comment: Finish all four
+    notes: (Koko's Kitchen, Cooking with Koko, Koko Cuisine, Koko's Specialty)
 - _Tod::Night:
     notes: For the night cucoo + firefly. Cannot be raining or there won't be fireflies
 - _Npc::SheikaFemale<Arrow Quest Lady>:
     comment: B, talk again
     coord: [1826.5,1041.4893036738922]
-- 1 cucoo
+- Cucoo by Pikango
 - Light torches with firerod
-- _Npc::SheikaFemale<Arrow Quest Lady>:
+- _Npc::SheikaFemale<Arrows of Burning Heart>:
     coord: [1826.5,1041.4893036738922]
-- Last cucoo
-- _Npc::SheikaMale<Cucoo Man>:
+- Last cucoo in orchard
+- _Npc::SheikaMale<Flown the Coop>:
     coord: [1832.75,964.0030702417534]
-- _Npc::SheikaFemale<Firefly Lady>:
-    comment: Twice, drop fireflies
-    notes: Grab 5 fireflies as you run toward the house
+- _Npc::SheikaFemale<By Firefly's Light>:
+    notes: Grab 5 fireflies as you run toward the house, talk twice, drop fireflies
     coord: [1901,1028.7342526310076]
 - SQ to impa
 - _Npc::SheikaFemale<Impa>:
     coord: [1776.75,984.7168215810534]
 - _Npc::SheikaFemale<Paya>:
     coord: [1775.75,991.2193966225241]
+    comment: The Stolen Heirloom
 - _Tod::Night:
     hide-icon-on-map: true
     comment: After paya
 - _Shrine::TalohNaeg
 - _Equipment::Weapon<Traveller Sword>:
     coord: [1927.75,985.9673167813362]
-    comment: Mag from water
-    notes: Make sure you stay close to the guy and keep him in view
+    comment: Mag from waterfall by entrance
+    notes: Make sure you stay close to Dorian and keep him in view
 - _Equipment::Weapon<Windcleaver>:
     coord: [2014,957.4560262148889]
     notes: Make sure you have empty slot. The windcleaver might despawn after the cutscene so make sure to pick it up
-- _Shrine::LaknaRokee
+- _Shrine::LaknaRokee:
+    notes: Can approach Dorian after "Show yourself!"
 - .dir(S.) + .dir(SE) super
-- _Shrine::KamUrog
+- _Shrine::KamUrog:
+    notes: Shoot cursed statue
 - _Tod::Noon:
     hide-icon-on-map: true
 - _Npc<Doctor>:
     coord: [2504,1518.5361496206433]
-    comment: B
-- .dir(S) + BLSS
-- _Chest<Saphhire>:
-    notes: The treasure quest
+    comment: The Cursed Statue
+    notes: Can cancel talking immediately
+- .dir(S) + BLSS .dir(SW)
+- _Chest<Misko's Treasure>:
+    notes: Get sapphire in middle chest
     coord: [1951,2609.562943681468]
-- SQ to shrine
+- SQ .dir(NW) to shrine
 - _Shrine::TotoSah
 - .dir(N>) Turn super
 - _Memory::AshSwamp
 - .dir(SW) to horse, ride near stable:
     coord: [1765,2045.8746152883996]
 - _Npc<Horse Guy>:
-    comment: B, talk again, ride horse to him
+    comment: Wild Horses
+    notes: B, talk again, ride horse to him
     coord: [1747,1924.3264818209127]
-- _Npc<Treasure Twin>:
-    comment: Twice
+- _Npc<Misko, the Great Bandit>:
+    notes: Talk twice
     coord: [1776.5,1931.329254942496]
-- SQ to shrine
+- SQ .dir(W) to shrine
 - _Shrine::HaDahamar
 - .dir(<<W) + .dir(NW)
 - _Shrine::ReeDahee
 - Shield surf SCW
 - _Shrine::SheeVaneer
 - _Shrine::SheeVenath
-- .dir(SW)
+- - .dir(SW)
 - _Shrine::ShaeKatha

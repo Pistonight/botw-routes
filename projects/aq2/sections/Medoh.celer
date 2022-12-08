@@ -1,19 +1,19 @@
 Medoh:
 - _Warp::Shrine::MoggLatan:
     line-color: yellow
-- BLSS to rito
-- _Npc::Rito<Chief>:
+- BLSS .dir(NW) to Rito
+- _Npc::Rito<Rito Chief>:
     coord: [-3626.75,-1843.5]
 - Revali Memory:
     split-type: UserDefined
     icon: medoh-memory
     hide-icon-on-map: true
 - _Shop<Material Shop>:
-    comment: Wheat Sugar Butter Shroom
+    comment: Wheat, Sugar, Butter, Sunshrooms
 - .dir(<N) TS
-- _Equipment::Bow<10 Arrows + Swallow>:
+- _Equipment::Bow<10 Arrows + Swallow Bow>:
     coord: [-3793.25,-2317.5]
-- _Equipment::Bow<Falcon>:
+- _Equipment::Bow<Falcon Bow>:
     hide-icon-on-map: true
 - Enter Medoh:
     split-type: UserDefined
@@ -22,15 +22,18 @@ Medoh:
     hide-icon-on-map: true
     comment: Inside Medoh
     notes: If you forget this one, there is a backup later in Ketoh Wawai (dark forest shrine)
+- _Chest<Ice Arrows>:
+    hide-icon-on-map: true
 - Windblight:
     split-type: UserDefined
     icon: medoh-done
-    notes: FDB 2 body 4 head
+    notes: Stasis, FDB 2 body 4 head
 - _Material<Cold Darner>:
     movements:
     - to: [-3607.75,-1853.25]
       warp: true
-    comment: On deck, right after medoh
+    comment: On deck, right after Medoh
+- Finish Divine Beast Vah Medoh quest
 - _Equipment::Bow<Great Eagle Bow>:
     hide-icon-on-map: true
 - .dir(N>) to camp:

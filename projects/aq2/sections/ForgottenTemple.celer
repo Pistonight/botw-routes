@@ -14,7 +14,8 @@ ForgottenTemple:
 - .dir(S) Fast Turn
 - _Shrine::LannoKooh
 - Cryo out + .dir(NE)
-- Snowball throw + Stasis MAX
+- Snowball throw + Stasis MAX:
+    notes: Throw snowball up hill and let it roll almost all the way down
 - _Shrine::GeeHarah
 - .dir(N) + .dir(NE) + .dir(N>) Turn:
     movements:
@@ -22,22 +23,23 @@ ForgottenTemple:
     - to: [-2117,-2702.8201432572932]
     - to: [-1851,-3091.974249585295]
 - _Snap::Quest<Stalhorse>
-- .gale() + .dir(S) Turn:
+- .gale() + .dir(<S) Turn:
     gale: 1
 - _Shrine::RinOyaa
 - _Npc<Stalhorse Lady>:
     coord: [-1654,-2597.7785464335393]
-    comment: Twice
-- BLSS
+    comment: Stalhorse Pictured!
+    notes: Talk twice
+- BLSS .dir(<S)
 - _Shrine::MonyaToma
 - .dir(W) Turn
 - _Shrine::MaagNorah
-- .dir(<<E) Turn:
+- .dir(<<E) Turn to stable:
     notes: Glide to a rock to the left for a better angle
-- _Npc<Leviathan Quest>:
+- _Npc<Leviathan Bones>:
     coord: [-1543,-1796.9687033421287]
     notes: Talk to any of 3, then talk once to each
-- .dir(N>) Turn
+- .dir(N>) Turn to Forgotten Temple
 - _Shrine::RonaKachta
 - _Chest<Wild Set>:
     coord: [-1060,-2694.324059065053]

@@ -1,5 +1,5 @@
 Kak1Hateno:
-- BLSS to Satori Lotus
+- BLSS .dir(NW) to Satori Lotus
 - _Material<Lotus, 5>:
     coord: [-2542,670.3406977945551]
     notes: 3 for an early speedfood, 2 for later speedfood
@@ -21,7 +21,7 @@ Kak1Hateno:
 - .dir(.E) SQ
 - _Material<2 Wood 10 Durian [IST]>:
     coord: [-2187.5,440.4815785494802]
-- BLSS to Guard Chamber:
+- BLSS .dir(NE) to Guard Chamber:
     notes: Go for unloaded gate but can clip in
     coord: [-398.5,-829.5017332009902]
 - Royal Claymore + RGC:
@@ -40,7 +40,7 @@ Kak1Hateno:
 - _Equipment::Shield<Lizal Shield>:
     hide-icon-on-map: true
 - _Cook<Speed Food>:
-    comment: 3 lotus + 2 rushroom, eat
+    comment: 3 lotus + 2 rushroom, Eat
 - Run out:
     coord: [-319.75,-778.75] 
 - .dir(<S) Turn
@@ -49,30 +49,34 @@ Kak1Hateno:
     coord: [-222.25,-435.75]
 - .dir(S) to wall:
     coord: [-210,-262]
-- BLSS to fairy:
+- BLSS .dir(SE) to Kaya Wan fairy
+- _Material<Fairy>:
     coord: [949.19, 138.58, 502.84]
 - .dir(<N)
 - _Npc<Riverbed Reward>:
     notes: Keep the weapon for IST
     coord: [823,146]
-- _Shrine::KayaWan
-- BLSS
+- _Shrine::KayaWan:
+    comment: Get core
+- BLSS .dir(E>)
 - _Shrine::DakaTuss
+- .!!(EAT BEFORE MIDAIR)
 - .dir(S) + .dir(E>>) + .dir(S)
 - _Npc::SheikaFemale<Impa>:
     coord: [1775,987]
-- Activate Shrine:
+- Activate Taloh Naeg Shrine:
     coord: [1833.5,906.1630199330921]
 - .dir(<<S) Super to camp
-- RGC slam kill 3 bokos:
-    notes: drop down and X->Y. Need the big AOE slam so keep high drop speed
+- RGC slam kill 3 bokos
 - _Npc<Hestu>:
+    notes: Talk twice, turn in korok seed
+    comment: The Priceless Maracas
     coord: [2069.5,1425]
 - .dir(<S) to ore
 - _Material<Amber>:
-    notes: 84% chance from 3 normal ores, don't break rare ore because we blss off it
+    notes: 84% chance from 3 normal ores, don't break rare ore because we BLSS off it
     coord: [2153,1547.5]
-- BLSS to near hateno:
+- BLSS .dir(E>) to near hateno:
     coord: [3190.5,2040.0051500829413]
 - .dir(E>) to shrine
 - _Shrine::MyahmAgana
@@ -101,19 +105,21 @@ Kak1Hateno:
     coord: [3776,2126.5]
 - Upgrade bombs and stasis
 - .dir(W) Turn
-- _Npc<Sheep Lady>:
+- _Npc<Sheep Rustlers Lady>:
     coord: [3623,2101.5]
 - .dir(W) Turn to shop:
     coord: [3360.5,2135.5]
 - .!!(IST part 2)
 - .dir(SW)
-- _Npc<Horned Statue>:
+- _Npc<The Statue's Bargain>:
     coord: [3285.75,2196.75]
-- .dir(<S) To bolson
+- .dir(<S) to Bolson:
+    coord: [3327.5,2282]
 - _Equipment::Weapon<1 Hammer>:
     hide-icon-on-map: true
     notes: For breaking ores
+- _Npc<Hylian Homeowner>:
+    icon: location
 - Omagadupe:
     icon: camera-plus
     split-type: UserDefined
-    coord: [3327.5,2282]

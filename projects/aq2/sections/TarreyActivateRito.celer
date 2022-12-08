@@ -1,8 +1,9 @@
 TarreyActivateRito:
 - _Warp::Shrine::DahHesho:
     line-color: cyan
-- .dir(N.) to TT:
+- .dir(N.) to Tarrey Town:
     coord: [3984.5,-1597.5796282054716]
 - _Npc<Hudson>:
-    comment: Twice
-- _Tod::Noon
+    comment: Talk twice
+- _Tod::Noon:
+    notes: Timing for Bareeda Naag is slightly tight

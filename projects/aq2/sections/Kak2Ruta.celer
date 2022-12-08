@@ -2,9 +2,11 @@ Kak2Ruta:
 - _Warp::Shrine::TalohNaeg:
     line-color: yellow
 - _Npc<Pumpkin Man>:
+    notes: Need to talk for The Stolen Heirloom quest
     coord: [1841,984.478013107444]
     time-override: 20
 - SQ to Impa:
+    icon: npc-sheika-female
     coord: [1774.5,984.9782111875575]
     time-override: 20
 - .dir(<E) up:
@@ -14,7 +16,7 @@ Kak2Ruta:
 - .dir(N) to tree stump:
     coord: [1871,814.9108639490987]
 - _Material<Nightshade>
-- BLSS to shrine:
+- BLSS .dir(E) to shrine:
     time-override: 30
 - _Shrine::DowNaeh
 - .dir(N>) + .dir(E) Fast Turn:
@@ -24,23 +26,28 @@ Kak2Ruta:
     movements:
     - to: [3234.5,1181.649154325174]
       away: true
-- .dir(W) + blss:
+- .dir(E) + BLSS .dir(N):
     time-override: 40
     coord: [3477.5,1075.1241962309214]
 - .loc(Monument):
     coord: [3397,10.99405759660658]
+    icon: npc-zora-male
 - .dir(W)
 - .loc(Monument):
     coord: [3261.5,33.00277312158323]
+    icon: npc-zora-male
 - .dir(W)
 - .loc(Monument):
     coord: [3093,74.51921377097187]
+    icon: npc-zora-male
 - .dir(<N)
 - .loc(Monument):
     coord: [3061,-225.5996342968965]
+    icon: npc-zora-male
 - .dir(E>)
 - .loc(Monument):
     coord: [3258.5,-146.06813955891084]
+    icon: npc-zora-male
 - .dir(N) Super:
     coord: [3325,-515.3022702526114]
 - Enter Fish Drama:
@@ -63,4 +70,4 @@ Kak2Ruta:
     icon: ruta-done
     coord: [3675,-188.23615728933328]
     time-override: 240
-    notes: GEB 6AA all head
+    notes: Cryo, Stasis, GEB 6AA all head
