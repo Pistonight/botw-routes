@@ -65,8 +65,10 @@ IST:
 - .item(1st 2 Ambers and Shaft)
 - Enter Shop
 - Drop All Weapon but RGC
-- Equip RGC
+- Equip RGC and Steel Lizal Shield
 - (^=) SAVE
+- Pick up all weapons
+- Unequip RGC
 - Exit Shop
 - Drop Shield
 - Drop all materials
@@ -74,6 +76,7 @@ IST:
 - WB to shrine for autosave
 - Drop Bow
 - (^=) RELOAD -> SAVE (Corruption, don't sync gamedata) -> RELOAD Autosave
+- Equip last weapon
 - Drop Bow
 - Drop all materials but ambers
 - Eat all food but endura
