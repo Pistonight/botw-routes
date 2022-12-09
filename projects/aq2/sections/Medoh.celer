@@ -9,11 +9,12 @@ Medoh:
     icon: medoh-memory
     hide-icon-on-map: true
 - _Shop<Material Shop>:
+    notes: Buy all of them
     comment: Wheat Sugar Butter Shroom
 - .dir(<N) TS
 - _Equipment::Bow<10 Arrows + Swallow>:
     coord: [-3793.25,-2317.5]
-- _Equipment::Bow<Falcon>:
+- _Equipment::Bow<Falcon Bow>:
     hide-icon-on-map: true
 - Enter Medoh:
     split-type: UserDefined
