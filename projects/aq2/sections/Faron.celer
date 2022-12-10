@@ -1,9 +1,8 @@
 Faron:
 - .dir(E>) ....
 - _Npc<Thunder Magnet>:
-    comment: Twice
     coord: [1552,3538.710361080126]
-    notes: She will be inside if thundering
+    notes: She will be inside if thundering, Talk twice
 - _Shrine::ShaiUtoh
 - .dir(N) + .dir(N)
 - _Shrine::ShodaSah
@@ -11,15 +10,15 @@ Faron:
 - Clip in
 - _Shrine::QukahNata
 - _Npc<Kass>
-- .dir(<<E) TS to blue:
+- .dir(<<E) TS to Blue Hinox:
     coord: [2689,2965]
 - Walk Orb:
     coord: [2632.75,2857]
-- .dir(W>) to black:
+- .dir(W>) to Black Hinox:
     coord: [2419,2779.5]
 - Walk or BLSS:
     coord: [2615.75,2824.5]
-- .dir(NE) to red:
+- .dir(NE) to Red Hinox:
     coord: [2767.5,2714]
 - Walk Orb:
     coord: [2647.5,2820.75]
@@ -30,66 +29,74 @@ Faron:
 - _Tod::Morning:
     hide-icon-on-map: true
     comment: Before entering shrine
-    notes: For quest at lurelin, hateno, and xenoblade TOD
+    notes: For quest at Lurelin, Hateno, and Xenoblade TOD
 - _Shrine::TawaJinn
-- BLSS
-- _Npc<Love Quest>:
-    notes: Man twice, woman twice
+- BLSS .dir(S)
+- _Npc<A Gift of Nightshade>:
+    notes: Talk to man twice, Talk to woman twice
     coord: [2591,3528.322870584376]
 - .dir(SW)
 - .fury() the camp:
     fury: 2
     coord: [2091,3914.4757884316987]
     notes: For watch tower bokos left after fury, bomb arrow to destroy the entire tower
-- BLSS:
+- .!!(SEE CHEST CUTSCENE)
+- BLSS .dir(E):
     coord: [3024,3924.903245315798]
-- _Chest<Ocean Treasure>
+- _Chest<Sunken Treasure>
 - .dir(N) Fast Turn
 - _Npc<Old Man>:
     coord: [2887.5,3494.779414896797]
     comment: 2nd Option (ocean), talk again
-    notes: Inside house if rain
+    notes: On left dock or inside house if raining
 - SQ across harbor
-- _Material<Hearty Blue Shell>:
+- _Material<Hearty Blueshell Snail>:
     coord: [2944,3462.766737769558]
-- SQ to Mom:
+- SQ .dir(NW):
     coord: [2886.5,3409.245543197456]
 - _Npc<Mom>:
+    comment: What's for Dinner
+    notes: Talk twice
     coord: [2886.5,3409.245543197456]
 - _Npc<Dad>:
+    comment: Take Back the Sea
+    notes: Talk twice
     coord: [2905.5,3438.757229924129]
     notes: He will be inside house if rain
 - .dir(<N)
 - _Shrine::YahRin
-- BLSS:
+- BLSS .dir(E):
     coord: [3797.625,3615.5304052973624]
-- _Snap::Quest<Shard 1>
+- _Snap::Quest<Shard at peninsula tip>
 - .dir(NW)
-- _Snap::Quest<Shard 2>:
+- _Snap::Quest<Shard in grassy alcove>:
     coord: [3532.5,3368.0035654420353]
 - .dir(SW)
-- _Snap::Quest<Shard 3>:
+- _Snap::Quest<Shard amongst rocks>:
     coord: [3388,3480.548133467486]
-- .dir(N>):
+- .dir(N>)
+- _Npc<A Fragmented Monument>:
+    notes: Talk twice then crouch on pedestal
     coord: [3464.75,3364.751980801131]
 - _Shrine::KahYah
-- Shield surf SCW + .dir(E)
+- Shield surf SCW + .dir(E):
+    notes: Activate with amiibo rune
 - _Shrine::MuwoJeem
-- BLSS to sole rock
+- BLSS .dir(N) to sole rock
 - _Npc<Kass>:
     coord: [3745.5,2629.544369945337]
-- Drop down:
+- Drop down towards Chaas Queta:
     coord: [3774.5,2660.3799634514535]
-- _Chest<300 Rupees>:
+- _Chest<The Hero's Cache>:
     comment: Mag out from water
-- .dir(NE):
+- .dir(NE) to Sheep Rustlers:
     coord: [4088.5,2376.5368429010387]
 - .fury() camp + AA rest:
     fury: 1
     notes: Make sure chest unlocks
-- BLSS
+- BLSS .dir(S)
 - _Shrine::ChaasQeta
-- BLSS:
+- BLSS .dir(SE) to Eventide:
     coord: [4489,3457.2174919641984]
     notes: Smuggle bow, arrow (ancient OK), shield
 - .gale() at the end:

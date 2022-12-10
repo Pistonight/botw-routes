@@ -1,26 +1,29 @@
 Central:
 - .dir(S>>) ordinal turn escape
-- midair to zelda study
+- .dir(S>) turn to Zelda's study
 - _Memory::HyruleCastle
-- BLSS
+- BLSS to back of castle
 - _Chest<Dinraal Scale>:
+    comment: behind bombable rocks
     coord: [-196.46, 153.20, -1218.59]
-- WB to docks:
+- WB right of chest to docks:
     coord: [-310,-1136.8678805645532]
 - _Shrine::SaasKosah
-- Run to library, WB out:
+- Run to library, WB off table out:
     movements:
     - to: [-142.5,-1046.3013256465474]
     - to: [-64,-1042.7999390857558]
+- WB towards back of castle
 - _Chest<Naydra Scale>:
+    comment: under slab
     coord: [-176.5,-1167.6024074184797]
-- BLSS
+- BLSS .dir(W)
 - _Memory::IrchPlain
-- BLSS
+- BLSS .dir(<S)
 - _Shrine::NoyaNeha
 - Burn thorns + .dir(W) super
 - _Shrine::ZaltaWa
-- .dir(S>) + .dir(<E) Turn midair:
+- .dir(S>) + .dir(<W) Turn midair:
     coord: [-1524.5,-472.5067347238455]
     notes: If you already have raw meat, use gale here and midair. Skip the mountain goats
 - _Material<Monster Extract>:
@@ -38,7 +41,7 @@ Central:
 - .gale() + .dir(E):
     gale: 1
 - _Memory::SanidinPark
-- SQ to white horse
+- SQ .dir(SW) to white horse
 - Ride to stable:
     movements:
     - to: [-1914,926.7463658662109]
@@ -47,25 +50,28 @@ Central:
     - to: [-1626,1032.7883588501918]
     - to: [-1530,1022.7843972479295]
     - to: [-1450,1270.8826449840335]
-- _Npc<Horse Guy>:
+- Register horse
+- _Npc<The Royal White Stallion>:
     coord: [-1439.25, 137.72, 1278.45]
 - _Npc<Meat Guy>:
+    comment: A Rare Find
     coord: [-1439,1280.0853725287516]
 - _Npc<Fan Girl>:
+    comment: My Hero
     coord: [-1400.00, 137.72, 1280.00]
 - .dir(.W)
 - _Shrine::RotaOoh
-- BLSS:
+- BLSS .dir(E):
     coord: [-1164,1189.2048148369595]
 - _Memory::LakeKolomo
 - .dir(<N) Slight TS
 - _Shrine::KaamYatak
-- .dir(<E) + BLSS:
+- .dir(<E) + BLSS .dir(N):
     notes: If you somehow didn't get 3 screws from yunobo escort, kill a stalker at central hyrule
 - _Shrine::KatahChuki
 - .dir(E>) Turn
 - _Memory::SacredGrounds
-- BLSS
+- BLSS .dir(E)
 - _Memory::HyruleField
 - .dir(<S) Turn
 - _Shrine::HilaRao
@@ -75,9 +81,9 @@ Central:
 - .dir(.W) TS
 - _Shrine::WahgoKatta
 - SQ to stable
-- _Npc<Royal Guard Girl>:
+- _Npc<The Royal Guard's Gear>:
     coord: [347,1082.8428766757988]
-- _Npc<Chef Guy>:
+- _Npc<A Royal Recipe>:
     coord: [324,1107.8527806814545]
 - _Cook<Monster Cake>:
     hide-icon-on-map: true
@@ -95,11 +101,12 @@ Central:
 - .dir(<S)
 - _Memory::WestNecluda
 - .dir(S>) Turn
-- Middle of bridge look SE
+- Middle of bridge look .dir(SE)
 - _Shrine::YaNaga
 - .dir(E)
 - _Npc::ZoraFemale<Fronk's Wife>:
+    comment: A Wife Washed Away
     coord: [-205,2613.7491847822967]
-- .dir(E>) DT
+- .dir(E>) Delayed turn
 - _Chest::Special<Salvager Headwear>:
     coord: [126.03, 92.65, 2710.94]

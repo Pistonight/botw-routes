@@ -4,16 +4,15 @@ TarreyActivateZora:
 - .dir(N.) Turn:
     coord: [3984.5,-1597.5796282054716]
 - _Npc<Hudson>:
-    comment: Twice
+    notes: Talk twice
 - Listen at window
 - _Npc<Mom>:
     hide-icon-on-map: true
-- _Npc<Mom>:
+    comment: A Parent's Love
+    notes: Talk twice, second time after fade out
+- _Npc<Hobbies of the Rich>:
     hide-icon-on-map: true
-    comment: Again after fade out
-- _Npc<Guardian Guy>:
-    hide-icon-on-map: true
-    comment: Twice
-- BLSS
+    notes: Talk twice
+- BLSS .dir(<N)
 - _Memory::SpringofPower
 - _Shrine::TutsuwaNima

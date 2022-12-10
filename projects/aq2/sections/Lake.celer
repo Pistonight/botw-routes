@@ -1,10 +1,15 @@
 Lake:
-- .dir(E>) Turn + .dir(E)
+- .dir(E>) Turn + .dir(E):
+    notes: Land on northmost statue with ball
 - _Tod::Noon:
     coord: [-2686,2735.335572362241]
     notes: For Suma Sahma. You can delay this according to your speed
-- Mag the orbs
+- The Seven Heroines:
+    notes: .link(https://tinyurl.com/Seven-Heroines)
 - _Shrine::KorshOhu
+- .dir(S) up + BLSS .dir(S>)
+- _Npc::Gerudo<The Perfect Drink>:
+    coord: [-2989,3760.314947379851]
 - _Shrine::MisaeSuma
 - .dir(E) Turn + .dir(E) + .dir(E) + .dir(<<E) Turn
 - _Shrine::DilaMaag:
@@ -12,30 +17,32 @@ Lake:
 - +WB straight up land left
 - +.dir(E) + .dir(E) up
 - +.dir(S) + .dir(S) +.dir(N>) + midair
-- _Shrine::SumaSahma
+- _Shrine::SumaSahma:
+    notes: 4:00pm-5:30pm. After 4:40 use cryo block. Read journal on the way to the shrine
 - .dir(E>) Turn
 - _Shrine::IshtoSoh
-- BLSS to giant horse
-- Ride to camp:
+- BLSS .dir(<N) to giant horse
+- Ride to Mounted Archery Camp:
     movements:
     - to: [-1208,2652]
     - to: [-636,3722]
     - to: [-200,3500]
     time-override: 200
+- _Npc<Hunt for the Giant Horse>
 - .dir(SE) + .dir(SE)
 - _Shrine::ShoqaTatone
 - .dir(E) + .dir(E) + .dir(N>)
 - _Shrine::KaoMakagh
 - .dir(N) .fury() bokos:
     fury: 1
-- Take a horse to stable:
-    notes: Or use firerod to burn grass and midair
+    notes: AA the rest. 5 bokos total
     coord: [488,3313.4692913392537]
 - _Tod::Morning:
     notes: For quest guy here and Goron city quests
     coord: [524,3455.4142031595566]
-- _Npc<Quest Guy>:
+- _Npc<Old guy at stable horses>:
     coord: [511,3442]
+    comment: Horseback Hoodlums
 - _Material<Swift Carrot>:
     hide-icon-on-map: true
     comment: Behind horses

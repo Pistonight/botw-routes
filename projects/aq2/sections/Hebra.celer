@@ -3,6 +3,7 @@ Hebra:
     line-color: "#00ff00"
 - .dir(W) turn
 - _Npc::Rito<Little Bird>:
+    comment: Recital at Warbler's Nest
     coord: [-3971.25,-1745.5]
 - .dir(N>) Turn
 - _Shrine::ShaWarvo
@@ -28,7 +29,7 @@ Hebra:
     notes: Get flints
 - .dir(W) + .dir(E) + .dir(N) + .dir(N)
 - _Shrine::ShadaNaw
-- BLSS:
+- BLSS .dir(W):
    time-override: 45
 - _Shrine::HiaMiu
 - .dir(E) + clip:
@@ -43,8 +44,8 @@ Hebra:
     coord: [-2386,-3399.7266494439036]
 - _Shrine::ShaGehma
 - .dir(E>) Turn + .dir(E) midairs:
-    notes: or blss
+    notes: or BLSS
 - _Shrine::QazaTokki:
     comment: Barb Legging
-- .dir(S) up + BLSS
+- .dir(S) up + BLSS .dir(E) to dark forest
 - _Shrine::KetohWawai
