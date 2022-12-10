@@ -1,0 +1,87 @@
+IST:
+- (==) IST START (.link([Simulator File]https://ist.itntpiston.app/?c=H4sIAAAAAAACA31WTXPbNhC981fsjA5tM5ppJVtpLz04tmN74tgeSamn0%2FEBEiESFUSwAGhF%2BfV9uwApZZL2YAskFvvxdt8DR%2FRkVdSqKyodaUKBn%2Bgthdo7t6Mpqba1GhvR%2BXWNX%2FWZt1vdttrjsXXRmpL3vXrVllZuTzNS3rt9oHNyfoW9CibaFyNaKLgxdO%2F2xQ3CzbCKXZD1xnkdIpV7bS08r7LJGemm7LyiNfuMRx%2B3pqqLa8UW9cEa1eSMzyi0Zn3oM8wFiK9z8l2ygpuPrqroXkXVyB4Sld%2FJL4RwcIeTe%2BdKWK5sCCifKiCTbMi7g7K0tuqwQ9rDi6pTvhxei61XX5zPQfm5UQfaqKbKxalmbXQTE2CUvUdvVrDXHnbckqiBifmibKiNtmXxbGKNs4Id0hyKunRuS8HscPKvnSvNxmj%2Fe2i1Ll8EqbSFij4Ya6lruSjAFZXdah%2FGwABdIrchALg1iA2TVvkYqHQ6ND9E2qkY4SGl2ecearWJDHT%2F3Ho%2BfPpm7XVq50YZf%2BAM1EHRs2rGtOVckANSoD0XJlDkENsGXY5vwh6p4XGdwOZejehKbRUtuxCybXq7VNbV9KB0NUbWnHOVuzuiWwxYN6b5zaVExZvndwkD9lvq1gWDYvmA2q2Qz4%2FJw8prtaVYa3QThq7RP%2FUQsBn8vLtfLNjTx4Oqd3RRqUYVc71zr5p%2BzfNUXHnXZrqkNTPmDc%2F59T%2Bdaf%2BLAKmwAHIhju8aDrO2DkCF2rV4d3N%2Ft7y8pcXyYr4sUqoz0NihEsFz0nN5cmTtV5zKk47XOdPvOJkeBWEgVj93WA6USZ0OKIEU%2FjDtJeLwwMuztF9WmVtzXXVWebpbLOmqazVQs07xzmWt11uaTslEvQtF2bRyLg%2BXLGXueCVzwYsTtiUTTkdWqVMCo%2B9DpO5j9mKniwXnfDbNo2J57uDXCQ%2FQtQSDiGDuV1pzXmmF2cOEJA4dXCeH6erxetGzRmh7TvMTRRDGTmjXIxm2en9K3h2n8VLs08lE%2BAmj%2BkY0ZP0%2FhJczs9zpLJ5ivze2rLzWzfGIGL0UJU%2FlwLLUSq5vmqHOW9PMjmyCxFJTgohM6szQgTQtBdB5fzdHk28v7t8DlYdrflU5bkCLBOvEOpGlyqtSh54%2FZ7SQ4Gd0ycHPcl6j%2FUqaxxzQOWyawjQrkjHfFnCruV87FqLUHTCNK%2FFdG41rcju%2FUVkoDOMhw6pV6xrSn9e6jawficDHS1H4wzdjvglOboYkYdRL2Km2IwSiIkTA9VhIlt%2B%2FSMCG2%2BvLD3T38Mf1w%2FJx%2Fid9vADni2KRZIGLhFYfq9sY3NlT7LCSi9JjNLm9rS5zNYPes7bTw%2BOyH9MnHMGJWbaDk65JuR2hKD7lV4MNA%2FIz91%2B%2FalA81sLSDRzmj4E0XewCcTQaZQOYKC0WZWA9GEz6FvRNxnhpKUx10TGJx%2FCy1RS6TPzcoZypLgUZugh0gQOC0uCbhTWrjGyk9dEwwQlxbsImwxn02jUletPhP%2B7Hk%2BE5mZI8HklphnBHyfuudGUd1D1yCbhVF3uNFmB4e5KZ%2Fq1e4HyWJHTZKlwiCY4x7WtgDbcQUTLhawxGiRenB4rTppJp5Aag2VdwjWSOJBQrs0hdzWDDXFzxmTETs7MlrXRmohzKS9DzPMN0lPvH%2BfzT0%2FLu8UHUYUw3N4lks8T%2FpM%2Bce3ocpnSRiX4q5mMUaAMDwN82Y9GWWsnHz81xOSKzkfQbCOaY0rWAb5ZhyERQuBviTD4BcVp4fdocIIKKsu3fzjoHhU43w2%2B56an8XDRtPLeOoZ0WPUGzqP4LUErZYI8LAAA%3D)). The file mainly shows the corruption details and may not reflect what you actually do. Please refer to the steps below
+- (^=) SAVE
+- Run/Glide to shop:
+    movements:
+    - to: [3360,2168.584778288412]
+      away: true
+- Drop 4 Items:
+    notes: Drop the 4 things you have 3 of. Shroom, Pepper, Durian, Endura Carrot
+- Hold 5 Items:
+    notes: Hold the 4 you just dropped + wood
+- Sell 6 Items:
+    notes: Sell the 5 you just held + naydra fang
+- Pick up everything
+- Hold 5 Items:
+    notes: Rushroom, Screw, Shroom, Pepper, Durian
+- Sell all but 7:
+    notes: "Things to NOT sell: Lotus, Carrot, Shaft, Spring, Core, Amber, Razorshroom"
+- Wait until items fully fall
+- (^=) RELOAD. Check you have 22 slots of materials (1 page + 2)
+- "Drop and Pick up:"
+- .item(All 4 Springs)
+- .item(All 2 Razor + 2 Shafts)
+- .item(1st Core, Amber + all 2 Screws):
+    notes: "EXTREMELY IMPORTANT: If you get a core from stalkers, drop ALL 2 cores instead of the first one only. This is because we need to put cores behind the fairy"
+- "Then drop:"
+- .item(2 Shrooms + All 3 Peppers)
+- (^=) SAVE -> RELOAD
+- SQ to statue
+- _Npc<Statue>:
+    comment: 5+ Stam, then all hearts
+    coord: [3436.25,2100.010102085769]
+- Light pot with arrow
+- Drop Traveler Bow
+- Drop Pot Lid
+- Equip FDB
+- _Cook<4 Razor + 1 Shroom>:
+    coord: [3439.5,2141.0738838821917]
+    notes: Cooking ORDER MATTERS. However as long as speedfood is second, you will be fine.
+- _Cook<4 Lotus + Naydra Fang>
+- _Cook<5 Endura Carrots>
+- .item(Drop 1 Core 1 Screw)
+- "Drop and pick up:"
+- .item(1 Core 1 Screw 2 Shafts)
+- .item(4 Springs)
+- ""
+- .dir(N) Smuggle blue flame:
+    coord: [3437.5,1975]
+- 2 WB to Lab:
+    movements:
+    - to: [3640,2096]
+    - to: [3779.5,2124.5]
+- Camera:
+    icon: snap
+    split-type: UserDefined
+    coord: [3776,2126.5]
+- Upgrade all runes
+- .dir(W) SQ
+- _Npc<Sheep Lady>:
+    coord: [3623,2101.5]
+- .dir(W) Turn to shop:
+    coord: [3360.5,2135.5]
+- Drop all durians left
+- "Drop and pick up:"
+- .item(1st 2 Ambers and Shaft)
+- Enter Shop
+- Drop All Weapon but RGC
+- Equip RGC and Steel Lizal Shield
+- (^=) SAVE
+- Pick up all weapons
+- Unequip RGC
+- Exit Shop
+- Drop Shield
+- Drop all materials
+- Eat all food
+- WB to shrine for autosave
+- Drop Bow
+- (^=) RELOAD -> SAVE (Corruption, don't sync gamedata) -> RELOAD Autosave
+- Equip last weapon
+- Drop Bow
+- Drop all materials but ambers
+- Eat all food but endura
+- (^=) RELOAD -> SAVE (Corruption, don't sync gamedata)
+- "Drop and pick up:"
+- .item(1st 4 Ambers)
+- .item(Drop the Shaft)
+- (^=) RELOAD. DONE GG

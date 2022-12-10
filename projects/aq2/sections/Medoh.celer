@@ -9,7 +9,8 @@ Medoh:
     icon: medoh-memory
     hide-icon-on-map: true
 - _Shop<Material Shop>:
-    comment: Wheat, Sugar, Butter, Sunshrooms
+    notes: Buy all of them
+    comment: Wheat Sugar Butter Sunshroom
 - .dir(<N) TS
 - _Equipment::Bow<10 Arrows + Swallow Bow>:
     coord: [-3793.25,-2317.5]
