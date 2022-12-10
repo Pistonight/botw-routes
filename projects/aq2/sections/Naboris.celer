@@ -1,7 +1,7 @@
 Naboris:
 - _Warp::Shrine::MoggLatan:
     line-color: "#00ff00"
-- BLSS and WB .dir(E):
+- BLSS .dir(E) + .dir(E) + .dir(E):
     notes: Lightning pedestal on cliff. Shoot with FDB
 - _Shrine::KeehaYoog
 - BLSS .dir(E) to Kuh Takkar:
@@ -91,7 +91,7 @@ Naboris:
 - .dir(N>) Turn + .dir(N) Turn
 - _Shrine::DahKaso:
     comment: Get core
-- .dir(S.)
+- .dir(S)
 - _Npc<Horse Quest>:
     comment: Good-Sized Horse
     movements:

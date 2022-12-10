@@ -2,7 +2,6 @@ Kak2Ruta:
 - _Warp::Shrine::TalohNaeg:
     line-color: yellow
 - _Npc<Pumpkin Man>:
-    notes: Need to talk for The Stolen Heirloom quest
     coord: [1841,984.478013107444]
     time-override: 20
 - SQ to Impa:
