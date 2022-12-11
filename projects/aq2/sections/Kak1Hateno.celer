@@ -32,7 +32,7 @@ Kak1Hateno:
 - _Material<3 Wood 10 Durians>:
     coord: [-2187.5,440.4815785494802]
     notes: 
-      Use bombs to farm them. 7-8 durians should be enough.
+      Use bombs to farm them. 8-9 durians should be enough but you might want to grab extra food to be safe.
       Keep 3 wood and durian for IST
 - ""
 - (==) 
@@ -112,7 +112,8 @@ Kak1Hateno:
     coord: [3190.5,2040.0051500829413]
     notes: BLSS off rare ore
 - .dir(E>) to shrine
-- _Shrine::MyahmAgana
+- _Shrine::MyahmAgana:
+    notes: Activate shrine afterwards if got unloaded
 - __use__ IST
 - .dir(W) SQ
 - _Npc<Sheep Lady>:

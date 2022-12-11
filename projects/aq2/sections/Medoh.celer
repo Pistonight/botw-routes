@@ -1,19 +1,21 @@
 Medoh:
 - _Warp::Shrine::MoggLatan:
     line-color: yellow
-- BLSS .dir(NW) to Rito
+- BLSS to Rito Village
 - _Npc::Rito<Rito Chief>:
     coord: [-3626.75,-1843.5]
+    notes: "[Divine Beast Vah Medoh]"
 - Revali Memory:
     split-type: UserDefined
     icon: medoh-memory
     hide-icon-on-map: true
 - _Shop<Material Shop>:
     notes: Buy all of them
-    comment: Wheat Sugar Butter Sunshroom
+    comment: Wheat Sugar Butter Shroom
 - .dir(<N) TS
 - _Equipment::Bow<10 Arrows + Swallow Bow>:
     coord: [-3793.25,-2317.5]
+    notes: Use swallow bow + AA for minigame
 - _Equipment::Bow<Falcon Bow>:
     hide-icon-on-map: true
 - Enter Medoh:
@@ -23,8 +25,7 @@ Medoh:
     hide-icon-on-map: true
     comment: Inside Medoh
     notes: If you forget this one, there is a backup later in Ketoh Wawai (dark forest shrine)
-- _Chest<Ice Arrows>:
-    hide-icon-on-map: true
+- Use hammer for the button
 - Windblight:
     split-type: UserDefined
     icon: medoh-done
@@ -34,13 +35,15 @@ Medoh:
     - to: [-3607.75,-1853.25]
       warp: true
     comment: On deck, right after Medoh
-- Finish Divine Beast Vah Medoh quest
+- Talk to chief
 - _Equipment::Bow<Great Eagle Bow>:
     hide-icon-on-map: true
 - .dir(N>) to camp:
+    notes: Jump out to midair
     coord: [-3479,-2085.1109248633434]
-- _Chest<5 Shock Arrow>:
-    notes: AA enemies so they don't bother you
-- .dir(<E) voltfin:
+- _Chest<5 Shock Arrows>:
+    notes: If you are slow you can AA the enemies so they don't bother you
+- .dir(E) + .dir(.E) Turn
+- _Material<Volfin Trout>:
     movements:
     - to: [-3009,-2138]
