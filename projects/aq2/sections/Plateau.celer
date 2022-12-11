@@ -1,26 +1,39 @@
 Plateau:
-- SOR Clip, get TOD
-- (==) The items marked with [IST] are used to break slots. You need to keep at least 3 of them
-- _Material<Shroom [IST] + Apples>:
-    coord: [-1007,1872.10]
-- _Equipment::Weapon<Torch + Axe>:
+- SOR Clip, get TOD:
+    coord: [-1054.5,1824.7969498711263]
+- _Equipment::Weapon<Tree Branch>:
+    coord: [-1024.63, 251.40, 1812.55]
+- FDC down:
+    notes:
+      You have to unequip the tree branch really fast. 
+      For safety you can also just run down to the flint, in which case you can probably skip the tree branch and get boomerang in castle
+- _Material<Flint>:
+    coord: [-954.90, 194.30, 1833.20]
+- _Equipment::Weapon<Axe>:
     coord: [-920.93, 220.65, 1871.83]
-    notes: You can jump off the rock the old man is on, grab the torch midair, and the old man won't talk to you
-- _Equipment::Shield<Pot Lid>:
+    comment: DO NOT DAMAGE
+- _Equipment::Shield<Spear + Pot Lid>:
     coord: [-948.75,1963.5581365131984]
-- _Material<Shrooms + Peppers [IST]>:
+- _Material<Peppers + Shrooms>:
     coord: [-967,1965.1368733581612]
+    comment: These are food
 - Surf down to TOT, clip through
 - _Equipment::Bow<Bow + Arrow>:
     coord: [-832,1963.5581365131984]
-    notes: Need at least 3 arrows starting IST. Preferably 4 or 5. Can get RNG arrow from metal crates at Mag
+    notes: 
+      Need all 5 arrows starting IST.
+      You can grab extra ancient parts and sell them at the hateno shop before IST to buy arrows if you need.
 - BLSS
 - _Shrine::JaBaij
 - BLSS
 - _Tower::GreatPlateau
 - BLSS to mag
 - _Shrine::OmanAu
-- BLSS + Tree WB
+- _Chest<Amber>:
+    comment: .!!(DO NOT FORGET)
+    coord: [-685.5,1533.2437592195847]
+- BLSS + Tree WB:
+    coord: [-659.75,1490.977533190504]
 - _Shrine::OwaDaim:
     comment: No Hammer
     notes: We are grabbing hammer later in Hateno. Go for stasis wb if you want
@@ -30,4 +43,4 @@ Plateau:
     icon: king
     split-type: UserDefined
     coord: [-812,1969]
-    
+    notes: ".link([Example inventory after Plat]: https://ist.itntpiston.app/?r=init+1+tree+branch+1+axe+1+spear%5Bequip%5D+1+traveler+bow%5Bequip%5D+5+arrow%5Bequip%5D+1+potlid%5Bequip%2C+life%3D300%5D+1+flint+6+pepper+3+shroom+1+amber+1+slate+4+orb+1+glider)"

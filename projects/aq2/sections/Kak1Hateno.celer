@@ -1,32 +1,52 @@
 Kak1Hateno:
-- BLSS .dir(NW) to Satori Lotus
-- _Material<Lotus, 5>:
-    coord: [-2542,670.3406977945551]
-    notes: 3 for an early speedfood, 2 for later speedfood
+- BLSS to Satori:
+    notes: From window toward beetle tree area
+- _Material<2 Razorshrooms>:
+    coord: [-2202,800.6870008591568]
     line-color: red
+    notes: The 2 are in the exact same spot near some sunshrooms. Keep all of them
+- .dir(W) + .dir(W>) Turn 
+- _Material<5 Lotus>:
+    coord: [-2542,670.3406977945551]
+    notes: Keep all of them
 - .dir(E)
-- _Material<Rushroom, 1>:
-    notes: "[IST] keep 3. 2 for early speedfood"
+- _Material<Rushroom>:
+    notes: Keep all of them
     hide-icon-on-map: true
 - _Equipment::Bow<Forest Dweller's Bow>:
     coord: [-2346,687.5794301253582]
 - .dir(N)
-- _Material<Endura Carrot, 3>:
+- _Material<4 Endura Carrots>:
+    comment: Area below shrine
     coord: [-2312.5,527.5160444891626]
+    notes: 1 for food or back up rupee item. Keep 3 for IST
 - .dir(N):
     coord: [-2299.5,451.48593631196854]
-- _Material<Rushroom, 3>
+- _Material<3 Rushrooms>:
+    notes: Keep all of them
+    comment: Above shrine
 - _Shrine::MoggLatan
-- _Korok::R60
-- .dir(.E) SQ
-- _Material<2 Wood 10 Durian [IST]>:
+- _Korok::R60:
+    notes: Throw a bomb to blow up the leaves right after exiting the shrine
+- .dir(<E) SQ
+- _Material<3 Wood 10 Durians>:
     coord: [-2187.5,440.4815785494802]
-- BLSS .dir(NE) to Guard Chamber:
+    notes: 
+      Use bombs to farm them. 7-8 durians should be enough.
+      Keep 3 wood and durian for IST
+- ""
+- (==) 
+  We are going to cycle materials later. 
+  If you have more than 3 wood or more than 4 rushroom or more than 2 razor shroom. 
+  Drop them now. 
+  .link([Example inventory after Satori]https://ist.itntpiston.app/?c=H4sIAAAAAAACA02OQQ7CMAwEv7IP4FAoSFx4CeLgNC6NlMbFSSji9bilElwszXrX65BCwR5FmeGUUjcY0Ytt5olJr%2FyoYbqtFnpyZIWT%2Baf2opwL%2FMxx2%2BEEUv33TFJi8F%2FeIYaeL23TrOkY0lJPo7PwAUpv0TyoyGhnopSacYTWTTqCk69K3VJQcIZBoIQWs4hfXo5U2Gyizuhurawfr2KlfeIAAAA%3D)
+- BLSS toward castle
+- Enter Guard Chamber:
     notes: Go for unloaded gate but can clip in
     coord: [-398.5,-829.5017332009902]
 - Royal Claymore + RGC:
-    notes: Everything here is like Any%, up to the lizal sneakstrike and cooking. Do get razorshroom and naydra fang
-- .!!(DO NOT BREAK RGC)
+    notes: Do the sneakstrike like any% but don't shoot the moblin
+- .!!(DO NOT USE ROYAL CLAYMORE)
 - _Material<Razorshroom>:
     hide-icon-on-map: true
     comment: Right box
@@ -34,68 +54,85 @@ Kak1Hateno:
     hide-icon-on-map: true
     comment: Chest below stairs
 - _Chest<3 Ancient Arrow>
-- Kill Lizalfos
-- _Equipment::Weapon<Boomerang>:
-    hide-icon-on-map: true
+- Kill Lizalfos:
+    notes: Throw a bomb to lure it like in any%
 - _Equipment::Shield<Lizal Shield>:
     hide-icon-on-map: true
 - _Cook<Speed Food>:
     comment: 3 lotus + 2 rushroom, Eat
-- Run out:
+- Run out the other entrance:
     coord: [-319.75,-778.75] 
+- (==) Material Cycling. Hard save before wb to be safe
 - .dir(<S) Turn
-- Kill .enemy(Stalker):
-    notes: need 1 Shaft 2 Spring 2 Screws. Kill up to 3. Order of picking these up does NOT matter
+- "Drop:":
+    notes: Drop as you wait for the guardian to load
+- .item(1 Amber 3 Wood 1 Fang)
+- Kill .enemy(Stalker)
+- "Drop:":
+    notes: Drop as you wait for the stalker to die
+- .item(3 Razor 2 Rushroom)
+- _Material<Ancient Shaft>:
+    notes: Need 1 shaft 1 spring. If the guardian only dropped a shaft, can kill others for a spring. Otherwise might be better off reloading. Also get a core if you can
     coord: [-222.25,-435.75]
+- "Pick up (in this order):"
+- .item(The other 3 materials)
+- .item(Amber)
+- .item(Razorshrooms)
+- _Material<Ancient Spring>
+- (==) .link([Example inventory after castle]https://ist.itntpiston.app/?c=H4sIAAAAAAACA01QS1LDMAy9yjsAi5bATFlwEqYLJVYSzyhWkO2GcHpk0qFsbD%2B%2Fn%2ByYYsEZxZjRG6VhdkRf7Gtemcx3050Eg9C%2BqPGHxJHfu7fT6frHTZUsPBT8WeN6%2FU2lGwsbet0et6NrckHYWO4cXkFm%2FzWrFonhwE84Ko%2FGXJgFeY4soYVJTAXPEC014wWcQjUaWlzBBQ4ipWabaWwPTbQHI4yUJndZzbOpLuiwqbY8WnqfqYPRt9qdbF9h0Q1%2BECrsNWq9o8lnZPsBgI4n9EMBAAA%3D)
 - .dir(S) to wall:
     coord: [-210,-262]
 - BLSS .dir(SE) to Kaya Wan fairy
 - _Material<Fairy>:
+    notes: When arrived, pause to make the fairy load
     coord: [949.19, 138.58, 502.84]
-- .dir(<N)
+- .dir(<N) Turn
 - _Npc<Riverbed Reward>:
     notes: Keep the weapon for IST
     coord: [823,146]
 - _Shrine::KayaWan:
-    comment: Get core
+    comment: Get Ancient Core
+    notes: Can skip the core if you already got one from the guardian
 - BLSS .dir(E>)
 - _Shrine::DakaTuss
 - .!!(EAT BEFORE MIDAIR)
 - .dir(S) + .dir(E>>) + .dir(S)
 - _Npc::SheikaFemale<Impa>:
     coord: [1775,987]
-- Activate Taloh Naeg Shrine:
+- Activate .loc(Taloh Naeg) Shrine:
     coord: [1833.5,906.1630199330921]
 - .dir(<<S) Super to camp
 - RGC slam kill 3 bokos
 - _Npc<Hestu>:
-    notes: Talk twice, turn in korok seed
+    notes: Talk twice, turn in korok seed, get a weapon slot (needed for IST)
     comment: The Priceless Maracas
     coord: [2069.5,1425]
 - .dir(<S) to ore
-- _Material<Amber>:
-    notes: 84% chance from 3 normal ores, don't break rare ore because we BLSS off it
-    coord: [2153,1547.5]
 - BLSS .dir(E>) to near hateno:
     coord: [3190.5,2040.0051500829413]
+    notes: BLSS off rare ore
 - .dir(E>) to shrine
 - _Shrine::MyahmAgana
 - __use__ IST
-- Drop 5 shafts
-- Sell all shafts
-- Pick up 5 shafts
-- SQ .dir(SW) to statue
+- .dir(W) SQ
+- _Npc<Sheep Lady>:
+    coord: [3623,2101.5]
+- _Material<2 Apples>:
+    comment: From tree
+    hide-icon-on-map: true
+- .dir(W) TS to statue
 - _Npc<Horned Statue>:
     coord: [3286.5,2200.0972573355384]
+    notes: Just mash A. You will trade away a stam and get a heart
 - .dir(.S) to Bolson
 - _Npc<Bolson>:
     coord: [3311,2302.89946289397]
-- _Material<Apple, 3>:
-    comment: From tree behind
-    hide-icon-on-map: true
+- CLOSE + RELOAD AUTOSAVE:
+    notes: 
+      Only if it's already after 5AM. 
+      If it's close (4:50AM), pick up the hammer and go to pot, then save, close and reload (after 5AM).
+      If before 4:50AM, you can make morning, then talk to bolson until autosave, then close and reload.
 - _Equipment::Weapon<Hammer>:
     hide-icon-on-map: true
-- _Tod::Morning:
-    notes: If you are fast enough, it should be before Bolson is awake, which means we need to set TOD
 - _Npc<House Upgrade>:
     coord: [3328.75,2278.13965792837]
