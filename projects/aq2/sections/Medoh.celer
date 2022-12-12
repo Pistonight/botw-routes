@@ -4,7 +4,7 @@ Medoh:
 - BLSS to Rito Village
 - _Npc::Rito<Rito Chief>:
     coord: [-3626.75,-1843.5]
-    notes: "[Divine Beast Vah Medoh]"
+    notes: "[Divine Beast Vah Medoh] Main Quest"
 - Revali Memory:
     split-type: UserDefined
     icon: medoh-memory

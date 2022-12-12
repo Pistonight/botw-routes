@@ -1,7 +1,7 @@
 Naboris:
 - _Warp::Shrine::MoggLatan:
     line-color: "#00ff00"
-- BLSS .dir(E) + .dir(E) + .dir(E):
+- BLSS .dir(W) + WB .dir(W) x2:
     notes: Lightning pedestal on cliff. Shoot with FDB
 - _Shrine::KeehaYoog
 - BLSS .dir(E) to Kuh Takkar:
@@ -9,8 +9,10 @@ Naboris:
     - to: [-3568,674.5062927691179]
     - to: [-3272,912.6005789029596]
 - _Tod::Noon:
-    notes: For Sasa Kai. Put the wood right next to a luminous stone ore and shoot the ore with normal arrow. 
+    notes: 
+      For Sasa Kai. Put the wood right next to a luminous stone ore and shoot the ore with normal arrow. 
       Make noon during or before melting ice
+      If you made morning for Bolson, you should be around noon here already so you can skip this TOD setting
     coord: [-3071.21, 1236.58]
 - _Material<10 Luminous Stone>:
     comment: While melting ice
@@ -19,7 +21,7 @@ Naboris:
     coord: [ -3076.7,1226.90]
 - _Shrine::KuhTakkar:
     notes: Melt ice with piles of wood
-- .dir(<W) TS or BLSS
+- .dir(<W) BLSS off elevator
 - _Material<10 Berry>:
     coord: [-3655.5,1531.2579003072733]
 - .dir(<W) Turn
@@ -28,13 +30,16 @@ Naboris:
 - .dir(S) + .dir(E):
     coord: [-3874,1827.213834933158]
 - _Npc<Kass>:
-    comment: "Sign of the Shadow"
-    notes: Text 21
+    comment: "Text Options 2-1"
+    notes: "[Sign of the Shadow] Shrine Quest"
     coord: [-3672,1845.2209658172305]
 - SQ to shrine:
     notes: Shoot at sun 2:55-3:50
 - _Shrine::SasaKai
-- BLSS .dir(S) to Gerudo, talk to Benja
+- BLSS .dir(S) to Gerudo
+- _Npc<Benja>:
+    notes: "[Forbidden City Entry] Main Quest"
+    coord: [-3799.25,2827.7960857630687]
 - _Shrine::DaqoChisay
 - BLSS .dir(NE)
 - _Shrine::DakoTah
@@ -42,58 +47,62 @@ Naboris:
 - _Shrine::KayNoh
 - _Material<Flint>:
     hide-icon-on-map: true
-    notes: If you already have one, can skip this
+    notes: If you already have an rng one from the luminous ores, can skip this one
 - _Npc<Sesami>:
-    comment: Missing in Action
+    notes: "[Missing in Action] Side Quest"
     coord: [-2814,2239.51842145052]
 - _Shop<1 Winterwing 1 Darner>:
     comment: Buy from Beedle
     coord: [-2788.75,2249.832302286999]
 - _Npc<Rushroom Guy>:
-    comment: Rushroom Rush!
-    notes: Talk twice
+    comment: Talk Twice
+    notes: "[Rushroom Rush!] Side Quest"
     coord: [-2791.25,2231.57507236287]
-
+- ""
 - .dir(<W) + .dir(SW)
 - Kara Kara:
     icon: location
     coord: [-3264,2608.325643705958]
     split-type: UserDefined
 - Buy Gerudo clothes
-- BLSS or Super .dir(SW) to Gerudo Town
+- .dir(SW) Super to Gerudo Town
 - _Npc::Gerudo<Riju>:
     coord: [-3882.5,2964.225811328949]
-
+    notes: "[Divine Beast Vah Naboris] Main Quest"
 - _Warp::Shrine::KehNamut:
     line-color: red
-- BLSS .dir(W) toward single tree
+- BLSS .dir(W):
+    notes: Toward single tree with a fire wizrobe. Kill it with ice rod
 - _Equipment::Weapon<Fire Rod>:
     coord: [-2158,2143.1041901394974]
-- .dir(SW)
+- Cut Tree .dir(SW)
 - _Material<Electric Darner>:
-    notes: Under pebble in water
+    notes: Under pebble in water. Want to spam X + ZR to pull glider instantly and AA the lizalfos
     coord: [-2220.85, 356.03, 2204.36]
-- .dir(N>) Turn
+- Cryo + .dir(N>) DT
 - _Npc<Friend 1>:
     coord: [-2166,1723.5268398553271]
     notes: AA 2 bokos
 - Drop down
 - _Npc<Friend 2>:
     coord: [-2187.5,1692.2644598482575]
+    notes: AA boko. If the boko with bow notices you, AA him as well.
 - .dir(E>) Turn
 - _Npc<Friend 3>:
     coord: [-2053.75,1741.2838716993429]
+    notes: RGC slam ground. Don't slam boko since that takes extra durability
 - .dir(S)
 - _Npc<Friend 4>:
     coord: [-2059.875,1836.6678348244604]
-- .dir(<<<S) Very Slight Turn
+    notes: RGC slam ground.
+- .dir(<<<S) Slight Turn:
+    notes: Break the boxes and aim a bit left of a ladder in front of you
 - _Shrine::JeeNoh
 - .dir(N>) Turn + .dir(N) Turn
 - _Shrine::DahKaso:
     comment: Get core
 - .dir(S)
-- _Npc<Horse Quest>:
-    comment: Good-Sized Horse
+- _Npc<Good-Sized Horse Quest>:
     movements:
     - to: [-1628,2090.083193647508]
     - to: [-1650,2265.6527197672103]
@@ -103,7 +112,8 @@ Naboris:
     - to: [-2031,1880.5001980801135]
     notes: AA a boko on horse and take his horse
 - .dir(N.)
-- _Shrine::JolooNah
+- _Shrine::JolooNah:
+    notes: Combine stacks and bake an apple
 - .dir(<W) + .dir(<<W) Turn:
     notes: can also BLSS but it's a bit monkaSTEER
 - _Npc<Sesami>:
