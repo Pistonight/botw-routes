@@ -4,20 +4,27 @@ Naboris:
 - BLSS .dir(W) + WB .dir(W) x2:
     notes: Lightning pedestal on cliff. Shoot with FDB
 - _Shrine::KeehaYoog
-- BLSS .dir(E) to Kuh Takkar:
+- BLSS .dir(E) to Camp:
     movements:
     - to: [-3568,674.5062927691179]
     - to: [-3272,912.6005789029596]
-- _Tod::Noon:
+- _Chest<5 Fire Arrows>:
+    coord: [-3121.93, 550.32, 1325.76]
+- Melt Ice:
     notes: 
-      For Sasa Kai. Put the wood right next to a luminous stone ore and shoot the ore with normal arrow. 
-      Make noon during or before melting ice
-      If you made morning for Bolson, you should be around noon here already so you can skip this TOD setting
+      Shoot 3 fire arrows while running to the ice. 
+      Use 4th fire arrow to light 3 wood. 
+      Then light a normal arrow on fire to kill a wizrobe. 
+      If you need to set TOD, do it now and use the last fire arrow to relight the fire
+      Start farming luminous stones around the shrine.
+      After that put 3 more wood and you should have access to the shrine.
+      Need to be 12:50 to 13:40 when exiting shrine 
+- _Tod::Noon:
+    comment: If needed see notes
     coord: [-3071.21, 1236.58]
 - _Material<10 Luminous Stone>:
-    comment: While melting ice
+    hide-icon-on-map: true
 - _Equipment::Weapon<Ice Rod>:
-    notes: Light your arrows and shoot wizarobe
     coord: [ -3076.7,1226.90]
 - _Shrine::KuhTakkar:
     notes: Melt ice with piles of wood
@@ -101,7 +108,7 @@ Naboris:
 - .dir(N>) Turn + .dir(N) Turn
 - _Shrine::DahKaso:
     comment: Get core
-- .dir(S)
+- .dir(S) + .dir(<S) Turn
 - _Npc<Good-Sized Horse Quest>:
     movements:
     - to: [-1628,2090.083193647508]
@@ -110,10 +117,10 @@ Naboris:
     - to: [-1832.5,2307.6693584967115]
     - to: [-1992,2164.112509504248]
     - to: [-2031,1880.5001980801135]
-    notes: AA a boko on horse and take his horse
+    notes: Land near a boko on horse, run up to him, AA the boko and instantly get on the horse
 - .dir(N.)
 - _Shrine::JolooNah:
-    notes: Combine stacks and bake an apple
+    notes: Combine stacks and bake an apple on phase 2
 - .dir(<W) + .dir(<<W) Turn:
     notes: can also BLSS but it's a bit monkaSTEER
 - _Npc<Sesami>:
@@ -122,14 +129,16 @@ Naboris:
 - _Warp::Shrine::KuhTakkar
 - .dir(W) kill some wolves:
     coord: [-3204,1168.4056680716558]
+    notes: Slam with Royal Claymore to kill 2 farthest
 - _Material<Raw Gourmet Meat>
 - .dir(<W) Turn:
     coord: [-3516,1356.1299405542022]
 - Clip in to Yiga Hideout
 - _Equipment::Bow<Duplex Bow>
+- Equip GEB and AA
 - Kill .enemy(Kohga):
     notes: "Phase 1: spam AA after screen goes out. 
-    Phase 2: wait for the ball to go above, shoot 2 AA, turn around and backflip over the hole, spam AA.
+    Phase 2: wait for the ball to go above, shoot 2 AA, run over the hole, spam AA.
     Phase 3: Mag the ball to kohga from the side and press B as the ball goes over the edge of the hole. Or just do normal kill"
 
 - _Warp::Shrine::DaqoChisay
