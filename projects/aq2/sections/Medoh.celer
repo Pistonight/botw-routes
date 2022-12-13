@@ -1,6 +1,7 @@
 Medoh:
 - _Warp::Shrine::MoggLatan:
     line-color: yellow
+    text: "Mogg Latan (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
 - BLSS to Rito Village
 - _Npc::Rito<Rito Chief>:
     coord: [-3626.75,-1843.5]
@@ -35,7 +36,9 @@ Medoh:
     - to: [-3607.75,-1853.25]
       warp: true
     comment: On deck, right after Medoh
-- Talk to chief
+- Talk to chief:
+    var-change:
+      MainQuest: 1
 - _Equipment::Bow<Great Eagle Bow>:
     hide-icon-on-map: true
 - .dir(N>) to camp:

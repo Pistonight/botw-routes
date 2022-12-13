@@ -40,6 +40,8 @@ Naboris:
     comment: "Text Options 2-1"
     notes: "[Sign of the Shadow] Shrine Quest"
     coord: [-3672,1845.2209658172305]
+    var-change:
+      ShrineQuest: 1
 - SQ to shrine:
     notes: Shoot at sun 2:55-3:50
 - _Shrine::SasaKai
@@ -65,14 +67,18 @@ Naboris:
     comment: Talk Twice
     notes: "[Rushroom Rush!] Side Quest"
     coord: [-2791.25,2231.57507236287]
+    var-change:
+      SideQuest: 1
 - ""
 - .dir(<W) + .dir(SW)
-- Kara Kara:
+- "Kara Kara (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))":
     icon: location
     coord: [-3264,2608.325643705958]
     split-type: UserDefined
 - Buy Gerudo clothes
-- .dir(SW) Super to Gerudo Town
+- .dir(SW) Super to Gerudo Town:
+    var-change:
+      MainQuest: 1
 - _Npc::Gerudo<Riju>:
     coord: [-3882.5,2964.225811328949]
     notes: "[Divine Beast Vah Naboris] Main Quest"
@@ -109,7 +115,9 @@ Naboris:
 - _Shrine::DahKaso:
     comment: Get core
 - .dir(S) + .dir(<S) Turn
-- _Npc<Good-Sized Horse Quest>:
+- Talk a horse. Ride to horse guy:
+    notes: Land near a boko on horse, run up to him, AA the boko and instantly get on the horse
+- _Npc<Horse Quest>:
     movements:
     - to: [-1628,2090.083193647508]
     - to: [-1650,2265.6527197672103]
@@ -117,21 +125,30 @@ Naboris:
     - to: [-1832.5,2307.6693584967115]
     - to: [-1992,2164.112509504248]
     - to: [-2031,1880.5001980801135]
-    notes: Land near a boko on horse, run up to him, AA the boko and instantly get on the horse
+    notes: "[Good-Sized Horse] Side Quest"
+    var-change:
+      SideQuest: 1
 - .dir(N.)
-- _Shrine::JolooNah:
+- Do Test of Will:
     notes: Combine stacks and bake an apple on phase 2
+- _Shrine::JolooNah:
+    notes: "[Test of Will] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
 - .dir(<W) + .dir(<<W) Turn:
     notes: can also BLSS but it's a bit monkaSTEER
 - _Npc<Sesami>:
     coord: [-2814,2239.51842145052]
+    var-change:
+      SideQuest: 1
 
-- _Warp::Shrine::KuhTakkar
+- _Warp::Shrine::KuhTakkar:
+    text: "Kuh Takkar (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
 - .dir(W) kill some wolves:
     coord: [-3204,1168.4056680716558]
     notes: Slam with Royal Claymore to kill 2 farthest
 - _Material<Raw Gourmet Meat>
-- .dir(<W) Turn:
+- .dir(W) Turn:
     coord: [-3516,1356.1299405542022]
 - Clip in to Yiga Hideout
 - _Equipment::Bow<Duplex Bow>
@@ -153,11 +170,12 @@ Naboris:
     split-type: UserDefined
     icon: naboris-memory
     coord: [-3869,2947.3173472384588]
+    comment: Text Options 1-2
 - .dir(E>>) Super:
     coord: [-3435,3128.181045223386]
-- Ride sand seal .dir(SW) to Misae Suma
+- Ride sand seal .dir(SW):
+    notes: "[The Perfect Drink] Shrine Quest. There should be a small mountain"
 - _Npc::Gerudo<Shrine Lady>:
-    comment: The Perfect Drink
     coord: [-2989,3760.314947379851]
 - .dir(E) backflip to Naboris
 - Enter Naboris:
@@ -176,27 +194,29 @@ Naboris:
       warp: true
     comment: The Eighth Heroine
     notes: Equip snowboots
-- Finish Divine Beast Vah Naboris quest
+- Run to Riju
 - _Npc::Gerudo<Riju + Thunderhelm>:
     coord: [-3888.5,2970.333490767677]
+    var-change:
+      MainQuest: 1
 - _Npc::Gerudo<Guard Captain>:
-    comment: The Search for Barta
+    notes: "[The Search for Barta] Side Quest"
     coord: [-3911.75,2929.317248198402]
 - _Npc::Gerudo<Side Entrance Guard>:
-    comment: The Silent Swordswomen
+    notes: "[The Silent Swordswomen] Shrine Quest"
     coord: [-3916.75,2873.2950632257334]
 - _Npc::Gerudo<Historian>:
-    comment: The Seven Heroines
+    notes: "[The Seven Heroines] Shrine Quest"
     coord: [-3880.25,2879.5475392271474]
-    notes: Text 112
+    comment: Text Options 1-1-2
 - _Npc::Gerudo<Bar Lady>:
-    comment: The Perfect Drink
+    notes: "[The Perfect Drink] Shrine Quest"
     coord: [-3852.75,2860.289913142792]
 - _Npc::Gerudo<Berry Girl>:
-    comment: The Mystery Polluter
+    notes: "[The Mystery Polluter] Side Quest"
     coord: [-3834.75,2853.287140021209]
 - .dir(N>) Turn
-- _Npc::Gerudo<Ice Quest>:
+- _Npc::Gerudo<Ice Minigame>:
     movements:
     - to: [-3755,2279.955233894437]
     - to: [-3762.75,2699.025255214422]

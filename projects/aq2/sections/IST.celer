@@ -62,6 +62,7 @@ IST:
     icon: snap
     split-type: UserDefined
     coord: [3776,2126.5]
+    notes: "[Robbie's Research] Side Quest and [Slated for Upgrades] Side Quest"
 - .!!(Upgrade Bombs and Stasis)
 - Drop materials:
     notes: All Durians. Also Wood and Rushroom down to 1

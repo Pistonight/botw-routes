@@ -87,9 +87,16 @@ Kak1Hateno:
     notes: When arrived, pause to make the fairy load
     coord: [949.19, 138.58, 502.84]
 - .dir(<N) Turn
+- Magnesis chest out:
+    notes: "[Riverbed Reward] Side Quest"
+- _Chest<Knights Sword>:
+    hide-icon-on-map: true
+    comment: Keep the weapon for IST
 - _Npc<Riverbed Reward>:
-    notes: Keep the weapon for IST
+    comment: Second Option
     coord: [823,146]
+    var-change:
+      SideQuest: 1
 - _Shrine::KayaWan:
     comment: Get Ancient Core
     notes: Can skip the core if you already got one from the guardian
@@ -99,15 +106,20 @@ Kak1Hateno:
 - .dir(S) + .dir(E>>) + .dir(S)
 - _Npc::SheikaFemale<Impa>:
     coord: [1775,987]
+    notes: "[Free the Divine Beasts] Main Quest and [Locked Mementos] Main Quest"
+    var-change:
+      MainQuest: 1
 - Activate .loc(Taloh Naeg) Shrine:
     coord: [1833.5,906.1630199330921]
 - .dir(<<S) Super to camp
 - RGC slam kill 3 bokos
 - _Npc<Hestu>:
-    notes: Talk twice, turn in korok seed, get a weapon slot (needed for IST)
-    comment: The Priceless Maracas
+    notes: "[The Priceless Maracas] Side Quest. Talk Twice"
+    comment: Get Weapon Slot
     coord: [2069.5,1425]
-- .dir(<S) to ore
+    var-change:
+      SideQuest: 1
+- .dir(<S) Turn to ore
 - BLSS .dir(E>) to near hateno:
     coord: [3190.5,2040.0051500829413]
     notes: BLSS off rare ore
@@ -118,16 +130,20 @@ Kak1Hateno:
 - .dir(W) SQ
 - _Npc<Sheep Lady>:
     coord: [3623,2101.5]
+    notes: "[The Sheep Rustlers] Side Quest"
 - _Material<2 Apples>:
     comment: From tree
     hide-icon-on-map: true
 - .dir(W) TS to statue
 - _Npc<Horned Statue>:
     coord: [3286.5,2200.0972573355384]
-    notes: Just mash A. You will trade away a stam and get a heart
+    notes: "[The Statue's Bargain] Side Quest. Just mash A. You will trade away a stam and get a heart"
+    var-change:
+      SideQuest: 1
 - .dir(.S) to Bolson
 - _Npc<Bolson>:
     coord: [3311,2302.89946289397]
+    notes: "[Hylian Homeowner] Side Quest"
 - CLOSE + RELOAD AUTOSAVE:
     notes: 
       Only if it's already after 5AM. 
@@ -135,5 +151,13 @@ Kak1Hateno:
       If before 4:50AM, you can make morning, then talk to bolson until autosave, then close and reload.
 - _Equipment::Weapon<Hammer>:
     hide-icon-on-map: true
+- Buy House
+- _Npc<Hudson>:
+    hide-icon-on-map: true
+    comment: Mash A+B
+    notes: "[From the Ground Up] Side Quest"
 - _Npc<House Upgrade>:
     coord: [3328.75,2278.13965792837]
+    var-change:
+      SideQuest: 1
+- __use__ CheckQuest

@@ -1,5 +1,9 @@
 Plateau:
 - SOR Clip, get TOD:
+    var-change:
+      MainQuest: 0
+      SideQuest: 0
+      ShrineQuest: 0
     coord: [-1054.5,1824.7969498711263]
 - _Equipment::Weapon<Tree Branch>:
     coord: [-1024.63, 251.40, 1812.55]
@@ -17,7 +21,9 @@ Plateau:
 - _Material<Peppers + Shrooms>:
     coord: [-967,1965.1368733581612]
     comment: These are food
-- Surf down to TOT, clip through
+- Surf down to TOT:
+    notes: "[Follow the Sheikah Slate] Main Quest"
+- Clip through
 - _Equipment::Bow<Bow + Arrow>:
     coord: [-832,1963.5581365131984]
     notes: 
@@ -26,7 +32,11 @@ Plateau:
 - BLSS
 - _Shrine::JaBaij
 - BLSS
-- _Tower::GreatPlateau
+- _Tower::GreatPlateau:
+    var-change:
+      MainQuest: 1
+- Jump down + FDC:
+    notes: "[The Isolated Plateau] Main Quest"
 - BLSS to mag
 - _Shrine::OmanAu
 - _Chest<Amber>:
@@ -43,4 +53,8 @@ Plateau:
     icon: king
     split-type: UserDefined
     coord: [-812,1969]
-    notes: ".link([Example inventory after Plat]: https://ist.itntpiston.app/?r=init+1+tree+branch+1+axe+1+spear%5Bequip%5D+1+traveler+bow%5Bequip%5D+5+arrow%5Bequip%5D+1+potlid%5Bequip%2C+life%3D300%5D+1+flint+6+pepper+3+shroom+1+amber+1+slate+4+orb+1+glider)"
+    notes: "[Defeat Ganon] Main Quest and [Seek Out Impa] Main Quest"
+    var-change:
+      MainQuest: 1
+- "(==) .link([Example inventory after Plat]: https://ist.itntpiston.app/?r=init+1+tree+branch+1+axe+1+spear%5Bequip%5D+1+traveler+bow%5Bequip%5D+5+arrow%5Bequip%5D+1+potlid%5Bequip%2C+life%3D300%5D+1+flint+6+pepper+3+shroom+1+amber+1+slate+4+orb+1+glider)"
+- __use__ CheckQuest

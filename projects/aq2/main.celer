@@ -12,6 +12,11 @@ _config:
     Shrine: "[{{%03 Shrine}}] {{_}}"
     Warp: "Warp {{_}}"
 
+CheckQuest: 
+  - "Main: .v(MainQuest)/15 Completed"
+  - "Side: .v(SideQuest)/77 Completed"
+  - "Shrine: .v(ShrineQuest)/42 Discovered"
+
 _route:
   - (==) This route is tighter for BM. There's an older route that gets BM sooner .link([here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/aq) if you need
   - (==) 
