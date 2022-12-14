@@ -3,11 +3,13 @@ Hebra:
     line-color: "#00ff00"
 - .dir(W) turn
 - _Npc::Rito<Little Bird>:
-    comment: Recital at Warbler's Nest
+    notes: "[Recital at Warbler's Nest] Shrine Quest"
     coord: [-3971.25,-1745.5]
+    var-change:
+      ShrineQuest: 1
 - .dir(N>) Turn
 - _Shrine::ShaWarvo
-- .dir(<N)
+- .dir(<N) MAX HEIGHT
 - _Shrine::MakaRah
 - +Run out:
     coord: [-3984,-2549.3553557229257]
@@ -20,14 +22,13 @@ Hebra:
 - +.dir(N) + .dir(N) midair:
     coord: [-3575,-3031.5463049519667]
 - _Shrine::MozoShenno
-- .gale() + .dir(E>) + .dir(E) Fast Turn:
+- .gale() + .dir(E>) + .dir(E) Turn:
     gale: 1
 - _Boss::Talus::Frost:
     coord: [-3078,-2933.6109706578454]
     fury: 3
     comment: .fury()
-    notes: Get flints
-- .dir(W) + .dir(E) + .dir(N) + .dir(N)
+- .dir(S) + .dir(N) + .dir(N) + .dir(<E)
 - _Shrine::ShadaNaw
 - BLSS .dir(W):
    time-override: 45
@@ -43,9 +44,16 @@ Hebra:
 - .dir(N) + .dir(<E) Turn:
     coord: [-2386,-3399.7266494439036]
 - _Shrine::ShaGehma
-- .dir(E>) Turn + .dir(E) midairs:
-    notes: or BLSS
+- BLSS .dir(E) to labyrinth:
+    notes: "[Trial on the Cliff] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
 - _Shrine::QazaTokki:
     comment: Barb Legging
-- .dir(S) up + BLSS .dir(E) to dark forest
-- _Shrine::KetohWawai
+- .dir(S) up + BLSS .dir(E) to dark forest:
+    notes: "[Shrouded Shrine] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
+- _Shrine::KetohWawai:
+    notes: Back up ancient core here if you only have 1
+- __use__ CheckQuest

@@ -192,8 +192,8 @@ Naboris:
     movements:
     - to: [-3767.25,2865.0417949038665]
       warp: true
-    comment: The Eighth Heroine
-    notes: Equip snowboots
+    notes: "[The Eighth Heroine] Side Quest"
+    comment: Equip snowboots
 - Run to Riju
 - _Npc::Gerudo<Riju + Thunderhelm>:
     coord: [-3888.5,2970.333490767677]
