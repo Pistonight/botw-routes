@@ -3,21 +3,23 @@ TarreyActivateGoron:
     movements:
     - to: [3284.5,-430.83222614419265]
       warp: true
-- Finish Divine Beast Vah Ruta quest
+- Talk to King
 - _Chest<Lightscale Trident>:
     coord: [3331.5,-539.2848849971588]
-    notes: Don't throw away. For durability transfer later
+- (==) TOD here should be before 7AM. If you mess up too much it will be after 7AM, in which case it will be better to do diving quest first, then fronk, then WB to shrine from fronk, and do lynel lady on second visit
 - _Npc::ZoraMale<Fronk>:
     coord: [3340.375,-535.4719221439664]
-    comment: A Wife Washed Away
-    notes: At SPA area 8PM to 7AM, otherwise fixing pillars. If you mess up too much it will be after 7AM, in which case it will be better to do diving quest first, then fronk, then WB to shrine from fronk, and do lynel lady on second visit
+    comment: 8PM-7AM SPA
+    notes: "[A Wife Washed Away] Side Quest. If after 7AM, he is fixing pillars"
     time-override: 30 # for 2 quests
 - _Npc::ZoraFemale<Lynel Safari Lady>:
-    comment: Talk twice
+    comment: Talk Twice
     coord: [3349.375,-509.8367705381688]
+
 - _Npc::ZoraMale<Diving is a Beauty Quest>:
     coord: [3292.625,-519.5906331003753]
     comment: midair after swimming up
+    notes: "[Diving is a Beauty] Side Quest"
 - .dir(W) Activate Shrine:
     coord: [3082.75, -455.625]
 - .!!(DO NOT THROW TRIDENT)

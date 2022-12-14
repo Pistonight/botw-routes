@@ -2,6 +2,7 @@ Kak2Ruta:
 - _Warp::Shrine::TalohNaeg:
     line-color: yellow
 - _Npc<Pumpkin Man>:
+    notes: Get pumpkin for Riddles of Hyrule
     coord: [1841,984.478013107444]
     time-override: 20
     notes: It should be evening in which case you would meet him at the bridge with fireflies (the lower one). During day time he will be working in the pumpkin field.
@@ -34,28 +35,33 @@ Kak2Ruta:
     coord: [3477.5,1075.1241962309214]
 - .loc(Monument):
     coord: [3397,10.99405759660658]
+    comment: Left of dam
     icon: npc-zora-male
 - .dir(W)
 - .loc(Monument):
     coord: [3261.5,33.00277312158323]
+    comment: Side of mountain
     icon: npc-zora-male
 - .dir(W)
 - .loc(Monument):
     coord: [3093,74.51921377097187]
+    comment: Below
     icon: npc-zora-male
-- .dir(<N)
+- .dir(.N) DT
 - .loc(Monument):
     coord: [3061,-225.5996342968965]
+    comment: Other side below Bridge
     icon: npc-zora-male
 - .dir(E>)
 - .loc(Monument):
     coord: [3258.5,-146.06813955891084]
+    comment: Side of mountain
     icon: npc-zora-male
 - .dir(N) Super:
     coord: [3325,-515.3022702526114]
 - Enter Fish Drama:
     icon: npc-zora-female
-    split-type: UserDefined
+    notes: "[Reach Zora's Domain] Main Quest and [Divine Beast Vah Ruta] Main Quest"
 - _Shrine::NeezYohma
 - Mipha Memory:
     split-type: UserDefined
