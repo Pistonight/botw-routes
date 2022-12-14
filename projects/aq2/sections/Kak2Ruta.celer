@@ -62,6 +62,8 @@ Kak2Ruta:
 - Enter Fish Drama:
     icon: npc-zora-female
     notes: "[Reach Zora's Domain] Main Quest and [Divine Beast Vah Ruta] Main Quest"
+    var-change:
+      MainQuest: 1
 - _Shrine::NeezYohma
 - Mipha Memory:
     split-type: UserDefined
@@ -80,3 +82,5 @@ Kak2Ruta:
     coord: [3675,-188.23615728933328]
     time-override: 240
     notes: Cryo, Stasis, GEB 6AA all head
+    var-change:
+      MainQuest: 1

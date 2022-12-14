@@ -6,25 +6,35 @@ TarreyActivateGoron:
 - Talk to King
 - _Chest<Lightscale Trident>:
     coord: [3331.5,-539.2848849971588]
-- (==) TOD here should be before 7AM. If you mess up too much it will be after 7AM, in which case it will be better to do diving quest first, then fronk, then WB to shrine from fronk, and do lynel lady on second visit
-- _Npc::ZoraMale<Fronk>:
-    coord: [3340.375,-535.4719221439664]
-    comment: 8PM-7AM SPA
-    notes: "[A Wife Washed Away] Side Quest. If after 7AM, he is fixing pillars"
-    time-override: 30 # for 2 quests
-- _Npc::ZoraFemale<Lynel Safari Lady>:
+- (==) 
+  TOD here should be before 7AM. 
+  If you mess up too much it will be after 7AM, 
+  in which case it will be better to do diving quest first, 
+  then fronk (at pillar), 
+  then WB to shrine from fronk, 
+  and do lynel lady on second visit
+- _Npc::ZoraFemale<Lynel Picture Lady>:
     comment: Talk Twice
     coord: [3349.375,-509.8367705381688]
-
-- _Npc::ZoraMale<Diving is a Beauty Quest>:
+    notes: "[Lynel Safari] Side Quest"
+    var-change:
+      SideQuest: 1
+- _Npc::ZoraMale<Fronk>:
+    coord: [3340.375,-535.4719221439664]
+    comment: 8PM-7AM at SPA
+    notes: "[A Wife Washed Away] Side Quest"
+    time-override: 30 # for 2 quests
+- _Npc::ZoraMale<Diving Quest>:
     coord: [3292.625,-519.5906331003753]
     comment: midair after swimming up
     notes: "[Diving is a Beauty] Side Quest"
+- ""
 - .dir(W) Activate Shrine:
     coord: [3082.75, -455.625]
-- .!!(DO NOT THROW TRIDENT)
-- _Shrine::DagahKeek
-- .dir(<<W)
+- Throw away trident
+- _Shrine::DagahKeek:
+    text: "Dagah Keek (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- .dir(<<W) Ordinal Turn
 - _Boss::Hinox::Blue:
     coord: [2923,-290.92037179452836]
     fury: 3
@@ -32,18 +42,23 @@ TarreyActivateGoron:
 - .dir(S.) Turn (can super)
 - .loc(Monument):
     coord: [2838.5,188.50332156742115]
+    comment: Below Ruta
     icon: npc-zora-male
 - .dir(<W) to deer:
     coord: [2492,339.23175373234244]
 - Ride to pedestal:
     time-override: 20
 - _Npc<Kass>:
-    comment: The Crowned Beast
+    notes: "[The Crowned Beast] Shrine Quest"
     coord: [2576,481.28800848446645]
-- _Shrine::MezzaLo
+    var-change:
+      ShrineQuest: 1
+- _Shrine::MezzaLo:
+    text: "Mezza Lo (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
 - .dir(N>) TS
 - _Npc::ZoraFemale<Letter Girl>:
     coord: [2749,-88.23029102874534]
+    notes: "[Special Delivery] Side Quest"
 - Bomb Letter
 - .dir(E)
 - .loc(Monument):
@@ -55,7 +70,7 @@ TarreyActivateGoron:
     icon: npc-zora-male
 - .dir(W>)
 - _Npc<Letter Quest>:
-    comment: Special Delivery
+    notes: Pick up the letter and walk along the passage. Can pick up 2 frogs here too. Then continue walking to a tree to blss
     movements:
     - to: [2732.5,-82.47801310744399]
     - to: [2661,-147.41660827237956]
@@ -63,9 +78,9 @@ TarreyActivateGoron:
     - to: [2237,-198.7975621243986]
     - to: [1780,-78.75002289725126]
     time-override: 30
-- .dir(<E) TS
+- .dir(<E) Turn + .dir(.E) Turn
 - _Shrine::SohKofi:
-    comment: Knight's Bow (optional)
+    notes: Can get a Knight's Bow for Eldin if needed. Drop swallow bow if you don't have a slot.
 - Elevator BLSS .dir(E)
 - _Shrine::ShehRata
 - .dir(<N) Turn (super)
@@ -76,14 +91,19 @@ TarreyActivateGoron:
     notes: Get Octoballoon. Not guaranteed, 84%. We do the shrine so that it's less time loss to rng
     coord: [1257,-1111.1588602507172]
 - .dir(W)
-- _Tod::Noon:
-    comment: Make 12pm-3pm if not
-    notes: For Balloon Girl (7AM-8PM), Darner Girl (8AM-8PM) and Greyson (>9PM). 
-      If it's after 3PM, it will be really tight to make it for Darner Girl, and if you set TOD at darner girl, you have to set TOD again for Greyson. So just setting it once here is better.
+- (==) 
+  Check TOD 12pm-3pm. 
+  Make noon if not. 
+  For Balloon Girl (7AM-8PM), 
+  Darner Girl (8AM-8PM) and Greyson (>9PM). 
+  If it's after 3PM, it will be really tight to make it for Darner Girl, and if you set TOD at darner girl, you have to set TOD again for Greyson. So just setting it once here is better.
 - _Npc<Balloon Girl>:
-    comment: Ballon Flight
+    comment: Put balloon, break barrel
     coord: [1066,-1136.1687642563725]
-- .dir(W) + .dir(S)
+    var-change: 
+      SideQuest: 1
+    notes: "[Balloon Flight] Side Quest"
+- .dir(W) + .dir(S.)
 - _Shrine::NamikaOzz:
     comment: Snap and kill
     time-override: 30
