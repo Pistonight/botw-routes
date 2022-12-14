@@ -86,7 +86,7 @@ TarreyActivateGoron:
 - .dir(<N) Turn (super)
 - _Shrine::MirroShaz:
     time-override: 40
-- SQ .dir(S)
+- SQ .dir(<S)
 - Kill .enemy(Octorok):
     notes: Get Octoballoon. Not guaranteed, 84%. We do the shrine so that it's less time loss to rng
     coord: [1257,-1111.1588602507172]
