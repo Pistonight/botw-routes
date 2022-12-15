@@ -64,10 +64,11 @@ TarreyActivateGoron:
 - .loc(Monument):
     coord: [2867,-71.59968009139811]
     icon: npc-zora-male
-- Run to the other side
+    comment: Near many lizalfos
 - .loc(Monument):
     coord: [2879,-33.08442792268852]
     icon: npc-zora-male
+    comment: Run to the other side
 - .dir(W>)
 - _Npc<Letter Quest>:
     notes: Pick up the letter and walk along the passage. Can pick up 2 frogs here too. Then continue walking to a tree to blss
@@ -119,12 +120,15 @@ TarreyActivateGoron:
     notes: Can skip gale here and save for Gut Check
     coord: [2052,-726.1045862997235]
 - _Shrine::TahMuhl
-- .dir(E) + .dir(NE) to stable
+- .dir(E) + .dir(<<E) Turn to stable
 - _Npc<Shrine Painting Guy>:
-    comment: A Landscape of a Stable
+    notes: "[A Landscape of a Stable] Shrine Quest"
     coord: [2610,-1140.0332774590024]
+    var-change:
+      ShrineQuest: 1
 - .dir(<E) to shrine
-- _Shrine::MoaKeet
+- _Shrine::MoaKeet:
+    text: "Moa Keet (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
 - .dir(N) Turn to shrine
 - _Shrine::SahDahaj
 - .dir(E) + Run + .dir(<E)
@@ -132,19 +136,20 @@ TarreyActivateGoron:
 - .dir(E) Turn
 - _Material<Armoranth>:
     coord: [3256,-1740.5062927691179]
-- SQ to stable
+- Cut tree SQ to stable
 - _Npc<Darner Quest>:
-    comment: Little Sister's Big Request
     coord: [3142,-1690.6525216870973]
-    notes: Talk to big sis give flower, 2nd option, then little sis, big sis, little sis, big sis
+    notes: "[Little Sister's Big Request] Side Quest. Talk to big sister (2nd option), then little sister, big sister, little sister, big sister"
     time-override: 30
-- .dir(E) super + midairs
-- _Material<2 Apples>:
-    hide-icon-on-map: true
-    comment: From the korok
-    notes: 1 for baked apple, 1 for fruit cake
-- _Shrine::DahHesho
-- .dir(N.) Turn to Tarrey Town:
+    var-change:
+      SideQuest: 1
+- BLSS to Tarrey Town:
     coord: [3984.5,-1597.5796282054716]
+    notes: Minijump BLSS off the fence. Switch to falcon bow to make him load
 - _Npc<Hudson>:
-    comment: Talk twice
+    comment: Talk Twice
+- .dir(S) + .dir(S):
+    notes: 2 cardinal max heights from the statue
+- _Shrine::DahHesho:
+    text: "Dah Hesho (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- __use__ CheckQuest

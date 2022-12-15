@@ -4,15 +4,17 @@ Eldin:
 - .dir(N) + midair
 - .loc(Monument):
     coord: [3224.5,-742.9558281347754]
+    comment: Side of mountain
     icon: npc-zora-male
 -  .dir(W>) + .dir(W) + .dir(W)
 - .loc(Monument):
     coord: [3707.5,-523.3688709651187]
+    comment: Middle of water fall
     icon: npc-zora-male
-- .dir(N) to tree:
+- .dir(N) to top of waterfall:
     coord: [3745,-630.4112601093257]
-    notes: Pick up the shock arrows so Link doesn't get distracted
-- BLSS .dir(W) to Eldin memory
+- BLSS .dir(W) to Eldin memory:
+    notes: BLSS off rocks
 - _Memory::EldinCanyon:
     time-override: 60
 - .dir(E) Turn
