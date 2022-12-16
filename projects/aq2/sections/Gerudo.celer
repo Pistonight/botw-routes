@@ -4,33 +4,36 @@ Gerudo:
     line-color: cyan
 - _Tod::Morning:
     notes: For Farosh + Gerudo Town quests
-- .dir(N) + .dir(W) + .dir(S):
+- .dir(N) + .dir(W) + .dir(S) + .dir(S) SQ:
     movements:
     - to: [-3845,605]
     - to: [-4023,595]
+    - to: [-4040,770.1052291590076]
     - to: [-4038,881]
 - Kill .enemy(Lynel):
-    notes: Eat attack food, headshot with shock arrows, spin to win with RGC, can eat stam food to maintain spin
+    notes: Eat attack food, headshot with shock arrows, spin to win with RGC, If you ate a stam food for gorae torr, you should have enough stam
     time-override: 60
 - _Material<Lynel Hoof>
 - _Snap::Quest<Big Sword>:
     movements: 
     - to: [-3986,970]
       away: true
-    notes: You can snap from where the lynel was. Also keep an eye on Farosh and shoot a scale
+    notes: You can snap from where the lynel was. Snap the hilt
 - _Material<Farosh Scale>:
     coord: [-4150,788]
+    notes: Shoot Farosh after snapping the sword. Then updraft up. If the scale falls on your side, drop down, get it, then windbomb from the valley. If it falls on the other side, quick midair to the other side
 - .dir(<N) Turn:
     coord: [-4295,489]
 - _Snap::Quest<Eighth Heroine Statue>:
     movements: 
     - to: [-4377,524]
       away: true
-- .dir(S>) Turn
+- .dir(SW)
 - _Shrine::KemaKosassa
 - BLSS .dir(S)
 - _Shrine::KemaZoos
-- .dir(S>>) + .dir(S.) Turn
+- .dir(S>>) + .dir(S.) Turn:
+    notes: WB to far set of torches. 3 furies (this will kill the molduga near the shrine), light torches, SQ WB to the other set, light torches
 - _Boss::Molduga:
     coord: [-4810.5,2784.5]
     fury: 3
@@ -39,7 +42,7 @@ Gerudo:
 - BLSS .dir(S)
 - _Shrine::HawaKoth:
     comment: Get outside skew
-    notes: Snap backup guardian
+    notes: Snap backup guardian if needed
 - _Snap::Quest<Gerudo Skeleton>:
     coord: [-4846.5,3763.3366904384147]
 - _Npc::Gerudo<Give Barta durian>:
@@ -48,52 +51,116 @@ Gerudo:
     notes: Equip gerudo outfit middle
 - _Npc::Gerudo<Sand Seal Race>:
     coord: [-3764,3129.2366464057413]
+    notes: "[The Undefeated Champ] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
 - _Shrine::RaqaZunzo:
     comment: Radiant shield
 - .dir(N) Turn
 - _Npc<Boots Guy>:
-    comment: The Eighth Heroine
-    notes: Talk three times
+    comment: Talk Three Times
+    notes: "[The Forgotten Sword] Side Quest"
+    var-change:
+      SideQuest: 2
     coord: [-3760.5,2873.5]
-- _Npc<The Secret Club's Secret>:
-    notes: "Password 3334"
-    comment: Talk to lady inside
+- _Npc<Secret Club>:
+    comment: "Password 3334"
+    notes: "[The Secret Club's Secret] Side Quest. Walk in to trigger the cutscene"
     coord: [-3793,2931.5]
+    var-change:
+      SideQuest: 1
 - .dir(W)
 - _Npc::Gerudo<Polluting Lady>:
     coord: [-3917.75,2949.25]
-    notes: Talk twice
+    comment: Talk Twice
 - Drop down
 - _Npc<Guard Captain>:
-    comment: The Search for Barta
+    notes: Finish [The Search for Barta]
     coord: [-3911.25,2930.25]
+    var-change:
+      SideQuest: 1
 - _Npc::Gerudo<Molduga Guts Lady>:
-    comment: Medicinal Molduga
+    notes: "[Medicinal Molduga] Side Quest. If after 2PM, she will be in front of Riju's palace"
     coord: [-3907,2911.75]
-    notes: If after 2PM, she will be in front of Riju's palace
+    comment: Talk Twice 
+- Torch SQ windbomb
 - _Npc::Gerudo<Berry Girl>:
-    comment: The Mystery Polluter
+    notes: Finish [The Mystery Polluter]
+    var-change:
+      SideQuest: 1
     coord: [-3835,2853.5]
 - _Npc::Gerudo<Flint Lady>:
-    comment: Tools of the Trade
-    notes: Talk twice
+    notes: "[Tools of the Trade] Side Quest"
+    var-change:
+      SideQuest: 1
+    comment: Talk Twice
     coord: [-3825,2897.171471657931]
+- SQ
 - _Npc::Gerudo<Riju>:
-    comment: The Thunder Helm
+    notes: Finish [The Thunder Helm]. Talk to Riju not Thunderhelm
     coord: [-3884.5,2964.5]
-- Climb up + BLSS .dir(NE) to Kara Kara Bazaar
+    var-change:
+      SideQuest: 1
+- Run out + Climb up
+- BLSS .dir(NE) to Kara Kara Bazaar
 - _Npc<Watchtower Guy>:
-    comment: The Eye of the Sandstorm
+    notes: "[The Eye of the Sandstorm] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
     coord: [-3277,2558]
 - _Cook<Chilly Elixir>:
     comment: Spring + Winterwing
     coord: [-3275,2571]
+- Equip flamebreaker:
+    notes: Need to take off gerudo outfit to talk to Rhondson
 - _Npc::Gerudo<Rhondson>:
-    notes: Need to take off gerudo outfit. Equip Flamebreaker
     coord: [-3269.43, 129.00, 2585.22]
 - _Npc::Rito<Ice Guy>:
-    notes: Talk twice
+    comment: Talk Twice
+    notes: "[An Ice Guy] Side Quest"
+    var-change:
+      SideQuest: 1
     coord: [-3237.75,2574.5]
-- SQ .dir(NE)
+- SQ .dir(NE):
+    notes: Aim right in the middle of 2 trees
 - _Memory::KaraKaraBazaar:
+    text: "Kara Kara (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
     time-override: 200 # for all gerudo and bazaar quests
+- _Tod::Noon:
+    coord: [-2686,2735.335572362241]
+    comment: For Suma Sahma 4PM-5:30PM
+    notes: You can delay this according to your speed. 
+- .dir(E>) Turn + .dir(E):
+    notes: Land on northmost statue with ball
+
+- The Seven Heroines:
+    notes: .link(https://tinyurl.com/Seven-Heroines)
+- _Shrine::KorshOhu
+- .dir(S) up + BLSS .dir(S>)
+- _Npc::Gerudo<Shrine Lady>:
+    coord: [-2989,3760.314947379851]
+    notes: "Finish [The Perfect Drink]"
+- _Shrine::MisaeSuma
+- .dir(E) Turn + .dir(E) + .dir(E) + .dir(<<E) Turn:
+    movements:
+    - to: [-2442,3746.5637825015438]
+    - to: [-2122,3728.556869637083]
+- _Shrine::DilaMaag:
+    comment: Barb Armor
+- +WB straight up land left:
+    coord: [-1808,3343.409011147238]
+- +.dir(E) + .dir(E) up:
+    coord: [-1603,3343.409011147238]
+- +.dir(S) + .dir(S) +.dir(N.) + midair:
+    movements:
+    - to: [-1614,3587.5027188654785]
+    - to: [-1543,3493.4666183510744]
+    - to: [-1395,3503.470458831329]
+- Solve Puzzle
+- _Npc<Journal>:
+    comment: Text Options 3334
+    notes: "[Secret of the Snowy Peaks] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
+- _Shrine::SumaSahma
+- __use__ CheckQuest

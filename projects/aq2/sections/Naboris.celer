@@ -197,6 +197,7 @@ Naboris:
 - Run to Riju
 - _Npc::Gerudo<Riju + Thunderhelm>:
     coord: [-3888.5,2970.333490767677]
+    notes: "[The Thunder Helm] Side Quest"
     var-change:
       MainQuest: 1
 - _Npc::Gerudo<Guard Captain>:
