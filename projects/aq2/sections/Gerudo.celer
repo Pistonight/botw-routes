@@ -1,6 +1,6 @@
 Gerudo:
 - _Warp::Shrine::KeehaYoog:
-    comment: Lightning pedestal shrine
+    notes: Lightning pedestal shrine
     line-color: cyan
 - _Tod::Morning:
     notes: For Farosh + Gerudo Town quests

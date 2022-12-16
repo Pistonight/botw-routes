@@ -19,63 +19,78 @@ Eldin:
     time-override: 60
 - .dir(E) Turn
 - _Shrine::QuaRaym
-- .dir(N) + .dir(N) to .loc(South Mine):
-    coord: [1658,-1963.0144598482575]
+- .dir(N) + .dir(<N) to .loc(South Mine):
+    coord: [1804.5,-1729.7964545464456]
 - _Material<10 Lizards>:
     time-override: 30
-    notes: Get 1-2 flints here in case rng bad later
+    movements:
+    - to: [1701.79, 430.53, -1932.14]
+    - to: [1712.06, 430.61, -1939.71]
+    - to: [1717.88, 431.01, -1938.83]
+    - to: [1722.51, 431.35, -1950.52]
+    - to: [1728.43, 435.44, -1976.95]
+    - to: [1723.81, 432.41, -1996.84]
+    - to: [1717.02, 432.55, -1996.47]
+    - to: [1714.66, 432.56, -1996.17]
+    - to: [1701.37, 431.47, -1982.87]
+    - to: [1683.16, 430.31, -1948.15]
 - _Npc<Lizard Guy>:
-    comment: Fireproof Lizard Roundup
-    notes: Equip Flamebreaker Armor
+    comment: Equip armor
+    notes: "[Fireproof Lizard Roundup] Side Quest"
+    coord: [1657.35, 430.17, -1960.60]
+    var-change:
+      SideQuest: 1
 - _Npc<Greyson>:
     notes: Should be night time already. If not, make night
-- .dir(<N) + .dir(N>):
+- .dir(<N) Turn + .dir(NE):
+    coord: [1497,-2304.8171931398265]
+- _Npc::Goron<Shrine Brother>:
     coord: [1644.75,-2463.0383285018875]
-- _Npc::Goron<Brother's Roast Goron>:
-    comment: "Text 21"
-- Run to shop:
-    coord: [1680,-2460.5]
-- .!!(TRANSMUTATE):
-    icon: tots
-    hide-icon-on-map: true
-    comment: 5 Flints + RGC
-    notes: Equip trident, Drop flints, then overload. Equip RGC, hold smuggle 5 rushrooms, sell all, pick up flints, unhold, buy goron spice, slam attack
+    comment: "Text Options 2-1"
+    notes: "[A Brother's Roast] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
 - _Npc::Goron<Bludo>:
     coord: [1705.75,-2447.75]
+    notes: "[Divine Beast Vah Rudania] Main Quest"
 - .dir(N>)
 - _Shrine::ShaeMosah
+- _Tod::Night:
+    notes: For Kilton + Xenoblade (<3AM) and East Akkala Stable (>5AM). If you are slow, you can set this before the Igneo Talus to make sure you meet the cycle for xenoblade chest
 - .dir(<N) Turn
 - _Npc::Goron<Rescue Yunobo>:
     coord: [1635,-2936.561622231986]
 - .dir(W.) Turn
-- _Tod::Night:
-    coord: [1350,-3040]
-    notes: For Kilton + Xenoblade (<3AM) and East Akkala Stable (>5AM)
 - _Boss::Talus::Igneo:
     coord: [1337,-3051.971476463712]
     fury: 3
     comment: .fury()
-    notes: Pick up flint (need 11)
 - .dir(<E)
 - _Shrine::ShoraHah
-- Minecart + .dir(N>):
+- Minecart + .dir(N.):
     coord: [1727,-3315.1350048347513]
 - _Snap::Quest<Eldin Skeleton>:
     movements:
     - to: [1580,-3666.1171593680883]
       away: true
-- .dir(E) Fast Turn + midair
-- _Npc<Gut Check Challenge>:
+- .dir(E) Turn + .dir(E) Turn
+- _Npc<Gut Check Goron>:
     time-override: 40
     coord: [2670.5,-3468.808037473142]
-    notes: 2 WB up to the final 5 red rupees
+    notes: "[The Gut Check Challenge] Shrine Quest. 2 WB up to the final 5 red rupees. You can either eat stam food or get one of the red rupees up there first and drop down"
+    var-change:
+      ShrineQuest: 1
 - _Shrine::GoraeTorr
 - .dir(E) Turn:
     coord: [3322,-3429]
-- Look Sky .dir(E)
+- .!!(Look Sky .dir(E))
+- Activate Zuna Kai:
+    notes: Activate the shrine here so you don't reach the chest too fast. The stal moblins will spawn faster and mess you up.
 - .dir(<E) Turn
 - _Chest::Special<Salvager Vest>:
     coord: [3636.00, 302.00, -3520.00]
+    notes: "[[Xenoblade Chronicles 2]] Side Quest"
+- .dir(<W) Turn
 - _Shrine::ZunaKai
 - _Snap::Quest<Backup Blupee>:
     movements:
@@ -83,11 +98,9 @@ Eldin:
     - to: [3248,-3373.0527605101324]
     - to: [3330,-3426.1528503014133]
       warp: true
+    notes: .dir(S) Turn, snap quickly before octorok and stals scare it away, then use firerod to create an updraft and midair .dir(<N) Turn
 - SQ .dir(W)
-- _Equipment::Weapon<Korok Leaf>:
-    coord: [3223.95, 83.06, -3393.09]
-    notes: For Voo Lota quest and blue flame later
-- SQ to kilton
+
 - _Snap::Quest<Kilton>:
     coord: [3247,-3440.5]
     notes: Snap multiple to be safe. Don't have to talk

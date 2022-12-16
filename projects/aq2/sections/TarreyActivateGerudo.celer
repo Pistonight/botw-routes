@@ -1,13 +1,16 @@
 TarreyActivateGerudo:
 - _Warp::Shrine::DahHesho:
     line-color: red
-- .dir(NW) to stalkers:
-    notes: Land in the middle of them so you attract both, use falcon bow and aim a tiny bit above eye
+- .dir(<N) Ordinal Turn to stalkers:
+    notes: 
+      Land near the close one. Shoot one AA with falcon bow to attract the far one.
+      Snap the close one, use FDB to kill it, then use fire rod to create an updraft,
+      and kill the far one with falcon bow AA, then midair to TT
 - _Snap::Quest<Guardian Stalker>:
     coord: [3654,-1552.409629673918]
 - Kill .enemy(2 Stalkers):
     time-override: 40
-- .dir(E) to Tarrey Town:
+- .dir(.E) to Tarrey Town:
     coord: [3984.5,-1597.5796282054716]
 - _Npc<Hudson>:
     comment: Talk twice
@@ -20,7 +23,10 @@ TarreyActivateGerudo:
 - _Shrine::KahMael
 - .gale() + .dir(.N) Turn:
     gale: 1
-- .!!(READ TABLET)
+- .!!(READ TABLET):
+    notes: "[Into the Vortex] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
 - .!!(READ TABLET)
 - .!!(READ TABLET)
 - BLSS with orb:
@@ -30,30 +36,45 @@ TarreyActivateGerudo:
 - _Shrine::KatosaAug
 - _Npc<Guard>:
     coord: [4243.71, -2746.65]
-    comment: A Shady Customer
-    notes: Talk twice
+    notes: "[A Shady Customer] Side Quest"
+    comment: Talk Twice
+    var-change:
+      SideQuest: 1
 - _Npc<Cooking Pot Lady>:
-    comment: The Spring of Power
-    notes: 2nd text option
+    notes: "[The Spring of Power] Shrine Quest"
+    comment: 2nd text option
     coord: [4245.96, -2747.83]
+    var-change:
+      SideQuest: 1
 - .dir(N) midairs
 - Smuggle blue flame:
     coord: [4153.5,-3173]
-    notes: If you don't have any wood weapon, there's a moblin nearby with one
+    notes: Use tree branch
     time-override: 60
 - .dir(E) super to lab:
     coord: [4506,-3168]
+    notes: Throw away tree branch
 - _Npc<Robbie>:
-    comment: Robbie's Research
-    notes: Your AA would reset to 999 after he gives you 3
+    comment: Second options
+    notes: "[Robbie's Research] Side Quest"
+    var-change:
+      SideQuest: 1
 - _Equipment::Weapon<Ancient Short Sword>
 - _Npc<Robbie's Wife>:
-    comment: The Skull's Eye
+    notes: "[The Skull's Eye] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
 - .dir(N>) Turn:
     coord: [4627.5,-3683.5]
-- _Snap::Quest<Skywatcher>:
-    movements:
-    - to: [4573.5,-3679.5]
-      away: true
+    notes: "[Trial of the Labyrinth] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
 - _Shrine::TuKaloh:
     comment: Barb Helm
+    text: "Tu Ka'loh (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- _Snap::Quest<Skywatcher>:
+    notes: Snap right after coming out of the shrine
+    movements:
+    - to: [4654.25,-3653.478781346587]
+      away: true
+- __use__ CheckQuest
