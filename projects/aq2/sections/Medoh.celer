@@ -26,7 +26,7 @@ Medoh:
     hide-icon-on-map: true
     comment: Inside Medoh
     notes: If you forget this one, there is a backup later in Ketoh Wawai (dark forest shrine)
-- Use hammer for the button
+- Use RC for the button
 - Windblight:
     split-type: UserDefined
     icon: medoh-done

@@ -8,26 +8,43 @@ Lake:
     - to: [-636,3722]
     - to: [-200,3500]
     time-override: 200
-- _Npc<Hunt for the Giant Horse>
+    notes: Switch to AA, kill any electric keese coming your way
+- _Npc<Standing Guy at Camp>:
+    notes: "[Hunt for the Giant Horse] Side Quest"
+    var-change:
+      SideQuest: 1
 - .dir(SE) + .dir(SE)
-- _Shrine::ShoqaTatone
-- .dir(E) + .dir(E) + .dir(N>)
-- _Shrine::KaoMakagh
-- .dir(N) .fury() bokos:
-    fury: 1
-    notes: AA the rest. 5 bokos total
-    coord: [488,3313.4692913392537]
+- _Npc<Guardian Girl>:
+    coord: [109,3823.131728472772]
+    hide-icon-on-map: true
+    notes: "[Guardian Slideshow] Shrine Quest"
+    comment: "Talk Twice"
+    var-change:
+      ShrineQuest: 1
 - _Tod::Morning:
-    notes: For quest guy here and Goron city quests
-    coord: [524,3455.4142031595566]
-- _Npc<Old guy at stable horses>:
-    coord: [511,3442]
-    comment: Horseback Hoodlums
+    notes: For Highland Stable (>5AM), Lakeside Stable (>7AM), and Lurelin (5AM-6PM). You can make it after killing the bokos after Kao Makagh if you are slower.
+- _Shrine::ShoqaTatone
+- .dir(E) + .dir(E) + .dir(N>):
+    coord: [334.5,3853.7939887635766]
+- _Shrine::KaoMakagh
+- .dir(N) Turn kill .enemy(Bokos):
+    notes: AA 5 of them with falcon bow
+    coord: [488,3313.4692913392537]
+- Bomb arrow grass + .dir(<S):
+    notes: Cut the near by tree if rain
 - _Material<Swift Carrot>:
     hide-icon-on-map: true
     comment: Behind horses
-- .dir(N) Turn right
+- _Npc<Old Lady>:
+    coord: [511,3442]
+    comment: Talk Once
+    notes: "[The Horseback Hoodlums] Side Quest. He is at the horses, or inside if raining"
+    var-change:
+      SideQuest: 1
+
+- .dir(N.) Turn
 - _Shrine::PumaagNitae
 - .dir(E.)
 - _Npc<Kass>:
     coord: [830,3054]
+    notes: "[The Serpent's Jaws] Shrine Quest"

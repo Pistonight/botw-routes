@@ -1,19 +1,34 @@
 Faron:
-- .dir(E>) ....
-- _Npc<Thunder Magnet>:
+- .dir(E>) Super + .dir(E>) Turn + .dir(S):
+    coord: [1537,3429.4209166360306]
+- _Npc<Quest Lady>:
+    notes: "[Thunder Magnet] Side Quest. She will be inside if thundering (5PM-9PM). You can still use bomb arrow for the shrine in rain if you stand below a tree"
+    comment: Talk Twice
     coord: [1552,3538.710361080126]
-    notes: She will be inside if thundering, Talk twice
+- Bomb arrow rock
 - _Shrine::ShaiUtoh
-- .dir(N) + .dir(N)
+- .dir(N>) Super
 - _Shrine::ShodaSah
 - .dir(S) + .dir(E>>)
-- Clip in
+- Clip in:
+    notes: .link(https://www.youtube.com/watch?v=avrVPjqfJDQ)
 - _Shrine::QukahNata
-- _Npc<Kass>
-- .dir(<<E) TS to Blue Hinox:
+- Clip out + SQ
+- _Npc<Kass>:
+    notes: "[A Song of Storms] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
+- .dir(<E) TS to Blue Hinox:
     coord: [2689,2965]
 - Walk Orb:
     coord: [2632.75,2857]
+- .!!(READ TABLET):
+    coord: [2655,2842.5]
+    notes: "[The Three Giant Brothers] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
+- .!!(READ TABLET)
+- .!!(READ TABLET)
 - .dir(W>) to Black Hinox:
     coord: [2419,2779.5]
 - Walk or BLSS:
@@ -22,48 +37,50 @@ Faron:
     coord: [2767.5,2714]
 - Walk Orb:
     coord: [2647.5,2820.75]
-- .!!(READ TABLET):
-    coord: [2655,2842.5]
-- .!!(READ TABLET)
-- .!!(READ TABLET)
-- _Tod::Morning:
-    hide-icon-on-map: true
-    comment: Before entering shrine
-    notes: For quest at Lurelin, Hateno, and Xenoblade TOD
-- _Shrine::TawaJinn
-- BLSS .dir(S)
-- _Npc<A Gift of Nightshade>:
-    notes: Talk to man twice, Talk to woman twice
+- _Shrine::TawaJinn:
+    text: "Tawa Jinn (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- BLSS .dir(S) to heart lake
+- _Npc<Love Quest Guy>:
+    comment: Talk Twice
     coord: [2591,3528.322870584376]
+    notes: "[A Gift of Nightshade] Side Quest. Use a cryo block when going to the woman"
+- _Npc<Love Quest Woman>:
+    comment: Talk Twice
+    hide-icon-on-map: true
+    var-change:
+      SideQuest: 1    
 - .dir(SW)
 - .fury() the camp:
     fury: 2
     coord: [2091,3914.4757884316987]
-    notes: For watch tower bokos left after fury, bomb arrow to destroy the entire tower
-- .!!(SEE CHEST CUTSCENE)
+    notes: For watch tower bokos left after fury, get BLS first, then AA him (aim at branch above with falcon bow) and WALK to get slide (if you slide directly in bow animation, your angle will be locked)
 - BLSS .dir(E):
     coord: [3024,3924.903245315798]
-- _Chest<Sunken Treasure>
-- .dir(N) Fast Turn
+- _Chest<Sapphire/Tolaz>:
+    notes: Get either one on the side
+- .dir(.N) Turn
 - _Npc<Old Man>:
     coord: [2887.5,3494.779414896797]
     comment: 2nd Option (ocean), talk again
-    notes: On left dock or inside house if raining
+    notes: "[Sunken Treasure] Side Quest. On left dock or inside house if raining"
+    var-change:
+      SideQuest: 1
 - SQ across harbor
 - _Material<Hearty Blueshell Snail>:
     coord: [2944,3462.766737769558]
-- SQ .dir(NW):
+- Cryo + SQ .dir(NW):
     coord: [2886.5,3409.245543197456]
 - _Npc<Mom>:
-    comment: What's for Dinner
-    notes: Talk twice
+    notes: "[What's for Dinner?] Side Quest"
+    comment: Talk Twice
     coord: [2886.5,3409.245543197456]
+    var-change:
+      SideQuest: 1
 - _Npc<Dad>:
-    comment: Take Back the Sea
-    notes: Talk twice
+    comment: Talk Once
     coord: [2905.5,3438.757229924129]
-    notes: He will be inside house if rain
-- .dir(<N)
+    notes: "[Take Back the Sea] Side Quest. He will be inside house if rain. 5PM-6PM he is at the same place with mom. There's no good wb spot here, so you still want to go down and cryo block if he is at dinner"
+- Cryo + .dir(<N)
 - _Shrine::YahRin
 - BLSS .dir(E):
     coord: [3797.625,3615.5304052973624]
