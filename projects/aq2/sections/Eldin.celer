@@ -50,6 +50,8 @@ Eldin:
     notes: "[A Brother's Roast] Shrine Quest"
     var-change:
       ShrineQuest: 1
+- _Shop<Buy 1 Goron Splice>:
+    coord: [1680,-2460.2244608062992]
 - _Npc::Goron<Bludo>:
     coord: [1705.75,-2447.75]
     notes: "[Divine Beast Vah Rudania] Main Quest"

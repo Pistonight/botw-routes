@@ -7,16 +7,17 @@ Rudania:
     split-type: UserDefined
     icon: rudania-memory
     coord: [1708.5,-2451.0614048350653]
-- .dir(E>) + .dir(E.) super:
-    coord: [1789,-2396.5]
+- .dir(<S) + .dir(E) super:
+    coord: [1762,-2359.327977013841]
 - _Shrine::DaqaKoh
 - .dir(<W)
 - _Equipment::Weapon<Drillshaft>:
     comment: Up behind bombable rocks
     coord: [1946.80, 632.72, -2203.24]
-- .dir(.S) Turn
-- _Npc::Goron<The Brother's Roast>:
-    notes: Talk to hungry brother first
+    notes: Destroy the lizal shield if you still have it, or just throw a bomb
+- .dir(S) Turn
+- _Npc::Goron<Digging Goron>:
+    notes: Talk to him, wb .dir(SW) to rock, golden gautlet rock up. UNEQUIP WOODEN BOW
     movements: 
     - to: [2003,-2036.393630979258]
     - to: [1827.5,-1890.3357915862289]
@@ -29,9 +30,7 @@ Rudania:
 - Enter Rudania:
     split-type: UserDefined
     icon: rudania-enter
-    comment: .fury() last 2 drones
     notes: AA everything. Pick up 3 screws
-    fury: 2
 - .gale() inside:
     gale: 1
 - .!!(EQUIP BARB):
@@ -46,18 +45,30 @@ Rudania:
       warp: true
     - to: [1667.25,-2466.789814102736]
     notes: GC quests 8AM - 8PM. Make noon if not
-- _Npc::Goron<The Road to Respect>:
-    comment: Talk twice
+- _Npc::Goron<Talus Quest Goron>:
+    notes: "[The Road to Respect] Side Quest"
+    comment: Talk Twice
+    var-change:
+      SideQuest: 1
 - Run
 - _Npc::Gerudo<Amber Lady>:
-    comment: Talk twice
+    comment: Talk Twice
+    notes: "[The Jewel Trade] Side Quest"
+    var-change:
+      SideQuest: 1
     coord: [1678.75,-2445.781494737985]
-- Finish Divine Beast Vah Rudania quest
 - _Npc::Goron<Bludo>:
     coord: [1708.5,-2451.0614048350653]
     notes: No need to grab reward
+    var-change:
+      MainQuest: 1
+- ""
 - .dir(S) + .dir(SE):
     coord: [1684,-2365.9891055937787]
 - _Npc::Goron<Drillshaft Kid>:
-    comment: Death Mountain's Secret
+    notes: "[Death Mountain's Secret] Side Quest"
+    var-change:
+      SideQuest: 1
     coord: [1794.5,-2251.943943327989]
+- __use__ CheckQuest
+

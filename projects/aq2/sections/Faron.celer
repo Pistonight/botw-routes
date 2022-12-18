@@ -81,7 +81,8 @@ Faron:
     coord: [2905.5,3438.757229924129]
     notes: "[Take Back the Sea] Side Quest. He will be inside house if rain. 5PM-6PM he is at the same place with mom. There's no good wb spot here, so you still want to go down and cryo block if he is at dinner"
 - Cryo + .dir(<N)
-- _Shrine::YahRin
+- _Shrine::YahRin:
+    text: "Yah Rin (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
 - BLSS .dir(E):
     coord: [3797.625,3615.5304052973624]
 - _Snap::Quest<Shard at peninsula tip>
@@ -91,32 +92,48 @@ Faron:
 - .dir(SW)
 - _Snap::Quest<Shard amongst rocks>:
     coord: [3388,3480.548133467486]
-- .dir(N>)
-- _Npc<A Fragmented Monument>:
-    notes: Talk twice then crouch on pedestal
+- .dir(N.)
+- _Npc<Guy at Monument>:
+    comment: Talk Twice
+    notes: "[A Fragmented Monument] Shrine Quest. Talk twice then crouch on pedestal"
+    var-change:
+      ShrineQuest: 1
     coord: [3464.75,3364.751980801131]
 - _Shrine::KahYah
 - Shield surf SCW + .dir(E):
     notes: Activate with amiibo rune
 - _Shrine::MuwoJeem
-- BLSS .dir(N) to sole rock
+- BLSS .dir(N) to sole rock:
+    notes: Clear skew when dropping down
 - _Npc<Kass>:
     coord: [3745.5,2629.544369945337]
-- Drop down towards Chaas Queta:
+    notes: "[The Hero's Cache] Side Quest"
+- Drop down .dir(SE):
     coord: [3774.5,2660.3799634514535]
-- _Chest<The Hero's Cache>:
+    notes: Toward Chaas Qeta Shrine
+- _Chest<Gold Rupee>:
     comment: Mag out from water
-- .dir(NE) to Sheep Rustlers:
+    var-change:
+      SideQuest: 1
+- .dir(NE) to Camp:
     coord: [4088.5,2376.5368429010387]
-- .fury() camp + AA rest:
+    notes: For Sheep Rustlers quest
+- .fury() camp + AA:
     fury: 1
-    notes: Make sure chest unlocks
+    notes: AA 2 bokos that don't die from 1 fury. Make sure chest unlocks
 - BLSS .dir(S)
 - _Shrine::ChaasQeta
+- _Equipment::Weapon<Korok Leaf>:
+    comment: Next to BLSS tree
 - BLSS .dir(SE) to Eventide:
     coord: [4489,3457.2174919641984]
-    notes: Smuggle bow, arrow (ancient OK), shield
+    notes: "[Stranded on Eventide] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
+- Smuggle:
+    notes: Smuggle royal claymore, bow, arrow (ancient OK), shield, fairy x5. Drop bow and shield before putting in last orb
 - .gale() at the end:
     gale: 1
-    notes: can also WB to shrine
-- _Shrine::KorguChideh
+- _Shrine::KorguChideh:
+    text: "Korgu Chideh (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- __use__ CheckQuest

@@ -25,7 +25,7 @@ Central:
 - _Shrine::ZaltaWa
 - .dir(S>) + .dir(<W) Turn midair:
     coord: [-1524.5,-472.5067347238455]
-    notes: If you already have raw meat, use gale here and midair. Skip the mountain goats
+    notes: If you already have raw meat, use gale here and midair. Skip the mountain goats later
 - _Material<Monster Extract>:
     coord: [-1864.50, 216.00, -275.00]
     comment: Save traveller
@@ -34,6 +34,9 @@ Central:
 - .dir(E) Fast Turn
 - _Npc<Kass>:
     coord: [-1681.68, 214.50, 51.38]
+    notes: "[The Two Rings] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
 - .dir(S) Fast Turn + midair
 - Kill Mountain Goat:
     coord: [-1726.68, 217.04, 681.07]
@@ -41,7 +44,7 @@ Central:
 - .gale() + .dir(E):
     gale: 1
 - _Memory::SanidinPark
-- SQ .dir(SW) to white horse
+- SQ to white horse
 - Ride to stable:
     movements:
     - to: [-1914,926.7463658662109]
@@ -50,40 +53,66 @@ Central:
     - to: [-1626,1032.7883588501918]
     - to: [-1530,1022.7843972479295]
     - to: [-1450,1270.8826449840335]
-- Register horse
-- _Npc<The Royal White Stallion>:
-    coord: [-1439.25, 137.72, 1278.45]
 - _Npc<Meat Guy>:
-    comment: A Rare Find
+    notes: "[A Rare Find] Side Quest"
+    var-change:
+      SideQuest: 1
+    comment: Talk Twice
     coord: [-1439,1280.0853725287516]
+- _Npc<Register Horse>:
+    comment: Text Options 2-1-1-1-A-+-1-1
+- _Npc<Horse Guy>:
+    coord: [-1439.25, 137.72, 1278.45]
+    notes: "[The Royal White Stallion] Side Quest"
+    var-change:
+      SideQuest: 1
 - _Npc<Fan Girl>:
-    comment: My Hero
+    comment: Second Option
+    notes: "[My Hero] Side Quest"
+    var-change:
+      SideQuest: 1
     coord: [-1400.00, 137.72, 1280.00]
 - .dir(.W)
-- _Shrine::RotaOoh
+- _Shrine::RotaOoh:
+    text: "Rota Ooh (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
 - BLSS .dir(E):
     coord: [-1164,1189.2048148369595]
 - _Memory::LakeKolomo
 - .dir(<N) Slight TS
 - _Shrine::KaamYatak
-- .dir(<E) + BLSS .dir(N):
+- .dir(<E) Turn + BLSS .dir(N):
     notes: If you somehow didn't get 3 screws from yunobo escort, kill a stalker at central hyrule
 - _Shrine::KatahChuki
-- .dir(E>) Turn
+- .dir(E>) TS
 - _Memory::SacredGrounds
-- BLSS .dir(E)
+- .dir(E>>) TS + .dir(E>) Super:
+    notes: Second super from a tree
 - _Memory::HyruleField
-- .dir(<S) Turn
+- .dir(<S) Turn:
+    notes: Chop the closest tree
 - _Shrine::HilaRao
 - _Npc<Flower Lady>:
     coord: [817.5,851.7619838468436]
-    notes: Faster to run to her and talk
-- .dir(.W) TS
-- _Shrine::WahgoKatta
+    notes: "[Watch Out for the Flowers] Shrine Quest. Faster to run to her and talk"
+    var-change:
+      ShrineQuest: 1
+- .dir(<W) Turn
+- .!!(EQUIP RGC):
+    notes: It's faster to talk to the girl later with rgc already equipped
+- _Shrine::WahgoKatta:
+    text: "Wahgo Katta (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
 - SQ to stable
-- _Npc<The Royal Guard's Gear>:
+- _Npc<Royal Guard Girl>:
+    notes: "[The Royal Guard's Gear] Side Quest"
+    comment: Talk Twice
+    var-change:
+      SideQuest: 1
     coord: [347,1082.8428766757988]
-- _Npc<A Royal Recipe>:
+- _Npc<Chef>:
+    notes: "[A Royal Recipe] Side Quest"
+    comment: Talk Twice
+    var-change:
+      SideQuest: 1
     coord: [324,1107.8527806814545]
 - _Cook<Monster Cake>:
     hide-icon-on-map: true
@@ -93,7 +122,7 @@ Central:
     notes: For Xenoblade and potentially skip BM at Ya Naga (should not happen if you are fast enough). If it's after 7PM you don't need to make night
 - .dir(S>) Turn
 - Kill .enemy(Moblin):
-    notes: Throw RGC at him
+    notes: Throw RGC at him, fall damage cancel by switching to korok leaf. bomb the tree before picking up moblin club
 - _Equipment::Weapon<Moblin Club>:
     coord: [132.65, 116.42, 1397.90]
 - .dir(S)
@@ -105,8 +134,11 @@ Central:
 - _Shrine::YaNaga
 - .dir(E)
 - _Npc::ZoraFemale<Fronk's Wife>:
-    comment: A Wife Washed Away
+    notes: Finish A Wife Washed Away Quest
+    var-change:
+      SideQuest: 1
     coord: [-205,2613.7491847822967]
 - .dir(E>) Delayed turn
 - _Chest::Special<Salvager Headwear>:
     coord: [126.03, 92.65, 2710.94]
+- __use__ CheckQuest

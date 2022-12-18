@@ -3,35 +3,53 @@ KorokForest:
 - BLSS .dir(W) to Oaki
 - _Npc<Start Oaki>:
     coord: [267,-2278.8126162129947]
+    notes: "[The Lost Pilgrimage] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
     comment: Walk a little towards him
-    notes: Oaki takes a fix amount of time to walk, so anything you do here shouldn't lose time
-- .dir(E)
-- +_Npc<Riddles of Hyrule>:
+- (==) Oaki takes 5m20s of gameplay time to walk to shrine. Take note of your speed timer, subtract 5m20s so you know when Oaki is at the shrine    
+- .dir(E) to top of Deku Tree
+- +_Npc<Watson>:
     coord: [426.75,-2175.9136370706824]
-    notes: Apple, Sunshroom, Voltfin, Pumpkin, Hoof
+    notes: "[Riddles of Hyrule] Side Quest. Talk first to wake up, then drop Apple, Sunshroom, Voltfin, Pumpkin, Hoof and talk again."
+    var-change:
+      SideQuest: 1
+      
 - +_Snap::Quest<Sunshroom>:
     hide-icon-on-map: true
-- +_Material<Baked Apple>:
-    hide-icon-on-map: true
-    comment: with fire rod
-    notes: Pick up sunshroom so you don't get updraft
-- Drop down inside Deku Tree
-- _Cook<Fruitcake>:
+- Pick up Apple
+- Throw away Drillshaft
+- ""
+- Drop down into Deku Tree
+- +_Cook<Fruitcake>:
     hide-icon-on-map: true
     comment: Wheat, Sugar, Apple, Melon
 - +Trade to 13 hearts:
-    comment: 3 more
+    comment: 5 more
+- ""
+- +Activate Keo Ruug:
+    notes: Can get 1-2 frogs here and on the other side before pulling MS
+- Korok Leaf if needed
 - Equip Fire Rod:
     notes: When you pull MS, the equipped weapon will get 40 durability
+- Pull Master Sword:
+    notes: "[The Hero's Sword] Main Quest"
+    var-change:
+      MainQuest: 1
 - +_Equipment::Weapon<Master Sword>:
     coord: [432.5,-2136.802514127226]
-- Korok Leaf if needed
-- +Activate Keo Ruug
-- +_Npc<A Freezing Rod>:
-    hide-icon-on-map: true
 - +_Npc<Blupee Quest>:
-    comment: Legendary Rabbit Trial
+    notes: "[Legendary Rabbit Trial] Side Quest"
+    var-change:
+      SideQuest: 1
     hide-icon-on-map: true
+- +_Npc<Ice Rod Korok>:
+    notes: "[A Freezing Rod] Side Quest"
+    var-change:
+      SideQuest: 1
+    hide-icon-on-map: true
+
+- ""
 - Start following Oaki
 - +_Material<Farm 10 cricket + 5 frogs>
 - +_Material<Honey>:
@@ -40,17 +58,27 @@ KorokForest:
 - _Shrine::DaagChokah:
     notes: Can approach Oaki after "Woo! I finally made it!"
     time-override: 300
+    text: "Daag Chokah (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
 
 KorokForest2:
 - _Warp::Shrine::KeoRuug
 - _Shrine::KeoRuug
 - .dir(E)
-- _Npc<Test of Wood>
+- _Npc<Minigame Korok>:
+    notes: "[Test of Wood] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
 - .dir(<<E)
 - _Shrine::MaagHalan
-- .dir(SW)
-- _Npc<Trial of Second Sight>:
+- .dir(SW) Super:
+    notes: Ideally super directly to the quest korok. If you missed the super or have to land in the forest, do a <E wb
+- _Npc<Trial Korok>:
     coord: [360.5,-2055.2876581187425]
+    notes: "[Trial of Second Sight] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
 - .dir(<W) Turn to lake:
     coord: [28,-1846.705058711574]
-- _Shrine::KuhnSidajj
+- _Shrine::KuhnSidajj:
+    text: "Kuhn Sidajj (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- __use__ CheckQuest

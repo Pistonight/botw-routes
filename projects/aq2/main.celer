@@ -46,15 +46,18 @@ _route:
     - __use__ Faron
   - Rudania:
     - __use__ Rudania
+  - Korok Forest:
     - __use__ KorokForest
     - __use__ KorokForest2
   - Central:
     - __use__ Central
-  - Kakariko:
+  - Rito:
     - __use__ TarreyActivateRito
     - __use__ Rito
+  - Zora's Domain:
     - __use__ TarreyActivateZora
     - __use__ ZDQuests
+  - Kakariko:
     - __use__ TarreyActivateHateno
     - __use__ Kak3
   - Hateno + Tarrey Town:

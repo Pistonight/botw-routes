@@ -1,5 +1,6 @@
 TarreyActivateRito:
 - _Warp::Shrine::DahHesho:
+    text: "Dah Hesho (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
     line-color: cyan
 - .dir(N.) to Tarrey Town:
     coord: [3984.5,-1597.5796282054716]
