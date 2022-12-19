@@ -32,8 +32,7 @@ TarreyActivateGoron:
 - .dir(W) Activate Shrine:
     coord: [3082.75, -455.625]
 - Throw away trident
-- _Shrine::DagahKeek:
-    text: "Dagah Keek (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- _Shrine::DagahKeek
 - .dir(<<W) Ordinal Turn
 - _Boss::Hinox::Blue:
     coord: [2923,-290.92037179452836]
@@ -53,8 +52,7 @@ TarreyActivateGoron:
     coord: [2576,481.28800848446645]
     var-change:
       ShrineQuest: 1
-- _Shrine::MezzaLo:
-    text: "Mezza Lo (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- _Shrine::MezzaLo
 - .dir(N>) TS
 - _Npc::ZoraFemale<Letter Girl>:
     coord: [2749,-88.23029102874534]
@@ -127,8 +125,7 @@ TarreyActivateGoron:
     var-change:
       ShrineQuest: 1
 - .dir(<E) to shrine
-- _Shrine::MoaKeet:
-    text: "Moa Keet (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- _Shrine::MoaKeet
 - .dir(N) Turn to shrine
 - _Shrine::SahDahaj
 - .dir(E) + Run + .dir(<E)
@@ -150,6 +147,5 @@ TarreyActivateGoron:
     comment: Talk Twice
 - .dir(S) + .dir(S):
     notes: 2 cardinal max heights from the statue
-- _Shrine::DahHesho:
-    text: "Dah Hesho (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- _Shrine::DahHesho
 - __use__ CheckQuest

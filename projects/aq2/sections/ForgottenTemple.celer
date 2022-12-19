@@ -1,17 +1,18 @@
 ForgottenTemple:
 - _Warp::Shrine::ShadaNaw:
     notes: Should be night already, make night if earlier than 8:20pm
-- .dir(S) + .dir(S) + .dir(E) + .gale():
-    notes: To mountain top
+- .dir(S) + .dir(S) + .dir(E):
+    notes: To mountain top. Can gale if needed
     coord: [-2978,-2895.6993143882946]
-    gale: 1
 - Look Sky .dir(S):
     notes: Make sure shooting star hits ground before going to shrine
 - _Shrine::GomaAsaagh
 - .dir(SE)
 - _Chest::Special<Salvager Trousers>:
     coord: [-2605.00, 583.00, -2652.00]
-- .dir(S) Fast Turn
+    var-change:
+      SideQuest: 1
+- .dir(S) Turn
 - _Shrine::LannoKooh
 - Cryo out + .dir(NE)
 - Snowball throw + Stasis MAX:
@@ -21,25 +22,37 @@ ForgottenTemple:
     movements:
     - to: [-2389,-2440.716349278022]
     - to: [-2117,-2702.8201432572932]
-    - to: [-1851,-3091.974249585295]
-- _Snap::Quest<Stalhorse>
-- .gale() + .dir(<S) Turn:
-    gale: 1
+    - to: [-1909,-3068.8749923676755]
+- Land on first skull camp
+- _Snap::Quest<Stalhorse>:
+    movements:
+    - to: [-1797,-3196.924150514949]
+      away: true
+- .dir(<S) Turn
 - _Shrine::RinOyaa
 - _Npc<Stalhorse Lady>:
     coord: [-1654,-2597.7785464335393]
-    comment: Stalhorse Pictured!
-    notes: Talk twice
-- BLSS .dir(<S)
+    notes: "[Stalhorse Pictured!] Side Quest"
+    var-change:
+      SideQuest: 1
+    comment: Talk Twice
+- BLSS .dir(<S) off chair
 - _Shrine::MonyaToma
 - .dir(W) Turn
 - _Shrine::MaagNorah
 - .dir(<<E) Turn to stable:
     notes: Glide to a rock to the left for a better angle
-- _Npc<Leviathan Bones>:
+- _Npc<3 People>:
     coord: [-1543,-1796.9687033421287]
-    notes: Talk to any of 3, then talk once to each
-- .dir(N>) Turn to Forgotten Temple
-- _Shrine::RonaKachta
+    notes: "[Leviathan Bones] Side Quest. Talk to any of 3, then talk once to each"
+    var-change:
+      SideQuest: 1
+- .dir(N>) Turn to Forgotten Temple:
+    coord: [-1430,-2245.1804415134247]
+- _Shrine::RonaKachta:
+    notes: "[A Gift from the Monks] Side Quest"
 - _Chest<Wild Set>:
     coord: [-1060,-2694.324059065053]
+    var-change:
+      SideQuest: 1
+- __use__ CheckQuest

@@ -45,7 +45,7 @@ TarreyActivateGerudo:
     comment: 2nd text option
     coord: [4245.96, -2747.83]
     var-change:
-      SideQuest: 1
+      ShrineQuest: 1
 - .dir(N) midairs
 - Smuggle blue flame:
     coord: [4153.5,-3173]
@@ -71,7 +71,6 @@ TarreyActivateGerudo:
       ShrineQuest: 1
 - _Shrine::TuKaloh:
     comment: Barb Helm
-    text: "Tu Ka'loh (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
 - _Snap::Quest<Skywatcher>:
     notes: Snap right after coming out of the shrine
     movements:

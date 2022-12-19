@@ -3,7 +3,7 @@ Kak2Ruta:
     line-color: yellow
 - _Npc<Pumpkin Man>:
     notes: Get pumpkin for Riddles of Hyrule
-    coord: [1841,984.478013107444]
+    coord: [1896.5,1003.9813736707592]
     time-override: 20
     notes: It should be evening in which case you would meet him at the bridge with fireflies (the lower one). During day time he will be working in the pumpkin field.
 - SQ to Impa:

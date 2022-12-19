@@ -1,10 +1,15 @@
 Ganon:
 - _Warp::Shrine::KeoRuug
-- _Npc<The Korok Trials>:
+- _Npc<Trial Korok>:
     coord: [432.25,-2167.49078927474]
-- .dir(N) to top of Deku Tree
-- Acorn BLSS .dir(SW) to castle:
+    var-change:
+      SideQuest: 1
+    notes: "[The Korok Trials] Side Quest"
+- .gale() + to top of Deku Tree:
+    gale: 2
+- Acorn BLSS to castle:
     coord: [-256,-1060.8995733826514]
+    notes: Same as AMQ. Want to start south, then wiggle toward castle
 - Get Skew Bounce:
     notes: Can also just kill him normally
 - Calamity:
@@ -15,3 +20,5 @@ Ganon:
     icon: ganon
     split-type: UserDefined
     hide-icon-on-map: true
+    notes: Check quests after Dark Beast
+- __use__ CheckQuest

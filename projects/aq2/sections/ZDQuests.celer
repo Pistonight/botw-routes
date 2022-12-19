@@ -2,30 +2,48 @@ ZDQuests:
 - _Warp::Shrine::NeezYohma
 - _Npc::ZoraFemale<Girl in front of statue>:
     coord: [3300,-475.43938748538767]
-    comment: The Ceremonial Song
-- _Npc::ZoraMale<Frog Catching>:
+    notes: "[The Ceremonial Song] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
+- _Npc::ZoraMale<Frog Boy>:
     coord: [3302.25,-475.10152750659563]
-    notes: Talk twice
-- _Npc::ZoraMale<Luminous Stone Gathering>:
+    comment: Talk Twice
+    notes: "[Frog Catching] Side Quest"
+    var-change:
+      SideQuest: 1
+- _Npc::ZoraMale<Luminous Stone Guy>:
     coord: [3289.5,-449.466375900799]
-    comment: Guy working on pillar
-    notes: Talk twice
+    notes: "[Luminous Stone Gathering] Side Quest. The guy is working on a pillar near entrance"
+    comment: Talk Twice
+    var-change:
+      SideQuest: 1
 - Run up stairs
 - _Npc::ZoraFemale<Letter Girl>:
-    comment: Special Delivery
+    notes: Finish Special Delivery Quest
+    var-change:
+      SideQuest: 1
     coord: [3266.75,-480.7287559078686]
 - Keep running up stairs
-- _Npc::ZoraMale<Diving is a Beauty>:
+- _Npc::ZoraMale<Diving Quest>:
+    notes: Finish Diving is a Beauty Quest
+    var-change:
+      SideQuest: 1
     coord: [3292.625,-519.5906331003753]
-- Run back to spa area
+- Run toward the back
 - _Npc::ZoraFemale<Hinox Lady>:
     coord: [3306.375,-538.6266836809618]
-    comment: The Giant of Ralis Pond
-    notes: Talk twice
+    notes: "[The Giant of Ralis Pond] Side Quest."
+    var-change:
+      SideQuest: 1
+    comment: Talk Twice
 - All the way at the back
-- _Npc::ZoraMale<Zora Stone Monuments>:
+- _Npc::ZoraMale<Monument Guy>:
     coord: [3337,-559.6350030457124]
-    notes: Talk twice
+    comment: Talk Twice
+    notes: "[Zora Stone Monuments] Side Quest"
+    var-change:
+      SideQuest: 1
 - Front of spa area
 - _Npc::ZoraMale<Kapson>:
     coord: [3332.5,-524.8712364778512]
+- __use__ CheckQuest

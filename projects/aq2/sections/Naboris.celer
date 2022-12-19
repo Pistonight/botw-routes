@@ -71,7 +71,7 @@ Naboris:
       SideQuest: 1
 - ""
 - .dir(<W) + .dir(SW)
-- "Kara Kara (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))":
+- Kara Kara:
     icon: location
     coord: [-3264,2608.325643705958]
     split-type: UserDefined
@@ -142,8 +142,7 @@ Naboris:
     var-change:
       SideQuest: 1
 
-- _Warp::Shrine::KuhTakkar:
-    text: "Kuh Takkar (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- _Warp::Shrine::KuhTakkar
 - .dir(W) kill some wolves:
     coord: [-3204,1168.4056680716558]
     notes: Slam with Royal Claymore to kill 2 farthest
@@ -175,6 +174,8 @@ Naboris:
     coord: [-3435,3128.181045223386]
 - Ride sand seal .dir(SW):
     notes: "[The Perfect Drink] Shrine Quest. There should be a small mountain"
+    var-change:
+      ShrineQuest: 1
 - _Npc::Gerudo<Shrine Lady>:
     coord: [-2989,3760.314947379851]
 - .dir(E) backflip to Naboris
@@ -206,12 +207,16 @@ Naboris:
 - _Npc::Gerudo<Side Entrance Guard>:
     notes: "[The Silent Swordswomen] Shrine Quest"
     coord: [-3916.75,2873.2950632257334]
+    var-change:
+      ShrineQuest: 1
 - _Npc::Gerudo<Historian>:
     notes: "[The Seven Heroines] Shrine Quest"
     coord: [-3880.25,2879.5475392271474]
     comment: Text Options 1-1-2
+    var-change:
+      ShrineQuest: 1
 - _Npc::Gerudo<Bar Lady>:
-    notes: "[The Perfect Drink] Shrine Quest"
+    notes: "Progress The Perfect Drink Quest"
     coord: [-3852.75,2860.289913142792]
 - _Npc::Gerudo<Berry Girl>:
     notes: "[The Mystery Polluter] Side Quest"

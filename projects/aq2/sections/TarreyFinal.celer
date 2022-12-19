@@ -4,5 +4,7 @@ TarreyFinal:
     coord: [3984.5,-1597.5796282054716]
 - _Npc<Hudson>
 - _Npc<Hudson>:
-    comment: From the Ground Up
-    notes: Talk again after wedding
+    notes: Finish From the Ground Up
+    comment: Talk again after wedding
+    var-change:
+      SideQuest: 1

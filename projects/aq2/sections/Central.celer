@@ -73,8 +73,7 @@ Central:
       SideQuest: 1
     coord: [-1400.00, 137.72, 1280.00]
 - .dir(.W)
-- _Shrine::RotaOoh:
-    text: "Rota Ooh (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- _Shrine::RotaOoh
 - BLSS .dir(E):
     coord: [-1164,1189.2048148369595]
 - _Memory::LakeKolomo
@@ -99,8 +98,7 @@ Central:
 - .dir(<W) Turn
 - .!!(EQUIP RGC):
     notes: It's faster to talk to the girl later with rgc already equipped
-- _Shrine::WahgoKatta:
-    text: "Wahgo Katta (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- _Shrine::WahgoKatta
 - SQ to stable
 - _Npc<Royal Guard Girl>:
     notes: "[The Royal Guard's Gear] Side Quest"

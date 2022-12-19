@@ -1,18 +1,25 @@
 TarreyActivateZora:
 - _Warp::Shrine::DahHesho:
-    line-color: magenta
+    line-color: cyan
 - .dir(N.) Turn:
     coord: [3984.5,-1597.5796282054716]
 - _Npc<Hudson>:
-    notes: Talk twice
+    notes: Talk Twice
 - Listen at window
 - _Npc<Mom>:
     hide-icon-on-map: true
-    comment: A Parent's Love
-    notes: Talk twice, second time after fade out
-- _Npc<Hobbies of the Rich>:
+    notes: "[A Parent's Love] Side Quest. Give cake"
+- _Npc<Mom Again>:
+    comment: After Fade Out
     hide-icon-on-map: true
-    notes: Talk twice
+    var-change:
+      SideQuest: 1
+- _Npc<Dad>:
+    hide-icon-on-map: true
+    comment: Talk Twice
+    notes: "[Hobbies of the Rich] Side Quest"
+    var-change:
+      SideQuest: 1
 - BLSS .dir(<N)
 - _Memory::SpringofPower
 - _Shrine::TutsuwaNima

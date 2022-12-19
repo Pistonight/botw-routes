@@ -1,12 +1,16 @@
 Plateau:
 - SOR Clip, get TOD:
     var-change:
-      MainQuest: 0
-      SideQuest: 0
-      ShrineQuest: 0
+      MainQuest: 1
+      SideQuest: 1
+      ShrineQuest: 1
     coord: [-1054.5,1824.7969498711263]
 - _Equipment::Weapon<Tree Branch>:
     coord: [-1024.63, 251.40, 1812.55]
+    var-change:
+      MainQuest: -1
+      SideQuest: -1
+      ShrineQuest: -1
 - FDC down:
     notes:
       You have to unequip the tree branch really fast. 

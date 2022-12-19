@@ -69,40 +69,44 @@ Rito:
 - Drop out .dir(W) Turn
 - _Shrine::VooLota:
     comment: 45312
-    text: "Voo Lota (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
     notes: Start from 4 and blow every other hole while turning to the right. Make sure pedestal is blue after first blow
 - Elevator BLSS .dir(S)
 - _Shrine::KahOkeo:
     comment: Under slab
-- .gale() + .dir(E) + .dir(E) + .dir(NE):
+- .gale() + .dir(E) + .dir(N) + .dir(<E) Turn:
     movements:
-    - to: [-3864,-430.47716009038413]
+    - to: [-3929,-415.2534716968794]
+    - to: [-3929,-608.3275929658148]
     - to: [-3540,-758.6071006445873]
     gale: 1
 - Activate Fairy Fountain
-- .dir(S) + .dir(S)
+- .dir(S) + .dir(<S):
+    notes: Side wind is very strong. Do not recommend midair
 - _Memory::AncientColumns
 - _Shrine::TenaKosah
-- BLSS .dir(SE) to BM Shrine
-- _Npc<Kass>:
-    coord: [-2778.84, 348.24, 206.35]
-- _Tod::Night:
-    coord: [-2776,189.5768550838884]
-    comment: Might need twice
-- _Shrine::MijahRokee
-- .dir(<N) Turn
-- _Shrine::ShaeLoya
+- (==) If it's already after 8PM, do BM shrine first
+- .dir(.E) DT
 - _Npc<Shrine Guy>:
-    comment: Cliffside Etchings
+    notes: "[Cliffside Etchings] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
     coord: [-2944.5,-497.92136219509393]
-- _Npc<A Gift for the Great Fairy>:
-    notes: Talk twice
+- _Npc<Fairy Fountain Guy>:
+    notes: "[A Gift for the Great Fairy] Side Quest"
+    comment: Talk Twice
+    var-change:
+      SideQuest: 1
     coord: [-2937.5,-563.4473106899122]
-- Thundra Plateau
-- .dir(<<E) super to red orb
+- .dir(S)
+- _Shrine::ShaeLoya
+- .dir(<<E) TS to red orb:
+    notes: "[Trial of Thunder] Shrine Quest. Equip Guardian Axe + Forest Dweller Shield. 6 Hits on red and orange orbs"
+    var-change:
+      ShrineQuest: 1
 - .dir(NW) to orange orb
 - .dir(S) to green orb
 - _Shrine::TohYahsa
 - .dir(N) + .dir(<N) Turn + .dir(W>) Turn:
     coord: [-2344,-1316.2384884561884]
 - _Shrine::DunbaTaag
+- __use__ CheckQuest

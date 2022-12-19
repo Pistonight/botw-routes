@@ -1,33 +1,58 @@
 Hateno:
 - _Warp::Shrine::MyahmAgana
-- SQ .dir(SW) to Bolson
+- (==) If not 8AM-8PM, make noon. Alaos make it not raining
+- SQ to Bolson:
+    notes: Aim left of house, where bolson is approximately at
 - _Npc<Bolson>:
     coord: [3331.625,2277.033772659286]
-    notes: If not 8AM-8PM, make noon
-- .dir(N.)
+- .dir(N>)
 - _Npc<Nebb>:
     coord: [3383.75,2144.7461374377945]
-    comment: The Weapon Connoisseur
-    notes: Show 8 weapons, ancient short sword last
+    comment: Talk 9 Times
+    notes: "[The Weapon Connoisseur] Side Quest"
+    var-change:
+      SideQuest: 1
 - _Npc<Farmer>:
-    comment: The Spring of Wisdom
+    notes: "[The Spring of Wisdom] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
     coord: [3380.5,2095.976824626766]
-- _Npc<Secret of the Cedars Lady>:
+- SQ to deck
+- _Npc<Lady at Deck>:
+    notes: "[Secret of the Cedars] Shrine Quest. Cannot do this quest when raining"
+    var-change:
+      ShrineQuest: 1
     coord: [3426.25,2162.2530702417534]
-    notes: Cannot do this quest when raining
-- _Npc<Cricket Quest>:
-    comment: A Gift for My Beloved
+- _Npc<Cricket Guy>:
+    notes: "[A Gift for My Beloved] Side Quest"
     coord: [3447.25,2119.7362334321388]
-    notes: Talk to guy, talk to lady in inn, talk to guy twice
+- _Npc<Inn Lady>:
+    notes: Go inside the counter
+    hide-icon-on-map: true
+- _Npc<Cricket Guy>:
+    notes: Finish A Gift for My Beloved Quest
+    coord: [3447.25,2119.7362334321388]
+    comment: Talk Twice
+    var-change:
+      SideQuest: 1
 - .dir(E):
     coord: [3626,2103.4746457455212]
-- _Npc<The Sheep Rustlers>
+- _Npc<Sheep Lady>:
+    notes: Finish Sheep Rustlers Quest
+    coord: [3623,2104.743471183565]
+    var-change:
+      SideQuest: 1
 - .dir(E) to Lab
 - Upgrade Sheika Sensor:
     coord: [3780.5,2127.9843516710644]
-- _Npc<Sunshroom Sensing>:
+    var-change:
+      SideQuest: 1
+- _Npc<Lab Assistant>:
     coord: [3784,2136.9879171130997]
-    notes: Talk 3 times
+    comment: Talk 3 times
+    notes: "[Sunshroom Sensing] SideQuest"
+    var-change:
+      SideQuest: 1
 - .dir(<E) + .dir(N>) Turn:
     coord: [4116,1944.845101351545]
 - _Shrine::TahnoOah
@@ -37,10 +62,16 @@ Hateno:
     notes: You don't need to free Naydra for the quest
 - BLSS .dir(N>)
 - _Shrine::ShaiYota
-- .dir(SW):
+- SQ .dir(SW):
     coord: [4168,357.49806499336955]
-- _Npc<Kass>
-- BLSS .dir(<W) + .dir(W>) + .dir(<N):
-    coord: [3726,614.5998781715098]
+- _Npc<Kass>:
+    notes: "[Master of the Wind] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
+- BLSS .dir(W>):
+    movements:
+    - to: [3990.5,484.55530291568266]
+    - to: [3588,539.1200150079922]
     notes: Can also WB, but wind is annoying
 - _Shrine::RuccoMaag
+- __use__ CheckQuest

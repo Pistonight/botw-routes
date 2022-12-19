@@ -30,8 +30,8 @@ KorokForest:
 - +Activate Keo Ruug:
     notes: Can get 1-2 frogs here and on the other side before pulling MS
 - Korok Leaf if needed
-- Equip Fire Rod:
-    notes: When you pull MS, the equipped weapon will get 40 durability
+- Equip Guardian Axe:
+    notes: When you pull MS, the equipped weapon will get 40 durability. Fire rod also works if you are slow and need to set extra TODs
 - Pull Master Sword:
     notes: "[The Hero's Sword] Main Quest"
     var-change:
@@ -58,7 +58,6 @@ KorokForest:
 - _Shrine::DaagChokah:
     notes: Can approach Oaki after "Woo! I finally made it!"
     time-override: 300
-    text: "Daag Chokah (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
 
 KorokForest2:
 - _Warp::Shrine::KeoRuug
@@ -79,6 +78,5 @@ KorokForest2:
       ShrineQuest: 1
 - .dir(<W) Turn to lake:
     coord: [28,-1846.705058711574]
-- _Shrine::KuhnSidajj:
-    text: "Kuhn Sidajj (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- _Shrine::KuhnSidajj
 - __use__ CheckQuest

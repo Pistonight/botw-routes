@@ -92,9 +92,10 @@ Kak1Hateno:
 - _Chest<Knights Sword>:
     hide-icon-on-map: true
     comment: Keep the weapon for IST
-- _Npc<Riverbed Reward>:
+- _Npc<Guy by River>:
     comment: Second Option
     coord: [823,146]
+    notes: "[Riverbed Reward] Side Quest"
     var-change:
       SideQuest: 1
 - _Shrine::KayaWan:

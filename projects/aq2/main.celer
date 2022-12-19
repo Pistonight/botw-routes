@@ -9,8 +9,8 @@ _project:
 
 _config:
   split-format:
-    Shrine: "[{{%03 Shrine}}] {{_}}"
-    Warp: "Warp {{_}}"
+    Shrine: "{{%02 Shrine}} {{_}} {{%-1 SideQuest}}.{{%-1 ShrineQuest}}"
+    Warp: "{{_}} {{%02 SideQuest}}.{{%02 ShrineQuest}}"
 
 CheckQuest: 
   - "Main: .v(MainQuest)/15 Completed"
@@ -18,7 +18,7 @@ CheckQuest:
   - "Shrine: .v(ShrineQuest)/42 Discovered"
 
 _route:
-  - (==) This route is tighter for BM. There's an older route that gets BM sooner .link([here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/aq) if you need
+  - "(==) Blood Moon: The BM shrine is its own branch. This document shows it as Shrine 99. However, based on your tempo, you can place it anywhere, ideally before a warp that is during night. " 
   - (==) 
     Directions are generally for WB unless specified otherwise. 
     Look on the map if you are not sure where to BLSS to or where a shrine is.
@@ -54,14 +54,16 @@ _route:
   - Rito:
     - __use__ TarreyActivateRito
     - __use__ Rito
+    - __use__ BM
   - Zora's Domain:
     - __use__ TarreyActivateZora
     - __use__ ZDQuests
   - Kakariko:
     - __use__ TarreyActivateHateno
     - __use__ Kak3
-  - Hateno + Tarrey Town:
+  - Hateno:
     - __use__ Hateno
+  - Cleanup:
     - __use__ ForgottenTemple
     - __use__ TarreyFinal
   - Ganon:

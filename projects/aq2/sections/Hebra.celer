@@ -1,7 +1,6 @@
 Hebra:
 - _Warp::VahMedoh:
     line-color: "#00ff00"
-    text: "Vah Medoh (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
 - .dir(W) turn
 - _Npc::Rito<Little Bird>:
     notes: "[Recital at Warbler's Nest] Shrine Quest"

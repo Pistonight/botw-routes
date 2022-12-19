@@ -48,3 +48,5 @@ Lake:
 - _Npc<Kass>:
     coord: [830,3054]
     notes: "[The Serpent's Jaws] Shrine Quest"
+    var-change:
+      ShrineQuest: 1

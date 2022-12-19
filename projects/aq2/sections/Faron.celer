@@ -5,6 +5,8 @@ Faron:
     notes: "[Thunder Magnet] Side Quest. She will be inside if thundering (5PM-9PM). You can still use bomb arrow for the shrine in rain if you stand below a tree"
     comment: Talk Twice
     coord: [1552,3538.710361080126]
+    var-change:
+      SideQuest: 1
 - Bomb arrow rock
 - _Shrine::ShaiUtoh
 - .dir(N>) Super
@@ -37,8 +39,7 @@ Faron:
     coord: [2767.5,2714]
 - Walk Orb:
     coord: [2647.5,2820.75]
-- _Shrine::TawaJinn:
-    text: "Tawa Jinn (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- _Shrine::TawaJinn
 - BLSS .dir(S) to heart lake
 - _Npc<Love Quest Guy>:
     comment: Talk Twice
@@ -80,9 +81,10 @@ Faron:
     comment: Talk Once
     coord: [2905.5,3438.757229924129]
     notes: "[Take Back the Sea] Side Quest. He will be inside house if rain. 5PM-6PM he is at the same place with mom. There's no good wb spot here, so you still want to go down and cryo block if he is at dinner"
+    var-change:
+      SideQuest: 1
 - Cryo + .dir(<N)
-- _Shrine::YahRin:
-    text: "Yah Rin (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- _Shrine::YahRin
 - BLSS .dir(E):
     coord: [3797.625,3615.5304052973624]
 - _Snap::Quest<Shard at peninsula tip>
@@ -134,6 +136,5 @@ Faron:
     notes: Smuggle royal claymore, bow, arrow (ancient OK), shield, fairy x5. Drop bow and shield before putting in last orb
 - .gale() at the end:
     gale: 1
-- _Shrine::KorguChideh:
-    text: "Korgu Chideh (.v(MainQuest)-.v(SideQuest)-.v(ShrineQuest))"
+- _Shrine::KorguChideh
 - __use__ CheckQuest

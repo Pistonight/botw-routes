@@ -1,4 +1,5 @@
 Kak3:
+- (==) It is recommended that you learn from a vod for kak quests
 - _Warp::Shrine::TalohNaeg:
     line-color: magenta
     notes: Need to be not raining for Koko. Make noon until it's not raining
@@ -6,56 +7,99 @@ Kak3:
 - Activate Fairy Fountain:
     coord: [1976.5,845.9673167813362]
 - _Snap::Quest<Fairy Fountain>
-- .dir(<W) To cucoo by shrine:
-    notes: 2 Cucoos, talk to cucco man, play tag with cottla, 3 cucoos, talk to pikango, Koko, make night
+- +.dir(<W) To cucoo by shrine:
+    notes: play tag with cottla, 3 cucoos, talk to pikango, Koko, make night
+- +Cucoo top of roof
 - _Npc::SheikaMale<Cucoo Man>:
     coord: [1832.75,964.0030702417534]
-- _Npc::SheikaFemale<Playtime with Cottla>:
+    notes: "[Flown the Coop] Side Quest"
+- _Npc::SheikaFemale<Cottla>:
     hide-icon-on-map: true
-    comment: Play tag
+    comment: Second Option
+    notes: "[Playtime with Cottla] Side Quest"
+- Catch Cottla:
+    var-change:
+      SideQuest: 1
+- +Cucoo under hut
+- +Cucoo top of hut
+- +Cucoo near kitchen
 - _Npc::SheikaMale<Pikango>:
-    comment: Find the Fairy Fountain
-    notes: Talk twice
+    notes: "[Find the Fairy Fountain] Main Quest"
+    var-change:
+      MainQuest: 1
+    comment: Talk Twice
     coord: [1828.75,992.5143608082008]
-- _Npc::SheikaMale<Koko's Kitchen>:
+- _Npc::SheikaMale<Koko>:
     coord: [1798.25,1016.2737696135737]
     hide-icon-on-map: true
     comment: Finish all four
-    notes: (Koko's Kitchen, Cooking with Koko, Koko Cuisine, Koko's Specialty)
+    notes: "[Koko's Kitchen] [Cooking with Koko] [Koko Cuisine] [Koko's Specialty] Side Quests"
+    var-change:
+      SideQuest: 4
+- ""
 - _Tod::Night:
     notes: For the night cucoo + firefly. Cannot be raining or there won't be fireflies
+- ""
 - _Npc::SheikaFemale<Arrow Quest Lady>:
     comment: B, talk again
+    notes: "[Arrows of Burning Heart] Side Quest"
     coord: [1826.5,1041.4893036738922]
-- Cucoo by Pikango
-- Light torches with firerod
-- _Npc::SheikaFemale<Arrows of Burning Heart>:
+- +Cucoo by Pikango
+- Light torches
+- _Npc::SheikaFemale<Arrow Quest Lady>:
+    notes: "Finish Arrows of Burning Heart Quest"
     coord: [1826.5,1041.4893036738922]
-- Last cucoo in orchard
-- _Npc::SheikaMale<Flown the Coop>:
+    var-change:
+      SideQuest: 1
+- +Last cucoo in orchard
+- _Npc::SheikaMale<Cucco Man>:
+    notes: Finish Flown the Coop Quest
+    var-change:
+      SideQuest: 1
     coord: [1832.75,964.0030702417534]
-- _Npc::SheikaFemale<By Firefly's Light>:
-    notes: Grab 5 fireflies as you run toward the house, talk twice, drop fireflies
+- _Npc::SheikaFemale<Firefly Lady>:
+    notes: "[By Firefly's Light] Side Quest. Grab 5 fireflies as you run toward the house, make sure don't scare her. talk twice, drop fireflies. If you scared her, make sure to let her sit down before talking again."
     coord: [1901,1028.7342526310076]
+    comment: Twice, drop fireflies
+    var-change:
+      SideQuest: 1
+- ""
 - SQ to impa
 - _Npc::SheikaFemale<Impa>:
     coord: [1776.75,984.7168215810534]
+    notes: "Finish Free the Divine Beasts Quest"
+    var-change:
+      MainQuest: 1
 - _Npc::SheikaFemale<Paya>:
     coord: [1775.75,991.2193966225241]
-    comment: The Stolen Heirloom
+    notes: "[The Stolen Heirloom] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
+    split-type: UserDefined
+- ""
 - _Tod::Night:
     hide-icon-on-map: true
-    comment: After paya
+    comment: After fade out
+- Walk + .gale() to shrine:
+    notes: Make sure to finish shrine by 10:00PM.
+    gale: 1
 - _Shrine::TalohNaeg
+- Waste .gale():
+    gale: 1
 - _Equipment::Weapon<Traveller Sword>:
     coord: [1927.75,985.9673167813362]
-    comment: Mag from waterfall by entrance
-    notes: Make sure you stay close to Dorian and keep him in view
+    notes: Mag from waterfall by entrance. Meanwhile, make sure you stay close to Dorian and keep him in view
+- Drop Axe or Korok Leaf
+- Follow Dorian:
+    notes: 
+      Can approach Dorian after "Show yourself!". 
+      Make sure you have empty slot. 
+      GEB Fire Arrow Head x2.
+      The windcleaver might despawn after the cutscene so make sure to pick it up
+- Kill .enemy(Blademaster)
 - _Equipment::Weapon<Windcleaver>:
     coord: [2014,957.4560262148889]
-    notes: Make sure you have empty slot. The windcleaver might despawn after the cutscene so make sure to pick it up
-- _Shrine::LaknaRokee:
-    notes: Can approach Dorian after "Show yourself!"
+- _Shrine::LaknaRokee
 - .dir(S.) + .dir(SE) super
 - _Shrine::KamUrog:
     notes: Shoot cursed statue
@@ -63,31 +107,44 @@ Kak3:
     hide-icon-on-map: true
 - _Npc<Doctor>:
     coord: [2504,1518.5361496206433]
-    comment: The Cursed Statue
-    notes: Can cancel talking immediately
+    comment: Mash B
+    notes: "[The Cursed Statue] Shrine Quest"
+    var-change:
+      ShrineQuest: 1
 - .dir(S) + BLSS .dir(SW)
 - _Chest<Misko's Treasure>:
     notes: Get sapphire in middle chest
     coord: [1951,2609.562943681468]
 - SQ .dir(NW) to shrine
 - _Shrine::TotoSah
-- .dir(N>) Turn super
-- _Memory::AshSwamp
-- .dir(SW) to horse, ride near stable:
+- .dir(N.) Turn super
+- _Memory::AshSwamp:
+    var-change:
+      MainQuest: 1
+- .dir(<<W) to horse, ride near stable:
     coord: [1765,2045.8746152883996]
 - _Npc<Horse Guy>:
-    comment: Wild Horses
-    notes: B, talk again, ride horse to him
+    notes: "[Wild Horses] Side Quest"
+    comment: B, talk again.
     coord: [1747,1924.3264818209127]
-- _Npc<Misko, the Great Bandit>:
-    notes: Talk twice
+    var-change:
+      SideQuest: 1
+- Ride horse to him
+- _Npc<Two Guys Inside>:
+    comment: Talk Twice
+    notes: "[Misko, the Great Bandit] Side Quest"
     coord: [1776.5,1931.329254942496]
-- SQ .dir(W) to shrine
+    var-change:
+      SideQuest: 1
+- SQ to shrine
 - _Shrine::HaDahamar
 - .dir(<<W) + .dir(NW)
 - _Shrine::ReeDahee
 - Shield surf SCW
 - _Shrine::SheeVaneer
 - _Shrine::SheeVenath
-- .dir(SW)
+- .dir(<W) Turn + .dir(S>) Turn:
+    coord: [1034,1926.125199656337]
+    notes: You can make this in 1 windbomb, but it's really hard + wind is really annoying here
 - _Shrine::ShaeKatha
+- __use__ CheckQuest
