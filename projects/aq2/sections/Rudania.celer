@@ -30,10 +30,11 @@ Rudania:
 - Enter Rudania:
     split-type: UserDefined
     icon: rudania-enter
-    notes: AA everything. Pick up 3 screws
+    notes: AA everything. Pick up 3 screws. For the hard moving ones, stasis them and shoot. Make sure falcon bow is not broken, because we need it for Sheem Dagoze
+- ""
 - .gale() inside:
     gale: 1
-- .!!(EQUIP BARB):
+- .!!(EQUIP BARB, STASIS, GEB, AA):
     notes: Equip before activating fight
 - Fireblight:
     split-type: UserDefined

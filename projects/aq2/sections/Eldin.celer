@@ -94,16 +94,14 @@ Eldin:
     notes: "[[Xenoblade Chronicles 2]] Side Quest"
 - .dir(<W) Turn
 - _Shrine::ZunaKai
-- _Snap::Quest<Backup Blupee>:
-    movements:
-    - to: [3360.27, 162.25, -3078.82]
-    - to: [3248,-3373.0527605101324]
-    - to: [3330,-3426.1528503014133]
-      warp: true
-    notes: .dir(S) Turn, snap quickly before octorok and stals scare it away, then use firerod to create an updraft and midair .dir(<N) Turn
-- SQ .dir(W)
-
+- Drop down
 - _Snap::Quest<Kilton>:
     coord: [3247,-3440.5]
     notes: Snap multiple to be safe. Don't have to talk
     time-override: 60
+- .!!(If need blupee pic:)
+- .dir(S) + .dir(<S)
+- _Snap::Quest<Backup Blupee>:
+    movements:
+    - to: [3360.27, 162.25, -3078.82]
+      away: true

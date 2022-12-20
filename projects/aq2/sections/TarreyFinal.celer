@@ -1,7 +1,7 @@
 TarreyFinal:
 - _Warp::Shrine::DahHesho
 - .dir(N.) Turn:
-    coord: [3984.5,-1597.5796282054716]
+    coord: [3949,-1631.4679110216753]
 - _Npc<Hudson>
 - _Npc<Hudson>:
     notes: Finish From the Ground Up

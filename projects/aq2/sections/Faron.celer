@@ -133,7 +133,9 @@ Faron:
     var-change:
       ShrineQuest: 1
 - Smuggle:
-    notes: Smuggle royal claymore, bow, arrow (ancient OK), shield, fairy x5. Drop bow and shield before putting in last orb
+    notes: Smuggle royal claymore, FDB, arrow (ancient OK), shield,. Drop shield before putting in last orb
+- .!!(CHECK SPEED FOOD TIME)
+- Turn on Mipha's Grace
 - .gale() at the end:
     gale: 1
 - _Shrine::KorguChideh

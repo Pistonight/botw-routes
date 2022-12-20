@@ -7,7 +7,7 @@ TarreyActivateZora:
     notes: Talk Twice
 - Listen at window
 - _Npc<Mom>:
-    hide-icon-on-map: true
+    coord: [3969.5,-1571.6085339409033]
     notes: "[A Parent's Love] Side Quest. Give cake"
 - _Npc<Mom Again>:
     comment: After Fade Out
@@ -15,11 +15,12 @@ TarreyActivateZora:
     var-change:
       SideQuest: 1
 - _Npc<Dad>:
-    hide-icon-on-map: true
+    coord: [3917.75,-1605.746639579776]
     comment: Talk Twice
     notes: "[Hobbies of the Rich] Side Quest"
     var-change:
       SideQuest: 1
-- BLSS .dir(<N)
+- BLSS .dir(<N):
+    notes: Jump over fence to the right and BLSS off the fence
 - _Memory::SpringofPower
 - _Shrine::TutsuwaNima

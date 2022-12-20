@@ -110,11 +110,15 @@ Gerudo:
     var-change:
       ShrineQuest: 1
     coord: [-3277,2558]
+- Equip flamebreaker:
+    notes: Need to take off gerudo outfit to talk to Rhondson / Mipha's Grace for eventide later
+- .!!(TURN OFF MIPHA'S GRACE)
 - _Cook<Chilly Elixir>:
     comment: Spring + Winterwing
     coord: [-3275,2571]
-- Equip flamebreaker:
-    notes: Need to take off gerudo outfit to talk to Rhondson
+- _Tod::Noon:
+    comment: For Suma Sahma 4PM-5:30PM
+    notes: You can delay this according to your speed. Here's optimal because you can use the cooking pot.
 - _Npc::Gerudo<Rhondson>:
     coord: [-3269.43, 129.00, 2585.22]
 - _Npc::Rito<Ice Guy>:
@@ -127,10 +131,7 @@ Gerudo:
     notes: Aim right in the middle of 2 trees
 - _Memory::KaraKaraBazaar:
     time-override: 200 # for all gerudo and bazaar quests
-- _Tod::Noon:
-    coord: [-2686,2735.335572362241]
-    comment: For Suma Sahma 4PM-5:30PM
-    notes: You can delay this according to your speed. 
+
 - .dir(E>) Turn + .dir(E):
     notes: Land on northmost statue with ball
 

@@ -84,12 +84,10 @@ Kak3:
     notes: Make sure to finish shrine by 10:00PM.
     gale: 1
 - _Shrine::TalohNaeg
-- Waste .gale():
-    gale: 1
 - _Equipment::Weapon<Traveller Sword>:
     coord: [1927.75,985.9673167813362]
     notes: Mag from waterfall by entrance. Meanwhile, make sure you stay close to Dorian and keep him in view
-- Drop Axe or Korok Leaf
+- Drop Korok Leaf
 - Follow Dorian:
     notes: 
       Can approach Dorian after "Show yourself!". 
@@ -108,10 +106,11 @@ Kak3:
 - _Npc<Doctor>:
     coord: [2504,1518.5361496206433]
     comment: Mash B
-    notes: "[The Cursed Statue] Shrine Quest"
+    notes: "[The Cursed Statue] Shrine Quest. If it's raining after making noon, reload the autosave you got after making noon."
     var-change:
       ShrineQuest: 1
-- .dir(S) + BLSS .dir(SW)
+- .dir(S) + BLSS .dir(SW) + .gale():
+    gale: 1
 - _Chest<Misko's Treasure>:
     notes: Get sapphire in middle chest
     coord: [1951,2609.562943681468]

@@ -185,6 +185,7 @@ Naboris:
     coord: [-2476,3764.5593782394317]
 - .gale() inside Naboris:
     gale: 2
+- .!!(EQUIP STASIS, GEB, AA)
 - Thunderblight:
     split-type: UserDefined
     icon: naboris-done

@@ -1,16 +1,7 @@
 TarreyActivateGerudo:
 - _Warp::Shrine::DahHesho:
     line-color: red
-- .dir(<N) Ordinal Turn to stalkers:
-    notes: 
-      Land near the close one. Shoot one AA with falcon bow to attract the far one.
-      Snap the close one, use FDB to kill it, then use fire rod to create an updraft,
-      and kill the far one with falcon bow AA, then midair to TT
-- _Snap::Quest<Guardian Stalker>:
-    coord: [3654,-1552.409629673918]
-- Kill .enemy(2 Stalkers):
-    time-override: 40
-- .dir(.E) to Tarrey Town:
+- .dir(N.) Turn to Tarrey Town:
     coord: [3984.5,-1597.5796282054716]
 - _Npc<Hudson>:
     comment: Talk twice

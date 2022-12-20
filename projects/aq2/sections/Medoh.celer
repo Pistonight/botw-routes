@@ -26,6 +26,7 @@ Medoh:
     comment: Inside Medoh
     notes: If you forget this one, there is a backup later in Ketoh Wawai (dark forest shrine)
 - Use RC for the button
+- .!!(EQUIP FDB, STASIS, AA)
 - Windblight:
     split-type: UserDefined
     icon: medoh-done

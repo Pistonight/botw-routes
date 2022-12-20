@@ -76,6 +76,7 @@ Kak2Ruta:
     coord: [3596.5,-342.79736404428513]
 - .gale():
     gale: 1
+- .!!(EQUIP CRYO, GEB, AA)
 - Waterblight:
     split-type: UserDefined
     icon: ruta-done
