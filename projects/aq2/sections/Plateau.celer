@@ -22,7 +22,7 @@ Plateau:
     comment: DO NOT DAMAGE
 - _Equipment::Shield<Spear + Pot Lid>:
     coord: [-948.75,1963.5581365131984]
-- _Material<Peppers + Shrooms>:
+- _Material<Peppers + Steak>:
     coord: [-967,1965.1368733581612]
     comment: These are food
 - Surf down to TOT:

@@ -140,20 +140,20 @@ TarreyActivateGoron:
     time-override: 30
     var-change:
       SideQuest: 1
-- BLSS to Tarrey Town:
+- .dir(E>) Turn
+- Kill .enemy(2 Stalkers):
+    time-override: 40
+    movements:
+    - to: [3626.5,-1601.443160892215]
+    - to: [3682,-1510.9084045459003]
+- _Snap::Quest<Guardian Stalker>:
+    notes: Snap while they explode      
+- .dir(<E) to Tarrey Town:
     coord: [3984.5,-1597.5796282054716]
-    notes: Minijump BLSS off the fence. Switch to falcon bow to make him load
 - _Npc<Hudson>:
     comment: Talk Twice
 - .dir(S) + .dir(S):
     notes: 2 cardinal max heights from the statue
     coord: [3966.5,-1611.37379984992]
 - _Shrine::DahHesho
-- .dir(<N) Ordinal Turn to stalkers
-- Kill .enemy(2 Stalkers):
-    time-override: 40
-- _Snap::Quest<Guardian Stalker>:
-    coord: [3654,-1552.409629673918]
-    notes: Snap while they explode
-- Wait for them to die
 - __use__ CheckQuest
