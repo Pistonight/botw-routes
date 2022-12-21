@@ -13,14 +13,24 @@ Kak2Ruta:
     var-change:
       MainQuest: 1
     notes: "[Captured Memories] Main Quest"
-- .dir(<E) up:
-    coord: [1879.5,917.4514703722871]
+- .dir(<<E) up
+- Activate Fairy Fountain:
+    coord: [1976.5,845.9673167813362]
+- _Snap::Quest<Fairy Fountain>
+- _Material<Nightshade>:
+    coord: [1961.27, 267.94, 856.07]
 - _Snap::Quest<Blupee>:
-    notes: If it doesn't spawn, just skip this one and snap another later in Akkala
-- .dir(N) to tree stump:
-    coord: [1871,814.9108639490987]
-- _Material<Nightshade>
-- BLSS .dir(E) to shrine:
+    movements:
+    - to: [1955.25,870.3053989276896]
+    - to: [1933.23, 269.50, 887.44]
+      away: true
+    notes: It should always be there. If not, there's a back up in Akkala later.
+- .dir(E) + .dir(E>) Turn:
+    coord: [2105,881.1144463116216]
+- Kill Goat:
+    coord: [2463.16, 320.31, 1092.85]
+- _Material<Raw Meat>
+- .dir(SE) to shrine:
     time-override: 30
 - _Shrine::DowNaeh
 - .dir(N>) + .dir(E) Fast Turn:

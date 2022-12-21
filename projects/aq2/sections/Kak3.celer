@@ -3,12 +3,7 @@ Kak3:
 - _Warp::Shrine::TalohNaeg:
     line-color: magenta
     notes: Need to be not raining for Koko. Make noon until it's not raining
-- .dir(E)
-- Activate Fairy Fountain:
-    coord: [1976.5,845.9673167813362]
-- _Snap::Quest<Fairy Fountain>
-- +.dir(<W) To cucoo by shrine:
-    notes: play tag with cottla, 3 cucoos, talk to pikango, Koko, make night
+- +Cucoo at shrine
 - +Cucoo top of roof
 - _Npc::SheikaMale<Cucoo Man>:
     coord: [1832.75,964.0030702417534]
@@ -88,7 +83,8 @@ Kak3:
     coord: [1927.75,985.9673167813362]
     notes: Mag from waterfall by entrance. Meanwhile, make sure you stay close to Dorian and keep him in view
 - Drop Korok Leaf
-- Follow Dorian:
+- .gale() Follow Dorian:
+    gale: 1
     notes: 
       Can approach Dorian after "Show yourself!". 
       Make sure you have empty slot. 
