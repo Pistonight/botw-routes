@@ -67,10 +67,4 @@ Hateno:
     notes: "[Master of the Wind] Shrine Quest"
     var-change:
       ShrineQuest: 1
-- BLSS + .dir(W>):
-    movements:
-    - to: [3990.5,484.55530291568266]
-    - to: [3588,539.1200150079922]
-    notes: Can also WB, but wind is annoying
-- _Shrine::RuccoMaag
 - __use__ CheckQuest

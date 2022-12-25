@@ -107,53 +107,7 @@ TarreyActivateGoron:
     comment: Snap and kill
     time-override: 30
     notes: Eat ATK 3, stasis + 4AA headshots with GEB. Snap. Grab axe and Frostspear in chest
-- _Snap::Quest<Small Guardian>:
-    hide-icon-on-map: true
-    comment: Inside Shrine
 - _Equipment::Weapon<Axe and Frostspear>:
     hide-icon-on-map: true
     comment: For Nebb
-- .gale() + BLSS .dir(E):
-    gale: 1
-    notes: Can skip gale here and save for Gut Check
-    coord: [2052,-726.1045862997235]
-- _Shrine::TahMuhl
-- .dir(E) + .dir(<<E) Turn to stable
-- _Npc<Shrine Painting Guy>:
-    notes: "[A Landscape of a Stable] Shrine Quest"
-    coord: [2610,-1140.0332774590024]
-    var-change:
-      ShrineQuest: 1
-- .dir(<E) to shrine
-- _Shrine::MoaKeet
-- .dir(N) Turn to shrine
-- _Shrine::SahDahaj
-- .dir(E) + Run + .dir(<E)
-- _Shrine::ZeKasho
-- .dir(E) Turn
-- _Material<Armoranth>:
-    coord: [3256,-1740.5062927691179]
-- Cut tree SQ to stable
-- _Npc<Darner Quest>:
-    coord: [3142,-1690.6525216870973]
-    notes: "[Little Sister's Big Request] Side Quest. Talk to big sister (2nd option), then little sister, big sister, little sister, big sister"
-    time-override: 30
-    var-change:
-      SideQuest: 1
-- .dir(E>) Turn
-- Kill .enemy(2 Stalkers):
-    time-override: 40
-    movements:
-    - to: [3626.5,-1601.443160892215]
-    - to: [3682,-1510.9084045459003]
-- _Snap::Quest<Guardian Stalker>:
-    notes: Snap while they explode      
-- .dir(<E) to Tarrey Town:
-    coord: [3984.5,-1597.5796282054716]
-- _Npc<Hudson>:
-    comment: Talk Twice
-- .dir(S) + .dir(S):
-    notes: 2 cardinal max heights from the statue
-    coord: [3966.5,-1611.37379984992]
-- _Shrine::DahHesho
 - __use__ CheckQuest

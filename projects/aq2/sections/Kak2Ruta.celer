@@ -32,17 +32,23 @@ Kak2Ruta:
 - _Material<Raw Meat>
 - .dir(SE) to shrine:
     time-override: 30
-- _Shrine::DowNaeh
-- .dir(N>) + .dir(E) Fast Turn:
-    coord: [2765.5,1176.647173524043]
+- _Shrine::DowNaeh:
+    notes: Get luminous stone here if you still don't have 10 somehow.
+- .dir(N>) + .dir(.E) Turn:
+    coord: [2769,1199.045317667018]
 - _Memory::LanayruRoad
 - _Snap::Quest<Lynel>:
     movements:
     - to: [3234.5,1181.649154325174]
       away: true
-- .dir(E) + BLSS .dir(N):
+- .dir(E) + .dir(<N) DT:
     time-override: 40
-    coord: [3477.5,1075.1241962309214]
+    coord: [3388,1104.3533241835285]
+- _Shrine::RuccoMaag
+- Climb right pillar:
+    notes: If rain, windbomb west
+- .dir(E) + .dir(E) + .dir(.N) + .dir(<N) Turn:
+    coord: [3493.5,410.0512704114144]
 - .loc(Monument):
     coord: [3397,10.99405759660658]
     comment: Left of dam

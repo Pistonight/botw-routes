@@ -5,7 +5,7 @@ _project:
   description: All Quests Speedrun
   name: All Quests
   url: ""
-  version: 2.0.1
+  version: 2.0.2
 
 _config:
   split-format:
@@ -38,6 +38,7 @@ _route:
   - Eldin:
     - __use__ Eldin
     - __use__ TarreyActivateGerudo
+    - __use__ DeepHebra
   - Gerudo:
     - __use__ Gerudo
   - Lake:

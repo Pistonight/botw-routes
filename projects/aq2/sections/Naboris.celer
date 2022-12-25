@@ -46,10 +46,12 @@ Naboris:
     notes: Shoot at sun 2:55-3:50
 - _Shrine::SasaKai
 - BLSS .dir(S) to Gerudo
-- _Npc<Benja>:
-    notes: "[Forbidden City Entry] Main Quest"
-    coord: [-3799.25,2827.7960857630687]
 - _Shrine::DaqoChisay
+- _Npc<Benja>:
+    comment: After shrine
+    notes: "[Forbidden City Entry] Main Quest. Talking to him after shrine because he takes forever to load."
+    coord: [-3799.25,2827.7960857630687]
+
 - BLSS .dir(NE)
 - _Shrine::DakoTah
 - .dir(E>) + .dir(E)
@@ -178,7 +180,7 @@ Naboris:
       ShrineQuest: 1
 - _Npc::Gerudo<Shrine Lady>:
     coord: [-2989,3760.314947379851]
-- .dir(E) backflip to Naboris
+- .dir(E) Turn to Naboris
 - Enter Naboris:
     split-type: UserDefined
     icon: naboris-enter

@@ -36,7 +36,7 @@ Central:
     notes: "[The Two Rings] Shrine Quest"
     var-change:
       ShrineQuest: 1
-- .dir(<S) Turn + midairs
+- .dir(<S) Turn + .dir(S)
 - _Memory::SanidinPark
 - SQ to white horse
 - Ride to stable:
@@ -114,7 +114,7 @@ Central:
     notes: For Xenoblade and potentially skip BM at Ya Naga (should not happen if you are fast enough). If it's after 7PM you don't need to make night
 - .dir(S>) Turn
 - Kill .enemy(Moblin):
-    notes: Throw RGC at him, fall damage cancel by switching to korok leaf. bomb the tree before picking up moblin club
+    notes: Kill with RGC, cut the tree, then throw away RGC
 - _Equipment::Weapon<Moblin Club>:
     coord: [132.65, 116.42, 1397.90]
 - .dir(S)

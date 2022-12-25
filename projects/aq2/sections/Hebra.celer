@@ -30,15 +30,6 @@ Hebra:
     comment: .fury()
 - .dir(S) + .dir(N) + .dir(N) + .dir(<E)
 - _Shrine::ShadaNaw
-- BLSS .dir(W):
-   time-override: 45
-- _Shrine::HiaMiu
-- .dir(E) + clip:
-   time-override: 60
-- _Shrine::ToQuomo
-- _Snap::Quest<Hebra Skeleton>
-- _Warp::Shrine::ShadaNaw:
-    line-color: red
 - .dir(E>) + .dir(E) Turn right
 - _Shrine::RokUwog
 - .dir(N) + .dir(<E) Turn:
@@ -57,3 +48,14 @@ Hebra:
 - _Shrine::KetohWawai:
     notes: Back up ancient core here if you only have 1
 - __use__ CheckQuest
+
+DeepHebra:
+- _Warp::Shrine::ShadaNaw:
+    line-color: orange
+- BLSS .dir(W):
+   time-override: 45
+- _Shrine::HiaMiu
+- .dir(E) + clip:
+   time-override: 60
+- _Shrine::ToQuomo
+- _Snap::Quest<Hebra Skeleton>

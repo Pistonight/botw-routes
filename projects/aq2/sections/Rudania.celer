@@ -15,7 +15,7 @@ Rudania:
     comment: Up behind bombable rocks
     coord: [1946.80, 632.72, -2203.24]
     notes: Destroy the lizal shield if you still have it, or just throw a bomb
-- .dir(S) Turn
+- .dir(.S) Turn
 - _Npc::Goron<Digging Goron>:
     notes: Talk to him, wb .dir(SW) to rock, golden gautlet rock up. UNEQUIP WOODEN BOW
     movements: 

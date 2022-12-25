@@ -13,13 +13,58 @@ Eldin:
     icon: npc-zora-male
 - .dir(N) to top of waterfall:
     coord: [3745,-630.4112601093257]
-- BLSS .dir(W) to Eldin memory:
+- .dir(N.) DT
+- _Shrine::DahHesho
+- .dir(N.) Turn to Tarrey Town:
+    coord: [3984.5,-1597.5796282054716]
+- _Npc<Hudson>:
+    comment: Talk Twice
+- .dir(<W) Turn
+- Kill .enemy(2 Stalkers):
+    time-override: 40
+    movements:
+    - to: [3682,-1510.9084045459003]
+    - to: [3626.5,-1601.443160892215]
+- _Snap::Quest<Guardian Stalker>:
+    notes: Snap while they explode    
+- .dir(W>) + .dir(W>) midairs
+- _Material<Armoranth>:
+    coord: [3256,-1740.5062927691179]
+- Cut tree SQ to stable
+- _Npc<Darner Quest>:
+    coord: [3142,-1690.6525216870973]
+    notes: "[Little Sister's Big Request] Side Quest. Talk to big sister (2nd option), then little sister, big sister, little sister, big sister"
+    time-override: 30
+    var-change:
+      SideQuest: 1
+- .dir(.W) to shrine:
+    notes: WB from the tree is possible, but getting bullet time is tricky. Use the wood crates to be more consistent
+- _Shrine::ZeKasho
+- .gale() + .dir(.W) Turn midair:
+    gale: 1
+- _Shrine::SahDahaj
+- .dir(<<S) + .dir(S>) Turn:
+    coord: [2780,-1391.0176662091762]
+- _Shrine::MoaKeet
+- SQ to stable
+- _Npc<Shrine Painting Guy>:
+    notes: "[A Landscape of a Stable] Shrine Quest"
+    coord: [2610,-1140.0332774590024]
+    var-change:
+      ShrineQuest: 1
+- .dir(<W) Turn
+- _Shrine::TahMuhl
+- .dir(W) + .dir(N) + .dir(W) + .dir(<N) Turn:
+    movements:
+    - to: [2147,-937.8436924535913]
+    - to: [2150,-1109.9097487139898]
+    - to: [1942,-1184.938552315908]
+- _Shrine::QuaRaym
+- .dir(W) + .dir(W):
     notes: BLSS off rocks
 - _Memory::EldinCanyon:
     time-override: 60
-- .dir(E) Turn
-- _Shrine::QuaRaym
-- .dir(N) + .dir(<N) to .loc(South Mine):
+- .dir(N>) Turn to .loc(South Mine):
     coord: [1804.5,-1729.7964545464456]
 - _Material<10 Lizards>:
     time-override: 30

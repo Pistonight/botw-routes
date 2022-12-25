@@ -40,10 +40,13 @@ Gerudo:
     comment: .fury(), Get Guts
 - _Shrine::ThoKayu
 - BLSS .dir(S)
+- _Snap::Quest<Small Guardian>:
+    hide-icon-on-map: true
+    comment: Inside shrine
 - _Shrine::HawaKoth:
     comment: Get outside skew
-    notes: Snap backup guardian if needed
 - _Snap::Quest<Gerudo Skeleton>:
+    hide-icon-on-map: true
     coord: [-4846.5,3763.3366904384147]
 - _Npc::Gerudo<Give Barta durian>:
     coord: [-4832.625,3733.598231800006]

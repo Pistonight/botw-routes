@@ -17,7 +17,8 @@ KorokForest:
       
 - +_Snap::Quest<Sunshroom>:
     hide-icon-on-map: true
-- Pick up Apple
+- Pick up Apple:
+    notes: Use drillshaft to poke away other ingredients if Link doesn't focus on the apple
 - Throw away Drillshaft
 - ""
 - Drop down into Deku Tree
@@ -27,9 +28,8 @@ KorokForest:
 - +Trade to 13 hearts:
     comment: 5 more
 - ""
-- +Activate Keo Ruug:
-    notes: Can get 1-2 frogs here and on the other side before pulling MS
-- Korok Leaf if needed
+- Korok Leaf if needed:
+    notes: Can get 3 static frogs before pulling MS. Can also activate shrine and warp to it afterwards
 - Equip Guardian Axe:
     notes: When you pull MS, the equipped weapon will get 40 durability. Fire rod also works if you are slow and need to set extra TODs
 - Pull Master Sword:
@@ -60,11 +60,12 @@ KorokForest:
     time-override: 300
 
 KorokForest2:
-- _Warp::Shrine::KeoRuug
+- .dir(E>>) Fast Turn
 - _Shrine::KeoRuug
 - .dir(E)
 - _Npc<Minigame Korok>:
     notes: "[Test of Wood] Shrine Quest"
+    coord: [564.99, 264.83, -2160.65]
     var-change:
       ShrineQuest: 1
 - .dir(<<E)
