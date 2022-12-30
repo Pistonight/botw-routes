@@ -82,11 +82,7 @@ Kak1Hateno:
 - (==) .link([Example inventory after castle]https://ist.itntpiston.app/?c=H4sIAAAAAAACA01QS1LDMAy9yjsAi5bATFlwEqYLJVYSzyhWkO2GcHpk0qFsbD%2B%2Fn%2ByYYsEZxZjRG6VhdkRf7Gtemcx3050Eg9C%2BqPGHxJHfu7fT6frHTZUsPBT8WeN6%2FU2lGwsbet0et6NrckHYWO4cXkFm%2FzWrFonhwE84Ko%2FGXJgFeY4soYVJTAXPEC014wWcQjUaWlzBBQ4ipWabaWwPTbQHI4yUJndZzbOpLuiwqbY8WnqfqYPRt9qdbF9h0Q1%2BECrsNWq9o8lnZPsBgI4n9EMBAAA%3D)
 - .dir(S) to wall:
     coord: [-210,-262]
-- BLSS .dir(SE) to Kaya Wan fairy
-- _Material<Fairy>:
-    notes: When arrived, pause to make the fairy load
-    coord: [949.19, 138.58, 502.84]
-- .dir(<N) Turn
+- BLSS to near Kaya Wan
 - Magnesis chest out:
     notes: "[Riverbed Reward] Side Quest"
 - _Chest<Knights Sword>:
@@ -110,10 +106,17 @@ Kak1Hateno:
     notes: "[Free the Divine Beasts] Main Quest and [Locked Mementos] Main Quest"
     var-change:
       MainQuest: 1
+- .dir(<<E) to fairy fountain:
+    coord: [1963.57, 269.72, 860.48]
+- _Material<Fairy>:
+    notes: 1 is enough but can get more if you are low on food. If you get nightshades, drop them
+- .dir(.W)
 - Activate .loc(Taloh Naeg) Shrine:
     coord: [1833.5,906.1630199330921]
 - .dir(<<S) Super to camp
-- RGC slam kill 3 bokos
+- RGC slam kill 3 bokos:
+    notes: Make sure they are loaded
+    coord: [2164,1379.6438259855777]
 - _Npc<Hestu>:
     notes: "[The Priceless Maracas] Side Quest. Talk Twice"
     comment: Get Weapon Slot

@@ -38,11 +38,6 @@ KorokForest:
       MainQuest: 1
 - +_Equipment::Weapon<Master Sword>:
     coord: [432.5,-2136.802514127226]
-- +_Npc<Blupee Quest>:
-    notes: "[Legendary Rabbit Trial] Side Quest"
-    var-change:
-      SideQuest: 1
-    hide-icon-on-map: true
 - +_Npc<Ice Rod Korok>:
     notes: "[A Freezing Rod] Side Quest"
     var-change:

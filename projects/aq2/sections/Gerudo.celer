@@ -88,19 +88,16 @@ Gerudo:
     comment: Talk Twice 
     var-change:
       SideQuest: 1
-- Torch SQ windbomb
+- Run
 - _Npc::Gerudo<Berry Girl>:
     notes: Finish [The Mystery Polluter]
     var-change:
       SideQuest: 1
     coord: [-3835,2853.5]
-- _Npc::Gerudo<Flint Lady>:
-    notes: "[Tools of the Trade] Side Quest"
-    var-change:
-      SideQuest: 1
-    comment: Talk Twice
-    coord: [-3825,2897.171471657931]
-- SQ
+- Run:
+    movements:
+    - to: [-3848.75,2878.521362671423]
+    - to: [-3838,2890.1508272297197]
 - _Npc::Gerudo<Riju>:
     notes: Finish [The Thunder Helm]. Talk to Riju not Thunderhelm
     coord: [-3884.5,2964.5]
@@ -115,7 +112,6 @@ Gerudo:
     coord: [-3277,2558]
 - Equip flamebreaker:
     notes: Need to take off gerudo outfit to talk to Rhondson / Mipha's Grace for eventide later
-- .!!(TURN OFF MIPHA'S GRACE)
 - _Cook<Chilly Elixir>:
     comment: Spring + Winterwing
     coord: [-3275,2571]
@@ -123,9 +119,10 @@ Gerudo:
     comment: For Suma Sahma 4PM-5:30PM
     notes: You can delay this according to your speed. Here's optimal because you can use the cooking pot.
 - _Npc::Gerudo<Rhondson>:
+    comment: Options 1-1-1-2
     coord: [-3269.43, 129.00, 2585.22]
 - _Npc::Rito<Ice Guy>:
-    comment: Talk Twice
+    comment: Options 1-2. Talk Twice
     notes: "[An Ice Guy] Side Quest"
     var-change:
       SideQuest: 1

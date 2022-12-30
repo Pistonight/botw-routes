@@ -1,5 +1,11 @@
 Ganon:
+- (==) If you still need a blupee pic, warp to zuna kai now and take one
 - _Warp::Shrine::KeoRuug
+- +_Npc<Blupee Quest>:
+    notes: "[Legendary Rabbit Trial] Side Quest"
+    var-change:
+      SideQuest: 1
+    hide-icon-on-map: true
 - _Npc<Trial Korok>:
     coord: [432.25,-2167.49078927474]
     var-change:

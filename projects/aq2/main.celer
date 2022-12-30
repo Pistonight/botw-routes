@@ -5,7 +5,7 @@ _project:
   description: All Quests Speedrun
   name: All Quests
   url: ""
-  version: 2.0.2
+  version: 2.0.3
 
 _config:
   split-format:
@@ -23,7 +23,7 @@ _route:
     Directions are generally for WB unless specified otherwise. 
     Look on the map if you are not sure where to BLSS to or where a shrine is.
     For Square-First windbombs without direction, it means you aim at the thing you want to go to (look at map or watch VOD if you don't know where it is)
-  - "(==) Other terminology: TS = Turn Super, DT = Delayed Turn, SQ = Square First"
+  - "(==) Other terminology: TS = Turn Super, DT = Delayed Turn, SQ = Square First, AA = Ancient Arrow"
   - Plateau: __use__ Plateau
   - Hateno: __use__ Kak1Hateno
   - Medoh:

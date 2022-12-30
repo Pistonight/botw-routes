@@ -19,14 +19,11 @@ Kak2Ruta:
 - _Snap::Quest<Fairy Fountain>
 - _Material<Nightshade>:
     coord: [1961.27, 267.94, 856.07]
-- _Snap::Quest<Blupee>:
-    movements:
-    - to: [1955.25,870.3053989276896]
-    - to: [1933.23, 269.50, 887.44]
-      away: true
-    notes: It should always be there. If not, there's a back up in Akkala later.
-- .dir(E) + .dir(E>) Turn:
-    coord: [2105,881.1144463116216]
+- .dir(N) + .dir(E>) Turn + .dir(SE):
+    movements: 
+    - to: [1976.5,691.0347563463147]
+    - to: [2252.5,813.081610205435]
+    notes: We are going north first to avoid loading in the blupee near lakna rokee, otherwise it will not spawn later.
 - Kill Goat:
     coord: [2463.16, 320.31, 1092.85]
 - _Material<Raw Meat>
@@ -101,3 +98,4 @@ Kak2Ruta:
     notes: Cryo, Stasis, GEB 6AA all head
     var-change:
       MainQuest: 1
+- .!!(TURN OFF MIPHA'S GRACE)

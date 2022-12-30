@@ -4,10 +4,9 @@ IST:
   The file mainly shows the corruption details and may not reflect what you actually do. Please refer to the steps below
 - Cycle materials:
     notes: |
-      Drop and pick up everything between flint and shaft. 
+      Drop and pick up everything between flint and shaft, PLUS THE ANCIENT CORE. 
       Reminder that if you have fewer than 5 arrows, you need to sell something extra to buy 5 arrows.
       Also eat endura carrot and durian down to 3.
-      .!!(Important: If you got a core from the guardian, also drop and pick up the core so it's behind fairy)
 - Equip .item(AXE)
 - Drop .item(Traveler Bow), 
 - equip the other

@@ -1,23 +1,32 @@
 Kak3:
 - (==) It is recommended that you learn from a vod for kak quests
 - _Warp::Shrine::TalohNaeg:
-    line-color: magenta
+    line-color: "#00ff00"
     notes: Need to be not raining for Koko. Make noon until it's not raining
 - +Cucoo at shrine
-- +Cucoo top of roof
+- +Cucoo top of roof:
+    coord: [1849.375,973.7633936748916]
 - _Npc::SheikaMale<Cucoo Man>:
     coord: [1832.75,964.0030702417534]
     notes: "[Flown the Coop] Side Quest"
 - _Npc::SheikaFemale<Cottla>:
-    hide-icon-on-map: true
     comment: Second Option
     notes: "[Playtime with Cottla] Side Quest"
+    coord: [1874.875,961.3836410805752]
 - Catch Cottla:
     var-change:
       SideQuest: 1
-- +Cucoo under hut
-- +Cucoo top of hut
-- +Cucoo near kitchen
+    movements:
+    - to: [1877.75,1031.035380424356]
+      warp: true
+- +Cucoo under hut:
+    coord: [1882,1043.4151330186723]
+- +Cucoo top of hut:
+    coord: [1910.625,1004.2751071396724]
+- +Cucoo near kitchen:
+    movements:
+    - to: [1893.375,974.138537692902]
+    - to: [1833.125,960.7584010505598]
 - _Npc::SheikaMale<Pikango>:
     notes: "[Find the Fairy Fountain] Main Quest"
     var-change:
@@ -33,27 +42,32 @@ Kak3:
       SideQuest: 4
 - ""
 - _Tod::Night:
+    line-color: orange
     notes: For the night cucoo + firefly. Cannot be raining or there won't be fireflies
 - ""
 - _Npc::SheikaFemale<Arrow Quest Lady>:
     comment: B, talk again
     notes: "[Arrows of Burning Heart] Side Quest"
     coord: [1826.5,1041.4893036738922]
-- +Cucoo by Pikango
+- +Cucoo in orchard:
+    movements:
+    - to: [1862,1005.6506352057067]
+    - to: [1833.125,960.7584010505598]
 - Light torches
-- _Npc::SheikaFemale<Arrow Quest Lady>:
-    notes: "Finish Arrows of Burning Heart Quest"
-    coord: [1826.5,1041.4893036738922]
-    var-change:
-      SideQuest: 1
-- +Last cucoo in orchard
+- +Cucoo by Pikango:
+    movements:
+    - to: [1826.875,999.5232829115503]
+    - to: [1833.125,960.7584010505598]
 - _Npc::SheikaMale<Cucco Man>:
     notes: Finish Flown the Coop Quest
     var-change:
       SideQuest: 1
     coord: [1832.75,964.0030702417534]
+- _Material<5 Fireflies>:
+    coord: [1900.125,977.1396898369785]
+    notes: Grab 5 fireflies as you run toward the house
 - _Npc::SheikaFemale<Firefly Lady>:
-    notes: "[By Firefly's Light] Side Quest. Grab 5 fireflies as you run toward the house, make sure don't scare her. talk twice, drop fireflies. If you scared her, make sure to let her sit down before talking again."
+    notes: "[By Firefly's Light] Side Quest. Make sure don't scare her. talk twice, drop fireflies. If you scared her, make sure to let her sit down before talking again."
     coord: [1901,1028.7342526310076]
     comment: Twice, drop fireflies
     var-change:
@@ -78,19 +92,35 @@ Kak3:
 - Walk + .gale() to shrine:
     notes: Make sure to finish shrine by 10:00PM.
     gale: 1
-- _Shrine::TalohNaeg
+- _Shrine::TalohNaeg:
+    line-color: magenta
+- Glide to shop
+- _Npc::SheikaFemale<Arrow Quest Lady>:
+    notes: "Finish Arrows of Burning Heart Quest"
+    coord: [1826.5,1041.4893036738922]
+    var-change:
+      SideQuest: 1
 - _Equipment::Weapon<Traveller Sword>:
     coord: [1927.75,985.9673167813362]
     notes: Mag from waterfall by entrance. Meanwhile, make sure you stay close to Dorian and keep him in view
 - Drop Korok Leaf
-- .gale() Follow Dorian:
+- .gale() Up:
     gale: 1
+- .!!(DO NOT RUN)
+- .!!(CROUNCH APPROACH BRIDGE):
+    movements:
+    - to: [1979.5,954.5501182673379]
+    - to: [2026,960.5524225554909]
+- _Snap::Quest<Blupee>:
+    movements:
+    - to: [2039.5,918.0361005144041]
+      away: true
+- Unstuck Dorian at 12:15AM
+- Kill .enemy(Blademaster):
     notes: 
-      Can approach Dorian after "Show yourself!". 
       Make sure you have empty slot. 
       GEB Fire Arrow Head x2.
       The windcleaver might despawn after the cutscene so make sure to pick it up
-- Kill .enemy(Blademaster)
 - _Equipment::Weapon<Windcleaver>:
     coord: [2014,957.4560262148889]
 - _Shrine::LaknaRokee
@@ -107,6 +137,7 @@ Kak3:
       ShrineQuest: 1
 - .dir(S) + BLSS .dir(SW) + .gale():
     gale: 1
+- (^=) If you still need a blupee pic, get one here, then wb to cave
 - _Chest<Misko's Treasure>:
     notes: Get sapphire in middle chest
     coord: [1951,2609.562943681468]

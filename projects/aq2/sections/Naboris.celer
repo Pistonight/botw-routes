@@ -163,6 +163,12 @@ Naboris:
 - _Shop<1 Durian>:
     comment: For quest
     coord: [-3822.5,2878.1249885513744]
+- _Npc::Gerudo<Flint Lady>:
+    notes: "[Tools of the Trade] Side Quest"
+    var-change:
+      SideQuest: 1
+    comment: Talk Twice
+    coord: [-3825,2897.171471657931]
 - _Shop<All Fire + Shock>:
     coord: [-3853.875,2912.5337231392577]
     notes: Fire for shrines, shock for Ruta + fighting stuff. Technically only need less than 10 fire arrows, but just in case

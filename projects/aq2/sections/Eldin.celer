@@ -144,9 +144,3 @@ Eldin:
     coord: [3247,-3440.5]
     notes: Snap multiple to be safe. Don't have to talk
     time-override: 60
-- .!!(If need blupee pic:)
-- .dir(S) + .dir(<S)
-- _Snap::Quest<Backup Blupee>:
-    movements:
-    - to: [3360.27, 162.25, -3078.82]
-      away: true
