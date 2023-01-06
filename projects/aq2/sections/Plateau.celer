@@ -11,17 +11,18 @@ Plateau:
       MainQuest: -1
       SideQuest: -1
       ShrineQuest: -1
-- FDC down:
+- Run down:
     notes:
-      You have to unequip the tree branch really fast. 
-      For safety you can also just run down to the flint, in which case you can probably skip the tree branch and get boomerang in castle
+      You can also FDC down with the tree branch but that's hard and saves 2 seconds
 - _Material<Flint>:
     coord: [-954.90, 194.30, 1833.20]
 - _Equipment::Weapon<Axe>:
     coord: [-920.93, 220.65, 1871.83]
     comment: DO NOT DAMAGE
+- Whistle sprint toward spear
 - _Equipment::Shield<Spear + Pot Lid>:
     coord: [-948.75,1963.5581365131984]
+    notes: If you miss the spear, use hammer as back up
 - _Material<Peppers + Steak>:
     coord: [-967,1965.1368733581612]
     comment: These are food
@@ -32,7 +33,6 @@ Plateau:
     coord: [-832,1963.5581365131984]
     notes: 
       Need all 5 arrows starting IST.
-      You can grab extra ancient parts and sell them at the hateno shop before IST to buy arrows if you need.
 - BLSS
 - _Shrine::JaBaij
 - BLSS
@@ -46,18 +46,20 @@ Plateau:
 - _Chest<Amber>:
     comment: .!!(DO NOT FORGET)
     coord: [-685.5,1533.2437592195847]
+    notes: Mag out of pond
 - BLSS + Tree WB:
     coord: [-659.75,1490.977533190504]
 - _Shrine::OwaDaim:
     comment: No Hammer
-    notes: We are grabbing hammer later in Hateno. Go for stasis wb if you want
+    notes: Go for stasis wb since we don't need hammer
 - Boulder + BLSS
 - _Shrine::KehNamut
+- BLSS
 - Plateau:
     icon: king
     split-type: UserDefined
     coord: [-812,1969]
-    notes: "[Defeat Ganon] Main Quest and [Seek Out Impa] Main Quest"
+    notes: "[Destroy Ganon] Main Quest and [Seek Out Impa] Main Quest"
     var-change:
       MainQuest: 1
 - "(==) .link([Example inventory after Plat]: https://ist.itntpiston.app/?r=init+1+tree+branch+1+axe+1+spear%5Bequip%5D+1+traveler+bow%5Bequip%5D+5+arrow%5Bequip%5D+1+potlid%5Bequip%2C+life%3D300%5D+1+flint+6+pepper+3+shroom+1+amber+1+slate+4+orb+1+glider)"

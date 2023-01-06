@@ -1,17 +1,16 @@
 Kak1Hateno:
+- (==) Keep all materials unless specified otherwise
 - BLSS to Satori:
     notes: From window toward beetle tree area
 - _Material<2 Razorshrooms>:
     coord: [-2202,800.6870008591568]
     line-color: red
-    notes: The 2 are in the exact same spot near some sunshrooms. Keep all of them
+    notes: The 2 are in the exact same spot near some sunshrooms.
 - .dir(W) + .dir(W>) Turn 
 - _Material<5 Lotus>:
     coord: [-2542,670.3406977945551]
-    notes: Keep all of them
 - .dir(E)
 - _Material<Rushroom>:
-    notes: Keep all of them
     hide-icon-on-map: true
 - _Equipment::Bow<Forest Dweller's Bow>:
     coord: [-2346,687.5794301253582]
@@ -19,16 +18,15 @@ Kak1Hateno:
 - _Material<4 Endura Carrots>:
     comment: Area below shrine
     coord: [-2312.5,527.5160444891626]
-    notes: 1 for food or back up rupee item. Keep 3 for IST
+    notes: Eat 1 for food right now
 - .dir(N):
     coord: [-2299.5,451.48593631196854]
 - _Material<3 Rushrooms>:
-    notes: Keep all of them
     comment: Above shrine
 - _Shrine::MoggLatan
 - _Korok::R60:
     notes: Throw a bomb to blow up the leaves right after exiting the shrine
-- .dir(<E) SQ
+- .dir(<E) SQ DEFUSE
 - _Material<3 Wood 10 Durians>:
     coord: [-2187.5,440.4815785494802]
     notes: 
