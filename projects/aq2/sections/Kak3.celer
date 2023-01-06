@@ -89,9 +89,8 @@ Kak3:
 - _Tod::Night:
     hide-icon-on-map: true
     comment: After fade out
-- Walk + .gale() to shrine:
+- Walk + Climb to shrine:
     notes: Make sure to finish shrine by 10:00PM.
-    gale: 1
 - _Shrine::TalohNaeg:
     line-color: magenta
 - Glide to shop
@@ -102,12 +101,13 @@ Kak3:
       SideQuest: 1
 - _Equipment::Weapon<Traveller Sword>:
     coord: [1927.75,985.9673167813362]
-    notes: Mag from waterfall by entrance. Meanwhile, make sure you stay close to Dorian and keep him in view
-- Drop Korok Leaf
+    notes: Mag from waterfall by entrance.
+- .!!(Drop Ice Rod):
+    notes: Also drop Royal Claymore if you still have it
 - .gale() Up:
     gale: 1
 - .!!(DO NOT RUN)
-- .!!(CROUNCH APPROACH BRIDGE):
+- .!!(CROUCH APPROACH BRIDGE):
     movements:
     - to: [1979.5,954.5501182673379]
     - to: [2026,960.5524225554909]
@@ -149,6 +149,8 @@ Kak3:
       MainQuest: 1
 - .dir(<<W) to horse, ride near stable:
     coord: [1765,2045.8746152883996]
+- _Tod::Morning:
+    notes: If you are barely sub 9, might be BM here
 - _Npc<Horse Guy>:
     notes: "[Wild Horses] Side Quest"
     comment: B, talk again.
@@ -169,8 +171,3 @@ Kak3:
 - Shield surf SCW
 - _Shrine::SheeVaneer
 - _Shrine::SheeVenath
-- .dir(<W) Turn + .dir(S>) Turn:
-    coord: [1034,1926.125199656337]
-    notes: You can make this in 1 windbomb, but it's really hard + wind is really annoying here
-- _Shrine::ShaeKatha
-- __use__ CheckQuest

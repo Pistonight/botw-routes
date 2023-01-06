@@ -47,6 +47,7 @@ KorokForest:
 - ""
 - Start following Oaki
 - +_Material<Farm 10 cricket + 5 frogs>
+- +_Material<Nightshade>
 - +_Material<Honey>:
     hide-icon-on-map: true
     comment: on the way to shrine

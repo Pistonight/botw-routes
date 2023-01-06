@@ -18,7 +18,7 @@ CheckQuest:
   - "Shrine: .v(ShrineQuest)/42 Discovered"
 
 _route:
-  - "(==) Blood Moon: The BM shrine is its own branch. This document shows it as Shrine 99. However, based on your tempo, you can place it anywhere, ideally before a warp that is during night. " 
+  - "(==) Blood Moon: The BM shrine is its own branch. This document shows it as Shrine 113. However, based on your tempo, you can place it anywhere, ideally before a warp that is during night. You can see how the BM schedule works .link([here]https://github.com/iTNTPiston/botw-routes/blob/main/projects/aq2/BloodMoonSchedule.md) " 
   - (==) 
     Directions are generally for WB unless specified otherwise. 
     Look on the map if you are not sure where to BLSS to or where a shrine is.
@@ -38,13 +38,11 @@ _route:
   - Eldin:
     - __use__ Eldin
     - __use__ TarreyActivateGerudo
-    - __use__ DeepHebra
+    - __use__ ThundraPlateau
   - Gerudo:
     - __use__ Gerudo
   - Lake:
     - __use__ Lake
-  - Faron:
-    - __use__ Faron
   - Rudania:
     - __use__ Rudania
   - Korok Forest:
@@ -52,20 +50,25 @@ _route:
     - __use__ KorokForest2
   - Central:
     - __use__ Central
-  - Rito:
+  - Kakariko:
     - __use__ TarreyActivateRito
+    - __use__ AncientColumnMemory
+    - __use__ Kak3
+  - Faron:
+    - __use__ Faron
+  - Rito:
     - __use__ Rito
-    - __use__ BM
   - Zora's Domain:
     - __use__ TarreyActivateZora
     - __use__ ZDQuests
-  - Kakariko:
-    - __use__ TarreyActivateHateno
-    - __use__ Kak3
   - Hateno:
+    - __use__ TarreyActivateHateno
     - __use__ Hateno
-  - Cleanup:
+  - Hebra 2:
+    - (==) If it's after 10PM, do BM branch first
+    - __use__ DeepHebra
+    - __use__ BM
     - __use__ ForgottenTemple
+  - Finale:
     - __use__ TarreyFinal
-  - Ganon:
     - __use__ Ganon

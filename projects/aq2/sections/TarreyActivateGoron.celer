@@ -31,9 +31,10 @@ TarreyActivateGoron:
 - ""
 - .dir(W) Activate Shrine:
     coord: [3082.75, -455.625]
-- Throw away trident
 - _Shrine::DagahKeek
 - .dir(<<W) Ordinal Turn
+- Throw trident at Hinox:
+    notes: This should load him more consistently but unsure
 - _Boss::Hinox::Blue:
     coord: [2923,-290.92037179452836]
     fury: 3
@@ -53,7 +54,7 @@ TarreyActivateGoron:
     var-change:
       ShrineQuest: 1
 - _Shrine::MezzaLo
-- .dir(N>) TS
+- .dir(N.) DT
 - _Npc::ZoraFemale<Letter Girl>:
     coord: [2749,-88.23029102874534]
     notes: "[Special Delivery] Side Quest"
@@ -90,12 +91,6 @@ TarreyActivateGoron:
     notes: Get Octoballoon. Not guaranteed, 84%. We do the shrine so that it's less time loss to rng
     coord: [1257,-1111.1588602507172]
 - .dir(W)
-- (==) 
-  Check TOD 12pm-3pm. 
-  Make noon if not. 
-  For Balloon Girl (7AM-8PM), 
-  Darner Girl (8AM-8PM) and Greyson (>9PM). 
-  If it's after 3PM, it will be really tight to make it for Darner Girl, and if you set TOD at darner girl, you have to set TOD again for Greyson. So just setting it once here is better.
 - _Npc<Balloon Girl>:
     comment: Put balloon, break barrel
     coord: [1066,-1136.1687642563725]

@@ -119,10 +119,10 @@ Gerudo:
     comment: For Suma Sahma 4PM-5:30PM
     notes: You can delay this according to your speed. Here's optimal because you can use the cooking pot.
 - _Npc::Gerudo<Rhondson>:
-    comment: Options 1-1-1-2
+    comment: Options 1-1-1-2-1
     coord: [-3269.43, 129.00, 2585.22]
 - _Npc::Rito<Ice Guy>:
-    comment: Options 1-2. Talk Twice
+    comment: Options 2. Talk Again
     notes: "[An Ice Guy] Side Quest"
     var-change:
       SideQuest: 1
@@ -162,8 +162,8 @@ Gerudo:
     - to: [-1543,3493.4666183510744]
     - to: [-1395,3503.470458831329]
 - Solve Puzzle
-- _Npc<Journal>:
-    comment: Text Options 3334
+- _Npc<Diary>:
+    comment: Text Options 2-1-3
     notes: "[Secret of the Snowy Peaks] Shrine Quest"
     var-change:
       ShrineQuest: 1

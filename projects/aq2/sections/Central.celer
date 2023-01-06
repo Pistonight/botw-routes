@@ -78,7 +78,7 @@ Central:
 - _Shrine::KatahChuki
 - .dir(E>) TS
 - _Memory::SacredGrounds
-- .dir(E>>) TS + .dir(E>) Super:
+- .dir(E>>) TS + .dir(E>) Turn:
     notes: Second super from a tree
 - _Memory::HyruleField
 - .dir(<S) Turn:
@@ -111,7 +111,7 @@ Central:
     comment: Wheat Sugar Butter Extract
 - _Tod::Night:
     comment: If <7PM
-    notes: For Xenoblade and potentially skip BM at Ya Naga (should not happen if you are fast enough). If it's after 7PM you don't need to make night
+    notes: For Xenoblade. If it's after 7PM you don't need to make night
 - .dir(S>) Turn
 - Kill .enemy(Moblin):
     notes: Kill with RGC, cut the tree, then throw away RGC
@@ -130,7 +130,7 @@ Central:
     var-change:
       SideQuest: 1
     coord: [-205,2613.7491847822967]
-- .dir(E>) Delayed turn
+- .dir(E>) Turn
 - _Chest::Special<Salvager Headwear>:
     coord: [126.03, 92.65, 2710.94]
 - __use__ CheckQuest

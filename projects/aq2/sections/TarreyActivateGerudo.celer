@@ -5,7 +5,7 @@ TarreyActivateGerudo:
     coord: [3984.5,-1597.5796282054716]
 - _Npc<Hudson>:
     comment: Talk twice
-- .dir(S) + midairs
+- .dir(S) + .dir(S) + .dir(<S) Turn midairs
 - _Shrine::KenaiShakah:
     comment: Behind bomb-able rocks
 - Jump out + .dir(SE) midair:
@@ -40,21 +40,22 @@ TarreyActivateGerudo:
 - .dir(N) midairs
 - Smuggle blue flame:
     coord: [4153.5,-3173]
-    notes: Use tree branch
+    notes: Use boko spear
     time-override: 60
 - .dir(E) super to lab:
     coord: [4506,-3168]
-    notes: Throw away tree branch
+    notes: Throw away boko spear
 - _Npc<Robbie>:
     comment: Second options
     notes: "[Robbie's Research] Side Quest"
     var-change:
       SideQuest: 1
-- _Equipment::Weapon<Ancient Short Sword>
 - _Npc<Robbie's Wife>:
     notes: "[The Skull's Eye] Shrine Quest"
     var-change:
       ShrineQuest: 1
+- _Equipment::Weapon<Ancient Short Sword>:
+    comment: Buy from Cherry
 - .dir(N>) Turn:
     coord: [4627.5,-3683.5]
     notes: "[Trial of the Labyrinth] Shrine Quest"

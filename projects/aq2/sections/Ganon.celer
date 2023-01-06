@@ -1,7 +1,7 @@
 Ganon:
 - (==) If you still need a blupee pic, warp to zuna kai now and take one
 - _Warp::Shrine::KeoRuug
-- +_Npc<Blupee Quest>:
+- _Npc<Blupee Quest>:
     notes: "[Legendary Rabbit Trial] Side Quest"
     var-change:
       SideQuest: 1
@@ -16,6 +16,7 @@ Ganon:
 - Acorn BLSS to castle:
     coord: [-256,-1060.8995733826514]
     notes: Same as AMQ. Want to start south, then wiggle toward castle
+- ""
 - Get Skew Bounce:
     notes: Can also just kill him normally
 - Calamity:

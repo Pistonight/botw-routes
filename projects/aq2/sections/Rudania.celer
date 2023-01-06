@@ -17,11 +17,14 @@ Rudania:
     notes: Destroy the lizal shield if you still have it, or just throw a bomb
 - .dir(.S) Turn
 - _Npc::Goron<Digging Goron>:
-    notes: Talk to him, wb .dir(SW) to rock, golden gautlet rock up. UNEQUIP WOODEN BOW
     movements: 
     - to: [2003,-2036.393630979258]
     - to: [1827.5,-1890.3357915862289]
     - to: [2005.5,-2035.393234819032]
+- .dir(SW) to rock
+- Golden Gautlet rock up
+- Burn FDB:
+    notes: We will get a new one in Korok Forest if we don't have one
 - _Shrine::KayraMah
 - Run out + .dir(.N) + .dir(<E):
     coord: [1982,-2143.7089192814583]
@@ -30,7 +33,7 @@ Rudania:
 - Enter Rudania:
     split-type: UserDefined
     icon: rudania-enter
-    notes: AA everything. Pick up 3 screws. For the hard moving ones, stasis them and shoot. Make sure falcon bow is not broken, because we need it for Sheem Dagoze
+    notes: AA everything. Pick up 3 screws. For the hard moving ones, stasis them and shoot or shoot in BT. Make sure falcon bow is not broken, because we need it for Sheem Dagoze
 - ""
 - .gale() inside:
     gale: 1

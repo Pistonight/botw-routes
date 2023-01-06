@@ -61,13 +61,14 @@ Eldin:
     - to: [1942,-1184.938552315908]
 - _Shrine::QuaRaym
 - .dir(W) + .dir(W):
-    notes: BLSS off rocks
+    notes: Wait for Link to take burn damage before second wb
 - _Memory::EldinCanyon:
     time-override: 60
 - .dir(N>) Turn to .loc(South Mine):
     coord: [1804.5,-1729.7964545464456]
 - _Material<10 Lizards>:
     time-override: 30
+    notes: 
     movements:
     - to: [1701.79, 430.53, -1932.14]
     - to: [1712.06, 430.61, -1939.71]
@@ -85,8 +86,9 @@ Eldin:
     coord: [1657.35, 430.17, -1960.60]
     var-change:
       SideQuest: 1
-- _Npc<Greyson>:
-    notes: Should be night time already. If not, make night
+- _Tod::Night:
+    notes: Should be around 7PM. If past night, you also need to make night here for Xenoblade (<3AM), Kilton (<4AM) and East Akkala (>5AM). You can make night later if need.
+- _Npc<Greyson>
 - .dir(<N) Turn + .dir(NE):
     coord: [1497,-2304.8171931398265]
 - _Npc::Goron<Shrine Brother>:
@@ -102,8 +104,6 @@ Eldin:
     notes: "[Divine Beast Vah Rudania] Main Quest"
 - .dir(N>)
 - _Shrine::ShaeMosah
-- _Tod::Night:
-    notes: For Kilton + Xenoblade (<3AM) and East Akkala Stable (>5AM). If you are slow, you can set this before the Igneo Talus to make sure you meet the cycle for xenoblade chest
 - .dir(<N) Turn
 - _Npc::Goron<Rescue Yunobo>:
     coord: [1635,-2936.561622231986]
@@ -124,7 +124,7 @@ Eldin:
 - _Npc<Gut Check Goron>:
     time-override: 40
     coord: [2670.5,-3468.808037473142]
-    notes: "[The Gut Check Challenge] Shrine Quest. 2 WB up to the final 5 red rupees. You can either eat stam food or get one of the red rupees up there first and drop down"
+    notes: "[The Gut Check Challenge] Shrine Quest. 2 WB up to the final 5 red rupees. Eat a stam food, but keep the yellow stam for Lynel later"
     var-change:
       ShrineQuest: 1
 - _Shrine::GoraeTorr
@@ -142,5 +142,5 @@ Eldin:
 - Drop down
 - _Snap::Quest<Kilton>:
     coord: [3247,-3440.5]
-    notes: Snap multiple to be safe. Don't have to talk
+    notes: Snap multiple to be safe if need. Don't have to talk
     time-override: 60

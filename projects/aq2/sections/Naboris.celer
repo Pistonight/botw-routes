@@ -26,8 +26,8 @@ Naboris:
     hide-icon-on-map: true
 - _Equipment::Weapon<Ice Rod>:
     coord: [ -3076.7,1226.90]
-- _Shrine::KuhTakkar:
-    notes: Melt ice with piles of wood
+- Activate .loc(Kuh Takkar):
+    coord: [-3092.5,1232.1091421423253]
 - .dir(<W) BLSS off elevator
 - _Material<10 Berry>:
     coord: [-3655.5,1531.2579003072733]
@@ -145,6 +145,7 @@ Naboris:
       SideQuest: 1
 
 - _Warp::Shrine::KuhTakkar
+- _Shrine::KuhTakkar
 - .dir(W) kill some wolves:
     coord: [-3204,1168.4056680716558]
     notes: Slam with Royal Claymore to kill 2 farthest

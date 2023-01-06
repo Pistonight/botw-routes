@@ -1,6 +1,6 @@
 Hateno:
 - _Warp::Shrine::MyahmAgana
-- (==) If not 8AM-8PM, make noon. Alaos make it not raining
+- "(==) If rain: Go to BM branch and make night there. Come back and make noon."
 - SQ to Bolson:
     notes: Aim left of house, where bolson is approximately at
 - _Npc<Bolson>:

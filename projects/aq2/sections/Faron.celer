@@ -1,17 +1,19 @@
 Faron:
-- .dir(E>) Super + .dir(E>) Turn + .dir(S):
-    coord: [1537,3429.4209166360306]
+- BLSS off Elevator
+- _Shrine::ShodaSah
+- .dir(S.) Turn + .dir(SW)
 - _Npc<Quest Lady>:
     notes: "[Thunder Magnet] Side Quest. She will be inside if thundering (5PM-9PM). You can still use bomb arrow for the shrine in rain if you stand below a tree"
     comment: Talk Twice
     coord: [1552,3538.710361080126]
     var-change:
       SideQuest: 1
+- _Equipment::Bow<Traveler Bow>:
+    comment: For Eventide
+    coord: [1564.5,3546.8129894759695]
 - Bomb arrow rock
 - _Shrine::ShaiUtoh
-- .dir(N>) Super
-- _Shrine::ShodaSah
-- .dir(S) + .dir(E>>)
+- .dir(E) Super + .dir(N.) midairs
 - Clip in:
     notes: .link(https://www.youtube.com/watch?v=avrVPjqfJDQ)
 - _Shrine::QukahNata
@@ -57,7 +59,7 @@ Faron:
     notes: For watch tower bokos left after fury, get BLS first, then AA him (aim at branch above with falcon bow) and WALK to get slide (if you slide directly in bow animation, your angle will be locked)
 - BLSS .dir(E):
     coord: [3024,3924.903245315798]
-- _Chest<Sapphire/Tolaz>:
+- _Chest<Sapphire/Topaz>:
     notes: Get either one on the side
 - .dir(.N) Turn
 - _Npc<Old Man>:
@@ -133,10 +135,14 @@ Faron:
     var-change:
       ShrineQuest: 1
 - Smuggle:
-    notes: Smuggle royal claymore, FDB, arrow (ancient OK), shield,. Drop shield before putting in last orb
+    notes: Smuggle Axe, Traveler Bow, arrow (ancient OK), Forest Dweller Shield.
 - .!!(CHECK SPEED FOOD TIME)
 - Turn on Mipha's Grace
+- Turn on Daruk's Protection
 - .gale() at the end:
     gale: 1
+- _Tod::Noon:
+    comment: Before entering shrine
+    notes: If over 8:40 pace, you might get BM here, so don't make noon, finish the shrine, go do BM, and make noon there
 - _Shrine::KorguChideh
 - __use__ CheckQuest

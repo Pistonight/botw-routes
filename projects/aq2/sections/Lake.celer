@@ -8,7 +8,7 @@ Lake:
     - to: [-636,3722]
     - to: [-200,3500]
     time-override: 200
-    notes: Switch to AA, kill any electric keese coming your way
+    notes: Kill any electric keese coming your way
 - _Npc<Standing Guy at Camp>:
     notes: "[Hunt for the Giant Horse] Side Quest"
     var-change:
@@ -22,7 +22,7 @@ Lake:
     var-change:
       ShrineQuest: 1
 - _Tod::Morning:
-    notes: For Highland Stable (>5AM), Lakeside Stable (>7AM), and Lurelin (5AM-6PM). You can make it after killing the bokos after Kao Makagh if you are slower.
+    notes: For Highland Stable and Goron City Quests
 - _Shrine::ShoqaTatone
 - .dir(E) + .dir(E) + .dir(N>):
     coord: [334.5,3853.7939887635766]
@@ -50,3 +50,6 @@ Lake:
     notes: "[The Serpent's Jaws] Shrine Quest"
     var-change:
       ShrineQuest: 1
+- .dir(N) Super
+- _Shrine::ShaeKatha
+- __use__ CheckQuest

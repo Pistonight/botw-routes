@@ -1,6 +1,6 @@
 ForgottenTemple:
 - _Warp::Shrine::ShadaNaw:
-    notes: Should be night already, make night if earlier than 8:20pm
+    line-color: magenta
 - .dir(S) + .dir(S) + .dir(E):
     notes: To mountain top. Can gale if needed
     coord: [-2978,-2895.6993143882946]

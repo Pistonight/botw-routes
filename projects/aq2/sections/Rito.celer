@@ -70,21 +70,20 @@ Rito:
 - _Shrine::VooLota:
     comment: 45312
     notes: Start from 4 and blow every other hole while turning to the right. Make sure pedestal is blue after first blow
-- Elevator BLSS .dir(S)
+- __use__ CheckQuest
+
+AncientColumnMemory:
+- _Warp::Shrine::TenaKosah:
+    line-color: orange
+- _Memory::AncientColumns
+- .dir(.W) DT
 - _Shrine::KahOkeo:
     comment: Under slab
-- .gale() + .dir(E) + .dir(N) + .dir(<E) Turn:
-    movements:
-    - to: [-3929,-415.2534716968794]
-    - to: [-3929,-608.3275929658148]
-    - to: [-3540,-758.6071006445873]
-    gale: 1
-- Activate Fairy Fountain
-- .dir(S) + .dir(<S):
-    notes: Side wind is very strong. Do not recommend midair
-- _Memory::AncientColumns
+
+ThundraPlateau:
+- _Warp::Shrine::TenaKosah:
+    line-color: orange
 - _Shrine::TenaKosah
-- (==) If it's already after 8PM, do BM shrine first
 - .dir(.E) DT
 - _Npc<Shrine Guy>:
     notes: "[Cliffside Etchings] Shrine Quest"
