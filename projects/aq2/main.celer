@@ -5,7 +5,7 @@ _project:
   description: All Quests Speedrun
   name: All Quests
   url: ""
-  version: 2.1.2
+  version: 2.1.3
 
 _config:
   split-format:
