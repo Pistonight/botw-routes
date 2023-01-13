@@ -17,14 +17,12 @@ KorokForest:
       
 - +_Snap::Quest<Sunshroom>:
     hide-icon-on-map: true
-- Pick up Apple:
-    notes: Use drillshaft to poke away other ingredients if Link doesn't focus on the apple
 - Throw away Drillshaft
 - ""
 - Drop down into Deku Tree
 - +_Cook<Fruitcake>:
     hide-icon-on-map: true
-    comment: Wheat, Sugar, Apple, Melon
+    comment: Wheat, Sugar, Berry, Melon
 - +Trade to 13 hearts:
     comment: 5 more
 - ""

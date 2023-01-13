@@ -28,7 +28,7 @@ Naboris:
     coord: [ -3076.7,1226.90]
 - _Shrine::KuhTakkar
 - .dir(<W) BLSS off elevator
-- _Material<10 Berry>:
+- _Material<8 Berries>:
     coord: [-3655.5,1531.2579003072733]
 - .dir(<W) Turn
 - _Shrine::ShoDantu:

@@ -96,6 +96,8 @@ ThundraPlateau:
     var-change:
       SideQuest: 1
     coord: [-2937.5,-563.4473106899122]
+- _Material<3 Berries>:
+    hide-icon-on-map: true
 - .dir(S)
 - _Shrine::ShaeLoya
 - .dir(<<E) TS to red orb:
