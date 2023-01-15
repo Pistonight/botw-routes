@@ -8,7 +8,7 @@ ZDQuests:
 - _Npc::ZoraMale<Frog Boy>:
     coord: [3302.25,-475.10152750659563]
     comment: Talk Twice
-    notes: "[Frog Catching] Side Quest"
+    notes: "[Frog Catching] Side Quest. After 4pm he is near Fronk"
     var-change:
       SideQuest: 1
 - _Npc::ZoraMale<Luminous Stone Guy>:

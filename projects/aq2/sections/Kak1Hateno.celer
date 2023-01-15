@@ -150,7 +150,7 @@ Kak1Hateno:
     notes: 
       Only if it's already after 5AM. 
       If it's close (4:50AM), go to pot and wait until 5AM, then save, close and reload.
-      If before 4:50AM, you can make morning, then talk to bolson until autosave, then close and reload.
+      If before 4:50AM, make morning, and don't close game until after test of wood if you can
 - Buy House
 - _Npc<Hudson>:
     hide-icon-on-map: true

@@ -64,6 +64,8 @@ KorokForest2:
       ShrineQuest: 1
 - .dir(<<E)
 - _Shrine::MaagHalan
+- .!!(SAVE + CLOSE GAME):
+    notes: You will respawn at the trial start if you do it here
 - .dir(SW) Super:
     notes: Ideally super directly to the quest korok. If you missed the super or have to land in the forest, do a <E wb
 - _Npc<Trial Korok>:

@@ -7,7 +7,6 @@ Medoh:
 - .dir(.N) Turn:
     coord: [-3540,-749.0404083430749]
 - _Npc<Fairy Fountain>
-- Break 2 luminous ores
 - .dir(N) + .dir(<N) TS
 - _Npc::Rito<Rito Chief>:
     coord: [-3626.75,-1843.5]
