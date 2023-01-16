@@ -3,6 +3,7 @@ TarreyFinal:
 - .dir(N.) Turn:
     coord: [3949,-1631.4679110216753]
 - _Npc<Hudson>
+- (?=) Check after wedding if the only active quest is From the Ground Up (press +)
 - _Npc<Hudson>:
     notes: Finish From the Ground Up
     comment: Talk again after wedding

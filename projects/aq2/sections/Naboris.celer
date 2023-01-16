@@ -25,7 +25,7 @@ Naboris:
     hide-icon-on-map: true
 - _Equipment::Weapon<Ice Rod>:
     coord: [ -3076.7,1226.90]
-- (==) If it's after 13:15 when you activate Kuh Takkar, do Kuh Takkar later when you warp back to ensure you make the Sasa Kai cycle
+- (?=) If it's after 13:30 when you activate Kuh Takkar, do Kuh Takkar later when you warp back to ensure you make the Sasa Kai cycle
 - _Shrine::KuhTakkar
 - .dir(<W) BLSS off elevator
 - _Material<8 Berries>:

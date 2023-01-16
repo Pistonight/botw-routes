@@ -137,12 +137,12 @@ Faron:
 - Smuggle:
     notes: Smuggle Axe, Traveler Bow, arrow (ancient OK), Forest Dweller Shield.
 - .!!(CHECK SPEED FOOD TIME)
-- Turn on Mipha's Grace
 - Turn on Daruk's Protection
 - .gale() at the end:
     gale: 1
+- (?=) End Game Time of Day cycle starts here. It's pretty tight. Ideally warp to ZD around 3:30PM, finish Shai Yota branch (talk to kass) at 9PM, reach BM shrine around 11:30PM to skip BM cutscene, then get to stal horse around 3:30AM (need to be before 5AM)
 - _Tod::Noon:
     comment: Before entering shrine
-    notes: If over 8:40 pace, you might get BM here, so don't make noon, finish the shrine, go do BM, and make noon there
+    notes: If over 8:30 pace, you might get BM here, so don't make noon, finish the shrine, go do BM, and make noon there
 - _Shrine::KorguChideh
 - __use__ CheckQuest

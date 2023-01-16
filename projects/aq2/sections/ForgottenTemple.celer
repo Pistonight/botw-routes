@@ -2,7 +2,7 @@ ForgottenTemple:
 - _Warp::Shrine::ShadaNaw:
     line-color: magenta
 - .dir(S) + .dir(S) + .dir(E):
-    notes: To mountain top. Can gale if needed
+    notes: To mountain top.
     coord: [-2978,-2895.6993143882946]
 - Look Sky .dir(S):
     notes: Make sure shooting star hits ground before going to shrine
