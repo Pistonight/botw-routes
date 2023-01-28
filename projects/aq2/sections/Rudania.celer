@@ -30,10 +30,11 @@ Rudania:
     coord: [1982,-2143.7089192814583]
 - Kill .enemy(Moblins):
     coord: [2141,-2282.6549949365435]
-- Enter Rudania:
+- .fury() Enter Rudania:
+    fury: 2
     split-type: UserDefined
     icon: rudania-enter
-    notes: AA everything. Pick up 3 screws. For the hard moving ones, stasis them and shoot or shoot in BT. Make sure falcon bow is not broken, because we need it for Sheem Dagoze
+    notes: AA and use all fury. Pick up 3 screws. For the hard moving ones, stasis them and shoot or shoot in BT. Make sure falcon bow is not broken, because we need it for Sheem Dagoze
 - ""
 - .gale() inside:
     gale: 1
