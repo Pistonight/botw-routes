@@ -13,7 +13,7 @@ _config:
     Warp: "Warp {{_}}"
 
 _route:
-  - "(!=) This document might have some outdated strat. Watch this run along with the route to learn: .link([click here]https://www.youtube.com/watch?v=J3yQY7WtJuE). Also there's a newer amiibo only route that saves around 1 minute: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/as4)"
+  - "(?=) This document might have some outdated strat. Watch this run along with the route to learn: .link([click here]https://www.youtube.com/watch?v=J3yQY7WtJuE). Also there's a newer amiibo only route that saves around 2 minutes: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/as4)"
   - "(==) This is the new route with Eventide and Tawa Jinn SCW. If you are looking for the route with a commentated guide: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/as32)"
   - Plateau: __use__ Plateau
   - Korok Forest:
