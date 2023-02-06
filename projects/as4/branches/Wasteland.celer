@@ -1,0 +1,44 @@
+Wasteland: # Start: Keeha Yoog
+- BLSS:
+    movements:
+    - to: [-3928,532.6861495118246]
+    - to: [-4320,416.64019492558236]
+    notes: or 3 wb chain
+- _Shrine::KemaKosassa
+- BLSS
+- Hammer luminous stone
+- _Shrine::ShoDantu:
+    var-change:
+      Hammer: -1
+- Shield Surf SCW
+- .dir(S) LOOK UP
+- Amiibo Dialog Activate
+- _Shrine::SasaKai:
+    text: .!!(Sasa Kai)
+    var-change:
+      SCW: 1
+- .dir(SE) Delay
+- _Shrine::DakoTah
+- .dir(E>) Slight Turn + .dir(<E)
+- _Shrine::KayNoh
+- .dir(E>) + .dir(S)
+- _Shrine::KorshOhu:
+    notes: make noon before the orbs. Earliest is at Kay Noh.
+    var-change:
+      Wood: -1
+      FireArrow: 1
+- .dir(S) + BLSS
+- Clip in
+- _Shrine::MisaeSuma
+- .dir(E) Turn + .dir(E) + .dir(E) + .dir(<<E) Turn
+- _Shrine::DilaMaag:
+    notes: Barb armor if need
+- +WB straight up land left
+- +.dir(E) + .dir(E) up
+- +.dir(S) + .dir(S) +.dir(N>) + midair
+- _Shrine::SumaSahma:
+    notes: 4PM to 5:30 PM
+- .dir(E>) Turn
+- _Shrine::IshtoSoh
+
+

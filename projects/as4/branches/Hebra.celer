@@ -1,0 +1,39 @@
+HebraNorth: # Start: SN
+
+- .dir(E) DT (turn right)
+- _Shrine::RokUwog
+- .dir(N) + .dir(<E) Turn Midairs:
+    coord: [-2386,-3399.7266494439036]
+- _Shrine::ShaGehma
+- .dir(E>) Turn + .dir(E) midairs:
+    notes: or blss
+- _Shrine::QazaTokki
+- .dir(S) up + BLSS
+- _Shrine::KetohWawai
+- __use__ HouseKeepingStuff
+
+HebraSouth: # Start: SN
+
+- _Shrine::GomaAsaagh:
+    var-change:
+      FireArrow: -2
+- shoot fire arrow at ice
+- _Shrine::LannoKooh
+- .dir(NE)
+- Snowball strat:
+    notes: Guardian Amiibo, use mag + gyro or use stasis 2 hits with EOD
+- _Shrine::GeeHarah
+
+- .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:
+    coord: [-2388,-2440.6529636418254]
+- _Shrine::RinOyaa
+- BLSS
+- _Shrine::MonyaToma
+- .dir(W) Turn
+- _Shrine::MaagNorah:
+    var-change:
+      Hammer: -1
+- BLSS:
+    coord: [-1434,-2250.5776931988426]
+- _Shrine::RonaKachta
+- __use__ HouseKeepingStuff

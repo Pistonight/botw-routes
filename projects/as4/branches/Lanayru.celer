@@ -1,0 +1,12 @@
+Lanayru: # Start: Jitan Sami
+- Infinity SCW:
+    notes: Amiibo Fish Activate
+    var-change:
+      SCW: 1
+      iSCW: 1
+- _Shrine::ShaiYota:
+    text: .!!(Shai Yota)
+- BLSS + .dir(W>)
+- _Shrine::RuccoMaag
+
+

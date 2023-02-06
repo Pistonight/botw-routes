@@ -1,0 +1,45 @@
+ShaeKathaBranch:
+- _Warp::Shrine::JitanSami:
+    line-color: orange
+- Infinity SCW:
+    notes: Amiibo Fish
+- _Shrine::ShaeKatha:
+    text: .!!(Shae Katha)
+    var-change:
+      iSCW: 1
+      SCW: 1
+- __use__ HouseKeepingStuff
+
+Faron: # Start: Jitan Sami
+- Infinity SCW:
+    notes: Sign activate. Make sure right stick is not neutral when activating the sign, which saves 10 frames
+- _Shrine::TawaJinn:
+    text: .!!(Tawa Jinn)
+    var-change:
+      iSCW: 1
+      SCW: 1
+- .dir(<<N) Turn + .dir(.W) Delay Turn
+- _Shrine::TotoSah:
+    var-change:
+      Hammer: -1
+- .dir(<N) Turn (super)
+- _Shrine::HaDahamar
+- .dir(<<W) + .dir(NW)
+- _Shrine::ReeDahee
+
+- Shield Surf SCW
+- _Shrine::SheeVaneer:
+    text: .!!(Shee Vaneer)
+    var-change:
+      SCW: 1
+- Glide
+- _Shrine::SheeVenath
+- BLSS 
+- _Shrine::QukahNata
+- .dir(NW)
+- _Shrine::ShodaSah
+- BLSS
+- _Shrine::ShaiUtoh:
+    var-change:
+      Hammer: -1
+- __use__ HouseKeepingStuff

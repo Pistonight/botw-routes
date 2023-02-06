@@ -1,0 +1,99 @@
+KorokForest: # Start: Lakna Rokee
+- Cut tree wb:
+    notes: Get 1 Wood
+    var-change:
+      Wood: 1
+      EOD: -2
+- .dir(N>) Turn + midair
+- Ride Deer
+- _Shrine::MezzaLo
+- (==) Dagah Keek buffered scw is entirely optional. Saves 40 seconds. If you are not going for the SCW, BLSS to trident then WB to the shop
+- BLSS to ZD
+- _Shop<10 Ice Arrow>:
+    var-change:
+      Rupee: -160
+      IceArrow: 10
+    notes: .v(Rupee) rupees left. You technically only need 5 ice arrows, but just getting more for backup
+    coord: [3326,-480]
+- _Shrine::NeezYohma
+- Buffered SCW (Optional):
+    notes: Square WB from mipha statue East. Use minimap to land on the outer bridge
+- _Shrine::DagahKeek:
+    text: .!!(Dagah Keek)
+    var-change:
+      SCW: 1
+      bSCW: 1
+- .dir(SW) + .dir(W) Turn
+- _Shrine::SohKofi:
+    notes: We don't get a metal bow in this run. If you are worried that your bow might burn in Eldin, grab the bow in chest in this shrine
+
+- BLSS:
+    coord: [2189,-189.96315709896044]
+- _Shrine::ShehRata
+- .dir(<N) Turn + .dir(N) Turn:
+    notes: or super but I rarely get lag
+- _Shrine::MirroShaz:
+    notes: Stasis + 5 Hammer Hits
+    var-change:
+      Hammer: -5
+- .dir(S>>) Slight Turn + .dir(W):
+    coord: [956,-812.210757240352]
+- _Shrine::NamikaOzz
+- +.dir(S) + BLSS:
+    notes: TODO make a castle example video
+- _Chest<Dinraal Scale>:
+    coord: [-194,-1220.050312348731]
+    notes: Hammer the rock and drop the both potlids to make things load
+    var-change:
+      Hammer: -1
+- +WB to docks:
+    notes: Get bomb arrows or do Ya Naga bomb-arrow-less 
+- +Drop down + .dir(<S) Turn midair:
+    notes: Get flameblade if need. Optimally you don't need it. midair saves 10s but it's pretty tricky.
+- _Shrine::SaasKosah:
+    comment: light normal arrow activate
+
+- +Run up mag box
+- +WB out from library:
+    notes: DEFUSE the square bomb
+- _Chest<3 AA>:
+    comment: optional for ganon
+    coord: [-62.64, 213.94, -1044.27]
+- +.dir(NW)
+- _Chest<Naydra Scale>:
+    coord: [-176,-1164.4475087700248]
+    notes: Use Hammer for all the slabs
+    var-change:
+      Hammer: -1
+- +.dir(N) super + .dir(N>) Turn:
+    coord: [-34,-1636.1101325428908]
+- Keep rusty shield
+- _Shrine::KuhnSidajj
+
+- Backflip to KF:
+   coord: [376,-2203.3217736927]
+- .dir(NW) midair to Oaki
+- Start quest
+- Backflip to shrine:
+    notes: 1 Wood. .v(Wood) wood left (that's all needed wood)
+    var-change:
+      Wood: 1
+      EOD: -2
+- _Shrine::DaagChokah
+- .dir(E>) Turn
+- _Shop<Razorshroom + 15 Shock>:
+    coord: [417,-2180.402067753478]
+    var-change:
+      Rupee: -320
+    notes: .v(Rupee) rupee left
+- +Cook Attack Food:
+    notes: Used to cancel speed food in the end. If you are rusty on bosses, can get barb armor and cook something else to cancel speed food, or do windblight skip with speedfood somehow
+
+- _Shrine::KeoRuug
+- .dir(E) start quest
+- run forward to chus
+- .dir(<E) Turn, throw sword:
+    notes: Can also let sword burn in eldin but sometimes it doesn't burn up
+- _Shrine::MaagHalan
+- __use__ HouseKeepingStuff
+

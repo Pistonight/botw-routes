@@ -2,9 +2,9 @@ _project:
   name: All Shrines
   authors:
     - iTNTPiston
-  version: "3.3"
-  description: All Shrines v3.3 With More Infinity SCW
-  url: "https://github.com/iTNTPiston/botw-routes/tree/main/projects/as33"
+  version: "4.0"
+  description: All Shrines v4.0 With Impa Skip
+  url: "https://github.com/iTNTPiston/botw-routes/tree/main/projects/as4"
 
 _config:
   split-format:
@@ -13,8 +13,8 @@ _config:
     Warp: "Warp {{_}}"
 
 _route:
-  - "(!=) This document might have some outdated strat. Watch this run along with the route to learn: .link([click here]https://www.youtube.com/watch?v=J3yQY7WtJuE). Also there's a newer amiibo only route that saves around 1 minute: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/as4)"
-  - "(==) This is the new route with Eventide and Tawa Jinn SCW. If you are looking for the route with a commentated guide: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/as32)"
+  - "(==) This route is amiibo only. You need 1 guardian amiibo and at least 1 fish amiibo. If you are looking for the fastest non-amiibo route: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/as33)"
+  - (==) The timing data for this route is in discord. .link([Click here]https://discord.com/channels/269611402854006785/303990410500374528/1070567834394034236)
   - Plateau: __use__ Plateau
   - Korok Forest:
     - __use__ Kakariko
@@ -24,23 +24,27 @@ _route:
     - _Warp::Shrine::DaqaKoh:
         line-color: yellow
     - __use__ EldinNorth
-  - Lanayru Faron:
+  - Lanayru Lake:
     - _Warp::Shrine::MezzaLo:
         line-color: yellow
     - __use__ Lurelin
-    - _Warp::Shrine::MezzaLo:
-        line-color: "#00ff00"
-    - __use__ ZD
     - _Warp::Shrine::JitanSami:
         line-color: "#00ff00"
-    - __use__ Faron
-  - Gerudo:
+    - __use__ Lake
+  - Gerudo Faron:
     - _Warp::Shrine::KehNamut:
         line-color: yellow
     - __use__ Gerudo
     - _Warp::Shrine::KeehaYoog:
         line-color: red
     - __use__ Wasteland
+    - _Warp::Shrine::JitanSami:
+        line-color: cyan
+    - __use__ Lanayru
+    - _Warp::Shrine::JitanSami:
+        line-color: magenta
+    - __use__ Faron
+    - __use__ ShaeKathaBranch
   - Tabantha:
     - _Warp::Shrine::KuhTakkar:
         line-color: "#00ff00"

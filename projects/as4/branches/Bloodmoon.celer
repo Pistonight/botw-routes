@@ -1,0 +1,20 @@
+Bloodmoon: # Start: KT
+- Shield Surf SCW
+- .dir(.N) Turn + BLSS:
+    coord: [-3196,1032.7717201206897]
+    notes: Activate with kass diary. Can WB chain
+- _Shrine::MijahRokee:
+    text: .!!(Mijah Rokee)
+    var-change:
+      SCW: 1
+- .dir(<N) Turn
+- _Shrine::ShaeLoya
+- .dir(<<E) TS to red
+- .dir(NW) to orange
+- .dir(S) to green:
+    var-change:
+      Hammer: -16
+- _Shrine::TohYahsa
+- .dir(N) + midairs
+- _Shrine::DunbaTaag
+- __use__ HouseKeepingStuff

@@ -1,0 +1,75 @@
+Kakariko:
+- BLSS
+- _Shrine::BoshKala:
+    line-color: red
+- .dir(N>) TS
+- _Shrine::WahgoKatta
+- .dir(<E) Turn
+- _Shrine::HilaRao
+- .dir(N.) Turn to fairy:
+    coord: [950,500.1411246295402]
+- .dir(.N) Turn to forest:
+    notes: Land at the group of 5 endura shrooms. 
+           Pick them up, then pick up 1 endura shroom in the end + 1 radish if need
+- _Shrine::KayaWan
+
+- SQ to Beedle:
+    notes: He should always be in front of the stable at this TOD
+- Sell Ruby
+- Buy 3 frogs 2 Butterfly:
+    notes: If you only buy 2 butterfly instead of 3, it's faster to sell later. .v(Rupee) rupees left
+    var-change:
+      Rupee: -50
+- BLSS to shrine:
+    coord: [917,150.2713926522165]
+- _Shrine::DakaTuss:
+    comment: Eat Steak
+- +3 WB to shop:
+    notes: Make sure you keep 2 shrooms, 2 peppers and 5 endura shrooms.
+
+- +_Shop<3 Carrot 1 Gut>:
+    var-change:
+      Rupee: -128 # 80 + 48
+    notes: .v(Rupee) rupee left
+    coord: [1794.5,1029.0004800600318]
+- +_Cook<1 Speed>:
+    comment: 3 Frog + Carrot + Gut
+- +_Cook<3-4 Endura>:
+    notes: 
+      Faster to only have 2 endura left. If you have all 6 shrooms, cook 2 of them into one meal (or just cook 4).
+      Use shroom, pepper, endura, butterfly, carrot to break 5 slots. .link([Simulator File]https://ist.itntpiston.app/?c=H4sIAAAAAAACA4WQwU4DMQxE7%2FmKkXqthArqgStSf6CFE%2BLgbbzdqNl4SbyF5etxtq0ACcEpmnjsefYCj10oKJ2M0aNhUKucsRc5hnS46ak%2BSOHQqQspKFbQzIwmU9p3pjrqe87P%2FDqG4cV0I29XsQbl%2FCVvMYjG4M3UUsjT3Fx0AsfwHjLuwMmPmVqR6imRlHEPyU0xebBOzm5hyUxHq4oWhHSOqPwDKHkYMKOMmSEpTpcgWzByq%2B5hbl1jV5tt1KaCQTtO2NGJ3Qx6pbTZNQS3rtSauUmxOXGetLObLPGUZv8SW45C3o1nbSyBo3ds9jneZe7lZJeNEXU307N%2FMYcu%2F517iZdBQx8%2BSIMkqKB%2B2838QJV1GG2jX%2FlXf5Bsv5P8yDszfgJ0%2BVinHgIAAA%3D%3D)
+- +_Equipment::Shield<Pot Lid>:
+    hide-icon-on-map: true
+- +Do IST in arrow shop:
+    var-change:
+      Rupee: 18 # 2+4+3+3+6
+    notes: ".v(Rupee) rupees left after IST. Rest: 360 FA + 240 SA + 80 RS + 160 IA"
+- Sell 395+ Fairy:
+    var-change:
+      Rupee: 790 # 
+- +_Shop<20 Fire Arrow>:
+    coord: [1827,1039.9681091017883]
+    var-change:
+      Rupee: -360
+      FireArrow: 20
+- Run to statue
+- +_Npc<2 Stam Upgrades>:
+    coord: [1841,997.9514703722871]
+    notes: You do 8 stam upgrades max to not softlock. However 2 is enough
+- Throw away tree branch
+- +.dir(N) to shrine
+- _Shrine::TalohNaeg:
+    comment: Get Shield inside
+    notes: This route skips radiant shield. The mind's eye shield has 16 durability and there are 14 scws.
+
+- SCW + Bomb Tree
+- .dir(E):
+    notes: Get EOD inside shrine. Only use EOD when the route says so because we need it for the blights
+- _Shrine::LaknaRokee:
+    text: .!!(Lakna Rokee)
+    comment: Get EOD
+    var-change:
+      EOD: 35
+      SCW: 1
+      bSCW: 1
+- __use__ HouseKeepingStuff
