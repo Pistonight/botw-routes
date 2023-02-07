@@ -13,7 +13,7 @@ _config:
     Warp: "Warp {{_}}"
 
 _route:
-  - "(==) This route is amiibo only. You need 1 guardian amiibo and at least 1 fish amiibo. If you are looking for the fastest non-amiibo route: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/as33)"
+  - "(==) This route is amiibo only. You need 1 guardian amiibo and at least 2 fish amiibo. If you are looking for the fastest non-amiibo route: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/as33)"
   - (==) The timing data for this route is in discord. .link([Click here]https://discord.com/channels/269611402854006785/303990410500374528/1070567834394034236)
   - Plateau: __use__ Plateau
   - Korok Forest:
