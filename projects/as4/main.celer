@@ -2,8 +2,8 @@ _project:
   name: All Shrines
   authors:
     - iTNTPiston
-  version: "4.0"
-  description: All Shrines v4.0 With Impa Skip
+  version: "4.1"
+  description: All Shrines v4.1 With Impa Skip
   url: "https://github.com/iTNTPiston/botw-routes/tree/main/projects/as4"
 
 _config:
@@ -24,41 +24,41 @@ _route:
     - _Warp::Shrine::DaqaKoh:
         line-color: yellow
     - __use__ EldinNorth
-  - Lanayru Lake:
+  - Lanayru Gerudo:
     - _Warp::Shrine::MezzaLo:
         line-color: yellow
     - __use__ Lurelin
-    - _Warp::Shrine::JitanSami:
-        line-color: "#00ff00"
-    - __use__ Lake
-  - Gerudo Faron:
+    - __use__ ShaeKathaBranch
     - _Warp::Shrine::KehNamut:
         line-color: yellow
     - __use__ Gerudo
-    - _Warp::Shrine::KeehaYoog:
-        line-color: red
-    - __use__ Wasteland
-    - _Warp::Shrine::JitanSami:
-        line-color: cyan
-    - __use__ Lanayru
-    - _Warp::Shrine::JitanSami:
-        line-color: magenta
-    - __use__ Faron
-    - __use__ ShaeKathaBranch
-  - Tabantha:
+  - Tabantha Hebra:
     - _Warp::Shrine::KuhTakkar:
         line-color: "#00ff00"
     - __use__ Bloodmoon
     - _Warp::Shrine::ShaeLoya:
         line-color: red
     - __use__ Rito
-  - Hebra:
+  - Hebra Wasteland:
     - _Warp::Shrine::ShadaNaw:
         line-color: yellow
     - __use__ HebraNorth
     - _Warp::Shrine::ShadaNaw:
         line-color: "#00ff00"
     - __use__ HebraSouth
+    - _Warp::Shrine::KeehaYoog:
+        line-color: red
+    - __use__ Wasteland
+  - Lanayru:
+    - _Warp::Shrine::JitanSami:
+        line-color: "#00ff00"
+    - __use__ Lanayru
+    - _Warp::Shrine::JitanSami:
+        line-color: cyan
+    - __use__ Faron
+    - _Warp::Shrine::JitanSami:
+        line-color: magenta
+    - __use__ Lake
   - Central:
     - _Warp::Shrine::KuhTakkar:
         line-color: cyan

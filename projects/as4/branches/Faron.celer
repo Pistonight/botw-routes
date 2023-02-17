@@ -1,8 +1,8 @@
 ShaeKathaBranch:
 - _Warp::Shrine::JitanSami:
-    line-color: orange
+    line-color: red
 - Infinity SCW:
-    notes: Amiibo Fish
+    notes: Chuchu
 - _Shrine::ShaeKatha:
     text: .!!(Shae Katha)
     var-change:

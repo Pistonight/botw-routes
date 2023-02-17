@@ -12,7 +12,7 @@ Wasteland: # Start: Keeha Yoog
       Hammer: -1
 - Shield Surf SCW
 - .dir(S) LOOK UP
-- Amiibo Dialog Activate
+- Bomb Arrow Chest Activate
 - _Shrine::SasaKai:
     text: .!!(Sasa Kai)
     var-change:

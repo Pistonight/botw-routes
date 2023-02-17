@@ -22,7 +22,7 @@ Rito: # Start: Shae Lota
 - Shield Surf SCW
 - _Shrine::VooLota:
     text: .!!(Voo Lota)
-    notes: Rushroom activate. Use Hammer for the switch inside
+    notes: Amiibo Activate. Use Hammer for the switch inside
     var-change:
       Hammer: -1
       SCW: 1
