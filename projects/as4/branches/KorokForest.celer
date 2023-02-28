@@ -7,8 +7,8 @@ KorokForest: # Start: Lakna Rokee
 - .dir(N>) Turn + midair
 - Ride Deer
 - _Shrine::MezzaLo
-- (==) Dagah Keek buffered scw is entirely optional. Saves 40 seconds. If you are not going for the SCW, BLSS to trident then WB to the shop
-- BLSS to ZD
+- BLSS to ZD, get trident
+- WB up
 - _Shop<10 Ice Arrow>:
     var-change:
       Rupee: -160
@@ -16,13 +16,8 @@ KorokForest: # Start: Lakna Rokee
     notes: .v(Rupee) rupees left. You technically only need 5 ice arrows, but just getting more for backup
     coord: [3326,-480]
 - _Shrine::NeezYohma
-- Buffered SCW (Optional):
-    notes: Square WB from mipha statue East. Use minimap to land on the outer bridge
-- _Shrine::DagahKeek:
-    text: .!!(Dagah Keek)
-    var-change:
-      SCW: 1
-      bSCW: 1
+- .dir(W)
+- _Shrine::DagahKeek
 - .dir(SW) + .dir(W) Turn
 - _Shrine::SohKofi:
     notes: We don't get a metal bow in this run. If you are worried that your bow might burn in Eldin, grab the bow in chest in this shrine
