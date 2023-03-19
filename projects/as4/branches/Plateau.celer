@@ -3,9 +3,9 @@ Plateau:
     notes: "Grab more shroom/apple before camp if you need"
 - Grab 1 shroom
 - Grab Tree Branch:
-    notes: For 2 FDC instances and IST. DO NOT BREAK. If you broke it, get a boko bat at cryo camp
+    notes: For 2 FDC instances and IST. DO NOT BREAK. If you break it, get a boko bat at cryo camp
 - Whistle spring to camp:
-    notes: Whistle sprint so bokos start walking toward you
+    notes: Whistle sprint so bokos start walking toward you. You need at least 2 durability on the pot lid until IST is done. Recommended to do durability save in mag
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
 - Grab food:
@@ -17,7 +17,7 @@ Plateau:
 - 5 Arrows:
     var-change:
       Arrow: 5
-    notes: These are all normal arrows you pick up in the route
+    notes: 1 for boulder, 1 for saas kosah, 1 for kam urog, then get 5 in castle to have 7 for fights
 - BLSS to bombs
 - _Shrine::JaBaij
 
@@ -25,13 +25,11 @@ Plateau:
 - _Tower::GreatPlateau
 
 - WB over barrier to mag:
-    notes: Look down when doing FDC, so if you accidentally throw the tree branch, it doesn't fly too far. 
-           If your tree branch is badly damaged due to hitting the pot and you threw it, make sure get backup one-handed weapon
+    notes:
+      Try to throw the tree branch at mag when doing FDC, so you don't lose it.
+      If your tree branch is badly damaged due to hitting the pot and you threw it, make sure get backup one-handed weapon
 - _Chest<Ruby>:
     coord: [-671.65, 171.79, 1522.61]
-    var-change:
-      Rupee: 210
-    comment: .v(Rupee) Rupees
 - _Shrine::OmanAu
 
 - BLSS + WB to stasis

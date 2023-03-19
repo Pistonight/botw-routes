@@ -24,7 +24,7 @@ EldinSouth: # Start: Maag Halan
 - _Shrine::DahHesho
 - .dir(E>) + .dir(<S)
 - _Shrine::KenaiShakah:
-    notes: Hammer the rocks, no need bomb arrow
+    notes: Hammer the rocks
     var-change:
       Hammer: -2
 - Jump out + .dir(SE) midair:
@@ -52,6 +52,8 @@ EldinNorth: # Start: Daqa Koh
     notes: Can also use the minecart + wbs (old strat)
 - Clip in
 - _Shrine::GoraeTorr
+- _Tod::Night:
+    comment: If before 8PM
 - .dir(E) Turn
 - _Shrine::ZunaKai
 - BLSS

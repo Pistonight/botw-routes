@@ -26,7 +26,7 @@ Wasteland: # Start: Keeha Yoog
     notes: make noon before the orbs. Earliest is at Kay Noh.
     var-change:
       Wood: -1
-      FireArrow: 1
+      FireArrow: -1
 - .dir(S) + BLSS
 - Clip in
 - _Shrine::MisaeSuma

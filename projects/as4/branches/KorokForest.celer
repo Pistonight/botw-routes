@@ -1,24 +1,5 @@
-KorokForest: # Start: Lakna Rokee
-- Cut tree wb:
-    notes: Get 1 Wood
-    var-change:
-      Wood: 1
-      EOD: -2
-- .dir(N>) Turn + midair
-- Ride Deer
-- _Shrine::MezzaLo
-- BLSS to ZD, get trident
-- WB up
-- _Shop<10 Ice Arrow>:
-    var-change:
-      Rupee: -160
-      IceArrow: 10
-    notes: .v(Rupee) rupees left. You technically only need 5 ice arrows, but just getting more for backup
-    coord: [3326,-480]
-- _Shrine::NeezYohma
-- .dir(W)
-- _Shrine::DagahKeek
-- .dir(SW) + .dir(W) Turn
+KorokForest: # Start: Dagah Keek
+
 - _Shrine::SohKofi:
     notes: We don't get a metal bow in this run. If you are worried that your bow might burn in Eldin, grab the bow in chest in this shrine
 
@@ -28,23 +9,21 @@ KorokForest: # Start: Lakna Rokee
 - .dir(<N) Turn + .dir(N) Turn:
     notes: or super but I rarely get lag
 - _Shrine::MirroShaz:
-    notes: Stasis + 5 Hammer Hits
+    notes: Stasis + 5 Hammer Hits.
     var-change:
       Hammer: -5
-- .dir(S>>) Slight Turn + .dir(W):
-    coord: [956,-812.210757240352]
+- .dir(S>>) Slight Turn + .dir(<W) + .dir(<W):
+    coord: [991,-963.3312895767467]
 - _Shrine::NamikaOzz
-- +.dir(S) + BLSS:
-    notes: TODO make a castle example video
+- +.dir(S) + BLSS
 - _Chest<Dinraal Scale>:
     coord: [-194,-1220.050312348731]
-    notes: Hammer the rock and drop the both potlids to make things load
+    notes: Hammer the rock
     var-change:
       Hammer: -1
-- +WB to docks:
-    notes: Get bomb arrows or do Ya Naga bomb-arrow-less 
+- +WB to dock
 - +Drop down + .dir(<S) Turn midair:
-    notes: Get flameblade if need. Optimally you don't need it. midair saves 10s but it's pretty tricky.
+    notes: For the midair, do a high turn if you glide close to the wall, or a low turn (harder) if you are more far
 - _Shrine::SaasKosah:
     comment: light normal arrow activate
 
@@ -62,7 +41,7 @@ KorokForest: # Start: Lakna Rokee
       Hammer: -1
 - +.dir(N) super + .dir(N>) Turn:
     coord: [-34,-1636.1101325428908]
-- Keep rusty shield
+- Keep Rusty Shield
 - _Shrine::KuhnSidajj
 
 - Backflip to KF:
@@ -70,25 +49,25 @@ KorokForest: # Start: Lakna Rokee
 - .dir(NW) midair to Oaki
 - Start quest
 - Backflip to shrine:
-    notes: 1 Wood. .v(Wood) wood left (that's all needed wood)
+    notes: Get 1 wood
     var-change:
       Wood: 1
-      EOD: -2
 - _Shrine::DaagChokah
 - .dir(E>) Turn
-- _Shop<Razorshroom + 15 Shock>:
+- _Shop<Razorshroom + 10 Shock>:
     coord: [417,-2180.402067753478]
     var-change:
-      Rupee: -320
+      Rupee: -240
     notes: .v(Rupee) rupee left
 - +Cook Attack Food:
-    notes: Used to cancel speed food in the end. If you are rusty on bosses, can get barb armor and cook something else to cancel speed food, or do windblight skip with speedfood somehow
+    notes:
+      Used to cancel speed food in the end.
+      Alternatively, get barb set and use ice fish to cancel speed food.
 
 - _Shrine::KeoRuug
 - .dir(E) start quest
 - run forward to chus
-- .dir(<E) Turn, throw sword:
-    notes: Can also let sword burn in eldin but sometimes it doesn't burn up
+- .dir(<E) Turn, throw sword
 - _Shrine::MaagHalan
 - __use__ HouseKeepingStuff
 

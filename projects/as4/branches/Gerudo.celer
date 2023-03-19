@@ -3,13 +3,14 @@ Gerudo: # Start: Keh Namut
 - BLSS + .dir(N) + .dir(N) midair
 - _Shrine::MoggLatan
 - BLSS + 2 WB .dir(W) + glide up:
+    notes: 1 Wood
     var-change:
-      EOD: -1
+      Wood: 1
 - _Shrine::KeehaYoog:
     comment: 1 Shock Arrow activate
 - BLSS:
-    notes: or wb <E Turn + SE
-    coord: [-3086,1216.453207298804]
+    movements:
+    - to: [-3086,1216.453207298804]
 - Melt Kuh Takkar:
     var-change:
       FireArrow: -7
@@ -19,11 +20,11 @@ Gerudo: # Start: Keh Namut
     var-change:
       Hammer: -3
 - Infinity SCW:
-    notes: cut tree BLSS. use ice -> fire.
+    notes: Bomb tree BLSS. use fire -> shock.
     var-change:
-      EOD: -1
       SCW: 1
       iSCW: 1
+      FireArrow: -1
 - _Shrine::RaqaZunzo:
     text: .!!(Raqa Zunzo)
     comment: Radiant Shield
@@ -31,10 +32,10 @@ Gerudo: # Start: Keh Namut
 - _Shrine::DaqoChisay
 - BLSS
 - _Shrine::KemaZoos
-- .dir(S>) out + .dir(S.) Turn
+- .dir(S>) out + .dir(S>) Turn
 - _Shrine::ThoKayu:
     comment: Check .v(FireArrow) fire arrows
-    notes: Need 3 fire arrows for TOD, 2 for Bareeda Naag and 1 for Goma Assagh. Rest for chus
+    notes: Need 2 fire arrows for TOD, 2 for Bareeda Naag and 3 for Goma Assagh (1 in 2 out). Rest for chus
     var-change:
       FireArrow: -3
 - BLSS

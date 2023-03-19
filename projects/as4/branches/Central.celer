@@ -20,8 +20,8 @@ Central:
 - _Shrine::RotaOoh
 - BLSS
 - _Shrine::KaamYatak
-- .dir(<N) + .dir(NW) + .dir(W):
-    notes: if you have ice arrow and is day time, can btb. not sure if night time btb is faster than wb
+- .dir(<N) + BTB:
+    notes: if it's night time, just wb to the shrine instead
 - _Shrine::SheemDagoze
 - .dir(N>) TS
 - _Shrine::ZaltaWa
@@ -40,7 +40,7 @@ Central:
 - _Equipment::Bow<Royal Guard Bow>:
     coord: [-333,-995.5355553803038]
 - _Equipment::Weapon<EOD>:
-    notes: Should have old EOD, Boomerang, Claymore, new EOD for fights (in this order). If you don't have enough elemental for blights, pick up 5 arrow here
+    notes: Should have Claymore, Boomerang, old EOD, new EOD for fights (in this order). If you don't have enough elemental for blights, pick up 5 arrow here
 - WB to scantum
 - __use__ HouseKeepingStuff
 - ""

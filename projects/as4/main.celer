@@ -2,8 +2,8 @@ _project:
   name: All Shrines
   authors:
     - iTNTPiston
-  version: "4.4"
-  description: All Shrines v4 With Impa Skip
+  version: "4.5"
+  description: All Shrines v4.5 With No Buffered SCW
   url: "https://github.com/iTNTPiston/botw-routes/tree/main/projects/as4"
 
 _config:
@@ -13,17 +13,21 @@ _config:
     Warp: "Warp {{_}}"
 
 _route:
-  - "(==) This route is amiibo only. You need 1 guardian amiibo and at least 2 fish amiibo. If you are looking for the fastest non-amiibo route: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/as33)"
-  - (==) The timing data for this route is in discord. .link([Click here]https://discord.com/channels/269611402854006785/303990410500374528/1070567834394034236)
+  - "(==) This route is amiibo only. You need 1 guardian amiibo and at least 4 fish amiibo. If you are looking for a non-amiibo route: .link([click here]https://celer.itntpiston.app/#/gh/iTNTPiston/botw-routes/as33)"
   - Plateau: __use__ Plateau
   - Korok Forest:
-    - __use__ Kakariko
+    - __use__ IST
     - __use__ KorokForest
-  - Eldin:
+  - Eldin Akkala:
     - __use__ EldinSouth
     - _Warp::Shrine::DaqaKoh:
         line-color: yellow
     - __use__ EldinNorth
+  - Hateno Kakariko:
+    - _Warp::Shrine::MezzaLo:
+        line-color: yellow
+    - __use__ Naydra
+    - __use__ KakFaron
   - Gerudo Tabantha:
     - _Warp::Shrine::KehNamut:
         line-color: yellow
@@ -31,30 +35,27 @@ _route:
     - _Warp::Shrine::KuhTakkar:
         line-color: red
     - __use__ Bloodmoon
+  - Rito:
     - __use__ Rito
-  - Hebra Lanayru:
     - _Warp::Shrine::ShadaNaw:
         line-color: yellow
     - __use__ HebraNorth
-    - _Warp::Shrine::MezzaLo:
-        line-color: yellow
+  - Lanayru Wasteland:
+    - _Warp::Shrine::JitanSami:
+        line-color: red
     - __use__ Lurelin
     - _Warp::Shrine::JitanSami:
         line-color: red
     - __use__ Lanayru
-  - Faron Wasteland:
     - _Warp::Shrine::JitanSami:
         line-color: "#00ff00"
-    - __use__ Faron
-    - _Warp::Shrine::JitanSami:
-        line-color: cyan
     - __use__ ShaeKathaBranch
     - _Warp::Shrine::KeehaYoog:
         line-color: red
     - __use__ Wasteland
-  - Lake Ridgeland:
+  - Lake Snowfield:
     - _Warp::Shrine::JitanSami:
-        line-color: magenta
+        line-color: cyan
     - __use__ Lake
     - _Warp::Shrine::KuhTakkar:
         line-color: "#00ff00"

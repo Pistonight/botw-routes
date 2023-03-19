@@ -1,6 +1,6 @@
 ShaeKathaBranch:
 - Infinity SCW:
-    notes: Chuchu
+    notes: Amiibo Fish
 - _Shrine::ShaeKatha:
     text: .!!(Shae Katha)
     var-change:
@@ -8,21 +8,31 @@ ShaeKathaBranch:
       SCW: 1
 - __use__ HouseKeepingStuff
 
-Faron: # Start: Jitan Sami
+KakFaron: # Start: Jitan Sami
 - Infinity SCW:
-    notes: Sign activate. Make sure right stick is not neutral when activating the sign, which saves 10 frames
-- _Shrine::TawaJinn:
-    text: .!!(Tawa Jinn)
+    notes: Ice -> Shock
+- _Shrine::LaknaRokee:
+    text: .!!(Lakna Rokee)
+    comment: Get EOD
     var-change:
       iSCW: 1
       SCW: 1
-- .dir(<<N) Turn + .dir(.W) Delay Turn
+- .dir(<W) Turn
+- _Shop<All Fire Arrows>:
+    notes: including the 5 bundle and single ones
+    var-change:
+      FireArrow: 20
+      Rupee: -360
+    coord: [1826.375,1040.4988873159664]
+- .dir(N)
+- _Shrine::TalohNaeg
+- .dir(S) Super + .dir(S) Turn
+- _Shrine::HaDahamar
+- .dir(<S) Turn or super
 - _Shrine::TotoSah:
     var-change:
       Hammer: -1
-- .dir(<N) Turn (super)
-- _Shrine::HaDahamar
-- .dir(<<W) + .dir(NW)
+- Cryo BLSS
 - _Shrine::ReeDahee
 
 - Shield Surf SCW
@@ -35,7 +45,8 @@ Faron: # Start: Jitan Sami
 - BLSS 
 - _Shrine::QukahNata
 - .dir(NW)
-- _Shrine::ShodaSah
+- _Shrine::ShodaSah:
+    notes: Get ice arrows here for safety
 - BLSS
 - _Shrine::ShaiUtoh:
     var-change:
