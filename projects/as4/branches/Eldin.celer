@@ -20,9 +20,9 @@ EldinSouth: # Start: Maag Halan
 - _Shrine::SahDahaj
 - .dir(E) + run + .dir(<E)
 - _Shrine::ZeKasho
-- .dir(.E) TS + .dir(SE)
+- BLSS
 - _Shrine::DahHesho
-- .dir(E>) + .dir(<S)
+- .dir(SE) + .dir(<S)
 - _Shrine::KenaiShakah:
     notes: Hammer the rocks
     var-change:

@@ -24,7 +24,7 @@ Naydra:
     notes: BLSS off a rare ore deposit
 - _Shrine::MyahmAgana
 
-- .dir(N.) + .dir(N) + .dir(<N) super
+- .dir(E.) + .dir(E) + .dir(<E) super
 - .dir(N>) Turn
 - _Shrine::TahnoOah:
     var-change:
