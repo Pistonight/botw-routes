@@ -1,0 +1,49 @@
+Plateau1:
+  - Clip out of SOR, NO TOD:
+      notes: Activating TOD after plat so TOD works nicely with darners in Rito
+  - _Equipment::Shield<Pot Lid>:
+      line-color: red
+      coord: [-952.34, 238.33, 1959.44]
+  - _Equipment::Weapon<Boko Spear>:
+      var-change:
+        Weapons: 1
+      comment: .v(Weapons)/8 weapons.
+      notes: "Keep for blue flame"
+      hide-icon-on-map: true
+  - _Material<Peppers + Shroom>:
+      comment: Get steak too
+      notes: Get 6 peppers and all shrooms
+  - Surf to ToT, Clip:
+      notes: same as any%
+  - _Chest<Traveler Bow>:
+      coord: [-832.43, 222.00, 1963.11]
+  - BLSS to bombs
+  - _Shrine::JaBaij
+  - BLSS to tower:
+      notes: Can also do Mag first, then tower. Both have pros and cons so do whichever you prefer
+  - _Tower::GreatPlateau
+  - WB to mag
+  - _Shrine::OmanAu:
+      notes: Don't get ragdoll inside shrine if you already did tower. If you did mag first, bomb your self in the end
+  - BLSS to old man hut
+  - _Korok::P18
+  - _Equipment::Shield<Pot Lid>:
+      coord: [-803.47, 193.57, 2265.43]
+  - Tree WB to stasis
+  - _Equipment::Weapon<Hammer>:
+      var-change:
+        Weapons: 1
+      comment: .v(Weapons)/8 Inside shrine
+      hide-icon-on-map: true
+  - _Shrine::OwaDaim
+  - Boulder + BLSS to cryo
+  - _Shrine::KehNamut
+  - +BLSS to activate TOD:
+      notes: "Activating TOD now for TOD routing in Rito 1"
+      coord: [-1026,1799.9940575966066]
+  - +BLSS to ToT:
+      notes: Use tree for better initial angle, or use the stone
+  - Plateau:
+      icon: king
+      split-type: UserDefined
+      coord: [-811, 1969.1380618388403]

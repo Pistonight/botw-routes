@@ -1,0 +1,55 @@
+Naboris:
+  - _Warp::Shrine::DaqoChisay:
+      line-color: red
+  - .npc(Transmutate)
+  - Drop 4/5 Tail:
+      notes: Smuggle 5 Apples
+      var-change:
+        Tail: 5
+  - Drop FHorn:
+      notes: Smuggle 5 night shades
+  - Drop FClaw:
+      notes: Smuggle 4 Lizal Horn
+  - Drop Rushroom:
+      notes: Smuggle 5 Eggs
+      var-change:
+        Rushroom: 5
+  - .npc(Transmutate)
+  - Drop 6 FHorn:
+      notes: Smuggle 5 Lizal Talon
+  - .npc(Transmutate Springs)
+  - Drop All Springs:
+      notes: Smuggle boko guts and goat button
+  - _Shop<3 Durians>:
+      coord: [-3824,2877.5996342968956]
+  - _Cook<9 Speed Food>:
+      coord: [-3833,2946.0605134745565]
+  - _Shop<Shock + Ice Arrow>:
+      coord: [-3857.25,2913.0499161885045]
+  - Run up to Riju
+  - Urbosa Memory:
+      split-type: UserDefined
+      icon: "naboris-memory"
+      coord: [-3869.5,2945.8104144344998]
+  - WB to riju: 
+      coord: [-3422.56, 189.82, 3120.87]
+  - Ride sand seal to misae suma
+  - _Npc::Gerudo<Shrine Lady>:
+      coord: [-2970.30, 137.67, 3781.50]
+  - Backflip WB to naboris:
+      coord: [-2498,3754.3898216626076]
+      notes: Aim left of quest dot, east
+  - Enter Naboris:
+      split-type: UserDefined
+      icon: naboris-enter
+      hide-icon-on-map: true
+  - .gale() inside naboris:
+      gale: 2
+  - _Snap::Quest<Small Guardian>:
+      hide-icon-on-map: true
+  - _Snap::Elite<Thunderblight>:
+      hide-icon-on-map: true
+  - .enemy(Thunderblight 1):
+      notes: Break shield, run a bit away, statis+ 8 headshots
+      icon: naboris-done
+      split-type: UserDefined

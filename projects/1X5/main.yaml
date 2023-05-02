@@ -1,0 +1,27 @@
+Project: 
+  Name: 1EX v5
+  Authors:
+    - iTNTPiston
+  Version: "5.0.0"
+  Description: Route for Breath of the Wild 100% Extended
+  Url: "https://github.com/iTNTPiston/1X5"
+
+Route:
+  - Plateau 1:     __use__ Plateau1
+  - Rupey Dupey:   __use__ Castle1
+  - Rito 1:        __use__ Rito1
+  - Kakariko 1:    __use__ Kakariko1
+  - Hateno 1:      __use__ Hateno1
+  - Faron 1:       __use__ Faron1
+  - Kakariko 2:    __use__ Kakariko2
+  - Gerudo 1:      __use__ Gerudo1
+  - Eldin 1:       __use__ Eldin1
+  - Zora Domain 1: __use__ ZoraDomain1
+  - Plateau 2:     __use__ Plateau2
+  - Gerudo 2:      __use__ Gerudo2
+  - Eldin 2:       __use__ Eldin2
+  - Akkala 1:      __use__ Akkala1
+  - Woodland:      __use__ Woodland
+  - Castle:        __use__ Castle2
+  - Tabantha:      __use__ Tabantha
+  - Eldin 3:       __use__ Eldin3

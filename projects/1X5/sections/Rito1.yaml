@@ -1,0 +1,81 @@
+Rito1:
+  - _Warp::Shrine::KehNamut:
+      line-color: "yellow"
+  - +BLSS to FDB
+  - _Material<Rushroom, 1>:
+      comment: Also grab acorn
+  - _Chest<Forest Dweller Bow>:
+      coord: [-2342.64, 348.37, 680.81]
+  - +.dir(N.)
+  - _Material<4 Endura Carrots>:
+      coord: [-2307.73, 416.78, 532.73]
+  - _Shrine::MoggLatan
+  - +_Korok::R60
+  - +.dir(.E) SQ
+  - _Material<Durians + Wood>:
+      coord: [-2186.5,438.1234039104693]
+      comment: Use bombs
+  - +BLSS to rito
+  - _Npc::Rito<Chief + Wife>:
+      coord: [-3630.37, 323.57, -1828.17]
+  - Revali Memory:
+      split-type: UserDefined
+      icon: "medoh-memory"
+  - Drop down to shop
+  - _Shop<Buy Everything>:
+      notes: "Gear + Shaft: Sell all gears. Shaft: Sell 30+ shafts. Core: Sell 15+ cores."
+  - +.dir(<N Turn) to sha warvo
+  - _Shrine::ShaWarvo
+  - +.dir(N>) to flight range:
+      coord: [-3800.75,-2313.9918787153624]
+  - _Korok::T02
+  - _Material<10 Arrows>
+  - _Cook<Cooking>:
+      comment: All Durians, Endura, Cold Prot
+      notes: Use 2 pepper + 2 sunshroom
+  - _Equipment::Bow<Falcon Bow>:
+      notes: Use FDB to shoot the targets
+  - Enter Medoh:
+      split-type: UserDefined
+      icon: "medoh-enter"
+      hide-icon-on-map: true
+  - _Chest<Ancient Core>:
+      hide-icon-on-map: true
+      comment: Skip if already have core
+      notes: We are going to dupe cores in rito stable. If you already have cores, then dupe springs or shafts depending on which you need more of
+  - .enemy(Windblight 1):
+      split-type: UserDefined
+      icon: "medoh-done"
+      coord: [-3934,-2236.6092944279367]
+      notes: "Equip ATK 3, FDB shoot 3 times each phase. Might want to glide closer if he is far to hit all headshots"
+  - _Material<2 Darners>:
+      hide-icon-on-map: true
+  - _Chest<Great Eagle Bow>:
+      movements:
+        - to: [-3630.37, 323.57, -1828.17]
+          warp: Yes
+  - _Shrine::AkhVaquot
+  - .dir(W) Turn
+  - _Npc::Rito<Little Bird>:
+      coord: [-3979.5,-1738.8823404128107]
+  - .dir(E>>) Turn
+  - _Material<5 Shock Arrow>:
+      coord: [-3557.68, 254.12, -1503.59]
+  - .dir(NE) to stable:
+      coord: [-3267.5,-1758.0005942403395]
+  - _Material<10 Berries>
+  - _Material<6 Pepper>
+  - Dupe:
+      notes: "Unequip all armor. Cores: Drop 8 shafts + 1 core, start from FDB. Shafts/Springs: Drop 6 cores. Hold smuggle shafts or cores and sell all of them. Then pick up, unhold, dupe bow, and finally buy from beedle"
+  - _Shop<Beedle>:
+      comment: 1 Darner and all other
+  - _Material<Ancient Arrow>
+  - _Material<Farm Wood>
+  - _Equipment::Weapon<2 Axe>:
+      var-change:
+        Weapons: 1 # Will eventually break first axe
+      comment: .v(Weapons)/8 weapons
+  - .!!(SAVE)
+  - _Material<Octoballoon + Voltfin>:
+      notes: Kill octoroks, if not dropped, reload. SAVE + reload after got both
+  - _Material<Farm Wood>
