@@ -20,7 +20,7 @@ Gerudo: # Start: Keh Namut
     var-change:
       Hammer: -3
 - Infinity SCW:
-    notes: Bomb tree BLSS. use fire -> shock.
+    notes: Bomb tree BLSS. amiibo activate
     var-change:
       SCW: 1
       iSCW: 1

@@ -23,24 +23,17 @@ _route:
     - _Warp::Shrine::DaqaKoh:
         line-color: yellow
     - __use__ EldinNorth
-  - Hateno Kakariko:
+  - Naydra:
     - _Warp::Shrine::MezzaLo:
         line-color: yellow
     - __use__ Naydra
+  - Kakariko:
     - __use__ KakFaron
-  - Gerudo Tabantha:
+  - Gerudo:
     - _Warp::Shrine::KehNamut:
         line-color: yellow
     - __use__ Gerudo
-    - _Warp::Shrine::KuhTakkar:
-        line-color: red
-    - __use__ Bloodmoon
-  - Rito:
-    - __use__ Rito
-    - _Warp::Shrine::ShadaNaw:
-        line-color: yellow
-    - __use__ HebraNorth
-  - Lanayru Wasteland:
+  - Lanayru:
     - _Warp::Shrine::JitanSami:
         line-color: red
     - __use__ Lurelin
@@ -50,16 +43,28 @@ _route:
     - _Warp::Shrine::JitanSami:
         line-color: "#00ff00"
     - __use__ ShaeKathaBranch
-    - _Warp::Shrine::KeehaYoog:
-        line-color: red
-    - __use__ Wasteland
-  - Lake Snowfield:
     - _Warp::Shrine::JitanSami:
         line-color: cyan
     - __use__ Lake
+  - Wasteland:
+    - _Warp::Shrine::KeehaYoog:
+        line-color: red
+    - __use__ Wasteland
+  - Tabantha:
+    - _Warp::Shrine::KuhTakkar:
+        line-color: red
+    - __use__ Bloodmoon
     - _Warp::Shrine::KuhTakkar:
         line-color: "#00ff00"
     - __use__ ThundraPlateau
+  - Rito:
+    - _Warp::Shrine::TenaKosah:
+        line-color: yellow
+    - __use__ Rito
+  - Hebra:
+    - _Warp::Shrine::ShadaNaw:
+        line-color: red
+    - __use__ HebraNorth
     - _Warp::Shrine::ShadaNaw:
         line-color: "#00ff00"
     - __use__ HebraSouth

@@ -1,6 +1,6 @@
 ShaeKathaBranch:
 - Infinity SCW:
-    notes: Amiibo Fish
+    notes: Shock -> Fire
 - _Shrine::ShaeKatha:
     text: .!!(Shae Katha)
     var-change:
@@ -10,7 +10,7 @@ ShaeKathaBranch:
 
 KakFaron: # Start: Jitan Sami
 - Infinity SCW:
-    notes: Ice -> Shock
+    notes: Amiibo
 - _Shrine::LaknaRokee:
     text: .!!(Lakna Rokee)
     comment: Get EOD

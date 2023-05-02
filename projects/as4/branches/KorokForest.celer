@@ -15,7 +15,8 @@ KorokForest: # Start: Dagah Keek
 - .dir(S>>) Slight Turn + .dir(<W) + .dir(<W):
     coord: [991,-963.3312895767467]
 - _Shrine::NamikaOzz
-- +.dir(S) + BLSS
+- +.dir(S) + BLSS:
+    notes: if you are using amiibo iscw before getting rid of the textbox, do it here.
 - _Chest<Dinraal Scale>:
     coord: [-194,-1220.050312348731]
     notes: Hammer the rock

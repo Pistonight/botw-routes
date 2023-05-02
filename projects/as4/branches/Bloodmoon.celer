@@ -12,6 +12,13 @@ Bloodmoon: # Start: KT
     coord: [-2382.5195519790777,-732.5]
 - .dir(<W) Turn + .dir(.W) Turn
 - _Shrine::ShaeLoya
+- .dir(.W) Turn + .dir(W) + .dir(W)
+- _Shrine::TenaKosah
+- .dir(.W) DT
+- _Shrine::KahOkeo:
+    var-change:
+      Hammer: -1
+    notes: Use Hammer on slab
 
 ThundraPlateau: # Start: KT
 - Shield Surf SCW

@@ -1,12 +1,5 @@
-Rito: # Start: Shae Lota
-- .dir(.W) Turn + .dir(W) + .dir(W)
-- _Shrine::TenaKosah
-- .dir(.W) DT
-- _Shrine::KahOkeo:
-    var-change:
-      Hammer: -1
-    notes: Use Hammer on slab
-- _Warp::Shrine::TenaKosah
+Rito: # Start: Tena Kosah
+
 - _Tod::Noon:
     var-change:
       Wood: -1

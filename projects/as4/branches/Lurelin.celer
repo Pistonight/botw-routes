@@ -1,7 +1,7 @@
 Lurelin: 
 
 - Infinity SCW:
-    notes: shock -> fire. Land in shallow water
+    notes: Fire -> Shock. Land in shallow water
 - _Shrine::KorguChideh:
     text: .!!(Korgu Chideh)
     var-change:
@@ -27,7 +27,7 @@ Lurelin:
       iSCW: 1
 - _Warp::Shrine::JitanSami
 - Infinity SCW:
-    notes: Sign activate. Make sure right stick is not neutral when activating the sign, which saves 10 frames
+    notes: Sign/amiibo activate. Make sure right stick is not neutral when activating the sign, which saves 10 frames
 - _Shrine::TawaJinn:
     text: .!!(Tawa Jinn)
     var-change:

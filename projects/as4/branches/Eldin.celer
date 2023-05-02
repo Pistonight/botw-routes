@@ -1,6 +1,6 @@
 EldinSouth: # Start: Maag Halan
 - Infinity SCW:
-    notes: Use sign activate
+    notes: Use fire -> shock
     var-change:
       SCW: 1
       iSCW: 1
