@@ -1,2 +1,4 @@
+set windows-shell:= ["powershell", "-NoLogo", "-Command"]
+
 build:
     celer build
