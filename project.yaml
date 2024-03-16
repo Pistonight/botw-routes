@@ -1,0 +1,4 @@
+entry-points:
+  as: as4
+  as4: as45
+  as45: /routes/as4/project.yaml

@@ -1,0 +1,13 @@
+# Start: Kuh Takkar
+- Shield Surf SCW
+- .dir(.N) Turn + BLSS:
+    coord: [-3196,1032.7717201206897]
+    notes: Auto activate, if not, use amiibo
+- _Shrine::TohYahsa:
+    text: .important(Toh Yahsa)
+    icon: shrine-iscw
+    vars:
+      SCW: .add(1)
+      iSCW: .add(1)
+- .dir(N) + midairs
+- _Shrine::DunbaTaag

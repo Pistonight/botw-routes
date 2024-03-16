@@ -1,0 +1,36 @@
+
+- Shield Surf SCW
+- WB + BLSS:
+    movements:
+    - to: [-3196,1032.7717201206897]
+    - to: [-3112,888.7146730481127]
+    notes: activate with ice fish (just pick up normally, not instant text box)
+    vars:
+      IceArrow: .sub(1)
+- _Shrine::JolooNah:
+    text: .!!(Joloo Nah)
+    vars:
+      SCW: .add(1)
+      ShockArrow: .sub(1)
+- Good Job doing all .var(SCW) SCWs!:
+    banner: true
+- .dir(.S) Turn or BLSS
+- _Shrine::JeeNoh
+- .dir(N>) TS or BLSS
+- _Shrine::DahKaso
+- Cryo + .dir(N>) + .dir(N) midairs
+- _Shrine::RotaOoh
+- BLSS
+- _Shrine::KaamYatak
+- .dir(<N) + BTB:
+    notes: if it's night time, just wb to the shrine instead
+- _Shrine::SheemDagoze
+- .dir(N>) TS
+- _Shrine::ZaltaWa
+- .dir(E) + .dir(E) Turn
+- _Shrine::NoyaNeha:
+    notes: With good enough movement you can consistently reach the cave with the thorns unloaded and just hammer the rocks
+    vars:
+      Hammer: .sub(1)
+- Updraft + .dir(SE)
+- _Shrine::KatahChuki

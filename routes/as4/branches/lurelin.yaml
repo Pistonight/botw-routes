@@ -1,0 +1,12 @@
+- Infinity SCW:
+    notes: Fish is more consistent. If you use sign, make sure right stick is not neutral (i.e. camera is moving) so the dialog is shorter
+- _Shrine::TawaJinn:
+    text: .important(Tawa Jinn)
+    icon: shrine-iscw-blessing
+    vars:
+      iSCW: .add(1)
+      SCW: .add(1)
+      Amiibo: .add(1)
+      IceArrow: .sub(1)
+- .dir(<S) Turn
+- _Shrine::YahRin

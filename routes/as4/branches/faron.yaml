@@ -1,0 +1,27 @@
+# Start: Taloh Naeg
+
+- .dir(S) Super + .dir(S) Turn
+- _Shrine::HaDahamar
+- .dir(<S) Turn or super
+- _Shrine::TotoSah:
+    vars:
+      Hammer: .sub(1)
+- Cryo BLSS
+- _Shrine::ReeDahee
+
+- Shield Surf SCW
+- _Shrine::SheeVaneer:
+    text: .important(Shee Vaneer)
+    vars:
+      SCW: .add(1)
+- Glide
+- _Shrine::SheeVenath
+- BLSS 
+- _Shrine::QukahNata
+- .dir(NW)
+- _Shrine::ShodaSah:
+    notes: If you want, you can get the ice arrow chest in the shrine for safety
+- BLSS
+- _Shrine::ShaiUtoh:
+    vars:
+      Hammer: .sub(1)

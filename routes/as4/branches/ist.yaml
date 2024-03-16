@@ -1,0 +1,90 @@
+- BLSS:
+    color: red
+- _Shrine::BoshKala
+- .dir(N>) TS or BLSS
+- _Shrine::WahgoKatta
+- .dir(<E) Turn
+- _Shrine::HilaRao
+- .dir(N.) Turn to fairy:
+    movements:
+    - to: [950,500.1411246295402]
+      marker: yellow
+- .dir(.N) Turn to forest:
+    notes:
+      Land on tree, 
+      2 Eggs, 
+      Small Radish, 
+      Big Radish
+      2 Endura, 
+      2 Apple
+      1 Endura
+      1 Radish
+    movements:
+    - to: [815.42, 138.31, 291.38]
+      marker: yellow
+    - to: [833.24, 130.76, 309.41]
+      marker: yellow
+    - to: [844.13, 131.63, 292.32]
+      marker: yellow
+    - to: [847.89, 131.66, 277.10]
+      marker: yellow
+    - to: [845.39, 134.77, 262.65]
+      marker: yellow
+    - to: [832.38, 131.76, 234.15]
+      marker: yellow
+    - to: [830.34, 131.95, 222.57]
+      marker: yellow
+- _Shrine::KayaWan
+
+- BLSS
+- _Shrine::DakaTuss:
+    comment: Eat Steak
+- .dir(<E) TS + .dir(E.) + .dir(E.) to Deer:
+    notes: Eat big radish
+    movements: 
+    - to: [2090,218.00735339013954]
+    - to: [2529.23, 215.74, 362.30]
+      marker: orange
+- _Shrine::MezzaLo
+- BLSS to ZD:
+    movements:
+    - to: [3033,-7.0797262299165595]
+    - to: [3207,-335.20666896493276]
+    - to: [3230,-591.3057462215293]
+- _Equipment::Weapon<Trident>
+- .dir(E)
+- _Chest<Silver Shield>:
+    coord: [3312.69, 267.46, -542.93]
+    notes: In chest next to throne room. WATCH OUT for cutscene trigger.
+- Glide to statue
+- _Npc<2 Stam Upgrades>:
+    coord: [3316.89, 256.04, -503.94]
+- Drop down, break slots:
+    notes: .link([Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA41RQXLDIAy88wo9IUnbmV7ykkwOspFtxmBRAc7k9xXGnaTppSetpF1pBSNlOEIWIugEl37SbMIQSBT0JBR4ceiV4SwtlZsmR95evBvofDocrlrq%2BAYfgCIaT0oQ5qAgUozbHCndXcOATmqkcQRtC1qXJngDWmwRfOgwRk91k8es8QAsnaajVwtiRnWcnF91crNiEnkPn5VlrHCsG54nmk4IZzWYPOcEN5cnQFXs%2ByrcnVb420ytNDsV7Y7bQaYrd3iH1bGnbKLrZyh%2Fd2%2FbfljtdtMzz8CBtHIJbN3gSM4pEtlr478O2QRHCGV3lWa6kTy0G%2Ftq6Ku4%2BPo2uJIpy95qNcLc%2FsLU713bbQOz1dwz7qJnCbhlez04%2FlPc8Df%2F9IBXXQIAAA%3D%3D)
+    vars:
+      Rupee: .add(233)
+- _Shop<Buy All Violets>:
+    vars:
+      Rupee: .add(-160)
+    notes: .var(Rupee) rupees left.
+    coord: [3320.25,-483.8582613619228]
+- _Cook<Speed + Endura>:
+    coord: [3297,-491.73630914862406]
+- Finish IST
+- Sell at least 384 fairies:
+    vars:
+      Rupee: .add(768)
+- _Shop<Buy 15 Ice Arrows>:
+    vars:
+      Rupee: .sub(240)
+      IceArrow: .add(15)
+    coord: [3320.224615820385,-484.3076510326873]
+- _Shrine::NeezYohma
+- .dir(W):
+    coord: [3105.75,-464.18459352982427]
+- _Shrine::DagahKeek
+
+- ""
+- _HouseKeepingStuff
+- _StatStuff
+- ""

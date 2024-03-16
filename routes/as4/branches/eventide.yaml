@@ -1,0 +1,21 @@
+# Start: Jitan Sami
+- Infinity SCW:
+    notes: Land in shallow water, shock -> fire
+- _Shrine::KorguChideh:
+    text: .important(Korgu Chideh)
+    icon: shrine-iscw-blessing
+    vars:
+      FireArrow: .sub(1)
+      ShockArrow: .sub(1)
+      SCW: .add(1)
+      iSCW: .add(1)
+
+- Run + Glide off:
+    movements:
+    - to: [4736.211287081427,3869.5]
+    - to: [3679,3330.1481639246085]
+      warp: true
+
+- _Shrine::MuwoJeem
+- .dir(NE) delay
+- _Shrine::ChaasQeta  

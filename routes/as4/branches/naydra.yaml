@@ -1,0 +1,29 @@
+# Start: Mezza Lo
+- .dir(S) Turn + .dir(S) + .dir(<S) Turn
+- _Shrine::DowNaeh
+
+- .dir(<N) + .dir(S>):
+    coord: [2642,1187.0932957332761]
+- _Shrine::KamUrog:
+    notes: Shoot with normal arrow
+    vars:
+      Arrow: .sub(1)
+
+- .dir(<S) + .dir(E) + BLSS:
+    notes: BLSS off a rare ore deposit
+- _Shrine::MyahmAgana
+
+- .dir(E.) + .dir(E) + .dir(<E) super
+- .dir(N>) Turn
+- _Shrine::TahnoOah:
+    vars:
+      Hammer: .sub(1)
+- .dir(N) + .dir(N) midair:
+    coord: [4187,1377.9397836456137]
+- .dir(N) + .dir(W) + .dir(<W):
+    movements: 
+    - to: [4179,1267.8962060207286]
+    - to: [4049,1275.8993753025388]
+    - to: [3948,1343.9263141979218]
+- _Shrine::JitanSami:
+    comment: .italic(Where am I going again?)

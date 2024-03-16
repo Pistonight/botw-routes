@@ -1,0 +1,42 @@
+
+- .dir(<E) Turn super + .dir(N>) super:
+    color: magenta
+    coord: [-268.5596682149262,-591.0638625917645]
+- _Chest<3 AA>:
+    coord: [-254.5,-741.9742687822863]
+    notes: Throw away hammer while waiting for chest to load
+- Climb up + .dir(<N) Turn
+- _Equipment::Bow<Royal Guard Bow>:
+    coord: [-333,-995.5355553803038]
+- _Equipment::Weapon<EOD>:
+    vars:
+      ShockArrow: .sub(1)
+    notes: Should have Claymore, Boomerang, old EOD, new EOD for fights (in this order). If you don't have enough elemental for blights, pick up 5 arrow here
+- WB to scantum
+- _HouseKeepingStuff
+- Castle:
+    counter: .split-end-game(END)
+    icon-doc: castle
+- .enemy(Windblight):
+    icon-doc: medoh-done
+    comment: Skip
+    notes: Eat attack up
+- .enemy(Waterblight):
+    icon-doc: ruta-done
+    comment: 1=Old EOD, 2=Same as any%
+- .enemy(Fireblight):
+    icon-doc: rudania-done
+    notes: 1=new EOD 3 slam, new EOD 4 slam, Boomerang 3 throw. 2=same as any%
+- .enemy(Thunderblight):
+    icon-doc: naboris-done
+    comment: Same as any%
+- Blights:
+    counter: .split-end-game(END)
+    icon-doc: blights
+    coord: [-253.75,-1066.3135837163095]
+- Calamity:
+    counter: .split-end-game(END)
+    icon: calamity
+    icon-priority: 0
+    coord: [-253.75,-1066.3135837163095]
+    notes: same as any%, with old EOD spin throw and 6AA in the end

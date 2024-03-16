@@ -1,0 +1,59 @@
+# Start: Keh Namut
+- BLSS + .dir(N) + .dir(N) midair
+- _Shrine::MoggLatan
+- BLSS + 2 WB .dir(W) + glide up:
+    notes: 1 Wood
+    vars:
+      Wood: .add(1)
+- _Shrine::KeehaYoog:
+    comment: 1 Shock Arrow activate
+    vars:
+      ShockArrow: .sub(1)
+- BLSS:
+    movements:
+    - to: [-3086,1216.453207298804]
+- Melt Kuh Takkar:
+    notes: Use 7 fire arrows
+    vars:
+      FireArrow: .sub(7)
+    coord: [-3122.5,1326.4799939085751]
+- _Shrine::KuhTakkar:
+    notes: Stasis + Hit ice block 3 times with hammer
+    vars:
+      Hammer: .sub(3)
+- Infinity SCW:
+    notes: BLSS from tree. use fish
+    vars:
+      SCW: .add(1)
+      iSCW: .add(1)
+      IceArrow: .sub(1)
+      Amiibo: .add(1)
+- _Shrine::RaqaZunzo:
+    text: .important(Raqa Zunzo)
+    icon: shrine-iscw-blessing
+    comment: Radiant Shield
+- .dir(N) fast cardinal
+- _Shrine::DaqoChisay
+- BLSS
+- _Shrine::KemaZoos
+- .dir(S>) out + .dir(S>) Turn
+- Light torches:
+    notes:
+    - The easy way to do this is to shoot the 2 closer
+      from where you are coming from, then glide/move to the other side
+      and shoot the other 2 with one shot
+    - You could also land at one torch then shoot all from there, which is what I do
+      .link([(example\)]https://www.youtube.com/watch?v=QA29M7r0WZQ&t=7715s)
+- _Shrine::ThoKayu:
+    vars:
+      FireArrow: .sub(3)
+- fire arrow check:
+    banner: true
+    text: Check you have .var(FireArrow) fire arrows.
+    comment: Need 2 fire arrows for TOD, 1 for Bareeda Naag and 3 for Goma Assagh (1 in 2 out). Rest for chus
+    
+
+- BLSS
+- _Shrine::HawaKoth:
+    notes: clip through
+

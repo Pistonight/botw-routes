@@ -1,0 +1,17 @@
+# Start: Jitan Sami
+- Infinity SCW:
+    notes: Amiibo Fish
+    vars:
+      SCW: .add(1)
+      iSCW: .add(1)
+      IceArrow: .sub(1)
+      Amiibo: .add(1)
+- _Shrine::ShoqaTatone:
+    text: .important(Shoqa Tatone)
+    icons: shrine-iscw-tos
+- .dir(E) + .dir(E) + .dir(N>)
+- _Shrine::KaoMakagh
+- .dir(N.) Turn
+- _Shrine::PumaagNitae
+- .dir(W>) Turn + .dir(W>>) Turn
+- _Shrine::YaNaga

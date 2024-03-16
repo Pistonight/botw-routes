@@ -1,0 +1,12 @@
+# Start: Jitan Sami
+- Infinity SCW:
+    notes: Amiibo Fish Activate
+    vars:
+      SCW: .add(1)
+      iSCW: .add(1)
+      Amiibo: .add(1)
+- _Shrine::ShaiYota:
+    text: .important(Shai Yota)
+    icon: shrine-iscw-blessing
+- BLSS + .dir(W>)
+- _Shrine::RuccoMaag
