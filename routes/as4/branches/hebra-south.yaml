@@ -1,0 +1,23 @@
+# Start: Shada Naw
+- _Shrine::GomaAsaagh:
+    vars:
+      FireArrow: .sub(3)
+- shoot fire arrow at ice
+- _Shrine::LannoKooh
+- .dir(NE)
+- Snowball strat:
+    notes: Guardian Amiibo, use mag + gyro or use stasis 2 hits with Hammer
+- _Shrine::GeeHarah
+
+- .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:
+    coord: [-2388,-2440.6529636418254]
+- _Shrine::RinOyaa
+- BLSS
+- _Shrine::MonyaToma
+- .dir(W) Turn
+- _Shrine::MaagNorah:
+    vars:
+      Hammer: .sub(1)
+- BLSS:
+    coord: [-1434,-2250.5776931988426]
+- _Shrine::RonaKachta

@@ -1,0 +1,45 @@
+# Start: Maag Halan
+- Infinity SCW:
+    notes: use Chu Fire -> Shock. You can also talk to the sign which is less consistent
+    vars:
+      SCW: .add(1)
+      iSCW: .add(1)
+      ShockArrow: .sub(1)
+- _Shrine::KayraMah:
+    text: .important(Kayra Mah)
+    icon: shrine-iscw
+- Clip + Run out:
+    coord: [1993,-2052.397348706906]
+- .dir(.N) + .dir(N>) Turn
+- _Shrine::DaqaKoh
+- .dir(S>) Turn
+- _Shrine::QuaRaym
+- .dir(SE) super
+- _Shrine::TahMuhl
+- .dir(E>) + .dir(N>)
+- _Shrine::MoaKeet
+- .dir(.N) Turn
+- _Shrine::SahDahaj
+- .dir(E) + run + .dir(<E)
+- _Shrine::ZeKasho
+- BLSS
+- _Shrine::DahHesho
+- .dir(SE) + .dir(<S)
+- _Shrine::KenaiShakah:
+    notes: Hammer the rocks
+    vars:
+      Hammer: .sub(2)
+- Jump out + .dir(SE) midair:
+    notes: Strong wind
+- updraft + .dir(NE) super
+- _Shrine::KahMael:
+    notes: Hammer slab
+    vars:
+      Hammer: .sub(1)
+- .dir(.N) Turn
+- BLSS with orb
+- _Shrine::RitaagZumo
+- .dir(N) + .dir(<N) midairs
+- _Shrine::KatosaAug
+- .dir(.E) Turn
+- _Shrine::TutsuwaNima

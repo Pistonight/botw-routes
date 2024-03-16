@@ -1,0 +1,11 @@
+- Infinity SCW:
+    notes: Fish
+    vars:
+      Amiibo: .add(1)
+- _Shrine::KahYah:
+    text: .important(Kah Yah)
+    icon: shrine-iscw
+    vars:
+      iSCW: .add(1)
+      SCW: .add(1)
+      IceArrow: .sub(1)

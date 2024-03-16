@@ -1,0 +1,22 @@
+# Start: Jitan Sami
+- Infinity SCW:
+    notes: Ice -> Shock. Don't use amiibo since it takes a while for fish to appear
+    vars:
+      IceArrow: .sub(1)
+      ShockArrow: .sub(1)
+- _Shrine::LaknaRokee:
+    text: .important(Lakna Rokee)
+    icon: shrine-iscw-blessing
+    comment: Get EOD
+    vars:
+      iSCW: .add(1)
+      SCW: .add(1)
+- .dir(<W) Turn
+- _Shop<All Fire Arrows>:
+    notes: including the 5 bundle and single ones. .var(Rupee) rupees left
+    vars:
+      FireArrow: .add(20)
+      Rupee: .sub(360)
+    coord: [1826.375,1040.4988873159664]
+- .dir(N)
+- _Shrine::TalohNaeg

@@ -1,0 +1,10 @@
+- Infinity SCW:
+    notes: Amiibo Fish
+- _Shrine::ShaeKatha:
+    text: .important(Shae Katha)
+    icon: shrine-iscw-blessing
+    vars:
+      iSCW: .add(1)
+      SCW: .add(1)
+      IceArrow: .sub(1)
+      Amiibo: .add(1)

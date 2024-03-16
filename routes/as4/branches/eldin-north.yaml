@@ -1,0 +1,17 @@
+
+- .dir(W>>) Turn
+- _Shrine::ShaeMosah
+- .dir(<N) Turn
+- _Shrine::ShoraHah
+- BLSS + .dir(.E) Turn:
+    notes: Can also use the minecart + wbs (old strat)
+- Clip in
+- _Shrine::GoraeTorr
+- _Tod::Night:
+    comment: If before 8PM
+    icon-map: null
+- .dir(E) Turn
+- _Shrine::ZunaKai
+- BLSS
+- _Shrine::TuKaloh:
+    notes: No barb if you cooked attack

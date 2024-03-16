@@ -1,0 +1,112 @@
+- "This route is amiibo only. Check the end of the route to see how many amiibos you need)"
+- "This route is 1 minute slower than the one with buffered SCWs"
+- When you see "Check Resources", it means what your inventory should look
+  like if you have not deviated from the route. You can check the numbers
+  at the end to see how much room you have for mistakes/backups
+- Plateau:
+  - use: ./branches/plateau.yaml
+  - 
+  - _HouseKeepingStuff
+  - 
+- Korok Forest:
+  - use: ./branches/ist.yaml
+  - use: ./branches/korok-forest.yaml
+  - 
+  - _HouseKeepingStuff
+  - _StatStuff
+- Eldin Akkala:
+  - use: ./branches/eldin-south.yaml
+  - _Warp::Shrine::DaqaKoh:
+      color: yellow
+  - use: ./branches/eldin-north.yaml
+  - 
+  - _HouseKeepingStuff
+  - _StatStuff
+- Kak Faron:
+  - _Warp::Shrine::MezzaLo:
+      color: yellow
+  - use: ./branches/naydra.yaml
+  - use: ./branches/kak.yaml
+  - use: ./branches/faron.yaml
+  -
+  - _HouseKeepingStuff
+  - _StatStuff
+- Gerudo Tabantha:
+  - _Warp::Shrine::KehNamut:
+      color: yellow
+  - use: ./branches/gerudo.yaml
+  - _Warp::Shrine::KuhTakkar:
+      color: red
+  - use: ./branches/blood-moon.yaml
+  -
+  - _HouseKeepingStuff
+  - _StatStuff
+- Rito:
+  - _Warp::Shrine::TenaKosah:
+      color: yellow
+  - use: ./branches/rito.yaml
+  - _Warp::Shrine::ShadaNaw:
+      color: red
+  - use: ./branches/hebra-north.yaml
+  -
+  - _HouseKeepingStuff
+  - _StatStuff
+- Lanayru Wasteland:
+  - _Warp::Shrine::JitanSami:
+      color: red
+  - use: ./branches/eventide.yaml
+  - _Warp::Shrine::JitanSami:
+      color: "#0f0"
+  - use: ./branches/iscw-kah-yah.yaml
+  - _Warp::Shrine::JitanSami:
+      color: cyan
+  - use: ./branches/lurelin.yaml
+  - _Warp::Shrine::JitanSami:
+      color: orange
+  - use: ./branches/lanayru.yaml
+  - _Warp::Shrine::JitanSami:
+      color: magenta
+  - use: ./branches/iscw-shae-katha.yaml
+  - _Warp::Shrine::KeehaYoog:
+      color: red
+  - use: ./branches/wasteland.yaml
+  -
+  - _HouseKeepingStuff
+  - _StatStuff
+- Lake Snowfield:
+  - _Warp::Shrine::JitanSami:
+      color: pink
+  - use: ./branches/lake.yaml
+  - _Warp::Shrine::KuhTakkar:
+      color: "#0f0"
+  - use: ./branches/thundra-plateau.yaml
+  - _Warp::Shrine::ShadaNaw:
+      line-color: "#0f0"
+  - use: ./branches/hebra-south.yaml
+  -
+  - _HouseKeepingStuff
+  - _StatStuff
+- Central:
+  - _Warp::Shrine::KuhTakkar:
+      color: cyan
+  - use: ./branches/central.yaml
+  - use: ./branches/bosses.yaml
+- GG + More:
+  - Dark Beast:
+      counter: .split-dark-beast(GG)
+      icon-doc: ganon
+      coord: [-253.75,-1066.3135837163095]
+  - 
+  - _HouseKeepingStuff
+  - _StatStuff
+  - .italic(NOTE):
+      banner: true
+      comment:
+        Normally, you would end up with fewer arrows than indicated, because of messing up iSCWs.
+        For the amiibos, it's recommended you buy those empty NFC tags and write the fish amiibo data
+        yourself to create amiibos. (Not sure if you can use iPhone, I and people I know use Android phone for this.)
+        You also should get 1-2 extra for safety because each iSCW with fish requires picking
+        up a different fish. If you really don't have enough, you can use sign activation for .loc(Kayra Mah) and .loc(Tawa Jinn)
+  - b:
+      banner: true
+      text: The arrows count might also be wrong because I transferred this route from old celer without testing
