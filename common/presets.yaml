@@ -1,0 +1,6 @@
+presets:
+  Plateau:
+    text: Plateau
+    counter: .split-plat(PLAT)
+    icon: king
+    coord: [-812, 1966.10]

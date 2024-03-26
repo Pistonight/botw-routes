@@ -1,0 +1,8 @@
+title: 100% EX
+version: v6.0
+config:
+- use: Pistonight/celer-presets/botw/full.yaml
+- use: ../../common/config.yaml
+#- use: ./config.yaml
+route:
+  use: ./main.yaml

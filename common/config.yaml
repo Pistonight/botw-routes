@@ -1,0 +1,6 @@
+# Common config for all routes
+includes:
+- use: ./plugins.yaml
+- use: ./tags.yaml
+- use: ./icons.yaml
+- use: ./presets.yaml

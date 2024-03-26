@@ -1,0 +1,20 @@
+tags:
+  split-plat:
+    background: black
+    color: white
+    split-type: Plateau
+  split-end-game:
+    background: black
+    color: yellow
+    split-type: End Game
+  split-dark-beast:
+    background: black
+    color: yellow
+    split-type: Dark Beast
+  italic:
+    italic: true
+
+splits:
+  - split-plat
+  - split-end-game
+  - split-dark-beast

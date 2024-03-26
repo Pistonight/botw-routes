@@ -40,7 +40,4 @@
 - _Shrine::KehNamut
 
 - BLSS to ToT
-- Plateau:
-    counter: .split-plat(SPLIT)
-    icon: king
-    coord: [-812, 1966.1012189378007]
+- _Plateau

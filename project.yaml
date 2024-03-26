@@ -1,4 +1,13 @@
 entry-points:
+  # All Shrines
+  all-shrines: as
   as: as4
   as4: as45
   as45: /routes/as4/project.yaml
+
+  # Hundo EX
+  1ex: 1x
+  100x: 1x
+  hundo-ex: 1x
+  1x: 1x6
+  1x6: /routes/1x6/project.yaml
