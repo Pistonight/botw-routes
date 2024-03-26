@@ -21,7 +21,6 @@ jobs:
         project:
           - adx
           - as33
-          - as4
           - akm
           - aq
           - aq2
