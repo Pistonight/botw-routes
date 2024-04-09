@@ -374,7 +374,7 @@ WHILE WAITING windblight warping
     PE-KEY-3 DROP ALL Koroks
 ```
 
-============== MEDOH          | Korok: 5 -> (none)
+### Rito IST
 <details>
 <summary>Long Explanation</summary>
 - Get darner and GEB after medoh, always have AA equipped
