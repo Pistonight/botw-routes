@@ -75,6 +75,7 @@ X is the input to use:
 ### PLATEAU + SATORI
 <details>
 <summary>Long Explanation</summary>
+  
 - Get Tree Branch and some shrooms after SOR, Get Torch and Axe (equip axe)
 - Get Peppers at Boko Camp
 - Get Potlid, Bow, Arrow, do plat as usual but keep 2 shroom 2 pepper
@@ -83,6 +84,7 @@ X is the input to use:
 - WB to durian place, 3 Wood, 7 Durian, Keep 6 after Mogg Latan (Can get more)
 - WB to endura carrot place, Get all 4
 - WB to shrine
+
 </details>
 
 ```
@@ -98,6 +100,7 @@ GET
 ### Korok Forest
 <details>
 <summary>Long Explanation</summary>
+  
 - Korok after shrine
 - BLSS to Korok Forest Top, get 2 fairies while gliding down
 - Drop down to cooking pot, cook 3 durians (more if you need, keep 3 durians in inventory)
@@ -111,6 +114,7 @@ GET
 - Pick up 3 Silent princess
 - Drop wood and do EMS, set time to noon for beetle
 - WB back up to top of deku tree and eat the hearty food
+
 </details>
 
 ```
@@ -134,6 +138,7 @@ GET
 ### Castle
 <details>
 <summary>Long Explanation</summary>
+
 - BLSS to the stair case that any% 6AA uses to get the second 3AA chest and get unloaded malice
 - Drop the axe and Get the 3AA chest
 - Beam the malice eye with MS
@@ -156,6 +161,7 @@ GET
 - While stalnox is dying, drop sort fairy
 - Get the thunderblade for duping bows
 - Get hylian shield and warp out
+
 </details>
 
 ```
@@ -182,6 +188,7 @@ WHILE WAITING stalnox death
 ### Kaya Wan + Daka Tuss + Taloh Naeg
 <details>
 <summary>Long Explanation</summary>
+
 - Kill stalker for back up parts
   - Note from 2 stalker and 1 skywatcher, you have 99.96% to get at least 1 shaft and 99.79% to get at least 1 spring
   - Worst case you can try to kill more stalker with MS/parrying
@@ -190,6 +197,7 @@ WHILE WAITING stalnox death
 - Get wetland stable and goponga on the way to Daka Tuss
 - Get Opal in Taloh Naeg
 - Don't need to clear ragdoll
+  
 </details>
 
 ```
@@ -203,6 +211,7 @@ GET
 ### Kakariko IST
 <details>
 <summary>Long Explanation</summary>
+
 - Bomb yourself so you only have quarter heart
   - if you are scared with quarter heart, you can also try to take a little bit fall damage or run in master mode
 - Get the 2 apples from the tree as you drop down to shop
@@ -298,6 +307,7 @@ PICKUP
 ### Farosh + Hateno
 <details>
 <summary>Long Explanation</summary>
+
 - BLSS to farosh, get 1 scale 1 claw 1 horn in any order
 - BLSS to hearty bass pond near hateno, get 2
 - WB to block puzzle korok, do it
@@ -311,6 +321,7 @@ PICKUP
 - WB to the statue
 - Combine stacks accordingly while waiting for statue to load
 - Get full stam and 2 heart upgrades
+  
 </details>
 
 ```
@@ -358,6 +369,7 @@ STATUE
 ### Upgrades + Hestu + Medoh
 <details>
 <summary>Follow Route</summary>
+
 - Sheep quest lady
 - korok in tree in the middle of lake, korok near blue fire
 - upgrade stasis and bomb
@@ -367,6 +379,7 @@ STATUE
 - no shop yet, go to flight range and use falcon bow
 - kill windblight
   - drop the 5 korok stack when waiting for windblight to warp
+  
 </details>
 
 ```
@@ -377,6 +390,7 @@ WHILE WAITING windblight warping
 ### Rito IST
 <details>
 <summary>Long Explanation</summary>
+
 - Get darner and GEB after medoh, always have AA equipped
 - after autosave, do the dura transfer and use the GEB chest to break MS
 - jump down to shop and do things there, then run to the pot
@@ -384,6 +398,7 @@ WHILE WAITING windblight warping
 - run back to the shop to sell unstackable meal and reload GEB autosave
 - make sure to save not in the shop (otherwise you respawn up), finish corruption there
 - buy stuff from shop needed for run and continue route
+  
 </details>
 
 ```
