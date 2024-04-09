@@ -1,0 +1,261 @@
+# ===== PLTEAU =====
+get 1 tree branch 1 torch 1 axe 1 potlid 1 tra bow 5 N A 3 shroom 6 pepper 1 slate 4 orb 1 glider
+equip axe
+# ===== SATORI =====
+eat 1 shroom 4 pepper
+get 1 honey 2 egg 6 lotus 1 rushroom 1 acorn 1 f d bow 3 wood 6 durian 4 endura carrot 1 orb 1 korok seed
+
+# ===== FOREST =====
+get 2 fairy
+# cook hearty, eat, cook speed, eat later
+with 3 durian 4 lotus 1 egg
+drop 1 durian 2 endura carrot
+break 4 slots with all shroom all pepper all durian all endura carrot
+# use honey for check
+dnp honey
+pick up 2 durian 3 endura carrot
+buy 10 arrows
+remove 1 wood
+get master sword
+get 3 silent princess
+
+# ===== CASTLE =====
+drop axe
+equip master sword
+get 3 AA 1 korok seed 1 eod 5 arrows 1 shaft 1 spring
+# din fang room
+get 1 dinraal fang
+# wait for lizal to die
+dnp 1 honey 1 rushroom 1 acorn 2 durian
+get 1 lizal horn 2 talon 1 tail
+get 2 koroks
+remove 1 egg
+remove 5 arrow 3 AA
+get great thunderblade
+get hylian shield
+dnp 2 fairy
+
+# ===== SHRINE =====
+get 2 hyrule bass 1 core 3 orb 1 opal
+
+# ===== KAKIST =====
+equip g thunderblade
+drop tra bow
+equip fdb
+drop potlid
+equip hylian shield
+get 2 apple
+dnp 1 spring 1 tail 3 endura carrot
+dnp 3 silent princess 2 lotus
+dnp 1 liz horn 2 talon
+# shaft, lotus in this order for PE
+dnp 1 shaft 2 hyrule bass
+# check wood first, din fang second, fairy below fang, shaft last
+save
+
+!sort materials
+break 4 slots with 2 apple 2 lotus 2 endura carrot 2 durian
+break 4 slots with 2 talon 2 hyrule bass 2 wood 3 silent princess
+break 1 slot with fairy
+remove all material
+
+unequip weapon
+unequip bow
+unequip shield
+buy hylian hood
+reload
+shoot 1 arrow
+save
+# Check Invalid Star
+dnp 1 dinraal fang
+reload
+
+# impa, roast while PE
+drop 2 endura carrot
+eat all normal arrow
+get 2 shaft
+dnp 3 shaft[life=3] 2 talon
+dnp 3 princess 2 lotus
+dnp 1 liz horn 2 hyrule bass
+cook 2 roasted endura carrot
+get beetle
+
+drop 1 din fang from slot 2
+dnp 1 core
+get 2 core
+
+sell 13 din fang from slot 2
+buy 10 fire arrow
+pick up 1 din fang
+
+# ===== FAROSH =====
+remove 6 fire arrow
+get 1 far scale 
+get 1 far horn 1 far claw 2 hearty bass 1 koroks
+
+# ===== HATENO =====
+drop all koroks
+save
+drop 1 beetle 1 far scale 1 far claw 2 hearty bass
+eat all roa en c
+reload
+# buy house, bake apple with fire arrow
+with all endura carrot
+cook wildgreen[modifier=endur]
+with 1 roasted endura carrot 3 fairy 1 silent princess
+cook wild green[price=115, hp=120]
+with 1 apple
+get 1 baked apple
+with 4 lotus 1 farosh horn
+# cook speedfood and eat
+# don't combine all, need slots for PE
+dnp 4 talon
+dnp 4 shaft 5 silent princess
+remove all orb
+get 2 koroks
+remove 3 core 3 shaft
+get 1 korok seed
+
+# ===== HESTU =====
+get pumpkin
+get 1 korok seed
+has 10 weapon slots
+remove 3 koroks
+get 3 koroks
+
+# ===== MEDOH =====
+equip AA
+get 1 korok seed 1 falcon bow 1 gale 20 bomb arrow
+drop all koroks
+get cold darner
+get geb
+save as geb auto
+
+dnp 1 tree branch
+equip master sword
+write [life=0] to master sword
+unequip master sword
+eat all fire arrow
+!sort material
+eat 1 slate 1 glider
+# shop
+sell all material
+get 4 lotus 1 far horn 2 hearty bass
+# cooking pot
+with all lotus all far horn
+cook simmer[modifier=hasty]
+# pass time
+save as pot auto
+
+# ===== MSWMC =====
+drop 1 g thunderblade 1 tree branch
+drop 1 fdb 1 falcon bow
+equip geb
+dnp 1 eod
+dnp 2 hearty bass
+dnp geb
+dnp hylian shield
+save
+
+get 1 potlid
+drop 1 torch 1 eod
+unequip bow
+unequip shield
+reload
+shoot 1 arrow
+save
+
+get torch
+unequip weapon
+unequip bow
+drop all shield
+eat all ba ap all wildgreen all simmer 1 roa en c
+reload
+shoot 1 arrow
+save
+with 1 hearty bass
+cook fish skewer
+with 1 hearty bass from slot 2
+cook fish skewer
+with 1 hearty bass from slot 3
+cook fish skewer
+eat roa en c
+reload
+
+unequip weapon
+unequip bow
+drop all hylian shield
+eat 4 wild green all fish skewer
+dnp all hearty bass
+pick up hylian shield
+unequip hylian shield
+
+save
+reload
+drop hylian shield
+drop all hearty bass
+save
+pick up 6 hearty bass
+reload
+
+drop 1 geb 1 hylian shield
+eat 4 simmer
+sell all baked apple 1 simmer 2 wildgreen
+reload geb auto
+
+drop 1 tree branch
+drop eod from slot 2
+# sort weapon
+dnp 1 torch 1 g thunderblade 1 edge of d[life=80000]
+equip eod
+drop 1 fdb 1 geb 1 falcon
+equip geb
+drop hylian shield
+equip hylian shield
+# go to shop
+eat wildgreen from slot 3
+sell 2 simmer 1 wildgreen[modifier=endur] all roa en c
+!sort materials
+drop all lotus
+dnp all durian 1 apple all din fang
+dnp all princess
+dnp all hearty bass
+dnp all hyrule bass
+dnp 4 liz horn
+dnp all talon
+remove 1 silent princess
+dnp 1 darner 1 pumpkin 1 farosh horn 1 farosh scale 1 far claw
+save
+dnp 1 rushroom 1 honey 1 acorn
+sell 1 wildgreen 1 simmer
+reload pot auto
+
+get torch
+drop fdb
+equip geb
+drop all shield
+drop all material
+remove all food
+reload
+shoot 1 arrow
+save
+reload pot auto
+
+get torch
+unequip weapon
+drop all bow
+drop all shield
+drop all material
+eat 3 wildgreen 1 simmer from slot 2
+eat all ba ap all roa en c
+reload
+shoot 1 arrow
+save
+
+drop 1 darner 1 pumpkin 1 farosh horn
+eat 1 wildgreen from slot 3
+eat baked apple
+eat gale
+
+reload
+sync gamedata
