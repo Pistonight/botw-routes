@@ -1,2 +1,36 @@
-- use: ./branches/before-ist/main.yaml
- 
+- Plateau:
+  - use: ./branches/plateau.yaml
+- Medoh:
+  - use: ./branches/medoh.yaml
+- Naboris:
+  - TODO
+- Ruta:
+  - TODO
+- Rudania:
+  - TODO
+- Korok Forest:
+  - TODO
+- Plateau EX:
+  - TODO
+- Bloodmoon:
+  - TODO
+- Gerudo:
+  - TODO
+- Lake:
+  - TODO
+- Central:
+  - TODO
+- Faron:
+  - TODO
+- Letter Quest:
+  - TODO
+- Tabantha:
+  - TODO
+- Hebra:
+  - TODO
+- Zora's Domain:
+  - TODO
+- Hateno:
+  - TODO
+- Clean up:
+  - TODO

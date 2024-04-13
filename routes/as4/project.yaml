@@ -1,6 +1,11 @@
 title: All Shrines
 version: v4.5
 config:
+- plugins:
+  - use: split-format
+    with:
+      Shrines: "[.var(pad03:counter-shrine)] .prop(text)"
+      Warps: "Warp .prop(text)"
 - use: Pistonight/celer-presets/botw/most.yaml
 - use: ../../common/config.yaml
 - use: ./config.yaml

@@ -1,6 +1,12 @@
 title: 100% EX
 version: v6.0
 config:
+- plugins:
+  - use: split-format
+    with:
+      Shrines: "(.var(pad03:counter-korok)) .prop(text)"
+      Warps: ".prop(comment) Warp .prop(text)"
+      Memories: ".var-roman-upper(counter-memory) .prop(text)"
 - use: Pistonight/celer-presets/botw/full.yaml
 - use: ../../common/config.yaml
 #- use: ./config.yaml

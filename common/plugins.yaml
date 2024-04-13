@@ -1,7 +1,3 @@
 plugins:
-- use: split-format
-  with:
-    Shrines: "[.var(pad03:counter-shrine)] .prop(text)"
-    Warps: "Warp .prop(text)"
 - use: variables
 - use: link

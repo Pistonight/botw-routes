@@ -147,8 +147,9 @@ GET
 - Headshot the moblin, then Kill him with MS
 - Get EOD and 5 Arrows
 - Whistle sprint and climb out to get skywatcher's attention
-- Kill the skywatcher and drop down, get 1 shaft and 1 spring (and 1 core).
+- Kill the skywatcher and drop down, get 2 shaft and 1 spring (and 1 core).
   - If missing parts, you need to get them from stalker later, you can't reload
+  - There is a backup later in kak if you only get 1 shaft, continue if so
 - Eat the speed and run down to the dinraal fang room
 - Hit lizal once then open the dinraal chest
 - Kill lizal with 4 MS hits
@@ -156,6 +157,7 @@ GET
 - Get lizal parts
 - Get the 2 koroks on the way to lock up
 - Get the 5 arrows from the wooden box at the end of the passage, next to bombable wall
+  - You need >=16 arrows at kak
 - Beam the eye to open door
 - Eyeshot + EOD double hits + Eyeshot + Hit eye with MS to kill stalnox
 - While stalnox is dying, drop sort fairy
@@ -170,7 +172,7 @@ WHILE WAITING load
 GET 
     3 AA
     Korok, EOD, 3 Arrows
-    1 Shaft 1 Spring
+    1-2 Shaft 1 Spring (1 Core)
 EAT SPEED
 GET
     Din Fang
@@ -216,7 +218,8 @@ GET
   - if you are scared with quarter heart, you can also try to take a little bit fall damage or run in master mode
 - Get the 2 apples from the tree as you drop down to shop
 - Equip and drop sort accordingly
-  - Shaft must be second last and Hyrule Bass must be last
+  - Shaft must be third last if you only have 1
+  - Hyrule Bass must be last
   - Other items are optimized for later sequence
 - Check wood is first, dinraal fang is second, fairy is right below dinraal fang
 - SAVE
@@ -227,21 +230,19 @@ GET
 - Buy any armor and reload (out of the textbox)
 - Shoot arrow and save
 - Check invalid star
-- Drop sort one dinraal fang
 - RELOAD
   - You should have 999 wood, >14 dinraal fang in second dinraal fang slot, 999 fairy
   - You should also have 1 shaft in page 1 row 1 slot 5
   - You should also have hyrule bass in page 2 row 2 slot 1
 - Talk to Impa
 - Go to campfire and start roasting 2 carrots
-- Drop/Eat all normal arrows and use weapon to hold 3 shaft from the 1 in page 1
+- Drop/Eat all normal arrows
+  - if you only got 1 shaft from guardian, use weapon to hold 3 shaft from the 1 in page 1
 - Drop sort while waiting for roasting
 - Get roasted endura carrot and beetle
-- Drop 1 dinraal fang from stack with multiple and the core
-- Pick up the core so it's at page 2 row 1 slot 1
-- Use shield to hold 3 core from the 1 and unhold
-- Sell the stack of multiple dinraal fang and buy 10 fire arrows
-- Pick up the dinraal fang on the ground so you have a 2 stack
+- Drop 3 din fang and sell rest
+- buy 10 fire arrows
+- Pick up the 3 fangs on the floor
 
 </details>
 
@@ -259,7 +260,7 @@ DROP SORT
     3 Princess 2 Lotus
     1 Liz Horn 2 Talon
 DROP SORT
-    1 Shaft > 2 Hyrule Bass
+    1 Shaft > 1 Core > 2 Hyrule Bass
 CHECK
     Wood | Fang
          | Fairy
@@ -272,7 +273,6 @@ CHECK
 .--RELOAD--SHOOT--SAVE--
 .
 . CHECK Invalid Star
-. DROP SORT Din Fang
 .
 .--RELOAD--
 
@@ -282,26 +282,25 @@ DROP COOK
     2 Carrot
 WHILE WAITING roasting
     PE-MAT2-1 EAT ALL NORMAL arrows
-    PE-MAT2-5 HOLD 3 Shaft
+    IF only 1 shaft
+        PE-MAT2-5 HOLD 3 Shaft
+    ELSE
+        HOLD 2 Shaft
     DROP SORT
-        3 Shaft 2 Talon
+        2-3 Shaft  2 Talon
         3 Princess 2 Lotus
-        1 Liz Horn 2 Hyrule Bass
+        1 Liz Horn 2 Bass  2 Core
 GET
     2 Roa En C
     Beetle
 SET ASIDE
-    1 Din Fang from stack with more
-    Core
-PICKUP
-    Core
-PE-MAT2-1 HOLD 3 Cores, unhold
+    3 Din Fang
 SELL
-    Din Fang from stack with more
+    ALL Din Fang
 BUY
     10 Fire Arrows
 PICKUP
-    Din Fang
+    3 Din Fang
 ```
 
 ### Farosh + Hateno
@@ -335,14 +334,18 @@ PE-KEY-1 DROP ALL Koroks
 BOLSON
 
 .--SAVE--
+.
 . DROP
 .     Beetle, Scale, Claw, 2 Hearty Bass
+.     ALL Din Fang
 . CHECK
 .     --
 .     --
 .                     | Princ | Lotus | Lizal
 .     | Lizal | Shaft | Bass  | Core  | Horn    (Princess and Lotus can be swapped)
+.
 . EAT ALL Roa En C
+.
 .--RELOAD--
 
 BOLSON + HUDSON
@@ -354,14 +357,14 @@ WHILE WAITING baking
     PE-FOOD-1 HOLD Roa En C
     HOLD 3 Fairy 1 Princess
     COOK WMC Wildgreen
-    COOK SPEED (eat)
+    COOK SPEED (eat) (4 lotus + din fang)
 GET
     BAKED Apple
 
 WB STATUE
 WHILE WAITING load
     COMBINE
-        Talon, Princess, Shaft
+        Talon, Princess, Shaft, Core + Far Horn
 
 STATUE
 ```
@@ -505,13 +508,14 @@ SORT MATERIAL
 DROP
     ALL Lotus
 DROP SORT
-    2 Durian 1 Apple 2 Din Fang
-    5+6 Princess(unload 1 princess)
-    4+4 Hyrule Bass
+    2 Durian 2 Din Fang
+    10 Princess(unload 1 princess)
+    2   Farosh Horn
     6+2 Hearty Bass
+    4+4 Hyrule Bass
     2+2 Liz Horn 
     8 Liz Talon
-    1 Darner 1 Pumpkin 1 Far Horn 1 Scale 1 Claw
+    1 Darner 1 Pumpkin 1 Apple 1 Scale 1 Claw
 CHECK
     Rush | Honey | Acorn | Fairy | Beetle
     Opal | Tail  | Spring
@@ -543,7 +547,7 @@ CHECK
 . .     ALL FOOD except corrupted
 .--RELOAD--SHOOT--SAVE--
 . DROP
-.     Darner, Pumpkin, Far Horn
+.     Darner, Pumpkin, Apple, Far Horn
 . EAT
 .     WMC Meal, Baked Apple
 . PE-KEY-1 EAT Gale

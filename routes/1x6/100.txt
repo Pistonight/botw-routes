@@ -30,7 +30,7 @@ dnp 1 honey 1 rushroom 1 acorn 2 durian
 get 1 lizal horn 2 talon 1 tail
 get 2 koroks
 remove 1 egg
-remove 5 arrow 3 AA
+remove 4 arrow 3 AA
 get great thunderblade
 get hylian shield
 dnp 2 fairy
@@ -67,26 +67,25 @@ reload
 shoot 1 arrow
 save
 # Check Invalid Star
-dnp 1 dinraal fang
+dnp core
 reload
 
 # impa, roast while PE
 drop 2 endura carrot
 eat all normal arrow
+# if you picked up 2 shafts, simply combine them
 get 2 shaft
 dnp 3 shaft[life=3] 2 talon
 dnp 3 princess 2 lotus
-dnp 1 liz horn 2 hyrule bass
+dnp 1 liz horn 2 hyrule bass 2 core
 cook 2 roasted endura carrot
 get beetle
 
-drop 1 din fang from slot 2
-dnp 1 core
-get 2 core
+drop 3 din fang
 
-sell 13 din fang from slot 2
+sell all din fang
 buy 10 fire arrow
-pick up 1 din fang
+pick up 3 din fang
 
 # ===== FAROSH =====
 remove 6 fire arrow
@@ -97,6 +96,7 @@ get 1 far horn 1 far claw 2 hearty bass 1 koroks
 drop all koroks
 save
 drop 1 beetle 1 far scale 1 far claw 2 hearty bass
+drop all din fang
 eat all roa en c
 reload
 # buy house, bake apple with fire arrow
@@ -106,10 +106,10 @@ with 1 roasted endura carrot 3 fairy 1 silent princess
 cook wild green[price=115, hp=120]
 with 1 apple
 get 1 baked apple
-with 4 lotus 1 farosh horn
+with 4 lotus 1 din fang
 # cook speedfood and eat
 # don't combine all, need slots for PE
-dnp 4 talon
+dnp 4 talon 2 core 1 far horn
 dnp 4 shaft 5 silent princess
 remove all orb
 get 2 koroks
@@ -125,7 +125,7 @@ get 3 koroks
 
 # ===== MEDOH =====
 equip AA
-get 1 korok seed 1 falcon bow 1 gale 20 bomb arrow
+get 1 korok seed 1 falcon bow 1 core 1 gale 20 bomb arrow
 drop all koroks
 get cold darner
 get geb
@@ -150,7 +150,6 @@ save as pot auto
 # ===== MSWMC =====
 drop 1 g thunderblade 1 tree branch
 drop 1 fdb 1 falcon bow
-equip geb
 dnp 1 eod
 dnp 2 hearty bass
 dnp geb
@@ -217,14 +216,14 @@ eat wildgreen from slot 3
 sell 2 simmer 1 wildgreen[modifier=endur] all roa en c
 !sort materials
 drop all lotus
-dnp all durian 1 apple all din fang
+dnp all durian all din fang
 dnp all princess
-dnp all hearty bass
+dnp 2 far horn all hearty bass
 dnp all hyrule bass
 dnp 4 liz horn
 dnp all talon
 remove 1 silent princess
-dnp 1 darner 1 pumpkin 1 farosh horn 1 farosh scale 1 far claw
+dnp 1 apple 1 darner 1 pumpkin 1 far claw 1 farosh scale 
 save
 dnp 1 rushroom 1 honey 1 acorn
 sell 1 wildgreen 1 simmer
@@ -252,7 +251,7 @@ reload
 shoot 1 arrow
 save
 
-drop 1 darner 1 pumpkin 1 farosh horn
+drop 1 darner 1 pumpkin 1 apple 1 farosh claw
 eat 1 wildgreen from slot 3
 eat baked apple
 eat gale
