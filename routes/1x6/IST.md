@@ -432,7 +432,6 @@ GET
 .
 . WAIT FOR AUTOSAVE
 . --AUTOSAVE POT--
-. SAVE (for protecting)
 . KEEP 
 .     Torch > Master > EOD
 .     DROP the rest
