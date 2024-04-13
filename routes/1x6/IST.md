@@ -355,13 +355,13 @@ BOLSON
 .
 .--RELOAD--
 
-BOLSON + HUDSON
+BUY HOUSE + HUDSON
 
 SET ASIDE
     1 Apple (Bake it)
 WHILE WAITING baking
     COOK Endura
-    PE-FOOD-1 HOLD Roa En C
+    PE-SHIELD-1 HOLD Roa En C
     HOLD 3 Fairy 1 Princess
     COOK WMC Wildgreen
     COOK SPEED (eat) (4 lotus + din fang)
@@ -419,7 +419,7 @@ GET
 .--AUTOSAVE GEB (SAVE to protect it)
 . EQUIP Master Sword
 . DROP SORT Tree Branch
-. PE-MAT2-5 Transfer Dura > Break MS
+. PE-SHIELD-5 Transfer Dura > Break MS
 . PE-MAT2-1 EAT ALL FIRE Arrows
 . SORT MATERIAL
 . PE-KEY-1  EAT Slate, Glider
@@ -429,9 +429,12 @@ GET
 . REMOVE ALL MATERIAL (sell/drop, keep ones above)
 . COOK Speed FOOD
 . PASS TIME
+.
+. WAIT FOR AUTOSAVE
 . --AUTOSAVE POT--
+. SAVE (for protecting)
 . KEEP 
-.       Torch > Master > EOD
+.     Torch > Master > EOD
 .     DROP the rest
 . DROP FDB, Falcon
 . EQUIP GEB
@@ -495,8 +498,8 @@ DROP
     Tree Branch
     2nd EOD
 SORT WEAPON
-    Master > Torch > Thunder > EOD
-EQUIP EOD
+    (Master > Torch > EOD > Thunder)
+EQUIP Last Weapon
 DROP
     NON WMC BOW
     NON WMC SHIELD

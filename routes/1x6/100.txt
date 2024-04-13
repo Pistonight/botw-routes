@@ -49,7 +49,7 @@ dnp 1 spring 1 tail 3 endura carrot
 dnp 3 silent princess 2 lotus
 dnp 1 liz horn 2 talon
 # shaft, lotus in this order for PE
-dnp 1 shaft 2 hyrule bass
+dnp 1 shaft 1 core 2 hyrule bass
 # check wood first, din fang second, fairy below fang, shaft last
 save
 
@@ -67,7 +67,6 @@ reload
 shoot 1 arrow
 save
 # Check Invalid Star
-dnp core
 reload
 
 # impa, roast while PE
@@ -205,8 +204,8 @@ reload geb auto
 drop 1 tree branch
 drop eod from slot 2
 # sort weapon
-dnp 1 torch 1 g thunderblade 1 edge of d[life=80000]
-equip eod
+dnp 1 torch 1 edge of d[life=80000] 1 g thunderblade 
+equip thunder
 drop 1 fdb 1 geb 1 falcon
 equip geb
 drop hylian shield
