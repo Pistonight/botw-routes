@@ -11,21 +11,28 @@ See [IST Script](./100.txt)
       DROP SORT
           1 Spring 1 Tail 3 Carrot
           3 Princess 2 Lotus
-          1 Liz Horn 1 Talon
-          1 Shaft
-          2 Hyrule Bass
+          1 Liz Horn 2 Talon
+          1 Shaft > 1 Core > 2 Hyrule Bass
+      ROAST
+      DROP SORT
+          2-3 Shaft  2 Talon
+          3 Princess 2 Lotus
+          1 Liz Horn 2 Bass  2 Core
   HATENO
       DROP
           Beetle, Scale, Claw, 2 Hearty Bass
+      COMBINE
+          Talon, Princess, Shaft, Core + Far Horn
   RITO
       DROP SORT
-          2 Durian 1 Apple 2 Din Fang
-          5+6 Princess(unload 1 princess)
-            4+4 Hyrule Bass
+          2 Durian 2 Din Fang
+          10 Princess(unload 1 princess)
+          2  Farosh Horn
           6+2 Hearty Bass
+          4+4 Hyrule Bass
           2+2 Liz Horn 
           8 Liz Talon
-          1 Darner 1 Pumpkin 1 Far Horn 1 Scale 1 Claw
+          1 Darner 1 Pumpkin 1 Apple 1 Scale 1 Claw
 ```
 </details>
 
