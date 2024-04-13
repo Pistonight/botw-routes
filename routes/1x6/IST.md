@@ -419,7 +419,7 @@ GET
 .--AUTOSAVE GEB (SAVE to protect it)
 . EQUIP Master Sword
 . DROP SORT Tree Branch
-. PE-SHIELD-5 Transfer Dura > Break MS
+. PE-BOW-5 Transfer Dura > Break MS
 . PE-MAT2-1 EAT ALL FIRE Arrows
 . SORT MATERIAL
 . PE-KEY-1  EAT Slate, Glider
@@ -436,7 +436,6 @@ GET
 .     Torch > Master > EOD
 .     DROP the rest
 . DROP FDB, Falcon
-. EQUIP GEB
 . DROP SORT
 .     EOD
 .     Bass
@@ -487,7 +486,7 @@ GET
 .     NON WMC BOW
 .     NON WMC SHIELD
 . EAT
-.     NO EFFECT Simmer
+.     ALL NO EFFECT Simmer
 . SELL
 .     999 Baked Apple
 .     First 3 Unstackable Meal
@@ -555,11 +554,11 @@ CHECK
 . .     ALL MATERIAL
 . .     ALL FOOD except corrupted
 .--RELOAD--SHOOT--SAVE--
+. PE-KEY-1 EAT Gale
 . DROP
-.     Darner, Pumpkin, Apple, Far Horn
+.     Darner, Pumpkin, Apple, Far claw
 . EAT
 .     WMC Meal, Baked Apple
-. PE-KEY-1 EAT Gale
 .--RELOAD--
 ```
 
