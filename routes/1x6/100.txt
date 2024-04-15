@@ -76,7 +76,7 @@ eat all normal arrow
 get 2 shaft
 dnp 3 shaft[life=3] 2 talon
 dnp 3 princess 2 lotus
-dnp 1 liz horn 2 hyrule bass 2 core
+dnp 1 liz horn 2 hyrule bass 1 core
 cook 2 roasted endura carrot
 get beetle
 

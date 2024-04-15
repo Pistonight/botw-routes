@@ -190,6 +190,8 @@
 - _Reload::Split:
     split-name: MSWMC OmeGEB
     comment: Done
+- Buy All .item(Wheat, Butter, Sugar, Sunshroom):
+    banner: true
 - .dir(W)
 - _Korok::T10
 - .dir(<E) Turn
