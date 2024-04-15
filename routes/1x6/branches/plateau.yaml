@@ -1,6 +1,27 @@
+- Clip out, get TOD:
+    color: magenta
+- 1 Shroom:
+    notes: Keep 2 shrooms 2 peppers for IST in Korok Forest
+- _Equipment::Weapon<Tree Branch>:
+    coord: [-1034.19, 249.09, 1847.06]
+- _Equipment::Weapon<Torch>:
+    coord: [-920.93, 220.65, 1871.83]
+    notes: Jump grab out of Old man's cutscene zone
+- _Equipment::Weapon<Axe>:
+    icon-map: null
+    comment: Equip
+- 4 Shroom, 6 Pepper
+- _Equipment::Shield<Pot Lid>:
+    coord: [-950.5467382358938,1954.8678102583845]
+- Bow, 5 Arrows, BLSS to Bombs
 - _Shrine::JaBaij
+- BLSS
 - _Tower::GreatPlateau
+- Fall down get quest, BLSS
 - _Shrine::OmanAu
+- BLSS + Tree WB
 - _Shrine::OwaDaim
+- Boulder + BLSS
 - _Shrine::KehNamut
+- BLSS
 - _Plateau

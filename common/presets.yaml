@@ -4,3 +4,47 @@ presets:
     counter: .split-plat(PLAT)
     icon: king
     coord: [-812, 1966.10]
+  EntanglePrompt:
+    text: .boss($(0))
+    counter: .var(counter-promptentangle)
+    icon-doc: pe
+    comment: Entangle from .loc($(1)) tab for slot .loc($(2))
+  Reload:
+    text: .ist(RELOAD)
+    counter: .var(counter-istreload)
+    icon-doc: reload
+    vars:
+      counter-istreload-split: .add(1)
+  _Reload:
+    Split:
+      text: .ist(RELOAD)
+      counter: .var(counter-istreload-split)
+      icon-doc: reload
+      vars:
+        counter-istreload: .add(1)
+    Save:
+      text: .ist(RELOAD-SAVE)
+      counter: .var(counter-istreload)
+      icon-doc: reload
+      vars:
+        counter-istreload-split: .add(1)
+    _Save:
+      Split:
+        text: .ist(RELOAD-SAVE)
+        counter: .var(counter-istreload-split)
+        icon-doc: reload
+        vars:
+          counter-istreload: .add(1)
+    ShootSave:
+      text: .ist(RELOAD-SHOOT-SAVE)
+      counter: .var(counter-istreload)
+      icon-doc: reload
+      vars:
+        counter-istreload-split: .add(1)
+    _ShootSave:
+      Split:
+        text: .ist(RELOAD-SHOOT-SAVE)
+        counter: .var(counter-istreload-split)
+        icon-doc: reload
+        vars:
+          counter-istreload: .add(1)

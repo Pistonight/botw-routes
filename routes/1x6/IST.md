@@ -17,7 +17,7 @@ See [IST Script](./100.txt)
       DROP SORT
           2-3 Shaft  2 Talon
           3 Princess 2 Lotus
-          1 Liz Horn 2 Bass  2 Core
+          1 Liz Horn 1 Core  2 Bass 
   HATENO
       DROP
           Beetle, Scale, Claw, 2 Hearty Bass
@@ -290,13 +290,13 @@ DROP COOK
 WHILE WAITING roasting
     PE-MAT2-1 EAT ALL NORMAL arrows
     IF only 1 shaft
-        PE-MAT2-5 HOLD 3 Shaft
+        PE-BOW-5 HOLD 3 Shaft
     ELSE
         HOLD 2 Shaft
     DROP SORT
         2-3 Shaft  2 Talon
         3 Princess 2 Lotus
-        1 Liz Horn 2 Bass  2 Core
+        1 Liz Horn 1 Core  2 Bass
 GET
     2 Roa En C
     Beetle

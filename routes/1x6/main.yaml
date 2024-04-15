@@ -1,5 +1,7 @@
 - Plateau:
   - use: ./branches/plateau.yaml
+- Hateno:
+  - use: ./branches/hateno1.yaml
 - Medoh:
   - use: ./branches/medoh.yaml
 - Naboris:

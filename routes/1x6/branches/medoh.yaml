@@ -1,7 +1,216 @@
-- _Shrine::MoggLatan
-- _Korok::R60
-- _Korok::X09
-- _Korok::X08
-- _Korok::X13
-- _Shrine::KayaWan
-- _Shrine::TalohNaeg
+- _Warp::Shrine::TalohNaeg
+- SQ left of armor shop
+- _Npc::SheikaMale<Pumpkin Man>:
+    coord: [1878.9916878706226,974.4949531082493]
+- SQ or run
+- _Npc::SheikaFemale<Impa>:
+    coord: [1776.0032185012742,982.9916532174893]
+- .dir(E>) + .dir(SE) super:
+    movements:
+    - [1955.9529818944302,1086.4002268323193]
+    - [2168.9489517710954,1371.397315164002]
+- AA 3 Bokos, Get Maracas
+- _Korok::D21
+- .dir(<W)
+- Hestu:
+    icon: hestu
+    comment: 2 weapon upgrades
+    coord: [2074.9594748709133,1420.3782922643277]
+- .dir(<W) Turn
+- _Korok::D20
+- .dir(<<N) DD
+- _Korok::D19
+- Cryo .dir(NW)
+- _Korok::D18
+- _Warp::Shrine::MoggLatan
+- BLSS
+- _Tower::Tabantha
+- BLSS to rito, start Medoh
+- Revali Memory:
+    coord: [-3624.9160950711316,-1833.1824492950332]
+    counter: .split-npc(BEAST)
+    icon: medoh-memory
+- .dir(<N) TS
+- _Korok::T02
+- Enter Medoh:
+    coord: [-3859.258703946924,-2286.2846488529785]
+    counter: .split-npc(BEAST)
+    icon: medoh-enter
+- _Chest<Core>:
+    comment: In medoh
+    icon-map: null
+- _EntanglePrompt<Drop Koroks,MAT2,3>:
+    notes:
+      Drop when Windblight is warping.
+      This is a little tight, but you can also drop right before activating the beast
+- .boss(Windblight):
+    icon-doc: medoh-done
+    counter: .split-npc(BEAST)
+- _Material<Darner>:
+    comment: "On flight deck"
+    movements:
+    - to: [-3614.6326684291225,-1853.0205757894437]
+      warp: true
+- _Chest<GEB>:
+    icon-map: null
+- .ist(PREPARATION)
+- Equip .item(Master Sword)
+- WAIT FOR CHEST AUTOSAVE:
+    notes:
+      After opening GEB chest, equip MS and unpause to wait for autosave.
+      It's ok if autosave happened before equipping MS. Just unpause pause after equipping
+- .ist(SAVE):
+    notes: To protect the autosave we just made
+- DNP .item(Tree Branch)
+- _EntanglePrompt<Break Master Sword,BOW,5>:
+    notes: Capture Tree branch, go to material, equip, unpause, unequip equip MS, hit the chest 4 times
+- _EntanglePrompt<Eat Fire Arrows,MAT2,1>
+- _EntanglePrompt<Eat Slate + Glider,KEY,1>:
+    notes: Sort material. Unpause pause after eating slate so glider is first. Do NOT SORT!!!! (Otherwise you need to remember an extra code for slot 2)
+- Drop down to shop
+- _Shop<Remove Materials>:
+    icon-map: null
+    comment: Keep .item(Lotus), 1 .item(Farosh Horn), 2 .item(Hearty Bass). Drop/Sell the rest
+- Run to Cooking Pot
+- _Cook<Speed Food>:
+    icon-map: null
+    comment: 4 Lotus + Horn
+- _Tod::Morning:
+    icon-map: null
+- WAIT FOR AUTOSAVE:
+    notes: Make sure autosave happen with your inventory in-tact, before starting to drop stuff
+- .ist(WMC)
+- Drop .item(Thun. Blade) + .item(Branch)
+- Drop .item(FDB) + .item(Falcon)
+- DNP the following in this order:
+    notes:
+    - Do it on the bridge to avoid accidentally picking up stuff or putting your bass into the cooking pot (don't ask me why I know it's possible)
+    - As you drop and pick up each item, they should be placed behind gale in the order you DNP, check that.
+- .item(EOD)
+- .item(2 Hearty Bass)
+- .item(GEB)
+- .item(Hylian Shield)
+- .ist(SAVE)
+- Get .item(Pot Lid)
+- Drop All .loc(Weapon)
+- Unequip .loc(Bow)
+- Unequip .loc(Shield)
+- _Reload::ShootSave
+- Get .item(Torch)
+- Unequip .loc(Weapon)
+- Unequip .loc(Bow)
+- Drop All .loc(Shield)
+- Eat All .loc(Food) except 1 .item(Roa.En.C.)
+- _Reload::ShootSave
+- _:
+    banner: true
+    text: Cook 1 hearty bass from each stack. You should have 3 stacks of 2
+- Eat .item(Roa.En.C.)
+- _Reload
+- Unequip .loc(Weapon)
+- Unequip .loc(Bow)
+- Drop All .loc(Shield)
+- Eat All .item(Wild Green) + All .item(Hearty Meal):
+    notes: One of the wild green is corrupted. You should be eating the first two and last of the first 2 rows, if you did everything correctly.
+- DNP All .item(Hearty Bass)
+- Pickup 1 .item(Hylian Shield)
+- Unequip .loc(Shield):
+    notes: In the menu, unequip, then check if bass and shield are behind gale.
+- .ist(SAVE)
+- _Reload
+- Drop 1 .item(Hylian Shield)
+- Drop All .item(Hearty Bass)
+- .ist(SAVE)
+- Pickup 6 .item(Hearty Bass)
+- _Reload:
+    notes: You should have both bow and shield WMCed now
+- Drop Non-WMC .loc(Bow) and .loc(Shield)
+- Eat All .item(Effectless Simmer Fruit) + Speed:
+    notes: There should be 4 of them in a diamond pattern
+- Run to shop
+- Sell .item(999 Baked Apple)
+- Sell .item(First 3 Unstackable Meals)
+- _Reload:
+    comment: GEB AUTOSAVE
+- Drop .item(Branch) + .item(2nd EOD)
+- Sort .loc(Weapon):
+    notes: Order should be Master Sword, Torch, EOD, Thunderblade
+- Equip Last Weapon
+- Drop All Non-WMC .loc(Bow) + Equip
+- Drop Non-WMC .loc(Shield) + Equip
+- Down to Shop
+- Sell .item(999 Roa.En.C.)
+- Sell .item(First 3 Unstackable Meals)
+- Sort Material TWICE
+- Drop All Lotus + 1 Princess
+- Run outside of Shop
+- DNP in the following order
+- .item(2 Durian, 2 Dinraal Fang)
+- .item(4+6 Princess)
+- .item(2 Farosh Horn)
+- .item(6+2 Hearty Bass)
+- .item(4+4 Hyrule Bass)
+- .item(2+2 Lizal Horn)
+- .item(8 Lizal Talon)
+- .item(Apple, Darner, Pumpkin, Scale, Claw):
+    banner: true
+- CHECK:
+    notes:
+    - First row 1-3=Rush, Honey, Acorn
+    - First row last=beetle
+    - Second row 1-3=Opal, Tail, Spring
+- .ist(SAVE)
+- DNP .item(Rush, Honey, Acorn)
+- Sell .item(Endura + Speed)
+- _Reload:
+    comment: POT AUTOSAVE
+- Get .item(Torch):
+    notes: Should be auto equipped. Equip it if not
+- Drop .item(FDB)
+- Equip .item(GEB):
+    notes: Equipped last if GEB is not your last
+- Drop .loc(Shield)
+- Drop All. loc(Material)
+- Eat All .loc(Food)
+- _Reload::ShootSave
+- _Reload:
+    comment: POT AUTOSAVE
+- Get .item(Torch)
+- Unequip .item(Torch):
+    notes: Or your other equipped weapon
+- Drop All .loc(Bow)
+- Drop .loc(Shield)
+- Eat All .loc(Food):
+    notes: Except for corrupted ones, which should be first 2
+- _Reload::ShootSave
+- _EntanglePrompt<Eat Gale,KEY,1>
+- Eat .item(WMC Meal) + .item(Baked Apple)
+- Drop .item(Darner, Pumpkin, Apple, Farosh Claw):
+    banner: true
+- _Reload::Split:
+    split-name: MSWMC OmeGEB
+    comment: Done
+- .dir(W)
+- _Korok::T10
+- .dir(<E) Turn
+- _Korok::T05
+- .dir(E>) Turn + .dir(E):
+    coord: [-3114.5833451895164,-1896.1075376165277]
+- _Korok::H66:
+    comment: Cryo
+- .dir(E):
+    coord: [-2865.5499287502007,-1872.5819149353333]
+- _Boss::Talus::Rare:
+    movements:
+    - push
+    - to: [-2864.50, 408.98, -1825.91]
+      color: white
+- .dir(NE):
+    movements:
+    - pop
+- _Korok::H65
+- .dir(NW)
+- _Korok::T03
+- _Material<Voltfin>:
+    coord: [-3050.074109490208,-2142.111419840951]
+    comment: ""

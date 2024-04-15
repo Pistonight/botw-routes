@@ -1,0 +1,312 @@
+- BLSS + .dir(W>) WB:
+    coord: [-2334.003582331853,792.0285343495116]
+- _Material<Honey>:
+    coord: [-2469.86, 320.38, 736.31]
+    comment: Bomb it down
+- _Material<2 Eggs>:
+    icon-map: null
+- SQ to pond
+- _Material<6 Lotus>:
+    comment: ""
+    notes: Land in 2 in water, get 3 on land, get 1 on land, cryo for WB
+    icon-map: null
+    movements:
+    - to: [-2554.98, 306.99, 666.19]
+      marker: red
+    - to: [-2555.66, 306.99, 662.78]
+      marker: red
+    - to: [-2558.07, 306.99, 655.56]
+      marker: red
+    - to: [-2559.81, 306.99, 652.89]
+      marker: red
+    - to: [-2561.67, 306.99, 650.74]
+      marker: red
+    - to: [-2558.29, 306.99, 644.09]
+      marker: red
+- .dir(E.):
+    coord: [-2349.25, 355.64, 672.69]
+- _Material<Rushroom + Acorn>:
+    comment: ""
+    icon-map: null
+- _Equipment::Bow<Forest Dweller Bow>
+- .dir(N>):
+    coord: [-2185.5683441748824,445.48815921550886]
+- _Material<7 Durian + 4 Wood>:
+    comment: ""
+    notes: Keep 6 durians, eat 1 before Mogg Latan
+- .dir(<W)
+- _Material<4 Endura Carrot>:
+    comment: ""
+    coord: [-2316.0537349777946,535.4532191956987]
+- .dir(N.)
+- _Shrine::MoggLatan
+- _Korok::R60
+- BLSS to Top of Deku Tree:
+    coord: [419.82, 335.87, -2186.64]
+- _Material<2 Fairy>:
+    comment: ""
+- Drop down
+- _Cook<3 Durian + Speed>:
+    notes: 1 Egg + 4 Lotus for speed
+    icon-map: null
+- .ist(BREAK SLOTS):
+    notes:
+      Put aside 1 durian 2 carrot,
+      break with shroom, pepper, durian, carrot.
+      Use honey to check. Pick up durian and carrot from your hand
+      and the ones put aside. Eat the shroom and pepper if you pick them up
+- _Shop<10 Arrows>:
+    icon-map: null
+- _Tod::Noon:
+    comment: EMS
+    coord: [431.66, 250.53, -2111.00]
+- _Equipment::Weapon<Master Sword>:
+    icon-map: null
+- _:
+    banner: true
+    text: .important(Torch MUST be in front of Master Sword. DO NOT drop/throw it)
+- .dir(N.) to top of Deku
+- BLSS to Castle:
+    notes: BLSS South pass the little branch then <W as hard as possible
+- Drop Axe:
+    notes:
+      Enter the staircase with unloaded malice.
+      Drop axe while waiting for castle to load.
+      If you get loaded malice, the back up is to enter from the entrance below Zelda's Study
+- _Chest<3AA>:
+    coord: [-357.26992672093184,-912.5894852729589]
+- Beam Eye + .dir(N):
+    notes: any% movement. Beam the eye to save arrows
+- Eat Hearty + Speed
+- _Korok::X09:
+    comment: Balcony
+- Headshot moblin, kill with 6 MS Hits
+- _Equipment::Weapon<EOD>:
+    coord: [-328.2731732091743,-995.3073598658552]
+- _Equipment::Bow<5 Arrows>:
+    icon-map: null
+- Kill Skywatcher:
+    movements: 
+    - [-356.0200666557703,-995.8071657546343]
+    - [-353.52034652544626,-984.8114362014999]
+- _Material<2 Shaft 1 Spring>:
+    comment: ""
+    notes: If you only get 1 Shaft, it's OK, you have to a backup shaft dupe manuover in Kak. Get core too if it dropped.
+- Run toward entrance below:
+    coord: [-398.51530887127774,-985.8110479790575]
+- .ist(LIZALFOS ROOM):
+    comment: DNP .item(Rush, Honey, Acorn, 2 Durian)
+    notes:
+      Hit Lizal once, open dinraal chest,
+      hit him 4 times to kill, DNP while waiting to him to die.
+      The DNP is to put those behind dinraal fang
+- _Chest<Dinraal Fang>:
+    icon-map: null
+- _Material<2 Talon, Horn, Tail>:
+    comment: From Lizalfos
+    icon-map: null
+- _Korok::X08:
+    comment: Ride updraft
+- _Korok::X13:
+    comment: West Passage
+- _Equipment::Bow<5 Arrows>:
+    coord: [-424.51239822664775,-1046.2875605212962]
+    notes: Break with EOD, then bomb wall. If you bomb the chest then the arrows fly away
+- .ist(LOCK UP)
+- _:
+    text:
+      .important(17 Arrows is the absolute minimum to leave Castle with.
+      Preferrably you have 18 so you can kill the guardian in Kaya Wan with bow)
+    banner: true
+- _Boss::Stalnox:
+    coord: [-492.75475778449254,-1010.0516335848306]
+    notes:
+      FDB 1 body 1 eye. Then EOD spin.
+      If you get all double hits, FDB eye shot then 4-5 MS hits should kill him.
+      Jump cancel after each MS hit because the eye bounces away
+- DNP .item(fairy):
+    notes: DNP while waiting for stalnox to die
+- _Equipment::Weapon<Great Thunderblade>:
+    comment: For PE Shock Trap Bow Dupe
+    icon-map: null
+- _Chest<Hylian Shield>:
+    coord: [-502.2536942797233,-1009.551827696052]
+- Leave Castle:
+    movements:
+    - to: [-253.2669880893336,-596.8280327109096]
+      warp: true
+- .dir(.S) Turn:
+    coord: [-223.54321187797632,-261.22283968190186]
+    notes: Can kill 2 more guardians here for back up parts
+- BLSS:
+    movements:
+    - to: [601.4607062974883,95.40061505476115]
+    - to: [825.9355740005813,130.38702726928022]
+- _Material<2 Bass>:
+    comment: ""
+    notes: Load them, then just glide down and grab. No need to bomb
+- _Npc<Sword Quest>:
+    coord: [840.7175631045502,134.9457459136829]
+- _Shrine::KayaWan:
+    comment: Core
+    notes:
+      If you are low on normal arrows, you can MS beam the guardian (take 2 beam per guardian).
+      Or you can use AA. 17 is the minimum to leave Kaya Wan with
+- BLSS
+- _Discover<Goponga Village Ruins>:
+    coord: [1590.3825666839448,363.30394766661993]
+- _Shrine::DakaTuss
+- .dir(S) + .dir(E>) + .dir(.S) Turn:
+    movements:
+    - [1599.951358650309,642.8895507151547]
+    - [1788.4302564767377,718.3602399207584]
+- _Shrine::TalohNaeg:
+    comment: Opal
+    notes:
+      Equip Great Thunderblade.
+      You can drop the potlid if it's going to break when setting skew.
+      You don't need to clear ragdoll. However, if you still have yellow hearts, bomb yourself and re-get ragdoll.
+- .ist(EQUIPMENTS)
+- Equip Great Thunderblade:
+    comment: Drop Knights + extra
+    notes: Should have Great Thunderblade equipped as last
+- Equip FDB + Normal:
+    comment: Drop Traveller
+- Equip Hylian Shield:
+    comment: Drop Potlid
+- _Material<2 Apples>:
+    comment: ""
+    coord: [1834.213504994248,934.6434329395779]
+- Glide to outside of shop
+- .ist(MATERIAL ORDERING)
+- "DNP:"
+- .item(Spring, Tail, 3 Carrot)
+- .item(3 Princess, 2 Lotus)
+- .item(Lizalfo Parts):
+    notes: 1 Horn 2 Talon
+- .item(Shaft):
+    notes: If you already have 2 shafts, drop 2 shaft and core together
+- .item(Core)
+- .item(2 Bass)
+- .ist(SAVE):
+    notes: Check Wood is first, dinraal fang is after wood, fairy is below dinraal fang
+- .ist(BREAK SLOTS):
+    notes:
+      Bomb yourself so you only have quarter heart.
+      Sort material for easy to remember what to sell. You need to end up with empty inventory.
+      After breaking 8 slots (2 rounds of 4 + check item), hold 4 item + fairy, blow yourself up
+- UNEQUIP ALL:
+    notes: You want to do this before dropping all materials. Otherwise you can't access the inventory
+- DROP ALL MATERIAL
+- BUY ANY ARMOR
+- _Reload::ShootSave
+- CHECK STAR TAB
+- _Reload
+- SQ:
+    notes: You should have Corrupted AA, 999 Wood and fairy, and >=16 Dinraal Fang
+- _Npc::SheikaFemale<Impa>:
+    coord: [1773.9702498534398,984.3741188730719]
+    counter: .split-npc(NPC)
+- Glide to campfire:
+    coord: [1824.231556588351,1001.5034940019814]
+- .ist(MENUING) .link([PE Inputs]https://github.com/Pistonight/botw-routes/routes/1x6/IST.md)
+- Start roasting 2 carrots
+- _EntanglePrompt<Eat Arrows,MAT2,1>
+- _EntanglePrompt<Backup Shaft Dupe,BOW,5>:
+    notes: Do this if you only got 1 shaft from guardians. capture the weapon, go to shaft, "drop", go back to weapon, repeat 3 times to hold 3 from the 1 stack.
+- Combine the following:
+    notes: Drop from beginning of inventory
+- .item(2-3 Shaft, 2 Talon):
+    notes: 3 shafts with backup shaft dupe, 2 if not. Either way you end up with 4 shafts
+- .item(3 Princess, 2 Lotus)
+- .item(1 Liz Horn, 1 Core, 2 Bass)
+- _Material<2 Roasted Endura Carrot>:
+    comment: ""
+    notes: Pick up after first drop, don't let them burn
+- _Material<Beetle>:
+    comment: ""
+    coord: [1810.9830398976337,1050.484471102307]
+- _Npc::SheikaFemale<Shop Lady>:
+    coord: [1825.9813606795778,1040.9881592155089]
+    notes: Drop 3 dinraal fangs, sell the rest, get the quest
+- _Shop<10 Fire Arrows>:
+    icon-map: null
+    notes: Need 1 to bake apple at hateno, otherwise can use all for farosh farming if needed
+- .dir(N) + .dir(N) + BLSS + .dir(SE):
+    coord: [1636.4642886293404,2811.3955681630114]
+- _Tod::Morning:
+    coord: [1736.4530938423004,2992.3252999009483]
+    comment: Farosh Scale, Horn, Claw
+- BLSS
+- _Material<2 Hearty Bass>:
+    comment: ""
+    coord: [3018.3573224391694,2542.495341330692]
+- .dir(NE)
+- _Korok::N58
+- .dir(<E)
+- _EntanglePrompt<Drop All Koroks,KEY,1>:
+    notes: Sort key items, repeat 3 times to drop the 3 stacks
+    coord: [3310.9572359135054,2302.4083795036086]
+- _Npc<Bolson>
+- .ist(SAVE)
+- "Drop everything after and including .item(Beetle) except .item(Farosh Horn)":
+    banner: true
+- Eat all .item(Roasted Endura Carrot)
+- _Reload
+- _Npc<Tarrey Town 0>:
+    counter: .split-npc(NPC)
+    coord: [3331.3652185548235,2281.3474847343996]
+    comment: Buy House, talk to Hudson
+- _:
+    text: .important(It's important you cook in this order)
+    banner: true
+- Start baking .item(1 Apple)
+- _Cook<Endura Food>:
+    comment: All (1) Endura Carrot
+    icon-map: null
+- _EntanglePrompt<Hold 1 Roa. En. C.,SHIELD,1>
+- _Cook<WMC Meal>:
+    comment: Roa. En. C + 3 Fairy + 1 Princess
+    icon-map: null
+- _Cook<Speed Food>:
+    comment: 4 Lotus + Dinraal Fang, eat
+    icon-map: null
+- _Material<Baked Apple>:
+    comment: Pick up
+    icon-map: null
+- .dir(N>) to statue:
+    coord: [3436.9783940610123,2100.292801524268]
+- .ist(COMBINE):
+    notes: Drop from the beginning of inventory
+- .item(5 Princess, 4 Talon)
+- .item(4 Shaft, 2 Core, 1 Farosh Horn)
+- _Npc<Statue>:
+    comment: All Stam, 2 Hearts
+- _Npc<Shrine Lady>:
+    notes: If rain, make morning at cooking pot
+    coord: [3425.3546954550056,2163.268343510401]
+- .dir(N)
+- _Npc<Sheep Lady>:
+    coord: [3615.454073386167,2096.199628138107]
+- .dir(N>)
+- _Korok::N43
+- .dir(W)
+- _Korok::N42
+- Do blue flame:
+    notes: Remember to NOT throw torch
+    movements:
+    - [3438.4738881592275,1978.2454383863023]
+    - [3644.450826897926,2095.6998222493276]
+    - [3782.4461250873683,2113.441669578039]
+- Camera:
+    movements:
+    - push
+    - [3776.223188485037,2131.3941123288523]
+    icon: camera
+    counter: .split-npc(CAM)
+- Upgrade Stasis + Bomb:
+    icon-doc: upgrade
+- SQ .dir(E):
+    movements:
+    - pop
+- _Korok::N48

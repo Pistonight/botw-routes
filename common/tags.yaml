@@ -11,8 +11,26 @@ tags:
     background: black
     color: yellow
     split-type: Dark Beast
+  split-npc:
+    background: black
+    color: "#00ff00"
+    split-type: Selected NPCs
   italic:
     italic: true
+  ist:
+    background: red
+    color: white
+    bold: true
+  counter-istreload:
+    background: red
+    color: white
+  counter-istreload-split:
+    background: red
+    color: white
+    split-type: Selected IST Reloads
+  counter-promptentangle:
+    background: "#2a767d"
+    color: "#59ffff"
 
 splits:
   - split-plat
