@@ -5,7 +5,8 @@
 - Medoh:
   - use: ./branches/medoh.yaml
 - Naboris:
-  - TODO
+  - use: ./branches/naboris.yaml
+  - use: ./branches/wasteland.yaml
 - Ruta:
   - TODO
 - Rudania:

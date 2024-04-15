@@ -9,6 +9,10 @@ config:
       Memories: ".var-roman-upper(counter-memory) .prop(text)"
 - use: Pistonight/celer-presets/botw/full.yaml
 - use: ../../common/config.yaml
+- plugins:
+  - use: botw-ability-unstable
+    with:
+      estimate-recharge: true
 #- use: ./config.yaml
 route:
   use: ./main.yaml
