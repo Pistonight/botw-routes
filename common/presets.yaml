@@ -48,3 +48,10 @@ presets:
         icon-doc: reload
         vars:
           counter-istreload: .add(1)
+  
+  ZoraMonument:
+    text: .loc(Zora Monument) .var-roman-upper(ZoraMonument)
+    comment: .var(ZoraMonument)/10
+    vars:
+      ZoraMonument: .add(1)
+    icon: npc

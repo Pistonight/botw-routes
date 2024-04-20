@@ -77,7 +77,8 @@
 - _Korok::W59
 - .dir(E>>)
 - _Korok::W64
-- .gale(1)
+- .dir(N):
+    notes: Reposition rock
 - _Korok::W60
 - .dir(N):
     coord: [-1386.5,3499.453623049694]
