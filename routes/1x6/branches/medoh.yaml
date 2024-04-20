@@ -192,22 +192,20 @@
     comment: Done
 - Buy All .item(Wheat, Butter, Sugar, Sunshroom):
     banner: true
-- .dir(W)
-- _Korok::T10
-- .dir(<E) Turn
+- .dir(N>)
 - _Korok::T05
-- .dir(E>) Turn + .dir(E):
-    coord: [-3114.5833451895164,-1896.1075376165277]
+- .dir(NE) + .dir(E) + .dir(E) (Turn):
+    coord: [-3291.0951556898444,-1914.105596504316]
 - _Korok::H66:
     comment: Cryo
-- .dir(E):
+- .dir(E.) DEFUSE:
     coord: [-2865.5499287502007,-1872.5819149353333]
 - _Boss::Talus::Rare:
     movements:
     - push
     - to: [-2864.50, 408.98, -1825.91]
       color: white
-- .dir(NE):
+- .dir(NE) midair DEFUSE:
     movements:
     - pop
 - _Korok::H65

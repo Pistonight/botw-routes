@@ -1,11 +1,13 @@
 - _Warp::Shrine::MoggLatan:
     color: red
-- .dir(S>) TS + midair
+- BLSS + midair .dir(S):
+    notes: Or .dir(S>) TS and midair
 - _Korok::G19
-- .dir(NW) + .dir(W):
+- .dir(NW) + .dir(.W):
     coord: [-2740.0886627133605,1129.5978015497385]
 - _Korok::G13
 - .dir(N) + .dir(<W) Turn:
+    notes: If there are wolves here, try to get gourmet meat
     coord: [-2871.030002029269,992.8225823438515]
 - _Korok::G10
 - .dir(W) + .dir(S):
@@ -47,23 +49,33 @@
 - _Npc<Benja>:
     coord: [-3804.64, 149.50, 2818.36]
 - _Shrine::DaqoChisay
-- BLSS
-- _Memory::KaraKaraBazaar
-- .dir(S>) TUrn + midair
+- .dir(<E) Turn + .dir(<E) midair
 - _Npc<Buy Gerudo Set>:
     coord: [-3259.27, 163.93, 2611.54]
-- .dir(<N) Turn
+- .dir(N.) TS (+ .dir(N))
+- _Korok::G34:
+    movements:
+    - [-3118.2012822709876,2043.856745918777]
+    - push
+    - to: [-3148.197923834875,2042.8571341412198]
+      color: white
+    - pop
+    - _Korok::G34
+- .dir(<W) Turn:
+    notes: There will be sandstorm so find some visual cues for where to aim
+- _Shrine::DakoTah
+- .dir(S>) DEFUSE
 - _Korok::W17
-- .dir(<W) Turn
+- .dir(<W) Fast Turn
 - _Korok::W29
-- .dir(S>) Turn
+- .dir(S.) Turn
 - _Shop<Normal + Ice + Shock>:
     coord: [-3861.7783787851477,2921.2182628153387]
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
-- .dir(<W) Turn
+- .dir(.W) Turn
 - _Korok::W47
-- .dir(<N) Turn
+- .dir(<N) DT
 - _Korok::W28
 - .dir(NW)
 - _Korok::W18
@@ -86,11 +98,11 @@
     - "Phase 1: Shoot him, wait for ball to fall, shoot him"
     - "Phase 2: wait for ball, shoot him, aim down and get close, so link lifts his bow up, shoot his ass"
     - "Phase 3: Mag ball"
-    - Clear ragdoll before getting chest
+    - Clear ragdoll before fight, or before getting chest
 - _Chest<ThunderHelm>:
     icon-map: null
 - _Warp::Shrine::DaqoChisay
-- .dir(S.) to Riju
+- .dir(S>) to Riju
 - Urbosa Memory:
     icon: naboris-memory
     coord: [-3868.85, 166.67, 2948.96]
@@ -107,6 +119,7 @@
 - Naboris Entry:
     icon: naboris-enter
     counter: .split-npc(BEAST)
+    notes: Shoot from an angle where you can use GEB spread to shoot 2 legs with 1 shot
 - .gale(3) Inside
 - Thunderblight:
     icon: naboris-done
@@ -130,41 +143,10 @@
     coord: [-3856.93, 152.43, 2856.37]
 - _Npc::Gerudo<Trash Girl>:
     coord: [-3834.10, 155.62, 2853.40]
-- .dir(N>) Fast Turn:
+- .dir(N.) Fast Turn:
     coord: [-3748.6396931579907,2286.526932931937]
 - Transport Ice:
     notes: Use OmeGEB, stand next to ice, aim down, shoot then pick up right away
     coord: [-3763.7714100302146,2693.8933358839677]
-- .dir(N>>) Turn + .dir(NE):
-    coord: [-3505.157958445141,2345.7395027411912]
-- _Shrine::DakoTah
-- .dir(<W)
-- _Korok::G34:
-    movements:
-    - [-3118.2012822709876,2043.856745918777]
-    - push
-    - to: [-3148.197923834875,2042.8571341412198]
-      color: white
-    - pop
-    - _Korok::G34
-- .dir(S) + .dir(E):
-    coord: [-3065.0453948614495,2189.9070207250606]
-- _Boss::Talus::Luminous:
-    coord: [-2898.47, 305.79, 2210.99]
-    comment: Get Amber
-    notes: Flints if dropped, Luminous if needed
-- Run down
-- _Korok::W19
-- _Shrine::KayNoh
-- _Korok::W15
-- _Npc<Sesami>:
-    coord: [-2810.9448815627047,2240.866507634074]
-- _Npc<Rushroom Guy>:
-    comment: Talk TWICE
-    coord: [-2799.54, 135.44, 2232.40]
-- _Shop<Beetle>:
-    icon-map: null
-    comment: Buy Darner and Winterwing
-- .dir(<<W)
-- _Discover<Gerudo Desert Gateway>:
-    coord: [-2919.267827698362,2323.9106117826523]
+
+

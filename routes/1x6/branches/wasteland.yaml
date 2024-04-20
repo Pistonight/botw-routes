@@ -1,1 +1,108 @@
 - _Warp::Beast::Naboris
+- Run Down:
+    movements:
+    - [-2245.003148145865,2593.9667688870313]
+    - push
+- _Korok::W33:
+    comment: Below bridge
+    color: white
+- .dir(W):
+    color: "#f88"
+    movements:
+    - pop
+- _Korok::W31
+- _Korok::W32
+- .dir(N)
+- _Tower::Wasteland
+- .dir(N>) Turn:
+    coord: [-2221.903981551116,2202.0433959239945]
+- _Korok::W12:
+    notes: Shoot from the lizalfos
+    movements:
+    - push
+    - to: [-2264.903981551116,2160.0516059636693]
+      color: white
+- _Material<Electric Darner + Horn>:
+    comment: Lift rock
+    movements:
+    - pop
+    - push
+- _Korok::W16:
+    notes: Shoot stone with non-WMC bow, from where you get the darner
+    movements:
+    - to: [-2261.903981551116,2227.038508995617]
+      color: white
+- SQ aim at tree:
+    movements:
+    - pop
+- _Korok::W11
+- SQ .dir(S):
+    coord: [-2161.903981551116,2144.054733597831]
+- _Equipment::Weapon<Fire Rod>
+- _Tod::Noon:
+    comment: For Suma Sahma
+    notes: Can set later depends on your speed
+- .dir(.S) Turn
+- _Korok::W23::Start:
+    text: Start Race
+- _Korok::W24
+- _Korok::W23:
+    comment: Finish Race
+    movements:
+    - _Korok::W23::End
+- .dir(E) + .dir(S) + .dir(S):
+    coord: [-1951,2428.893855915635]
+- _Korok::W34
+- .dir(S>) Turn
+- _Korok::W39
+- .dir(W.) Canal
+- _Korok::W38
+- .dir(E>>)
+- _Boss::Talus::Luminous:
+    coord: [-2096.46, 318.46, 3037.91]
+    notes: Shoot Midair
+- .dir(<<S) midair:
+    notes: Ordinal turn if direction is off
+- _Korok::W50
+- .dir(S>>)
+- _Korok::W58
+- .dir(<E) Turn:
+    coord: [-1744,3469.815469584455]
+- _Shrine::DilaMaag
+- .dir(N) to the wall DEFUSE:
+    coord: [-1803.5,3359.4291395385226]
+- .dir(E) midairs x3:
+- _Korok::W54
+- .dir(S>) Turn
+- _Korok::W59
+- .dir(E>) ???
+- _Korok::W64
+- .dir(N)
+- _Korok::W60
+- .dir(N):
+    coord: [-1386.5,3499.453623049694]
+- _Npc<Read Notes>:
+    comment: 2,1,3
+- _Shrine::SumaSahma
+
+# - .dir(S) + .dir(E):
+#     coord: [-3065.0453948614495,2189.9070207250606]
+# - _Boss::Talus::Luminous:
+#     coord: [-2898.47, 305.79, 2210.99]
+#     comment: Get Amber
+#     notes: Flints if dropped, Luminous if needed
+# - Run down
+# - _Korok::W19
+# - _Shrine::KayNoh
+# - _Korok::W15
+# - _Npc<Sesami>:
+#     coord: [-2810.9448815627047,2240.866507634074]
+# - _Npc<Rushroom Guy>:
+#     comment: Talk TWICE
+#     coord: [-2799.54, 135.44, 2232.40]
+# - _Shop<Beetle>:
+#     icon-map: null
+#     comment: Buy Darner and Winterwing
+# - .dir(<<W)
+# - _Discover<Gerudo Desert Gateway>:
+#     coord: [-2919.267827698362,2323.9106117826523]
