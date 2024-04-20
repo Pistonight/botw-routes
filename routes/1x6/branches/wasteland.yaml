@@ -22,7 +22,7 @@
     - push
     - to: [-2264.903981551116,2160.0516059636693]
       color: white
-- _Material<Electric Darner + Horn>:
+- _Material<Electric Darner>:
     comment: Lift rock
     movements:
     - pop
@@ -41,7 +41,7 @@
 - _Equipment::Weapon<Fire Rod>
 - _Tod::Noon:
     comment: For Suma Sahma
-    notes: Can set later depends on your speed
+    notes: Can set later depends on your speed. Don't need to set if 11:30AM-12:30PM
 - .dir(.S) Turn
 - _Korok::W23::Start:
     text: Start Race
@@ -71,13 +71,13 @@
 - _Shrine::DilaMaag
 - .dir(N) to the wall DEFUSE:
     coord: [-1803.5,3359.4291395385226]
-- .dir(E) midairs x3:
+- .dir(E) midairs x3
 - _Korok::W54
-- .dir(S>) Turn
+- .dir(S.) Turn
 - _Korok::W59
-- .dir(E>) ???
+- .dir(E>>)
 - _Korok::W64
-- .dir(N)
+- .gale(1)
 - _Korok::W60
 - .dir(N):
     coord: [-1386.5,3499.453623049694]
@@ -85,24 +85,52 @@
     comment: 2,1,3
 - _Shrine::SumaSahma
 
-# - .dir(S) + .dir(E):
-#     coord: [-3065.0453948614495,2189.9070207250606]
-# - _Boss::Talus::Luminous:
-#     coord: [-2898.47, 305.79, 2210.99]
-#     comment: Get Amber
-#     notes: Flints if dropped, Luminous if needed
-# - Run down
-# - _Korok::W19
-# - _Shrine::KayNoh
-# - _Korok::W15
-# - _Npc<Sesami>:
-#     coord: [-2810.9448815627047,2240.866507634074]
-# - _Npc<Rushroom Guy>:
-#     comment: Talk TWICE
-#     coord: [-2799.54, 135.44, 2232.40]
-# - _Shop<Beetle>:
-#     icon-map: null
-#     comment: Buy Darner and Winterwing
-# - .dir(<<W)
-# - _Discover<Gerudo Desert Gateway>:
-#     coord: [-2919.267827698362,2323.9106117826523]
+- .gale(1) + .dir(N>) Turn
+- _Korok::W53
+- .dir(<N) Turn
+- _Korok::W41
+- .dir(S>>) DD
+- _Korok::W45
+- _Korok::W46
+- .dir(.W) Fast Turn
+- _Korok::W49
+- .dir(W.) Turn
+- _Korok::W48
+- .dir(W) + .dir(<<N) midair:
+    movements:
+    - [-2246,3209.628593443289]
+    - [-2692,2731.851437377316]
+    - push
+- _Korok::W35:
+    movements:
+    - to: [-2625,2750.847723311749]
+      color: white
+- _Shrine::KorshOhu:
+    movements:
+    - pop
+    - _Shrine::KorshOhu
+- .gale(1) + .dir(S)
+- _Korok::W40
+- .dir(N>) + .dir(N)
+- _Korok::W30
+- .dir(<<N) Turn
+- _Boss::Talus::Luminous:
+    coord: [-2898.47, 305.79, 2210.99]
+    comment: Get Amber
+    notes: Flints if dropped, Luminous if needed
+- .item(Horn) from Lizalfos
+- Run down
+- _Korok::W19
+- _Shrine::KayNoh
+- _Korok::W15
+- _Npc<Sesami>:
+    coord: [-2810.9448815627047,2240.866507634074]
+- _Shop<Beetle>:
+    icon-map: null
+    comment: Buy Darner and Winterwing
+- _Npc<Rushroom Guy>:
+    comment: Talk TWICE
+    coord: [-2799.54, 135.44, 2232.40]
+- .dir(<<W)
+- _Discover<Gerudo Desert Gateway>:
+    coord: [-2919.267827698362,2323.9106117826523]

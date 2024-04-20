@@ -8,7 +8,7 @@
   - use: ./branches/naboris.yaml
   - use: ./branches/wasteland.yaml
 - Ruta:
-  - TODO
+  - use: ./branches/ruta.yaml
 - Rudania:
   - TODO
 - Korok Forest:
