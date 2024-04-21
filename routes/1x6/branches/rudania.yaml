@@ -1,0 +1,202 @@
+- .dir(SW):
+    coord: [2972.016432348557,-245.13233802046943]
+- _Boss::Hinox::Blue:
+    movements:
+    - push
+    - to: [2930.51, 312.54, -298.40]
+      color: white
+- SQ .dir(<S) to flower:
+    movements:
+    - pop
+- _Korok::Z24
+- .dir(SE)
+- _Korok::Z34
+- .dir(.E) TS
+- _Boss::Talus::Luminous:
+    coord: [3992.27, 353.03, -158.82]
+    notes: Get to 10 amber (Remaining get during Yunobo Escort)
+- .dir(<E) Max Height
+- _Korok::Z27
+- .dir(N) + midair:
+    coord: [4111.249360889342,-453.0426140154541]
+- _Korok::Z19
+- _Korok::Z20
+- .dir(N) Fast
+- _Korok::A57
+- .dir(<E) Turn
+- _Korok::A56
+- .dir(W>) Turn
+- _Shrine::KenaiShakah
+- Jump out + .dir(S>) midair
+- _Korok::A55
+- .dir(<N)
+- _Korok::A54
+- .dir(<E) Turn
+- _Korok::A53:
+    comment: Middle Tree
+- .dir(NE)
+- _Korok::A49:
+    comment: Left Tree
+- .dir(.N) Turn
+- _Npc<Hudson>:
+    coord: [3987.094280599842,-1602.45562669033]
+    comment: Talk TWICE
+- .dir(S) + .dir(S)
+- _Shrine::DahHesho
+
+- _Korok::A47
+- .dir(S)
+- _Discover<East Sokkala Bridge>:
+    coord: [3884.096950856483,-1117.018961282106]
+- .dir(W)
+- _Korok::A51:
+    comment: GG Throw
+    notes: Stand a bit back from the bare rock part
+- .dir(S>)
+- _Discover<Other 2 Bridges>:
+    coord: [3659.4272868576372,-1008.5322537272932]
+- _Korok::A52
+- .dir(NW)
+- _Boss::Hinox::Blue:
+    coord: [3288.75, 323.08, -1256.24]
+- .dir(W)
+- _Korok::A50
+- .dir(W>>) Turn:
+    coord: [2721.9843892688714,-1417.5330356358336]
+- _Korok::E39:
+    comment: GG Throw
+    notes: Stand a bit in front of a line made with small rock patterns
+- .dir(.N) Fast Turn
+- _Shrine::SahDahaj
+
+- .dir(N) get rock:
+    coord: [2671.9958919128603,-1630.0310808644826]
+- _Korok::E34
+- Run/Surf down
+- _Korok::E30
+- .dir(W)
+- _Korok::E29
+- .dir(S>) + .dir(<W):
+    coord: [2378.875524959685,-1617.0336220672389]
+- _Korok::E32
+- .dir(SE)
+- _Korok::E33
+- .dir(W) + midair + .gale(1):
+    coord: [2181.794595643045,-1573.042223061184]
+- _Tower::Eldin
+
+- .dir(NW)
+- _Korok::E27
+- .dir(<W) Turn:
+    coord: [1792.7181852222584,-1729.5168110336194]
+- _Boss::Talus::Igneo:
+    movements:
+    - push
+    - to: [1796.219623052757,-1748.0131947066197]
+      color: white
+    comment: .fury(3)
+- .dir(<N):
+    movements: 
+    - pop
+    - [1734.6943583168513,-1774.0081123011068]
+    - [1702.1810070336496,-1766.5095783796205]
+- _Korok::E26::Away:
+    comment: Bomb boulder down
+- .dir(SW)
+- _Korok::E31
+- _Memory::EldinCanyon
+
+- .dir(N.) Turn:
+    coord: [1475.2983387166432,-1733.0572748005875]
+- _Korok::E24::Away:
+    comment: Bomb boulder down
+    notes: Can windbomb away afterwards
+- .dir(N>) Turn
+- _Korok::E25
+- .dir(N.):
+    coord: [1579.6686827722324,-1982.0005864314053]
+- _Material<10 Fireproof Lizards>:
+    icon-map: null
+    comment: ""
+    movements:
+    - to: [1605.70, 441.12, -1981.67]
+      marker: "#0f0"
+    - to: [1630.89, 439.24, -1974.67]
+      marker: "#0f0"
+    - to: [1634.37, 433.87, -1953.27]
+      marker: "#0f0"
+    - to: [1633.87, 433.62, -1951.08]
+      marker: "#0f0"
+    - to: [1652.15, 430.77, -1931.88]
+      marker: orange
+    - to: [1658.14, 430.50, -1925.66]
+      marker: "#0f0"
+    - to: [1670.67, 428.92, -1918.46]
+      marker: orange
+    - to: [1701.79, 430.53, -1932.14]
+      marker: "#0f0"
+    - to: [1712.06, 430.61, -1939.71]
+      marker: orange
+    - to: [1683.16, 430.31, -1948.15]
+      marker: orange
+    notes: Orange markers are under rock
+- _Npc<Lizald Guy>:
+    coord: [1657.35, 430.17, -1960.60]
+    comment: Put on Armor
+- _Tod::Night:
+    icon-map: null
+- _Npc<Greyson>:
+    coord: [1656.63, 430.15, -1968.53]
+    comment: scare him up
+    counter: .split-npc(TTOWN)
+- .dir(<<N):
+    notes: Take updraft slightly before shooting
+- _Korok::E19
+- .dir(N>) midair
+- _Korok::E18
+- .dir(N)
+- _Discover<Stolock Bridge>:
+    icon-map: null
+- .dir(N) midair
+- _Korok::E14
+- Run/Glide down
+- .important(UNBURN BOW)
+- _Korok::E13
+- .important(UNBURN BOW)
+- .dir(S>)
+- _Korok::E15
+- Run to shop
+- _Shop<Goron Spice>:
+    coord: [1681.3854242711159,-2459.734141917414]
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+- .dir(N>)
+- _Shrine::ShaeMosah
+
+- .dir(<N) Turn:
+    coord: [1640.1333074276645,-2952.010360288161]
+- _Npc::Goron<Yunobo>
+- .gale(1)
+- _Korok::E08
+- .dir(<N) Turn
+- _Korok::E07
+- _Shrine::ShoraHah
+- Minecart out to rock:
+    coord: [1619.4305275321767,-3090.095001887664]
+- .dir(<W) Turn
+- _Boss::Talus::Igneo:
+    coord: [1336.10, 507.31, -3043.21]
+    comment: Get Flint
+- .dir(<W) DT:
+    coord: [1284.2929066130182,-3079.0971521361503]
+- _Korok::K08
+- .dir(W>) Turn
+- _Korok::K07
+- .dir(W>) Turn:
+    coord: [-7.997535147716917,-3019.065484840262]
+- _Korok::K06::Away<white>
+- .dir(<E) Turn Enter Forest
+- .dir(E)
+- _Boss::Hinox::Blue:
+    coord: [341.82, 278.73, -3116.14]
+- _Shrine::KetohWawai

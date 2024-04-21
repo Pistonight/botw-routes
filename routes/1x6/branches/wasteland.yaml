@@ -1,15 +1,9 @@
 - _Warp::Beast::Naboris
 - Run Down:
-    movements:
-    - [-2245.003148145865,2593.9667688870313]
-    - push
-- _Korok::W33:
+    coord: [-2245.003148145865,2593.9667688870313]
+- _Korok::W33::Away<white>:
     comment: Below bridge
-    color: white
-- .dir(W):
-    color: "#f88"
-    movements:
-    - pop
+- .dir(W)
 - _Korok::W31
 - _Korok::W32
 - .dir(N)
@@ -101,15 +95,8 @@
     movements:
     - [-2246,3209.628593443289]
     - [-2692,2731.851437377316]
-    - push
-- _Korok::W35:
-    movements:
-    - to: [-2625,2750.847723311749]
-      color: white
-- _Shrine::KorshOhu:
-    movements:
-    - pop
-    - _Shrine::KorshOhu
+- _Korok::W35::Away
+- _Shrine::KorshOhu
 - .gale(1) + .dir(S)
 - _Korok::W40
 - .dir(N>) + .dir(N)

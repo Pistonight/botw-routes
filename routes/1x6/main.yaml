@@ -10,7 +10,7 @@
 - Ruta:
   - use: ./branches/ruta.yaml
 - Rudania:
-  - TODO
+  - use: ./branches/rudania.yaml
 - Korok Forest:
   - TODO
 - Plateau EX:

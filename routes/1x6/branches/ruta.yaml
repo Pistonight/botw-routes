@@ -24,16 +24,9 @@
     comment: Cryo
 - .dir(E):
     coord: [3253,1477.9800613322186]
-- _Korok::N30:
+- _Korok::N30::Away<white>:
     comment: Left Tree
     notes: Stasis + Bomb
-    movements:
-    - push
-    - to: [3246.5,1553.9845573063267]
-      color: white
-- Run:
-    movements:
-    - pop
 - _Korok::N22
 - .dir(.E) Turn
 - _Korok::N23
@@ -106,15 +99,9 @@
     - pop
     
 - Bomb boulder down:
-    movements:
-    - to: [2500.8167793135963,893.9775201294624]
-    - push
-    - to: [2409.7793957206304,850.9859256462723]
-      color: white
-- _Korok::N11
-- .dir(E):
-    movements:
-    - pop
+   coord: [2500.8167793135963,893.9775201294624]
+- _Korok::N11::Away
+- .dir(E)
 - _Korok::N13
 - .dir(<E) Turn:
     movements:

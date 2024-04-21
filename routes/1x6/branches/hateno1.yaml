@@ -253,8 +253,8 @@
     banner: true
 - Eat all .item(Roasted Endura Carrot)
 - _Reload
-- _Npc<Tarrey Town 0>:
-    counter: .split-npc(NPC)
+- _Npc<Hudson>:
+    counter: .split-npc(TTOWN)
     coord: [3331.3652185548235,2281.3474847343996]
     comment: Buy House, talk to Hudson
 - _:
