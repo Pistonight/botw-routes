@@ -1,0 +1,92 @@
+- Run out of cave + .dir(.N):
+    movements:
+    - [1996.1830152820467,-2028.0760406055579]
+    - [1991.1809612384768,-2115.0590340948033]
+- _Korok::E20::Away<white>:
+    notes: Can WB to Talus after bombing boulder
+- .dir(<E) Turn:
+    coord: [2099.2253285795796,-2187.044959741075]
+    notes: Keep fairly to the west of talus to avoid unloading the korok
+- _Boss::Talus::Igneo:
+    coord: [2138.2413501194214,-2174.047500943832]
+    notes: Get to 11 Flints. 1 more talus left
+- SQ
+- _Korok::E21
+- .gale(1) + .dir(E) + .dir(E) Turn
+- _Korok::E23
+- .dir(<<W) DT
+- _Korok::E28
+- .dir(<<W) DT
+- _Shrine::QuaRaym
+- .dir(<<W) Super
+- _Korok::E35
+- .dir(W>) Turn
+- _Korok::K32
+- .dir(N>) midair
+- _Korok::K31
+- .dir(W.) + climb
+- _Tower::Woodland
+
+- Drop down one ledge to the left
+- .dir(<N) Turn
+- _Chest::Special<Korok Mask>:
+    coord: [721.69, 280.22, -1847.74]
+- .dir(W>) + .dir(NW):
+    movements:
+    - [486,-2050.1602912507906]
+    - [256.19, 281.61, -2229.61]
+    notes: Look up, use minimap
+- _Npc<Tasho>
+- .important(Start Oaki):
+    notes: Make sure quest updates. Look at the speedfood timer. Oaki will be at shrine in 5:30 minutes
+- .dir(E)
+- _Npc<Walton>:
+    coord: [417.59, 334.17, -2180.27]
+    comment: Riddles of Hyrule
+    notes: Drop Apple, Sunshroom, Pumpkin, Voltfin, Lynel Hoof
+- _Snap<Sunshroom>:
+    icon-map: null
+- Activate Shrine:
+    icon: incomplete
+    coord: [470,-2167.552583349345]
+- _Equipment::Weapon<Korok Leaf>:
+    coord: [473.68, 249.02, -2125.30]
+- Hestu:
+    coord: [466.03, 249.56, -2112.38]
+    comment: 5 Bow 5 Weapon
+    icon: hestu
+- Activate TOTS Cutscene:
+    coord: [431.66, 250.53, -2111.00]
+- _Cook<Cold Elixir>:
+    comment: Tail + Winterwing
+    coord: [420.36, 258.36, -2176.23]
+- _EntanglePrompt<Dupe Bow,BOW,1>:
+    icon-map: null
+    notes:
+    - Swing Thunderblade and drop it + EOD
+    - Equip Duplex/Knights in menu
+    - Unpause pause
+    - PE Equip GEB in overworld
+    - Take GEB out and zap Link
+    - Pick up GEB, Switch Bow, Repeat 4 times
+    - If you don't have PE, you should pick up lynel bow and duplex bow from traveling Yiga, and dupe during transmutation
+- _Material<5 Frogs + 10 Crickets>:
+    comment: Cut Grass
+    icon-map: null
+- _Material<5+ Nightshade>:
+    comment: For Transmutation
+    icon-map: null
+- Finish Oaki:
+    movements:
+    - [324,-2183.1211958237686]
+    - [254.20, 280.29, -2258.10]
+    - [238,-2275.103211927338]
+    - [199,-2265.1051666986896]
+    - [166,-2285.1012571559872]
+    - [173,-2307.0969566590147]
+    - [174,-2332.092069730637]
+    - [155,-2359.086791847989]
+    - [122,-2338.0908968678264]
+    - [91,-2374.0838596909625]
+    - [69,-2432.072522017126]
+- _Shrine::DaagChokah

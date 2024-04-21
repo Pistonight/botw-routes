@@ -200,3 +200,111 @@
 - _Boss::Hinox::Blue:
     coord: [341.82, 278.73, -3116.14]
 - _Shrine::KetohWawai
+- _Tod::Morning:
+    comment: Dinraal
+    icon-map: null
+    notes: Need Scale, Horn, Claw
+- .dir(.E) + .dir(<E) TS
+- _Korok::K04
+- .dir(W>) Turn
+- _Korok::K01:
+    notes: After this korok, shoot dinraal, make morning, get part
+- _Korok::K02:
+    notes: After this korok, shoot dinraal, make morning, get part
+- _Korok::K03
+- .dir(E)
+- _Material<Lynel Hoof>:
+    coord: [1257.69, 207.16, -3753.55]
+    comment: Kill Lynel
+- .dir(E.)
+- _Korok::E01
+- _Material<Lynel Hoof (Backup)>:
+    movements:
+    - [1608.619499540575,-3856.044959741075]
+    - [247.00, 173.39, -3668.50]
+    comment: Kill Lynel
+    color: gray
+    notes: The other backup is to kill the Lynel in castle/coliseum and do Riddles of Hyrule at the end of the run
+
+- _Warp::Shrine::ShaeMosah:
+    color: red
+- SQ aim at dot:
+    coord: [1708.6491235631493,-2447.079754671125]
+- .important(UNBURN BOW)
+- Daruk Memory:
+    icon: rudania-memory
+    counter: .split-npc(BEAST)
+- .dir(E)
+- _Korok::E16
+- .dir(<S)
+- _Korok::E17
+- .dir(<S) + .dir(E) midair:
+    coord: [1923.7374474366397,-2313.10594860723]
+- _Shrine::DaqaKoh
+
+- .dir(<<W) DD:
+    notes: Stand right corer, aim a bit right of right lavafall
+- _Equipment::Weapon<Drillshaft>:
+    coord: [1946.80, 632.72, -2203.24]
+- .dir(<E) Turn
+- _Npc::Goron<Rescue Yunobo>:
+    coord: [2143.1805504297627,-2298.031471818753]
+    notes: AA the moblins and stay in BT until they disappear
+- .dir(N>) Start Escort:
+    coord: [2225.214236744303,-2364.518472589268]
+- Enter Rudania:
+    icon: rudania-enter
+    notes: Get to 10 ambers and get 3 screws. AA all drones/moblin
+    movements:
+    - [2297.7440203760616,-2378.015833647944]
+    - [2381.278322903674,-2299.0312763416177]
+    - [2429.7982471262985,-2297.031667295888]
+    - [2444.804409257007,-2308.529419308834]
+    - [2617.8754791645133,-2285.533915282942]
+    - [2669.3966358132784,-2327.0258029818347]
+    - [2680.4011547091322,-2330.0252165504294]
+    - [2668.396225004566,-2355.520231883484]
+    - [2757.4327869801036,-2447.502247987054]
+    - [2770.438127493384,-2481.49560176446]
+    - [2798.6595991853537,-2657.008503255377]
+- _Equipment::Bow<Knights Bow>:
+    icon-map: null
+    comment: Inside Rudania
+- .gale(1) Inside Rudania
+- Fireblight:
+    notes: AA, 3 Duplex, 1 omeGEB, all head. Unburn bow before activating
+    icon: rudania-done
+    icon-map: null
+    counter: .split-npc(BEAST)
+
+- _Npc::Goron<Shrine Brother>:
+    color: yellow
+    comment: 2,1
+    movements:
+    - to: [1570.0299890361157,-2422.05717706202]
+      warp: true
+    - [1647.2634539853807,-2463.76099558885]
+- _Npc::Goron<Talus Guy>:
+    coord: [1661.1441539562857,-2466.260506896012]
+    comment: Talk TWICE
+- _Npc::Gerudo<Amber Lady>:
+    coord: [1673.7743404162993,-2447.014269830863]
+    comment: Talk TWICE
+- _Npc::Goron<Bludo>:
+    coord: [1702.4110998157348,-2450.013683399458]
+- .gale(1) + .dir(.S)
+- _Npc::Goron<Drillshaft Kid>:
+    coord: [1787.98, 581.97, -2244.39]
+- .dir(SE) Start Quest:
+    coord: [1990.3060524918628,-2035.1640053163574]
+- .dir(SW) To Rock Roast:
+    movements:
+    - push
+    - to: [1826.2386798627813,-1894.1915675924079]
+      color: white
+    - pop
+    notes:
+      To activate Daruk's Protection during quest,
+      Switch to mag, hold ZL, press L, then switch to bombs
+      and do GG normally. Unequip bow beforehand so it doesn't burn.
+- _Shrine::KayraMah

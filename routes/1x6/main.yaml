@@ -12,9 +12,9 @@
 - Rudania:
   - use: ./branches/rudania.yaml
 - Korok Forest:
-  - TODO
+  - use: ./branches/korok-forest.yaml
 - Plateau EX:
-  - TODO
+  - use: ./branches/plateau2.yaml
 - Bloodmoon:
   - TODO
 - Gerudo:
