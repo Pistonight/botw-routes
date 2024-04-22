@@ -17,6 +17,7 @@
   - use: ./branches/plateau2.yaml
 - Bloodmoon:
   - use: ./branches/castle.yaml
+  - use: ./branches/ridgeland.yaml
 - Gerudo:
   - TODO
 - Lake:

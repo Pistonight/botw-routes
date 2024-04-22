@@ -1,0 +1,59 @@
+- .dir(<W) Turn
+- _Korok::C30
+- .dir(N>)
+- _Korok::C25
+- .dir(.E) Turn:
+    coord: [-628.5,-500.50185703278385]
+- _Korok::C26::Away<white>
+- _Discover<Water Reservoir>:
+    coord: [-618.5,-516.4987293986214]
+- Glide:
+    coord: [-675,-516.9986316600543]
+- _Korok::C22
+- .dir(W.)
+- _Korok::C21
+- Run
+- _Korok::C20
+- .dir(N.) Turn:
+    coord: [-744.5,-825.0459371267507]
+- _Boss::Talus::Rare:
+    movements:
+    - push
+    - to: [-768.74, 152.76, -804.49]
+      color: white
+    comment: .fury(3) if rain
+- .dir(SE):
+    movements:
+    - pop
+    - [-613,-664.5773112069364]
+- _Korok::C15:
+    comment: Cryo
+- .dir(<N) Turn
+- _Chest::Special<Tingle Shirt>:
+    coord: [-681.15, 119.72, -813.12]
+- _Korok::C08:
+    comment: Leave shield
+- _Korok::C03
+- .dir(<N)
+- _Korok::C01
+- .dir(S>) TUrn
+- _Korok::C07
+- .dir(S) Fast
+- _Korok::C14
+- _Shrine::NoyaNeha:
+    notes: Drop bomb midair
+
+- Jump out + .dir(W):
+    coord: [-1179,-640.2177615285127]
+- _Korok::R19::Away<white>:
+    notes: Can WB Away
+- .dir(N.)
+- _Korok::R16
+- .dir(N.) Turn:
+    coord: [-1038,-1084.1309696805238]
+- _Korok::R11::Away<white>
+- .dir(W)
+- _Korok::R10
+- .dir(N.) Fast Turn
+- _Korok::R07
+- _Memory::IrchPlain
