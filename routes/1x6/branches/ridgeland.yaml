@@ -57,3 +57,172 @@
 - .dir(N.) Fast Turn
 - _Korok::R07
 - _Memory::IrchPlain
+
+- .dir(E.) Turn
+- _Boss::Hinox::Blue:
+    coord: [-752.49, 187.41, -1268.12]
+- .dir(N>)
+- _Korok::K29
+- .dir(N>) + .dir(<E):
+    coord: [-658,-1682.3405211693625]
+- _Korok::K27
+- SQ .dir(E)
+- _Korok::K28:
+    notes:
+    - The next section has a lot of shooting acorn from midair. The directions are just reference, you might need to adjust on the fly depending on the results
+    - Also, you lose a lot of time from rain/thunderstorm in the next section due to no bomb arrow and low visibility. It might be worth to reload the autosave you got from this korok if it's raining
+- .dir(<N) Turn
+- _Boss::Hinox::Blue:
+    coord: [-480.55, 278.99, -2039.64]
+- .dir(<W) Turn
+- _Korok::K19
+- .dir(W>)
+- _Korok::K16
+- .dir(S>)
+- _Korok::K18
+- .dir(<S) Turn
+- _Korok::K26
+- .dir(W) Fast
+- _Korok::K24
+- .dir(<E)
+- _Korok::K25
+- Get Horse
+- _Korok::K17
+- .dir(S>)
+- _Korok::K23
+- .dir(S)
+- _Shrine::MonyaToma
+- .dir(W.) Turn
+- _Shrine::MaagNorah
+
+- .dir(N) DEFUSE + .dir(W):
+    coord: [-1955,-1561.172801787438]
+- _Korok::R03
+- .dir(.N) Turn
+- _Korok::H71
+- .dir(S)
+- _Boss::Talus::Luminous:
+    coord: [-2177.46, 322.30, -1585.39]
+    comment: .fury(3)
+    notes: Fury might not be back if you had to fury the talus earlier, just shoot him
+- _Korok::R02
+- .dir(<S) + .dir(SE):
+    coord: [-2147,-1349.1460214199274]
+- _Korok::R06
+- .dir(E>)
+- _Korok::R09
+- .dir(<S) Turn
+- _Tower::Ridgeland:
+    comment: "29.58% "
+
+- .dir(W) Canal
+- _Korok::R15
+- .dir(<N) DD
+- Red Orb:
+    icon: tots
+    coord: [-2136.5,-908.5577634934252]
+- .dir(NW)
+- Orange Orb:
+    icon: tots
+    coord: [-2270.5,-1041.031862773023]
+- .dir(NW)
+- _Korok::R08
+- .dir(<S) DD
+- Green Orb:
+    icon: tots
+    coord: [-2287.5,-881.0631391146408]
+- _Shrine::TohYahsa
+- .dir(S>)
+- _Korok::R14
+- .dir(<S) + midair if need
+- _Korok::R23
+- _Korok::R24::Away<white>:
+    comment: Get during R23
+- SQ
+- _Korok::R18:
+    comment: .gale(1)
+- .dir(SE)
+- _Korok::R25
+- .dir(<E) Turn
+- _Shrine::ZaltaWa
+
+- .dir(E>) + .dir(E>) Turn
+- _Korok::C24
+- SQ .dir(N>)
+- _Korok::R26
+- _Korok::R27::Away<white>:
+    comment: Shoot before finishing race
+- .dir(.S) Turn
+- _Korok::R44
+- _Korok::R43::Away<white>
+- _Korok::R45
+- .dir(<<W)
+- _Korok::R42
+- .dir(SE):
+    coord: [-1121,185.86863936520604]
+- _Boss::Hinox::Black:
+    movements:
+    - push
+    - to: [-1177.05, 139.48, 118.51]
+      color: white
+- Glide:
+    movements:
+    - pop
+- _Korok::C38
+- .dir(W)
+- _Korok::C36
+- SQ .dir(W>)
+- _Chest::Special<Midna Helm>:
+    coord: [-1402.26, 113.92, 219.36]
+    comment: Unequip all armor
+- SQ
+- _Korok::R49
+- .dir(N):
+    coord: [-1498,93.88662326163649]
+- _Korok::R48::Away
+- .dir(W):
+    coord: [-1671,115.92004985174026]
+- _Discover<Jeddo Bridge>
+- .dir(N.) Turn
+- _Korok::R39
+- SQ .dir(<E)
+- _Korok::R40:
+    comment: Stasis Hits
+- _Boss::Hinox::Blue:
+    movements:
+    - push
+    - to: [-1535.5,-171.006450745459]
+      color: white
+- .dir(S>) Turn:
+    movements:
+    - pop
+- _Korok::R41
+- Surf
+- _Npc<Kass>:
+    coord: [-1688,59.448491774898685]
+- .dir(W) do quest
+- _Shrine::SheemDagoze
+- .dir(N)
+- _Korok::R38:
+    comment: Right Tree
+- .dir(S>)
+- _Korok::R47
+- .dir(W>) Turn
+- _Korok::R37
+- .dir(<W) + midairs:
+    coord: [-2768,204.8793906076371]
+- _Npc<Kass>
+- _Tod::Night:
+    comment: Twice
+    icon-map: null
+- _Shrine::MijahRokee:
+    notes: Equip Gerudo, flamebreaker, snowboots. If you like to SCW when on fire, equip zora armor instead.
+
+- .important(USE ALL DARUK):
+    notes: It will interfere with SCW, or turn it off
+- .dir(S) DT
+- _Korok::R72
+- .dir(.W) Turn
+- _Korok::R71
+- .dir(N) Turn
+- _Korok::R59

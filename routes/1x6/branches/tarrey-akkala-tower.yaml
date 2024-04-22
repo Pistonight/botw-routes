@@ -1,0 +1,28 @@
+- _Warp::Shrine::KayraMah:
+    color: red
+- .important(EQUIP KNIGHTS BOW)
+- .gale(1) SCW:
+    coord: [1959,-2036.0134879223224]
+- .gale(1) + .dir(E)
+- _Shrine::RinuHonika
+
+- SQ
+- _Korok::E22
+- _Boss::Talus::Igneo:
+    movements:
+    - push
+    - to: [2374,-1990.049651192318]
+      color: white
+    notes: If you need flint, then you have to go to it
+- Activate Shrine:
+    notes: Midair after touching ring
+    movements:
+    - pop
+    - [2241,-1998.0480873752367]
+- .important(EQUIP KNIGHTS BOW)
+- Shield Surf SCW
+- BLSS:
+    coord: [3134.5,-834.5845438609349]
+- _Equipment::Weapon<Moblin Club>:
+    notes: Make sure you are Grounded, use shock arrow
+- _Shrine::SatoKoda

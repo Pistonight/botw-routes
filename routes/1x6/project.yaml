@@ -6,6 +6,7 @@ config:
     with:
       Shrines: "(.var(pad03:counter-korok)) .prop(text)"
       Warps: ".prop(comment)Warp .prop(text)"
+      Towers: ".prop(comment).prop(text)"
       Memories: ".var-roman-upper(counter-memory) .prop(text)"
 - use: Pistonight/celer-presets/botw/full.yaml
 - use: ../../common/config.yaml

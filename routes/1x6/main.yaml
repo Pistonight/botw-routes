@@ -18,6 +18,7 @@
 - Bloodmoon:
   - use: ./branches/castle.yaml
   - use: ./branches/ridgeland.yaml
+  - use: ./branches/tarrey-akkala-tower.yaml
 - Gerudo:
   - TODO
 - Lake:

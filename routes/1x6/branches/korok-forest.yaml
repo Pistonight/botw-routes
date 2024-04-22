@@ -59,6 +59,8 @@
 - _Cook<Cold Elixir>:
     comment: Tail + Winterwing
     coord: [420.36, 258.36, -2176.23]
+- _Shop<4 Razorshrooms>:
+    icon-map: null
 - _EntanglePrompt<Dupe Bow,BOW,1>:
     icon-map: null
     notes:
