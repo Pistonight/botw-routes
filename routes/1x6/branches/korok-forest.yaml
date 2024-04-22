@@ -47,7 +47,6 @@
 - _Snap<Sunshroom>:
     icon-map: null
 - Activate Shrine:
-    icon: incomplete
     coord: [470,-2167.552583349345]
 - _Equipment::Weapon<Korok Leaf>:
     coord: [473.68, 249.02, -2125.30]

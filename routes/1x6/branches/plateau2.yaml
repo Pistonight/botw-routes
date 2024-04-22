@@ -280,3 +280,83 @@
 - _Korok::C62
 - .dir(W>>) DD
 - _Shrine::KaamYatak
+
+- .dir(S.) Fast
+- _Korok::C61
+- .dir(W.)
+- _Korok::C60
+- .dir(NW)
+- _Korok::C57
+- Run
+- _Discover<Gleeok Bridge>:
+    coord: [-1309,774.9018704781747]
+- .dir(.W) Turn
+- _Korok::C58
+- .dir(SW)
+- _Korok::C59:
+    comment: Cryo
+- .dir(<N)
+- _Korok::R74
+- .gale(1) + .dir(.N)
+- _Memory::SanidinPark
+
+- SQ to white horse:
+    coord: [-1676,815.893855915635]
+- Ride to korok
+- _Korok::R79
+- Ride to stable, get MAX bond:
+    movements:
+    - [-1929,1027.8524147629914]
+    - [-1880,1076.842836383371]
+    - [-1642,1021.853587625802]
+    - [-1577,1014.8549559657476]
+    - [-1442,1249.809018838997]
+- _Npc<Register Horse>:
+    comment: 2,1,1,1
+- _Npc<Old Guy>:
+    coord: [-1439.25, 137.72, 1278.45]
+    notes: Royal Horse Gear
+- _Npc<Gourmet Meat Guy>:
+    coord: [-1426,1277.4752232731244]
+    comment: Talk TWICE
+- _Npc<Fan Girl>:
+    comment: 2
+    coord: [-1400.00, 137.72, 1280.00]
+- Run
+- _Korok::C78
+- .dir(<N)
+- _Korok::C72
+- .dir(<<W) DD
+- _Shrine::RotaOoh
+
+- Run forward + .dir(<W)
+- _Korok::C85
+- .dir(SW)
+- _Korok::R80
+- SQ .dir(<E)
+- _Korok::C86
+- .dir(E>)
+- _Korok::C87
+- .dir(.S) Fast
+- _Korok::C89:
+    comment: GG Throw
+- .dir(W>>) DD
+- _Shrine::DahKaso
+
+- .gale(1) + .dir(W>)
+- _Korok::G29
+- .dir(.S) Turn
+- _Discover<Gerudo Canyon Pass>:
+    coord: [-1679,2020.7820429943513]
+- .dir(N):
+    coord: [-1731,1846.8160560158612]
+- _Boss::Hinox::Blue:
+    movements:
+    - push
+    - to: [-1704.30, 111.60, 1776.78]
+      color: white
+    notes: Make sure he dies before warping
+- Drop down:
+    movements:
+    - pop
+- _Korok::C88

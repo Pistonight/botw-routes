@@ -88,8 +88,10 @@
 - Kill Skywatcher:
     movements: 
     - [-356.0200666557703,-995.8071657546343]
-    - [-353.52034652544626,-984.8114362014999]
+    - [-373.75,-996.0414900219271]
+- _Discover<Zelda's Study>
 - _Material<2 Shaft 1 Spring>:
+    coord: [-353.52034652544626,-984.8114362014999]
     comment: ""
     notes: If you only get 1 Shaft, it's OK, you have to a backup shaft dupe manuover in Kak. Get core too if it dropped.
 - Run toward entrance below:

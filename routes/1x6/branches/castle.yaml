@@ -1,0 +1,156 @@
+- _Warp::Shrine::KeoRuug:
+    color: "#0f0"
+- _Shrine::KeoRuug
+- .dir(E):
+    coord: [564.99, 264.83, -2160.65]
+- _Npc<Test of Wood>
+- _EntanglePrompt<Dupe Hylian Shield,SHIELD,1>:
+    notes: PE Equip Hylian Shield, Drop FD Shield, Pick up Hylian Shield
+- _Shrine::MaagHalan
+- .dir(SW) Super:
+    coord: [251.03, 285.34, -1979.93]
+    notes: Backup is <W From trial start
+- _Npc<Trial of Second Sight>
+- .dir(<W) Turn
+- _Equipment::Shield<Rusty Shield>:
+    coord: [100.06, 286.08, -1827.37]
+    comment: Keep for Korok
+- Do Shrine:
+    coord: [64,-1912.0983249989604]
+- _Shrine::KuhnSidajj
+
+- .dir(S>) Turn Escape
+- .dir(S) midairs to top of castle
+- _Korok::X05
+- Drop down, shoot from outside
+- _Korok::X06
+- Drop down
+- _Korok::X10
+- .dir(W)
+- _Korok::X07
+- Drop down
+- _Memory::HyruleCastle
+- .gale(1) + .dir(<E)
+- _Chest::Special<Royal Guard Cap>:
+    coord: [-253.98, 336.07, -1080.48]
+- Drop down
+- Calamity:
+    icon-doc: calamity
+    counter: .split-end-game(GANON)
+    notes: Shoot him
+- Dark Beast:
+    icon-doc: ganon
+    counter: .split-dark-beast(BEAST)
+- .important(CLOSE GAME):
+    notes: As soon as main menu fades in
+- SQ .dir(S)
+- _Korok::X03
+- Glide
+- _Chest<Naydra Scale>:
+    coord: [-173.5,-1170.9504465462496]
+- _Korok::X02
+- _Chest<Dinraal Scale>:
+    coord: [-194,-1221.940477212359]
+- .dir(N.) Turn
+- _Korok::K30
+- .dir(S) Turn enter East Passage:
+    coord: [-106.5,-1150.506157529756]
+- _Korok:X11:
+    color: "#8f8"
+- _Boss::Talus::Rare:
+    coord: [-136.65, 127.21, -956.26]
+    comment: .fury(3)
+- Updraft, bomb eye
+- _Chest<Farosh Fang>:
+    coord: [ -133.07, 170.48, -950.46]
+- Run through Library
+- _Equipment::Shield<Royal Guard Shield>:
+    comment: King's Study
+    coord: [-168.5,-1119.017104249322]
+- Run to shrine
+- _Shrine::SaasKosah
+- BLSS out:
+    coord: [-293,-1128.0153449551062]
+- _Korok::X01:
+    color: "#0f0"
+- .dir(<W):
+    notes: Aim at pillar
+- _Korok::X04:
+    comment: Bullet time
+- .dir(S):
+    coord: [-351.5,-937.7753142889969]
+- Enter through staircase:
+    color: "#8f8"
+    movements:
+    - [-359,-909.5580567091279]
+    - [-312.5,-907.558447663398]
+    - [-336.5,-802.0790705011523]
+- _Korok::X19
+- _Chest<Naydra Fang>:
+    coord: [-346.5,-809.53816691063]
+- _Chest::Special<Royal Guard Boots>:
+    coord: [-344,-845.0312274723337]
+- Run out + .gale(1):
+    movements:
+    - [-357.5,-804.5391442963055]
+    - [-402.25,-831.533866413658]
+- _Discover<First Gatehouse>:
+    color: "#0f0"
+    coord: [-373.25,-826.2848926686174]
+- Glide
+- _Korok::X18
+- .dir(E>):
+    notes: Aim sightly left of where you are going
+- _Discover<Observation Room>:
+    icon-map: null
+    comment: Step on Malice
+- _Korok::X23
+- _Korok::X22
+- .gale(1)
+- _Korok::X23
+- .dir(N) Fast
+- _Korok::X14
+- .dir(<W):
+    notes: Aim right of where you are going
+- _Korok::X17
+- .dir(<E)
+- _Korok::X16:
+    notes: Aim right
+- Drop down
+- _Discover<Second Gatehouse>:
+    coord: [-139.5,-887.0230174326589]
+- .dir(<E)
+- _Korok::X12
+- .dir(S) Fast:
+    coord: [-108,-825.2850881457525]
+- Enter Dining Hall:
+    color: "#8f8"
+- _Chest::Special<Royal Guard Uniform>:
+    coord: [-165,-895.521355877011]
+    comment: End of hallway
+- Run back:
+    coord: [-153.5,-880.7742391647535]
+- _Korok::X15::Away:
+    comment: Shoot from intersection
+- _Material<Raw Meat>:
+    coord: [-104.5,-839.5323025965772]
+    comment: In Dining Hall
+- Run out + SQ:
+    coord: [-101.75,-812.7997489308855]
+    color: "#0f0"
+    notes: Aim along road
+- _Korok::X20
+- .dir(S>)
+- _Korok::X24:
+    notes: Kill Skywatcher
+- _Korok::C16
+- _Korok::X25
+- .dir(S.) TS:
+    coord: [-275.5,-274.553072042183]
+- _Korok::C32::Away<white>
+- _Korok::C27
+- .dir(<<E) Turn
+- _Korok::C31
+- .dir(NW)
+- _Shrine::KatahChuki
+    

@@ -16,7 +16,7 @@
 - Plateau EX:
   - use: ./branches/plateau2.yaml
 - Bloodmoon:
-  - TODO
+  - use: ./branches/castle.yaml
 - Gerudo:
   - TODO
 - Lake:
