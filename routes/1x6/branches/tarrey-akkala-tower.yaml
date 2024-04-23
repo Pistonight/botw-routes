@@ -1,7 +1,7 @@
 - _Warp::Shrine::KayraMah:
     color: red
 - .important(EQUIP KNIGHTS BOW)
-- .gale(1) SCW:
+- Shield Surf SCW:
     coord: [1959,-2036.0134879223224]
 - .gale(1) + .dir(E)
 - _Shrine::RinuHonika
@@ -24,5 +24,73 @@
 - BLSS:
     coord: [3134.5,-834.5845438609349]
 - _Equipment::Weapon<Moblin Club>:
-    notes: Make sure you are Grounded, use shock arrow
+    notes: Make sure you are Grounded, use shock arrow if needed. If you are fast, can just pick it up before moblin gets it
 - _Shrine::SatoKoda
+
+- .gale(1) Kill Guardians:
+    movements:
+    - push
+    - to: [3226.401778379064,-955.0287351388611]
+      color: white
+      marker: orange
+    - pop
+    - push
+    - to: [3176.3811532056006,-926.0344039757792]
+      color: white
+      marker: orange
+    - pop
+    - push
+    - to: [3074.339077851737,-936.0324492044283]
+      color: white
+      marker: orange
+    - pop
+    - push
+    - to: [3081.341965376021,-844.0504331008588]
+      color: white
+      icon: camera
+    - pop
+    notes: Watch out for keese when you drop down
+- _Snap<Guardian Skywatcher>:
+    icon-map: null
+- .dir(SW):
+   color: "#800"
+- _Korok::Z17
+- Drop down
+- _Korok::Z16
+- .dir(.E) Turn:
+    coord: [3518.5222293920906,-541.1096626727967]
+- Start Ring Quest:
+    color: red
+    movements:
+    - [3671.296383742667,-598.5440800939678]
+- _ZoraMonument:
+    coord: [3721.8172151678646,-532.5569815848849]
+- Finish Ring Quest:
+    coord: [3734.3223714612304,-598.5440800939678]
+- _Shrine::MahEliya
+
+- .dir(<E)
+- _Korok::Z08
+- .dir(W>) Turn (Super)
+- _Chest<Zora Helm>:
+    coord: [3461.5855944698724,-885.5152472165382]
+- .dir(E)
+- _Korok::Z05
+- .dir(W.) Turn:
+    notes: If not raining, use bomb arrow for updraft
+- _Korok::Z04
+- .dir(N.) Fast TS
+- _Tower::Akkala:
+    comment: "33.25% "
+- Drop down .dir(W)
+- _Korok::A41
+- .dir(N>)
+- _Korok::A40
+- _Korok::A39:
+    comment: OmeGEB upper part of door
+- _Snap<Skywatcher (Backup\)>:
+    icon-map: null
+- .dir(E) DT
+- _Npc<Hudson>:
+    coord: [3987.094280599842,-1602.45562669033]
+    comment: Talk TWICE

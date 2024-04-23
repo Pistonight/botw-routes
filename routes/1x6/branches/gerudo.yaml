@@ -1,0 +1,69 @@
+- _Warp::Shrine::KuhTakkar:
+    comment: "33.57% "
+    color: yellow
+- Campfire SCW:
+    coord: [-3307.425130620328,1334.451521670493]
+    notes: Blow up the campfires if you are worried about failing the midair. You can shield surf too but you have to run
+- .dir(<W) Turn
+- _Tod::Noon:
+    comment: For Sasa Kai
+    notes: "14:55 to 15:50"
+- _Shrine::KihiroMoh
+
+- SQ to Hideout
+- Grab .item(Banana) near entrance
+- AA 2 Blademasters on the way
+- Grab All Bananas:
+    notes: You should have 13 bananas total, you need 12 for attack food
+- Transport Ball
+- .gale(1) + .dir(W) + .dir(S):
+    coord: [-3553.882849014729,1364.89405139277]
+- _Boss::Talus::Frost:
+    coord: [-3561.886149042483,1554.8569107370986]
+- .dir(W) Fast
+- _Korok::G26
+- _Material<10 Wildberries>:
+    comment: ""
+    icon-map: null
+    movements:
+    - to: [-3666.95, 569.39, 1529.35]
+      marker: red
+    - to: [-3648.7174637888616,1529.862416159427]
+      marker: red
+    - to: [-3657.846227883019,1536.2361699926905]
+      marker: red
+    - to: [-3664.974166970237,1535.8612432966165]
+      marker: red
+    - to: [-3663.973754466768,1540.610314780225]
+      marker: red
+- .dir(S) Canal
+- _Tower::Gerudo:
+    comment: "33.82% "
+- _Npc<Kass>:
+    coord: [-3661.096485697687,1834.6096550448938]
+- .dir(<W) Turn:
+    notes: If it's after 15:20 you should get shrine first, then do G31
+- _Korok::G31
+- .dir(E>) Turn
+- _Shrine::SasaKai
+- .dir(W>) + .dir(W>) Turn:
+    notes: Use a faster angle for the first and a more moderate angle for the midair turn
+- _Korok::G30
+- .dir(<<N)
+- _Boss::Talus::Luminous:
+    coord: [-4283.952562101035,1472.974783449571]
+    comment: .fury(3)
+- _Korok::G21
+- .dir(E) + .dir(N):
+    coord: [-4107.879961490445,1480.9732196324894]
+- _Korok::G16
+- .dir(W) Canal
+- _Korok::G20
+- .dir(.N)
+- _Korok::G15
+- .dir(<<E):
+    notes: Reposition rock
+- _Korok::G11
+- .dir(W>) + midairs
+- _Korok::G07
+- _Shrine::KemaKosassa

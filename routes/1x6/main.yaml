@@ -20,7 +20,7 @@
   - use: ./branches/ridgeland.yaml
   - use: ./branches/tarrey-akkala-tower.yaml
 - Gerudo:
-  - TODO
+  - use: ./branches/gerudo.yaml
 - Lake:
   - TODO
 - Central:
