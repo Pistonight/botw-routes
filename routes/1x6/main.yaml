@@ -1,3 +1,6 @@
+- "Windbomb shorthands: '<', '>' and '.' next to directions means aim in off-cardinal direction. TS = Turn Super, DD = Delay Detonation, SQ = Square First (If square first direction is not given, aim visually at where you are going or use minimap). Fast (cardinal) = Instant Drop/Detonation, Fast Turn = Instant Detonation after Turn, Canal = Instant Drop, Regular Turn (Canal windbomb you do in the mag). DEFUSE = remember to blow up the other bomb. Note that not all locations where you need to DEFUSE are marked "
+- If there are not directions between 2 objectives (like 2 koroks), it means they are very close and just Run or Glide
+- NPCs are marked with fastest options. If no options are given just spam first option.
 - Plateau:
   - use: ./branches/plateau.yaml
 - Hateno:
