@@ -154,7 +154,7 @@ GET
 - Headshot the moblin, then Kill him with MS
 - Get EOD and 5 Arrows
 - Whistle sprint and climb out to get skywatcher's attention
-- Kill the skywatcher and drop down, get 2 shaft and 1 spring (and 1 core).
+- Kill the skywatcher, get Zelda's Study location and drop down, get 2 shaft and 1 spring (and 1 core).
   - If missing parts, you need to get them from stalker later, you can't reload
   - There is a backup later in kak if you only get 1 shaft, continue if so
 - Eat the speed and run down to the dinraal fang room

@@ -20,7 +20,10 @@
     - pop
     - [2241,-1998.0480873752367]
 - .important(EQUIP KNIGHTS BOW)
-- Shield Surf SCW
+- Shield Surf SCW:
+    notes: 
+    - Don't use the bomb yourself setup since you might end up in lava. You can use campfire and blow up the campfire by dropping a square bomb after getting the updraft
+    - Alternatively, warp to Dagah Keek and SCW from there
 - BLSS:
     coord: [3134.5,-834.5845438609349]
 - _Equipment::Weapon<Moblin Club>:

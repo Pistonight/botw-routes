@@ -211,7 +211,7 @@
     counter: .split-npc(NPC)
 - Glide to campfire:
     coord: [1824.231556588351,1001.5034940019814]
-- .ist(MENUING) .link([PE Inputs]https://github.com/Pistonight/botw-routes/routes/1x6/IST.md)
+- .ist(MENUING) .link([PE Inputs]https://github.com/Pistonight/botw-routes/blob/main/routes/1x6/IST.md)
 - Start roasting 2 carrots
 - _EntanglePrompt<Eat Arrows,MAT2,1>
 - _EntanglePrompt<Backup Shaft Dupe,BOW,5>:
