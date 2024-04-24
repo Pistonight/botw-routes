@@ -77,6 +77,7 @@
 - _Material<5+ Nightshade>:
     comment: For Transmutation
     icon-map: null
+- .ist(Combine Stacks)
 - Finish Oaki:
     movements:
     - [324,-2183.1211958237686]

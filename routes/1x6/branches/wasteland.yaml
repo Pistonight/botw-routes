@@ -60,9 +60,18 @@
 - _Korok::W50
 - .dir(S>>)
 - _Korok::W58
+- _Snap<Guardian Stalker>:
+    movements:
+    - push
+    - to: [-1890.27, 266.92, 3779.45]
+      color: white
+      icon: camera
+    - pop
+    icon-map: null
 - .dir(<E) Turn:
     coord: [-1744,3469.815469584455]
 - _Shrine::DilaMaag
+
 - .dir(N) to the wall DEFUSE:
     coord: [-1803.5,3359.4291395385226]
 - .dir(E) midairs x3

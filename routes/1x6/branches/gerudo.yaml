@@ -67,3 +67,121 @@
 - .dir(W>) + midairs
 - _Korok::G07
 - _Shrine::KemaKosassa
+
+- .dir(<E) Turn
+- _Korok::G08
+- _Korok::G04
+- .dir(N>)
+- _Korok::G05
+- .dir(<N) Turn
+- _Korok::G01
+- _Discover<Heroine Statue>:
+    coord: [-4361,433.9276734600089]
+- _Snap<Heroine Statue>:
+    movements:
+    - push
+    - to: [-4383,528.9091031321732]
+      color: white
+      icon: camera
+    - pop
+    icon-map: null
+- .dir(NE)
+- _Korok::G02
+- .dir(N) + .dir(E>) Turn:
+    movements: 
+    - [-4177,231.9671598413015]
+    - [-3968,331.9476121277903]
+- _Korok::G03
+- .dir(.E) Turn + .dir(<<S):
+    coord: [-3814,447.9249367801176]
+- _Korok::G06
+- .dir(W.) + Glide up
+- _Shrine::KeehaYoog
+
+- .dir(E.) + .dir(S) midair:
+    coord: [-3701,722.9034342952555]
+- _Korok::G09
+- .dir(<<W):
+    coord: [-3877,887.961881958654]
+- _Snap<Big Sword>:
+    movements:
+    - push
+    - to: [-3969,959.8571062142346]
+      color: white
+      icon: camera
+    - pop
+    icon-map: null
+- .dir(S) Canal:
+    movements:
+    - [-3837,1205.8997202296887]
+    - push
+- _Boss::Talus::Rare:
+    movements:
+    - to: [-3804.76, 602.57, 1204.77]
+      color: white
+- .dir(S) Midair:
+    movements:
+    - pop
+- _Korok::W01
+- .dir(S.) Turn
+- _Material<Get to 10 Luminous>:
+    icon-map: null
+    comment: ""
+- _Shrine::ShoDantu
+
+- .dir(NW):
+    notes: Keep all bananas
+- _Korok::W02
+- _Korok::G25
+- .dir(<W)
+- _Korok::W04
+- _Korok::W05
+- SQ .dir(<N)
+- _Korok::W03
+- .dir(S.) Turn
+- _Korok::W06
+- .dir(E>) Turn
+- _Korok::G33
+- .important(EQUIP GERUDO SHIRT)
+- .dir(<S) DT:
+    coord: [-3915.25,2880.9541606118164]
+- _Npc::Gerudo<Guard>
+- _Npc::Gerudo<Get Sand Seal>:
+    coord: [-3902.75,2881.2041117425324]
+- _Korok::W36:
+    notes: Pick up the voltfruits for transmutation
+- Do Ring Quest:
+    movements:
+    - [-4549,2537.899915706823]
+    - [-4592,2338.93881565671]
+- _Shrine::TakamaShiri
+
+- .dir(.S) Fast Turn
+- _Korok::W25
+- .dir(<S) Turn:
+    notes: Bomb arrow get attention, shoot 2 bomb arrow kill, land, shoot torches
+- _Boss::Molduga:
+    coord: [-4769,2796.8817363332582]
+    comment: Get Guts
+- _Shrine::ThoKayu
+
+- .dir(.S) Fast Turn:
+    movements:
+    - [-4637,3121.960122664437]
+    - push
+- _Boss::Molduga:
+    movements:
+    - to: [-4558,3253.656351196476]
+      color: white
+- .dir(<W):
+    movements:
+    - pop
+    - [-4780,3257.9335377740626]
+- _Korok::W51::Away<white>
+- .dir(>S) Turn
+- _Korok::W65
+- _Snap<Gerudo Skeleton>:
+    icon-map: null
+- _Npc<Fairy Fountain>:
+    coord: [-4874.25,3823.7060665138833]
+- _Shrine::HawaKoth
