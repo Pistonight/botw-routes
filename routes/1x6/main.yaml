@@ -24,6 +24,8 @@
   - use: ./branches/tarrey-akkala-tower.yaml
 - Gerudo:
   - use: ./branches/gerudo.yaml
+- Akkala:
+  - use: ./branches/tarrey-akkala.yaml
 - Lake:
   - TODO
 - Central:

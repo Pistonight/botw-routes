@@ -1,0 +1,17 @@
+- _Warp::Shrine::ShaeMosah:
+    color: "#0f0"
+- .dir(N>) Turn
+- _Korok::E10
+- .gale(1) + .dir(E)
+- _Korok::E11
+- .dir(N>)
+- _Korok::E09:
+    notes: Activate the talus before getting the korok
+- _Boss::Talus::Igneo:
+    coord: [2144,-3007.0312763416177]
+- .dir(E>) Turn
+- _Korok::E06
+- .dir(W.) Fast Turn:
+    coord: [2156,-3189.9955040258924]
+- _Boss::Talus::Igneo::Titan
+- _Shrine::KamiaOmuna

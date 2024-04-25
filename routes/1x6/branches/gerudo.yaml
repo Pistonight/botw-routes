@@ -52,7 +52,7 @@
 - .dir(<<N)
 - _Boss::Talus::Luminous:
     coord: [-4283.952562101035,1472.974783449571]
-    comment: .fury(3)
+    comment: .fury(2)
 - _Korok::G21
 - .dir(E) + .dir(N):
     coord: [-4107.879961490445,1480.9732196324894]
@@ -156,13 +156,16 @@
     - [-4592,2338.93881565671]
 - _Shrine::TakamaShiri
 
+- _:
+    banner: y
+    text: "NOTE: You can GALE once if you land accidentally. Just skip the gale after misae suma and do a windbomb"
 - .dir(.S) Fast Turn
 - _Korok::W25
 - .dir(<S) Turn:
-    notes: Bomb arrow get attention, shoot 2 bomb arrow kill, land, shoot torches
+    notes: Land, fury, kill shoot torches
 - _Boss::Molduga:
     coord: [-4769,2796.8817363332582]
-    comment: Get Guts
+    comment: .fury(1). Get Guts
 - _Shrine::ThoKayu
 
 - .dir(.S) Fast Turn:
@@ -185,3 +188,128 @@
 - _Npc<Fairy Fountain>:
     coord: [-4874.25,3823.7060665138833]
 - _Shrine::HawaKoth
+
+- _Npc::Gerudo<Durian Lady>:
+    comment: Give Durian
+- .dir(<E) Turn + midair
+- _Korok::W55
+- .dir(S.):
+    coord: [-4274,3717.6852818124717]
+- _Korok::W61::Away<white>
+- .dir(SE):
+    movements:
+    - [-4186,3820.940574950926]
+    - push
+- _Boss::Molduga:
+    movements:
+    - to: [-4159,3758.9526945333037]
+      color: white
+- _Korok::W66:
+    movements:
+    - pop
+    - _Korok::W66
+- .dir(<E) Turn:
+    movements:
+    - [-3817,3692.830130369588]
+    - push
+- _Boss::Molduga:
+    movements:
+    - to: [-3760,3691.82172485278]
+      color: white
+- .dir(N.):
+    movements:
+    - pop
+    - [-3788,3579.843618291912]
+- _Korok::W57::Away<white>
+- .dir(N)
+- _Korok::W56
+- .dir(N.) Fast Turn
+- _Npc::Gerudo<Sand Seal Race>:
+    coord: [-3765,3122.9329513426574]
+- _Shrine::RaqaZunzo
+
+- .dir(N) Fast
+- _Npc<Boots Guy>:
+    comment: Talk Three Times
+    coord: [-3760,2880.000097738568]
+    notes: Sand Boots should be auto-equipped if you have snow boots equipped
+- .dir(<W)
+- _Korok::W42
+- _Npc::Gerudo<Melon Lady>:
+    coord: [-3915.5,2955.241447875339]
+    comment: Talk TWICE
+- _Npc::Gerudo<Captain>:
+    coord: [-3911.25,2929.7464325422843]
+- _Npc::Gerudo<Guts Lady>:
+    coord: [-3908,2912.749755653581]
+    comment: Talk TWICE
+    notes: After 2PM, talk to her later in front of palace
+- _Npc::Gerudo<Trash Girl>:
+    coord: [-3834.5,2853.5113376738364]
+- _Npc::Gerudo<Flint Lady>:
+    movements:
+    - [-3847,2870.5080145625398]
+    - [-3840,2886.7548380590943]
+    - [-3827.5,2886.5048869283773]
+- Run:
+    coord: [-3885,2961.4902261432444]
+- _Npc::Gerudo<Riju>:
+    notes: Press B after getting Thunder Helm, to not ask about Urbosa (DLC thing)
+- SQ
+- _Npc<Secret Club>:
+    coord: [-3785,2934.245552895176]
+    comment: 3,3,3,4
+- .dir(E.) Turn
+- _Korok::W43
+- .dir(N>) Turn
+- _Npc<Shrine Guy>:
+    coord: [-3293,2561.5141720922957]
+- _:
+    banner: true
+    text: Equip ThunderHelm, ZoraArmor, SnowBoots
+- _Npc::Gerudo<Rhondson>:
+    coord: [-3264.5,2581.510262549593]
+    counter: .split-npc(TTOWN)
+- _Npc::Rito<Guy>:
+    coord: [-3239.5,2572.5120218438096]
+    comment: Talk TWICE, 2nd option
+- SQ
+- _Memory::KaraKaraBazaar
+
+- .dir(<S) Turn
+- _Korok::W37
+- .dir(SE)
+- _Korok::W44
+- .dir(SE)
+- _Korok::W52
+- .dir(.S) Fast Turn:
+    movements:
+    - _Korok::W63::Start
+- Start Race
+- .dir(<<S) DD:
+    movements:
+    - [-2468,3729.843422814776]
+    - push
+- _Boss::Molduking:
+    notes: Bomb arrow get attention, Shoot with shock arrows
+    movements:
+    - to: [-2427,3677.853587625803]
+      color: white
+- _Korok::W63:
+    movements:
+    - pop
+    - _Korok::W63::End
+- .dir(<S) Turn:
+    notes: Ideally windbomb away and pull glider before molduking dies
+- _Shrine::KeiveTala:
+    notes: SQ to gate and shoot the thing twice
+
+- .dir(<W) Turn
+- _Korok::W68
+- .dir(W) (Turn First)
+- _Shrine::MisaeSuma
+
+- .gale(1)
+- _Korok::W62
+- .dir(.W) Turn
+- _Korok::W67
