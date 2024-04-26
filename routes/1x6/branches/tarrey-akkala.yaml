@@ -12,6 +12,35 @@
 - .dir(E>) Turn
 - _Korok::E06
 - .dir(W.) Fast Turn:
-    coord: [2156,-3189.9955040258924]
-- _Boss::Talus::Igneo::Titan
-- _Shrine::KamiaOmuna
+    movements:
+    - [2178,-3227.96544007099]
+    - push
+- _Boss::Talus::Igneo::Titan:
+    movements: 
+    - to: [2156,-3189.9955040258924]
+      color: white
+- _Shrine::KamiaOmuna:
+    movements:
+    - pop
+    - _Shrine::KamiaOmuna
+
+- .dir(.N) Turn:
+    coord: [2071,-3535.856823151245]
+- _Snap<Eldin Skeleton>:
+    movements:
+    - push
+    - to: [1614,-3628.824026483919]
+      color: white
+      icon: camera
+    - pop
+    icon-map: null
+- _Korok::E02
+- .dir(NE)
+- _Korok::E03
+- .gale(1) + .dir(E) + .dir(E>)
+- _Korok::E04
+- .dir(<<S)
+- _Korok::E05
+- Do Gut Check:
+    notes: 2 WB, no gale
+- _Shrine::GoraeTorr

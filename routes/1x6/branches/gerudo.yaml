@@ -158,7 +158,7 @@
 
 - _:
     banner: y
-    text: "NOTE: You can GALE once if you land accidentally. Just skip the gale after misae suma and do a windbomb"
+    text: "NOTE: If you land accidentally. Put down 4 wood and light them"
 - .dir(.S) Fast Turn
 - _Korok::W25
 - .dir(<S) Turn:
@@ -309,7 +309,8 @@
 - .dir(W) (Turn First)
 - _Shrine::MisaeSuma
 
-- .gale(1)
+- .dir(W>):
+    notes: Pedestal
 - _Korok::W62
 - .dir(.W) Turn
 - _Korok::W67
