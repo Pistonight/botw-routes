@@ -11,3 +11,22 @@
 
 - .dir(N>) Turn
 - _Korok::W14
+- .dir(N>>):
+    movements:
+    - [-1937,2027.8617976654768]
+    - push
+- _Boss::Talus::Luminous:
+    movements:
+    - to: [-1896.00, 200.68, 2044.68]
+      color: white
+- .dir(SE):
+    movements:
+    - pop
+- _Korok::G36
+- .dir(SE)
+- _Korok::W20
+- _Korok::W21
+- .dir(<<W) Ordinal Turn
+- _Korok::W26:
+    notes: Surf down during animation
+- _Shrine::JeeNoh
