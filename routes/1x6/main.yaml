@@ -26,8 +26,9 @@
   - use: ./branches/gerudo.yaml
 - Akkala:
   - use: ./branches/tarrey-akkala.yaml
+  - use: ./branches/tarrey-aft-tiny.yaml
 - Lake:
-  - TODO
+  - use: ./branches/lake.yaml
 - Central:
   - TODO
 - Faron:

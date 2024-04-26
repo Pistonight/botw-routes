@@ -1,0 +1,13 @@
+- _Warp::Beast::Naboris:
+    icon-map: null
+    color: red
+- Eat Attack Food
+- Thunderblight 2:
+    icon: naboris-plus
+    counter: .split-npc(BEAST)
+    comment: .fury(3)
+    notes: Run forward, Break Shield, Spin + Fury, Fury; Fury, Break Shield, Spin
+- Eat Speed Food
+
+- .dir(N>) Turn
+- _Korok::W14

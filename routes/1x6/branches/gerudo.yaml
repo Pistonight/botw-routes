@@ -264,6 +264,8 @@
 - .dir(N>) Turn
 - _Npc<Shrine Guy>:
     coord: [-3293,2561.5141720922957]
+- _Shop<Palm Fruit>:
+    icon-map: null
 - _:
     banner: true
     text: Equip ThunderHelm, ZoraArmor, SnowBoots
