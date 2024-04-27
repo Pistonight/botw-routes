@@ -71,7 +71,8 @@
     comment: Snap multiple for safety
     notes: Talk to him AFTER snapping
 - .dir(S>)
-- _Korok::A05
+- _Korok::A05:
+    comment: .gale(1)
 - .dir(<S) Turn
 - _Korok::A10
 - .dir(E)

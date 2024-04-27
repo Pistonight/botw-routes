@@ -21,7 +21,7 @@
     - push
     - to: [-768.74, 152.76, -804.49]
       color: white
-    comment: .fury(3) if rain
+    comment: .fury(1) if rain
 - .dir(SE):
     movements:
     - pop
@@ -103,8 +103,7 @@
 - .dir(S)
 - _Boss::Talus::Luminous:
     coord: [-2177.46, 322.30, -1585.39]
-    comment: .fury(3)
-    notes: Fury might not be back if you had to fury the talus earlier, just shoot him
+    comment: .fury(2) (Use All Fury)
 - _Korok::R02
 - .dir(<S) + .dir(SE):
     coord: [-2147,-1349.1460214199274]

@@ -157,7 +157,7 @@
 - _Shrine::TakamaShiri
 
 - _:
-    banner: y
+    banner: true
     text: "NOTE: If you land accidentally. Put down 4 wood and light them"
 - .dir(.S) Fast Turn
 - _Korok::W25

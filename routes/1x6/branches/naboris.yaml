@@ -121,6 +121,9 @@
     counter: .split-npc(BEAST)
     notes: Shoot from an angle where you can use GEB spread to shoot 2 legs with 1 shot
 - .gale(3) Inside
+- _Snap<Small Guardian>:
+    icon-map: null
+    comment: Inside Naboris
 - Thunderblight:
     icon: naboris-done
     counter: .split-npc(BEAST)

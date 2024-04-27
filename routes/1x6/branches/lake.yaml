@@ -6,7 +6,7 @@
     icon: naboris-plus
     counter: .split-npc(BEAST)
     comment: .fury(3)
-    notes: Run forward, Break Shield, Spin + Fury, Fury; Fury, Break Shield, Spin
+    notes: Run forward, Break Shield, Spin + Fury, Hit; Fury, Spin + Fury (If he is far, Break Shield, Spin + Fury). If you are missing hits in phase 1, use the second fury there and don't fury in the final spin
 - Eat Speed Food
 
 - .dir(N>) Turn
@@ -19,14 +19,353 @@
     movements:
     - to: [-1896.00, 200.68, 2044.68]
       color: white
-- .dir(SE):
+- .dir(<S) Turn:
+    notes: Stay in the same bullet time as you shoot talus to reposition
     movements:
     - pop
+- _Korok::W26:
+    notes: Surf down during animation
+- _Shrine::JeeNoh
+
+- .dir(N>)
 - _Korok::G36
 - .dir(SE)
 - _Korok::W20
 - _Korok::W21
-- .dir(<<W) Ordinal Turn
-- _Korok::W26:
-    notes: Surf down during animation
-- _Shrine::JeeNoh
+- .dir(<S)
+- _Korok::W27
+- .dir(<E)
+- _Korok::W22
+- .dir(S) Turn
+- _Korok::L21
+- .dir(<E):
+    coord: [-1193,2651.9740015410307]
+- _Korok::L22::Away<white>
+- Get Giant Horse
+- _Korok::L36
+- Ride Horse:
+    coord: [-873,3227.9266960743334]
+- _Korok::L62
+- Ride Horse:
+    movements:
+    - [-629,3748.8311077552644]
+    - [-311,3639.8524147629923]
+- _Npc<Horse Quest>:
+    coord: [-212,3487.8821272875284]
+    counter: .split-npc(HORSE)
+- _Korok::L64
+- Run Start Race:
+    movements:
+    - _Korok::L47::Start
+- .dir(.E) Turn
+- _Korok::L63
+- .dir(N>)
+- _Korok::L47:
+    movements:
+    - _Korok::L47::End
+- .dir(<N) Turn
+- _Korok::L38:
+    notes: Second Bay
+- .dir(<N) Turn
+- _Korok::L24:
+    notes: Third Bay (Not counting the one you windbomb from)
+- .dir(<N) Fast Turn
+- _Korok::L08
+- .dir(E>>) DD
+- _Korok::L25
+- SQ
+- _Shrine::YaNaga
+
+- _Tod::Night:
+    icon-map: null
+- .dir(E):
+    coord: [-236,2567.9904216203795]
+- _Npc::Zora::Female<Fronk's Wife>
+- .dir(<E)
+- _Korok::L26
+- _Korok::L15
+- _Korok::L14
+- .dir(N) + .gale(1)
+- _Korok::D54
+- Drop down:
+    coord: [-94.5,2341.5142698308628]
+- _Korok::L09::Away<white>
+- .dir(.S) Turn
+- Look Sky .dir(SE)
+- _Korok::L27
+- _Korok::L30
+- _Korok::L31
+- .dir(E) Turn
+- _Korok::L32
+- .dir(E) Turn
+- _Korok::L33
+- .dir(<E) Turn
+- _Chest::Special<Salvager Headwear>:
+    coord: [126.03, 92.65, 2710.94]
+- _Korok::L39
+- .dir(E):
+    coord: [317,2786.9351993297105]
+- _Korok::L40::Away<white>
+- .dir(SE)
+- _Korok::L44
+- .dir(W)
+- _Korok::L42
+- _Korok::L43
+- .dir(SW):
+    coord: [99.5,2942.904704896633]
+- _Korok::L51
+- .gale(1) + .dir(W) + .dir(W)
+- _Tower::Lake:
+    comment: "45.55% "
+- .dir(SW)
+- _Korok::L48
+- Drop down
+- _Chest::Special<Island Lobster Shirt>
+- .dir(E>):
+    coord: [-73,3126.3755788035023]
+- _Korok::L49
+- SQ to middle of rocks
+- _Korok::L50:
+    notes: Place cryo block in front of the puzzle blocks
+- .dir(SE)
+- _Korok::L59
+- .dir(S)
+- _Korok::L60
+- .dir(<E) Turn
+- _Korok::L52
+- .dir(E) Turn
+- _Korok::L53
+- _Shrine::PumaagNitae
+
+- .dir(E>)
+- _Korok::L55
+- .dir(.S)
+- _Korok::L61
+- _Material<Octo Balloon>:
+    coord: [729.1617498897467,3278.855346920018]
+    comment: Kill Octorok
+- _Korok::L66:
+    comment: Cryo
+- .gale(1) + .dir(SE)
+- _Korok::L72
+- .dir(E>>) DD
+- _Korok::F38
+- .dir(<W):
+    movements:
+    - [1050.7479060410078,3526.317033401536]
+    - push
+- _Boss::Hinox::Blue:
+    movements:
+    - to: [1024.7371365220997,3503.821431637076]
+      color: white
+- .dir(S):
+    movements:
+    - pop
+    - [1021.7358938853031,3679.2871253998637]
+- _Korok::L79
+- .dir(SW)
+- _Korok::L92
+- .dir(N)
+- _Korok::L78
+- Surf down
+- _Chest::Special<Ancient Saddle>:
+    coord: [812.99, 185.91, 3700.97]
+- _Npc<Horse God>:
+    coord: [793.291835438833,3721.9709227761523]
+    counter: .split-npc(HORSE)
+
+- .dir(W)
+- _Korok::L77
+- _Discover<Horse God Bridge>:
+    coord: [609.5180182335571,3725.4417478137366]
+- .dir(N>)
+- _Korok::L75:
+    comment: Cryo
+- .dir(<N) Turn:
+    movements:
+    - [507.47576858245793,3343.016517817916]
+    - push
+- Kill 5 Bokos:
+    movements:
+    - to: [435.24, 156.78, 3348.11]
+      color: white
+      marker: red
+    - pop
+    - push
+    - to: [458.16, 155.48, 3325.78]
+      color: white
+      marker: red
+    - pop
+    - push
+    - to: [478.19, 153.59, 3315.48]
+      color: white
+      marker: red
+    - pop
+    - [490.08222113473676,3352.4438003236555]
+    - push
+    - to: [532.77, 154.19, 3320.81]
+      color: white
+      marker: red
+    - pop
+    - push
+    - to: [518.65, 153.61, 3343.14]
+      color: white
+      marker: red
+    - pop
+- .dir(<S) Turn:
+    notes: If you are too low just run
+- _Npc<Take Out Horse>:
+    notes: If it's not at max bond, get it to max bond during the minigame and equip ancient saddle afterwards
+    coord: [519.6004464744265,3441.4307033556033]
+- _Npc<Horse Quest>:
+    coord: [521.1010677928252,3465.426011904361]
+- .important(Equip Ancient Saddle):
+    icon-doc: tots
+    comment: 3rd option
+    notes: No whistle sprint from now on for a few hours :)
+- _Material<Swift Carrot>:
+    comment: Behind horses
+    icon-map: null
+- _Npc<Obstacle Course>:
+    icon-map: null
+    color: white
+    movements:
+    - to: [499.59216222911346,3449.9290417999546]
+      icon: npc
+    - push
+    - [426.04276741643116,3467.7238549331796]
+    - [458.3061257619993,3514.9646186385453]
+    - [392.27878775246427,3521.4633480371667]
+    - [332.5040385695902,3526.2124195207743]
+    - [317.99803249173783,3496.968137226977]
+    - [322.75,3446.4780088222997]
+    - [295.98891982189343,3418.7334333128]
+    - [303.74212996695223,3397.737538332636]
+    - [360.0316872383246,3386.4778133451655]
+    - [368.03500093644925,3360.482895750678]
+    - [390.5443207124272,3319.4909103132177]
+    - [450.569173448368,3318.491105790352]
+    - [479.0809784979392,3401.97478344957]
+    - [513.0950617149729,3427.4697987826257]
+    - pop
+    markers:
+    - at: [436.29, 157.11, 3458.66]
+      color: yellow
+    - at: [446.39, 157.21, 3515.89]
+      color: yellow
+    - at: [405.62, 157.33, 3519.56]
+      color: yellow
+    - at: [321.30, 159.53, 3511.02]
+      color: yellow
+    - at: [324.55, 155.78, 3458.82]
+      color: yellow
+    - at: [301.39, 154.67, 3409.81]
+      color: yellow
+    - at: [366.20, 154.56, 3375.08]
+      color: yellow
+    - at: [403.13, 153.78, 3322.57]
+      color: yellow
+    - at: [456.89, 155.59, 3326.74]
+      color: yellow
+    - at: [476.25, 153.40, 3391.09]
+      color: yellow
+    notes: Time 1:15 and 1:30
+- .dir(S):
+    color: "#f88"
+- _Shrine::KaoMakagh
+
+- .dir(S)
+- Start Race:
+    movements:
+    - _Korok::L65::Start
+- .dir(W>) Turn
+- _Korok::L71
+- SQ
+- _Korok::L70
+- .dir(N>)
+- _Korok::L65:
+    movements:
+    - _Korok::L65::End
+- .dir(S) Turn + .dir(S)
+- _Korok::L73
+- .dir(E) DEFUSE:
+    coord: [371.2261598970599,3667.845377586127]
+- _Korok::L74
+- .dir(E) DEFUSE:
+    movements: 
+    - [512.2033782224471,3629.9713625997065]
+    - push
+    - to: [525.7089700880333,3646.468137226977]
+      color: white
+    - pop
+- _Korok::L76::Away<white>
+- .dir(.S):
+    coord: [482.19095185447713,3748.9481008206276]
+- _Korok::L91
+- Surf down
+- _Korok::L90
+- SQ .dir(<W)
+- _Korok::L89:
+    comment: Cryo
+- SQ
+- _Korok::L88
+- .dir(E) Turn
+- _Tod::Night:
+    coord: [109.04059280203637,3828.974490233868]
+- _Shrine::ShoqaTatone
+
+- _Korok::L86
+- .dir(E)
+- _Korok::L87
+- .dir(N) + .dir(.N) Turn:
+    movements:
+    - [98.28829173691156,3636.838926840668]
+    - [60.27255167081512,3423.8805634704477]
+    - push
+- _Boss::Stalnox:
+    movements:
+    - to: [101.2895343737082,3373.890337327204]
+      color: white
+- .dir(.W) Turn:
+    movements:
+    - pop
+- Call Horse
+- _Npc<Mounted Archery>:
+    comment: 1,1,3
+    movements:
+    - [-206.83804300411975,3483.86883484234]
+    - [-248.85543991927898,3456.8741127249887]
+    notes: 23 and 20. Jump off horse after getting it
+    counter: .split-npc(HORSE)
+
+- .dir(.S) Fast Turn
+- _Korok::L85
+- .dir(W)
+- _Korok::L83
+- Glide
+- _Korok::L82
+- _Korok::L84
+- .dir(W)
+- _Korok::L81
+- Jump down + .dir(W>) Turn midair
+- _Korok::L80
+- .dir(NW) + midair
+- _Korok::L69
+- .dir(S>) + .dir(<W) Turn:
+    movements:
+    - [-910.1292342268907,3700.826416304022]
+    - [-1059.408666195418,3743.955919906033]
+    - push
+- _Boss::Stalnox:
+    movements:
+    - to: [-1062.00, 275.24, 3771.50]
+      color: white
+- .dir(NW):
+    movements:
+    - pop
+- _Korok::L67
+- Drop down
+- _Korok::L68
+- .dir(<E) Turn
+- _Shrine::IshtoSoh
+
