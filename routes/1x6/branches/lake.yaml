@@ -7,6 +7,7 @@
     counter: .split-npc(BEAST)
     comment: .fury(3)
     notes: Run forward, Break Shield, Spin + Fury, Hit; Fury, Spin + Fury (If he is far, Break Shield, Spin + Fury). If you are missing hits in phase 1, use the second fury there and don't fury in the final spin
+    fury-plus: true
 - Eat Speed Food
 
 - .dir(N>) Turn

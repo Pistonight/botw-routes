@@ -30,7 +30,7 @@
 - Lake:
   - use: ./branches/lake.yaml
 - Central:
-  - TODO
+  - use: ./branches/central.yaml
 - Faron:
   - TODO
 - Letter Quest:

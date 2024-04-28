@@ -1,0 +1,108 @@
+- .dir(N) Fast
+- _Boss::Talus::Luminous:
+    coord: [-965.7912370180984,3239.967746272707]
+- .dir(W>) Turn
+- _Korok::L41
+- .dir(<E) Turn:
+    coord: [-986.7394604848896,2947.9079302693626]
+- _Korok::L37::Away<white>
+- .dir(N)
+- _Korok::L23
+- .dir(<N) Turn
+- _Korok::P17:
+    notes: Shoot the slab
+- _Korok::P16
+- .gale(1) + .dir(NW)
+- _Korok::P15
+- Surf
+- _Korok::P14
+- Jump out + .dir(.N) midair
+- _Korok::P07
+- SQ .dir(<W)
+- _Korok::P08:
+    notes: Place cryo then quickly get it
+- .dir(N.)
+- _Korok::P03
+- .dir(N) Super:
+    coord: [-1334.878635806157,1392.2134610315406]
+- _Korok::C80::Away<white>
+- .dir(<E)
+- _Korok::C79
+- .dir(N>) Turn
+- _Korok::C74
+- Drop down
+- _Chest::Special<Phantom Helm>:
+    coord: [-1200.47, 152.65, 1229.24]
+- Run out:
+    coord: [-1139.8749078957653,1204.9547470432217]
+- _Korok::C73
+- SQ
+- _Discover<Aquame Bridge>:
+    coord: [-1141.8757363202967,971.5003909542702]
+- _Korok::C68::Away<white>
+- _Korok::C67
+- .dir(.W) Turn
+- _Korok::C66
+- .dir(N.) Turn
+- _Korok::C52
+- .dir(.E) + midair
+- _Korok::C53
+- .dir(<E) Turn
+- _Tower::Central:
+    comment: "51.18% "
+
+- SQ .dir(N>)
+- _Korok::C48
+- .dir(<S) Turn:
+    coord: [-507.27, 130.00, 609.95]
+- _Discover<Hyrule Garrison Ruins>:
+    notes: On the way
+    icon-map: null
+- _Chest::Special<Phantom Greaves>
+- .dir(N)
+- _Korok::C54
+- .dir(NE):
+    coord: [-413.95775034890175,467.8438137690464]
+- _Korok::C49::Away<white>
+- .dir(E>) Turn
+- _Korok::C55
+- .dir(S) Fast
+- _Korok::C64
+- .dir(.S)
+- _Korok::C70
+- .dir(E)
+- _Korok::C71
+- .dir(NE)
+- _Korok::C65
+- .dir(SE)
+- _Shrine::WahgoKatta
+
+- SQ
+- Equip Royal Guard Shield
+- _Npc<Royal Guard Lady>:
+    coord: [348.7639796639669,1095.9530854875738]
+    comment: Talk TWICE
+- _Npc<Fruitcake Guy>:
+    coord: [318.751553295996,1098.4525967947357]
+    comment: Talk TWICE
+- .dir(S)
+- _Korok::C77
+- SQ
+- _Korok::D14
+- .dir(S) Fast
+- _Korok::D22
+- .dir(.W) Turn
+- _Korok::C84
+- .dir(S)
+- _Discover<East Post Ruins>:
+    coord: [83.48985179949068,1576.6822183034]
+    notes: Should get to as you WB to the pole. Drop down to get it after the korok if needed.
+- SQ .dir(E)
+- _Korok::D27
+- .dir(S) SQ
+- _Korok::D34
+- _Korok::D33
+- .dir(W)
+- _Korok::D32:
+    comment: GG Throw
+- _Shrine::BoshKala
