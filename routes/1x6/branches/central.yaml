@@ -106,3 +106,120 @@
 - _Korok::D32:
     comment: GG Throw
 - _Shrine::BoshKala
+
+- .dir(S.):
+    coord: [67.98823632384301,1789.805320558632]
+- _Korok::D31::Away<white>
+- .dir(S)
+- _Korok::D44
+- .dir(<E) Turn
+- _Korok::P12
+- Drop down
+- _Korok::P13
+- .dir(N>) Turn:
+    coord: [-230.11112502013384,1705.4684850792373]
+- _Discover<Outpost Ruins>
+- .dir(<S):
+    coord: [-186.11112502013384,1784.453042385564]
+- _Boss::Talus::Luminous:
+    comment: .fury(2)
+- Surf down
+- _Korok::D43
+- .dir(<S) + .dir(E>) Turn:
+    movements:
+    - [-85.22225004026768,2045.8087371578422]
+    - [81.77774995973232,2152.7878211043862]
+    - [53.5,2112.9310943098735]
+- _Korok::L03::Away<white>:
+    comment: .gale(1) to Cryo block
+- .dir(<S) Turn:
+    coord: [101.77774995973232,2287.761431691146]
+- _Korok::L10:
+    comment: Cryo
+- .dir(.E)
+- _Korok::L11
+- .dir(<S):
+    coord: [350.38887497986616,2355.37446057725]
+- _Korok::L16::Away<white>
+- .dir(N)
+- _Korok::L05
+- _Korok::L06
+- .dir(NW)
+- _Korok::L02
+- SQ:
+    movements:
+    - [330.75,1930.4698476519088]
+    - push
+- _Boss::Talus::Stone:
+    movements:
+    - to: [359.34, 114.45, 1904.01]
+      color: white
+    comment: .fury(1)
+- _Korok::L01:
+    movements:
+    - pop
+    - _Korok::L01
+- .dir(S>>)
+- _Korok::L04
+- .dir(.N)
+- _Korok::D45
+- _Memory::WestNecluda
+
+- .dir(NE)
+- _Korok::D35
+- .dir(<E)
+- _Korok::D36
+- _Korok::D46::Away<white>:
+    comment: Right Tree
+    notes: WB over if raining
+- .dir(<E)
+- _Korok::D37
+- _Korok::D38
+- .dir(E>)
+- _Korok::D47
+- SQ
+- _Korok::D39
+- .dir(N)
+- _Tower::DuelingPeaks:
+    comment: "55.17% "
+
+- .gale(1) + .dir(.E):
+    movements:
+    - [1160,1658.940574950926]
+    - push
+- _Boss::Talus::Stone:
+    movements:
+    - to: [1186.62, 254.28, 1642.77]
+      color: white
+    notes: If the Talus isn't loaded, land and trigger him, kill him, then N windbomb first. He will take forever to load if you stay midair
+- .dir(N>) Turn:
+    movements:
+    - pop
+- _Korok::D17
+- .dir(W.):
+    movements:
+    - [1455,1348.957581461681]
+    - push
+- _Boss::Talus::Stone:
+    movements:
+    - to: [1465.91, 203.77, 1328.91]
+      color: white
+- .dir(S) + .dir(S):
+    movements:
+    - pop
+- _Korok::D30
+- .dir(E) + .dir(<W):
+    movements:
+    - [1549.5,1681.9335377740626] 
+    - [1388.5,1855.3996224911207]
+- _Korok::D41::Away<white>:
+    notes: Can WB Away
+- .dir(W)
+- _Korok::D40
+- .dir(S.)
+- _Korok::D49
+- _Equipment::Weapon<Traveler Sword>:
+    coord: [1279.5,1930.8848639674197]
+- _Shrine::SheeVaneer
+- _Shrine::SheeVenath
+- _Shrine::ReeDahee

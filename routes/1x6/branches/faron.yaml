@@ -1,0 +1,19 @@
+- Jump out + .dir(W) + .dir(W)
+- _Korok::D48
+- .dir(SW)
+- _Korok::D50
+- .dir(E.):
+    coord: [1013,2149.783411334298]
+- _Korok::L07::Away<white>:
+    notes: Stasis 5 hits
+- .dir(S>) Turn
+- _Korok::L19
+- Drop down:
+    coord: [940,2406.733173710574]
+- _Korok::L20
+- _Chest::Special<Ravio's Hood>:
+    icon-map: null
+    notes: Get before finishing the korok
+- _Discover<Spring of Courage>:
+    coord: [874.5,2369.3796838233393]
+- _Shrine::ShaeKatha

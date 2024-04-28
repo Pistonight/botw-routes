@@ -32,7 +32,7 @@
 - Central:
   - use: ./branches/central.yaml
 - Faron:
-  - TODO
+  - use: ./branches/faron.yaml
 - Letter Quest:
   - TODO
 - Tabantha:
