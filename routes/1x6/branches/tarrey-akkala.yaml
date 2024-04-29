@@ -123,6 +123,7 @@
 - _Korok::A16:
     notes: Torch will be unsmuggled so do not mash B
 - Drop down
+- Throw Away .item(Torch)
 - _Npc<Robbie>:
     coord: [4512.75,-3155.036505354982]
     comment: 2,1,2

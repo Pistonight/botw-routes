@@ -6,6 +6,7 @@
 - _Npc<Test of Wood>
 - _EntanglePrompt<Dupe Hylian Shield,SHIELD,1>:
     notes: PE Equip Hylian Shield, Drop FD Shield, Pick up Hylian Shield
+- Throw away sword
 - _Shrine::MaagHalan
 - .dir(SW) Super:
     coord: [251.03, 285.34, -1979.93]
