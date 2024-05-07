@@ -12,7 +12,7 @@
     comment: Equip
 - 4 Shroom, 6 Pepper
 - _Equipment::Shield<Pot Lid>:
-    coord: [-950.5467382358938,1954.8678102583845]
+    coord: [-950.55, 1954.87]
 - Bow, 5 Arrows, BLSS to Bombs
 - _Shrine::JaBaij
 - BLSS

@@ -2,8 +2,8 @@
 - Shield Surf SCW
 - WB + BLSS:
     movements:
-    - to: [-3196,1032.7717201206897]
-    - to: [-3112,888.7146730481127]
+    - to: [-3196.0, 1032.77]
+    - to: [-3112.0, 888.71]
     notes: activate with ice fish (just pick up normally, not instant text box)
     vars:
       IceArrow: .sub(1)

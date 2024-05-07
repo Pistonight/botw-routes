@@ -17,6 +17,6 @@
     vars:
       FireArrow: .add(20)
       Rupee: .sub(360)
-    coord: [1826.375,1040.4988873159664]
+    coord: [1826.38, 1040.5]
 - .dir(N)
 - _Shrine::TalohNaeg

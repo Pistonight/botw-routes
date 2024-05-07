@@ -1,9 +1,9 @@
 - .dir(SW):
-    coord: [2972.016432348557,-245.13233802046943]
+    coord: [2972.02, -245.13]
 - _Boss::Hinox::Blue:
     movements:
     - push
-    - to: [2930.51, 312.54, -298.40]
+    - to: [2930.51, 312.54, -298.4]
       color: white
 - SQ .dir(<S) to flower:
     movements:
@@ -18,7 +18,7 @@
 - .dir(<E) Max Height
 - _Korok::Z27
 - .dir(N) + midair:
-    coord: [4111.249360889342,-453.0426140154541]
+    coord: [4111.25, -453.04]
 - _Korok::Z19
 - _Korok::Z20
 - .dir(N) Fast
@@ -39,7 +39,7 @@
     comment: Left Tree
 - .dir(.N) Turn
 - _Npc<Hudson>:
-    coord: [3987.094280599842,-1602.45562669033]
+    coord: [3987.09, -1602.46]
     comment: Talk TWICE
 - .dir(S) + .dir(S)
 - _Shrine::DahHesho
@@ -47,14 +47,14 @@
 - _Korok::A47
 - .dir(S)
 - _Discover<East Sokkala Bridge>:
-    coord: [3884.096950856483,-1117.018961282106]
+    coord: [3884.1, -1117.02]
 - .dir(W)
 - _Korok::A51:
     comment: GG Throw
     notes: Stand a bit back from the bare rock part
 - .dir(S>)
 - _Discover<Other 2 Bridges>:
-    coord: [3659.4272868576372,-1008.5322537272932]
+    coord: [3659.43, -1008.53]
 - _Korok::A52
 - .dir(NW)
 - _Boss::Hinox::Blue:
@@ -62,7 +62,7 @@
 - .dir(W)
 - _Korok::A50
 - .dir(W>>) Turn:
-    coord: [2721.9843892688714,-1417.5330356358336]
+    coord: [2721.98, -1417.53]
 - _Korok::E39:
     comment: GG Throw
     notes: Stand a bit in front of a line made with small rock patterns
@@ -70,36 +70,36 @@
 - _Shrine::SahDahaj
 
 - .dir(N) get rock:
-    coord: [2671.9958919128603,-1630.0310808644826]
+    coord: [2672.0, -1630.03]
 - _Korok::E34
 - Run/Surf down
 - _Korok::E30
 - .dir(W)
 - _Korok::E29
 - .dir(S>) + .dir(<W):
-    coord: [2378.875524959685,-1617.0336220672389]
+    coord: [2378.88, -1617.03]
 - _Korok::E32
 - .dir(SE)
 - _Korok::E33
 - .dir(W) + midair + .gale(1):
-    coord: [2181.794595643045,-1573.042223061184]
+    coord: [2181.79, -1573.04]
 - _Tower::Eldin
 
 - .dir(NW)
 - _Korok::E27
 - .dir(<W) Turn:
-    coord: [1792.7181852222584,-1729.5168110336194]
+    coord: [1792.72, -1729.52]
 - _Boss::Talus::Igneo:
     movements:
     - push
-    - to: [1796.219623052757,-1748.0131947066197]
+    - to: [1796.22, -1748.01]
       color: white
     comment: .fury(3)
 - .dir(<N):
     movements: 
     - pop
-    - [1734.6943583168513,-1774.0081123011068]
-    - [1702.1810070336496,-1766.5095783796205]
+    - [1734.69, -1774.01]
+    - [1702.18, -1766.51]
 - _Korok::E26::Away:
     comment: Bomb boulder down
 - .dir(SW)
@@ -107,19 +107,19 @@
 - _Memory::EldinCanyon
 
 - .dir(N.) Turn:
-    coord: [1475.2983387166432,-1733.0572748005875]
+    coord: [1475.3, -1733.06]
 - _Korok::E24::Away:
     comment: Bomb boulder down
     notes: Can windbomb away afterwards
 - .dir(N>) Turn
 - _Korok::E25
 - .dir(N.):
-    coord: [1579.6686827722324,-1982.0005864314053]
+    coord: [1579.67, -1982.0]
 - _Material<10 Fireproof Lizards>:
     icon-map: null
     comment: ""
     movements:
-    - to: [1605.70, 441.12, -1981.67]
+    - to: [1605.7, 441.12, -1981.67]
       marker: "#0f0"
     - to: [1630.89, 439.24, -1974.67]
       marker: "#0f0"
@@ -129,7 +129,7 @@
       marker: "#0f0"
     - to: [1652.15, 430.77, -1931.88]
       marker: orange
-    - to: [1658.14, 430.50, -1925.66]
+    - to: [1658.14, 430.5, -1925.66]
       marker: "#0f0"
     - to: [1670.67, 428.92, -1918.46]
       marker: orange
@@ -141,7 +141,7 @@
       marker: orange
     notes: Orange markers are under rock
 - _Npc<Lizald Guy>:
-    coord: [1657.35, 430.17, -1960.60]
+    coord: [1657.35, 430.17, -1960.6]
     comment: Put on Armor
 - _Tod::Night:
     icon-map: null
@@ -167,14 +167,14 @@
 - _Korok::E15
 - Run to shop
 - _Shop<Goron Spice>:
-    coord: [1681.3854242711159,-2459.734141917414]
+    coord: [1681.39, -2459.73]
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
 - .dir(N>)
 - _Shrine::ShaeMosah
 
 - .dir(<N) Turn:
-    coord: [1640.1333074276645,-2952.010360288161]
+    coord: [1640.13, -2952.01]
 - _Npc::Goron<Yunobo>
 - .gale(1)
 - _Korok::E08
@@ -182,18 +182,18 @@
 - _Korok::E07
 - _Shrine::ShoraHah
 - Minecart out to rock:
-    coord: [1619.4305275321767,-3090.095001887664]
+    coord: [1619.43, -3090.1]
 - .dir(<W) Turn
 - _Boss::Talus::Igneo:
-    coord: [1336.10, 507.31, -3043.21]
+    coord: [1336.1, 507.31, -3043.21]
     comment: Get Flint
 - .dir(<W) DT:
-    coord: [1284.2929066130182,-3079.0971521361503]
+    coord: [1284.29, -3079.1]
 - _Korok::K08
 - .dir(W>) Turn
 - _Korok::K07
 - .dir(W>) Turn:
-    coord: [-7.997535147716917,-3019.065484840262]
+    coord: [-8.0, -3019.07]
 - _Korok::K06::Away<white>
 - .dir(<E) Turn Enter Forest
 - .dir(E)
@@ -220,8 +220,8 @@
 - _Korok::E01
 - _Material<Lynel Hoof (Backup)>:
     movements:
-    - [1608.619499540575,-3856.044959741075]
-    - [247.00, 173.39, -3668.50]
+    - [1608.62, -3856.04]
+    - [247.0, 173.39, -3668.5]
     comment: Kill Lynel
     color: gray
     notes: The other backup is to kill the Lynel in castle/coliseum and do Riddles of Hyrule at the end of the run
@@ -229,7 +229,7 @@
 - _Warp::Shrine::ShaeMosah:
     color: red
 - SQ aim at dot:
-    coord: [1708.6491235631493,-2447.079754671125]
+    coord: [1708.65, -2447.08]
 - .important(UNBURN BOW)
 - Daruk Memory:
     icon: rudania-memory
@@ -239,34 +239,34 @@
 - .dir(<S)
 - _Korok::E17
 - .dir(<S) + .dir(E) midair:
-    coord: [1923.7374474366397,-2313.10594860723]
+    coord: [1923.74, -2313.11]
 - _Shrine::DaqaKoh
 
 - .dir(<<W) DD:
     notes: Stand right corer, aim a bit right of right lavafall
 - _Equipment::Weapon<Drillshaft>:
-    coord: [1946.80, 632.72, -2203.24]
+    coord: [1946.8, 632.72, -2203.24]
 - .dir(<E) Turn
 - _Npc::Goron<Rescue Yunobo>:
-    coord: [2143.1805504297627,-2298.031471818753]
+    coord: [2143.18, -2298.03]
     notes: AA the moblins and stay in BT until they disappear
 - .dir(N>) Start Escort:
-    coord: [2225.214236744303,-2364.518472589268]
+    coord: [2225.21, -2364.52]
 - Enter Rudania:
     icon: rudania-enter
     notes: Get to 10 ambers and get 3 screws. AA all drones/moblin
     movements:
-    - [2297.7440203760616,-2378.015833647944]
-    - [2381.278322903674,-2299.0312763416177]
-    - [2429.7982471262985,-2297.031667295888]
-    - [2444.804409257007,-2308.529419308834]
-    - [2617.8754791645133,-2285.533915282942]
-    - [2669.3966358132784,-2327.0258029818347]
-    - [2680.4011547091322,-2330.0252165504294]
-    - [2668.396225004566,-2355.520231883484]
-    - [2757.4327869801036,-2447.502247987054]
-    - [2770.438127493384,-2481.49560176446]
-    - [2798.6595991853537,-2657.008503255377]
+    - [2297.74, -2378.02]
+    - [2381.28, -2299.03]
+    - [2429.8, -2297.03]
+    - [2444.8, -2308.53]
+    - [2617.88, -2285.53]
+    - [2669.4, -2327.03]
+    - [2680.4, -2330.03]
+    - [2668.4, -2355.52]
+    - [2757.43, -2447.5]
+    - [2770.44, -2481.5]
+    - [2798.66, -2657.01]
 - _Equipment::Bow<Knights Bow>:
     icon-map: null
     comment: Inside Rudania
@@ -281,26 +281,26 @@
     color: yellow
     comment: 2,1
     movements:
-    - to: [1570.0299890361157,-2422.05717706202]
+    - to: [1570.03, -2422.06]
       warp: true
-    - [1647.2634539853807,-2463.76099558885]
+    - [1647.26, -2463.76]
 - _Npc::Goron<Talus Guy>:
-    coord: [1661.1441539562857,-2466.260506896012]
+    coord: [1661.14, -2466.26]
     comment: Talk TWICE
 - _Npc::Gerudo<Amber Lady>:
-    coord: [1673.7743404162993,-2447.014269830863]
+    coord: [1673.77, -2447.01]
     comment: Talk TWICE
 - _Npc::Goron<Bludo>:
-    coord: [1702.4110998157348,-2450.013683399458]
+    coord: [1702.41, -2450.01]
 - .gale(1) + .dir(.S)
 - _Npc::Goron<Drillshaft Kid>:
     coord: [1787.98, 581.97, -2244.39]
 - .dir(SE) Start Quest:
-    coord: [1990.3060524918628,-2035.1640053163574]
+    coord: [1990.31, -2035.16]
 - .dir(SW) To Rock Roast:
     movements:
     - push
-    - to: [1826.2386798627813,-1894.1915675924079]
+    - to: [1826.24, -1894.19]
       color: white
     - pop
     notes:

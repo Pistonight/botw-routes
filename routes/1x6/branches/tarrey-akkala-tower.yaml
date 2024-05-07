@@ -2,7 +2,7 @@
     color: red
 - .important(EQUIP KNIGHTS BOW)
 - Shield Surf SCW:
-    coord: [1959,-2036.0134879223224]
+    coord: [1959.0, -2036.01]
 - .gale(1) + .dir(E)
 - _Shrine::RinuHonika
 
@@ -11,21 +11,21 @@
 - _Boss::Talus::Igneo:
     movements:
     - push
-    - to: [2374,-1990.049651192318]
+    - to: [2374.0, -1990.05]
       color: white
     notes: If you need flint, then you have to go to it
 - Activate Shrine:
     notes: Midair after touching ring
     movements:
     - pop
-    - [2241,-1998.0480873752367]
+    - [2241.0, -1998.05]
 - .important(EQUIP KNIGHTS BOW)
 - Shield Surf SCW:
     notes: 
     - Don't use the bomb yourself setup since you might end up in lava. You can use campfire and blow up the campfire by dropping a square bomb after getting the updraft
     - Alternatively, warp to Dagah Keek and SCW from there
 - BLSS:
-    coord: [3134.5,-834.5845438609349]
+    coord: [3134.5, -834.58]
 - _Equipment::Weapon<Moblin Club>:
     notes: Make sure you are Grounded, use shock arrow if needed. If you are fast, can just pick it up before moblin gets it
 - _Shrine::SatoKoda
@@ -33,22 +33,22 @@
 - .gale(1) Kill Guardians:
     movements:
     - push
-    - to: [3226.401778379064,-955.0287351388611]
+    - to: [3226.4, -955.03]
       color: white
       marker: orange
     - pop
     - push
-    - to: [3176.3811532056006,-926.0344039757792]
+    - to: [3176.38, -926.03]
       color: white
       marker: orange
     - pop
     - push
-    - to: [3074.339077851737,-936.0324492044283]
+    - to: [3074.34, -936.03]
       color: white
       marker: orange
     - pop
     - push
-    - to: [3081.341965376021,-844.0504331008588]
+    - to: [3081.34, -844.05]
       color: white
       icon: camera
     - pop
@@ -61,22 +61,22 @@
 - Drop down
 - _Korok::Z16
 - .dir(.E) Turn:
-    coord: [3518.5222293920906,-541.1096626727967]
+    coord: [3518.52, -541.11]
 - Start Ring Quest:
     color: red
     movements:
-    - [3671.296383742667,-598.5440800939678]
+    - [3671.3, -598.54]
 - _ZoraMonument:
-    coord: [3721.8172151678646,-532.5569815848849]
+    coord: [3721.82, -532.56]
 - Finish Ring Quest:
-    coord: [3734.3223714612304,-598.5440800939678]
+    coord: [3734.32, -598.54]
 - _Shrine::MahEliya
 
 - .dir(<E)
 - _Korok::Z08
 - .dir(W>) Turn (Super)
 - _Chest<Zora Helm>:
-    coord: [3461.5855944698724,-885.5152472165382]
+    coord: [3461.59, -885.52]
 - .dir(E)
 - _Korok::Z05
 - .dir(W.) Turn:
@@ -95,5 +95,5 @@
     icon-map: null
 - .dir(E) DT
 - _Npc<Hudson>:
-    coord: [3987.094280599842,-1602.45562669033]
+    coord: [3987.09, -1602.46]
     comment: Talk TWICE

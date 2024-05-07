@@ -17,7 +17,7 @@
     coord: [100.06, 286.08, -1827.37]
     comment: Keep for Korok
 - Do Shrine:
-    coord: [64,-1912.0983249989604]
+    coord: [64.0, -1912.1]
 - _Shrine::KuhnSidajj
 
 - .dir(S>) Turn Escape
@@ -48,14 +48,14 @@
 - _Korok::X03
 - Glide
 - _Chest<Naydra Scale>:
-    coord: [-173.5,-1170.9504465462496]
+    coord: [-173.5, -1170.95]
 - _Korok::X02
 - _Chest<Dinraal Scale>:
-    coord: [-194,-1221.940477212359]
+    coord: [-194.0, -1221.94]
 - .dir(N.) Turn
 - _Korok::K30
 - .dir(S) Turn enter East Passage:
-    coord: [-106.5,-1150.506157529756]
+    coord: [-106.5, -1150.51]
 - _Korok:X11:
     color: "#8f8"
 - _Boss::Talus::Rare:
@@ -63,15 +63,15 @@
     comment: .fury(3)
 - Updraft, bomb eye
 - _Chest<Farosh Fang>:
-    coord: [ -133.07, 170.48, -950.46]
+    coord: [-133.07, 170.48, -950.46]
 - Run through Library
 - _Equipment::Shield<Royal Guard Shield>:
     comment: King's Study
-    coord: [-168.5,-1119.017104249322]
+    coord: [-168.5, -1119.02]
 - Run to shrine
 - _Shrine::SaasKosah
 - BLSS out:
-    coord: [-293,-1128.0153449551062]
+    coord: [-293.0, -1128.02]
 - _Korok::X01:
     color: "#0f0"
 - .dir(<W):
@@ -79,25 +79,25 @@
 - _Korok::X04:
     comment: Bullet time
 - .dir(S):
-    coord: [-351.5,-937.7753142889969]
+    coord: [-351.5, -937.78]
 - Enter through staircase:
     color: "#8f8"
     movements:
-    - [-359,-909.5580567091279]
-    - [-312.5,-907.558447663398]
-    - [-336.5,-802.0790705011523]
+    - [-359.0, -909.56]
+    - [-312.5, -907.56]
+    - [-336.5, -802.08]
 - _Korok::X19
 - _Chest<Naydra Fang>:
-    coord: [-346.5,-809.53816691063]
+    coord: [-346.5, -809.54]
 - _Chest::Special<Royal Guard Boots>:
-    coord: [-344,-845.0312274723337]
+    coord: [-344.0, -845.03]
 - Run out + .gale(1):
     movements:
-    - [-357.5,-804.5391442963055]
-    - [-402.25,-831.533866413658]
+    - [-357.5, -804.54]
+    - [-402.25, -831.53]
 - _Discover<First Gatehouse>:
     color: "#0f0"
-    coord: [-373.25,-826.2848926686174]
+    coord: [-373.25, -826.28]
 - Glide
 - _Korok::X18
 - .dir(E>):
@@ -119,25 +119,25 @@
     notes: Aim right
 - Drop down
 - _Discover<Second Gatehouse>:
-    coord: [-139.5,-887.0230174326589]
+    coord: [-139.5, -887.02]
 - .dir(<E)
 - _Korok::X12
 - .dir(S) Fast:
-    coord: [-108,-825.2850881457525]
+    coord: [-108.0, -825.29]
 - Enter Dining Hall:
     color: "#8f8"
 - _Chest::Special<Royal Guard Uniform>:
-    coord: [-165,-895.521355877011]
+    coord: [-165.0, -895.52]
     comment: End of hallway
 - Run back:
-    coord: [-153.5,-880.7742391647535]
+    coord: [-153.5, -880.77]
 - _Korok::X15::Away:
     comment: Shoot from intersection
 - _Material<Raw Meat>:
-    coord: [-104.5,-839.5323025965772]
+    coord: [-104.5, -839.53]
     comment: In Dining Hall
 - Run out + SQ:
-    coord: [-101.75,-812.7997489308855]
+    coord: [-101.75, -812.8]
     color: "#0f0"
     notes: Aim along road
 - _Korok::X20
@@ -147,7 +147,7 @@
 - _Korok::C16
 - _Korok::X25
 - .dir(S.) TS:
-    coord: [-275.5,-274.553072042183]
+    coord: [-275.5, -274.55]
 - _Korok::C32::Away<white>
 - _Korok::C27
 - .dir(<<E) Turn

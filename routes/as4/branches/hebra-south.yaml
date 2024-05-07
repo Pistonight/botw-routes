@@ -10,7 +10,7 @@
 - _Shrine::GeeHarah
 
 - .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:
-    coord: [-2388,-2440.6529636418254]
+    coord: [-2388.0, -2440.65]
 - _Shrine::RinOyaa
 - BLSS
 - _Shrine::MonyaToma
@@ -19,5 +19,5 @@
     vars:
       Hammer: .sub(1)
 - BLSS:
-    coord: [-1434,-2250.5776931988426]
+    coord: [-1434.0, -2250.58]
 - _Shrine::RonaKachta

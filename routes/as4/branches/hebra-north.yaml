@@ -2,13 +2,13 @@
 - .dir(E) DT (turn right)
 - Shock Lizalfos for Boomerang:
     movements:
-    - to: [-2342.74, 482.49, -3228.00]
+    - to: [-2342.74, 482.49, -3228.0]
       marker: yellow
     vars:
       ShockArrow: .sub(1)
 - _Shrine::RokUwog
 - .dir(N) + .dir(<E) Turn Midairs:
-    coord: [-2386,-3399.7266494439036]
+    coord: [-2386.0, -3399.73]
 - _Shrine::ShaGehma
 - .dir(E>) Turn + .dir(E) midairs:
     notes: or blss

@@ -4,14 +4,14 @@
     notes: Or .dir(S>) TS and midair
 - _Korok::G19
 - .dir(NW) + .dir(.W):
-    coord: [-2740.0886627133605,1129.5978015497385]
+    coord: [-2740.09, 1129.6]
 - _Korok::G13
 - .dir(N) + .dir(<W) Turn:
     notes: If there are wolves here, try to get gourmet meat
-    coord: [-2871.030002029269,992.8225823438515]
+    coord: [-2871.03, 992.82]
 - _Korok::G10
 - .dir(W) + .dir(S):
-    coord: [-3186.994626502221,917.8516990270273]
+    coord: [-3186.99, 917.85]
 - _Korok::G12
 - .dir(<S) Turn toward KT
 - _Equipment::Weapon<Ice Rod>:
@@ -23,31 +23,31 @@
     movements:
     - to: [-3063.73, 573.88, 1210.29]
       marker: yellow
-    - to: [-3060.00, 576.11, 1216.91]
+    - to: [-3060.0, 576.11, 1216.91]
       marker: yellow
     - to: [-3062.75, 574.97, 1219.95]
       marker: yellow
-    - to: [-3070.68, 571.96, 1233.80]
+    - to: [-3070.68, 571.96, 1233.8]
       marker: yellow
     - to: [-3071.21, 572.58, 1236.58]
       marker: yellow
 - _Shrine::KuhTakkar:
     notes: Fire Arrow works for the ice block
 - .item(Gourmet Meat):
-    coord: [-3196.022669443757,1207.4153675075704]
+    coord: [-3196.02, 1207.42]
     icon-doc: equipment
     comment: From wolves
     notes: 87% from 2 wolves, kill the third one if needed
     markers:
-    - [-3221.50, 586.37, 1196.10]
-    - [-3204.60, 584.80, 1193.10]
-    - [-3161.70, 578.78, 1216.30]
+    - [-3221.5, 586.37, 1196.1]
+    - [-3204.6, 584.8, 1193.1]
+    - [-3161.7, 578.78, 1216.3]
 - BLSS:
     movements:
-    - [-3207.0449470699677,1247.887803714164]
-    - [-3427.0203185384785,1529.278519096646]
+    - [-3207.04, 1247.89]
+    - [-3427.02, 1529.28]
 - _Npc<Benja>:
-    coord: [-3804.64, 149.50, 2818.36]
+    coord: [-3804.64, 149.5, 2818.36]
 - _Shrine::DaqoChisay
 - .dir(<E) Turn + .dir(<E) midair
 - _Npc<Buy Gerudo Set>:
@@ -55,9 +55,9 @@
 - .dir(N.) TS (+ .dir(N))
 - _Korok::G34:
     movements:
-    - [-3118.2012822709876,2043.856745918777]
+    - [-3118.2, 2043.86]
     - push
-    - to: [-3148.197923834875,2042.8571341412198]
+    - to: [-3148.2, 2042.86]
       color: white
     - pop
     - _Korok::G34
@@ -70,7 +70,7 @@
 - _Korok::W29
 - .dir(S.) Turn
 - _Shop<Normal + Ice + Shock>:
-    coord: [-3861.7783787851477,2921.2182628153387]
+    coord: [-3861.78, 2921.22]
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
 - .dir(.W) Turn
@@ -93,7 +93,7 @@
 - _Equipment::Bow<Duplex Bow>:
     icon-map: null
 - _Npc::SheikaMale<Kohga>:
-    coord: [-3465.1014807445226,1347.4666128699591]
+    coord: [-3465.1, 1347.47]
     notes:
     - "Phase 1: Shoot him, wait for ball to fall, shoot him"
     - "Phase 2: wait for ball, shoot him, aim down and get close, so link lifts his bow up, shoot his ass"
@@ -112,10 +112,10 @@
     coord: [-3422.56, 189.82, 3120.87]
 - Ride sandseal to shrine
 - _Npc::Gerudo<Shrine Lady>:
-    coord: [-2970.526727554059,3765.199628138107]
+    coord: [-2970.53, 3765.2]
 - Turn or Backflip to Naboris:
     notes: Aim in front of Naboris (use dot on minimap)
-    coord: [-2504.161540776995,3755.765901867271]
+    coord: [-2504.16, 3755.77]
 - Naboris Entry:
     icon: naboris-enter
     counter: .split-npc(BEAST)
@@ -131,9 +131,9 @@
 - _Npc<Boots Guy>:
     notes: Clear ragdoll before talking. Equip Snow Boots after
     movements:
-    - to: [-3771.5350676704047,2849.9752508193014]
+    - to: [-3771.54, 2849.98]
       warp: true
-    - to: [-3757.036690914525,2861.2208833168243]
+    - to: [-3757.04, 2861.22]
 - _Npc::Gerudo<Riju + ThunderHelm>:
     comment: Finish Quest
     coord: [-3892.04, 157.48, 2968.14]
@@ -145,11 +145,11 @@
 - _Npc::Gerudo<Bar Lady>:
     coord: [-3856.93, 152.43, 2856.37]
 - _Npc::Gerudo<Trash Girl>:
-    coord: [-3834.10, 155.62, 2853.40]
+    coord: [-3834.1, 155.62, 2853.4]
 - .dir(N.) Fast Turn:
-    coord: [-3748.6396931579907,2286.526932931937]
+    coord: [-3748.64, 2286.53]
 - Transport Ice:
     notes: Use OmeGEB, stand next to ice, aim down, shoot then pick up right away
-    coord: [-3763.7714100302146,2693.8933358839677]
+    coord: [-3763.77, 2693.89]
 
 

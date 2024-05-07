@@ -1,6 +1,6 @@
 # Start: Dagah Keek
 - .dir(SW) + .dir(W>) Turn:
-    coord: [2868.8754020202396, -210.2628265934627]
+    coord: [2868.88, -210.26]
 - _Shrine::SohKofi:
     notes: 
       We don't get a metal bow in this run.
@@ -9,7 +9,7 @@
       but still have a wooden bow out in Eldin so you know how it feels.
 
 - BLSS:
-    coord: [2189,-189.96315709896044]
+    coord: [2189.0, -189.96]
 - _Shrine::ShehRata
 - .dir(<N) Turn + .dir(N) Turn:
     notes: or super but I rarely get lag
@@ -18,17 +18,17 @@
     vars:
       Hammer: .sub(5)
 - .dir(S>>) Slight Turn + .dir(<W) + .dir(<W):
-    coord: [991,-963.3312895767467]
+    coord: [991.0, -963.33]
 - _Shrine::NamikaOzz
 - .dir(S) + BLSS from top of tree stump:
     notes: Use amiibo text box to cancel bomb recharge. You need to activate the text box before using amiibo for iSCW
 - _Chest<Dinraal Scale>:
-    coord: [-194,-1220.050312348731]
+    coord: [-194.0, -1220.05]
     notes: Hammer the rock
     vars:
       Hammer: .sub(1)
 - WB to dock:
-    coord: [-310.0465143401534,-1138.5741504864864]
+    coord: [-310.05, -1138.57]
     notes: We get bomb arrows later, not here
 - Drop down + .dir(<S) Turn midair:
     notes: The midair saves like 10 seconds?? Not worth if you are not comfortable or trying to go for WR
@@ -36,7 +36,7 @@
     comment: light normal arrow activate
 
 - Run up mag box:
-    coord: [-154.56392223400144,-1069.101131946229]
+    coord: [-154.56, -1069.1]
     notes: No boomerang, we get it later. Not here, no lizalfos
 - WB out from library
 - _Chest<3 AA>:
@@ -45,21 +45,21 @@
     notes: DEFUSE the square bomb before opening chest
 - .dir(NW)
 - _Chest<Naydra Scale>:
-    coord: [-176,-1164.4475087700248]
+    coord: [-176.0, -1164.45]
     notes: Use Hammer for all 3 slabs in the run
     vars:
       Hammer: .sub(1)
 - .dir(N) super + .dir(N>) Turn:
-    coord: [-34,-1636.1101325428908]
+    coord: [-34.0, -1636.11]
 - _Equipment::Shield<Rusty Shield>:
     coord: [100.06, 286.08, -1827.37]
     comment: Keep this
 - Do shrine quest:
-    coord: [63.95404539919855,-1908.5685212610724]
+    coord: [63.95, -1908.57]
 - _Shrine::KuhnSidajj
 
 - Backflip to KF:
-   coord: [376,-2203.3217736927]
+   coord: [376.0, -2203.32]
 - .dir(NW) midair to Oaki
 - Start quest
 - Backflip to shrine:
@@ -69,7 +69,7 @@
 - _Shrine::DaagChokah
 - .dir(E>) Turn
 - _Shop<Buy Razorshroom + 10 Shock>:
-    coord: [417,-2180.402067753478]
+    coord: [417.0, -2180.4]
     vars:
       Rupee: .sub(240)
       ShockArrow: .add(10)
@@ -83,7 +83,7 @@
 - .dir(E) start quest
 - run forward to chus, get 1 jelly for iSCW:
     movements:
-    - to: [637.30, 278.18, -2269.40]
+    - to: [637.3, 278.18, -2269.4]
       marker: cyan
 - .dir(<E) Turn, throw sword
 - _Shrine::MaagHalan

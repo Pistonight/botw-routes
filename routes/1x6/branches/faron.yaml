@@ -3,19 +3,19 @@
 - .dir(SW)
 - _Korok::D50
 - .dir(E.):
-    coord: [1013,2149.783411334298]
+    coord: [1013.0, 2149.78]
 - _Korok::L07::Away<white>:
     notes: Stasis 5 hits
 - .dir(S>) Turn
 - _Korok::L19
 - Drop down:
-    coord: [940,2406.733173710574]
+    coord: [940.0, 2406.73]
 - _Korok::L20
 - _Chest::Special<Ravio's Hood>:
     icon-map: null
     notes: Get before finishing the korok
 - _Discover<Spring of Courage>:
-    coord: [874.5,2369.3796838233393]
+    coord: [874.5, 2369.38]
 - _Shrine::ShaeKatha
 
 - .dir(W)
@@ -41,15 +41,15 @@
 - _Korok::L54
 - .dir(E)
 - _Discover<Zonai Ruins>:
-    coord: [830.1540700457708,2972.4223955773614]
+    coord: [830.15, 2972.42]
 - _Korok::L56
 - Run
 - _Npc<Kass>:
-    coord: [812.1466449833242,3079.4014795239045]
+    coord: [812.15, 3079.4]
 
 - _Korok::L57
 - .dir(E.):
-    coord: [998.4249605638797,3220.409200870741]
+    coord: [998.42, 3220.41]
 - _Chest::Special<Phantom Ganon Armor>:
     coord: [1026.21, 119.18, 3239.89]
     notes: Get during flower chase
@@ -62,18 +62,18 @@
 - .dir(N) + midairs
 - _Korok::F02
 - .dir(N>) Fast Turn:
-    coord: [1270.2899737452444,2199.577995376909]
+    coord: [1270.29, 2199.58]
 - _Boss::Talus::Stone:
     comment: .fury(1)
 - .dir(E>>)
 - _Korok::F05
 - _Korok::F01::Away<white>
 - .dir(SW):
-    coord: [1339.7666188257153,2485.0221866548354]
+    coord: [1339.77, 2485.02]
 - _Korok::F04
 - _Korok::F03
 - _Chest::Special<Zant's Helmet>:
-    coord: [1288.07, 188.30, 2451.24]
+    coord: [1288.07, 188.3, 2451.24]
 - .dir(<S) Turn
 - _Boss::Hinox::Red:
     coord: [1330.55, 180.38, 2623.94]
@@ -87,7 +87,7 @@
 - _Korok::F15
 - Run:
     movements:
-    - [1442.887593948455,3100.9072460993902]
+    - [1442.89, 3100.91]
     - push
 - _Boss::Hinox::Red:
     movements:
@@ -115,15 +115,15 @@
     notes: Bomb arrow it as you fall down
 - _Npc<Thunder Lady>:
     comment: Talk TWICE
-    coord: [1548.8706314539013,3535.86466414648]
+    coord: [1548.87, 3535.86]
 - _Tod::Night:
-    coord: [1579.7372151500495,3522.9399885195216]
+    coord: [1579.74, 3522.94]
 - _Shrine::ShaiUtoh
 
 - .dir(E.):
     movements:
-    - [1584.8896102005,3577.9483940363316]
-    - [1810.409604699953,3614.7208739068683]
+    - [1584.89, 3577.95]
+    - [1810.41, 3614.72]
 - _Korok::F46::Away<white>:
     notes: Land on the block puzzle and put a Cryo block on the waterfall
 - .dir(<N)
@@ -143,26 +143,26 @@
 - .dir(E>) Turn
 - _Korok::F56
 - .dir(E) Turn:
-    coord: [2088.566169768176,3918.862579574017]
+    coord: [2088.57, 3918.86]
 - Kill Camp:
     icon: tots
     comment: .fury(1)
 - .dir(N) + .dir(N):
-    coord: [2056.5769231124195,3557.9331468197925]
+    coord: [2056.58, 3557.93]
 - _Korok::F43
 - .dir(N.) Turn
 - _Korok::F30:
     comment: Left Tree
 - .dir(<S)
 - _Boss::Stalnox:
-    coord: [2083.5678499782143,3438.9564085988713]
+    coord: [2083.57, 3438.96]
 - .dir(W>)
 - _Korok::F35
 - _Chest::Special<Phantom Ganon Greaves>:
     coord: [1832.85, 160.08, 3355.49]
 - .dir(W):
     movements:
-    - [1742.830298786157,3352.900502138229]
+    - [1742.83, 3352.9]
     - push
 - _Boss::Talus::Stone:
     movements:
@@ -181,6 +181,6 @@
 - .dir(E)
 - _Korok::F27
 - Jump out + .dir(N) midair:
-    coord: [1771.3363475422939,3153.953574180411]
+    coord: [1771.34, 3153.95]
 - _Shrine::ShodaSah
 

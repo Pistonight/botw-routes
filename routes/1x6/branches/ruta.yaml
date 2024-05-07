@@ -4,7 +4,7 @@
 - .dir(.E) Turn
 - _Korok::N44
 - .dir(N) + midairs to Naydra:
-    coord: [4000,1374.023066301943]
+    coord: [4000.0, 1374.02]
 - Shoot Eye in the left
 - .dir(<<N)
 - _Korok::N18
@@ -23,7 +23,7 @@
 - _Korok::N29:
     comment: Cryo
 - .dir(E):
-    coord: [3253,1477.9800613322186]
+    coord: [3253.0, 1477.98]
 - _Korok::N30::Away<white>:
     comment: Left Tree
     notes: Stasis + Bomb
@@ -33,15 +33,15 @@
 - Shoot Eye
 - Activate Shrine:
     movements:
-    - to: [3937.5,1340.5122173209447]
+    - to: [3937.5, 1340.51]
       warp: true
     notes: Shoot Naydra, drop a bomb on the pedestal area, run to the shrine, blow up the bomb to hit the scale into water
 - _Shrine::JitanSami
 - .dir(NE) away and back:
-    coord: [4042.7109502745916,1236.5325469429963]
+    coord: [4042.71, 1236.53]
     notes: Naydra doesn't spawn until you leave the mountain
 - _Tod::Morning:
-    coord: [3970.681372047191,1291.5217957005652]
+    coord: [3970.68, 1291.52]
     notes: Twice if between 12AM and 5AM. Look at the peak of mountain
 - _Material<Naydra Horn + Claw>:
     icon-map: null
@@ -49,29 +49,29 @@
     notes: WB to naydra, shoot horn, WB back, pass time, WB to naydra. Note where the horn and claw falls
 - _Material<(Potential Drop Location\)>:
     comment: ""
-    coord: [3993.665350507348,1361.932364911252]
+    coord: [3993.67, 1361.93]
 - _Korok::N19:
     movements:
-    - [4141.22594479265,1167.970287475463]
+    - [4141.23, 1167.97]
     - _Korok::N19
 - .dir(W):
-    coord: [3995.6661721247765,1097.9839708749205]
+    coord: [3995.67, 1097.98]
 - _Material<(Potential Drop Location\)>:
     comment: ""
 - .dir(W>) Turn
 - _Korok::N17
 - .dir(SW):
-    coord: [3310.0858590212065,1287.8911192357436]
+    coord: [3310.09, 1287.89]
 - _Boss::Hinox::Red:
     movements:
     - push
-    - to: [3249.0172539659834,1331.508307778242]
+    - to: [3249.02, 1331.51]
       color: white
 - _Snap<Lynel>:
     movements:
     - pop
     - push
-    - to: [3268.525264735905,1220.5300057402392]
+    - to: [3268.53, 1220.53]
       color: white
 - .dir(W>>) Turn:
     movements:
@@ -85,31 +85,31 @@
 - .dir(S)
 - _Shrine::DowNaeh
 - .dir(<N) + .dir(<W):
-    coord: [2689.894422160525,1212.915162923362]
+    coord: [2689.89, 1212.92]
 - _Korok::N20
 - .dir(N):
-    coord: [2524.8266387227304,1136.930019185631]
+    coord: [2524.83, 1136.93]
 - _Boss::Hinox::Red:
     movements:
     - push
-    - to: [2414.781449764201,1185.9204408060104]
+    - to: [2414.78, 1185.92]
       color: white
 - .dir(<N) Turn:
     movements:
     - pop
     
 - Bomb boulder down:
-   coord: [2500.8167793135963,893.9775201294624]
+   coord: [2500.82, 893.98]
 - _Korok::N11::Away
 - .dir(E)
 - _Korok::N13
 - .dir(<E) Turn:
     movements:
-    - [2951.0016432348566,796.9964814115683]
+    - [2951.0, 797.0]
     - push
 - _Boss::Hinox::Blue:
     movements:
-    - to: [3006.0242377141203,796.9964814115683]
+    - to: [3006.02, 797.0]
       color: white
 - .dir(.N) Turn:
     movements:
@@ -118,11 +118,11 @@
 - .dir(<W) Turn
 - _Korok::N05
 - .dir(W) Get Deer:
-    coord: [2601.50, 222.01, 552.50]
+    coord: [2601.5, 222.01, 552.5]
 - Ride to Pedestal
 - _Npc<Kass>:
     comment: 2,1
-    coord: [2589.68, 232.40, 444.25]
+    coord: [2589.68, 232.4, 444.25]
 - .dir(W)
 - _Korok::N04
 - .dir(<<N) DD
@@ -139,17 +139,17 @@
 - _Korok::Z44
 - .dir(E>) Turn
 - _Boss::Hinox::Blue:
-    coord: [3528.3598684333847,371.74744354143695]
+    coord: [3528.36, 371.75]
 - .dir(<N) + .dir(N):
-    coord: [3388.527889197374,46.977715606597485]
+    coord: [3388.53, 46.98]
 - _ZoraMonument
 - .dir(W):
-    coord: [3258.4744840645653,42.97849751513786]
+    coord: [3258.47, 42.98]
 - _ZoraMonument
 - _Korok::Z33
 - .dir(<W)
 - _ZoraMonument:
-    coord: [3102.1848639212585,67.80686859051093]
+    coord: [3102.18, 67.81]
 - .dir(N>)
 - _Discover<Luto's Crossing>:
     icon-map: null
@@ -157,18 +157,18 @@
 - _Korok::Z32
 - .dir(<N) Turn
 - _ZoraMonument:
-    coord: [3059.3927331304967,-216.9706784297341]
+    coord: [3059.39, -216.97]
 - .dir(E.)
 - _ZoraMonument:
-    coord: [3261.475716490706,-147.9841663520565]
+    coord: [3261.48, -147.98]
 - .dir(N)
 - _Korok::Z25
 - .dir(N)
 - _Npc::Zora::Male<Zora King>:
-    coord: [3333.2436095673474,-540.9457550950065]
+    coord: [3333.24, -540.95]
 - _Shrine::NeezYohma
 - Mipha Memory:
-    coord: [3305.2321069233585,-476.4583633702214]
+    coord: [3305.23, -476.46]
     counter: .split-npc(BEAST)
     icon: ruta-memory
 
@@ -177,9 +177,9 @@
 - .dir(S)
 - _Korok::Z26
 - SQ To Sidon:
-    coord: [3594.3869818085022,-342.11298578409423]
+    coord: [3594.39, -342.11]
 - Enter Ruta:
-    coord: [3674.4198465056143,-198.14113449155047]
+    coord: [3674.42, -198.14]
     counter: .split-npc(BEAST)
     icon: ruta-enter
 - .gale(1) Inside Ruta
@@ -191,27 +191,27 @@
 - .dir(N.) Finish Quest:
     color: "#f88"
     movements:
-    - to: [3284.5451889585293,-431.53137408018483]
+    - to: [3284.55, -431.53]
       warp: true
 - _Chest<Lightscale Trident>:
-    coord: [3344.2842796300247,-560.0703717686401]
+    coord: [3344.28, -560.07]
 - _Npc::Zora::Female<Lynel Lady>:
     comment: Talk TWICE
-    coord: [3348.5463186824927,-514.0092851639174]
+    coord: [3348.55, -514.01]
 - _Npc::Zora::Male<Fronk>:
-    coord: [3348.5463186824927,-530.5060597911888]
+    coord: [3348.55, -530.51]
 - _Npc::Zora::Female<Shrine Girl>:
-    coord: [3301.0268052685824,-510.7599204646067]
+    coord: [3301.03, -510.76]
 - _Npc::Zora::Male<Do Dive Quest>:
-    coord: [3292.023107990157,-519.7581611703908]
+    coord: [3292.02, -519.76]
 - .dir(<N) + .dir(W>):
     movements:
-    - [3289.047037597742,-538.010555765296]
-    - [3263.0363565711814,-690.9806477636239]
-    - [3206.0129404744876,-738.4713625997065]
+    - [3289.05, -538.01]
+    - [3263.04, -690.98]
+    - [3206.01, -738.47]
 - _ZoraMonument
 - .dir(S>>) Ordinal DT:
-    coord: [3082.962411002678,-449.52785549175314]
+    coord: [3082.96, -449.53]
 - Activate Shrine:
     notes: Throw away trident
 - SQ to Shrine

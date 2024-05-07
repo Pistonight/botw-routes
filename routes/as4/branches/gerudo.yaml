@@ -11,12 +11,12 @@
       ShockArrow: .sub(1)
 - BLSS:
     movements:
-    - to: [-3086,1216.453207298804]
+    - to: [-3086.0, 1216.45]
 - Melt Kuh Takkar:
     notes: Use 7 fire arrows
     vars:
       FireArrow: .sub(7)
-    coord: [-3122.5,1326.4799939085751]
+    coord: [-3122.5, 1326.48]
 - _Shrine::KuhTakkar:
     notes: Stasis + Hit ice block 3 times with hammer
     vars:

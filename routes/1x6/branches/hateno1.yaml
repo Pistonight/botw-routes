@@ -1,5 +1,5 @@
 - BLSS + .dir(W>) WB:
-    coord: [-2334.003582331853,792.0285343495116]
+    coord: [-2334.0, 792.03]
 - _Material<Honey>:
     coord: [-2469.86, 320.38, 736.31]
     comment: Bomb it down
@@ -30,14 +30,14 @@
     icon-map: null
 - _Equipment::Bow<Forest Dweller Bow>
 - .dir(N>):
-    coord: [-2185.5683441748824,445.48815921550886]
+    coord: [-2185.57, 445.49]
 - _Material<7 Durian + 4 Wood>:
     comment: ""
     notes: Keep 6 durians, eat 1 before Mogg Latan
 - .dir(<W)
 - _Material<4 Endura Carrot>:
     comment: ""
-    coord: [-2316.0537349777946,535.4532191956987]
+    coord: [-2316.05, 535.45]
 - .dir(N.)
 - _Shrine::MoggLatan
 - _Korok::R60
@@ -59,7 +59,7 @@
     icon-map: null
 - _Tod::Noon:
     comment: EMS
-    coord: [431.66, 250.53, -2111.00]
+    coord: [431.66, 250.53, -2111.0]
 - _Equipment::Weapon<Master Sword>:
     icon-map: null
 - _:
@@ -74,7 +74,7 @@
       Drop axe while waiting for castle to load.
       If you get loaded malice, the back up is to enter from the entrance below Zelda's Study
 - _Chest<3AA>:
-    coord: [-357.26992672093184,-912.5894852729589]
+    coord: [-357.27, -912.59]
 - Beam Eye + .dir(N):
     notes: any% movement. Beam the eye to save arrows
 - Eat Hearty + Speed
@@ -82,20 +82,20 @@
     comment: Balcony
 - Headshot moblin, kill with 6 MS Hits
 - _Equipment::Weapon<EOD>:
-    coord: [-328.2731732091743,-995.3073598658552]
+    coord: [-328.27, -995.31]
 - _Equipment::Bow<5 Arrows>:
     icon-map: null
 - Kill Skywatcher:
     movements: 
-    - [-356.0200666557703,-995.8071657546343]
-    - [-373.75,-996.0414900219271]
+    - [-356.02, -995.81]
+    - [-373.75, -996.04]
 - _Discover<Zelda's Study>
 - _Material<2 Shaft 1 Spring>:
-    coord: [-353.52034652544626,-984.8114362014999]
+    coord: [-353.52, -984.81]
     comment: ""
     notes: If you only get 1 Shaft, it's OK, you have to a backup shaft dupe manuover in Kak. Get core too if it dropped.
 - Run toward entrance below:
-    coord: [-398.51530887127774,-985.8110479790575]
+    coord: [-398.52, -985.81]
 - .ist(LIZALFOS ROOM):
     comment: DNP .item(Rush, Honey, Acorn, 2 Durian)
     notes:
@@ -112,7 +112,7 @@
 - _Korok::X13:
     comment: West Passage
 - _Equipment::Bow<5 Arrows>:
-    coord: [-424.51239822664775,-1046.2875605212962]
+    coord: [-424.51, -1046.29]
     notes: Break with EOD, then bomb wall. If you bomb the chest then the arrows fly away
 - .ist(LOCK UP)
 - _:
@@ -121,7 +121,7 @@
       Preferrably you have 18 so you can kill the guardian in Kaya Wan with bow)
     banner: true
 - _Boss::Stalnox:
-    coord: [-492.75475778449254,-1010.0516335848306]
+    coord: [-492.75, -1010.05]
     notes:
       FDB 1 body 1 eye. Then EOD spin.
       If you get all double hits, FDB eye shot then 4-5 MS hits should kill him.
@@ -132,23 +132,23 @@
     comment: For PE Shock Trap Bow Dupe
     icon-map: null
 - _Chest<Hylian Shield>:
-    coord: [-502.2536942797233,-1009.551827696052]
+    coord: [-502.25, -1009.55]
 - Leave Castle:
     movements:
-    - to: [-253.2669880893336,-596.8280327109096]
+    - to: [-253.27, -596.83]
       warp: true
 - .dir(.S) Turn:
-    coord: [-223.54321187797632,-261.22283968190186]
+    coord: [-223.54, -261.22]
     notes: Can kill 2 more guardians here for back up parts
 - BLSS:
     movements:
-    - to: [601.4607062974883,95.40061505476115]
-    - to: [825.9355740005813,130.38702726928022]
+    - to: [601.46, 95.4]
+    - to: [825.94, 130.39]
 - _Material<2 Bass>:
     comment: ""
     notes: Load them, then just glide down and grab. No need to bomb
 - _Npc<Sword Quest>:
-    coord: [840.7175631045502,134.9457459136829]
+    coord: [840.72, 134.95]
 - _Shrine::KayaWan:
     comment: Core
     notes:
@@ -156,12 +156,12 @@
       Or you can use AA. 17 is the minimum to leave Kaya Wan with
 - BLSS
 - _Discover<Goponga Village Ruins>:
-    coord: [1590.3825666839448,363.30394766661993]
+    coord: [1590.38, 363.3]
 - _Shrine::DakaTuss
 - .dir(S) + .dir(E>) + .dir(.S) Turn:
     movements:
-    - [1599.951358650309,642.8895507151547]
-    - [1788.4302564767377,718.3602399207584]
+    - [1599.95, 642.89]
+    - [1788.43, 718.36]
 - _Shrine::TalohNaeg:
     comment: Opal
     notes:
@@ -178,7 +178,7 @@
     comment: Drop Potlid
 - _Material<2 Apples>:
     comment: ""
-    coord: [1834.213504994248,934.6434329395779]
+    coord: [1834.21, 934.64]
 - Glide to outside of shop
 - .ist(MATERIAL ORDERING)
 - "DNP:"
@@ -207,10 +207,10 @@
 - SQ:
     notes: You should have Corrupted AA, 999 Wood and fairy, and >=16 Dinraal Fang
 - _Npc::SheikaFemale<Impa>:
-    coord: [1773.9702498534398,984.3741188730719]
+    coord: [1773.97, 984.37]
     counter: .split-npc(NPC)
 - Glide to campfire:
-    coord: [1824.231556588351,1001.5034940019814]
+    coord: [1824.23, 1001.5]
 - .ist(MENUING) .link([PE Inputs]https://github.com/Pistonight/botw-routes/blob/main/routes/1x6/IST.md)
 - Start roasting 2 carrots
 - _EntanglePrompt<Eat Arrows,MAT2,1>
@@ -227,28 +227,28 @@
     notes: Pick up after first drop, don't let them burn
 - _Material<Beetle>:
     comment: ""
-    coord: [1810.9830398976337,1050.484471102307]
+    coord: [1810.98, 1050.48]
 - _Npc::SheikaFemale<Shop Lady>:
-    coord: [1825.9813606795778,1040.9881592155089]
+    coord: [1825.98, 1040.99]
     notes: Drop 3 dinraal fangs, sell the rest, get the quest
 - _Shop<10 Fire Arrows>:
     icon-map: null
     notes: Need 1 to bake apple at hateno, otherwise can use all for farosh farming if needed
 - .dir(N) + .dir(N) + BLSS + .dir(SE):
-    coord: [1636.4642886293404,2811.3955681630114]
+    coord: [1636.46, 2811.4]
 - _Tod::Morning:
-    coord: [1736.4530938423004,2992.3252999009483]
+    coord: [1736.45, 2992.33]
     comment: Farosh Scale, Horn, Claw
 - BLSS
 - _Material<2 Hearty Bass>:
     comment: ""
-    coord: [3018.3573224391694,2542.495341330692]
+    coord: [3018.36, 2542.5]
 - .dir(NE)
 - _Korok::N58
 - .dir(<E)
 - _EntanglePrompt<Drop All Koroks,KEY,1>:
     notes: Sort key items, repeat 3 times to drop the 3 stacks
-    coord: [3310.9572359135054,2302.4083795036086]
+    coord: [3310.96, 2302.41]
 - _Npc<Bolson>
 - .ist(SAVE)
 - "Drop everything after and including .item(Beetle) except .item(Farosh Horn)":
@@ -257,7 +257,7 @@
 - _Reload
 - _Npc<Hudson>:
     counter: .split-npc(TTOWN)
-    coord: [3331.3652185548235,2281.3474847343996]
+    coord: [3331.37, 2281.35]
     comment: Buy House, talk to Hudson
 - _:
     text: .important(It's important you cook in this order)
@@ -277,7 +277,7 @@
     comment: Pick up
     icon-map: null
 - .dir(N>) to statue:
-    coord: [3436.9783940610123,2100.292801524268]
+    coord: [3436.98, 2100.29]
 - .ist(COMBINE):
     notes: Drop from the beginning of inventory
 - .item(5 Princess, 4 Talon)
@@ -286,10 +286,10 @@
     comment: All Stam, 2 Hearts
 - _Npc<Shrine Lady>:
     notes: If rain, make morning at cooking pot
-    coord: [3425.3546954550056,2163.268343510401]
+    coord: [3425.35, 2163.27]
 - .dir(N)
 - _Npc<Sheep Lady>:
-    coord: [3615.454073386167,2096.199628138107]
+    coord: [3615.45, 2096.2]
 - .dir(N>)
 - _Korok::N43
 - .dir(W)
@@ -297,13 +297,13 @@
 - Do blue flame:
     notes: Remember to NOT throw torch
     movements:
-    - [3438.4738881592275,1978.2454383863023]
-    - [3644.450826897926,2095.6998222493276]
-    - [3782.4461250873683,2113.441669578039]
+    - [3438.47, 1978.25]
+    - [3644.45, 2095.7]
+    - [3782.45, 2113.44]
 - Camera:
     movements:
     - push
-    - [3776.223188485037,2131.3941123288523]
+    - [3776.22, 2131.39]
     icon: camera
     counter: .split-npc(CAM)
 - Upgrade Stasis + Bomb:

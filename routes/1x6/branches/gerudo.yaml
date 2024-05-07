@@ -2,7 +2,7 @@
     comment: "33.57% "
     color: yellow
 - Campfire SCW:
-    coord: [-3307.425130620328,1334.451521670493]
+    coord: [-3307.43, 1334.45]
     notes: Blow up the campfires if you are worried about failing the midair. You can shield surf too but you have to run
 - .dir(<W) Turn
 - _Tod::Noon:
@@ -17,9 +17,9 @@
     notes: You should have 13 bananas total, you need 12 for attack food
 - Transport Ball
 - .gale(1) + .dir(W) + .dir(S):
-    coord: [-3553.882849014729,1364.89405139277]
+    coord: [-3553.88, 1364.89]
 - _Boss::Talus::Frost:
-    coord: [-3561.886149042483,1554.8569107370986]
+    coord: [-3561.89, 1554.86]
 - .dir(W) Fast
 - _Korok::G26
 - _Material<10 Wildberries>:
@@ -28,19 +28,19 @@
     movements:
     - to: [-3666.95, 569.39, 1529.35]
       marker: red
-    - to: [-3648.7174637888616,1529.862416159427]
+    - to: [-3648.72, 1529.86]
       marker: red
-    - to: [-3657.846227883019,1536.2361699926905]
+    - to: [-3657.85, 1536.24]
       marker: red
-    - to: [-3664.974166970237,1535.8612432966165]
+    - to: [-3664.97, 1535.86]
       marker: red
-    - to: [-3663.973754466768,1540.610314780225]
+    - to: [-3663.97, 1540.61]
       marker: red
 - .dir(S) Canal
 - _Tower::Gerudo:
     comment: "33.82% "
 - _Npc<Kass>:
-    coord: [-3661.096485697687,1834.6096550448938]
+    coord: [-3661.1, 1834.61]
 - .dir(<W) Turn:
     notes: If it's after 15:20 you should get shrine first, then do G31
 - _Korok::G31
@@ -51,11 +51,11 @@
 - _Korok::G30
 - .dir(<<N)
 - _Boss::Talus::Luminous:
-    coord: [-4283.952562101035,1472.974783449571]
+    coord: [-4283.95, 1472.97]
     comment: .fury(2)
 - _Korok::G21
 - .dir(E) + .dir(N):
-    coord: [-4107.879961490445,1480.9732196324894]
+    coord: [-4107.88, 1480.97]
 - _Korok::G16
 - .dir(W) Canal
 - _Korok::G20
@@ -76,11 +76,11 @@
 - .dir(<N) Turn
 - _Korok::G01
 - _Discover<Heroine Statue>:
-    coord: [-4361,433.9276734600089]
+    coord: [-4361.0, 433.93]
 - _Snap<Heroine Statue>:
     movements:
     - push
-    - to: [-4383,528.9091031321732]
+    - to: [-4383.0, 528.91]
       color: white
       icon: camera
     - pop
@@ -89,31 +89,31 @@
 - _Korok::G02
 - .dir(N) + .dir(E>) Turn:
     movements: 
-    - [-4177,231.9671598413015]
-    - [-3968,331.9476121277903]
+    - [-4177.0, 231.97]
+    - [-3968.0, 331.95]
 - _Korok::G03
 - .dir(.E) Turn + .dir(<<S):
-    coord: [-3814,447.9249367801176]
+    coord: [-3814.0, 447.92]
 - _Korok::G06
 - .dir(W.) + Glide up
 - _Shrine::KeehaYoog
 
 - .dir(E.) + .dir(S) midair:
-    coord: [-3701,722.9034342952555]
+    coord: [-3701.0, 722.9]
 - _Korok::G09
 - .dir(<<W):
-    coord: [-3877,887.961881958654]
+    coord: [-3877.0, 887.96]
 - _Snap<Big Sword>:
     movements:
     - push
-    - to: [-3969,959.8571062142346]
+    - to: [-3969.0, 959.86]
       color: white
       icon: camera
     - pop
     icon-map: null
 - .dir(S) Canal:
     movements:
-    - [-3837,1205.8997202296887]
+    - [-3837.0, 1205.9]
     - push
 - _Boss::Talus::Rare:
     movements:
@@ -144,16 +144,16 @@
 - _Korok::G33
 - .important(EQUIP GERUDO SHIRT)
 - .dir(<S) DT:
-    coord: [-3915.25,2880.9541606118164]
+    coord: [-3915.25, 2880.95]
 - _Npc::Gerudo<Guard>
 - _Npc::Gerudo<Get Sand Seal>:
-    coord: [-3902.75,2881.2041117425324]
+    coord: [-3902.75, 2881.2]
 - _Korok::W36:
     notes: Pick up the voltfruits for transmutation
 - Do Ring Quest:
     movements:
-    - [-4549,2537.899915706823]
-    - [-4592,2338.93881565671]
+    - [-4549.0, 2537.9]
+    - [-4592.0, 2338.94]
 - _Shrine::TakamaShiri
 
 - _:
@@ -164,29 +164,29 @@
 - .dir(<S) Turn:
     notes: Land, fury, kill shoot torches
 - _Boss::Molduga:
-    coord: [-4769,2796.8817363332582]
+    coord: [-4769.0, 2796.88]
     comment: .fury(1). Get Guts
 - _Shrine::ThoKayu
 
 - .dir(.S) Fast Turn:
     movements:
-    - [-4637,3121.960122664437]
+    - [-4637.0, 3121.96]
     - push
 - _Boss::Molduga:
     movements:
-    - to: [-4558,3253.656351196476]
+    - to: [-4558.0, 3253.66]
       color: white
 - .dir(<W):
     movements:
     - pop
-    - [-4780,3257.9335377740626]
+    - [-4780.0, 3257.93]
 - _Korok::W51::Away<white>
 - .dir(>S) Turn
 - _Korok::W65
 - _Snap<Gerudo Skeleton>:
     icon-map: null
 - _Npc<Fairy Fountain>:
-    coord: [-4874.25,3823.7060665138833]
+    coord: [-4874.25, 3823.71]
 - _Shrine::HawaKoth
 
 - _Npc::Gerudo<Durian Lady>:
@@ -194,15 +194,15 @@
 - .dir(<E) Turn + midair
 - _Korok::W55
 - .dir(S.):
-    coord: [-4274,3717.6852818124717]
+    coord: [-4274.0, 3717.69]
 - _Korok::W61::Away<white>
 - .dir(SE):
     movements:
-    - [-4186,3820.940574950926]
+    - [-4186.0, 3820.94]
     - push
 - _Boss::Molduga:
     movements:
-    - to: [-4159,3758.9526945333037]
+    - to: [-4159.0, 3758.95]
       color: white
 - _Korok::W66:
     movements:
@@ -210,70 +210,70 @@
     - _Korok::W66
 - .dir(<E) Turn:
     movements:
-    - [-3817,3692.830130369588]
+    - [-3817.0, 3692.83]
     - push
 - _Boss::Molduga:
     movements:
-    - to: [-3760,3691.82172485278]
+    - to: [-3760.0, 3691.82]
       color: white
 - .dir(N.):
     movements:
     - pop
-    - [-3788,3579.843618291912]
+    - [-3788.0, 3579.84]
 - _Korok::W57::Away<white>
 - .dir(N)
 - _Korok::W56
 - .dir(N.) Fast Turn
 - _Npc::Gerudo<Sand Seal Race>:
-    coord: [-3765,3122.9329513426574]
+    coord: [-3765.0, 3122.93]
 - _Shrine::RaqaZunzo
 
 - .dir(N) Fast
 - _Npc<Boots Guy>:
     comment: Talk Three Times
-    coord: [-3760,2880.000097738568]
+    coord: [-3760.0, 2880.0]
     notes: Sand Boots should be auto-equipped if you have snow boots equipped
 - .dir(<W)
 - _Korok::W42
 - _Npc::Gerudo<Melon Lady>:
-    coord: [-3915.5,2955.241447875339]
+    coord: [-3915.5, 2955.24]
     comment: Talk TWICE
 - _Npc::Gerudo<Captain>:
-    coord: [-3911.25,2929.7464325422843]
+    coord: [-3911.25, 2929.75]
 - _Npc::Gerudo<Guts Lady>:
-    coord: [-3908,2912.749755653581]
+    coord: [-3908.0, 2912.75]
     comment: Talk TWICE
     notes: After 2PM, talk to her later in front of palace
 - _Npc::Gerudo<Trash Girl>:
-    coord: [-3834.5,2853.5113376738364]
+    coord: [-3834.5, 2853.51]
 - _Npc::Gerudo<Flint Lady>:
     movements:
-    - [-3847,2870.5080145625398]
-    - [-3840,2886.7548380590943]
-    - [-3827.5,2886.5048869283773]
+    - [-3847.0, 2870.51]
+    - [-3840.0, 2886.75]
+    - [-3827.5, 2886.5]
 - Run:
-    coord: [-3885,2961.4902261432444]
+    coord: [-3885.0, 2961.49]
 - _Npc::Gerudo<Riju>:
     notes: Press B after getting Thunder Helm, to not ask about Urbosa (DLC thing)
 - SQ
 - _Npc<Secret Club>:
-    coord: [-3785,2934.245552895176]
+    coord: [-3785.0, 2934.25]
     comment: 3,3,3,4
 - .dir(E.) Turn
 - _Korok::W43
 - .dir(N>) Turn
 - _Npc<Shrine Guy>:
-    coord: [-3293,2561.5141720922957]
+    coord: [-3293.0, 2561.51]
 - _Shop<Palm Fruit>:
     icon-map: null
 - _:
     banner: true
     text: Equip ThunderHelm, ZoraArmor, SnowBoots
 - _Npc::Gerudo<Rhondson>:
-    coord: [-3264.5,2581.510262549593]
+    coord: [-3264.5, 2581.51]
     counter: .split-npc(TTOWN)
 - _Npc::Rito<Guy>:
-    coord: [-3239.5,2572.5120218438096]
+    coord: [-3239.5, 2572.51]
     comment: Talk TWICE, 2nd option
 - SQ
 - _Memory::KaraKaraBazaar
@@ -290,12 +290,12 @@
 - Start Race
 - .dir(<<S) DD:
     movements:
-    - [-2468,3729.843422814776]
+    - [-2468.0, 3729.84]
     - push
 - _Boss::Molduking:
     notes: Bomb arrow get attention, Shoot with shock arrows
     movements:
-    - to: [-2427,3677.853587625803]
+    - to: [-2427.0, 3677.85]
       color: white
 - _Korok::W63:
     movements:

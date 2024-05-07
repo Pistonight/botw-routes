@@ -22,25 +22,25 @@
 - .dir(N>) Turn
 - _Shrine::ShaWarvo
 - .dir(<N) super:
-    coord: [-3984,-2549.3553557229257]
+    coord: [-3984.0, -2549.36]
 - _Shrine::MakaRah
 
 - Run out:
-    coord: [-3984,-2549.3553557229257]
+    coord: [-3984.0, -2549.36]
 - .dir(E) HIGH:
-    coord: [-3859,-2534.3494133195322]
+    coord: [-3859.0, -2534.35]
 - .dir(N.) + .dir(E) midair:
     movements:
-    - to: [-3807,-2720.4230991216104]
-    - to: [-3655,-2710.419137519348]
+    - to: [-3807.0, -2720.42]
+    - to: [-3655.0, -2710.42]
 - .dir(N) + .dir(N) midair:
-    coord: [-3575,-3031.5463049519667]
+    coord: [-3575.0, -3031.55]
 - _Shrine::MozoShenno
 
 - .dir(E) HIGH:
-    coord: [-3437,-3053.5550204769434]
+    coord: [-3437.0, -3053.56]
 - .dir(N) + .dir(E) midairs:
-    coord: [-3408,-3217.619990754045]
+    coord: [-3408.0, -3217.62]
 - _Shrine::ShadaNaw
 
 - BLSS

@@ -3,19 +3,19 @@
 - .dir(N>)
 - _Korok::C25
 - .dir(.E) Turn:
-    coord: [-628.5,-500.50185703278385]
+    coord: [-628.5, -500.5]
 - _Korok::C26::Away<white>
 - _Discover<Water Reservoir>:
-    coord: [-618.5,-516.4987293986214]
+    coord: [-618.5, -516.5]
 - Glide:
-    coord: [-675,-516.9986316600543]
+    coord: [-675.0, -517.0]
 - _Korok::C22
 - .dir(W.)
 - _Korok::C21
 - Run
 - _Korok::C20
 - .dir(N.) Turn:
-    coord: [-744.5,-825.0459371267507]
+    coord: [-744.5, -825.05]
 - _Boss::Talus::Rare:
     movements:
     - push
@@ -25,7 +25,7 @@
 - .dir(SE):
     movements:
     - pop
-    - [-613,-664.5773112069364]
+    - [-613.0, -664.58]
 - _Korok::C15:
     comment: Cryo
 - .dir(<N) Turn
@@ -44,13 +44,13 @@
     notes: Drop bomb midair
 
 - Jump out + .dir(W):
-    coord: [-1179,-640.2177615285127]
+    coord: [-1179.0, -640.22]
 - _Korok::R19::Away<white>:
     notes: Can WB Away
 - .dir(N.)
 - _Korok::R16
 - .dir(N.) Turn:
-    coord: [-1038,-1084.1309696805238]
+    coord: [-1038.0, -1084.13]
 - _Korok::R11::Away<white>
 - .dir(W)
 - _Korok::R10
@@ -64,7 +64,7 @@
 - .dir(N>)
 - _Korok::K29
 - .dir(N>) + .dir(<E):
-    coord: [-658,-1682.3405211693625]
+    coord: [-658.0, -1682.34]
 - _Korok::K27
 - SQ .dir(E)
 - _Korok::K28:
@@ -96,17 +96,17 @@
 - _Shrine::MaagNorah
 
 - .dir(N) DEFUSE + .dir(W):
-    coord: [-1955,-1561.172801787438]
+    coord: [-1955.0, -1561.17]
 - _Korok::R03
 - .dir(.N) Turn
 - _Korok::H71
 - .dir(S)
 - _Boss::Talus::Luminous:
-    coord: [-2177.46, 322.30, -1585.39]
+    coord: [-2177.46, 322.3, -1585.39]
     comment: .fury(2) (Use All Fury)
 - _Korok::R02
 - .dir(<S) + .dir(SE):
-    coord: [-2147,-1349.1460214199274]
+    coord: [-2147.0, -1349.15]
 - _Korok::R06
 - .dir(E>)
 - _Korok::R09
@@ -119,17 +119,17 @@
 - .dir(<N) DD
 - Red Orb:
     icon: tots
-    coord: [-2136.5,-908.5577634934252]
+    coord: [-2136.5, -908.56]
 - .dir(NW)
 - Orange Orb:
     icon: tots
-    coord: [-2270.5,-1041.031862773023]
+    coord: [-2270.5, -1041.03]
 - .dir(NW)
 - _Korok::R08
 - .dir(<S) DD
 - Green Orb:
     icon: tots
-    coord: [-2287.5,-881.0631391146408]
+    coord: [-2287.5, -881.06]
 - _Shrine::TohYahsa
 - .dir(S>)
 - _Korok::R14
@@ -158,7 +158,7 @@
 - .dir(<<W)
 - _Korok::R42
 - .dir(SE):
-    coord: [-1121,185.86863936520604]
+    coord: [-1121.0, 185.87]
 - _Boss::Hinox::Black:
     movements:
     - push
@@ -177,10 +177,10 @@
 - SQ
 - _Korok::R49
 - .dir(N):
-    coord: [-1498,93.88662326163649]
+    coord: [-1498.0, 93.89]
 - _Korok::R48::Away
 - .dir(W):
-    coord: [-1671,115.92004985174026]
+    coord: [-1671.0, 115.92]
 - _Discover<Jeddo Bridge>
 - .dir(N.) Turn
 - _Korok::R39
@@ -190,7 +190,7 @@
 - _Boss::Hinox::Blue:
     movements:
     - push
-    - to: [-1535.5,-171.006450745459]
+    - to: [-1535.5, -171.01]
       color: white
 - .dir(S>) Turn:
     movements:
@@ -198,7 +198,7 @@
 - _Korok::R41
 - Surf
 - _Npc<Kass>:
-    coord: [-1688,59.448491774898685]
+    coord: [-1688.0, 59.45]
 - .dir(W) do quest
 - _Shrine::SheemDagoze
 - .dir(N)
@@ -209,7 +209,7 @@
 - .dir(W>) Turn
 - _Korok::R37
 - .dir(<W) + midairs:
-    coord: [-2768,204.8793906076371]
+    coord: [-2768.0, 204.88]
 - _Npc<Kass>
 - _Tod::Night:
     comment: Twice

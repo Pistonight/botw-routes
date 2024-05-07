@@ -7,7 +7,7 @@
 - _Shrine::HilaRao
 - .dir(N.) Turn to fairy:
     movements:
-    - to: [950,500.1411246295402]
+    - to: [950.0, 500.14]
       marker: yellow
 - .dir(.N) Turn to forest:
     notes:
@@ -26,7 +26,7 @@
       marker: yellow
     - to: [844.13, 131.63, 292.32]
       marker: yellow
-    - to: [847.89, 131.66, 277.10]
+    - to: [847.89, 131.66, 277.1]
       marker: yellow
     - to: [845.39, 134.77, 262.65]
       marker: yellow
@@ -42,15 +42,15 @@
 - .dir(<E) TS + .dir(E.) + .dir(E.) to Deer:
     notes: Eat big radish
     movements: 
-    - to: [2090,218.00735339013954]
-    - to: [2529.23, 215.74, 362.30]
+    - to: [2090.0, 218.01]
+    - to: [2529.23, 215.74, 362.3]
       marker: orange
 - _Shrine::MezzaLo
 - BLSS to ZD:
     movements:
-    - to: [3033,-7.0797262299165595]
-    - to: [3207,-335.20666896493276]
-    - to: [3230,-591.3057462215293]
+    - to: [3033.0, -7.08]
+    - to: [3207.0, -335.21]
+    - to: [3230.0, -591.31]
 - _Equipment::Weapon<Trident>
 - .dir(E)
 - _Chest<Silver Shield>:
@@ -67,9 +67,9 @@
     vars:
       Rupee: .add(-160)
     notes: .var(Rupee) rupees left.
-    coord: [3320.25,-483.8582613619228]
+    coord: [3320.25, -483.86]
 - _Cook<Speed + Endura>:
-    coord: [3297,-491.73630914862406]
+    coord: [3297.0, -491.74]
 - Finish IST
 - Sell at least 384 fairies:
     vars:
@@ -78,10 +78,10 @@
     vars:
       Rupee: .sub(240)
       IceArrow: .add(15)
-    coord: [3320.224615820385,-484.3076510326873]
+    coord: [3320.22, -484.31]
 - _Shrine::NeezYohma
 - .dir(W):
-    coord: [3105.75,-464.18459352982427]
+    coord: [3105.75, -464.18]
 - _Shrine::DagahKeek
 
 - ""

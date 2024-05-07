@@ -1,10 +1,10 @@
 - .dir(N) Fast
 - _Boss::Talus::Luminous:
-    coord: [-965.7912370180984,3239.967746272707]
+    coord: [-965.79, 3239.97]
 - .dir(W>) Turn
 - _Korok::L41
 - .dir(<E) Turn:
-    coord: [-986.7394604848896,2947.9079302693626]
+    coord: [-986.74, 2947.91]
 - _Korok::L37::Away<white>
 - .dir(N)
 - _Korok::L23
@@ -24,7 +24,7 @@
 - .dir(N.)
 - _Korok::P03
 - .dir(N) Super:
-    coord: [-1334.878635806157,1392.2134610315406]
+    coord: [-1334.88, 1392.21]
 - _Korok::C80::Away<white>
 - .dir(<E)
 - _Korok::C79
@@ -34,11 +34,11 @@
 - _Chest::Special<Phantom Helm>:
     coord: [-1200.47, 152.65, 1229.24]
 - Run out:
-    coord: [-1139.8749078957653,1204.9547470432217]
+    coord: [-1139.87, 1204.95]
 - _Korok::C73
 - SQ
 - _Discover<Aquame Bridge>:
-    coord: [-1141.8757363202967,971.5003909542702]
+    coord: [-1141.88, 971.5]
 - _Korok::C68::Away<white>
 - _Korok::C67
 - .dir(.W) Turn
@@ -54,7 +54,7 @@
 - SQ .dir(N>)
 - _Korok::C48
 - .dir(<S) Turn:
-    coord: [-507.27, 130.00, 609.95]
+    coord: [-507.27, 130.0, 609.95]
 - _Discover<Hyrule Garrison Ruins>:
     notes: On the way
     icon-map: null
@@ -62,7 +62,7 @@
 - .dir(N)
 - _Korok::C54
 - .dir(NE):
-    coord: [-413.95775034890175,467.8438137690464]
+    coord: [-413.96, 467.84]
 - _Korok::C49::Away<white>
 - .dir(E>) Turn
 - _Korok::C55
@@ -80,10 +80,10 @@
 - SQ
 - Equip Royal Guard Shield
 - _Npc<Royal Guard Lady>:
-    coord: [348.7639796639669,1095.9530854875738]
+    coord: [348.76, 1095.95]
     comment: Talk TWICE
 - _Npc<Fruitcake Guy>:
-    coord: [318.751553295996,1098.4525967947357]
+    coord: [318.75, 1098.45]
     comment: Talk TWICE
 - .dir(S)
 - _Korok::C77
@@ -95,7 +95,7 @@
 - _Korok::C84
 - .dir(S)
 - _Discover<East Post Ruins>:
-    coord: [83.48985179949068,1576.6822183034]
+    coord: [83.49, 1576.68]
     notes: Should get to as you WB to the pole. Drop down to get it after the korok if needed.
 - SQ .dir(E)
 - _Korok::D27
@@ -108,7 +108,7 @@
 - _Shrine::BoshKala
 
 - .dir(S.):
-    coord: [67.98823632384301,1789.805320558632]
+    coord: [67.99, 1789.81]
 - _Korok::D31::Away<white>
 - .dir(S)
 - _Korok::D44
@@ -117,29 +117,29 @@
 - Drop down
 - _Korok::P13
 - .dir(N>) Turn:
-    coord: [-230.11112502013384,1705.4684850792373]
+    coord: [-230.11, 1705.47]
 - _Discover<Outpost Ruins>
 - .dir(<S):
-    coord: [-186.11112502013384,1784.453042385564]
+    coord: [-186.11, 1784.45]
 - _Boss::Talus::Luminous:
     comment: .fury(2)
 - Surf down
 - _Korok::D43
 - .dir(<S) + .dir(E>) Turn:
     movements:
-    - [-85.22225004026768,2045.8087371578422]
-    - [81.77774995973232,2152.7878211043862]
-    - [53.5,2112.9310943098735]
+    - [-85.22, 2045.81]
+    - [81.78, 2152.79]
+    - [53.5, 2112.93]
 - _Korok::L03::Away<white>:
     comment: .gale(1) to Cryo block
 - .dir(<S) Turn:
-    coord: [101.77774995973232,2287.761431691146]
+    coord: [101.78, 2287.76]
 - _Korok::L10:
     comment: Cryo
 - .dir(.E)
 - _Korok::L11
 - .dir(<S):
-    coord: [350.38887497986616,2355.37446057725]
+    coord: [350.39, 2355.37]
 - _Korok::L16::Away<white>
 - .dir(N)
 - _Korok::L05
@@ -148,7 +148,7 @@
 - _Korok::L02
 - SQ:
     movements:
-    - [330.75,1930.4698476519088]
+    - [330.75, 1930.47]
     - push
 - _Boss::Talus::Stone:
     movements:
@@ -185,7 +185,7 @@
 
 - .gale(1) + .dir(.E):
     movements:
-    - [1160,1658.940574950926]
+    - [1160.0, 1658.94]
     - push
 - _Boss::Talus::Stone:
     movements:
@@ -198,7 +198,7 @@
 - _Korok::D17
 - .dir(W.):
     movements:
-    - [1455,1348.957581461681]
+    - [1455.0, 1348.96]
     - push
 - _Boss::Talus::Stone:
     movements:
@@ -210,8 +210,8 @@
 - _Korok::D30
 - .dir(E) + .dir(<W):
     movements:
-    - [1549.5,1681.9335377740626] 
-    - [1388.5,1855.3996224911207]
+    - [1549.5, 1681.93] 
+    - [1388.5, 1855.4]
 - _Korok::D41::Away<white>:
     notes: Can WB Away
 - .dir(W)
@@ -219,7 +219,7 @@
 - .dir(S.)
 - _Korok::D49
 - _Equipment::Weapon<Traveler Sword>:
-    coord: [1279.5,1930.8848639674197]
+    coord: [1279.5, 1930.88]
 - _Shrine::SheeVaneer
 - _Shrine::SheeVenath
 - _Shrine::ReeDahee

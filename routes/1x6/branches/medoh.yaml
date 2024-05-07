@@ -1,21 +1,21 @@
 - _Warp::Shrine::TalohNaeg
 - SQ left of armor shop
 - _Npc::SheikaMale<Pumpkin Man>:
-    coord: [1878.9916878706226,974.4949531082493]
+    coord: [1878.99, 974.49]
 - SQ or run
 - _Npc::SheikaFemale<Impa>:
-    coord: [1776.0032185012742,982.9916532174893]
+    coord: [1776.0, 982.99]
 - .dir(E>) + .dir(SE) super:
     movements:
-    - [1955.9529818944302,1086.4002268323193]
-    - [2168.9489517710954,1371.397315164002]
+    - [1955.95, 1086.4]
+    - [2168.95, 1371.4]
 - AA 3 Bokos, Get Maracas
 - _Korok::D21
 - .dir(<W)
 - Hestu:
     icon: hestu
     comment: 2 weapon upgrades
-    coord: [2074.9594748709133,1420.3782922643277]
+    coord: [2074.96, 1420.38]
 - .dir(<W) Turn
 - _Korok::D20
 - .dir(<<N) DD
@@ -27,13 +27,13 @@
 - _Tower::Tabantha
 - BLSS to rito, start Medoh
 - Revali Memory:
-    coord: [-3624.9160950711316,-1833.1824492950332]
+    coord: [-3624.92, -1833.18]
     counter: .split-npc(BEAST)
     icon: medoh-memory
 - .dir(<N) TS
 - _Korok::T02
 - Enter Medoh:
-    coord: [-3859.258703946924,-2286.2846488529785]
+    coord: [-3859.26, -2286.28]
     counter: .split-npc(BEAST)
     icon: medoh-enter
 - _Chest<Core>:
@@ -49,7 +49,7 @@
 - _Material<Darner>:
     comment: "On flight deck"
     movements:
-    - to: [-3614.6326684291225,-1853.0205757894437]
+    - to: [-3614.63, -1853.02]
       warp: true
 - _Chest<GEB>:
     icon-map: null
@@ -195,15 +195,15 @@
 - .dir(N>)
 - _Korok::T05
 - .dir(NE) + .dir(E) + .dir(E) (Turn):
-    coord: [-3291.0951556898444,-1914.105596504316]
+    coord: [-3291.1, -1914.11]
 - _Korok::H66:
     comment: Cryo
 - .dir(E.) DEFUSE:
-    coord: [-2865.5499287502007,-1872.5819149353333]
+    coord: [-2865.55, -1872.58]
 - _Boss::Talus::Rare:
     movements:
     - push
-    - to: [-2864.50, 408.98, -1825.91]
+    - to: [-2864.5, 408.98, -1825.91]
       color: white
 - .dir(NE) midair DEFUSE:
     movements:
@@ -212,5 +212,5 @@
 - .dir(NW)
 - _Korok::T03
 - _Material<Voltfin>:
-    coord: [-3050.074109490208,-2142.111419840951]
+    coord: [-3050.07, -2142.11]
     comment: ""

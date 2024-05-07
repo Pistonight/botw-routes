@@ -11,7 +11,7 @@
 - _Warp::Shrine::KehNamut
 - .dir(SE):
     movements:
-    - [-1250,2179.355444658586]
+    - [-1250.0, 2179.36]
     - push
 - Kill Enemies:
     icon-doc: tots
@@ -19,34 +19,34 @@
     - AA 3 moblins and wizzrobe; AA another moblin farther; AA lizalfos; Run down, AA last lizalfos
     - Surf to shrine
     movements:
-    - to: [-1240.30, 363.06, 2191.00]
+    - to: [-1240.3, 363.06, 2191.0]
       marker: red
       color: white
     - pop
     - push
-    - to: [-1238.90, 363.69, 2199.90]
+    - to: [-1238.9, 363.69, 2199.9]
       marker: red
       color: white
     - pop
     - push
-    - to: [-1236.90, 363.78, 2209.20]
+    - to: [-1236.9, 363.78, 2209.2]
       marker: red
       color: white
     - pop
     - push
-    - to: [-1224.20, 359.69, 2244.30]
+    - to: [-1224.2, 359.69, 2244.3]
       marker: red
       color: white
     - pop
-    - [-1233.5,2209.4567995531406]
+    - [-1233.5, 2209.46]
     - push
-    - to: [-1229.10, 361.76, 2232.10]
+    - to: [-1229.1, 361.76, 2232.1]
       marker: cyan
       color: white
     - pop
-    - [-1212,2210.4542583503844]
+    - [-1212.0, 2210.45]
     - push
-    - to: [-1192.80, 355.66, 2221.50]
+    - to: [-1192.8, 355.66, 2221.5]
       marker: cyan
       color: white
     - pop
@@ -54,10 +54,10 @@
 - _Shrine::EtsuKorima:
     notes: Get .dir(E) skew on side of shrine
 - Run behind shrine:
-    coord: [-1224.5,2088.5139766151606]
+    coord: [-1224.5, 2088.51]
 - .dir(N>) TS:
     notes: Look up for less load
-    coord: [-937.5,1631.1034074044737]
+    coord: [-937.5, 1631.1]
 - BokoFamilyFuneral:
     icon-doc: tots
     notes:
@@ -67,44 +67,44 @@
     - glide to shrine
     movements:
     - push
-    - to: [-963.00, 206.40, 1611.70]
+    - to: [-963.0, 206.4, 1611.7]
       marker: cyan
       color: white
     - pop
-    - [-947.75,1607.4771291751922]
+    - [-947.75, 1607.48]
     - push
-    - to: [-964.25,1588.9794749008133]
+    - to: [-964.25, 1588.98]
       color: white
     - pop
     - push
-    - to: [-953.90, 186.00, 1618.40]
+    - to: [-953.9, 186.0, 1618.4]
       color: white
       marker: red
     - pop
-    - [-959.75,1626.2234639789085]
+    - [-959.75, 1626.22]
     - push
     - to: [-983.75, 199.02, 1643.07]
       marker: red
       color: white
     - pop
     - push
-    - to: [-982.10, 188.24, 1643.50]
+    - to: [-982.1, 188.24, 1643.5]
       marker: red
       color: white
     - pop
     - push
-    - to: [-979.75,1615.4804522864888]
+    - to: [-979.75, 1615.48]
       color: white
     - pop
-    - [-954.5,1643.968088357693]
+    - [-954.5, 1643.97]
     markers:
-    - at: [-968.20, 188.23, 1590.80]
+    - at: [-968.2, 188.23, 1590.8]
       color: red
-    - at: [-964.00, 188.02, 1588.70]
+    - at: [-964.0, 188.02, 1588.7]
       color: cyan
-    - at: [-956.30, 186.88, 1598.50]
+    - at: [-956.3, 186.88, 1598.5]
       color: red
-    - at: [-979.20, 188.22, 1608.40]
+    - at: [-979.2, 188.22, 1608.4]
       color: red
 -
 - _Shrine::YowakaIta:
@@ -112,7 +112,7 @@
 
 - Run to tree trunk left of shrine
 - .dir(E>) TS:
-    coord: [-544.5,1869.3984496283101]
+    coord: [-544.5, 1869.4]
 - Kill Lizalfos:
     icon-doc: tots
     notes:
@@ -120,44 +120,44 @@
     - AA 3 Far Green Lizalfos; Glide; AA 3 Near Camp; Glide; AA Rest 2
     movements:
     - push
-    - to: [-588.30, 191.82, 1899.30]
+    - to: [-588.3, 191.82, 1899.3]
       marker: "#0f0"
       color: white
     - pop
     - push
-    - to: [-540.50, 191.86, 1891.50]
+    - to: [-540.5, 191.86, 1891.5]
       marker: "#0f0"
       color: white
     - pop
     - push
-    - to: [-509.00, 186.53, 1886.70]
+    - to: [-509.0, 186.53, 1886.7]
       marker: "#0f0"
       color: white
     - pop
-    - [-535,1844.9581678930863]
+    - [-535.0, 1844.96]
     - push
-    - to: [-544.80, 184.11, 1870.40]
+    - to: [-544.8, 184.11, 1870.4]
       marker: red
       color: white
     - pop
     - push
-    - to: [-549.80, 184.05, 1880.00]
+    - to: [-549.8, 184.05, 1880.0]
       marker: red
       color: white
     - pop
     - push
-    - to: [-540.30, 184.13, 1881.60]
+    - to: [-540.3, 184.13, 1881.6]
       marker: red
       color: white
     - pop
-    - [-533,1830.959829448735]
+    - [-533.0, 1830.96]
     - push
-    - to: [-582.90, 174.87, 1857.00]
+    - to: [-582.9, 174.87, 1857.0]
       marker: "#0f0"
       color: white
     - pop
     - push
-    - to: [ -546.30, 184.11, 1861.80]
+    - to: [-546.3, 184.11, 1861.8]
       marker: "#0f0"
       color: white
     - pop
@@ -165,7 +165,7 @@
 - _Shrine::RohtaChigah
 
 - .dir(SW) Super:
-    coord: [-762.5,2088.2464325422843]
+    coord: [-762.5, 2088.25]
 - Kill Enemies:
     icon-doc: tots
     comment: Use BA for Orange Ones
@@ -174,54 +174,54 @@
     - Run to last boko on stalhorse, AA and immediately take picture
     movements:
     - push
-    - to: [-754.00, 190.00, 2097.00]
+    - to: [-754.0, 190.0, 2097.0]
       marker: red
       color: white
     - pop
-    - [-772.25,2103.9736594560436]
+    - [-772.25, 2103.97]
     - push
-    - to: [-732.00, 192.50, 2121.00]
+    - to: [-732.0, 192.5, 2121.0]
       marker: red
       color: white
     - pop
     - push
-    - to: [-754.00, 189.20, 2132.50]
+    - to: [-754.0, 189.2, 2132.5]
       marker: orange
       color: white
     - pop
     - push
-    - to: [-748.30, 189.20, 2149.50]
+    - to: [-748.3, 189.2, 2149.5]
       marker: orange
       color: white
     - pop
     - push
-    - to: [-756.00, 189.70, 2166.20]
+    - to: [-756.0, 189.7, 2166.2]
       marker: orange
       color: white
     - pop
     - push
-    - to: [-776.50, 196.00, 2133.00]
+    - to: [-776.5, 196.0, 2133.0]
       marker: red
       color: white
     - pop
     - push
-    - to: [-791.00, 190.00, 2134.50]
+    - to: [-791.0, 190.0, 2134.5]
       marker: red
       color: white
     - pop
     - push
-    - to: [-802.50, 190.50, 2124.00]
+    - to: [-802.5, 190.5, 2124.0]
       marker: red
       color: white
     - pop
     - push
-    - to: [-808.00, 197.50, 2108.00]
+    - to: [-808.0, 197.5, 2108.0]
       marker: red
       color: white
     - pop
-    - [-803,2136.4694566976386]
+    - [-803.0, 2136.47]
 - _Snap<Stalhorse>:
-    coord: [-816.50, 190.06, 2139.20]
+    coord: [-816.5, 190.06, 2139.2]
 - _Shrine::RuvoKorbah:
     comment: Inside Skew
 
@@ -256,7 +256,7 @@
 - _Korok::C83
 - SQ .dir(E)
 - _Discover<Gatepost Town Ruins>:
-    coord: [-557,1427.9917899603251]
+    coord: [-557.0, 1427.99]
 - .dir(N>) Turn
 - _Chest::Special<Majora's Mask>:
     coord: [-448.19, 136.21, 1281.96]
@@ -289,7 +289,7 @@
 - _Korok::C57
 - Run
 - _Discover<Gleeok Bridge>:
-    coord: [-1309,774.9018704781747]
+    coord: [-1309.0, 774.9]
 - .dir(.W) Turn
 - _Korok::C58
 - .dir(SW)
@@ -301,27 +301,27 @@
 - _Memory::SanidinPark
 
 - SQ to white horse:
-    coord: [-1676,815.893855915635]
+    coord: [-1676.0, 815.89]
 - Ride to korok
 - _Korok::R79
 - Ride to stable, get MAX bond:
     movements:
-    - [-1929,1027.8524147629914]
-    - [-1880,1076.842836383371]
-    - [-1642,1021.853587625802]
-    - [-1577,1014.8549559657476]
-    - [-1442,1249.809018838997]
+    - [-1929.0, 1027.85]
+    - [-1880.0, 1076.84]
+    - [-1642.0, 1021.85]
+    - [-1577.0, 1014.85]
+    - [-1442.0, 1249.81]
 - _Npc<Register Horse>:
     comment: 2,1,1,1
 - _Npc<Old Guy>:
     coord: [-1439.25, 137.72, 1278.45]
     notes: Royal Horse Gear
 - _Npc<Gourmet Meat Guy>:
-    coord: [-1426,1277.4752232731244]
+    coord: [-1426.0, 1277.48]
     comment: Talk TWICE
 - _Npc<Fan Girl>:
     comment: 2
-    coord: [-1400.00, 137.72, 1280.00]
+    coord: [-1400.0, 137.72, 1280.0]
 - Run
 - _Korok::C78
 - .dir(<N)
@@ -347,13 +347,13 @@
 - _Korok::G29
 - .dir(.S) Turn
 - _Discover<Gerudo Canyon Pass>:
-    coord: [-1679,2020.7820429943513]
+    coord: [-1679.0, 2020.78]
 - .dir(N):
-    coord: [-1731,1846.8160560158612]
+    coord: [-1731.0, 1846.82]
 - _Boss::Hinox::Blue:
     movements:
     - push
-    - to: [-1704.30, 111.60, 1776.78]
+    - to: [-1704.3, 111.6, 1776.78]
       color: white
     notes: Make sure he dies before warping
 - Drop down:

@@ -9,7 +9,7 @@
     text: .important(Kayra Mah)
     icon: shrine-iscw
 - Clip + Run out:
-    coord: [1993,-2052.397348706906]
+    coord: [1993.0, -2052.4]
 - .dir(.N) + .dir(N>) Turn
 - _Shrine::DaqaKoh
 - .dir(S>) Turn
