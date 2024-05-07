@@ -1,10 +1,5 @@
-- _Warp::Shrine::KayaWan:
+- _Warp::Shrine::ShehRata:
     color: yellow
-- BLSS
-- _Shrine::ShehRata
-- BLSS + Run:
-    coord: [2068.88, -219.25]
-- _Shrine::SohKofi
 - BLSS
 - _Shrine::DakaTuss
 - .dir(S) + .dir(E>) + .dir(.S) Turn:

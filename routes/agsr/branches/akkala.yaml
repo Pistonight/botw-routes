@@ -28,6 +28,10 @@
     icon-map: null
 
 - _Shrine::KayaWan
+- BLSS
+- _Shrine::ShehRata
+- .dir(<N) + .dir(W) Midairs
+- _Shrine::NamikaOzz
 
 - BLSS:
     movements:
