@@ -55,11 +55,11 @@
     icon-map: null
 - _Shrine::KeoRuug
 - .dir(E)
-- _Npc<Damia:
+- _Npc<Damia>:
     coord: [564.99, 264.83, -2160.65]
 - _Shrine::MaagHalan
 
-- .dir(SE) Escape + .dir(E) Midair
+- .dir(E>) Escape + .dir(E) Midair
 - .dir(E) + .dir(E) midair:
     coord: [1357.68, -2264.38]
 - Eat Hearty Food
