@@ -33,6 +33,7 @@ tags:
     color: "#59ffff"
 
 splits:
+  - counter-istreload-split
   - split-plat
   - split-end-game
   - split-dark-beast

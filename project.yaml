@@ -11,3 +11,6 @@ entry-points:
   hundo-ex: 1x
   1x: 1x6
   1x6: /routes/1x6/project.yaml
+
+  # All Goddess Statue Restricted
+  agsr: /routes/agsr/project.yaml

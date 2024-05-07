@@ -1,0 +1,8 @@
+- Plateau:
+  - use: ./branches/plateau.yaml
+- Akkala:
+  - use: ./branches/akkala.yaml
+- Naydra:
+  - use: ./branches/naydra.yaml
+- Gerudo:
+  - use: ./branches/gerudo.yaml

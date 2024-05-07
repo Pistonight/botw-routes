@@ -1,0 +1,34 @@
+icons:
+  goddess-stamina: https://icons.pistonite.org/icon/misc.square.none.cfa240.ffd700.2b7823.6cf57c.568c28.c8e6af.png
+  goddess-heart: https://icons.pistonite.org/icon/misc.square.none.cfa240.ffd700.633830.eb521e.568c28.c8e6af.png
+
+tags:
+  counter-goddess:
+    background: black
+    color: "#ffd700"
+    split-type: Statues
+  goddess-heart:
+    color:
+      dark: "#ff8888"
+      light: red
+
+splits:
+- counter-goddess
+
+presets:
+  _Statue:
+    Stamina:
+      text: .npc($(0))
+      comment: STAMINA - .var(orbs)/.var(counter-shrine)
+      icon: goddess-stamina
+      counter: .var(counter-goddess)
+      vars:
+        orbs: .add(4)
+    Heart:
+      text: .goddess-heart($(0))
+      comment: HEART - .var(orbs)/.var(counter-shrine)
+      icon: goddess-heart
+      counter: .var(counter-goddess)
+      vars:
+        orbs: .add(4)
+

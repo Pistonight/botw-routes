@@ -1,0 +1,130 @@
+- BLSS:
+    color: red
+- _Shrine::BoshKala
+- BLSS or Super
+- _Shrine::WahgoKatta
+- .dir(<E) Turn
+- _Shrine::HilaRao
+- .dir(N.) Fast Turn
+- _Material<Fairy>:
+    coord: [949.19, 138.58, 502.84]
+    comment: Use in Eldin
+- .dir(<N)
+- _Material<Radishes>:
+    comment: Food in Eldin
+    icon-map: null
+    movements:
+    - to: [833.24, 130.76, 309.41]
+      marker: yellow
+    - to: [844.13, 131.63, 292.32]
+      marker: yellow
+    - to: [818.04, 130.93, 290.82]
+      marker: yellow
+    - to: [814.85, 131.29, 237.45]
+      marker: yellow
+    - to: [830.34, 131.95, 222.57]
+      marker: yellow
+- _Material<2 Wood>:
+    icon-map: null
+
+- _Shrine::KayaWan
+
+- BLSS:
+    movements:
+    - [-135.28, -1205.04]
+- _Chest<Dinraal Scale>:
+    coord: [-196.46, 153.2, -1218.59]
+- .dir(N) + .dir(S):
+    coord: [-163.56, -1323.57]
+- _Chest<Naydra Scale>:
+    coord: [-182.29, 235.23, -1169.52]
+- .dir(S) to Sanctum
+- BLSS to Korok Forest
+- _Npc<Tasho>:
+    coord: [256.19, 281.61, -2229.61]
+- _Shrine::DaagChokah
+- .dir(E>) Fast Turn:
+    notes: Look up
+- _Statue::Heart<Korok Forest>:
+    coord: [415.74, 258.73, -2179.85]
+- _Cook<3 Hearty Food>:
+    icon-map: null
+- _Shrine::KeoRuug
+- .dir(E)
+- _Npc<Damia:
+    coord: [564.99, 264.83, -2160.65]
+- _Shrine::MaagHalan
+
+- .dir(SE) Escape + .dir(E) Midair
+- .dir(E) + .dir(E) midair:
+    coord: [1357.68, -2264.38]
+- Eat Hearty Food
+- .dir(<<E) Turn
+- _Shrine::ShaeMosah
+- SQ
+- _Statue::Heart<Goron City>:
+    coord: [1722.25, 498.86, -2456.24]
+- .dir(<S) + .dir(E):
+    coord: [1824.44, -2317.15]
+- Eat Hearty Food
+- _Shrine::DaqaKoh
+- .dir(<S) TS
+- Eat Hearty Food
+- _Shrine::QuaRaym
+- .dir(SE)
+- _Shrine::TahMuhl
+- .dir(E) + .dir(<<E) Turn:
+    coord: [2371.95, -945.61]
+- _Shrine::MoaKeet
+- .dir(N) Canal
+- _Shrine::SahDahaj
+- .dir(E) + Run + .dir(<E)
+- _Shrine::ZeKasho
+
+- BLSS:
+    coord: [3405.57, -1629.86]
+- _Shrine::DahHesho
+- .dir(.N) Turn
+- _Statue::Stamina<Tarrey Town>:
+    coord: [3966.27, 233.84, -1611.22]
+- BLSS
+- _Shrine::TutsuwaNima:
+    comment: Flamespear
+- _Statue::Stamina<Spring of Power>:
+    coord: [3760.55, 111.16, -2679.37]
+- .dir(E) + .dir(E)
+- _Shrine::KatosaAug
+- BLSS + .dir(W>)
+- _Shrine::ZunaKai:
+    comment: Backup Flameblade
+- .dir(W) midair all the way
+- _Shrine::GoraeTorr
+- BLSS
+- _Shrine::QazaTokki
+- .dir(W) + .dir(W>) Turn Midair
+- _Shrine::ShaGehma
+- BLSS
+- _Shrine::RinOyaa
+- BLSS
+- _Shrine::MonyaToma
+- .dir(W) Turn
+- _Shrine::MaagNorah
+- .dir(N) + .dir(E):
+    movements:
+    - [-1961.56, -1558.63]
+    - [-2100.04, -1573.12]
+- _Shrine::AkhVaquot
+- _Statue::Heart<Rito Village>:
+    coord: [-3610.42, 286.45, -1805.15]
+- .dir(W.) Super + .dir(W>) Turn Super
+- _Shrine::DunbaTaag
+- BLSS:
+    movements:
+    - [-2825.07, -1521.23]
+    - [-2470.11, -1493.24]
+    - [-2313.13, -1553.22]
+    - [-2223.14, -1659.18]
+    - [-1427.21, -2254.04]
+- _Shrine::RonaKachta
+- _Statue::Heart<Forgotten Temple>:
+    coord: [-1054.63, -2702.42]

@@ -1,0 +1,13 @@
+title: All Goddess Statues Restricted
+version: v1.0
+config:
+- plugins:
+  - use: split-format
+    with:
+      Shrines: "[.var(pad02:counter-shrine)] .prop(text)"
+      Statues: ".var-roman-upper(counter-goddess) .prop(text)"
+- use: Pistonight/celer-presets/botw/most.yaml
+- use: ../../common/config.yaml
+- use: ./config.yaml
+route:
+  use: ./main.yaml

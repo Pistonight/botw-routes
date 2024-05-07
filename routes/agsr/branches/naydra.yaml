@@ -1,0 +1,71 @@
+- _Warp::Shrine::KayaWan:
+    color: yellow
+- BLSS
+- _Shrine::ShehRata
+- BLSS + Run:
+    coord: [2068.88, -219.25]
+- _Shrine::SohKofi
+- BLSS
+- _Shrine::DakaTuss
+- .dir(S) + .dir(E>) + .dir(.S) Turn:
+    movements:
+    - [1599.95, 642.89]
+    - [1788.43, 718.36]
+- _Statue::Heart<Kakariko Village>:
+    coord: [1840.12, 218.54, 997.89]
+- .dir(N)
+- _Shrine::TalohNaeg
+- .dir(S) Super + .dir(S) Turn
+- _Shrine::HaDahamar
+- .dir(<S) Turn + midair
+- _Shrine::TotoSah
+- Cryo + BLSS:
+    coord: [1627.8, 2077.07]
+- _Shrine::ReeDahee
+- SCW
+- _Shrine::SheeVaneer
+- _Shrine::SheeVenath
+- BLSS
+- _Shrine::QukahNata
+- _Tod::Morning:
+    icon-map: null
+- .dir(W>) + .dir(N):
+    coord: [1855.86, 3143.41]
+- _Material<Farosh Scale>:
+    icon-map: null
+    comment: Shoot him
+- _Shrine::ShodaSah
+- BLSS
+- _Shrine::ShaiUtoh
+- BLSS
+- _Statue::Heart<Lurelin Village>:
+    coord: [2923.36, 106.25, 3444.56]
+- .dir(<N)
+- _Shrine::YahRin
+
+
+
+- _Shrine::MyahmAgana
+- .dir(N>)
+- _Statue::Heart<Hateno Village>:
+    coord: [3439.16, 236.02, 2098.46]
+- .dir(E>) + .dir(E) + .dir(E) + .dir(NE)
+- _Shrine::TahnoOah
+- .dir(N) + .dir(N) midair:
+    coord: [4187.0, 1377.94]
+- .dir(N) + .dir(W) + .dir(<W):
+    movements: 
+    - to: [4179.0, 1267.9]
+    - to: [4049.0, 1275.9]
+    - to: [3948.0, 1343.93]
+- _Shrine::JitanSami
+- _Statue::Heart<Spring of Wisdom>:
+    coord: [3910.78, 574.69, 1328.3]
+- BLSS
+- _Shrine::NeezYohma
+- _Statue::Heart<Zora's Domain>:
+    coord: [3316.89, 256.04, -503.94]
+
+- .dir(S>) TS + .dir(<S) Turn:
+    coord: [3074.86, -39.33]
+- _Shrine::RuccoMaag

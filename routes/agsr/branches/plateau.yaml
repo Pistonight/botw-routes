@@ -1,0 +1,38 @@
+- SOR Clip, no TOD:
+    notes: "Grab more shroom/apple before camp if you need"
+- Run to camp
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+- _Equipment::Weapon<Boko Spear>:
+    icon-map: null
+- Grab food:
+    notes: 6 peppers, steak. Can save a pepper for SCW
+- Surf Down + Clip
+- _Chest<Traveller's Bow>:
+    coord: [-832.43, 222.0, 1963.11]
+- 5 Arrows
+- BLSS to bombs
+- _Shrine::JaBaij
+
+- BLSS to tower
+- _Tower::GreatPlateau
+
+- WB over barrier to mag
+- _Shrine::OmanAu
+
+- BLSS + WB to stasis:
+    movements:
+    - [-662.13, 1872.87]
+    - [-701.13, 2014.81]
+    - [-817.56, 2281.35]
+
+- _Shrine::OwaDaim:
+    comment: Hammer inside
+- Boulder + BLSS to cryo
+- _Shrine::KehNamut
+
+- BLSS to ToT
+- _Plateau
+- Drop down
+- _Statue::Heart<Temple of Time>:
+    coord: [-820.19, 225.46, 2032.36]

@@ -1,0 +1,26 @@
+- _Warp::Shrine::ShaiUtoh:
+    color: "#0f0"
+- .dir(.W) + BLSS
+- _Shrine::KaoMakagh
+- .dir(N.) Turn
+- _Shrine::PumaagNitae
+- .dir(N>) + .dir(N>) Turn
+- _Shrine::ShaeKatha
+- _Statue::Heart<Spring of Courage>:
+    coord: [874.84, 125.34, 2359.0]
+- .dir(W) + .dir(<W) Turn + midairs
+- _Shrine::YaNaga
+- _Warp::Shrine::KehNamut
+- BLSS
+- _Shrine::KayNoh
+- .dir(<W) Turn + .dir(W>) Turn:
+    coord: [-3035.1, 2338.87]
+- _Shrine::DakoTah
+- .dir(S>>) + .dir(SW)
+- _Shrine::DaqoChisay
+- .dir(SE):
+    coord: [-3730.55, 2911.91]
+
+
+- _Statue::Heart<Gerudo Town>:
+    coord: [-3769.63, 148.98, 2944.35]
