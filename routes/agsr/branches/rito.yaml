@@ -1,0 +1,37 @@
+- _Warp::Shrine::KehNamut:
+    color: yellow
+- .dir(<N) DT
+- _Shrine::RotaOoh
+- .dir(NE) Super (or BLSS)
+- _Shrine::KaamYatak
+- .dir(<E) Turn + BLSS:
+    coord: [-634.04, 565.5]
+- _Shrine::KatahChuki
+- .dir(E.) TS (+ .dir(E>) Low):
+    coord: [-1012.04, -453.93]
+- _Shrine::ZaltaWa
+- .dir(W) non height + .dir(N) + .dir(.N) Turn + .dir(N.) Turn:
+    movements:
+    - [-1553.0, -603.98]
+    - [-1535.5, -733.03]
+- _Shrine::MonyaToma
+- .dir(W) Turn
+- _Shrine::MaagNorah
+- .dir(<N) + .dir(W) + BLSS:
+    movements:
+    - [-1980.6, -1559.5]
+    - [-2105.09, -1572.0]
+- _Shrine::AkhVaquot
+- _Statue::Heart<Rito Village>:
+    coord: [-3610.42, 286.45, -1805.15]
+- Run past platform
+- .dir(<N) Fast Turn
+- _Shrine::ShaWarvo
+
+- _Warp::Shrine::MonyaToma:
+    color: "#0f0"
+- .dir(N>) Turn:
+    coord: [-1427.05, -2252.01]
+- _Shrine::RonaKachta
+- _Statue::Heart<Forgotten Temple>:
+    coord: [-1054.63, -2702.42]

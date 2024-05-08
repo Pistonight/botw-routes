@@ -92,43 +92,18 @@
 - _Statue::Stamina<Tarrey Town>:
     coord: [3966.27, 233.84, -1611.22]
 - BLSS
+- _Shrine::KatosaAug
+- .dir(.E) DT
 - _Shrine::TutsuwaNima:
     comment: Flamespear
 - _Statue::Stamina<Spring of Power>:
     coord: [3760.55, 111.16, -2679.37]
-- .dir(E) + .dir(E)
-- _Shrine::KatosaAug
-- BLSS + .dir(W>)
+- .dir(<N) + .dir(<N) Turn + .dir(N) + .dir(W>):
+    movements:
+    - [3698.89, -2780.56]
+    - [3454.81, -3217.95]
+    - [3453.81, -3374.89]
 - _Shrine::ZunaKai:
     comment: Backup Flameblade
-- .dir(W) midair all the way
-- _Shrine::GoraeTorr
 - BLSS
-- _Shrine::QazaTokki
-- .dir(W) + .dir(W>) Turn Midair
-- _Shrine::ShaGehma
-- BLSS
-- _Shrine::RinOyaa
-- BLSS
-- _Shrine::MonyaToma
-- .dir(W) Turn
-- _Shrine::MaagNorah
-- .dir(N) + .dir(E):
-    movements:
-    - [-1961.56, -1558.63]
-    - [-2100.04, -1573.12]
-- _Shrine::AkhVaquot
-- _Statue::Heart<Rito Village>:
-    coord: [-3610.42, 286.45, -1805.15]
-- .dir(W.) Super + .dir(W>) Turn Super
-- _Shrine::DunbaTaag
-- BLSS:
-    movements:
-    - [-2825.07, -1521.23]
-    - [-2470.11, -1493.24]
-    - [-2313.13, -1553.22]
-    - [-2223.14, -1659.18]
-    - [-1427.21, -2254.04]
-- _Shrine::RonaKachta
-- _Statue::Heart<Forgotten Temple>:
-    coord: [-1054.63, -2702.42]
+- _Shrine::TuKaloh

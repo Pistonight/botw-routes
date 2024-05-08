@@ -20,26 +20,36 @@
 - SCW
 - _Shrine::SheeVaneer
 - _Shrine::SheeVenath
-- BLSS
-- _Shrine::QukahNata
-- _Tod::Morning:
-    icon-map: null
-- .dir(W>) + .dir(N):
-    coord: [1855.86, 3143.41]
+- BLSS to Farosh:
+    coord: [1727.93, 2943.29]
+- _Tod::Morning
 - _Material<Farosh Scale>:
     icon-map: null
     comment: Shoot him
 - _Shrine::ShodaSah
 - BLSS
 - _Shrine::ShaiUtoh
-- BLSS
+- Run to left rock:
+    coord: [1567.47, 3582.28]
+- .dir(E) + .dir(<E) + .dir(N.):
+    movements:
+    - [1763.45, 3555.79]
+    - [1972.43, 3462.82]
+- Clip in
+- _Shrine::QukahNata
+- Clip out
+- .dir(E>) TS
 - _Statue::Heart<Lurelin Village>:
     coord: [2923.36, 106.25, 3444.56]
 - .dir(<N)
 - _Shrine::YahRin
-
-
-
+- .dir(E) + .dir(N) + BLSS:
+    movements:
+    - [2698.39, 3297.85]
+    - [2706.19, 3144.21]
+    - [2939.69, 2930.96]
+    - [3041.9, 2547.8]
+    - [3180.88, 2312.9]
 - _Shrine::MyahmAgana
 - .dir(N>)
 - _Statue::Heart<Hateno Village>:
@@ -57,10 +67,10 @@
 - _Statue::Heart<Spring of Wisdom>:
     coord: [3910.78, 574.69, 1328.3]
 - BLSS
-- _Shrine::NeezYohma
 - _Statue::Heart<Zora's Domain>:
     coord: [3316.89, 256.04, -503.94]
+- _Shrine::NeezYohma
 
-- .dir(S>) TS + .dir(<S) Turn:
+- .dir(S>) Super + .dir(.S) TS:
     coord: [3074.86, -39.33]
 - _Shrine::RuccoMaag

@@ -2,6 +2,8 @@
   - use: ./branches/plateau.yaml
 - Akkala:
   - use: ./branches/akkala.yaml
+- Rito:
+  - use: ./branches/rito.yaml
 - Naydra:
   - use: ./branches/naydra.yaml
 - Gerudo:

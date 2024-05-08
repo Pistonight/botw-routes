@@ -5,11 +5,10 @@
 - .dir(N.) Turn
 - _Shrine::PumaagNitae
 - .dir(N>) + .dir(N>) Turn
-- _Shrine::ShaeKatha
 - _Statue::Heart<Spring of Courage>:
     coord: [874.84, 125.34, 2359.0]
-- .dir(W) + .dir(<W) Turn + midairs
-- _Shrine::YaNaga
+- _Shrine::ShaeKatha
+
 - _Warp::Shrine::KehNamut
 - BLSS
 - _Shrine::KayNoh
@@ -21,6 +20,8 @@
 - .dir(SE):
     coord: [-3730.55, 2911.91]
 
-
+- _Tod::Morning:
+    coord: [-3761.63, 2951.61]
+    comment: Look up
 - _Statue::Heart<Gerudo Town>:
     coord: [-3769.63, 148.98, 2944.35]
