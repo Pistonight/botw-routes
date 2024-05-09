@@ -1,5 +1,5 @@
 title: All Goddess Statues Restricted
-version: v1.0
+version: v1.1
 config:
 - plugins:
   - use: split-format

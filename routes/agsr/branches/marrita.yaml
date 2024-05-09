@@ -1,0 +1,16 @@
+# Start: Cryo
+- .dir(<N) DT
+- _Shrine::RotaOoh
+- .dir(NE) Super (or BLSS)
+- _Shrine::KaamYatak
+- .dir(<E) Turn + BLSS:
+    coord: [-634.04, 565.5]
+- _Shrine::KatahChuki
+- .dir(E.) TS (+ .dir(E>) Low):
+    coord: [-1012.04, -453.93]
+- _Shrine::ZaltaWa
+- .dir(W) non height + .dir(N) + .dir(.N) Turn + .dir(N.) Turn:
+    movements:
+    - [-1553.0, -603.98]
+    - [-1535.5, -733.03]
+    - _Shrine::MonyaToma

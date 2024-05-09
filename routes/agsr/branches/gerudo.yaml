@@ -1,15 +1,4 @@
-- _Warp::Shrine::ShaiUtoh:
-    color: "#0f0"
-- .dir(.W) + BLSS
-- _Shrine::KaoMakagh
-- .dir(N.) Turn
-- _Shrine::PumaagNitae
-- .dir(N>) + .dir(N>) Turn
-- _Statue::Heart<Spring of Courage>:
-    coord: [874.84, 125.34, 2359.0]
-- _Shrine::ShaeKatha
-
-- _Warp::Shrine::KehNamut
+# Start: Cryo
 - BLSS
 - _Shrine::KayNoh
 - .dir(<W) Turn + .dir(W>) Turn:

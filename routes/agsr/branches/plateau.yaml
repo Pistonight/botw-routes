@@ -33,6 +33,7 @@
 
 - BLSS to ToT
 - _Plateau
-- Drop down
+- Drop down:
+    color: red
 - _Statue::Heart<Temple of Time>:
     coord: [-820.19, 225.46, 2032.36]

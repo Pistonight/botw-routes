@@ -1,0 +1,9 @@
+# Start: Shai Utoh
+- .dir(.W) + BLSS
+- _Shrine::KaoMakagh
+- .dir(N.) Turn
+- _Shrine::PumaagNitae
+- .dir(N>) + .dir(N>) Turn
+- _Statue::Heart<Spring of Courage>:
+    coord: [874.84, 125.34, 2359.0]
+- _Shrine::ShaeKatha

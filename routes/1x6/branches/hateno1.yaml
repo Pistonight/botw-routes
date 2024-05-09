@@ -206,9 +206,7 @@
 - _Reload
 - SQ:
     notes: You should have Corrupted AA, 999 Wood and fairy, and >=16 Dinraal Fang
-- _Npc::SheikaFemale<Impa>:
-    coord: [1773.97, 984.37]
-    counter: .split-npc(NPC)
+- _Npc::Impa1
 - Glide to campfire:
     coord: [1824.23, 1001.5]
 - .ist(MENUING) .link([PE Inputs]https://github.com/Pistonight/botw-routes/blob/main/routes/1x6/IST.md)

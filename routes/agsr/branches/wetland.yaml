@@ -1,0 +1,30 @@
+- BLSS
+- _Shrine::BoshKala
+- BLSS or Super
+- _Shrine::WahgoKatta
+- .dir(<E) Turn
+- _Shrine::HilaRao
+- .dir(N.) Fast Turn
+- _Material<Fairy>:
+    coord: [949.19, 138.58, 502.84]
+    comment: Use in Eldin
+- .dir(<N)
+- _Material<Radishes>:
+    comment: Food in Eldin
+    notes: 4 should be enough but can get more if need
+    icon-map: null
+    movements:
+    - to: [833.24, 130.76, 309.41]
+      marker: yellow
+    - to: [844.13, 131.63, 292.32]
+      marker: yellow
+    - to: [818.04, 130.93, 290.82]
+      marker: yellow
+    - to: [814.85, 131.29, 237.45]
+      marker: yellow
+    - to: [830.34, 131.95, 222.57]
+      marker: yellow
+
+- _Shrine::KayaWan
+- BLSS
+- _Shrine::ShehRata

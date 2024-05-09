@@ -1,10 +1,26 @@
 - Plateau:
   - use: ./branches/plateau.yaml
-- Akkala:
+- Get Hearts + Stam:
+  - use: ./branches/wetland.yaml
   - use: ./branches/akkala.yaml
-- Rito:
+- The Rest:
+  - _Warp::Shrine::KehNamut:
+      color: yellow
+  - use: ./branches/marrita.yaml
+  - Activate Monya Toma
+  - use: ./branches/forgotten.yaml
+  - _Warp::Shrine::MonyaToma:
+      color: "#0f0"
+  - _Shrine::MonyaToma
   - use: ./branches/rito.yaml
-- Naydra:
+
+  - _Warp::Shrine::ShehRata:
+      color: yellow
+  - use: ./branches/lakeside.yaml
   - use: ./branches/naydra.yaml
-- Gerudo:
+  - _Warp::Shrine::ShaiUtoh:
+      color: "#0f0"
+  - use: ./branches/courage.yaml
+  - _Warp::Shrine::KehNamut:
+      color: "#0f0"
   - use: ./branches/gerudo.yaml

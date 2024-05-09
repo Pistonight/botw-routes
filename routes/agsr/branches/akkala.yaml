@@ -1,35 +1,4 @@
-- BLSS:
-    color: red
-- _Shrine::BoshKala
-- BLSS or Super
-- _Shrine::WahgoKatta
-- .dir(<E) Turn
-- _Shrine::HilaRao
-- .dir(N.) Fast Turn
-- _Material<Fairy>:
-    coord: [949.19, 138.58, 502.84]
-    comment: Use in Eldin
-- .dir(<N)
-- _Material<Radishes>:
-    comment: Food in Eldin
-    icon-map: null
-    movements:
-    - to: [833.24, 130.76, 309.41]
-      marker: yellow
-    - to: [844.13, 131.63, 292.32]
-      marker: yellow
-    - to: [818.04, 130.93, 290.82]
-      marker: yellow
-    - to: [814.85, 131.29, 237.45]
-      marker: yellow
-    - to: [830.34, 131.95, 222.57]
-      marker: yellow
-- _Material<2 Wood>:
-    icon-map: null
-
-- _Shrine::KayaWan
-- BLSS
-- _Shrine::ShehRata
+# Start: Sheh Rata
 - .dir(<N) + .dir(W) Midairs
 - _Shrine::NamikaOzz
 
@@ -52,7 +21,7 @@
 - _Statue::Heart<Korok Forest>:
     coord: [415.74, 258.73, -2179.85]
 - _Cook<3 Hearty Food>:
-    icon-map: null
+    notes: Can cook more if need
 - _Shrine::KeoRuug
 - .dir(E)
 - _Npc<Damia>:
@@ -62,7 +31,6 @@
 - .dir(E>) Escape + .dir(E) Midair
 - .dir(E) + .dir(E) midair:
     coord: [1357.68, -2264.38]
-- Eat Hearty Food
 - .dir(<<E) Turn
 - _Shrine::ShaeMosah
 - SQ
@@ -70,10 +38,8 @@
     coord: [1722.25, 498.86, -2456.24]
 - .dir(<S) + .dir(E):
     coord: [1824.44, -2317.15]
-- Eat Hearty Food
 - _Shrine::DaqaKoh
 - .dir(<S) TS
-- Eat Hearty Food
 - _Shrine::QuaRaym
 - .dir(SE)
 - _Shrine::TahMuhl
@@ -94,8 +60,7 @@
 - BLSS
 - _Shrine::KatosaAug
 - .dir(.E) DT
-- _Shrine::TutsuwaNima:
-    comment: Flamespear
+- _Shrine::TutsuwaNima
 - _Statue::Stamina<Spring of Power>:
     coord: [3760.55, 111.16, -2679.37]
 - .dir(<N) + .dir(<N) Turn + .dir(N) + .dir(W>):
