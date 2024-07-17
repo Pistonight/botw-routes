@@ -1,4 +1,8 @@
 entry-points:
+  # Master Sword Restricted
+  master-sword-restricted: msr
+  msr: msr3
+  msr3: /routes/msr3/project.yaml
   # All Shrines
   all-shrines: as
   as: as4
@@ -12,5 +16,6 @@ entry-points:
   1x: 1x6
   1x6: /routes/1x6/project.yaml
 
-  # All Goddess Statue Restricted
+  # All Goddess Statues Restricted
+  all-goddess-statues-restricted: agsr
   agsr: /routes/agsr/project.yaml

@@ -29,7 +29,7 @@
 - .dir(N) + .dir(N) midair:
     coord: [4187.0, 1377.94]
 - .dir(N) + .dir(W) + .dir(<W):
-    movements: 
+    movements:
     - to: [4179.0, 1267.9]
     - to: [4049.0, 1275.9]
     - to: [3948.0, 1343.93]
@@ -40,7 +40,3 @@
 - _Statue::Heart<Zora's Domain>:
     coord: [3316.89, 256.04, -503.94]
 - _Shrine::NeezYohma
-
-- .dir(S>) Super + .dir(.S) TS:
-    coord: [3074.86, -39.33]
-- _Shrine::RuccoMaag

@@ -13,9 +13,8 @@ def format_all():
             format_project(project_path)
 
 def format_project(path):
-    branches = os.path.join(path, "branches")
-    if os.path.isdir(branches):
-        format_dir(branches)
+    if os.path.isdir(path):
+        format_dir(path)
 
 def format_dir(path):
     for subpath in os.listdir(path):
@@ -26,7 +25,6 @@ def format_dir(path):
             format_file(subpath)
 
 def format_file(path):
-    print(path)
     formatted = False
     output = []
     with open(path, "r", encoding="utf-8") as f:
@@ -39,6 +37,7 @@ def format_file(path):
     if formatted:
         with open(path, "w", encoding="utf-8") as f:
             f.writelines(output)
+        print(path)
 
 def format_line(line):
     match2 = COORD_2_REGEX.findall(line)
