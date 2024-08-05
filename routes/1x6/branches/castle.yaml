@@ -56,7 +56,7 @@
 - _Korok::K30
 - .dir(S) Turn enter East Passage:
     coord: [-106.5, -1150.51]
-- _Korok:X11:
+- _Korok::X11:
     color: "#8f8"
 - _Boss::Talus::Rare:
     coord: [-136.65, 127.21, -956.26]
@@ -105,7 +105,7 @@
 - _Discover<Observation Room>:
     icon-map: null
     comment: Step on Malice
-- _Korok::X23
+- _Korok::X21
 - _Korok::X22
 - .gale(1)
 - _Korok::X23
@@ -150,7 +150,7 @@
     coord: [-275.5, -274.55]
 - _Korok::C32::Away<white>
 - _Korok::C27
-- .dir(<<E) Turn
+- .dir(<<W) Turn
 - _Korok::C31
 - .dir(NW)
 - _Shrine::KatahChuki

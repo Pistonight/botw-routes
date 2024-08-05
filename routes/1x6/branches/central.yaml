@@ -97,6 +97,7 @@
 - _Discover<East Post Ruins>:
     coord: [83.49, 1576.68]
     notes: Should get to as you WB to the pole. Drop down to get it after the korok if needed.
+- _Korok::D26
 - SQ .dir(E)
 - _Korok::D27
 - .dir(S) SQ
@@ -162,8 +163,8 @@
 - .dir(S>>)
 - _Korok::L04
 - .dir(.N)
-- _Korok::D45
 - _Memory::WestNecluda
+- _Korok::D45
 
 - .dir(NE)
 - _Korok::D35

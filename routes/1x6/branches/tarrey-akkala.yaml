@@ -9,7 +9,7 @@
     notes: Activate the talus before getting the korok
 - _Boss::Talus::Igneo:
     coord: [2144.0, -3007.03]
-- .dir(E>) Turn
+- .dir(<E) Turn
 - _Korok::E06
 - .dir(W.) Fast Turn:
     movements:
@@ -65,7 +65,7 @@
     movements:
     - pop
 - _Korok::A01
-- .dir(S>>):
+- .dir(<<S):
     coord: [3250.0, -3442.14]
 - _Snap<Kilton>:
     comment: Snap multiple for safety

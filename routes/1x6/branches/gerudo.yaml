@@ -62,7 +62,7 @@
 - .dir(.N)
 - _Korok::G15
 - .dir(<<E):
-    notes: Reposition rock
+    notes: Jump down midair
 - _Korok::G11
 - .dir(W>) + midairs
 - _Korok::G07
