@@ -1,0 +1,52 @@
+- SOR Clip, No Tod
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.0, 1945.2]
+- _Equipment::Weapon<Boko Spear>:
+    notes: Can also grab torch.
+- 6 Peppers + Steak
+- Surf down
+- ToT clip
+- _Chest<Traveller Bow>:
+    coord: [-827.0, 1965.21]
+- 5 Arrows from pot
+- BLSS to bombs
+- _Shrine::JaBaij
+- BLSS
+- _Tower::GreatPlateau
+- WB + lagstop FDC:
+    notes: Throw weapon away (before grabbing hammer in next split)
+- _Shrine::OmanAu
+- BLSS to tree + WB
+- _Equipment::Weapon<Hammer>:
+    icon-map: null
+    comment: Inside stasis
+- _Shrine::OwaDaim
+- 3 Hammer Hits on Boulder
+- BLSS
+- _Shrine::KehNamut
+- BLSS
+- _Plateau
+- BLSS from below:
+    color: red
+- _Shrine::BoshKala
+- BLSS or .dir(N>) Turn super:
+    notes: BLSS is about the same as missing the super. 1 pepper backup if missed super
+- _Shrine::WahgoKatta:
+    notes: Left peg aim at middle white pillar
+- .dir(<E) Turn
+- _Shrine::HilaRao:
+    notes: "Safe strat: turn wb up and run. Unsafe strat: 1 wb to monk"
+- .dir(N.) Turn to fairy:
+    movements: 
+      - to: [996.0, 496.41]
+        marker: red
+- .dir(<N) Turn
+- 1 small radish:
+    movements:
+      - to: [830.34, 131.95, 222.57]
+        marker: yellow
+- _Shrine::KayaWan:
+    notes: Eat 2 peppers if you are doing the wb + blss strat. 1 pepper is unsafe
+- BLSS
+- _Shrine::ShehRata:
+    notes: 1 WB to monk

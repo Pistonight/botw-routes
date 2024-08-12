@@ -1,0 +1,44 @@
+- .dir(SW) super
+- _Shrine::JeeNoh:
+    notes: 1 wb to monk
+- .dir(N>) Turn + midair
+- _Shrine::DahKaso
+- Cryo block + .dir(N>) + .dir(N) midairs:
+    notes: stam is tight. Can go for a ground wb chain if want
+- _Shrine::RotaOoh:
+    notes: right peg aim left, slightly right of cardinal
+- .dir(NE) super or midair:
+    notes: Can also elevator BLSS, but need to steer out of the rocks first
+- _Shrine::KaamYatak:
+    notes: Turn from peg
+- .dir(<E) to ruins:
+    coord: [-760.5,816.3058648885726]
+- BLSS from ledge
+- _Shrine::KatahChuki
+- .dir(E.) Turn + .dir(E>) Low
+- _Shrine::ZaltaWa
+- .dir(W) non height + .dir(N) + .dir(.N) Turn + .dir(N.) Turn:
+    movements:
+    - to: [-1553.0, -603.98]
+    - to: [-1535.5, -733.03]
+    notes: 2 Peppers here for back up
+- _Shrine::MonyaToma
+- .dir(W) Turn
+- _Shrine::MaagNorah
+- .dir(N>) to marita and moblin BTB
+- _Shrine::RinOyaa:
+    notes: right peg square first
+- BLSS
+- _Shrine::ShaGehma
+- BLSS + .dir(E) delay glider pull
+- _Shrine::QazaTokki
+- WB up and slide
+- _Shrine::KeoRuug:
+    notes: Square forward
+- Run to statue:
+    notes: ONLY MASH A FOR STATUE
+- Surf to master sword
+- Master Sword:
+    counter: .split-end-game(MS)
+    icon: tots
+    coord: [431.66, 250.53, -2111.0]

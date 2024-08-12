@@ -1,0 +1,25 @@
+- .dir(N>) Turn + .dir(<E) Turn + .dir(E) + .dir(NE):
+    movements:
+      - to: [1656.0, -609.8]
+      - to: [1912.0, -717.84]
+      - to: [2144.0, -733.85]
+    notes: 
+      - You can choose between soh kofi or katah chuki (this route). For soh kofi, BLSS to shrine and 2 WBs to Tah Muhl, then go from Kaam Yatak to Zalta Wa directly in the last branch.
+      - Eat small radish for katah chuki route
+- _Shrine::TahMuhl:
+    notes: Run to end
+- .dir(E.) + .dir(NE):
+    coord: [2536.0, -948.45]
+- _Shrine::MoaKeet:
+    notes: 1 pepper, 1 wb to monk
+- .dir(N) Turn
+- _Shrine::SahDahaj:
+    notes: left peg cardinal right
+- .dir(N) + .dir(<N)
+- _Shrine::ZeKasho:
+    notes: 1 pepper and use fairy on landing
+- Elevator BLSS
+- _Shrine::KatosaAug:
+    notes: Square first
+- Elevator BLSS + .dir(N>)
+- _Shrine::ZunaKai

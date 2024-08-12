@@ -1,0 +1,12 @@
+- Akkala:
+  - use: ./branches/kaya-wan.yaml
+  - use: ./branches/akkala.yaml
+- Faron:
+  - _Warp::Shrine::ShehRata:
+      color: yellow
+  - use: ./branches/faron.yaml
+- Northwest:
+  - _Warp::Shrine::KehNamut:
+      color: "#0f0"
+  - use: ./branches/north-west.yaml
+ 

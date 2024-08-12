@@ -1,0 +1,46 @@
+- Elevator BLSS
+- _Shrine::DakaTuss:
+    notes: Eat steak inside, if have fairy use that
+- .dir(S) + .dir(S>>) + .dir(S) midair:
+    notes: 1 pepper
+    movements:
+    - [1599,636.3263187241091]
+    - [1749.5,773.7778290277938]
+- _Npc<4 Hearts from statue>:
+    coord: [1835.0, 1001.06]
+- .dir(N)
+- _Shrine::TalohNaeg:
+    notes: If you are swapping Toto Sah and Ha Dahamar with a blss, need to save shield here for BLSS. Otherwise you can break your pot lid in this shrine
+- .dir(S) super + .dir(S) Delay Turn:
+    notes: If you are doing Toto Sah first, WB up to tree stump and BLSS
+- _Shrine::HaDahamar
+- .dir(<S) super or turn + midair turn
+- .!!(Drop pot lid if not broken)
+- _Equipment::Shield<Shield of Mind's Eye>:
+    comment: Inside shrine
+    icon-map: null
+    notes: Turn first apparatus block upside down, Then wb to monk from the apparatus block
+- _Shrine::TotoSah
+- Cryo block + BLSS
+- _Shrine::ReeDahee
+- SCW
+- _Shrine::SheeVaneer
+- Run
+- _Shrine::SheeVenath
+- Elevator BLSS
+- _Shrine::QukahNata:
+    notes: Usually unloaded, but if you want to learn the clip go watch .link([this video]https://youtu.be/avrVPjqfJDQ)
+- Clip out + .dir(NW) wb
+- _Shrine::ShodaSah:
+    notes: Get ice arrows if BTB-ing to Sha Gehma. WB directly to monk if replacing the BTB with BLSS or WB chain
+- Elevator BLSS or from pillar
+- _Shrine::ShaiUtoh:
+    notes: left peg aim right
+- .dir(E) wb + BLSS:
+    notes: Herb here if need
+- _Shrine::KaoMakagh:
+    notes: right peg strat
+- .dir(N>) Turn:
+    notes: Raddish before shrine if skipping soh kofi (default)
+- _Shrine::PumaagNitae
+- _Shrine::YaNaga

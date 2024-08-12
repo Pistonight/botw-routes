@@ -95,7 +95,7 @@
   - Dark Beast:
       counter: .split-dark-beast(GG)
       icon-doc: ganon
-      coord: [-253.75,-1066.3135837163095]
+      coord: [-253.75, -1066.31]
   - 
   - _HouseKeepingStuff
   - _StatStuff

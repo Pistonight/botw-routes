@@ -1,0 +1,1 @@
+- `3.0` Migrate from old celer; Akkala first
