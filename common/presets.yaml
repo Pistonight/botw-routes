@@ -3,7 +3,7 @@ presets:
     text: Plateau
     counter: .split-plat(PLAT)
     icon: king
-    coord: [-812, 1966.10]
+    coord: [-812.0, 1966.1]
   EntanglePrompt:
     text: .boss($(0))
     counter: .var(counter-promptentangle)
@@ -56,9 +56,36 @@ presets:
       ZoraMonument: .add(1)
     icon: npc
 
+  _Beast:
+    _Medoh:
+      Memory:
+        text: Revali Memory
+        coord: [-3624.92, -1833.18]
+        counter: .split-npc(BEAST)
+        icon: medoh-memory
+      Enter:
+        text: Enter Medoh
+        coord: [-3859.26, -2286.28]
+        counter: .split-npc(BEAST)
+        icon: medoh-enter
+      Done:
+        text: .boss(Windblight)
+        icon-doc: medoh-done
+        counter: .split-npc(BEAST)
+        movements:
+        - to: [-3614.63, -1853.02]
+          warp: true
+
   _Npc:
+    # Kak
     Impa1:
       presets:
       - _Npc::SheikaFemale<Impa>
       coord: [1773.97, 984.37]
       counter: .split-npc(NPC)
+    # Rito
+    RitoChief:
+      presets:
+      - _Npc::Rito<Rito Chief>
+      coord: [-3626.75, -1843.5]
+    

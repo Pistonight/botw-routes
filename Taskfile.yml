@@ -1,0 +1,10 @@
+version: '3'
+
+tasks:
+  tools:
+    desc: Get celer-migration tool
+    cmds:
+    - coreutils rm -rf tools
+    - git clone https://github.com/Pistonight/celer-migration tools --depth 1
+    - coreutils cp tools/celer-*.py .
+    - coreutils rm -rf tools

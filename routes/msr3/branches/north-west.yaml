@@ -12,7 +12,7 @@
 - _Shrine::KaamYatak:
     notes: Turn from peg
 - .dir(<E) to ruins:
-    coord: [-760.5,816.3058648885726]
+    coord: [-760.5, 816.31]
 - BLSS from ledge
 - _Shrine::KatahChuki
 - .dir(E.) Turn + .dir(E>) Low

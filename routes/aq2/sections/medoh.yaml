@@ -1,0 +1,65 @@
+
+- a:
+    banner: true
+    text: |
+      Don't break lizal shield. Use Royal Claymore for tree cutting and stasis stuff.
+      Use bow order is Swallow -> FDB.
+      Use Falcon/GEB only when necessary
+
+- BLSS to Tena Kosah
+- Activate .loc(Tena Kosah):
+    coord: [-3470.5, -445.73]
+    notes: Doing the shrine later for better TOD management
+- .dir(.N) Turn:
+    coord: [-3540.0, -749.04]
+- _Npc<Fairy Fountain>
+- .dir(N) + .dir(<N) TS
+- _Npc::RitoChief:
+    notes: "[Divine Beast Vah Medoh] Main Quest"
+- Revali Memory:
+    split-type: UserDefined
+    icon-doc: medoh-memory
+
+- _Shop<Material Shop>:
+    notes: Buy all of them
+    comment: Wheat Sugar Butter Shroom
+- .dir(<N) TS
+- _Equipment::Bow<10 Arrows + Swallow Bow>:
+    coord: [-3793.25, -2317.5]
+    notes: Use swallow bow + AA for minigame
+- _Equipment::Bow<Falcon Bow>:
+    icon-map: null
+- Enter Medoh:
+    split-type: UserDefined
+    icon: medoh-enter
+- _Chest<Ancient Core>:
+    icon-map: null
+    comment: Inside Medoh
+    notes: If you forget this one, there is a backup later in Ketoh Wawai (dark forest shrine)
+- Statis button:
+    notes: It's better to do the new strat to avoid Link targeting the skull
+- RC Hit once + bomb arrow
+- .!!(EQUIP FDB, STASIS, AA)
+- Windblight:
+    split-type: UserDefined
+    icon: medoh-done
+    notes: Stasis, FDB 2 body 4 head
+- _Material<Cold Darner>:
+    movements:
+    - to: [-3607.75, -1853.25]
+      warp: true
+    comment: On deck, right after Medoh
+- Talk to chief:
+    var-change:
+      MainQuest: 1
+- _Equipment::Bow<Great Eagle Bow>:
+    icon-map: null
+- .dir(N>) to camp:
+    notes: Jump out to midair
+    coord: [-3479.0, -2085.11]
+- _Chest<5 Shock Arrows>:
+    notes: If you are slow you can AA the enemies so they don't bother you
+- .dir(E) + .dir(.E) Turn
+- _Material<Volfin Trout>:
+    movements:
+    - to: [-3009.0, -2138.0]

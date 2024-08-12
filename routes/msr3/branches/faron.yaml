@@ -4,8 +4,8 @@
 - .dir(S) + .dir(S>>) + .dir(S) midair:
     notes: 1 pepper
     movements:
-    - [1599,636.3263187241091]
-    - [1749.5,773.7778290277938]
+    - [1599.0, 636.33]
+    - [1749.5, 773.78]
 - _Npc<4 Hearts from statue>:
     coord: [1835.0, 1001.06]
 - .dir(N)

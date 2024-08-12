@@ -26,16 +26,10 @@
 - BLSS
 - _Tower::Tabantha
 - BLSS to rito, start Medoh
-- Revali Memory:
-    coord: [-3624.92, -1833.18]
-    counter: .split-npc(BEAST)
-    icon: medoh-memory
+- _Beast::Medoh::Memory
 - .dir(<N) TS
 - _Korok::T02
-- Enter Medoh:
-    coord: [-3859.26, -2286.28]
-    counter: .split-npc(BEAST)
-    icon: medoh-enter
+- _Beast::Medoh::Enter
 - _Chest<Core>:
     comment: In medoh
     icon-map: null
@@ -43,9 +37,7 @@
     notes:
       Drop when Windblight is warping.
       This is a little tight, but you can also drop right before activating the beast
-- .boss(Windblight):
-    icon-doc: medoh-done
-    counter: .split-npc(BEAST)
+- _Beast::Medoh::Done
 - _Material<Darner>:
     comment: "On flight deck"
     movements:

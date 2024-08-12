@@ -1,0 +1,14 @@
+title: All Quest
+version: 2.1.1
+config:
+- use: Pistonight/celer-presets/botw/full.yaml
+- use: ../../common/config.yaml
+- plugins:
+  - use: botw-ability-unstable
+    with:
+      estimate-recharge: true
+  - use: metrics
+    with:
+      detailed: true
+route:
+  use: ./main.yaml

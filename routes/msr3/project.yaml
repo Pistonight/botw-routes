@@ -5,7 +5,6 @@ config:
   - use: split-format
     with:
       Shrines: "[.var(pad02:counter-shrine)] .prop(text)"
-      Warps: "Warp .prop(text)"
 - use: Pistonight/celer-presets/botw/most.yaml
 - use: ../../common/config.yaml
 route:

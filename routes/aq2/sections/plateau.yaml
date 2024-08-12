@@ -1,0 +1,54 @@
+- SOR Clip, get TOD:
+    coord: [-1054.5, 1824.8]
+- _Equipment::Weapon<Tree Branch>:
+    coord: [-1024.63, 251.4, 1812.55]
+- Run down:
+    notes:
+      You can also FDC down with the tree branch but that's hard and saves 2 seconds
+- _Material<Flint>:
+    coord: [-954.9, 194.3, 1833.2]
+- _Equipment::Weapon<Axe>:
+    coord: [-920.93, 220.65, 1871.83]
+    comment: DO NOT DAMAGE
+- Whistle sprint toward spear
+- _Equipment::Shield<Spear + Pot Lid>:
+    coord: [-948.75, 1963.56]
+    notes: If you miss the spear, use hammer as back up
+- _Material<Peppers + Steak>:
+    coord: [-967.0, 1965.14]
+    comment: These are food
+- Surf down to TOT:
+    notes: "[Follow the Sheikah Slate] Main Quest"
+- Clip through
+- _Equipment::Bow<Bow + Arrow>:
+    coord: [-832.0, 1963.56]
+    notes: 
+      Need all 5 arrows starting IST.
+- BLSS
+- _Shrine::JaBaij
+- BLSS
+- _Tower::GreatPlateau:
+    vars:
+      MainQuest: .add(1)
+- Jump down + FDC:
+    notes: "[The Isolated Plateau] Main Quest"
+- BLSS to mag
+- _Shrine::OmanAu
+- _Chest<Amber>:
+    comment: .!!(DO NOT FORGET)
+    coord: [-685.5, 1533.24]
+    notes: Mag out of pond
+- BLSS + Tree WB:
+    coord: [-659.75, 1490.98]
+- _Shrine::OwaDaim:
+    comment: No Hammer
+    notes: Go for stasis wb since we don't need hammer
+- Boulder + BLSS
+- _Shrine::KehNamut
+- BLSS
+- _Plateau:
+    notes: "[Destroy Ganon] Main Quest and [Seek Out Impa] Main Quest"
+    vars:
+      MainQuest: .add(1)
+- ".link([Example inventory after Plat]: https://ist.itntpiston.app/?r=init+1+tree+branch+1+axe+1+spear%5Bequip%5D+1+traveler+bow%5Bequip%5D+5+arrow%5Bequip%5D+1+potlid%5Bequip%2C+life%3D300%5D+1+flint+6+pepper+3+shroom+1+amber+1+slate+4+orb+1+glider)"
+- use: ../common/check-quest.yaml

@@ -1,0 +1,57 @@
+- "Blood Moon: The BM shrine is its own branch. This document shows it as Shrine 113. However, based on your tempo, you can place it anywhere, ideally before a warp that is during night. You can see how the BM schedule works .link([here]https://github.com/Pistonight/botw-routes/blob/main/routes/aq2/BloodMoonSchedule.md) <-血月时间表有中文翻译" 
+- Directions are generally for WB unless specified otherwise. 
+  Look on the map if you are not sure where to BLSS to or where a shrine is.
+  For Square-First windbombs without direction, it means you aim at the thing you want to go to (look at map or watch VOD if you don't know where it is)
+- "Other terminology: TS = Turn Super, DT = Delayed Turn, SQ = Square First, AA = Ancient Arrow"
+- Plateau:
+    use: ./sections/plateau.yaml
+- Hateno: 
+    use: ./sections/kak1-hateno.yaml
+- Medoh:
+  - _Warp::Shrine::MoggLatan:
+      color: yellow
+  - use: ./sections/medoh.yaml
+- Naboris:
+  - __use__ Naboris
+- Hebra:
+  - __use__ Hebra
+- Ruta:
+  - __use__ Kak2Ruta
+  - __use__ TarreyActivateGoron
+- Eldin:
+  - __use__ Eldin
+  - __use__ TarreyActivateGerudo
+  - __use__ ThundraPlateau
+- Gerudo:
+  - __use__ Gerudo
+- Lake:
+  - __use__ Lake
+- Rudania:
+  - __use__ Rudania
+- Korok Forest:
+  - __use__ KorokForest
+  - __use__ KorokForest2
+- Central:
+  - __use__ Central
+- Kakariko:
+  - __use__ TarreyActivateRito
+  - __use__ AncientColumnMemory
+  - __use__ Kak3
+- Faron:
+  - __use__ Faron
+- Rito:
+  - __use__ Rito
+- Zora's Domain:
+  - __use__ TarreyActivateZora
+  - __use__ ZDQuests
+- Hateno:
+  - __use__ TarreyActivateHateno
+  - __use__ Hateno
+- Hebra 2:
+  - (==) If it's after 10PM, do BM branch first
+  - __use__ DeepHebra
+  - __use__ BM
+  - __use__ ForgottenTemple
+- Finale:
+  - __use__ TarreyFinal
+  - __use__ Ganon

@@ -1,0 +1,169 @@
+- .important(Keep all materials unless specified otherwise):
+    color: red
+- BLSS to Satori:
+    notes: From window toward beetle tree area
+- _Material::Count<Razorshrooms,2>:
+    coord: [-2202.0, 800.69]
+    notes: The 2 are in the exact same spot near some sunshrooms.
+- .dir(W) + .dir(W>) Turn 
+- _Material::Count<Lotus,5>:
+    coord: [-2542.0, 670.34]
+- .dir(E):
+    coord: [-2346.0, 687.58]
+- _Material<Rushroom>:
+    icon-map: null
+- _Equipment::Bow<Forest Dweller's Bow>
+- .dir(N)
+- _Material::Count<Endura Carrots,4>:
+    comment: Area below shrine
+    coord: [-2312.5, 527.52]
+    notes: Eat 1 for food right now
+- .dir(N):
+    coord: [-2299.5, 451.49]
+- _Material::Count<Rushrooms,3>:
+    comment: Above shrine
+- _Shrine::MoggLatan
+- _Korok::R60:
+    notes: Throw a bomb to blow up the leaves right after exiting the shrine
+- .dir(<E) SQ DEFUSE
+- _Material<3 Wood 10 Durians>:
+    comment: ""
+    coord: [-2187.5, 440.48]
+    notes: 
+    - Use bombs to farm them. 8-9 durians should be enough but you might want to grab extra food to be safe.
+      Keep 3 wood and durian for IST
+- banner:
+    text: We are going to cycle materials later. 
+          If you have more than 3 wood or more than 4 rushroom or more than 2 razor shroom. 
+          Drop them now. 
+          .link([Example inventory after Satori]https://ist.itntpiston.app/?c=H4sIAAAAAAACA02OQQ7CMAwEv7IP4FAoSFx4CeLgNC6NlMbFSSji9bilElwszXrX65BCwR5FmeGUUjcY0Ytt5olJr%2FyoYbqtFnpyZIWT%2Baf2opwL%2FMxx2%2BEEUv33TFJi8F%2FeIYaeL23TrOkY0lJPo7PwAUpv0TyoyGhnopSacYTWTTqCk69K3VJQcIZBoIQWs4hfXo5U2Gyizuhurawfr2KlfeIAAAA%3D)
+    banner: true
+- BLSS toward castle
+- Enter Guard Chamber:
+    notes: Go for unloaded gate but can clip in
+    coord: [-398.5, -829.5]
+- Royal Claymore + RGC:
+    notes: Do the sneakstrike like any% but don't shoot the moblin
+- .!!(STOP USING ROYAL CLAYMORE)
+- _Material::Count<Razorshroom,1>:
+    icon-doc: material
+    comment: Right box
+    notes: Use RGC
+- _Material<Naydra Fang>:
+    icon-doc: material
+    comment: Chest below stairs
+- _Chest<3 Ancient Arrow>
+- Kill Lizalfos:
+    notes: Throw a bomb to lure it like in any%
+- _Equipment::Shield<Lizal Shield>:
+    icon-doc: shield
+- _Cook<Speed Food>:
+    comment: 3 lotus + 2 rushroom, Eat
+- Run out the other entrance:
+    coord: [-319.75, -778.75]
+- .important(Material Cycling. Hard save before wb to be safe)
+- .dir(<S) Turn
+- "Drop:":
+    notes: Drop as you wait for the guardian to load
+    comment: .item(1 Amber 3 Wood 1 Fang)
+- Kill .enemy(Stalker)
+- "Drop:":
+    notes: Drop as you wait for the stalker to die
+    comment: .item(3 Razor 2 Rushroom)
+- _Material<Ancient Shaft>:
+    notes: Need 1 shaft 1 spring. If the guardian only dropped a shaft, can kill others for a spring. Otherwise might be better off reloading. Also get a core if you can
+    coord: [-222.25, -435.75]
+- "Pick up (in this order):"
+- .item(Rushroom, Wood, Fang)
+- .item(Amber)
+- .item(Razorshrooms)
+- _Material<Ancient Spring>
+- .link([Example inventory after castle]https://ist.itntpiston.app/?c=H4sIAAAAAAACA01QS1LDMAy9yjsAi5bATFlwEqYLJVYSzyhWkO2GcHpk0qFsbD%2B%2Fn%2ByYYsEZxZjRG6VhdkRf7Gtemcx3050Eg9C%2BqPGHxJHfu7fT6frHTZUsPBT8WeN6%2FU2lGwsbet0et6NrckHYWO4cXkFm%2FzWrFonhwE84Ko%2FGXJgFeY4soYVJTAXPEC014wWcQjUaWlzBBQ4ipWabaWwPTbQHI4yUJndZzbOpLuiwqbY8WnqfqYPRt9qdbF9h0Q1%2BECrsNWq9o8lnZPsBgI4n9EMBAAA%3D)
+- .dir(S) to wall:
+    coord: [-210.0, -262.0]
+- BLSS to near Kaya Wan
+- Magnesis chest out:
+    notes: "[Riverbed Reward] Side Quest"
+- _Chest<Knights Sword>:
+    icon-map: null
+    comment: Keep the weapon for IST
+- _Npc<Guy by River>:
+    comment: Second Option
+    coord: [823.0, 146.0]
+    notes: "[Riverbed Reward] Side Quest"
+    vars:
+      SideQuest: .add(1)
+- _Shrine::KayaWan:
+    comment: Get Ancient Core
+    notes: Can skip the core if you already got one from the guardian
+- BLSS .dir(E>)
+- _Shrine::DakaTuss
+- .!!(EAT BEFORE MIDAIR)
+- .dir(S) + .dir(E>>) + .dir(S)
+- _Npc::Sheika::Female<Impa>:
+    coord: [1775.0, 987.0]
+    notes: "[Free the Divine Beasts] Main Quest and [Locked Mementos] Main Quest"
+    vars:
+      MainQuest: .add(1)
+- .dir(<<E) to fairy fountain:
+    coord: [1963.57, 269.72, 860.48]
+- _Material<Fairy>:
+    notes: 1 is enough but can get more if you are low on food. If you get nightshades, drop them
+- .dir(.W)
+- Activate .loc(Taloh Naeg) Shrine:
+    coord: [1833.5, 906.16]
+- .dir(<<S) Super to camp
+- RGC slam kill 3 bokos:
+    notes: Make sure they are loaded
+    coord: [2164.0, 1379.64]
+- _Npc<Hestu>:
+    notes: "[The Priceless Maracas] Side Quest. Talk Twice"
+    comment: Get Weapon Slot
+    coord: [2069.5, 1425.0]
+    var-change:
+      SideQuest: 1
+- .dir(<S) Turn to ore
+- BLSS .dir(E>) to near hateno:
+    coord: [3190.5, 2040.01]
+    notes: BLSS off rare ore
+- .dir(E>) to shrine
+- _Shrine::MyahmAgana:
+    notes: Activate shrine afterwards if got unloaded
+- use: ./ist.yaml
+- .dir(W) SQ
+- _Npc<Sheep Lady>:
+    coord: [3623.0, 2101.5]
+    notes: "[The Sheep Rustlers] Side Quest"
+- _Material<2 Apples>:
+    comment: From tree
+    icon-map: null
+- .dir(W) to statue
+- _Npc<Horned Statue>:
+    coord: [3286.5, 2200.1]
+    notes: "[The Statue's Bargain] Side Quest. Just mash A. You will trade away a stam and get a heart"
+    var-change:
+      SideQuest: 1
+- .dir(.S) to Bolson
+- _Npc<Bolson>:
+    coord: [3311.0, 2302.9]
+    notes: "[Hylian Homeowner] Side Quest"
+- BEFORE 5:00AM ---> Make Morning (Sasa Kai Cycle Starts - Very Tight):
+    banner: true
+- AFTER 5:00AM ---> Close and Reload Autosave:
+    banner: true
+- .important(We are keeping IST until after Test of Wood, to reload and respawn at trial start. However if you have to reload, you need to close the game first. REMEMBER THAT or close game now):
+    banner: true
+- _Npc<Buy House>:
+    icon-map: null
+- _Npc<Hudson>:
+    icon-map: null
+    comment: Mash A+B
+    notes: "[From the Ground Up] Side Quest"
+    counter: .split-npc(TTOWN)
+- _Npc<House Upgrade>:
+    coord: [3328.75, 2278.14]
+    var-change:
+      SideQuest: 1
+- use: ../common/check-quest.yaml
+- "":
+    notes: Don't break lizal shield. Use Royal Claymore for tree cutting and stasis stuff. Use bow order is Swallow -> FDB. Use Falcon/GEB only when necessary (You will get these bows in the next section)
