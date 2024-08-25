@@ -1,0 +1,17 @@
+# Start: Keh Namut
+- BLSS + .dir(N) + .dir(N) midair
+- _Shrine::MoggLatan
+- BLSS + Run + WB .dir(W) + glide up
+- _Shrine::KeehaYoog:
+    comment: 1 Shock Arrow activate
+- BLSS:
+    movements:
+    - to: [-3928.0, 532.69]
+    - to: [-4320.0, 416.64]
+- _Shrine::KemaKosassa
+- BLSS:
+    movements:
+    - to: [-4179.59, 1156.3]
+- Melt Kuh Takkar
+- _Shrine::KuhTakkar:
+    notes: Stasis + Hit ice block 3 times with hammer, shoot

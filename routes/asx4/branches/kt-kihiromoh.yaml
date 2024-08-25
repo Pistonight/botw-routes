@@ -1,0 +1,27 @@
+# Start: KT
+- SCW + Surf + .dir(W) Turn
+- _SCW::WoodActivate:
+    presets: _Shrine::KihiroMoh
+- Run to other side
+- .dir(E) + .dir(W) + .dir(<W) Turn:
+    movements:
+    - [-3350.83, 1330.12]
+    - [-3541.81, 1365.11]
+- _Shrine::ShoDantu
+- SCW + .dir(S) + .dir(E>) Turn:
+    movements:
+    - [-3897.07, 1847.83]
+    - [-3660.5, 227.86, 1937.4]
+- _Chest<5 Bomb Arrows>:
+    notes: move the chest 1 meter closer to shrine
+- _SCW:
+    presets: _Shrine::SasaKai
+    movements:
+    - to: [-3561.88, 1953.55]
+      warp: true
+    - _Shrine::SasaKai
+- .dir(SE) Delay
+- _Shrine::DakoTah:
+    comment: Radiant Shield
+- .dir(E>) Slight Turn + .dir(<E)
+- _Shrine::KayNoh

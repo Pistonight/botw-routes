@@ -1,0 +1,126 @@
+- BLSS:
+    color: red
+- _Shrine::BoshKala
+- .dir(N>) TS or BLSS:
+    notes: BLSS recommended to save food
+- _Shrine::WahgoKatta
+- .dir(<E) Turn
+- _Shrine::HilaRao
+- .dir(N.) Turn to fairy:
+    movements:
+    - to: [950.0, 500.14]
+      marker: yellow
+- _Shrine::KayaWan:
+    notes: nothing in forest
+- SQ to Beetle:
+    coord: [890.25, 131.28, 157.06]
+- _Shop<Sell Ruby, 3 Frogs>
+- BLSS
+- _Shrine::DakaTuss
+- .dir(S) + .dir(SE):
+    coord: [1590.81, 634.59]
+- _Equipment::Weapon<Hammer>:
+    coord: [1789.89, 858.78]
+    notes: Getting this one because of textbox
+- .dir(E) MAX HEIGHT:
+    coord: [1973.76, 851.5]
+- fairy if low on food (2 WBs needed)
+- .item(3 Endura Carrot)
+- .item(3 Silent Princess)
+- .dir(SW):
+    coord: [1793.89, 1028.21]
+- _Shop<5 Carrot + Gut>
+- Start Burning 1 Swift Carrot
+- Bomb the tree 1 wood
+- _Cook<Hasty Elixir>:
+    comment: 3 Frog, Swift, Gut
+    icon-map: null
+- _Cook<Roasted Swift Carrot>:
+    comment: pick up
+    icon-map: null
+- _Cook<Endura Food>:
+    comment: 3 Endura Carrot
+- _Shop<Break 8 Slots>:
+    coord: [1824.39, 1041.2]
+    notes: Put 1 Pepper, Shroom, Swift, Silent Princess aside, use wood for check
+- Pick up wood
+- Buy 5 arrow, 1 fire arrow
+- .dir(N)
+- Enter Taloh Naeg:
+    movements:
+    - _Shrine::TalohNaeg
+    icon-doc: shrine-incomplete
+    counter: .split-shrine-other(ENTER)
+- Drop --> .item(Branch, Hammer, PotLid)
+- SAVE
+- Drop --> .item(Material, Food, Bow):
+    notes: a different pile
+- Drop --> .item(Weapon)
+- Pikcup all weapon and shield on ground
+- .important(Reload -> Shoot, Save)
+- Drop --> .item(Material, Food, Bow)
+- Drop all weapon:
+    notes: a different pile
+- Pick up weapon, UNEQUIP
+- .important(Reload, Save)
+- Get Shield
+- _Shrine::TalohNaeg
+- _Shrine::LaknaRokee:
+    presets: _SCW::Buffered
+    notes: Get EOD
+- .dir(N>) Super
+- _Shrine::MezzaLo
+- BLSS to ZD:
+    movements:
+    - to: [3033.0, -7.08]
+    - to: [3207.0, -335.21]
+    - to: [3230.0, -591.31]
+- _Equipment::Weapon<Trident>
+- .dir(<S) Turn
+- _Shop<20 Ice Arrows>:
+    notes: See end of doc for how many fairies to sell
+    coord: [3321.65, -480.99]
+    vars:
+      Rupee: .add(340)
+- _Shrine::NeezYohma
+- .dir(W):
+    coord: [3105.75, -464.18]
+- _Shrine::DagahKeek:
+    notes: Throw aways spear
+- SCW + .dir(N>) + .dir(W) + .dir(.N):
+    movements:
+    - to: [3210.32, -583.41]
+    - to: [3120.83, -593.9]
+    - to: [3098.84, -754.84]
+    - to: [3103.34, -830.81]
+      warp: true
+- _Shrine::SatoKoda:
+    presets: _SCW::AmiiboActivate
+- BLSS (behind)
+- _Shrine::SohKofi
+- BLSS
+- _Shrine::ShehRata
+- .dir(<N) Turn:
+    coord: [1226.06, -1072.27]
+- Chuchu
+- SQ
+- _Shrine::MirroShaz
+- .dir(S>>) Slight Turn + .dir(<W) + .dir(<W):
+    coord: [991.0, -963.33]
+- _Shrine::NamikaOzz
+- .dir(S) + BLSS from top of tree stump
+- _Chest<3AA>:
+    coord: [-64.9, -1041.14]
+- .dir(NW)
+- _Chest<Naydra Scale>:
+    coord: [-176.0, -1164.45]
+- Run
+- _Chest<Dinraal Scale>:
+    coord: [-194.0, -1220.05]
+- WB to dock:
+    coord: [-310.05, -1138.57]
+    notes: We get bomb arrows later, not here
+- Drop down + .dir(<S) Turn midair:
+    notes: The midair saves like 10 seconds?? Not worth if you are not comfortable or trying to go for WR
+- _Shrine::SaasKosah
+- Make night Look Up and warp if needed, if already night, enter shrine and warp.

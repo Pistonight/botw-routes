@@ -1,0 +1,10 @@
+presets:
+  StatStuff:
+    text: Stat =>
+    notes:
+    - "Arrows: .var(FireArrow) Fire; .var(IceArrow) Ice; .var(ShockArrow) Shock"
+    - .var(Wood) Wood
+    - .var(Hammer) Hammer Durability
+    - Used .var(Amiibo) Fish Amiibos
+  StatStuff:
+    text: "SCW Stat: .var(SCW) SCWs, (.var(iSCW) infinity)"

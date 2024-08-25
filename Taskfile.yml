@@ -8,3 +8,8 @@ tasks:
     - git clone https://github.com/Pistonight/celer-migration tools --depth 1
     - coreutils cp tools/celer-*.py .
     - coreutils rm -rf tools
+
+  format:
+    desc: Format code
+    cmds:
+    - python celer-format.py routes common

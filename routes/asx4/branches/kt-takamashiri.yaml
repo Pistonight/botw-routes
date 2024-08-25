@@ -1,0 +1,16 @@
+# Start: KT
+- SCW + Tree BLSS
+- _SCW::Infinity::Amiibo<-blessing>:
+      presets:
+      - _Shrine::TakamaShiri
+      - _StratEx::Shrine::TakamaShiri
+- Climb Pillar behind left + .dir(<<E) Turn:
+    notes: pillar is cardinal
+- _Shrine::KemaZoos
+- .dir(S>) out + .dir(S>) Turn
+- Light torches:
+    notes:
+    - .link([(shoot all from one\)]https://www.youtube.com/watch?v=QA29M7r0WZQ&t=7715s)
+- _Shrine::ThoKayu
+- BLSS
+- _Shrine::HawaKoth

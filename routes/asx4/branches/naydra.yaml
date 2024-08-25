@@ -1,0 +1,24 @@
+# Start: Mezza Lo
+- .dir(S) Turn + .dir(S) + .dir(<S) Turn
+- _Shrine::DowNaeh
+
+- .dir(<N) + .dir(S>):
+    coord: [2642.0, 1187.09]
+- _Shrine::KamUrog
+
+- .dir(<S) + .dir(E) + BLSS:
+    notes: BLSS off a rare ore deposit
+- _Shrine::MyahmAgana
+
+- .dir(E.) + .dir(E) + .dir(<E) super
+- .dir(N>) Turn
+- _Shrine::TahnoOah
+- .dir(N) + .dir(N) midair:
+    coord: [4187.0, 1377.94]
+- .dir(N) + .dir(W) + .dir(<W):
+    movements: 
+    - to: [4179.0, 1267.9]
+    - to: [4049.0, 1275.9]
+    - to: [3948.0, 1343.93]
+- _Shrine::JitanSami:
+    comment: .italic(Where am I going again?)

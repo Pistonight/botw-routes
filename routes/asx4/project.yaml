@@ -1,0 +1,12 @@
+title: All Shrines Extended
+version: v4.0
+config:
+- plugins:
+  - use: split-format
+    with:
+      Shrines: ".var(pad03:counter-shrine) .prop(text)"
+      DLC Shrines: "EX .prop(text)"
+- use: Pistonight/celer-presets/botw/most.yaml
+- use: ../../common/config.yaml
+route:
+  use: ./main.yaml

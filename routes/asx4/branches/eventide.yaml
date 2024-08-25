@@ -1,0 +1,26 @@
+# Start: Jitan Sami
+- SCW (Infinity) + BLSS
+- _SCW::Infinity::Chu<-blessing, Ice, Fire>:
+    presets: _Shrine::KorguChideh
+- Run + Glide off:
+    movements:
+    - to: [4736.21, 3869.5]
+    - to: [3679.0, 3330.15]
+      warp: true
+- _Shrine::MuwoJeem
+- _SCW::Buffered:
+    presets: _Shrine::KahYah
+- .dir(S>>) + .dir(W>) Turn:
+    movements:
+    - to: [3308.87, 3552.75]
+    - to: [2959.96, 3494.39]
+- _Shop<All Shock Arrows>:
+    vars:
+      Rupee: .add(420)
+- .dir(<N)
+- _Shrine::YahRin
+- BLSS:
+    movements:
+    - [3264.86, 3476.76]
+    - [3536.83, 3419.78]
+- _Shrine::ChaasQeta

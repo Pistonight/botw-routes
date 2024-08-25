@@ -56,6 +56,56 @@ presets:
       ZoraMonument: .add(1)
     icon: npc
 
+  SCW:
+    vars:
+      SCW: .add(1)
+  _SCW:
+    Buffered:
+      comment: Buffered SCW
+      vars:
+        SCW: .add(1)
+        bSCW: .add(1)
+
+    _Infinity:
+      Auto:
+        icon: shrine-iscw$(0)
+        comment: Auto Activate
+        vars:
+          SCW: .add(1)
+          iSCW: .add(1)
+      Chu:
+        icon: shrine-iscw$(0)
+        comment: Chu $(1) -> $(2)
+        vars:
+          SCW: .add(1)
+          iSCW: .add(1)
+          Chu: .add(1)
+          Ice: .add(1)
+          
+      Amiibo:
+        icon: shrine-iscw$(0)
+        comment: Amiibo
+        vars:
+          SCW: .add(1)
+          iSCW: .add(1)
+          Amiibo: .add(1)
+          Ice: .add(1)
+    WoodActivate:
+      comment: Wood Activate
+      vars:
+        SCW: .add(1)
+        Wood: .add(1)
+    AmiiboActivate:
+      vars:
+        SCW: .add(1)
+      comment: Amiibo Textbox
+    FishActivate:
+      comment: Ice Activate (.var(Fish))
+      vars:
+        SCW: .add(1)
+        Ice: .add(1)
+        Fish: .add(1)
+
   _Beast:
     _Medoh:
       Memory:
@@ -75,6 +125,41 @@ presets:
         movements:
         - to: [-3614.63, -1853.02]
           warp: true
+
+  _StratEx: # DLC Strats bc I forget all the time
+    _Shrine:
+      EtsuKorima:
+        notes: Clip backwards 2x, run to end to light up, max height WB
+      RuvoKorbah:
+        notes: TOS skew backwards, clip 2x + ESC
+      RohtaChigah:
+        notes: Run
+      YowakaIta:
+        notes: Scope clip
+      NoeRajee:
+        notes: Max height to top of pillar
+      ShiraGomar:
+        notes: cardinal, aim at right updraft
+      KiahToza:
+        notes: Right Peg, SQ High, Stasis, 3x Hits + Arrow
+      KihiroMoh:
+        notes: cardinal FAST
+      TakamaShiri:
+        notes: Left Peg Aim Right Light, DD
+      KieveTala:
+        notes: Shock Trap
+      SatoKoda:
+        notes: Second stair, cardinal
+      MahEliya:
+        notes: SQ HIGH
+      KeeDafunia:
+        notes: SQ Very HIGH + cryo skip/WB
+      RinuHonika:
+        notes: Aim Lamp, DD
+      KamiaOmuna:
+        notes: cardinal
+      SharoLun:
+        notes: WB up then BLSS
 
   _Npc:
     # Kak

@@ -1,0 +1,37 @@
+# Start: KT
+- SCW + Surf
+- Get Skew .dir(E):
+    coord: [-3126.15, 1316.0]
+- .dir(E.) + .dir(E) + BLSS:
+    movements:
+    - [-2981.16, 1379.97]
+    - [-2842.18, 1358.98]
+    - [-1285.99, 2080.45]
+    - to: [-1217.62, 2111.56]
+      warp: true
+- _SCW::Infinity::Amiibo<-dlc>:
+    presets:
+    - _Shrine::EtsuKorima
+    - _StratEx::Shrine::EtsuKorima
+    vars:
+      SCW: .add(1)
+      iSCW: .add(1)
+      Amiibo: .add(1)
+      Ice: .add(2) # ice other fish to probe?
+- .dir(E>) Turn to Stasis:
+    movements:
+    - _Shrine::OwaDaim
+- SCW + Tree Stasis 5 Hits
+- _Shrine::RuvoKorbah:
+    presets:
+    - _SCW::Buffered
+    - _StratEx::Shrine::RuvoKorbah
+- Cut tree + .dir(<E):
+    movements:
+    - _Shrine::JaBaij
+- _Shrine::RohtaChigah:
+    presets:
+    - _SCW::Buffered
+    - _StratEx::Shrine::RohtaChigah
+- .dir(<S) TS
+- _Shrine::YaNaga

@@ -1,0 +1,51 @@
+get 1 slate 1 branch 1 hammer 1 trav bow 4 arrow 3 pepper 3 shroom 1 potlid 4 orb 1 glider
+equip hammer
+# kaya wan
+get 1 fairy 3 hot
+get 5 orbs
+get axe
+get 3 endura carrot 3 silent princess
+
+# kak 16x5+80, Rupee: 20
+get 4 swift carrot 1 boko gut
+get wood
+with all hot 1 carrot 1 boko gut
+cook hasty elixir
+get roasted swift
+with 3 endura carrot
+cook 1 endurafood
+# shop + 40
+break 8 slots with all pepper all shroom all swift all silent princess
+# 40, Rupee: 20
+
+buy 5 arrow 1 fire arrow
+# inside shrine, run toward chest, stop halfway
+drop all shield
+drop tree branch
+drop axe
+equip hammer
+SAVE
+remove all food
+drop all material
+drop hammer
+# turn around
+drop all bow
+pickup 3 weapon
+get shield
+unequip weapon
+
+reload
+shoot 1 arrow
+save
+remove all food
+remove all material
+
+drop trav bow
+# turn around
+drop all weapon
+pick up weapon
+unequip weapon
+reload
+save
+eat hasty
+reload

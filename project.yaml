@@ -3,11 +3,18 @@ entry-points:
   master-sword-restricted: msr
   msr: msr3
   msr3: /routes/msr3/project.yaml
+
   # All Shrines
   all-shrines: as
   as: as4
   as4: as45
   as45: /routes/as4/project.yaml
+
+  # All Shrines EX
+  all-shrines-extended: asx
+  all-shrines-ex: asx
+  asx: asx4
+  asx4: /routes/asx4/project.yaml
 
   # Hundo EX
   1ex: 1x

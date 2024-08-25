@@ -3,6 +3,10 @@ tags:
     background: black
     color: white
     split-type: Plateau
+  split-shrine-other:
+    background: black
+    color: yellow
+    split-type: Other Shrine Actions
   split-end-game:
     background: black
     color: yellow
@@ -37,3 +41,4 @@ splits:
   - split-plat
   - split-end-game
   - split-dark-beast
+  - split-shrine-other
