@@ -1,8 +1,11 @@
 # Start: KT
-- SCW + WB + BLSS
+- SCW + WB + BLSS:
+    coord: [-3218.05, 1031.77]
 - .important(The other chu order is NOT ok)
 - _SCW::Infinity::Chu<-dlc, Shock, Fire>:
-    presets: _Shrine::KiahToza
+    presets:
+    - _Shrine::KiahToza
+    - _StratEx::Shrine::KiahToza
 - Surf + .dir(W>) DT:
     coord: [-2246.03, -3148.05]
 - Shock Lizalfos for Boomerang:

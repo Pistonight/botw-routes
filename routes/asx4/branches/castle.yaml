@@ -78,6 +78,7 @@
     - to: [3230.0, -591.31]
 - _Equipment::Weapon<Trident>
 - .dir(<S) Turn
+- Sell .item(1 Endura Food)
 - _Shop<20 Ice Arrows>:
     notes: See end of doc for how many fairies to sell
     coord: [3321.65, -480.99]

@@ -19,5 +19,7 @@
 - _Shrine::ShaWarvo
 - SCW + Run
 - _SCW:
-    presets: _Shrine::NoeRajee
-    comment: Run
+    presets: 
+    - _Shrine::NoeRajee
+    - _StratEx::Shrine::NoeRajee
+    comment: Look Activate
