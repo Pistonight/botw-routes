@@ -5,15 +5,37 @@
     presets: _Shrine::KiahToza
 - Surf + .dir(W>) DT:
     coord: [-2246.03, -3148.05]
+- Shock Lizalfos for Boomerang:
+    movements:
+    - to: [-2342.74, 482.49, -3228.0]
+      marker: yellow
 - _Shrine::RokUwog
+- .dir(N) + .dir(.E) FT + .dir(.E) + .dir(.E)
 - _Shrine::ShadaNaw
-- _Shrine::GomaAsaagh
+- .dir(<S) Turn
+- _Shrine::GomaAsaagh:
+    comment: Claymore inside
+- shoot fire arrow at ice
 - _Shrine::LannoKooh
+- .dir(NE)
+- _Strat::Shrine::GeeHarahDoor::Amiibo
 - _Shrine::GeeHarah
-- _Shrine::RinOyaa
 
+- .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:
+    coord: [-2388.0, -2440.65]
+- _Shrine::RinOyaa
+- BLSS
 - _Shrine::ShaGehma
+- BLSS
 - _Shrine::QazaTokki:
-    comment: barb
+    comment: Barb Pants inside
+- .dir(S) up + BLSS
 - _Shrine::KetohWawai
+- .dir(S>>) + .dir(S>) Turn + .dir(<S) DT:
+    movements:
+    - [118.0, -2789.99]
+    - to: [256.19, 281.61, -2229.61]
+      marker: green
+    notes: Tasho is directly below second deku tree branch cluster from the right
+- Talk to Tasho, Backflip
 - _Shrine::DaagChokah

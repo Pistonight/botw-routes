@@ -1,0 +1,10 @@
+# Start: Shada Naw
+- .dir(<W) DT:
+    notes: Directly from shrine, no super
+    coord: [-3580.5, -3010.75]
+- _Shrine::MozoShenno
+- Run + .dir(S>) DT + .dir(<W) DT:
+    movements:
+    - [-3741.5, -2578.36]
+    - [-3984.0, -2543.86]
+- _Shrine::MakaRah

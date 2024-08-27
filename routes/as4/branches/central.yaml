@@ -32,5 +32,6 @@
     notes: With good enough movement you can consistently reach the cave with the thorns unloaded and just hammer the rocks
     vars:
       Hammer: .sub(1)
-- Updraft + .dir(SE)
+- Updraft + Run + .dir(E>) Turn:
+    coord: [-961.0, -585.1]
 - _Shrine::KatahChuki

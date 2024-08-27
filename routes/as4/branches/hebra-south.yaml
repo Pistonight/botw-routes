@@ -5,8 +5,7 @@
 - shoot fire arrow at ice
 - _Shrine::LannoKooh
 - .dir(NE)
-- Snowball strat:
-    notes: Guardian Amiibo, use mag + gyro or use stasis 2 hits with Hammer
+- _Strat::Shrine::GeeHarahDoor::Amiibo
 - _Shrine::GeeHarah
 
 - .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:

@@ -1,0 +1,1 @@
+- `1.2` Replace _Rucco Maag_ with _Maka Rah_

@@ -1,0 +1,7 @@
+- SCW:
+    movements: 
+    - [3963.0, 1361.33]
+    - [3940.0, 1409.32]
+    - [3586.0, 1622.51]
+- _SCW::Infinity::Amiibo<-blessing>:
+    presets: _Shrine::ShaeKatha

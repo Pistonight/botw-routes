@@ -1,0 +1,33 @@
+- SCW + .dir(<N) Turn + BLSS:
+    movements:
+    - to: [-3196.0, 1032.77]
+    - to: [-3112.0, 888.71]
+- _SCW::FishActivate:
+      presets: _Shrine::JolooNah
+- BLSS
+- _Shrine::JeeNoh
+- .dir(N>) Turn + .dir(N) Turn
+- _Shrine::DahKaso
+- Cryo + .dir(N>) + .dir(N) midairs:
+    coord: [-1630.0, 1607.82]
+- _Shrine::RotaOoh
+- BLSS
+- _Shrine::KaamYatak
+- .dir(<N) + BTB:
+    movements:
+    - [-957.0, 760.12]
+    - [-1094.0, 530.11]
+    - [-1861.5, 73.77]
+    notes: .link(https://www.youtube.com/watch?v=juT7xeQc3wk&t=14443s)
+    vars:
+      Ice: .add(1)
+- _Shrine::SheemDagoze
+- .dir(N>) TS:
+    notes: Start lagging late
+- _Shrine::ZaltaWa
+- .dir(E) + .dir(E) Turn:
+    notes: With good enough movement you can consistently reach the cave with the thorns unloaded and just smash the rocks
+- _Shrine::NoyaNeha
+- Updraft + Run + .dir(E>) Turn:
+    coord: [-961.0, -585.1]
+- _Shrine::KatahChuki

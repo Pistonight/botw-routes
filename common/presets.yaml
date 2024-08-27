@@ -146,7 +146,7 @@ presets:
         notes: cardinal FAST
       TakamaShiri:
         notes: Left Peg Aim Right Light, DD
-      KieveTala:
+      KeiveTala:
         notes: Shock Trap
       SatoKoda:
         notes: Second stair, cardinal
@@ -160,6 +160,16 @@ presets:
         notes: cardinal
       SharoLun:
         notes: WB up then BLSS
+
+  _Strat:
+    _Shrine:
+      _GeeHarahDoor:
+        Amiibo:
+          text: Guardian Amiibo
+          notes: Use mag + gyro or use stasis 2 hits
+        Snowball:
+          text: Roll Snowball
+          notes: Pick up snow ball, throw it up, let it roll down to almost door, statis 5 hits
 
   _Npc:
     # Kak

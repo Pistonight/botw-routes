@@ -1,4 +1,7 @@
 - Plateau:
+  - _1:
+      text: ""
+      comment: .italic(First TOD Cycle is to skip campfire for Kam Urog)
   - use: ./branches/plateau.yaml
 - Castle:
   - use: ./branches/castle.yaml
@@ -25,194 +28,54 @@
   - _Warp::Shrine::KuhTakkar:
       color: red
   - use: ./branches/kt-kiahtoza.yaml
-- order:
-
-
-  - _SCW::FishActivate:
-      presets: _Shrine::KuhnSidajj
-  - _Shrine::KeoRuug
-  - _Shrine::MaagHalan
-  - _SCW::Infinity::Chu<-dlc, Fire, Shock>:
-      presets: _Shrine::RinuHonika
-  - activate shrine
-  - _SCW::WoodActivate:
-      presets: _Shrine::SharoLun
-  - _Shrine::DaqaKoh
-  - _Shrine::ShaeMosah:
-      comment: SS
-  - _Shrine::ShoraHah
-  - _Shrine::KamiaOmuna
-  - _Shrine::GoraeTorr
-  - _Shrine::ZunaKai
-  - _Shrine::TuKaloh:
-      comment: barb
-  
+  - use: ./branches/korok-forest.yaml
+  - use: ./branches/eldin-north.yaml
   - _Warp::Shrine::RinuHonika:
       color: yellow
-  - _SCW:
-      presets: _Shrine::KayraMah
-      comment: Run, Look
-  - _Shrine::QuaRaym
-  - _Shrine::TahMuhl
-  - _Shrine::MoaKeet
-  - _Shrine::SahDahaj
-  - _Shrine::ZeKasho
-  - _Shrine::KatosaAug
-  - _Shrine::TutsuwaNima
-  - _SCW::Infinity::Amiibo<-blessing>:
-      presets: _Shrine::RitaagZumo
-
+  - use: ./branches/eldin-south.yaml
+- Lanayru Necluda:
   - _Warp::Shrine::JitanSami:
       color: red
-  - _SCW::Infinity::Amiibo<-dlc>:
-      presets: _Shrine::MahEliya
-  - _Shrine::DahHesho
-  - _Shrine::KenaiShakah
-  - _Shrine::KahMael
-  - _Tod::Morning:
-      vars:
-        Wood: .add(1)
-  - _Shrine::KeeDafunia
-  - _SCW::FishActivate:
-      presets: _Shrine::ShaiYota
-  - _Shrine::RuccoMaag
-
+  - use: ./branches/js-maheliya.yaml
   - _Warp::Shrine::JitanSami:
       color: cyan
-  - _SCW::Infinity::Amiibo<-blessing>:
-      presets: _Shrine::TawaJinn
-      notes: Get Thunderblade
-  - _Shrine::TotoSah
-  - _Shrine::HaDahamar
-  - _Shrine::ReeDahee
-  - _SCW:
-      presets: _Shrine::SheeVaneer
-  - _Shrine::SheeVenath
-  - _Shrine::QukahNata
-  - _Shrine::ShodaSah
-  - _Shrine::ShaiUtoh
-
+  - use: ./branches/js-tawajinn.yaml
+  - _Warp::Shrine::JitanSami:
+      color: magenta
+  - use: ./branches/js-shoqatatone.yaml
   - _Warp::Shrine::JitanSami:
       color: orange
-  - _SCW::Infinity::Amiibo<-blessing>:
-      presets: _Shrine::ShaeKatha
-
-
+  - use: ./branches/js-shaekatha.yaml
+- Wasteland Rito:
   - _Warp::Shrine::KuhTakkar:
       color: magenta
-  - _SCW::Infinity::Amiibo<-blessing>:
-      presets: _Shrine::RaqaZunzo
-  - _Shrine::DaqoChisay
-
-  - _Shrine::MisaeSuma
-  - _Tod::Noon:
-      vars:
-        Wood: .add(1)
-  - _Shrine::KeiveTala
-  - _SCW::WoodActivate:
-      presets: _Shrine::KorshOhu
-  - _Shrine::DilaMaag:
-      comment: barb
-  - _Shrine::SumaSahma
-  - _Shrine::IshtoSoh
-
-  - _Warp::Shrine::JitanSami:
-      color: magenta
-  - _SCW::Infinity::Amiibo<-tos>:
-      presets: _Shrine::ShoqaTatone
-  - _Shrine::KaoMakagh
-  - _Shrine::PumaagNitae
-
-
+  - use: ./branches/kt-raqazunzo.yaml
   - _Warp::Shrine::KuhTakkar:
       color: cyan
-  - _SCW:
-      presets: _Shrine::MijahRokee
-  - _Shrine::ShaeLoya
-
-  - _Shrine::TohYahsa
-  - _SCW::WoodActivate:
-      presets: _Shrine::ShiraGomar
-  - _Shrine::DunbaTaag
-
-  - _Warp::Shrine::ShaeLoya:
-      color: red
-  - _Shrine::TenaKosah
-  - _Shrine::KahOkeo
-  - _Warp::Shrine::TenaKosah
-  - _Tod::Noon:
-      vars:
-        Wood: .add(1)
-  - _Shrine::AkhVaquot
-  - _Shrine::BareedaNaag
-  - _SCW:
-      presets: _Shrine::VooLota
-      comment: Rushroom Activate
-
-  - _Shrine::ShaWarvo
-  - _SCW:
-      presets: _Shrine::NoeRajee
-      comment: Run, Look
-  - _Warp::Shrine::ShadaNaw:
-      color: yellow
-
-  - _Shrine::HiaMiu
-  - _Shrine::ToQuomo
-  - _Warp::Shrine::ShadaNaw:
-      color: "#0f0"
-  - _Shrine::MozoShenno
-  - _Shrine::MakaRah
+  - use: ./branches/kt-mijahrokee.yaml
+  - use: ./branches/thundra-plat.yaml
   - _Warp::Shrine::RinOyaa:
       color: cyan
-
-  - _Shrine::MonyaToma
-  - _Shrine::MaagNorah
-  - _Shrine::RonaKachta
-
+  - use: ./branches/forgotten-temple.yaml
+  - "":
+      comment: .italic(Ordering rest for TOD for Sheem Dagoze BTB)
+  - _Warp::Shrine::ShadaNaw:
+      color: yellow
+  - use: ./branches/sn-hiamiu.yaml
+  - _Warp::Shrine::ShadaNaw:
+      color: "#0f0"
+  - use: ./branches/sn-mozoshenno.yaml
+  - _Warp::Shrine::ShaeLoya:
+      color: red
+  - use: ./branches/rito.yaml
+- Central:
   - _Warp::Shrine::KuhTakkar:
       color: orange
-
-  - _SCW::FishActivate:
-      presets: _Shrine::JolooNah
-  - _Shrine::JeeNoh
-  - _Shrine::DahKaso
-  - _Shrine::RotaOoh
-  - _Shrine::KaamYatak
-  - BTB:
-      vars:
-        Ice: .add(1)
-  - _Shrine::SheemDagoze
-  - _Shrine::ZaltaWa
-  - _Shrine::NoyaNeha
-  - _Shrine::KatahChuki
-  - Any%
+  - use: ./branches/central.yaml
+  - use: ./branches/boss.yaml
+- GG:
+  - Dark Beast:  
+      counter: .split-dark-beast(BEAST)
+      icon-doc: ganon
   - use: ./stat.yaml
-  - Castle:
-      counter: .split-end-game(END)
-      icon-doc: castle
-  - .enemy(Windblight):
-      icon-doc: medoh-done
-      comment: Skip
-      notes: Eat attack up
-  - .enemy(Waterblight):
-      icon-doc: ruta-done
-      comment: 1=Old EOD, 2=Same as any%
-  - .enemy(Fireblight):
-      icon-doc: rudania-done
-      notes: 1=new EOD 3 slam, new EOD 4 slam, Boomerang 3 throw. 2=same as any%
-  - .enemy(Thunderblight):
-      icon-doc: naboris-done
-      comment: Same as any%
-  - Blights:
-      counter: .split-end-game(END)
-      icon-doc: blights
-      coord: [-253.75, -1066.31]
-  - Calamity:
-      counter: .split-end-game(END)
-      icon: calamity
-      icon-priority: 0
-      coord: [-253.75, -1066.31]
-      notes: same as any%, with old EOD spin throw and 6AA in the end
-
-
 

@@ -1,0 +1,20 @@
+# Start: Shae Loya
+- .dir(<<E) TS to red orb:
+    coord: [-2137.5, -908.8]
+    notes: Stasis 6. Use Stone Smasher
+- .dir(NW) to other orb:
+    coord: [-2271.5, -1039.25]
+- .dir(S) to green
+- _Shrine::TohYahsa
+- SCW + .dir(N) + .dir(<N) Fast Turn:
+    movements:
+    - [-2349.0, -1339.15]
+    - to: [-2377.25, -1382.31]
+      warp: true
+- _SCW::WoodActivate:
+    presets: 
+    - _Shrine::ShiraGomar
+    - _StratEx::Shrine::ShiraGomar
+    notes: Land where indicated on map to prevent stall spawn
+- Bomb grass + .dir(W>) Turn
+- _Shrine::DunbaTaag

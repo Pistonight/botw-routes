@@ -1,0 +1,52 @@
+- SCW + Tree BLSS
+- _SCW::Infinity::Amiibo<-blessing>:
+    presets: _Shrine::RaqaZunzo
+- .dir(N) Fast
+- _Shrine::DaqoChisay
+- BLSS:
+    coord: [-3534.0, 3191.57]
+    nots: Sharp turn after you lift off!!! Otherwise you will run into Naboris :)
+- _Shrine::MisaeSuma
+- _Tod::Noon:
+    vars:
+      Wood: .add(1)
+- .dir(E) Turn:
+    coord: [-2441.5, 3747.88]
+    notes: .link(https://www.youtube.com/watch?v=Nxl5Q_EvSao&t=5h00m26s)
+- Drop Bomb, Shoot 2 Shock while standing
+- Jump off, DEFUSE, Shoot 4
+- Endura --> Shoot Until Land
+- Endura --> Thunderblade Spin:
+    notes: Swap weapon to reset electricity after 7-8 hits
+    coord: [-2447.0, 3734.89]
+    icon-map: molduking
+- Climb pillar + .dir(<S) Turn:
+    notes: WB off before cutscene starts
+- _Shrine::KeiveTala:
+    presets: _StratEx::Shrine::KeiveTala
+- SCW + .dir(<N) midairs
+- Land on or past big Sword
+- _SCW::WoodActivate:
+    presets: _Shrine::KorshOhu
+- Run to right ledge:
+    coord: [-2734.5, 2828.21]
+- .dir(E) + .dir(E) + Run + BLSS:
+    movements:
+    - [-2448.0, 2873.3]
+    - [-1761.0, 3471.89]
+    notes: Use the slope to get some height
+- _Shrine::DilaMaag:
+    comment: Bard Shirt inside
+- WB straight up:
+    coord: [-1807.55, 3344.46]
+- .dir(E) + .dir(E) up:
+    coord: [-1583.07, 3338.96]
+- .dir(S) + .dir(S) +.dir(N>) + midair:
+    movements:
+    - [-1603.07, 3646.84]
+    - [-1552.07, 3516.39]
+    - [-1386.59, 3516.89]
+- Cryo + SQ to shrine
+- _Shrine::SumaSahma
+- .dir(E>) Turn
+- _Shrine::IshtoSoh

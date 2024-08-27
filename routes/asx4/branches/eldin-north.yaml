@@ -1,0 +1,66 @@
+# Start: Maag Halan
+- SCW + .dir(E>) + .dir(E.) + Run:
+    movements:
+    - [1014.0, -2373.16]
+    - [1136.0, -2312.18]
+    notes: Midair right after exiting void zone
+- .dir(E) + .dir(E.):
+    coord: [1340.0, -2275.2]
+- .dir(E>) Turn + .dir(E) midair x2:
+    coord: [1761.0, -2027.28]
+- _SCW::Infinity::Chu<-dlc, Fire, Shock>:
+    presets: 
+    - _Shrine::RinuHonika
+    - _StratEx::Shrine::RinuHonika
+- SQ to ring DEFUSE:
+    coord: [2333.0, -2044.08]
+- .dir(<E) midair:
+    notes: go to center of ring, look down
+    movements:
+    - _Shrine::RinuHonika
+- SCW + .dir(E) + .dir(.E) Turn + .dir(N>) Fast Turn:
+    movements: 
+    - [2864.0, -2103.06]
+    - to: [2934.5, -2344.98]
+    - to: [2931.62, -2418.86]
+      warp: true
+- _SCW::WoodActivate:
+    presets:
+    - _Shrine::SharoLun
+    - _StratEx::Shrine::SharoLun
+- .dir(<W) TS + .dir(<<N) Turn:
+    movements:
+    - [2231.0, -2092.25]
+    notes:
+      Start curving as you exit the higher level of death mountain. 
+      The wind makes backup really annoying if you miss the super
+- _Shrine::DaqaKoh
+- .dir(E>>) Slight Turn
+- _Shrine::ShaeMosah:
+    comment: Stone Smasher
+    notes: Throw your hammer on the button
+- .dir(<N) Turn
+- _Shrine::ShoraHah
+- Get Ragdoll:
+    notes: To prevent Talus from knocking you off if you mess up
+- BLSS:
+    notes: Switch bow before going off
+    movements:
+    - [1742.0, -3041.91]
+    - [1957.0, -3061.91]
+    - [2160.11, 500.65, -3190.37]
+- Land on Talus, .important(UNEQUIP BOW)
+- _Boss::Talus::Igneo::Titan:
+    notes:
+    - Wait until his health bar appears to hit him. Otherwise he will get stuned and you get little air time which prevents spin attack
+    - Should be able to one cycle if you get a few double hits
+- _Shrine::KamiaOmuna
+- .dir(<E) Turn
+- Clip in:
+    notes: .link(https://www.youtube.com/watch?v=QA29M7r0WZQ&t=5010s)
+- _Shrine::GoraeTorr
+- .dir(E) Turn
+- _Shrine::ZunaKai
+- BLSS
+- _Shrine::TuKaloh:
+    comment: Barb Helm inside

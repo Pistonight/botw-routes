@@ -1,0 +1,47 @@
+- SCW + BLSS:
+    movements:
+    - [3988.0, 1353.73]
+    - [3734.0, -429.64]
+    - [3711.0, -628.57]
+    - to: [3762.5, -645.64]
+      warp: true
+- _SCW::Infinity::Amiibo<-dlc>:
+    presets: 
+    - _Shrine::MahEliya
+    - _StratEx::Shrine::MahEliya
+- Tree behind you .dir(N>) DT
+- _Shrine::DahHesho
+- .dir(SE) + .dir(<S)
+- _Shrine::KenaiShakah:
+    notes: Smash the rocks
+- Jump out + .dir(SE) midair:
+    notes: Strong wind
+    coord: [4305.0, -730.62]
+- updraft + .dir(NE) super:
+    movements:
+    - [4307.0, -758.61]
+- _Shrine::KahMael
+- _Tod::Morning:
+    vars:
+      Wood: .add(1)
+- Climb + .dir(SE)
+- _Shrine::KeeDafunia
+- Place Cryo First
+- SCW + .dir(<E) Turn:
+    movements: 
+    - [4612.0, -908.78]
+    - [4609.0, -928.49]
+- BLSS:
+    notes: Around metal balls, can look back
+    movements:
+    - [4322.0, 186.61]
+    - to: [4245.0, 254.06]
+      warp: true
+- _SCW::FishActivate:
+    notes: Fire Wood Activate if not rain
+    presets: _Shrine::ShaiYota
+- BLSS + .dir(W>):
+    movements:
+    - [4032.0, 476.72]
+    - [3584.0, 542.7]
+- _Shrine::RuccoMaag

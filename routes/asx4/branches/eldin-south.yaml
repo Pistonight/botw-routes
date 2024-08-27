@@ -1,0 +1,37 @@
+# Start: Rinu Honika
+- SCW + Run:
+    movements:
+    - [2259.5, -2011.79]
+    - [2222.5, -2016.29]
+    - [2203.0, -2011.79]
+    - [2159.0, -2037.78]
+    - to: [2075.5, -2039.85]
+      warp: true
+- _SCW:
+    presets: _Shrine::KayraMah
+    comment: Look back, scope to force trigger
+- Clip out:
+    coord: [1999.5, -2049.74]
+    notes: .link(https://www.youtube.com/watch?v=QA29M7r0WZQ&t=59m30s)
+- .dir(<S) TS
+- _Shrine::QuaRaym
+- .dir(SE) Super
+- _Shrine::TahMuhl
+- .dir(E) DEFUSE + .dir(<<E) Turn:
+    coord: [2402.0, -939.93]
+- _Shrine::MoaKeet
+- .dir(N) Canal
+- _Shrine::SahDahaj
+- .dir(E) + Run + .dir(<E):
+    coord: [2857.0, -1587.12]
+- _Shrine::ZeKasho
+- BLSS
+- _Shrine::KatosaAug
+- .dir(W) Turn
+- _Shrine::TutsuwaNima
+- SCW + Cryo .dir(S) + .dir(SE) + .dir(E>) Turn:
+    movements:
+    - [3737.0, -2463.81]
+    - [3958.0, -2206.9]
+- _SCW::Infinity::Amiibo<-blessing>:
+    presets: _Shrine::RitaagZumo

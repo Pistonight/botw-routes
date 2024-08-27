@@ -1,0 +1,14 @@
+- _1:
+    text: ""
+    comment: .italic(Doing this before Shae Katha might help with loads?)
+- SCW:
+    movements: 
+    - [3972.0, 1359.76]
+    - [3736.0, 1624.51]
+- _SCW::Infinity::Amiibo<-tos>:
+    presets: _Shrine::ShoqaTatone
+- .dir(E.) + .dir(.E) + .dir(N>):
+    coord: [382.0, 3889.44]
+- _Shrine::KaoMakagh
+- .dir(N.) Turn
+- _Shrine::PumaagNitae

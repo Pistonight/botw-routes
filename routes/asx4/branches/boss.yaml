@@ -1,0 +1,48 @@
+- .dir(<E) Turn super + .dir(N>) super:
+    color: magenta
+    coord: [-268.56, -591.06]
+- _Chest<3 AA>:
+    coord: [-254.5, -741.97]
+    notes: Throw away Stone Smasher while waiting for chest to load
+- Climb up + .dir(<N) Turn
+- _Equipment::Bow<Royal Guard Bow>:
+    coord: [-333.0, -995.54]
+- _Equipment::Weapon<EOD>:
+    notes:
+    - Should have
+    - old EOD
+    - Boomerang
+    - Claymore x2
+    - new EOD
+- WB to scantum
+- Eat Ice Fish
+- Castle:
+    counter: .split-end-game(END)
+    icon-doc: castle
+- Water 1 --> Old EOD:
+    banner: true
+- Water 2 --> Headshot 2, Claymore 5 (3 Slam), Headshot 3:
+    banner: true
+- Fire 1 --> New EOD 3 Slam, New EOD 4 Slam, Boomerange 3 + Throw:
+    banner: true
+- Fire 2 --> Boomerang 2 + Throw, Claymore:
+    banner: true
+- Thunder 1 --> Same as Any% (Throw Claymore):
+    banner: true
+- Thunder 2 --> Same as Any%, new EOD spin at the end:
+    banner: true
+- EAT SPEED FOOD in Thunder 2
+- Switch to AA
+- Blights:
+    counter: .split-end-game(BOSS)
+    icon-doc: blights
+    coord: [-253.75, -1066.31]
+- Flurry Rush
+- 6 AA + 4 BA while backing off and force laser
+- Parry, Old EOD Spin + Throw
+- Shoot him until bow breaks
+- Calamity:
+    counter: .split-end-game(CALAM)
+    icon: calamity
+    icon-priority: 0
+    coord: [-253.75, -1066.31]

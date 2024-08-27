@@ -1,0 +1,8 @@
+- SCW + .dir(<N) Turn + BLSS:
+    movements:
+    - [-3121.0, 1230.71]
+    - [-3213.0, 1027.28]
+- _SCW:
+    presets: _Shrine::MijahRokee
+- .dir(<N) Turn
+- _Shrine::ShaeLoya

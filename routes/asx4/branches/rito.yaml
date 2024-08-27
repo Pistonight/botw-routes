@@ -1,0 +1,23 @@
+# Start: Shae Loya
+- .dir(W) Turn + .dir(W) midairs
+- _Shrine::TenaKosah
+- .dir(.W) DT
+- _Shrine::KahOkeo
+- _Warp::Shrine::TenaKosah
+- _Tod::Noon:
+    vars:
+      Wood: .add(1)
+- BLSS
+- _Shrine::AkhVaquot
+- .dir(S) Turn + Fire arrow
+- _Shrine::BareedaNaag
+- SCW + .dir(W>) TS
+- _SCW:
+    presets: _Shrine::VooLota
+    comment: Rushroom Activate
+- .dir(N>) Turn
+- _Shrine::ShaWarvo
+- SCW + Run
+- _SCW:
+    presets: _Shrine::NoeRajee
+    comment: Run
