@@ -57,11 +57,12 @@
     notes: a different pile
 - Drop --> .item(Weapon)
 - Pikcup all weapon and shield on ground
+- UNEQUIP weapon
 - .important(Reload -> Shoot, Save)
 - Drop --> .item(Material, Food, Bow)
 - Drop all weapon:
     notes: a different pile
-- Pick up weapon, UNEQUIP
+- Pick up 1 weapon, UNEQUIP
 - .important(Reload, Save)
 - Get Shield
 - _Shrine::TalohNaeg
