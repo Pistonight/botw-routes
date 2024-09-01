@@ -1,5 +1,6 @@
 # Start: KT
-- SCW + Surf + .dir(W) Turn
+- SCW + .dir(W) Turn:
+    notes: Climb the ledge on the left
 - _SCW::WoodActivate:
     presets: _Shrine::KihiroMoh
 - Run to other side

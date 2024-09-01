@@ -12,7 +12,7 @@
     - Should have
     - old EOD
     - Boomerang
-    - Claymore x2
+    - Claymore
     - new EOD
 - WB to scantum
 - Eat Ice Fish
@@ -21,7 +21,7 @@
     icon-doc: castle
 - Water 1 --> Old EOD:
     banner: true
-- Water 2 --> Headshot 2, Claymore 5 (3 Slam), Headshot 3:
+- Water 2 --> Headshot 2, Claymore 5 (3 Slam), [Switch to new EOD] Headshot 3:
     banner: true
 - Fire 1 --> New EOD 3 Slam, New EOD 4 Slam, Boomerange 3 + Throw:
     banner: true
@@ -31,16 +31,16 @@
     banner: true
 - Thunder 2 --> Same as Any%, new EOD spin at the end:
     banner: true
-- EAT SPEED FOOD in Thunder 2
-- Switch to AA
 - Blights:
     counter: .split-end-game(BOSS)
     icon-doc: blights
     coord: [-253.75, -1066.31]
-- Flurry Rush
-- 6 AA + 4 BA while backing off and force laser
-- Parry, Old EOD Spin + Throw
-- Shoot him until bow breaks
+- Flurry Rush + 7BA while getting Claymore:
+    banner: true
+- Parry, Old EOD Spin + Throw + 6AA Break Bow:
+    banner: true
+- Phase 2 Stunlock with new EOD + Claymore:
+    banner: true
 - Calamity:
     counter: .split-end-game(CALAM)
     icon: calamity

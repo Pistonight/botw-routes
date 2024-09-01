@@ -53,21 +53,20 @@
   - _Warp::Shrine::KuhTakkar:
       color: cyan
   - use: ./branches/kt-mijahrokee.yaml
+  - use: ./branches/rito.yaml
+  - _Warp::Shrine::ShaeLoya:
+      color: red
   - use: ./branches/thundra-plat.yaml
   - _Warp::Shrine::RinOyaa:
       color: cyan
   - use: ./branches/forgotten-temple.yaml
-  - "":
-      comment: .italic(Ordering rest for TOD for Sheem Dagoze BTB)
   - _Warp::Shrine::ShadaNaw:
       color: yellow
   - use: ./branches/sn-hiamiu.yaml
   - _Warp::Shrine::ShadaNaw:
       color: "#0f0"
   - use: ./branches/sn-mozoshenno.yaml
-  - _Warp::Shrine::ShaeLoya:
-      color: red
-  - use: ./branches/rito.yaml
+
 - Central:
   - _Warp::Shrine::KuhTakkar:
       color: orange

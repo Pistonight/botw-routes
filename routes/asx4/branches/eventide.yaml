@@ -17,7 +17,7 @@
 - _Shop<All Shock Arrows>:
     vars:
       Rupee: .add(420)
-- .dir(<N)
+- .dir(<<N)
 - _Shrine::YahRin
 - BLSS:
     movements:

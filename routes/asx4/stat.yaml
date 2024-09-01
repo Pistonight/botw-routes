@@ -1,6 +1,6 @@
 - Stats:
     vars:
-    - _PostISTRupee: 210 # How many rupees after IST
+    - _PostISTRupee: 230 # How many rupees after IST
     - _NeedRupee: .var(Rupee)
     - _NeedRupee: .sub(_PostISTRupee)
     - Fairy: .var(_NeedRupee)

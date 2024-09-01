@@ -1,11 +1,12 @@
 # Start: KT
-- SCW + Surf
-- .dir(E):
-    coord: [-3126.15, 1316.0]
-- .dir(E.) + .dir(E) + BLSS:
+- SCW + Surf + Run:
+    coord: [-3141.52, 1279.34]
+- .dir(E) + BLSS:
     movements:
-    - [-2981.16, 1379.97]
-    - [-2842.18, 1358.98]
+    - [-2997.03, 1278.36]
+    - [-2990.53, 1355.33]
+    - [-2968.06, 1382.64]
+    - [-2604.1, 1424.62]
 - _SCW::Infinity::Amiibo<-dlc>:
     presets:
     - _Shrine::YowakaIta

@@ -10,33 +10,36 @@
     movements:
     - to: [950.0, 500.14]
       marker: yellow
-- _Shrine::KayaWan:
-    notes: nothing in forest
+- .dir(<N) Turn:
+    notes: Skip forest, eat 2 shrooms
+- _Shrine::KayaWan
 - SQ to Beetle:
     coord: [890.25, 131.28, 157.06]
 - _Shop<Sell Ruby, 3 Frogs>
+- _Equipment::Weapon<Axe>:
+    icon-map: null
+    comment: At the BLSS spot
 - BLSS
-- _Shrine::DakaTuss
-- .dir(S) + .dir(SE):
-    coord: [1590.81, 634.59]
-- _Equipment::Weapon<Hammer>:
-    coord: [1789.89, 858.78]
-    notes: Getting this one because of textbox
-- .dir(E) MAX HEIGHT:
+- _Shrine::DakaTuss:
+    notes: Use fairy
+- .dir(S) + .dir(<S):
+    movements:
+    - [1590.81, 634.59]
+    - [1707.94, 838.4]
+    notes: Eat steak
+- .dir(E) Super:
     coord: [1973.76, 851.5]
-- fairy if low on food (2 WBs needed)
+- .item(1 Fairy)
 - .item(3 Endura Carrot)
 - .item(3 Silent Princess)
 - .dir(SW):
     coord: [1793.89, 1028.21]
+    notes: Eat down to 3 peppers for the load
 - _Shop<5 Carrot + Gut>
-- Start Burning 1 Swift Carrot
-- Bomb the tree 1 wood
 - _Cook<Hasty Elixir>:
     comment: 3 Frog, Swift, Gut
     icon-map: null
-- _Cook<Roasted Swift Carrot>:
-    comment: pick up
+- _Cook<1 Swift Carrot>:
     icon-map: null
 - _Cook<Endura Food>:
     comment: 3 Endura Carrot
@@ -44,27 +47,39 @@
     coord: [1824.39, 1041.2]
     notes: Put 1 Pepper, Shroom, Swift, Silent Princess aside, use wood for check
 - Pick up wood
-- Buy 5 arrow, 1 fire arrow
+- Detonate the bomb and destroy Pot Lid
+- Buy 1 fire arrow
 - .dir(N)
-- Enter Taloh Naeg:
-    movements:
-    - _Shrine::TalohNaeg
+- Enter Shrine:
     icon-doc: shrine-incomplete
-    counter: .split-shrine-other(ENTER)
-- Drop --> .item(Branch, Hammer, PotLid)
-- SAVE
-- Drop --> .item(Material, Food, Bow):
-    notes: a different pile
-- Drop --> .item(Weapon)
-- Pikcup all weapon and shield on ground
-- UNEQUIP weapon
+- .italic(- Run close to Right Chest):
+    notes: .italic(Italic text are world actions), normal texts are inventory actions
+- Drop --> .item(Branch, Axe)
+- Equip Hammer
+- .italic(- Open Chest for AUTOSAVE)
+- Drop --> .item(Material, Food, Shield):
+    notes: You can hold the materials as soon as chest closes, then wait until seeing autosave to drop them, then eat all the food and drop the shield
+- Drop --> .item(Weapon, Bow)
+- .italic(- Pickup all weapon and bow):
+    notes: 3 weapon 1 bow, order doesn't matter
+- UNEQUIP --> Weapon, Bow:
+    notes: Should be after key items
 - .important(Reload -> Shoot, Save)
-- Drop --> .item(Material, Food, Bow)
-- Drop all weapon:
-    notes: a different pile
-- Pick up 1 weapon, UNEQUIP
+- Drop --> .item(Material, Food):
+    notes: Order is drop material, unequip shield, eat all food
+- UNEQUIP --> Shield
 - .important(Reload, Save)
-- Get Shield
+- Eat Swift Carrot Meal
+- .important(Reload):
+    notes: Done, after WB, eat speed and endura
+- _:
+    banner: true
+    text: General Resources Notes
+    comment:
+      You might need to grab a few more wood. You can get at Tasho when doing BF windbomb to Daag Chokah.
+      In the places where it says Ice Fish Activate SCW (not iSCW), depending on if you wasted too many ice arrows, you can use campfire instead if not raining.
+      If you need more than 20 ice arrows, get the 10 pack next to Dako Tah. You might also want the knights bow in that case.
+      You can use FDB for iSCW icing fish
 - _Shrine::TalohNaeg
 - _Shrine::LaknaRokee:
     presets: _SCW::Buffered
@@ -78,9 +93,9 @@
     - to: [3230.0, -591.31]
 - _Equipment::Weapon<Trident>
 - .dir(<S) Turn
-- Sell .item(1 Endura Food)
-- _Shop<20 Ice Arrows>:
+- Sell .item(1 Endura Food + Fairies):
     notes: See end of doc for how many fairies to sell
+- _Shop<20 Ice Arrows>:
     coord: [3321.65, -480.99]
     vars:
       Rupee: .add(340)
@@ -98,7 +113,7 @@
       warp: true
 - _Shrine::SatoKoda:
     presets: _SCW::AmiiboActivate
-- BLSS (behind)
+- .dir(SW) Super
 - _Shrine::SohKofi
 - BLSS
 - _Shrine::ShehRata
@@ -125,4 +140,5 @@
 - Drop down + .dir(<S) Turn midair:
     notes: The midair saves like 10 seconds?? Not worth if you are not comfortable or trying to go for WR
 - _Shrine::SaasKosah
-- Make night Look Up and warp if needed, if already night, enter shrine and warp.
+- .italic(Make night Look Up and warp if needed, if before 3AM, enter shrine and warp):
+    banner: true

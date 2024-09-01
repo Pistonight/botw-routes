@@ -27,7 +27,8 @@
 - BLSS + WB
 - _Shrine::OwaDaim:
     comment: Hammer inside
-- Boulder + BLSS
+- Boulder + BLSS:
+    notes: Get 1 Wood
 - _Shrine::KehNamut
 - BLSS
 - _Plateau
