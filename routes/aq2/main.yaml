@@ -12,46 +12,46 @@
       color: yellow
   - use: ./sections/medoh.yaml
 - Naboris:
-  - __use__ Naboris
+  - use: ./sections/naboris.yaml
 - Hebra:
-  - __use__ Hebra
+  - use: ./sections/hebra.yaml
 - Ruta:
-  - __use__ Kak2Ruta
-  - __use__ TarreyActivateGoron
+  - use: ./sections/kak2-ruta.yaml
+  - use: ./sections/tarrey-activate-goron.yaml
 - Eldin:
-  - __use__ Eldin
-  - __use__ TarreyActivateGerudo
-  - __use__ ThundraPlateau
+  - use: ./sections/eldin.yaml
+  - use: ./sections/tarrey-activate-gerudo.yaml
+  - use: ./sections/thundra-plateau.yaml
 - Gerudo:
-  - __use__ Gerudo
+  - use: ./sections/gerudo.yaml
 - Lake:
-  - __use__ Lake
+  - use: ./sections/lake.yaml
 - Rudania:
-  - __use__ Rudania
+  - use: ./sections/rudania.yaml
 - Korok Forest:
-  - __use__ KorokForest
-  - __use__ KorokForest2
+  - use: ./sections/korok-forest.yaml
+  - use: ./sections/korok-forest2.yaml
 - Central:
-  - __use__ Central
+  - use: ./sections/central.yaml
 - Kakariko:
-  - __use__ TarreyActivateRito
-  - __use__ AncientColumnMemory
-  - __use__ Kak3
+  - use: ./sections/tarrey-activate-rito.yaml
+  - use: ./sections/ancient-column-memory.yaml
+  - use: ./sections/kak3.yaml
 - Faron:
-  - __use__ Faron
+  - use: ./sections/faron.yaml
 - Rito:
-  - __use__ Rito
+  - use: ./sections/rito.yaml
 - Zora's Domain:
-  - __use__ TarreyActivateZora
-  - __use__ ZDQuests
+  - use: ./sections/tarrey-activate-zora.yaml
+  - use: ./sections/zd-quests.yaml
 - Hateno:
-  - __use__ TarreyActivateHateno
-  - __use__ Hateno
+  - use: ./sections/tarrey-activate-hateno.yaml
+  - use: ./sections/hateno.yaml
 - Hebra 2:
   - (==) If it's after 10PM, do BM branch first
-  - __use__ DeepHebra
-  - __use__ BM
-  - __use__ ForgottenTemple
+  - use: ./sections/deep-hebra.yaml
+  - use: ./sections/bm.yaml
+  - use: ./sections/forgotten-temple.yaml
 - Finale:
-  - __use__ TarreyFinal
-  - __use__ Ganon
+  - use: ./sections/tarrey-final.yaml
+  - use: ./sections/ganon.yaml

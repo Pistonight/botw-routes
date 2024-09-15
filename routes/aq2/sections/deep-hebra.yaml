@@ -1,0 +1,9 @@
+- _Warp::Shrine::ShadaNaw:
+    color: orange
+- BLSS .dir(W):
+    time-override: 45
+- _Shrine::HiaMiu
+- .dir(E) + clip:
+    time-override: 60
+- _Shrine::ToQuomo
+- _Snap::Quest<Hebra Skeleton>

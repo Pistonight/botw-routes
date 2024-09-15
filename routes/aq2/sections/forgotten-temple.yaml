@@ -1,0 +1,61 @@
+- _Warp::Shrine::ShadaNaw:
+    color: magenta
+- .dir(S) + .dir(S) + .dir(E):
+    notes: To mountain top.
+    coord: [-2978, -2895.6993143882946]
+- Look Sky .dir(S):
+    notes: Make sure shooting star hits ground before going to shrine
+- _Shrine::GomaAsaagh
+- .dir(SE)
+- _Chest::Special<Salvager Trousers>:
+    vars:
+      SideQuest: .add(1)
+    coord: [-2605.0, 583.0, -2652.0]
+- .dir(S) Turn
+- _Shrine::LannoKooh
+- Cryo out + .dir(NE)
+- Snowball throw + Stasis MAX:
+    notes: Throw snowball up hill and let it roll almost all the way down
+- _Shrine::GeeHarah
+- .dir(N) + .dir(NE) + .dir(N>) Turn:
+    movements:
+    - to: [-2389, -2440.716349278022]
+    - to: [-2117, -2702.8201432572932]
+    - to: [-1909, -3068.8749923676755]
+- Land on first skull camp
+- _Snap::Quest<Stalhorse>:
+    icon-map: null
+    movements:
+    - push
+    - to: [-1797, -3196.924150514949]
+      color: white
+      icon: camera
+    - pop
+- .dir(<S) Turn
+- _Shrine::RinOyaa
+- _Npc<Stalhorse Lady>:
+    comment: Talk Twice
+    notes: '[Stalhorse Pictured!] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [-1654, -2597.7785464335393]
+- BLSS .dir(<S) off chair
+- _Shrine::MonyaToma
+- .dir(W) Turn
+- _Shrine::MaagNorah
+- .dir(<<E) Turn to stable:
+    notes: Glide to a rock to the left for a better angle
+- _Npc<3 People>:
+    notes: '[Leviathan Bones] Side Quest. Talk to any of 3, then talk once to each'
+    vars:
+      SideQuest: .add(1)
+    coord: [-1543, -1796.9687033421287]
+- .dir(N>) Turn to Forgotten Temple:
+    coord: [-1430, -2245.1804415134247]
+- _Shrine::RonaKachta:
+    notes: '[A Gift from the Monks] Side Quest'
+- _Chest<Wild Set>:
+    vars:
+      SideQuest: .add(1)
+    coord: [-1060, -2694.324059065053]
+- _CheckQuests

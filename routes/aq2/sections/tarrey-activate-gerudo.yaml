@@ -1,0 +1,74 @@
+- _Warp::Shrine::DahHesho:
+    color: red
+- .dir(N.) Turn to Tarrey Town:
+    coord: [3984.5, -1597.5796282054716]
+- _Npc<Hudson>:
+    comment: Talk twice
+- .dir(S) + .dir(S) + .dir(<S) Turn midairs
+- _Shrine::KenaiShakah:
+    comment: Behind bomb-able rocks
+- Jump out + .dir(SE) midair:
+    notes: Strong wind
+- Updraft + .dir(NE) super
+- _Shrine::KahMael
+- .gale() + .dir(.N) Turn:
+    gale: 1
+- .important(READ TABLET):
+    notes: '[Into the Vortex] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+- .important(READ TABLET)
+- .important(READ TABLET)
+- BLSS with orb:
+    coord: [4627.5, -1825.25]
+- _Shrine::RitaagZumo
+- .dir(N) + .dir(<N) midairs
+- _Shrine::KatosaAug
+- _Npc<Guard>:
+    comment: Talk Twice
+    notes: '[A Shady Customer] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [4243.71, -2746.65]
+- _Npc<Cooking Pot Lady>:
+    comment: 2nd text option
+    notes: '[The Spring of Power] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [4245.96, -2747.83]
+- .dir(N) midairs
+- Smuggle blue flame:
+    notes: Use boko spear
+    time-override: 60
+    coord: [4153.5, -3173]
+- .dir(E) super to lab:
+    notes: Throw away boko spear
+    coord: [4506, -3168]
+- _Npc<Robbie>:
+    comment: Second options
+    notes: '[Robbie''s Research] Side Quest'
+    vars:
+      SideQuest: .add(1)
+- _Npc<Robbie's Wife>:
+    notes: '[The Skull''s Eye] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+- _Equipment::Weapon<Ancient Short Sword>:
+    comment: Buy from Cherry
+- .dir(N>) Turn:
+    notes: '[Trial of the Labyrinth] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [4627.5, -3683.5]
+- _Shrine::TuKaloh:
+    comment: Barb Helm
+- _Snap::Quest<Skywatcher>:
+    notes: Snap right after coming out of the shrine
+    icon-map: null
+    movements:
+    - push
+    - to: [4654.25, -3653.478781346587]
+      color: white
+      icon: camera
+    - pop
+- _CheckQuests

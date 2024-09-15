@@ -1,0 +1,108 @@
+##########
+# Plateau 
+##########
+# KEEP FULL AXE
+get 1 slate 1 tree branch 1 flint 1 axe 1 spear 1 potlid 6 pepper 3 shroom 1 amber 1 traveler bow 5 arrow 4 orb 1 glider
+# Satori
+get 2 razorshroom 5 lotus 4 rushroom 1 forest dweller bow 4 endura carrot 10 durian 3 wood 1 orb
+# Castle
+# KEEP FULL ROYAL CLAYMORE (except the initial sneakstrike)
+get 1 royal claymore[life=3900] 1 royal guard claymore 1 razorshroom 1 naydra fang 3 ancient arrow 1 steel shield
+equip royal guard claymore
+# cook speed food and eat
+with 3 lotus 2 rushroom
+##########
+# Guardians
+##########
+# Drop materials to make him load
+drop 1 amber 3 wood 1 naydra fang
+drop 3 razorshroom 2 rushroom
+get 1 shaft
+# PICK UP 3 things, then amber, then razorshroom last
+pick up 3 wood 1 naydra fang 2 rushroom 1 amber 3 razorshroom
+get 1 spring
+# If you don't have 5 arrows, pick up 2 screws to sell in hateno
+# Wetland, Kak, Hateno
+get 1 knights sword 1 core 1 fairy 3 orb
+has 9 weapon slots
+##########
+# After Myahm
+##########
+eat all pepper all shroom 7 durian 1 endura carrot
+drop traveler bow
+drop potlid
+equip normal arrow
+equip forest dweller bow
+equip steel shield
+equip axe
+# cycle everything between flint and shaft
+dnp all lotus all endura carrot all durian all core
+# Go to shop
+# if you don't have 5 arrows, sell something, buy 5 arrows, then save
+SAVE
+break 10 slots with 3 durian 3 wood 3 enduracarrot 3 razorshroom 2 lotus 2 rushroom
+# drop everything except core
+drop 1 flint 1 amber 1 naydra fang 1 shaft 1 spring 1 fairy
+drop all shield
+unequip bow
+unequip weapon
+reload
+shoot 1 arrow
+save
+dnp 1 core 1 shaft 3 razorshroom
+reload
+drop 5 flint 5 amber
+sell all flint all amber
+pick up 5 flint 5 amber
+# WB to statue
+# Trade 6 STAM
+sell all orb
+# Light cooking pot
+# Cook speed food first, other any order
+with 4 lotus 1 naydra fang
+cook simmered fruit[modifier=speed]
+with 6 endura carrot
+cook 2 wild green[modifier=endur]
+with 5 razorshroom
+cook mushroom skewer[modifier=mighty]
+dnp 2 core 1 shaft
+# use durian for food
+# wb to lab
+equip spear
+drop razorshroom
+drop all durian
+# drop wood and rushroom down to 1
+drop 2 wood 1 rushroom
+sell 3 core 3 shaft
+# PICK UP SPRING LAST
+dnp 2 shaft 1 spring 
+# Outside of lab
+equip royal guard claymore
+drop 1 tree branch 1 axe 1 knights sword
+save
+#pick up 3 weapon
+remove all material
+drop all bow
+# go to different pile
+remove all food
+drop all shield
+drop all weapon
+pick up 6 weapon
+pick up shield
+unequip weapon
+unequip shield
+reload
+save
+# drop all but shaft
+drop 1 wood 1 rushroom 1 fairy 1 spring
+drop 5 flints
+drop 5 amber
+remove all food
+drop all shields
+unequip weapon
+unequip bow
+reload
+save
+drop 2 shaft 1 spring
+pick up 1 shaft
+reload

@@ -1,0 +1,31 @@
+- _Warp::Shrine::TenaKosah:
+    color: orange
+- _Shrine::TenaKosah
+- .dir(.E) DT
+- _Npc<Shrine Guy>:
+    notes: '[Cliffside Etchings] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [-2944.5, -497.92136219509393]
+- _Npc<Fairy Fountain Guy>:
+    comment: Talk Twice
+    notes: '[A Gift for the Great Fairy] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [-2937.5, -563.4473106899122]
+- _Material<3 Berries>:
+    icon-map: null
+- .dir(S)
+- _Shrine::ShaeLoya
+- .dir(<<E) TS to red orb:
+    notes: '[Trial of Thunder] Shrine Quest. Equip Guardian Axe + Forest Dweller Shield.
+      6 Hits on red and orange orbs'
+    vars:
+      ShrineQuest: .add(1)
+- .dir(NW) to orange orb
+- .dir(S) to green orb
+- _Shrine::TohYahsa
+- .dir(N) + .dir(<N) Turn + .dir(W>) Turn:
+    coord: [-2344, -1316.2384884561884]
+- _Shrine::DunbaTaag
+- _CheckQuests

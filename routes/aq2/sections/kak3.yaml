@@ -1,0 +1,180 @@
+- It is recommended that you learn from a vod for kak quests:
+    banner: true
+- _Warp::Shrine::TalohNaeg:
+    color: '#00ff00'
+    notes: Need to be not raining for Koko. Make noon until it's not raining
+- Cucoo at shrine
+- Cucoo top of roof:
+    coord: [1849.375, 973.7633936748916]
+- _Npc::SheikaMale<Cucoo Man>:
+    notes: '[Flown the Coop] Side Quest'
+    coord: [1832.75, 964.0030702417534]
+- _Npc::SheikaFemale<Cottla>:
+    comment: Second Option
+    notes: '[Playtime with Cottla] Side Quest'
+    coord: [1874.875, 961.3836410805752]
+- Catch Cottla:
+    vars:
+      SideQuest: .add(1)
+    movements:
+    - to: [1877.75, 1031.035380424356]
+      warp: True
+- Cucoo under hut:
+    coord: [1882, 1043.4151330186723]
+- Cucoo top of hut:
+    coord: [1910.625, 1004.2751071396724]
+- Cucoo near kitchen:
+    movements:
+    - to: [1893.375, 974.138537692902]
+    - to: [1833.125, 960.7584010505598]
+- _Npc::SheikaMale<Pikango>:
+    comment: Talk Twice
+    notes: '[Find the Fairy Fountain] Main Quest'
+    vars:
+      MainQuest: .add(1)
+    coord: [1828.75, 992.5143608082008]
+- _Npc::SheikaMale<Koko>:
+    comment: Finish all four
+    icon-map: null
+    notes: '[Koko''s Kitchen] [Cooking with Koko] [Koko Cuisine] [Koko''s Specialty]
+      Side Quests'
+    vars:
+      SideQuest: .add(4)
+    coord: [1798.25, 1016.2737696135737]
+- ''
+- _Tod::Night:
+    color: orange
+    notes: For the night cucoo + firefly. Cannot be raining or there won't be fireflies
+- ''
+- _Npc::SheikaFemale<Arrow Quest Lady>:
+    comment: B, talk again
+    notes: '[Arrows of Burning Heart] Side Quest'
+    coord: [1826.5, 1041.4893036738922]
+- Cucoo in orchard:
+    movements:
+    - to: [1862, 1005.6506352057067]
+    - to: [1833.125, 960.7584010505598]
+- Light torches
+- Cucoo by Pikango:
+    movements:
+    - to: [1826.875, 999.5232829115503]
+    - to: [1833.125, 960.7584010505598]
+- _Npc::SheikaMale<Cucco Man>:
+    notes: Finish Flown the Coop Quest
+    vars:
+      SideQuest: .add(1)
+    coord: [1832.75, 964.0030702417534]
+- _Material<5 Fireflies>:
+    notes: Grab 5 fireflies as you run toward the house
+    coord: [1900.125, 977.1396898369785]
+- _Npc::SheikaFemale<Firefly Lady>:
+    comment: Twice, drop fireflies
+    notes: '[By Firefly''s Light] Side Quest. Make sure don''t scare her. talk twice,
+      drop fireflies. If you scared her, make sure to let her sit down before talking
+      again.'
+    vars:
+      SideQuest: .add(1)
+    coord: [1901, 1028.7342526310076]
+- ''
+- SQ to impa
+- _Npc::SheikaFemale<Impa>:
+    notes: Finish Free the Divine Beasts Quest
+    vars:
+      MainQuest: .add(1)
+    coord: [1776.75, 984.7168215810534]
+- _Npc::SheikaFemale<Paya>:
+    notes: '[The Stolen Heirloom] Shrine Quest'
+    # split-type: UserDefined
+    vars:
+      ShrineQuest: .add(1)
+    coord: [1775.75, 991.2193966225241]
+- ''
+- _Tod::Night:
+    comment: After fade out
+    icon-map: null
+- Walk + Climb to shrine:
+    notes: Make sure to finish shrine by 10:00PM.
+- _Shrine::TalohNaeg:
+    color: magenta
+- Glide to shop
+- _Npc::SheikaFemale<Arrow Quest Lady>:
+    notes: Finish Arrows of Burning Heart Quest
+    vars:
+      SideQuest: .add(1)
+    coord: [1826.5, 1041.4893036738922]
+- _Equipment::Weapon<Traveller Sword>:
+    notes: Mag from waterfall by entrance.
+    coord: [1927.75, 985.9673167813362]
+- .important(Drop Ice Rod):
+    notes: Also drop Royal Claymore if you still have it
+- .gale() Up:
+    gale: 1
+- .important(DO NOT RUN)
+- .important(CROUCH APPROACH BRIDGE):
+    movements:
+    - to: [1979.5, 954.5501182673379]
+    - to: [2026, 960.5524225554909]
+- _Snap::Quest<Blupee>:
+    icon-map: null
+    movements:
+    - push
+    - to: [2039.5, 918.0361005144041]
+      color: white
+      icon: camera
+    - pop
+- Unstuck Dorian at 12:15AM
+- Kill .enemy(Blademaster):
+    notes: Make sure you have empty slot. GEB Fire Arrow Head x2. The windcleaver
+      might despawn after the cutscene so make sure to pick it up
+- _Equipment::Weapon<Windcleaver>:
+    coord: [2014, 957.4560262148889]
+- _Shrine::LaknaRokee
+- .dir(S.) + .dir(SE) super
+- _Shrine::KamUrog:
+    notes: Shoot cursed statue
+- _Tod::Noon:
+    icon-map: null
+- _Npc<Doctor>:
+    comment: Mash B
+    notes: '[The Cursed Statue] Shrine Quest. If it''s raining after making noon,
+      reload the autosave you got after making noon.'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [2504, 1518.5361496206433]
+- .dir(S) + BLSS .dir(SW) + .gale():
+    gale: 1
+- If you still need a blupee pic, get one here, then wb to cave:
+    banner: true
+- _Chest<Misko's Treasure>:
+    notes: Get sapphire in middle chest
+    coord: [1951, 2609.562943681468]
+- SQ .dir(NW) to shrine
+- _Shrine::TotoSah
+- .dir(N.) Turn super
+- _Memory::AshSwamp:
+    vars:
+      MainQuest: .add(1)
+- .dir(<<W) to horse, ride near stable:
+    coord: [1765, 2045.8746152883996]
+- _Tod::Morning:
+    notes: If you are barely sub 9, might be BM here
+- _Npc<Horse Guy>:
+    comment: B, talk again.
+    notes: '[Wild Horses] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [1747, 1924.3264818209127]
+- Ride horse to him
+- _Npc<Two Guys Inside>:
+    comment: Talk Twice
+    notes: '[Misko, the Great Bandit] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [1776.5, 1931.329254942496]
+- SQ to shrine
+- _Shrine::HaDahamar
+- .dir(<<W) + .dir(NW)
+- _Shrine::ReeDahee
+- Shield surf SCW
+- _Shrine::SheeVaneer
+- _Shrine::SheeVenath

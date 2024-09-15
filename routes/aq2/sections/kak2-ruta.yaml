@@ -1,0 +1,99 @@
+- _Warp::Shrine::TalohNaeg:
+    color: yellow
+- _Npc<Pumpkin Man>:
+    notes: It should be 5pm-8pm in which case you would meet him at the kitchen near
+      the bridge with fireflies (the lower one). During day time he will be working
+      in the pumpkin field.
+    coord: [1896.5, 1003.9813736707592]
+- SQ to Impa:
+    icon: npc-sheika-female
+    notes: '[Captured Memories] Main Quest'
+    vars:
+      MainQuest: .add(1)
+    coord: [1774.5, 984.9782111875575]
+- .dir(<<E) up
+- Activate Fairy Fountain:
+    coord: [1976.5, 845.9673167813362]
+- _Snap::Quest<Fairy Fountain>
+- .dir(N) + .dir(E>) Turn + .dir(SE):
+    notes: We are going north first to avoid loading in the blupee near lakna rokee,
+      otherwise it will not spawn later.
+    movements:
+    - to: [1976.5, 691.0347563463147]
+    - to: [2252.5, 813.081610205435]
+- Kill Goat:
+    coord: [2463.16, 320.31, 1092.85]
+- _Material<Raw Meat>
+- .dir(SE) to shrine
+- _Shrine::DowNaeh:
+    notes: Get luminous stone here if you still don't have 10 somehow.
+- .dir(N>) + .dir(.E) Turn:
+    coord: [2769, 1199.045317667018]
+- _Memory::LanayruRoad
+- _Snap::Quest<Lynel>:
+    icon-map: null
+    movements:
+    - push
+    - to: [3234.5, 1181.649154325174]
+      color: white
+      icon: camera
+    - pop
+- .dir(E) + .dir(<N) DT:
+    coord: [3388, 1104.3533241835285]
+- _Shrine::RuccoMaag
+- Climb right pillar:
+    notes: If rain, windbomb west
+- .dir(E) + .dir(E) + .dir(.N) + .dir(<N) Turn:
+    coord: [3493.5, 410.0512704114144]
+- .loc(Monument):
+    comment: Left of dam
+    icon: npc-zora-male
+    coord: [3397, 10.99405759660658]
+- .dir(W)
+- .loc(Monument):
+    comment: Side of mountain
+    icon: npc-zora-male
+    coord: [3261.5, 33.00277312158323]
+- .dir(W)
+- .loc(Monument):
+    comment: Below
+    icon: npc-zora-male
+    coord: [3093, 74.51921377097187]
+- .dir(.N) DT
+- .loc(Monument):
+    comment: Other side below Bridge
+    icon: npc-zora-male
+    coord: [3061, -225.5996342968965]
+- .dir(E>)
+- .loc(Monument):
+    comment: Side of mountain
+    icon: npc-zora-male
+    coord: [3258.5, -146.06813955891084]
+- .dir(N) Super:
+    coord: [3325, -515.3022702526114]
+- Enter Fish Drama:
+    icon: npc-zora-female
+    notes: '[Reach Zora''s Domain] Main Quest and [Divine Beast Vah Ruta] Main Quest'
+    vars:
+      MainQuest: .add(1)
+- _Shrine::NeezYohma
+- Mipha Memory:
+    icon: ruta-memory
+    # split-type: UserDefined
+    coord: [3302.5, -471.74772207869955]
+- .dir(E) + .dir(E>>)
+- Enter Ruta:
+    icon: ruta-enter
+    # split-type: UserDefined
+    coord: [3596.5, -342.79736404428513]
+- .gale() inside Ruta:
+    gale: 1
+- .important(EQUIP CRYO, GEB, AA)
+- Waterblight:
+    icon: ruta-done
+    notes: Cryo, Stasis, GEB 6AA all head
+    # split-type: UserDefined
+    time-override: 122
+    vars:
+      MainQuest: .add(1)
+    coord: [3675, -188.23615728933328]

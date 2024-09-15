@@ -1,0 +1,70 @@
+- _Warp::Shrine::MyahmAgana
+- 'If rain: Go to BM branch and make night there. Come back and make noon.':
+    banner: true
+- SQ to Bolson:
+    notes: Aim left of house, where bolson is approximately at
+- _Npc<Bolson>:
+    coord: [3331.625, 2277.033772659286]
+- .dir(N>)
+- _Npc<Nebb>:
+    comment: Talk 9 Times
+    notes: '[The Weapon Connoisseur] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [3383.75, 2144.7461374377945]
+- _Npc<Farmer>:
+    notes: '[The Spring of Wisdom] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [3380.5, 2095.976824626766]
+- SQ to deck
+- _Npc<Lady at Deck>:
+    notes: '[Secret of the Cedars] Shrine Quest. Cannot do this quest when raining'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [3426.25, 2162.2530702417534]
+- _Npc<Cricket Guy>:
+    notes: '[A Gift for My Beloved] Side Quest'
+    coord: [3447.25, 2119.7362334321388]
+- _Npc<Inn Lady>:
+    icon-map: null
+    notes: Go inside the counter
+- _Npc<Cricket Guy>:
+    comment: Talk Twice
+    notes: Finish A Gift for My Beloved Quest
+    vars:
+      SideQuest: .add(1)
+    coord: [3447.25, 2119.7362334321388]
+- .dir(E):
+    coord: [3626, 2103.4746457455212]
+- _Npc<Sheep Lady>:
+    notes: Finish Sheep Rustlers Quest
+    vars:
+      SideQuest: .add(1)
+    coord: [3623, 2104.743471183565]
+- .dir(E) to Lab
+- Upgrade Sheika Sensor:
+    vars:
+      SideQuest: .add(1)
+    coord: [3780.5, 2127.9843516710644]
+- _Npc<Lab Assistant>:
+    comment: Talk 3 times
+    notes: '[Sunshroom Sensing] SideQuest'
+    vars:
+      SideQuest: .add(1)
+    coord: [3784, 2136.9879171130997]
+- .dir(NE) + .dir(NE)
+- _Shrine::TahnoOah
+- .dir(N) + .dir(N) + .dir(N) + .dir(E) + .dir(<E):
+    coord: [4168, 1248.6791102167554]
+- _Shrine::JitanSami:
+    notes: You don't need to free Naydra for the quest
+- BLSS .dir(N>)
+- _Shrine::ShaiYota
+- SQ .dir(SW):
+    coord: [4168, 357.49806499336955]
+- _Npc<Kass>:
+    notes: '[Master of the Wind] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+- _CheckQuests
