@@ -1,0 +1,154 @@
+- _Warp::Shrine::DagahKeek:
+    color: '#00ff00'
+- .dir(N) + midair
+- .loc(Monument):
+    comment: Side of mountain
+    icon: npc-zora-male
+    coord: [3224.5, -742.9558281347754]
+- .dir(W>) + .dir(W) + .dir(W)
+- .loc(Monument):
+    comment: Middle of water fall
+    icon: npc-zora-male
+    coord: [3707.5, -523.3688709651187]
+- .dir(N) to top of waterfall:
+    coord: [3745, -630.4112601093257]
+- .dir(N.) DT
+- _Shrine::DahHesho
+- .dir(N.) Turn to Tarrey Town:
+    coord: [3984.5, -1597.5796282054716]
+- _Npc<Hudson>:
+    comment: Talk Twice
+- .dir(<W) Turn
+- Kill .enemy(2 Stalkers):
+    time-override: 40
+    movements:
+    - to: [3682, -1510.9084045459003]
+    - to: [3626.5, -1601.443160892215]
+- _Snap::Quest<Guardian Stalker>:
+    notes: Snap while they explode
+- .dir(W>) + .dir(W>) midairs
+- _Material<Armoranth>:
+    coord: [3256, -1740.5062927691179]
+- Cut tree SQ to stable
+- _Npc<Darner Quest>:
+    notes: '[Little Sister''s Big Request] Side Quest. Talk to big sister (2nd option),
+      then little sister, big sister, little sister, big sister'
+    time-override: 30
+    vars:
+      SideQuest: .add(1)
+    coord: [3142, -1690.6525216870973]
+- .dir(.W) to shrine:
+    notes: WB from the tree is possible, but getting bullet time is tricky. Use the
+      wood crates to be more consistent
+- _Shrine::ZeKasho
+- .gale() + .dir(.W) Turn midair:
+    gale: 1
+- _Shrine::SahDahaj
+- .dir(<<S) + .dir(S>) Turn:
+    coord: [2780, -1391.0176662091762]
+- _Shrine::MoaKeet
+- SQ to stable
+- _Npc<Shrine Painting Guy>:
+    notes: '[A Landscape of a Stable] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [2610, -1140.0332774590024]
+- .dir(<W) Turn
+- _Shrine::TahMuhl
+- .dir(W) + .dir(N) + .dir(W) + .dir(<N) Turn:
+    movements:
+    - to: [2147, -937.8436924535913]
+    - to: [2150, -1109.9097487139898]
+    - to: [1942, -1184.938552315908]
+- _Shrine::QuaRaym
+- .dir(W) + .dir(W):
+    notes: Wait for Link to take burn damage before second wb
+- _Memory::EldinCanyon:
+    time-override: 60
+- .dir(N>) Turn to .loc(South Mine):
+    coord: [1804.5, -1729.7964545464456]
+- _Material<10 Lizards>:
+    notes: null
+    time-override: 30
+    movements:
+    - to: [1701.79, 430.53, -1932.14]
+    - to: [1712.06, 430.61, -1939.71]
+    - to: [1717.88, 431.01, -1938.83]
+    - to: [1722.51, 431.35, -1950.52]
+    - to: [1728.43, 435.44, -1976.95]
+    - to: [1723.81, 432.41, -1996.84]
+    - to: [1717.02, 432.55, -1996.47]
+    - to: [1714.66, 432.56, -1996.17]
+    - to: [1701.37, 431.47, -1982.87]
+    - to: [1683.16, 430.31, -1948.15]
+- _Npc<Lizard Guy>:
+    comment: Equip armor
+    notes: '[Fireproof Lizard Roundup] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [1657.35, 430.17, -1960.6]
+- _Tod::Night:
+    notes: Should be around 7PM. If past night, you also need to make night here for
+      Xenoblade (<3AM), Kilton (<4AM) and East Akkala (>5AM). You can make night later
+      if need.
+- _Npc<Greyson>
+- .dir(<N) Turn + .dir(NE):
+    coord: [1497, -2304.8171931398265]
+- _Npc::Goron<Shrine Brother>:
+    comment: Text Options 2-1
+    notes: '[A Brother''s Roast] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [1644.75, -2463.0383285018875]
+- _Shop<Buy 1 Goron Splice>:
+    coord: [1680, -2460.2244608062992]
+- _Npc::Goron<Bludo>:
+    notes: '[Divine Beast Vah Rudania] Main Quest'
+    coord: [1705.75, -2447.75]
+- .dir(N>)
+- _Shrine::ShaeMosah
+- .dir(<N) Turn
+- _Npc::Goron<Rescue Yunobo>:
+    coord: [1635, -2936.561622231986]
+- .dir(W.) Turn
+- _Boss::Talus::Igneo:
+    comment: .fury()
+    fury: 3
+    coord: [1337, -3051.971476463712]
+- .dir(<E)
+- _Shrine::ShoraHah
+- Minecart + .dir(N.):
+    coord: [1727, -3315.1350048347513]
+- _Snap::Quest<Eldin Skeleton>:
+    movements:
+    - push
+    - to: [1580, -3666.1171593680883]
+      color: white
+      icon: camera
+    - pop
+- .dir(E) Turn + .dir(E) Turn
+- _Npc<Gut Check Goron>:
+    notes: '[The Gut Check Challenge] Shrine Quest. 2 WB up to the final 5 red rupees.
+      Eat a stam food, but keep the yellow stam for Lynel later'
+    time-override: 40
+    vars:
+      ShrineQuest: .add(1)
+    coord: [2670.5, -3468.808037473142]
+- _Shrine::GoraeTorr
+- .dir(E) Turn:
+    coord: [3322, -3429]
+- .important(Look Sky .dir(E))
+- Activate Zuna Kai:
+    notes: Activate the shrine here so you don't reach the chest too fast. The stal
+      moblins will spawn faster and mess you up.
+- .dir(<E) Turn
+- _Chest::Special<Salvager Vest>:
+    notes: '[[Xenoblade Chronicles 2]] Side Quest'
+    coord: [3636.0, 302.0, -3520.0]
+- .dir(<W) Turn
+- _Shrine::ZunaKai
+- Drop down
+- _Snap::Quest<Kilton>:
+    notes: Snap multiple to be safe if need. Don't have to talk
+    time-override: 60
+    coord: [3247, -3440.5]

@@ -1,0 +1,240 @@
+- _Warp::Shrine::MoggLatan:
+    color: '#00ff00'
+- BLSS .dir(W) + WB .dir(W) x2:
+    notes: Lightning pedestal on cliff. Shoot with FDB
+- _Shrine::KeehaYoog
+- BLSS .dir(E) to Camp:
+    movements:
+    - to: [-3568, 674.5062927691179]
+    - to: [-3272, 912.6005789029596]
+- _Chest<5 Fire Arrows>:
+    coord: [-3121.93, 550.32, 1325.76]
+- Melt Ice
+- ? Shoot 3 fire arrows while running to the ice. Use 4th fire arrow to light 3 wood.
+    Then light a normal arrow on fire to kill a wizrobe. If you need to set TOD, do
+    it now and use the last fire arrow to relight the fire Start farming luminous
+    stones around the shrine. After that put 3 more wood and you should have access
+    to the shrine. Need to be 12:40 to 13:30 when exiting shrine
+  : banner: true
+- _Tod::Noon:
+    comment: If needed see notes
+    coord: [-3071.21, 1236.58]
+- _Material<10 Luminous Stone>:
+    icon-map: null
+- _Equipment::Weapon<Ice Rod>:
+    coord: [-3076.7, 1226.9]
+- ? If it's after 13:30 when you activate Kuh Takkar, do Kuh Takkar later when you
+    warp back to ensure you make the Sasa Kai cycle
+  : banner: true
+- _Shrine::KuhTakkar
+- .dir(<W) BLSS off elevator
+- _Material<8 Berries>:
+    coord: [-3655.5, 1531.2579003072733]
+- .dir(<W) Turn
+- _Shrine::ShoDantu:
+    notes: Farm luminous to 10
+- .dir(S) + .dir(E):
+    coord: [-3874, 1827.213834933158]
+- _Npc<Kass>:
+    comment: Text Options 2-1
+    notes: '[Sign of the Shadow] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [-3672, 1845.2209658172305]
+- SQ to shrine:
+    notes: Shoot at sun 2:55-3:50
+- _Shrine::SasaKai
+- BLSS .dir(S) to Gerudo
+- _Shrine::DaqoChisay
+- _Npc<Benja>:
+    comment: After shrine
+    notes: '[Forbidden City Entry] Main Quest. Talking to him after shrine because
+      he takes forever to load.'
+    coord: [-3799.25, 2827.7960857630687]
+- BLSS .dir(NE)
+- _Shrine::DakoTah
+- .dir(E>) + .dir(E)
+- _Shrine::KayNoh
+- _Material<Flint>:
+    icon-map: null
+    notes: If you already have an rng one from the luminous ores, can skip this one
+- _Npc<Sesami>:
+    notes: '[Missing in Action] Side Quest'
+    coord: [-2814, 2239.51842145052]
+- _Shop<1 Winterwing 1 Darner>:
+    comment: Buy from Beedle
+    coord: [-2788.75, 2249.832302286999]
+- _Npc<Rushroom Guy>:
+    comment: Talk Twice
+    notes: '[Rushroom Rush!] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [-2791.25, 2231.57507236287]
+- ''
+- .dir(<W) + .dir(SW)
+- Kara Kara:
+    icon: location
+    # split-type: UserDefined
+    coord: [-3264, 2608.325643705958]
+- Buy Gerudo clothes
+- .dir(SW) Super to Gerudo Town:
+    vars:
+      MainQuest: .add(1)
+- _Npc::Gerudo<Riju>:
+    notes: '[Divine Beast Vah Naboris] Main Quest'
+    coord: [-3882.5, 2964.225811328949]
+- _Warp::Shrine::KehNamut:
+    color: red
+- BLSS .dir(W):
+    notes: Toward single tree with a fire wizrobe. Kill it with ice rod
+- _Equipment::Weapon<Fire Rod>:
+    coord: [-2158, 2143.1041901394974]
+- Cut Tree .dir(SW)
+- _Material<Electric Darner>:
+    notes: Under pebble in water. Want to spam X + ZR to pull glider instantly and
+      AA the lizalfos
+    coord: [-2220.85, 356.03, 2204.36]
+- Cryo + .dir(N>) DT
+- _Npc<Friend 1>:
+    notes: AA 2 bokos
+    coord: [-2166, 1723.5268398553271]
+- Drop down
+- _Npc<Friend 2>:
+    notes: AA boko. If the boko with bow notices you, AA him as well.
+    coord: [-2187.5, 1692.2644598482575]
+- .dir(E>) Turn
+- _Npc<Friend 3>:
+    notes: RGC slam ground. Don't slam boko since that takes extra durability
+    coord: [-2053.75, 1741.2838716993429]
+- .dir(S)
+- _Npc<Friend 4>:
+    notes: RGC slam ground.
+    coord: [-2059.875, 1836.6678348244604]
+- .dir(<<<S) Slight Turn:
+    notes: Break the boxes and aim a bit left of a ladder in front of you
+- _Shrine::JeeNoh
+- .dir(N>) Turn + .dir(N) Turn
+- _Shrine::DahKaso:
+    comment: Get core
+- .dir(S) + .dir(<S) Turn
+- Talk a horse. Ride to horse guy:
+    notes: Land near a boko on horse, run up to him, AA the boko and instantly get
+      on the horse
+- _Npc<Horse Quest>:
+    notes: '[Good-Sized Horse] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    movements:
+    - to: [-1628, 2090.083193647508]
+    - to: [-1650, 2265.6527197672103]
+    - to: [-1696.5, 2302.6673776955804]
+    - to: [-1832.5, 2307.6693584967115]
+    - to: [-1992, 2164.112509504248]
+    - to: [-2031, 1880.5001980801135]
+- .dir(N.)
+- Do Test of Will:
+    notes: Combine stacks and bake an apple on phase 2
+- _Shrine::JolooNah:
+    notes: '[Test of Will] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+- .dir(<W) + .dir(<<W) Turn:
+    notes: can also BLSS but it's a bit monkaSTEER
+- _Npc<Sesami>:
+    vars:
+      SideQuest: .add(1)
+    coord: [-2814, 2239.51842145052]
+- _Warp::Shrine::KuhTakkar
+- .dir(W) kill some wolves:
+    notes: Slam with Royal Claymore to kill 2 farthest
+    coord: [-3204, 1168.4056680716558]
+- _Material<Raw Gourmet Meat>
+- .dir(W) Turn:
+    coord: [-3516, 1356.1299405542022]
+- Clip in to Yiga Hideout
+- _Equipment::Bow<Duplex Bow>
+- Equip GEB and AA
+- Kill .enemy(Kohga):
+    notes: 'Phase 1: spam AA after screen goes out. Phase 2: wait for the ball to
+      go above, shoot 2 AA, run over the hole, spam AA. Phase 3: Mag the ball to kohga
+      from the side and press B as the ball goes over the edge of the hole. Or just
+      do normal kill'
+- _Warp::Shrine::DaqoChisay
+- _Shop<1 Durian>:
+    comment: For quest
+    coord: [-3822.5, 2878.1249885513744]
+- _Npc::Gerudo<Flint Lady>:
+    comment: Talk Twice
+    notes: '[Tools of the Trade] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [-3825, 2897.171471657931]
+- _Shop<All Fire + Shock>:
+    notes: Fire for shrines, shock for Ruta + fighting stuff. Technically only need
+      less than 10 fire arrows, but just in case
+    coord: [-3853.875, 2912.5337231392577]
+- Run to Riju
+- Urbosa Memory:
+    comment: Text Options 1-2
+    icon: naboris-memory
+    # split-type: UserDefined
+    coord: [-3869, 2947.3173472384588]
+- .dir(E>>) Super:
+    coord: [-3435, 3128.181045223386]
+- Ride sand seal .dir(SW):
+    notes: '[The Perfect Drink] Shrine Quest. There should be a small mountain'
+    vars:
+      ShrineQuest: .add(1)
+- _Npc::Gerudo<Shrine Lady>:
+    coord: [-2989, 3760.314947379851]
+- .dir(E) Turn to Naboris
+- Enter Naboris:
+    icon: naboris-enter
+    # split-type: UserDefined
+    coord: [-2476, 3764.5593782394317]
+- .gale() inside Naboris:
+    gale: 2
+- .important(EQUIP STASIS, GEB, AA)
+- Thunderblight:
+    icon: naboris-done
+    notes: Stasis, GEB 2 body 3 head. (bomb self after exiting beast in case ragdoll
+      glitch fails)
+    # split-type: UserDefined
+- _Npc<Boots Guy>:
+    comment: Equip snowboots
+    notes: '[The Eighth Heroine] Side Quest'
+    movements:
+    - to: [-3767.25, 2865.0417949038665]
+      warp: True
+- Run to Riju
+- _Npc::Gerudo<Riju + Thunderhelm>:
+    notes: '[The Thunder Helm] Side Quest'
+    vars:
+      MainQuest: .add(1)
+    coord: [-3888.5, 2970.333490767677]
+- _Npc::Gerudo<Guard Captain>:
+    notes: '[The Search for Barta] Side Quest'
+    coord: [-3911.75, 2929.317248198402]
+- _Npc::Gerudo<Side Entrance Guard>:
+    notes: '[The Silent Swordswomen] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [-3916.75, 2873.2950632257334]
+- _Npc::Gerudo<Historian>:
+    comment: Text Options 1-1-2
+    notes: '[The Seven Heroines] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [-3880.25, 2879.5475392271474]
+- _Npc::Gerudo<Bar Lady>:
+    notes: Progress The Perfect Drink Quest
+    coord: [-3852.75, 2860.289913142792]
+- _Npc::Gerudo<Berry Girl>:
+    notes: '[The Mystery Polluter] Side Quest'
+    coord: [-3834.75, 2853.287140021209]
+- .dir(N>) Turn
+- _Npc::Gerudo<Ice Minigame>:
+    movements:
+    - to: [-3755, 2279.955233894437]
+    - to: [-3762.75, 2699.025255214422]
+- _CheckQuests

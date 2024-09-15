@@ -1,0 +1,12 @@
+plugins:
+- use: botw-ability-unstable
+  with:
+    estimate-recharge: true
+- use: metrics
+  with:
+    detailed: true
+
+presets:
+  CheckQuests:
+    text: Tracker --> Main .var(MainQuest)/15; Side .var(SideQuest)/77; Shrine .var(ShrineQuest)/42
+    banner: true

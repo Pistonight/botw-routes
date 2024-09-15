@@ -1,0 +1,55 @@
+- .dir(E>) Turn
+- _Shrine::IshtoSoh
+- BLSS .dir(<N) to giant horse
+- Ride to Mounted Archery Camp:
+    notes: Kill any electric keese coming your way
+    time-override: 200
+    movements:
+    - to: [-1208, 2652]
+    - to: [-636, 3722]
+    - to: [-200, 3500]
+- _Npc<Standing Guy at Camp>:
+    notes: '[Hunt for the Giant Horse] Side Quest'
+    vars:
+      SideQuest: .add(1)
+- .dir(SE) + .dir(SE)
+- _Npc<Guardian Girl>:
+    comment: Talk Twice
+    icon-map: null
+    notes: '[Guardian Slideshow] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [109, 3823.131728472772]
+- _Tod::Morning:
+    notes: For Highland Stable and Goron City Quests
+- _Shrine::ShoqaTatone
+- .dir(E) + .dir(E) + .dir(N>):
+    coord: [334.5, 3853.7939887635766]
+- _Shrine::KaoMakagh
+- .dir(N) Turn .fury() .enemy(Bokos):
+    fury: 1
+    notes: Fury then AA the rest. Use fire rod to fury so you can get an updraft as
+      well.
+    coord: [488, 3313.4692913392537]
+- .dir(<S)
+- _Material<Swift Carrot>:
+    comment: Behind horses
+    icon-map: null
+- _Npc<Old Lady>:
+    comment: Talk Once
+    notes: '[The Horseback Hoodlums] Side Quest. He is at the horses, or inside if
+      raining'
+    vars:
+      SideQuest: .add(1)
+    coord: [511, 3442]
+- .dir(N.) Turn
+- _Shrine::PumaagNitae
+- .dir(E.)
+- _Npc<Kass>:
+    notes: '[The Serpent''s Jaws] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [830, 3054]
+- .dir(N) Super
+- _Shrine::ShaeKatha
+- _CheckQuests

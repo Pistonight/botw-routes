@@ -1,0 +1,11 @@
+- _Warp::Shrine::DahHesho
+- .dir(N.) Turn:
+    coord: [3949, -1631.4679110216753]
+- _Npc<Hudson>
+- Check after wedding if the only active quest is From the Ground Up (press +):
+    banner: true
+- _Npc<Hudson>:
+    comment: Talk again after wedding
+    notes: Finish From the Ground Up
+    vars:
+      SideQuest: .add(1)

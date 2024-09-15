@@ -1,0 +1,158 @@
+- BLSS off Elevator
+- _Shrine::ShodaSah
+- .dir(S.) Turn + .dir(SW)
+- _Npc<Quest Lady>:
+    comment: Talk Twice
+    notes: '[Thunder Magnet] Side Quest. She will be inside if thundering (5PM-9PM).
+      You can still use bomb arrow for the shrine in rain if you stand below a tree'
+    vars:
+      SideQuest: .add(1)
+    coord: [1552, 3538.710361080126]
+- _Equipment::Bow<Traveler Bow>:
+    comment: For Eventide
+    coord: [1564.5, 3546.8129894759695]
+- Bomb arrow rock
+- _Shrine::ShaiUtoh
+- .dir(E) Super + .dir(N.) midairs
+- Clip in:
+    notes: .link(https://www.youtube.com/watch?v=avrVPjqfJDQ)
+- _Shrine::QukahNata
+- Clip out + SQ
+- _Npc<Kass>:
+    notes: '[A Song of Storms] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+- .dir(<E) TS to Blue Hinox:
+    coord: [2689, 2965]
+- Walk Orb:
+    coord: [2632.75, 2857]
+- .important(READ TABLET):
+    notes: '[The Three Giant Brothers] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [2655, 2842.5]
+- .important(READ TABLET)
+- .important(READ TABLET)
+- .dir(W>) to Black Hinox:
+    coord: [2419, 2779.5]
+- Walk or BLSS:
+    coord: [2615.75, 2824.5]
+- .dir(NE) to Red Hinox:
+    coord: [2767.5, 2714]
+- Walk Orb:
+    coord: [2647.5, 2820.75]
+- _Shrine::TawaJinn
+- BLSS .dir(S) to heart lake
+- _Npc<Love Quest Guy>:
+    comment: Talk Twice
+    notes: '[A Gift of Nightshade] Side Quest. Use a cryo block when going to the
+      woman'
+    coord: [2591, 3528.322870584376]
+- _Npc<Love Quest Woman>:
+    comment: Talk Twice
+    icon-map: null
+    vars:
+      SideQuest: .add(1)
+- .dir(SW)
+- .fury() the camp:
+    fury: 2
+    notes: For watch tower bokos left after fury, get BLS first, then AA him (aim
+      at branch above with falcon bow) and WALK to get slide (if you slide directly
+      in bow animation, your angle will be locked)
+    coord: [2091, 3914.4757884316987]
+- BLSS .dir(E):
+    coord: [3024, 3924.903245315798]
+- _Chest<Sapphire/Topaz>:
+    notes: Get either one on the side
+- .dir(.N) Turn
+- _Npc<Old Man>:
+    comment: 2nd Option (ocean), talk again
+    notes: '[Sunken Treasure] Side Quest. On left dock or inside house if raining'
+    vars:
+      SideQuest: .add(1)
+    coord: [2887.5, 3494.779414896797]
+- SQ across harbor
+- _Material<Hearty Blueshell Snail>:
+    coord: [2944, 3462.766737769558]
+- Cryo + SQ .dir(NW):
+    coord: [2886.5, 3409.245543197456]
+- _Npc<Mom>:
+    comment: Talk Twice
+    notes: '[What''s for Dinner?] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [2886.5, 3409.245543197456]
+- _Npc<Dad>:
+    comment: Talk Once
+    notes: '[Take Back the Sea] Side Quest. He will be inside house if rain. 5PM-6PM
+      he is at the same place with mom. There''s no good wb spot here, so you still
+      want to go down and cryo block if he is at dinner'
+    vars:
+      SideQuest: .add(1)
+    coord: [2905.5, 3438.757229924129]
+- Cryo + .dir(<N)
+- _Shrine::YahRin
+- BLSS .dir(E):
+    coord: [3797.625, 3615.5304052973624]
+- _Snap::Quest<Shard at peninsula tip>
+- .dir(NW)
+- _Snap::Quest<Shard in grassy alcove>:
+    coord: [3532.5, 3368.0035654420353]
+- .dir(SW)
+- _Snap::Quest<Shard amongst rocks>:
+    coord: [3388, 3480.548133467486]
+- .dir(N.)
+- _Npc<Guy at Monument>:
+    comment: Talk Twice
+    notes: '[A Fragmented Monument] Shrine Quest. Talk twice then crouch on pedestal'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [3464.75, 3364.751980801131]
+- _Shrine::KahYah
+- Shield surf SCW + .dir(E):
+    notes: Activate with amiibo rune
+- _Shrine::MuwoJeem
+- BLSS .dir(N) to sole rock:
+    notes: Clear skew when dropping down
+- _Npc<Kass>:
+    notes: '[The Hero''s Cache] Side Quest'
+    coord: [3745.5, 2629.544369945337]
+- Drop down .dir(SE):
+    notes: Toward Chaas Qeta Shrine
+    coord: [3774.5, 2660.3799634514535]
+- _Chest<Gold Rupee>:
+    comment: Mag out from water
+    vars:
+      SideQuest: .add(1)
+- .dir(NE) to Camp:
+    notes: For Sheep Rustlers quest
+    coord: [4088.5, 2376.5368429010387]
+- .fury() camp + AA:
+    fury: 1
+    notes: AA 2 bokos that don't die from 1 fury. Make sure chest unlocks
+- BLSS .dir(S)
+- _Shrine::ChaasQeta
+- _Equipment::Weapon<Korok Leaf>:
+    comment: Next to BLSS tree
+- BLSS .dir(SE) to Eventide:
+    notes: '[Stranded on Eventide] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [4489, 3457.2174919641984]
+- Smuggle:
+    notes: Smuggle Axe, Traveler Bow, arrow (ancient OK), Forest Dweller Shield.
+- .important(CHECK SPEED FOOD TIME)
+- Turn on Daruk's Protection
+- .gale() at the end:
+    gale: 1
+- ? End Game Time of Day cycle starts here. It's pretty tight. Ideally warp to ZD
+    around 3:30PM, finish Shai Yota branch (talk to kass) at 9PM, reach BM shrine
+    around 11:30PM to skip BM cutscene, then get to stal horse around 3:30AM (need
+    to be before 5AM)
+  : banner: true
+- _Tod::Noon:
+    comment: Before entering shrine
+    notes: If over 8:30 pace, you might get BM here, so don't make noon, finish the
+      shrine, go do BM, and make noon there
+- _Shrine::KorguChideh
+- _CheckQuests

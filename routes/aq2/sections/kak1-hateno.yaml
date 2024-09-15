@@ -164,6 +164,6 @@
     coord: [3328.75, 2278.14]
     var-change:
       SideQuest: 1
-- use: ../common/check-quest.yaml
+- _CheckQuests
 - "":
     notes: Don't break lizal shield. Use Royal Claymore for tree cutting and stasis stuff. Use bow order is Swallow -> FDB. Use Falcon/GEB only when necessary (You will get these bows in the next section)

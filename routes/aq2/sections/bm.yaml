@@ -1,0 +1,10 @@
+- _Warp::Shrine::MoggLatan:
+    color: orange
+- .dir(E>>) Turn
+- _Npc<Kass>:
+    notes: '[Under a Red Moon] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [-2778.84, 348.24, 206.35]
+- Make night if needed
+- _Shrine::MijahRokee

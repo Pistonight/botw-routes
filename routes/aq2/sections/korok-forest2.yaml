@@ -1,0 +1,24 @@
+- .dir(E>>) Fast Turn
+- _Shrine::KeoRuug
+- .dir(E)
+- _Npc<Minigame Korok>:
+    notes: '[Test of Wood] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [564.99, 264.83, -2160.65]
+- .dir(<<E)
+- _Shrine::MaagHalan
+- .important(SAVE + CLOSE GAME):
+    notes: You will respawn at the trial start if you do it here
+- .dir(SW) Super:
+    notes: Ideally super directly to the quest korok. If you missed the super or have
+      to land in the forest, do a <E wb
+- _Npc<Trial Korok>:
+    notes: '[Trial of Second Sight] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [360.5, -2055.2876581187425]
+- .dir(<W) Turn to lake:
+    coord: [28, -1846.705058711574]
+- _Shrine::KuhnSidajj
+- _CheckQuests

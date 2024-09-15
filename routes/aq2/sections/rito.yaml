@@ -1,0 +1,73 @@
+- _Warp::Beast::Medoh:
+    notes: Coordinates in rito might not be accurate
+- _Npc::Rito<Singing Little Bird>:
+    comment: Drop down toward shrine
+    coord: [-3634.46, 292.22, -1784.51]
+- _Npc::Rito<Kheel's Mom>:
+    comment: Platform near shrine
+    notes: '[Find Kheel] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [-3668.51, 321.49, -1769.96]
+- _Shrine::AkhVaquot
+- .dir(.S) Turn + Shoot fire arrow
+- _Shrine::BareedaNaag
+- .dir(NE)
+- _Npc::Rito<Guard>:
+    comment: Talk Twice
+    notes: '[Face the Frost Talus] Side Quest. Near first bridge'
+    vars:
+      SideQuest: .add(1)
+    coord: [-3355.5, -1805.8767941696433]
+- SQ to stable
+- _Npc<Old Man>:
+    comment: Talk Twice
+    notes: '[Curry for What Ails You] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [-3268.5, -1772.8637208821783]
+- .dir(W>)
+- _Npc::Rito<Fishing Little Bird>:
+    coord: [-3488.88, 258.52, -1850.25]
+- .dir(.W) to deck
+- _Npc::Rito<Rito Lady on Deck>:
+    notes: '[The Ancient Rito Song] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [-3605.16, 289.12, -1852.43]
+- Run up
+- _Npc<Apple Lady>:
+    comment: Talk Twice
+    notes: '[The Apple of My Eye] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [-3615.92, 287.6, -1828.99]
+- Drop down 1 level
+- _Npc::Rito<Shrine Little Bird>:
+    notes: '[The Bird in the Mountains] Shrine Quest'
+    vars:
+      ShrineQuest: .add(1)
+    coord: [-3647.48, 289.88, -1822.09]
+- Drop down to shop
+- _Npc::Rito<Shopping Little Bird>:
+    coord: [-3637.58, 289.95, -1815.48]
+- Run up 3 houses
+- "_Cook<Salmon Meuni\xE8re>":
+    comment: Wheat, Butter, Salmon
+    icon-map: null
+- _Npc::Rito<Hungry Little Bird>:
+    coord: [-3596.62, 317.93, -1794.98]
+- Drop down
+- _Npc::Rito<Fyson>
+- Run up 1 house
+- _Npc<Flint Guy>:
+    comment: Talk Twice
+    notes: '[The Spark of Romance] Side Quest'
+    vars:
+      SideQuest: .add(1)
+- Drop out .dir(W) Turn
+- _Shrine::VooLota:
+    comment: 45312
+    notes: Start from 4 and blow every other hole while turning to the right. Make
+      sure pedestal is blue after first blow
+- _CheckQuests

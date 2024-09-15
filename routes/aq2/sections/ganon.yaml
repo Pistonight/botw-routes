@@ -1,0 +1,30 @@
+- If you still need a blupee pic, warp to zuna kai now and take one:
+    banner: true
+- _Warp::Shrine::KeoRuug
+- _Npc<Blupee Quest>:
+    icon-map: null
+    notes: '[Legendary Rabbit Trial] Side Quest'
+    vars:
+      SideQuest: .add(1)
+- _Npc<Trial Korok>:
+    notes: '[The Korok Trials] Side Quest'
+    vars:
+      SideQuest: .add(1)
+    coord: [432.25, -2167.49078927474]
+- .gale() + to top of Deku Tree:
+    gale: 2
+- Acorn BLSS to castle:
+    notes: Same as AMQ. Want to start south, then wiggle toward castle
+    coord: [-256, -1060.8995733826514]
+- ''
+- Get Skew Bounce:
+    notes: Can also just kill him normally
+- Calamity:
+    icon: calamity
+    notes: FURY + stasis 8AA headshots
+    # split-type: UserDefined
+- Dark Beast:
+    icon-doc: ganon
+    notes: Check quests after Dark Beast
+    # split-type: UserDefined
+- _CheckQuests

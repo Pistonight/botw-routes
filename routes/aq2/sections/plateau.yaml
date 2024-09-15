@@ -19,6 +19,8 @@
     comment: These are food
 - Surf down to TOT:
     notes: "[Follow the Sheikah Slate] Main Quest"
+    vars:
+      MainQuest: .add(1)
 - Clip through
 - _Equipment::Bow<Bow + Arrow>:
     coord: [-832.0, 1963.56]
@@ -27,11 +29,11 @@
 - BLSS
 - _Shrine::JaBaij
 - BLSS
-- _Tower::GreatPlateau:
-    vars:
-      MainQuest: .add(1)
+- _Tower::GreatPlateau
 - Jump down + FDC:
     notes: "[The Isolated Plateau] Main Quest"
+    vars:
+      MainQuest: .add(1)
 - BLSS to mag
 - _Shrine::OmanAu
 - _Chest<Amber>:
@@ -49,6 +51,6 @@
 - _Plateau:
     notes: "[Destroy Ganon] Main Quest and [Seek Out Impa] Main Quest"
     vars:
-      MainQuest: .add(1)
+      MainQuest: .add(2)
 - ".link([Example inventory after Plat]: https://ist.itntpiston.app/?r=init+1+tree+branch+1+axe+1+spear%5Bequip%5D+1+traveler+bow%5Bequip%5D+5+arrow%5Bequip%5D+1+potlid%5Bequip%2C+life%3D300%5D+1+flint+6+pepper+3+shroom+1+amber+1+slate+4+orb+1+glider)"
-- use: ../common/check-quest.yaml
+- _CheckQuests
