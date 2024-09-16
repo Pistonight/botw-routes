@@ -26,9 +26,12 @@
 - _Shrine::KatosaAug
 - .dir(W) Turn
 - _Shrine::TutsuwaNima
-- SCW + Cryo .dir(S) + .dir(SE) + .dir(E>) Turn:
+- SCW + .dir(E>) + .dir(SE) + .dir(E>) Turn:
     movements:
-    - [3737.0, -2463.81]
-    - [3958.0, -2206.9]
+    - [3762.84, -2675.0]
+    - [3841.83, -2616.0]
+    - [4034.81, -2301.0]
+    notes:
+      Make sure to stop the first WB before the forest and midair. Otherwise iSCW will fail.
 - _SCW::Infinity::Amiibo<-blessing>:
     presets: _Shrine::RitaagZumo

@@ -5,9 +5,9 @@
 - Daruk Memory:
     icon: rudania-memory
     # split-type: UserDefined
-    coord: [1708.5, -2451.0614048350653]
+    coord: [1708.5, -2451.06]
 - .dir(<S) + .dir(E) super:
-    coord: [1762, -2359.327977013841]
+    coord: [1762.0, -2359.33]
 - _Shrine::DaqaKoh
 - .dir(<W)
 - _Equipment::Weapon<Drillshaft>:
@@ -17,18 +17,18 @@
 - .dir(.S) Turn
 - _Npc::Goron<Digging Goron>:
     movements:
-    - to: [2003, -2036.393630979258]
-    - to: [1827.5, -1890.3357915862289]
-    - to: [2005.5, -2035.393234819032]
+    - to: [2003.0, -2036.39]
+    - to: [1827.5, -1890.34]
+    - to: [2005.5, -2035.39]
 - .dir(SW) to rock
 - Golden Gautlet rock up
 - Burn FDB:
     notes: We will get a new one in Korok Forest if we don't have one
 - _Shrine::KayraMah
 - Run out + .dir(.N) + .dir(<E):
-    coord: [1982, -2143.7089192814583]
+    coord: [1982.0, -2143.71]
 - Kill .enemy(Moblins):
-    coord: [2141, -2282.6549949365435]
+    coord: [2141.0, -2282.65]
 - .fury() Enter Rudania:
     fury: 2
     icon: rudania-enter
@@ -48,9 +48,9 @@
 - SQ .dir(NE) to talus quest:
     notes: GC quests 8AM - 8PM. Make noon if not
     movements:
-    - to: [1625.5, -2435.27733505561]
+    - to: [1625.5, -2435.28]
       warp: True
-    - to: [1667.25, -2466.789814102736]
+    - to: [1667.25, -2466.79]
 - _Npc::Goron<Talus Quest Goron>:
     comment: Talk Twice
     notes: '[The Road to Respect] Side Quest'
@@ -62,18 +62,18 @@
     notes: '[The Jewel Trade] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [1678.75, -2445.781494737985]
+    coord: [1678.75, -2445.78]
 - _Npc::Goron<Bludo>:
     notes: No need to grab reward
     vars:
       MainQuest: .add(1)
-    coord: [1708.5, -2451.0614048350653]
+    coord: [1708.5, -2451.06]
 - ''
 - .dir(S) + .dir(SE):
-    coord: [1684, -2365.9891055937787]
+    coord: [1684.0, -2365.99]
 - _Npc::Goron<Drillshaft Kid>:
     notes: '[Death Mountain''s Secret] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [1794.5, -2251.943943327989]
+    coord: [1794.5, -2251.94]
 - _CheckQuests

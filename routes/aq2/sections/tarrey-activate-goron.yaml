@@ -1,10 +1,10 @@
 - .dir(N>) delay:
     movements:
-    - to: [3284.5, -430.83222614419265]
+    - to: [3284.5, -430.83]
       warp: True
 - Talk to King
 - _Chest<Lightscale Trident>:
-    coord: [3331.5, -539.2848849971588]
+    coord: [3331.5, -539.28]
 - ? TOD here should be before 7AM. If you mess up too much it will be after 7AM, in
     which case it will be better to do diving quest first, then fronk (at pillar),
     then WB to shrine from fronk, and do lynel lady on second visit
@@ -14,19 +14,19 @@
     notes: '[Lynel Safari] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [3349.375, -509.8367705381688]
+    coord: [3349.38, -509.84]
 - _Npc::ZoraMale<Fronk>:
     comment: 8PM-7AM at SPA
     notes: '[A Wife Washed Away] Side Quest'
     time-override: 30
-    coord: [3340.375, -535.4719221439664]
+    coord: [3340.38, -535.47]
 - _Npc::ZoraMale<Diving Quest>:
     comment: midair after swimming up
     notes: '[Diving is a Beauty] Side Quest'
-    coord: [3292.625, -519.5906331003753]
+    coord: [3292.62, -519.59]
 - ''
 - .dir(W) Activate Shrine:
-    coord: [3082.75, -455.625]
+    coord: [3082.75, -455.62]
 - _Shrine::DagahKeek
 - .dir(<<W) Ordinal Turn
 - Throw trident at Hinox:
@@ -34,47 +34,47 @@
 - _Boss::Hinox::Blue:
     comment: .fury()
     fury: 3
-    coord: [2923, -290.92037179452836]
+    coord: [2923.0, -290.92]
 - .dir(S.) Turn (can super)
 - .loc(Monument):
     comment: Below Ruta
     icon: npc-zora-male
-    coord: [2838.5, 188.50332156742115]
+    coord: [2838.5, 188.5]
 - .dir(<W) to deer:
-    coord: [2492, 339.23175373234244]
+    coord: [2492.0, 339.23]
 - Ride to pedestal:
     time-override: 20
 - _Npc<Kass>:
     notes: '[The Crowned Beast] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
-    coord: [2576, 481.28800848446645]
+    coord: [2576.0, 481.29]
 - _Shrine::MezzaLo
 - .dir(N.) DT
 - _Npc::ZoraFemale<Letter Girl>:
     notes: '[Special Delivery] Side Quest'
-    coord: [2749, -88.23029102874534]
+    coord: [2749.0, -88.23]
 - Bomb Letter
 - .dir(E)
 - .loc(Monument):
     comment: Near many lizalfos
     icon: npc-zora-male
-    coord: [2867, -71.59968009139811]
+    coord: [2867.0, -71.6]
 - .loc(Monument):
     comment: Run to the other side
     icon: npc-zora-male
-    coord: [2879, -33.08442792268852]
+    coord: [2879.0, -33.08]
 - .dir(W>)
 - _Npc<Letter Quest>:
     notes: Pick up the letter and walk along the passage. Can pick up 2 frogs here
       too. Then continue walking to a tree to blss
     time-override: 30
     movements:
-    - to: [2732.5, -82.47801310744399]
-    - to: [2661, -147.41660827237956]
-    - to: [2603, -161.9223525956595]
-    - to: [2237, -198.7975621243986]
-    - to: [1780, -78.75002289725126]
+    - to: [2732.5, -82.48]
+    - to: [2661.0, -147.42]
+    - to: [2603.0, -161.92]
+    - to: [2237.0, -198.8]
+    - to: [1780.0, -78.75]
 - .dir(<E) Turn + .dir(.E) Turn
 - _Shrine::SohKofi:
     notes: Can get a Knight's Bow for Eldin if needed. Drop swallow bow if you don't
@@ -88,14 +88,14 @@
 - Kill .enemy(Octorok):
     notes: Get Octoballoon. Not guaranteed, 84%. We do the shrine so that it's less
       time loss to rng
-    coord: [1257, -1111.1588602507172]
+    coord: [1257.0, -1111.16]
 - .dir(W)
 - _Npc<Balloon Girl>:
     comment: Put balloon, break barrel
     notes: '[Balloon Flight] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [1066, -1136.1687642563725]
+    coord: [1066.0, -1136.17]
 - .dir(W) + .dir(S.)
 - _Shrine::NamikaOzz:
     comment: Snap and kill

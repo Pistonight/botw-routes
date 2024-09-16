@@ -35,5 +35,6 @@
     presets:
     - _SCW::Buffered
     - _StratEx::Shrine::RohtaChigah
-- .dir(<S) TS
+- BLSS:
+    coord: [-417.1, 1907.0]
 - _Shrine::YaNaga

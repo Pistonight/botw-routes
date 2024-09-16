@@ -10,12 +10,12 @@
       warp: true
 - _SCW::FishActivate:
       presets: _Shrine::KuhnSidajj
-- Void out behind shrine:
+- .dir(.W) FAST Turn + .dir(NE) midair:
     movements:
-    - to: [251.03, 285.34, -1979.93]
-      warp: true
-- .dir(NE)
+    - to: [272.87, -1989.0]
+    notes: .link([example]https://www.youtube.com/watch?v=brd-JCwKeVY)
 - _Shrine::KeoRuug
+- Drop Forest Dweller Bow
 - .dir(E) start quest:
     coord: [564.99, 264.83, -2160.65]
 - WB to shrine (no chu)

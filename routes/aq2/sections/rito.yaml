@@ -18,14 +18,14 @@
     notes: '[Face the Frost Talus] Side Quest. Near first bridge'
     vars:
       SideQuest: .add(1)
-    coord: [-3355.5, -1805.8767941696433]
+    coord: [-3355.5, -1805.88]
 - SQ to stable
 - _Npc<Old Man>:
     comment: Talk Twice
     notes: '[Curry for What Ails You] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [-3268.5, -1772.8637208821783]
+    coord: [-3268.5, -1772.86]
 - .dir(W>)
 - _Npc::Rito<Fishing Little Bird>:
     coord: [-3488.88, 258.52, -1850.25]

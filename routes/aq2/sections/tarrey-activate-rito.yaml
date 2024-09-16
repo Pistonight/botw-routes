@@ -1,13 +1,13 @@
 - _Warp::Shrine::DahHesho:
     color: cyan
 - .dir(N.) to Tarrey Town:
-    coord: [3984.5, -1597.5796282054716]
+    coord: [3984.5, -1597.58]
 - _Npc<Hudson>:
     comment: Talk twice
 - Listen at window
 - _Npc<Mom>:
     notes: '[A Parent''s Love] Side Quest. Give cake'
-    coord: [3969.5, -1571.6085339409033]
+    coord: [3969.5, -1571.61]
 - _Npc<Mom Again>:
     comment: After Fade Out
     icon-map: null
@@ -18,7 +18,7 @@
     notes: '[Hobbies of the Rich] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [3917.75, -1605.746639579776]
+    coord: [3917.75, -1605.75]
 - BLSS .dir(<N)
 - _Memory::SpringofPower
 - _Shrine::TutsuwaNima

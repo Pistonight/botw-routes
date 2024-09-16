@@ -6,16 +6,16 @@
     comment: behind bombable rocks
     coord: [-196.46, 153.2, -1218.59]
 - WB right of chest to docks:
-    coord: [-310, -1136.8678805645532]
+    coord: [-310.0, -1136.87]
 - _Shrine::SaasKosah
 - Run to library, WB off table out:
     movements:
-    - to: [-142.5, -1046.3013256465474]
-    - to: [-64, -1042.7999390857558]
+    - to: [-142.5, -1046.3]
+    - to: [-64.0, -1042.8]
 - WB towards back of castle
 - _Chest<Naydra Scale>:
     comment: under slab
-    coord: [-176.5, -1167.6024074184797]
+    coord: [-176.5, -1167.6]
 - BLSS .dir(W)
 - _Memory::IrchPlain
 - BLSS .dir(<S)
@@ -23,7 +23,7 @@
 - Burn thorns + .dir(W) super
 - _Shrine::ZaltaWa
 - .dir(S>) + .dir(<W) Turn midair:
-    coord: [-1524.5, -472.5067347238455]
+    coord: [-1524.5, -472.51]
 - _Material<Monster Extract>:
     comment: Save traveller
     coord: [-1864.5, 216.0, -275.0]
@@ -40,18 +40,18 @@
 - SQ to white horse
 - Ride to stable:
     movements:
-    - to: [-1914, 926.7463658662109]
-    - to: [-1954, 1006.7780586843091]
-    - to: [-1906, 1074.804997579693]
-    - to: [-1626, 1032.7883588501918]
-    - to: [-1530, 1022.7843972479295]
-    - to: [-1450, 1270.8826449840335]
+    - to: [-1914.0, 926.75]
+    - to: [-1954.0, 1006.78]
+    - to: [-1906.0, 1074.8]
+    - to: [-1626.0, 1032.79]
+    - to: [-1530.0, 1022.78]
+    - to: [-1450.0, 1270.88]
 - _Npc<Meat Guy>:
     comment: Talk Twice
     notes: '[A Rare Find] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [-1439, 1280.0853725287516]
+    coord: [-1439.0, 1280.09]
 - _Npc<Register Horse>:
     comment: Text Options 2-1-1-1-A-+-1-1
 - _Npc<Horse Guy>:
@@ -68,7 +68,7 @@
 - .dir(.W)
 - _Shrine::RotaOoh
 - BLSS .dir(E):
-    coord: [-1164, 1189.2048148369595]
+    coord: [-1164.0, 1189.2]
 - _Memory::LakeKolomo
 - .dir(<N) Slight TS
 - _Shrine::KaamYatak
@@ -88,7 +88,7 @@
     notes: '[Watch Out for the Flowers] Shrine Quest. Faster to run to her and talk'
     vars:
       ShrineQuest: .add(1)
-    coord: [817.5, 851.7619838468436]
+    coord: [817.5, 851.76]
 - .dir(<W) Turn
 - .important(EQUIP RGC):
     notes: It's faster to talk to the girl later with rgc already equipped
@@ -99,13 +99,13 @@
     notes: '[The Royal Guard''s Gear] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [347, 1082.8428766757988]
+    coord: [347.0, 1082.84]
 - _Npc<Chef>:
     comment: Talk Twice
     notes: '[A Royal Recipe] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [324, 1107.8527806814545]
+    coord: [324.0, 1107.85]
 - _Cook<Monster Cake>:
     comment: Wheat Sugar Butter Extract
     icon-map: null
@@ -129,7 +129,7 @@
     notes: Finish A Wife Washed Away Quest
     vars:
       SideQuest: .add(1)
-    coord: [-205, 2613.7491847822967]
+    coord: [-205.0, 2613.75]
 - .dir(E>) Turn
 - _Chest::Special<Salvager Headwear>:
     coord: [126.03, 92.65, 2710.94]

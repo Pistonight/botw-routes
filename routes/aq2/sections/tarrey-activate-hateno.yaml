@@ -1,6 +1,6 @@
 - _Warp::Shrine::DahHesho
 - .dir(N) Turn to Tarrey Town:
     notes: This time he is by Rhonson
-    coord: [3949, -1631.4679110216753]
+    coord: [3949.0, -1631.47]
 - _Npc<Hudson>:
     notes: Text 1112

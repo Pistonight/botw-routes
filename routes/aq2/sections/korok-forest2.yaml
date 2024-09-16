@@ -17,8 +17,8 @@
     notes: '[Trial of Second Sight] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
-    coord: [360.5, -2055.2876581187425]
+    coord: [360.5, -2055.29]
 - .dir(<W) Turn to lake:
-    coord: [28, -1846.705058711574]
+    coord: [28.0, -1846.71]
 - _Shrine::KuhnSidajj
 - _CheckQuests

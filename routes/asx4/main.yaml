@@ -1,7 +1,4 @@
 - Plateau:
-  - _1:
-      text: ""
-      comment: .italic(First TOD Cycle is to skip campfire for Kam Urog)
   - use: ./branches/plateau.yaml
 - Castle:
   - use: ./branches/castle.yaml

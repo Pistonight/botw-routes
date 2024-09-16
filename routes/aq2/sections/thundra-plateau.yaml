@@ -6,13 +6,13 @@
     notes: '[Cliffside Etchings] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
-    coord: [-2944.5, -497.92136219509393]
+    coord: [-2944.5, -497.92]
 - _Npc<Fairy Fountain Guy>:
     comment: Talk Twice
     notes: '[A Gift for the Great Fairy] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [-2937.5, -563.4473106899122]
+    coord: [-2937.5, -563.45]
 - _Material<3 Berries>:
     icon-map: null
 - .dir(S)
@@ -26,6 +26,6 @@
 - .dir(S) to green orb
 - _Shrine::TohYahsa
 - .dir(N) + .dir(<N) Turn + .dir(W>) Turn:
-    coord: [-2344, -1316.2384884561884]
+    coord: [-2344.0, -1316.24]
 - _Shrine::DunbaTaag
 - _CheckQuests

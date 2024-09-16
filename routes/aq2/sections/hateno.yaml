@@ -4,28 +4,28 @@
 - SQ to Bolson:
     notes: Aim left of house, where bolson is approximately at
 - _Npc<Bolson>:
-    coord: [3331.625, 2277.033772659286]
+    coord: [3331.62, 2277.03]
 - .dir(N>)
 - _Npc<Nebb>:
     comment: Talk 9 Times
     notes: '[The Weapon Connoisseur] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [3383.75, 2144.7461374377945]
+    coord: [3383.75, 2144.75]
 - _Npc<Farmer>:
     notes: '[The Spring of Wisdom] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
-    coord: [3380.5, 2095.976824626766]
+    coord: [3380.5, 2095.98]
 - SQ to deck
 - _Npc<Lady at Deck>:
     notes: '[Secret of the Cedars] Shrine Quest. Cannot do this quest when raining'
     vars:
       ShrineQuest: .add(1)
-    coord: [3426.25, 2162.2530702417534]
+    coord: [3426.25, 2162.25]
 - _Npc<Cricket Guy>:
     notes: '[A Gift for My Beloved] Side Quest'
-    coord: [3447.25, 2119.7362334321388]
+    coord: [3447.25, 2119.74]
 - _Npc<Inn Lady>:
     icon-map: null
     notes: Go inside the counter
@@ -34,35 +34,35 @@
     notes: Finish A Gift for My Beloved Quest
     vars:
       SideQuest: .add(1)
-    coord: [3447.25, 2119.7362334321388]
+    coord: [3447.25, 2119.74]
 - .dir(E):
-    coord: [3626, 2103.4746457455212]
+    coord: [3626.0, 2103.47]
 - _Npc<Sheep Lady>:
     notes: Finish Sheep Rustlers Quest
     vars:
       SideQuest: .add(1)
-    coord: [3623, 2104.743471183565]
+    coord: [3623.0, 2104.74]
 - .dir(E) to Lab
 - Upgrade Sheika Sensor:
     vars:
       SideQuest: .add(1)
-    coord: [3780.5, 2127.9843516710644]
+    coord: [3780.5, 2127.98]
 - _Npc<Lab Assistant>:
     comment: Talk 3 times
     notes: '[Sunshroom Sensing] SideQuest'
     vars:
       SideQuest: .add(1)
-    coord: [3784, 2136.9879171130997]
+    coord: [3784.0, 2136.99]
 - .dir(NE) + .dir(NE)
 - _Shrine::TahnoOah
 - .dir(N) + .dir(N) + .dir(N) + .dir(E) + .dir(<E):
-    coord: [4168, 1248.6791102167554]
+    coord: [4168.0, 1248.68]
 - _Shrine::JitanSami:
     notes: You don't need to free Naydra for the quest
 - BLSS .dir(N>)
 - _Shrine::ShaiYota
 - SQ .dir(SW):
-    coord: [4168, 357.49806499336955]
+    coord: [4168.0, 357.5]
 - _Npc<Kass>:
     notes: '[Master of the Wind] Shrine Quest'
     vars:

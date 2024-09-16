@@ -10,12 +10,12 @@
     notes: '[The Korok Trials] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [432.25, -2167.49078927474]
+    coord: [432.25, -2167.49]
 - .gale() + to top of Deku Tree:
     gale: 2
 - Acorn BLSS to castle:
     notes: Same as AMQ. Want to start south, then wiggle toward castle
-    coord: [-256, -1060.8995733826514]
+    coord: [-256.0, -1060.9]
 - ''
 - Get Skew Bounce:
     notes: Can also just kill him normally

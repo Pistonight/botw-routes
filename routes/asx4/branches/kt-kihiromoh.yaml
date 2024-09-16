@@ -4,10 +4,10 @@
 - _SCW::WoodActivate:
     presets: _Shrine::KihiroMoh
 - Run to other side
-- .dir(E) + .dir(W) + .dir(<W) Turn:
+- .dir(E) + .dir(<W) Turn:
     movements:
     - [-3350.83, 1330.12]
-    - [-3541.81, 1365.11]
+    - [-3725.13, 1472.0]
 - _Shrine::ShoDantu
 - SCW + .dir(S) + .dir(E>) Turn:
     movements:

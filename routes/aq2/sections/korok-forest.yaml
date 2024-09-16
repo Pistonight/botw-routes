@@ -5,7 +5,7 @@
     notes: '[The Lost Pilgrimage] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
-    coord: [267, -2278.8126162129947]
+    coord: [267.0, -2278.81]
 - ? Oaki takes 5m20s of gameplay time to walk to shrine. Take note of your speed timer,
     subtract 5m20s so you know when Oaki is at the shrine
   : banner: true
@@ -15,7 +15,7 @@
       Sunshroom, Voltfin, Pumpkin, Hoof and talk again.'
     vars:
       SideQuest: .add(1)
-    coord: [426.75, -2175.9136370706824]
+    coord: [426.75, -2175.91]
 - _Snap::Quest<Sunshroom>:
     icon-map: null
 - Throw away Drillshaft
@@ -38,7 +38,7 @@
     vars:
       MainQuest: .add(1)
 - _Equipment::Weapon<Master Sword>:
-    coord: [432.5, -2136.802514127226]
+    coord: [432.5, -2136.8]
 - _Npc<Ice Rod Korok>:
     icon-map: null
     notes: '[A Freezing Rod] Side Quest'

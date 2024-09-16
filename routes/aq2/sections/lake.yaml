@@ -5,9 +5,9 @@
     notes: Kill any electric keese coming your way
     time-override: 200
     movements:
-    - to: [-1208, 2652]
-    - to: [-636, 3722]
-    - to: [-200, 3500]
+    - to: [-1208.0, 2652.0]
+    - to: [-636.0, 3722.0]
+    - to: [-200.0, 3500.0]
 - _Npc<Standing Guy at Camp>:
     notes: '[Hunt for the Giant Horse] Side Quest'
     vars:
@@ -19,18 +19,18 @@
     notes: '[Guardian Slideshow] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
-    coord: [109, 3823.131728472772]
+    coord: [109.0, 3823.13]
 - _Tod::Morning:
     notes: For Highland Stable and Goron City Quests
 - _Shrine::ShoqaTatone
 - .dir(E) + .dir(E) + .dir(N>):
-    coord: [334.5, 3853.7939887635766]
+    coord: [334.5, 3853.79]
 - _Shrine::KaoMakagh
 - .dir(N) Turn .fury() .enemy(Bokos):
     fury: 1
     notes: Fury then AA the rest. Use fire rod to fury so you can get an updraft as
       well.
-    coord: [488, 3313.4692913392537]
+    coord: [488.0, 3313.47]
 - .dir(<S)
 - _Material<Swift Carrot>:
     comment: Behind horses
@@ -41,7 +41,7 @@
       raining'
     vars:
       SideQuest: .add(1)
-    coord: [511, 3442]
+    coord: [511.0, 3442.0]
 - .dir(N.) Turn
 - _Shrine::PumaagNitae
 - .dir(E.)
@@ -49,7 +49,7 @@
     notes: '[The Serpent''s Jaws] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
-    coord: [830, 3054]
+    coord: [830.0, 3054.0]
 - .dir(N) Super
 - _Shrine::ShaeKatha
 - _CheckQuests

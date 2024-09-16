@@ -1,6 +1,6 @@
 - _Warp::Shrine::DahHesho:
     color: cyan
 - .dir(N.) Turn:
-    coord: [3984.5, -1597.5796282054716]
+    coord: [3984.5, -1597.58]
 - _Npc<Hudson>:
     notes: Talk Twice

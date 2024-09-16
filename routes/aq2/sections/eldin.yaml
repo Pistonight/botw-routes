@@ -4,31 +4,31 @@
 - .loc(Monument):
     comment: Side of mountain
     icon: npc-zora-male
-    coord: [3224.5, -742.9558281347754]
+    coord: [3224.5, -742.96]
 - .dir(W>) + .dir(W) + .dir(W)
 - .loc(Monument):
     comment: Middle of water fall
     icon: npc-zora-male
-    coord: [3707.5, -523.3688709651187]
+    coord: [3707.5, -523.37]
 - .dir(N) to top of waterfall:
-    coord: [3745, -630.4112601093257]
+    coord: [3745.0, -630.41]
 - .dir(N.) DT
 - _Shrine::DahHesho
 - .dir(N.) Turn to Tarrey Town:
-    coord: [3984.5, -1597.5796282054716]
+    coord: [3984.5, -1597.58]
 - _Npc<Hudson>:
     comment: Talk Twice
 - .dir(<W) Turn
 - Kill .enemy(2 Stalkers):
     time-override: 40
     movements:
-    - to: [3682, -1510.9084045459003]
-    - to: [3626.5, -1601.443160892215]
+    - to: [3682.0, -1510.91]
+    - to: [3626.5, -1601.44]
 - _Snap::Quest<Guardian Stalker>:
     notes: Snap while they explode
 - .dir(W>) + .dir(W>) midairs
 - _Material<Armoranth>:
-    coord: [3256, -1740.5062927691179]
+    coord: [3256.0, -1740.51]
 - Cut tree SQ to stable
 - _Npc<Darner Quest>:
     notes: '[Little Sister''s Big Request] Side Quest. Talk to big sister (2nd option),
@@ -36,7 +36,7 @@
     time-override: 30
     vars:
       SideQuest: .add(1)
-    coord: [3142, -1690.6525216870973]
+    coord: [3142.0, -1690.65]
 - .dir(.W) to shrine:
     notes: WB from the tree is possible, but getting bullet time is tricky. Use the
       wood crates to be more consistent
@@ -45,28 +45,28 @@
     gale: 1
 - _Shrine::SahDahaj
 - .dir(<<S) + .dir(S>) Turn:
-    coord: [2780, -1391.0176662091762]
+    coord: [2780.0, -1391.02]
 - _Shrine::MoaKeet
 - SQ to stable
 - _Npc<Shrine Painting Guy>:
     notes: '[A Landscape of a Stable] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
-    coord: [2610, -1140.0332774590024]
+    coord: [2610.0, -1140.03]
 - .dir(<W) Turn
 - _Shrine::TahMuhl
 - .dir(W) + .dir(N) + .dir(W) + .dir(<N) Turn:
     movements:
-    - to: [2147, -937.8436924535913]
-    - to: [2150, -1109.9097487139898]
-    - to: [1942, -1184.938552315908]
+    - to: [2147.0, -937.84]
+    - to: [2150.0, -1109.91]
+    - to: [1942.0, -1184.94]
 - _Shrine::QuaRaym
 - .dir(W) + .dir(W):
     notes: Wait for Link to take burn damage before second wb
 - _Memory::EldinCanyon:
     time-override: 60
 - .dir(N>) Turn to .loc(South Mine):
-    coord: [1804.5, -1729.7964545464456]
+    coord: [1804.5, -1729.8]
 - _Material<10 Lizards>:
     notes: null
     time-override: 30
@@ -93,15 +93,15 @@
       if need.
 - _Npc<Greyson>
 - .dir(<N) Turn + .dir(NE):
-    coord: [1497, -2304.8171931398265]
+    coord: [1497.0, -2304.82]
 - _Npc::Goron<Shrine Brother>:
     comment: Text Options 2-1
     notes: '[A Brother''s Roast] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
-    coord: [1644.75, -2463.0383285018875]
+    coord: [1644.75, -2463.04]
 - _Shop<Buy 1 Goron Splice>:
-    coord: [1680, -2460.2244608062992]
+    coord: [1680.0, -2460.22]
 - _Npc::Goron<Bludo>:
     notes: '[Divine Beast Vah Rudania] Main Quest'
     coord: [1705.75, -2447.75]
@@ -109,20 +109,20 @@
 - _Shrine::ShaeMosah
 - .dir(<N) Turn
 - _Npc::Goron<Rescue Yunobo>:
-    coord: [1635, -2936.561622231986]
+    coord: [1635.0, -2936.56]
 - .dir(W.) Turn
 - _Boss::Talus::Igneo:
     comment: .fury()
     fury: 3
-    coord: [1337, -3051.971476463712]
+    coord: [1337.0, -3051.97]
 - .dir(<E)
 - _Shrine::ShoraHah
 - Minecart + .dir(N.):
-    coord: [1727, -3315.1350048347513]
+    coord: [1727.0, -3315.14]
 - _Snap::Quest<Eldin Skeleton>:
     movements:
     - push
-    - to: [1580, -3666.1171593680883]
+    - to: [1580.0, -3666.12]
       color: white
       icon: camera
     - pop
@@ -133,10 +133,10 @@
     time-override: 40
     vars:
       ShrineQuest: .add(1)
-    coord: [2670.5, -3468.808037473142]
+    coord: [2670.5, -3468.81]
 - _Shrine::GoraeTorr
 - .dir(E) Turn:
-    coord: [3322, -3429]
+    coord: [3322.0, -3429.0]
 - .important(Look Sky .dir(E))
 - Activate Zuna Kai:
     notes: Activate the shrine here so you don't reach the chest too fast. The stal
@@ -151,4 +151,4 @@
 - _Snap::Quest<Kilton>:
     notes: Snap multiple to be safe if need. Don't have to talk
     time-override: 60
-    coord: [3247, -3440.5]
+    coord: [3247.0, -3440.5]

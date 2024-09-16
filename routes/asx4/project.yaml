@@ -1,5 +1,5 @@
 title: All Shrines Extended
-version: v4.1
+version: v4.2
 config:
 - plugins:
   - use: split-format

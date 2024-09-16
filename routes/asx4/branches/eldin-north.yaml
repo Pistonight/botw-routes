@@ -6,8 +6,10 @@
     notes: Midair right after exiting void zone
 - .dir(E) + .dir(E.):
     coord: [1340.0, -2275.2]
-- .dir(E>) Turn + .dir(E) midair x2:
-    coord: [1761.0, -2027.28]
+- .dir(E>) Turn + .dir(E) + .dir(E>) Turn:
+    movements:
+    - [1637.83, -2158.0]
+    - [1823.81, -2164.0]
 - _SCW::Infinity::Chu<-dlc, Fire, Shock>:
     presets: 
     - _Shrine::RinuHonika
@@ -33,7 +35,7 @@
     - [2231.0, -2092.25]
     notes:
       Start curving as you exit the higher level of death mountain. 
-      The wind makes backup really annoying if you miss the super
+      If missed super, go toward the spike above E23 (the korok) which doesn't have wind, and W> FAST Turn
 - _Shrine::DaqaKoh
 - .dir(E>>) Slight Turn
 - _Shrine::ShaeMosah:

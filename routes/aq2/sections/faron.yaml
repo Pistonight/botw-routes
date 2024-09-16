@@ -7,10 +7,10 @@
       You can still use bomb arrow for the shrine in rain if you stand below a tree'
     vars:
       SideQuest: .add(1)
-    coord: [1552, 3538.710361080126]
+    coord: [1552.0, 3538.71]
 - _Equipment::Bow<Traveler Bow>:
     comment: For Eventide
-    coord: [1564.5, 3546.8129894759695]
+    coord: [1564.5, 3546.81]
 - Bomb arrow rock
 - _Shrine::ShaiUtoh
 - .dir(E) Super + .dir(N.) midairs
@@ -23,22 +23,22 @@
     vars:
       ShrineQuest: .add(1)
 - .dir(<E) TS to Blue Hinox:
-    coord: [2689, 2965]
+    coord: [2689.0, 2965.0]
 - Walk Orb:
-    coord: [2632.75, 2857]
+    coord: [2632.75, 2857.0]
 - .important(READ TABLET):
     notes: '[The Three Giant Brothers] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
-    coord: [2655, 2842.5]
+    coord: [2655.0, 2842.5]
 - .important(READ TABLET)
 - .important(READ TABLET)
 - .dir(W>) to Black Hinox:
-    coord: [2419, 2779.5]
+    coord: [2419.0, 2779.5]
 - Walk or BLSS:
     coord: [2615.75, 2824.5]
 - .dir(NE) to Red Hinox:
-    coord: [2767.5, 2714]
+    coord: [2767.5, 2714.0]
 - Walk Orb:
     coord: [2647.5, 2820.75]
 - _Shrine::TawaJinn
@@ -47,7 +47,7 @@
     comment: Talk Twice
     notes: '[A Gift of Nightshade] Side Quest. Use a cryo block when going to the
       woman'
-    coord: [2591, 3528.322870584376]
+    coord: [2591.0, 3528.32]
 - _Npc<Love Quest Woman>:
     comment: Talk Twice
     icon-map: null
@@ -59,9 +59,9 @@
     notes: For watch tower bokos left after fury, get BLS first, then AA him (aim
       at branch above with falcon bow) and WALK to get slide (if you slide directly
       in bow animation, your angle will be locked)
-    coord: [2091, 3914.4757884316987]
+    coord: [2091.0, 3914.48]
 - BLSS .dir(E):
-    coord: [3024, 3924.903245315798]
+    coord: [3024.0, 3924.9]
 - _Chest<Sapphire/Topaz>:
     notes: Get either one on the side
 - .dir(.N) Turn
@@ -70,18 +70,18 @@
     notes: '[Sunken Treasure] Side Quest. On left dock or inside house if raining'
     vars:
       SideQuest: .add(1)
-    coord: [2887.5, 3494.779414896797]
+    coord: [2887.5, 3494.78]
 - SQ across harbor
 - _Material<Hearty Blueshell Snail>:
-    coord: [2944, 3462.766737769558]
+    coord: [2944.0, 3462.77]
 - Cryo + SQ .dir(NW):
-    coord: [2886.5, 3409.245543197456]
+    coord: [2886.5, 3409.25]
 - _Npc<Mom>:
     comment: Talk Twice
     notes: '[What''s for Dinner?] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [2886.5, 3409.245543197456]
+    coord: [2886.5, 3409.25]
 - _Npc<Dad>:
     comment: Talk Once
     notes: '[Take Back the Sea] Side Quest. He will be inside house if rain. 5PM-6PM
@@ -89,25 +89,25 @@
       want to go down and cryo block if he is at dinner'
     vars:
       SideQuest: .add(1)
-    coord: [2905.5, 3438.757229924129]
+    coord: [2905.5, 3438.76]
 - Cryo + .dir(<N)
 - _Shrine::YahRin
 - BLSS .dir(E):
-    coord: [3797.625, 3615.5304052973624]
+    coord: [3797.62, 3615.53]
 - _Snap::Quest<Shard at peninsula tip>
 - .dir(NW)
 - _Snap::Quest<Shard in grassy alcove>:
-    coord: [3532.5, 3368.0035654420353]
+    coord: [3532.5, 3368.0]
 - .dir(SW)
 - _Snap::Quest<Shard amongst rocks>:
-    coord: [3388, 3480.548133467486]
+    coord: [3388.0, 3480.55]
 - .dir(N.)
 - _Npc<Guy at Monument>:
     comment: Talk Twice
     notes: '[A Fragmented Monument] Shrine Quest. Talk twice then crouch on pedestal'
     vars:
       ShrineQuest: .add(1)
-    coord: [3464.75, 3364.751980801131]
+    coord: [3464.75, 3364.75]
 - _Shrine::KahYah
 - Shield surf SCW + .dir(E):
     notes: Activate with amiibo rune
@@ -116,17 +116,17 @@
     notes: Clear skew when dropping down
 - _Npc<Kass>:
     notes: '[The Hero''s Cache] Side Quest'
-    coord: [3745.5, 2629.544369945337]
+    coord: [3745.5, 2629.54]
 - Drop down .dir(SE):
     notes: Toward Chaas Qeta Shrine
-    coord: [3774.5, 2660.3799634514535]
+    coord: [3774.5, 2660.38]
 - _Chest<Gold Rupee>:
     comment: Mag out from water
     vars:
       SideQuest: .add(1)
 - .dir(NE) to Camp:
     notes: For Sheep Rustlers quest
-    coord: [4088.5, 2376.5368429010387]
+    coord: [4088.5, 2376.54]
 - .fury() camp + AA:
     fury: 1
     notes: AA 2 bokos that don't die from 1 fury. Make sure chest unlocks
@@ -138,7 +138,7 @@
     notes: '[Stranded on Eventide] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
-    coord: [4489, 3457.2174919641984]
+    coord: [4489.0, 3457.22]
 - Smuggle:
     notes: Smuggle Axe, Traveler Bow, arrow (ancient OK), Forest Dweller Shield.
 - .important(CHECK SPEED FOOD TIME)

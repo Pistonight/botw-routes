@@ -1,5 +1,8 @@
 # Start: Keh Namut
-- BLSS + .dir(N) + .dir(N) midair
+- BLSS:
+   coord: [-2342.64, 348.37, 680.81]
+- _Chest<Forest Dweller Bow>
+- .dir(N) + .dir(N) midair
 - _Shrine::MoggLatan
 - BLSS + Run + WB .dir(W) + glide up
 - _Shrine::KeehaYoog:

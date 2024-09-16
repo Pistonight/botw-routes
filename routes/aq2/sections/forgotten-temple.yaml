@@ -2,7 +2,7 @@
     color: magenta
 - .dir(S) + .dir(S) + .dir(E):
     notes: To mountain top.
-    coord: [-2978, -2895.6993143882946]
+    coord: [-2978.0, -2895.7]
 - Look Sky .dir(S):
     notes: Make sure shooting star hits ground before going to shrine
 - _Shrine::GomaAsaagh
@@ -19,15 +19,15 @@
 - _Shrine::GeeHarah
 - .dir(N) + .dir(NE) + .dir(N>) Turn:
     movements:
-    - to: [-2389, -2440.716349278022]
-    - to: [-2117, -2702.8201432572932]
-    - to: [-1909, -3068.8749923676755]
+    - to: [-2389.0, -2440.72]
+    - to: [-2117.0, -2702.82]
+    - to: [-1909.0, -3068.87]
 - Land on first skull camp
 - _Snap::Quest<Stalhorse>:
     icon-map: null
     movements:
     - push
-    - to: [-1797, -3196.924150514949]
+    - to: [-1797.0, -3196.92]
       color: white
       icon: camera
     - pop
@@ -38,7 +38,7 @@
     notes: '[Stalhorse Pictured!] Side Quest'
     vars:
       SideQuest: .add(1)
-    coord: [-1654, -2597.7785464335393]
+    coord: [-1654.0, -2597.78]
 - BLSS .dir(<S) off chair
 - _Shrine::MonyaToma
 - .dir(W) Turn
@@ -49,13 +49,13 @@
     notes: '[Leviathan Bones] Side Quest. Talk to any of 3, then talk once to each'
     vars:
       SideQuest: .add(1)
-    coord: [-1543, -1796.9687033421287]
+    coord: [-1543.0, -1796.97]
 - .dir(N>) Turn to Forgotten Temple:
-    coord: [-1430, -2245.1804415134247]
+    coord: [-1430.0, -2245.18]
 - _Shrine::RonaKachta:
     notes: '[A Gift from the Monks] Side Quest'
 - _Chest<Wild Set>:
     vars:
       SideQuest: .add(1)
-    coord: [-1060, -2694.324059065053]
+    coord: [-1060.0, -2694.32]
 - _CheckQuests

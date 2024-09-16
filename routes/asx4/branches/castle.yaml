@@ -47,7 +47,8 @@
     coord: [1824.39, 1041.2]
     notes: Put 1 Pepper, Shroom, Swift, Silent Princess aside, use wood for check
 - Pick up wood
-- Detonate the bomb and destroy Pot Lid
+- Detonate the bomb:
+    notes: Defuse and immediately talk to fire arrow to be immune
 - Buy 1 fire arrow
 - .dir(N)
 - Enter Shrine:
@@ -56,9 +57,14 @@
     notes: .italic(Italic text are world actions), normal texts are inventory actions
 - Drop --> .item(Branch, Axe)
 - Equip Hammer
-- .italic(- Open Chest for AUTOSAVE)
-- Drop --> .item(Material, Food, Shield):
-    notes: You can hold the materials as soon as chest closes, then wait until seeing autosave to drop them, then eat all the food and drop the shield
+- .italic(- Open Chest)
+- Move 1 step right then press plus BEFORE AUTOSAVE
+- Drop --> .item(Pot Lid), equip other
+- Hold --> .item(All Material)
+- Unpause, GET AUTOSAVE:
+    notes: If autosave already happened, manually save after doing above
+- Drop --> .item(Material, Food, Shield)
+- Go to first pile with 2 weapons
 - Drop --> .item(Weapon, Bow)
 - .italic(- Pickup all weapon and bow):
     notes: 3 weapon 1 bow, order doesn't matter
@@ -84,7 +90,12 @@
 - _Shrine::LaknaRokee:
     presets: _SCW::Buffered
     notes: Get EOD
-- .dir(N>) Super
+- .dir(N>) Super:
+    movements:
+    - to: [2529.23, 215.74, 362.3]
+      marker: red
+- Ride deer to pedestal:
+    coord: [2592.0, 234.0, 451.0]
 - _Shrine::MezzaLo
 - BLSS to ZD:
     movements:
@@ -92,14 +103,16 @@
     - to: [3207.0, -335.21]
     - to: [3230.0, -591.31]
 - _Equipment::Weapon<Trident>
-- .dir(<S) Turn
+- .dir(<S) Turn:
+    coord: [3300.73, -483.25]
+- _Shrine::NeezYohma
 - Sell .item(1 Endura Food + Fairies):
     notes: See end of doc for how many fairies to sell
 - _Shop<20 Ice Arrows>:
     coord: [3321.65, -480.99]
     vars:
       Rupee: .add(340)
-- _Shrine::NeezYohma
+
 - .dir(W):
     coord: [3105.75, -464.18]
 - _Shrine::DagahKeek:

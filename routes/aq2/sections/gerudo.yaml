@@ -5,10 +5,10 @@
     notes: For Farosh + Gerudo Town quests
 - .dir(N) + .dir(W) + .dir(S) + .dir(S) SQ:
     movements:
-    - to: [-3845, 605]
-    - to: [-4023, 595]
-    - to: [-4040, 770.1052291590076]
-    - to: [-4038, 881]
+    - to: [-3845.0, 605.0]
+    - to: [-4023.0, 595.0]
+    - to: [-4040.0, 770.11]
+    - to: [-4038.0, 881.0]
 - Kill .enemy(Lynel):
     notes: Eat attack food, headshot with shock arrows, spin to win with RGC, If you
       ate a stam food for gorae torr, you should have enough stam
@@ -19,7 +19,7 @@
     icon-map: null
     movements:
     - push
-    - to: [-3986, 970]
+    - to: [-3986.0, 970.0]
       color: white
       icon: camera
     - pop
@@ -27,14 +27,14 @@
     notes: Shoot Farosh after snapping the sword. Then updraft up. If the scale falls
       on your side, drop down, get it, then windbomb from the valley. If it falls
       on the other side, quick midair to the other side
-    coord: [-4150, 788]
+    coord: [-4150.0, 788.0]
 - .dir(<N) Turn:
-    coord: [-4295, 489]
+    coord: [-4295.0, 489.0]
 - _Snap::Quest<Eighth Heroine Statue>:
     icon-map: null
     movements:
     - push
-    - to: [-4377, 524]
+    - to: [-4377.0, 524.0]
       color: white
       icon: camera
     - pop
@@ -58,16 +58,16 @@
     comment: Get outside skew
 - _Snap::Quest<Gerudo Skeleton>:
     icon-map: null
-    coord: [-4846.5, 3763.3366904384147]
+    coord: [-4846.5, 3763.34]
 - _Npc::Gerudo<Give Barta durian>:
-    coord: [-4832.625, 3733.598231800006]
+    coord: [-4832.62, 3733.6]
 - .dir(<<E) Turn + .dir(NE) midairs:
     notes: Equip gerudo outfit middle
 - _Npc::Gerudo<Sand Seal Race>:
     notes: '[The Undefeated Champ] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
-    coord: [-3764, 3129.2366464057413]
+    coord: [-3764.0, 3129.24]
 - _Shrine::RaqaZunzo:
     comment: Radiant shield
 - .dir(N) Turn
@@ -82,7 +82,7 @@
     notes: '[The Secret Club''s Secret] Side Quest. Walk in to trigger the cutscene'
     vars:
       SideQuest: .add(1)
-    coord: [-3793, 2931.5]
+    coord: [-3793.0, 2931.5]
 - .dir(W)
 - _Npc::Gerudo<Polluting Lady>:
     comment: Talk Twice
@@ -99,17 +99,17 @@
       Riju''s palace'
     vars:
       SideQuest: .add(1)
-    coord: [-3907, 2911.75]
+    coord: [-3907.0, 2911.75]
 - Run
 - _Npc::Gerudo<Berry Girl>:
     notes: Finish [The Mystery Polluter]
     vars:
       SideQuest: .add(1)
-    coord: [-3835, 2853.5]
+    coord: [-3835.0, 2853.5]
 - Run:
     movements:
-    - to: [-3848.75, 2878.521362671423]
-    - to: [-3838, 2890.1508272297197]
+    - to: [-3848.75, 2878.52]
+    - to: [-3838.0, 2890.15]
 - _Npc::Gerudo<Riju>:
     notes: Finish [The Thunder Helm]. Talk to Riju not Thunderhelm
     vars:
@@ -121,13 +121,13 @@
     notes: '[The Eye of the Sandstorm] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
-    coord: [-3277, 2558]
+    coord: [-3277.0, 2558.0]
 - Equip flamebreaker:
     notes: Need to take off gerudo outfit to talk to Rhondson / Mipha's Grace for
       eventide later
 - _Cook<Chilly Elixir>:
     comment: Spring + Winterwing
-    coord: [-3275, 2571]
+    coord: [-3275.0, 2571.0]
 - _Tod::Noon:
     comment: For Suma Sahma 4PM-5:30PM
     notes: You can delay this according to your speed. Here's optimal because you
@@ -153,26 +153,26 @@
 - .dir(S) up + BLSS .dir(S>)
 - _Npc::Gerudo<Shrine Lady>:
     notes: Finish [The Perfect Drink]
-    coord: [-2989, 3760.314947379851]
+    coord: [-2989.0, 3760.31]
 - _Shrine::MisaeSuma
 - .dir(E) Turn + .dir(E) + .dir(E) + .dir(<<E) Turn:
     movements:
-    - to: [-2442, 3746.5637825015438]
-    - to: [-2122, 3728.556869637083]
+    - to: [-2442.0, 3746.56]
+    - to: [-2122.0, 3728.56]
 - _Shrine::DilaMaag:
     comment: Barb Armor
     notes: '[The Desert Labyrinth] Shrine Quest'
     vars:
       ShrineQuest: .add(1)
 - WB straight up land left:
-    coord: [-1808, 3343.409011147238]
+    coord: [-1808.0, 3343.41]
 - .dir(E) + .dir(E) up:
-    coord: [-1603, 3343.409011147238]
+    coord: [-1603.0, 3343.41]
 - .dir(S) + .dir(S) +.dir(N.) + midair:
     movements:
-    - to: [-1614, 3587.5027188654785]
-    - to: [-1543, 3493.4666183510744]
-    - to: [-1395, 3503.470458831329]
+    - to: [-1614.0, 3587.5]
+    - to: [-1543.0, 3493.47]
+    - to: [-1395.0, 3503.47]
 - Solve Puzzle
 - _Npc<Diary>:
     comment: Text Options 2-1-3
