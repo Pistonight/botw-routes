@@ -1,0 +1,99 @@
+- .important(IST START):
+    notes:
+      (.link([Simulator File]https://ist.itntpiston.app/?c=H4sIAAAAAAACA4VWy3LbNhTd8yvujBZtZ7SwJcudLLJQXdX1WK49lpM0k%2FECJC9FjEiABcAw7Nf34kWTtJt4Y%2BJxn%2BecCy0W8S9ZwEPFDLIWksV493a3e4A%2FPuz3sP17lxzRwDloe5P%2BG4UIqWIiK2lVVFzYU%2FbNnukGmaL%2FjTQVz%2BESGmwaVLAGXSopa3uxTlE5N%2BwrVvSZyg42wJSi%2FxcgVUqHR7JGRYkcmJGKuwxWoNi%2FUgVHG6ikaTVZqHbwXUiF2kDeYRU9XwCKvFUMMhuBMj0DWnImKKdOypysKCRFumLaVDip%2FfH%2B83YPV%2Fvt57v7xx38jN8ybAyYEoELbjirQAtkJ20UP%2BEvoU9K9nSQVayvKZ0vFS%2Fw%2Ffrd2dnzcHZsmcqHG3Z7VNg5CNbnlHDBxJGSpD5zpBb7BlGLDSLFLTlWeYL%2FtLx50ysVkkl5sohgTo2hSpnIAZlJOm5Kcuz7txr6N2XAtfVGbdLT7d%2BVbKAmIlALKw1G0uKEUPKa%2FLE8ye15BHno8Kgif2M9KXmUQ6BayQpjyXlzdQsfHui6Kbk46qXtvfDew%2FfYT0UQJg3PTtA2bwYfRRolOXIR4zeKwlECNwX0soVcip8MlETYyFRKJQZagc4Udq4ZmohH3KCrBoUkB5%2FQVNT3Jdyy0xL%2B9Ns%2ByEnwY2k06E4qm2fmuVAwrnrKyrKyZBreQYeskYL0J80MjW1BQMBdz8oJegQyMEokiM9%2BhqJ%2FjeQ%2Fn8rCozKWpN%2FxOg40E1LVxDNXf9h6Lbhw8AZLaUJYUvZZhYBfUfUOU0jRdEhA%2BkFiOerRz0XjMvc0tV9TIdudUIz9zDznr6WDoZQNLfh30HNIaVmjy2IJaduPTh21NFkkh%2B3HXZIqUrkdHQ4DCAKazpF1yC%2BkN2f4a7WB6%2FCoE2G8uEqCjobpGobmmMtBJgNdI3e8rQfdtb8VHgCLTvz2nEoUOtVSv6QL46B1ddv2D5z0gaZKCaYu2CYkuvGJJq65NoMAql25g6iZuQEJ5TcHnGGmtTg%2BKZYjvR%2BHp%2B3dizs%2FqfdWN2662aqJonZ6z2ZdwZU2S5AEJAlA9GRqHxSH3EUAYzqX%2FLTkdY3KOlEtN19qmfOCo3rvPD9788uZdJzhikhR5XCkt1G8mLmLwWwz6Z4zquMs0ifsUL3Y1bbC%2FtmBsJqAQKW2GiP1SH6uXNrtUtu%2FiqVRgPYl9uiM4w7c8B4iC7v4PgzjMZedsB7PvckqTtOBvw6UtU9u%2FWpiHx4eb%2F66hv328BSqmJGV7t63RtMzD7IY5f3mWxbUMP3l4X9xTKaop%2B7oBYgsryWJ35Ydn66XRlhVLODo5ga1vyD4iZgNp98CIzvX5bmwhnWIEwNfzjdmQgyncRlOoxZtCQEWl19r4kT0XZgBMTwZw7M1lqSOK6%2BzH1Sk%2Fy9F26RxfoETU0yHciNXvcV%2FoF6fmW8KAAA%3D)). 
+      The file mainly shows the corruption details and may not reflect what you actually optimally do. Please refer to the steps below
+- Cycle materials:
+    notes: |
+      Drop and pick up everything between flint and shaft, PLUS THE ANCIENT CORE. 
+      Reminder that if you have fewer than 5 arrows, you need to sell something extra to buy 5 arrows.
+      Also eat endura carrot and durian down to 3.
+- Equip .item(AXE):
+    banner: true
+- Drop Traveler Bow, equip .item(FDB), .item(Normal Arrow):
+    banner: true
+- Drop Pot Lid, equip .item(Lizal Shield):
+    banner: true 
+- Run/Glide to shop:
+    coord: [3360.0, 2168.58]
+- .important(SAVE)
+- Drop 4 items you have .item(3) of
+- Hold 5 items you have .item(2) of:
+    notes: The 4 you dropped + lotus or rushroom
+- Sell the 5 Items:
+    notes: If you forgot what you held, just sell everything you have 1 of, except for the core
+- Pick up everything
+- Hold 5 Items you have 2 of
+- Sell the 5 items:
+    notes: Again you can sell everything but the core if you forgot what you held
+-
+- Drop all materials except core
+- Drop shield
+- Unequip bow and weapon
+- _Reload::ShootSave::Split:
+    split-name: Hateno Shop
+    comment: Check Full Weapon Tab
+    notes: If you don't have full weapon tab, the slot breaking had failed and you need to close the game and restart
+- Drop and Pick up:
+    comment: .item(1 Core 1 Shaft 3 Razor)
+- _Reload
+- Drop 5 Flint 5 Amber. Sell rest. Pick up all:
+    banner: true
+- SQ to statue
+- _Npc<Statue>:
+    comment: Get 6 Stamina
+    coord: [3436.25, 2100.01]
+- _Cook<4 Lotus + Naydra Fang>:
+    notes: Light pot with arrow (can shoot them). You must cook speed food first
+- _Cook<3 Endura Carrots>
+- _Cook<3 Endura Carrots>
+- _Cook<5 Razorshrooms>
+- .important(Combine cores and shafts):
+    notes: If you bought arrow, you will have more than 4 shafts. In this case, just try to get a single stack of 5 shafts anywhere in the inventory
+- .dir(N) Smuggle blue flame:
+    coord: [3437.5, 1975.0]
+- 2 WB to Lab:
+    movements:
+    - to: [3640.0, 2096.0]
+    - to: [3779.5, 2124.5]
+- Eat last Razorshroom:
+    notes: To make furnace load
+- Camera Upgrade:
+    counter: .split(SPLIT)
+    icon: camera
+    coord: [3776.0, 2126.5]
+    notes: "[Robbie's Research] Side Quest and [Slated for Upgrades] Side Quest"
+- PILE 1 (TRASH) --> Drop All .item(Durians). Also .item(Wood) and .item(Rushroom) down to 1:
+    banner: true
+- ASIDE Drop all .item(Shaft) all .item(Spring) ---> Pick them up, SHAFT FIRST:
+    banner: true
+- OUTSIDE OF LAB:
+    banner: true
+- .item(Equip Royal Guard Claymore)
+- PILE 1 (NEED) --> Drop Branch, Axe, Knights:
+    banner: true
+    comment: Make sure Royal Claymore is before Royal Guard Claymore
+- .important(SAVE):
+    banner: true
+- PILE 2 (TRASH) -->
+- --Drop Bow
+- --Drop All Materials
+- PILE 1 (NEED) -->
+- --Eat All Food
+- --Drop Shield
+- --Drop All Weapons
+- Pick up everything in pile 1
+- Unequip shield
+- Unequip weapon
+- _Reload::Save
+- Unequip weapon
+- Unequip bow
+- Drop All Shield
+- Drop everything but 2 shafts
+- Eat All Food
+- _Reload::Save
+- Drop the 2 shaft from the first slot and drop the spring:
+    banner: true
+- Pick up 1 Shaft:
+    banner: true
+- _Reload::Split:
+    split-name: Hateno Lab
