@@ -120,8 +120,8 @@
     notes: "[The Priceless Maracas] Side Quest. Talk Twice"
     comment: Get Weapon Slot
     coord: [2069.5, 1425.0]
-    var-change:
-      SideQuest: 1
+    vars:
+      SideQuest: .add(1)
 - .dir(<S) Turn to ore
 - BLSS .dir(E>) to near hateno:
     coord: [3190.5, 2040.01]
@@ -141,8 +141,8 @@
 - _Npc<Horned Statue>:
     coord: [3286.5, 2200.1]
     notes: "[The Statue's Bargain] Side Quest. Just mash A. You will trade away a stam and get a heart"
-    var-change:
-      SideQuest: 1
+    vars:
+      SideQuest: .add(1)
 - .dir(.S) to Bolson
 - _Npc<Bolson>:
     coord: [3311.0, 2302.9]
@@ -162,8 +162,8 @@
     counter: .split-npc(TTOWN)
 - _Npc<House Upgrade>:
     coord: [3328.75, 2278.14]
-    var-change:
-      SideQuest: 1
+    vars:
+      SideQuest: .add(1)
 - _CheckQuests
 - "":
     notes: Don't break lizal shield. Use Royal Claymore for tree cutting and stasis stuff. Use bow order is Swallow -> FDB. Use Falcon/GEB only when necessary (You will get these bows in the next section)
