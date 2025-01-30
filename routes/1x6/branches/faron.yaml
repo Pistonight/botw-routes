@@ -184,3 +184,203 @@
     coord: [1771.34, 3153.95]
 - _Shrine::ShodaSah
 
+- Glider out + Swim up:
+    coord: [1777.75,3057.812266519957]
+- _Korok::F19
+- .dir(N)
+- _Korok::F17
+- .dir(E>) Turn
+- _Korok::F20
+- .dir(<E) Turn:
+    coord: [2413,2773.1761686906093]
+- _Boss::Hinox::Black
+- Orb 1:
+    coord: [2615.75,2822.0415742922887]
+- .dir(<W) Turn
+- _Korok::F14
+- SQ
+- _Boss::Hinox::Red:
+    coord: [2769,2715.552774672402]
+- Orb 2:
+    coord: [2647,2816.591121736522]
+- Read Tablet
+- SQ:
+    coord: [2694.5,2967.1482626587995]
+- _Boss::Hinox::Blue
+- Orb 3:
+    coord: [2634.75,2861.0555273081936]
+- _Shrine::TawaJinn
+
+- FIXME .dir(NE) super:
+    color: red
+- _Korok::N59
+- .dir(W) DT
+- _Korok::N50
+- Shoot:
+    movements:
+      - push
+- _Korok::N49
+- .dir(N) + .dir(N) midair:
+    movements:
+      - pop
+- _Tower::Hateno
+
+- .dir(W) Fast
+- _Korok::D53
+- .dir(W) + .dir(S):
+    coord: [2382.5,2114.0197430429134]
+- _Korok::D58
+- Climb Tree + .dir(S>)
+- _Korok::D57
+- .dir(<S)
+- _Korok::F07
+- .dir(<W)
+- _Korok::F13
+- .dir(N) + .dir(W) midair:
+    coord: [2287.5,2539.6575646694027]
+- _Korok::F06
+- SQ
+- _Korok::F09
+- SQ
+- _Korok::F08
+- .dir(E)
+- _Korok::F12
+- .dir(<W)
+- _Korok::F11
+- .dir(E>>) Turn
+- _Korok::F21
+- Unequip metal
+- .dir(<W) Turn
+- _Korok::F29
+- _Npc<Kass>:
+    coord: [2081.89, 287.42, 3226.31]
+- _Shrine::QukahNata
+
+- .dir(E>) super
+- _Npc<Guy at heart pond>:
+    coord: [2584.90, 290.11, 3547.64]
+- .dir(S>)
+- _Korok::F47
+- .dir(S>)
+- _Korok::F57
+- .dir(E)
+- _Chest<Any of 4 Chests>:
+    coord: [3019.81, 100.82, 3897.96]
+    comment: Sunken Treasure
+    notes: Use cryo block, treasure at center of rock triangle.
+- .dir(<N)
+- _Korok::F49
+- .dir(E)
+- _Korok::F50
+- .dir(SE)
+- _Korok::F58
+- .dir(NE)
+- _Korok::F51
+- .dir(N)
+- _Snap<Monument Shard>:
+    coord: [3390.50, 105.66, 3481.83]
+    comment: SNAP
+- .dir(E.)
+- _Korok::F52:
+    comment: End of peninsula
+- _Snap<Monument Shard>:
+    coord: [3800.81, 105.59, 3614.03]
+    comment: SNAP
+- .dir(NW)
+- _Snap<Monument Shard>:
+    coord: [3532.50, 112.28, 3365.50]
+    comment: SNAP
+- .dir(W) surf
+- _Npc<Broken Monument Guy>:
+    coord: [3439.86, 114.87, 3344.20]
+- _Shrine::KahYah
+
+- .gale(1) + .dir(W) midair
+- _Korok::F37
+- .dir(S) swim
+- _Boss::Talus::Stone:
+    comment: .fury(1) from above
+    coord: [3272.52, 133.05, 3409.85]
+- .dir(<W)
+- _Korok::F45
+- .dir(S) near shore
+- _Material<Hearty Blueshell Snail>:
+    coord: [2948.86, 106.06, 3462.70]
+- _Shop<Buy Octo Balloon>:
+    coord: [2952.58, 107.66, 3493.43]
+    icon-map: null
+    comment: (Optional) If needed
+- SQ
+- _Npc::SheikaFemale<Mom with Kid>:
+    coord: [2884.25, 112.44, 3413.51]
+    comment: Talk Twice. Before 6pm
+- _Npc::SheikaMale<Harpoon Guy>:
+    coord: [2886.5,3442.5]
+    comment: Talk Once
+    notes: In house if raining.
+- _Korok::F44:
+    comment: Shoot apple off palm tree
+    notes: Occasionally the korok will fail to trigger after removing the apple. Come back to it after the shrine and it should be fixed.
+- _Npc<Old Man on dock>:
+    comment: Rozel
+    notes: Select "About the ocean...". Talk twice. In house when raining.
+    coord: [2887.5,3495.5]
+- .dir(<E)
+- _Korok::F36:
+    comment: On boat
+    notes: .link([BLSS strat]https://youtu.be/uCSSyymHYxY?t=6809), .link([Walking strat]https://youtu.be/Sy_7N7ixshg?t=5445)
+- .dir(W>)
+- _Shrine::YahRin
+
+- .dir(W>>)
+- _Korok::F31
+- .dir(<E) + .dir(NE) midair
+- _Korok::F22
+- .dir(NE)
+- _Korok::F18
+- .dir(E) run
+- _Korok::N64:
+    comment: Stasis + bomb arrow from a distance
+- .dir(S) run
+- _Boss::Hinox::Red:
+    coord: [3210.17, 172.01, 2996.33]
+    notes: Shoot from above, aim just below upper rim of hole
+- .dir(S) + midair
+- _Korok::F32
+- .dir(E>) Turn + midair
+- _Shrine::MuwoJeem
+
+- Run
+- _Korok::F33
+- Jump down + .dir(W>) Turn midair
+- _Korok::N65
+- .dir(N) DT
+- _Korok::N61
+- .dir(N>) Turn
+- _Korok::N60
+- .dir(<S) Turn
+- _Npc<Kass>:
+    coord: [3746.19, 125.42, 2629.38]
+- _Chest::Special<Gold Rupee>:
+    coord: [3773.34, 100.52, 2647.44]
+- .dir(<E) Turn
+- _Korok::N62
+- .dir(N)
+- .fury(1) .enemy(Enemy Camp):
+    marker: red
+    notes: Sheep Rustlers
+    coord: [4121.98, 113.17, 2369.62]
+- .dir(NE)
+- _Korok::N54:
+    notes: Palm fruit on nearby tree if needed
+- .dir(E>) FIXME
+- _Korok::N56
+- _Boss::Talus::Luminous:
+    coord: [4558.50, 105.41, 2465.00]
+- _Korok::N63
+- Run
+- _Korok::N57
+- .dir(W>)
+- _Korok::N55
+- .dir(SW) + midair FIXME
+- _Shrine::ChaasQeta
