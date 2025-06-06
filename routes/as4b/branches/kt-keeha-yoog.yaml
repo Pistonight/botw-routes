@@ -1,0 +1,49 @@
+# Start: Kuh Takkar
+- SCW + .dir(.N) Turn + .dir(NW) + .dir(W>) Turn
+- _SCW::WoodActivate:
+    presets:
+    - _Shrine::KeehaYoog
+- Surf off cliff + .dir(W>) Turn + .dir(S>) Turn
+- _Shrine::KemaKosassa
+- .dir(SE) + midairs
+- _Shrine::ShoDantu
+- Shield Surf SCW
+- .dir(S) LOOK UP:
+    notes:
+      You can also ZL and quickly jump forward before the shrine activates, a bit risky
+      so not really worth going for initially
+- Bomb Arrow Chest Activate:
+    notes: Mag the chest slightly toward the shrine
+- _Shrine::SasaKai:
+    text: .important(Sasa Kai)
+    vars:
+      SCW: .add(1)
+- .dir(SE) Delay
+- _Shrine::DakoTah
+- .dir(E>) Slight Turn + .dir(<E)
+- _Shrine::KayNoh
+- _Tod::Noon:
+    notes: You can delay this as needed to make it between 4PM to 5:30PM at Suma Sahma
+    vars:
+      Wood: .add(1)
+- .dir(E>) + .dir(S)
+- _Shrine::KorshOhu
+- .dir(S) + BLSS
+- Clip in
+- _Shrine::MisaeSuma
+- .dir(E) Turn + .dir(E) + .dir(E) + .dir(<<E) Turn
+- _Shrine::DilaMaag:
+    notes: Barb armor if need
+- WB straight up:
+    coord: [-1807.55, 3344.46]
+- .dir(E) + .dir(E) up:
+    coord: [-1583.07, 3338.96]
+- .dir(S) + .dir(S) +.dir(N>) + midair:
+    movements:
+    - [-1603.07, 3646.84]
+    - [-1552.07, 3516.39]
+    - [-1386.59, 3516.89]
+- _Shrine::SumaSahma:
+    notes: 4PM to 5:30 PM
+- .dir(E>) Turn
+- _Shrine::IshtoSoh

@@ -1,0 +1,15 @@
+# Start: Shada Naw
+- .dir(E) DT (turn right)
+- Shock Lizalfos for Boomerang:
+    movements:
+    - to: [-2342.74, 482.49, -3228.0]
+      marker: yellow
+- _Shrine::RokUwog
+- .dir(N) + .dir(<E) Turn Midairs:
+    coord: [-2386.0, -3399.73]
+- _Shrine::ShaGehma
+- .dir(E>) Turn + .dir(E) midairs
+- _Shrine::QazaTokki:
+    comment: Barb
+- .dir(S) up + .dir(E>) DT + midairs
+- _Shrine::KetohWawai

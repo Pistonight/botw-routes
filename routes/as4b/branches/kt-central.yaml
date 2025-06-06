@@ -1,0 +1,23 @@
+# Start: KT
+- Shield Surf SCW
+- .dir(.S) + .dir(W) midairs:
+    notes: activate with ice fish (just pick up normally, not instant text box)
+    vars:
+      IceArrow: .sub(1)
+- _Shrine::JolooNah:
+    text: .!!(Joloo Nah)
+    vars:
+      SCW: .add(1)
+      ShockArrow: .sub(1)
+# - Good Job doing all .var(SCW) SCWs!:
+#     banner: true
+- .dir(.S) Turn 
+- _Shrine::JeeNoh
+- .dir(N>) TS 
+- _Shrine::DahKaso
+- Cryo + .dir(N>) + .dir(N) midairs
+- _Shrine::RotaOoh
+- .dir(NE) + .dir(NE)
+- _Shrine::KaamYatak
+- .dir(<N) + BTB:
+    notes: TODO- this needs to be day, figure out the TOD

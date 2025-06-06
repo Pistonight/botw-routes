@@ -1,0 +1,31 @@
+# Start: Jitan Sami
+- SCW + JWBO:
+    coord: [3962.5, 1357.8]
+- _SCW::Infinity::Amiibo<-blessing>:
+    presets: _Shrine::TawaJinn
+    notes: 
+    - Can use sign but unreliable. Make sure you are slightly moving camera when talking to sign.
+- .dir(W>>) FTS + .dir(W) Turn:
+    coord: [2220.0, 2402.38]
+- _Shrine::TotoSah
+- Cryo .dir(<N) Turn
+- _Shrine::HaDahamar
+- .dir(<<W) + .dir(NW):
+    coord: [1418.0, 1980.53]
+- _Shrine::ReeDahee
+- SCW + Glide over half of river
+- _SCW:
+    presets: _Shrine::SheeVaneer
+- _Shrine::SheeVenath
+- .dir(SW)
+- _Shrine::ShaeKatha
+- SCW + .dir(<W) + .dir(S>) Turn
+- _SCW::Infinity::Amiibo<-tos>:
+    presets: _Shrine::ShoqaTatone
+- .dir(E.) + .dir(.E) + .dir(N>):
+    coord: [382.0, 3889.44]
+- _Shrine::KaoMakagh
+- .dir(N.) Turn
+- _Shrine::PumaagNitae
+- .dir(W>) Turn + .dir(W>>) Turn
+- _Shrine::YaNaga

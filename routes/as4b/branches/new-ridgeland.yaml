@@ -1,0 +1,27 @@
+# Start: Castle Front Door
+- .dir(N) to Balcony
+- _Chest<3 AA>:
+    coord: [-251.95276835276945,-739.9777890767227]
+- _Bow<Royal Bow>:
+    notes: TODO, see if this is needed. Kuhn Sidajj SCW route in ASX needed an extra bow. This would be the fastest unless another random boko bow is both fast and enough durability
+- .dir(SW):
+    notes: Use the chest to align ordinal (The chest faces cardinal)
+- _Shrine::KatahChuki
+- .dir(NW) + midair
+- _Shrine::NoyaNeha
+- Updraft + .dir(W) + midair:
+- _Shrine::ZaltaWa
+- .dir(S.) + .dir(S>) + midair
+- _Shrine::SheemDagoze
+- .dir(S) x2 + .dir(SW) + .dir(W) x2:
+    movements:
+    - [-1913.1080759089477,383.3830909672952]
+    - [-2010.1480887454663,488.4229567270231]
+- _Shrine::MoggLatan
+- .dir(<E) Turn + .dir(E) x2 + .dir(S.) + .dir(<S) Turn:
+    movements:
+    - [-2594.766431445896,596.9605749725033]
+    - [-3086.9693831527748,588.9575375812865]
+    - [-3201.01640854827,897.0744771431564]
+- Melt Big Ice Block
+- _Shrine::KuhTakkar

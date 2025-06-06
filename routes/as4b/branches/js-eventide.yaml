@@ -1,0 +1,38 @@
+# Start: Jitan Sami
+- SCW (Infinity) + dir(<S) DT + midairs
+- _SCW::Infinity::Chu<-blessing, Ice, Fire>:
+    presets: _Shrine::KorguChideh
+- Run + Glide off:
+    movements:
+    - to: [4736.21, 3869.5]
+    - to: [3679.0, 3330.15]
+      warp: true
+- _Shrine::MuwoJeem
+- .dir(NE) Low
+- _Shrine::ChaasQeta
+- _Warp::Shrine::MuwoJeem:
+    color: red
+- _SCW::Buffered:
+    presets: _Shrine::KahYah
+- .dir(S>>) + .dir(W>) Turn:
+    movements:
+    - to: [3308.87, 3552.75]
+    - to: [2959.96, 3494.39]
+- _Shop<10 Shock Arrows>:
+    notes: TODO- 10 enough?
+    vars:
+      Rupee: .add(140)
+- .dir(<<N)
+- _Shrine::YahRin
+
+- .dir(<E) Turn + .dir(E) midairs
+- Clip in
+- _Shrine::QukahNata
+- _Tod::Morning:
+    vars:
+      Wood: .add(1)
+- .dir(W>) + .dir(N)
+- Shoot Farosh Get Scale
+- _Shrine::ShodaSah
+- .dir(S>) Turn
+- _Shrine::ShaiUtoh

@@ -1,0 +1,26 @@
+
+- .dir(W>>) Turn
+- _Shrine::ShaeMosah
+- .dir(<N) Turn
+- _Shrine::ShoraHah
+- Minecart + WBs
+- Clip in
+- _Shrine::GoraeTorr
+- .dir(E) Turn
+- _Shrine::ZunaKai
+- .dir(<S) Turn + midair
+- _Shrine::TutsuwaNima
+- SCW + .dir(E>) + .dir(SE) + .dir(E>) Turn:
+    movements:
+    - [3762.84, -2675.0]
+    - [3841.83, -2616.0]
+    - [4034.81, -2301.0]
+    notes:
+      Make sure to stop the first WB before the forest and midair. Otherwise iSCW will fail.
+- _SCW::Infinity::Amiibo<-blessing>:
+    presets: _Shrine::RitaagZumo
+- .dir(N) + midairs
+- _Shrine::KatosaAug
+- .dir(N>) + .dir(N) + .dir(N>) Turn
+- _Shrine::TuKaloh:
+    comment: Barb

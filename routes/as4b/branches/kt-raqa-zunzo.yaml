@@ -1,0 +1,33 @@
+- Waste your amiibo text box if still have it
+- TODO- maybe stasis bounce here with guardian
+- Infinity SCW:
+    vars:
+      SCW: .add(1)
+      iSCW: .add(1)
+      IceArrow: .sub(1)
+      Amiibo: .add(1)
+- .dir(<W) Turn + .dir(S) WBs
+- Fish Activate
+- _Shrine::RaqaZunzo:
+    text: .important(Raqa Zunzo)
+    icon: shrine-iscw-blessing
+    comment: Radiant Shield
+- .dir(N) fast cardinal
+- _Shrine::DaqoChisay
+- .dir(NW) + midairs
+- _Shrine::KemaZoos
+- .dir(S>) out + .dir(S>) Turn
+- Light torches:
+    notes:
+    - The easy way to do this is to shoot the 2 closer
+      from where you are coming from, then glide/move to the other side
+      and shoot the other 2 with one shot
+    - You could also land at one torch then shoot all from there, which is what I do
+      .link([(example\)]https://www.youtube.com/watch?v=QA29M7r0WZQ&t=7715s)
+- _Shrine::ThoKayu:
+    vars:
+      FireArrow: .sub(3)
+- .dir(<S) Turn + .dir(S>) Turn
+- _Shrine::HawaKoth:
+    notes: clip through
+

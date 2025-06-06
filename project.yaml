@@ -10,6 +10,10 @@ entry-points:
   as4: as45
   as45: /routes/as4/project.yaml
 
+  all-shrines-b: as-b
+  as-b: as4-b
+  as4-b: /routes/as4b/project.yaml
+
   # All Shrines EX
   all-shrines-extended: asx
   all-shrines-ex: asx

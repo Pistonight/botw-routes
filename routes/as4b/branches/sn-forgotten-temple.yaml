@@ -1,0 +1,23 @@
+# Start: Shada Naw
+- .dir(<S) Turn
+- _Shrine::GomaAsaagh
+- shoot fire arrow at ice
+- _Shrine::LannoKooh
+- .dir(NE)
+- _Strat::Shrine::GeeHarahDoor::Amiibo
+- _Shrine::GeeHarah
+
+- .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:
+    coord: [-2388.0, -2440.65]
+- _Shrine::RinOyaa
+- .dir(S) Turn + .dir(<S) DT
+- _Shrine::MonyaToma
+- .dir(W) Turn
+- _Shrine::MaagNorah
+- .dir(NE) Low + .dir(N>>) Turn:
+    coord: [-1434.0, -2250.58]
+- Backflip WB:
+    notes: >
+      Setup: Stand until left foot is on the corner and right foot is on slope, backflip place bomb, go back the the spot.
+      Place circle at 5/8 Stam used and detonate at 3/4 used
+- _Shrine::RonaKachta

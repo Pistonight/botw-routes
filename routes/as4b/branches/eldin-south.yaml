@@ -1,0 +1,23 @@
+# Start: Daqa koh
+- .dir(S>) Turn
+- _Shrine::QuaRaym
+- .dir(SE) super
+- _Shrine::TahMuhl
+- .dir(E>) + .dir(N>)
+- _Shrine::MoaKeet
+- .dir(.N) Turn
+- _Shrine::SahDahaj
+- .dir(E) + run + .dir(<E)
+- _Shrine::ZeKasho
+- BLSS
+- _Shrine::DahHesho
+- .dir(SE) + .dir(<S)
+- _Shrine::KenaiShakah:
+    notes: Hammer the rocks
+    vars:
+      Hammer: .sub(2)
+- Jump out + .dir(SE) midair:
+    notes: Strong wind
+- updraft + .dir(NE) super
+- _Shrine::KahMael:
+    notes: Hammer slab

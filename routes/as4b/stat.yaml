@@ -1,0 +1,17 @@
+# - Stats:
+#     vars:
+#     - _PostISTRupee: 230 # How many rupees after IST
+#     - _NeedRupee: .var(Rupee)
+#     - _NeedRupee: .sub(_PostISTRupee)
+#     - Fairy: .var(_NeedRupee)
+#     - Fairy: .div(2)
+# - .var(SCW) SCWs Total
+# - --- .var(bSCW) Buffered
+# - --- .var(iSCW) Infinity
+# - ----- .var(Chu) Chus used
+# - ----- .var(Amiibo) Fish Amiibos Needed
+# - ----- .var(Ice) min. Ice Arrows Need
+# - --- .var(Wood) Wood Needed
+# - --- .var(Fish)/4 different fishes needed
+# - .var(Rupee) Rupee needed
+# - --- Sell .var(Fairy) fairies

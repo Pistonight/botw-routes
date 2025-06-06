@@ -1,0 +1,35 @@
+
+- _Equipment::Bow<Royal Guard Bow>:
+    coord: [-333.0, -995.54]
+- _Equipment::Weapon<EOD>:
+    vars:
+      ShockArrow: .sub(1)
+    notes: Should have Claymore, Boomerang, old EOD, new EOD for fights (in this order). If you don't have enough elemental for blights, pick up 5 arrow here
+- WB to scantum
+# - _HouseKeepingStuff
+- Castle:
+    counter: .split-end-game(END)
+    icon-doc: castle
+- .enemy(Windblight):
+    icon-doc: medoh-done
+    comment: Skip
+    notes: Eat attack up
+- .enemy(Waterblight):
+    icon-doc: ruta-done
+    comment: 1=Old EOD, 2=Same as any%
+- .enemy(Fireblight):
+    icon-doc: rudania-done
+    notes: 1=new EOD 3 slam, new EOD 4 slam, Boomerang 3 throw. 2=same as any%
+- .enemy(Thunderblight):
+    icon-doc: naboris-done
+    comment: Same as any%
+- Blights:
+    counter: .split-end-game(END)
+    icon-doc: blights
+    coord: [-253.75, -1066.31]
+- Calamity:
+    counter: .split-end-game(END)
+    icon: calamity
+    icon-priority: 0
+    coord: [-253.75, -1066.31]
+    notes: same as any%, with old EOD spin throw and 6AA in the end

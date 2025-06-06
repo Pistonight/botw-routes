@@ -1,0 +1,60 @@
+- Plateau:
+  - use: ./branches/plateau.yaml
+- Part I:
+  - use: ./branches/castle.yaml
+  - _Warp<Leave Castle>:
+      color: red
+      coord: [-254.45379961144226,-569.9132445133528]
+  - use: ./branches/new-ridgeland.yaml
+- Part II:
+  - use: ./branches/kt-bloodmoon.yaml
+  - use: ./branches/thundra-plat.yaml
+  - _Warp::Shrine::MezzaLo:
+      color: yellow
+  - use: ./branches/naydra.yaml
+  - use: ./branches/js-eventide.yaml
+- Part III:
+  - _Warp::Shrine::KuhTakkar:
+      color: yellow
+  - use: ./branches/kt-raqa-zunzo.yaml
+  - _Warp::Shrine::ShaeLoya:
+      color: yellow
+  - use: ./branches/tena-kosah.yaml
+  - _Warp::Shrine::TenaKosah:
+      color: red
+  - use: ./branches/rito.yaml
+- Part IV:
+  - _Warp::Shrine::ShadaNaw:
+      color: yellow
+  - use: ./branches/sn-forgotten-temple.yaml
+  - _Warp::Shrine::ShadaNaw:
+      color: "#0f0"
+  - use: ./branches/sn-rok-uwog.yaml
+  - use: ./branches/korok-forest.yaml
+- Part V:
+  - use: ./branches/daqa-koh.yaml
+  - use: ./branches/eldin-north.yaml
+  - _Warp::Shrine::DaqaKoh:
+      color: red
+  - use: ./branches/eldin-south.yaml
+- Part VI:
+  - _Warp::Shrine::KuhTakkar:
+      color: "#0f0"
+  - use: ./branches/kt-keeha-yoog.yaml
+  - _Warp::Shrine::JitanSami:
+      color: orange
+  - use: ./branches/js-shai-yota.yaml
+- Part VII:
+  - _Warp::Shrine::JitanSami:
+      color: "#0f0"
+  - use: ./branches/js-tawa-jinn.yaml
+  - _Warp::Shrine::KuhTakkar:
+      color: orange
+  - use: ./branches/kt-central.yaml
+  - use: ./branches/boss.yaml
+- GG:
+  - Dark Beast:  
+      counter: .split-dark-beast(BEAST)
+      icon-doc: ganon
+  # - use: ./stat.yaml
+

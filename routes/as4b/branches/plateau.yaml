@@ -1,0 +1,36 @@
+- SOR Clip get TOD:
+    notes: "Grab more shroom/apple before camp if you need, keep 3 each for IST"
+- Grab Tree Branch:
+    notes: For 2 FDC instances and IST. DO NOT BREAK. If you break it, get a boko bat at cryo camp
+- Whistle spring to camp:
+    notes: Whistle sprint so bokos start walking toward you.
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+- Grab food:
+    notes: 4 shrooms, 6 peppers, steak
+- .important(KEEP 3 SHROOM 3 PEPPER)
+- Surf Up + Run:
+    coord: [-1009,2153.1856605381636]
+- Axe + Arrows + Bow:
+    coord: [-1017.35, 287.27, 2169.08]
+- Run + Clip in
+- _Shrine::OwaDaim:
+    comment: Hammer inside
+- Boulder + BTB:
+    notes: Pick up arrow if can
+- _Shrine::KehNamut
+- BTB:
+    notes: >
+      If you get unloaded mag, go for it.
+      Otherwise, break metal boxes for arrows. Ideally get more than 5 here.
+      Also get the ruby.
+- _Chest<Ruby>:
+    coord: [-671.65, 171.79, 1522.61]
+- _Shrine::OmanAu
+- Box Walk + BTB
+- _Shrine::JaBaij
+- WB + Tree
+- _Plateau
+- .dir(NE) Low:
+    color: red
+- _Tower::GreatPlateau

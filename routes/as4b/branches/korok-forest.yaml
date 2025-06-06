@@ -1,0 +1,31 @@
+# Start: Ketoh Wawai
+- .dir(S>>) + .dir(S>) Turn + .dir(<S) DT:
+    movements:
+    - [118.0, -2789.99]
+    - to: [256.19, 281.61, -2229.61]
+      marker: green
+    notes: Tasho is directly below second deku tree branch cluster from the right
+- Talk to Tasho, Backflip
+- _Shrine::DaagChokah
+
+- SCW + .dir(SE):
+    notes: .link(https://youtu.be/RFPrCRnR-R0) You can also WB through the fog, which is ~10s faster but more risky
+    coord: [378.0, -2130.03]
+- .dir(SW) midair to Zooki:
+    coord: [251.03, 285.34, -1979.93]
+- .dir(.W) FAST:
+    movements:
+    - to: [39.0, -1954.59]
+    - to: [20.88, -1940.9]
+      warp: true
+- _SCW::FishActivate:
+    presets: _Shrine::KuhnSidajj
+- .dir(.W) FAST Turn + .dir(NE) midair:
+    movements:
+    - to: [272.87, -1989.0]
+    notes: .link([example]https://www.youtube.com/watch?v=brd-JCwKeVY)
+- _Shrine::KeoRuug
+- .dir(E) start quest:
+    coord: [564.99, 264.83, -2160.65]
+- WB to shrine (no chu)
+- _Shrine::MaagHalan

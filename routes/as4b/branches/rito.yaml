@@ -1,0 +1,44 @@
+# Start: Tena Kosah
+- _Tod::Noon:
+    vars:
+      Wood: .add(1)
+- BTB
+- _Shrine::AkhVaquot
+- .dir(S) Turn + Fire arrow
+- _Shrine::BareedaNaag
+- Shield Surf SCW
+- SCW + .dir(W>) Turn
+- _SCW:
+    presets: _Shrine::VooLota
+    comment: Rushroom Activate
+- .dir(N>) Turn
+- _Shrine::ShaWarvo
+- .dir(<N):
+    coord: [-3984.0, -2549.36]
+- _Shrine::MakaRah
+
+- Run out:
+    coord: [-3984.0, -2549.36]
+- .dir(E) HIGH:
+    coord: [-3859.0, -2534.35]
+- .dir(N.) + .dir(E) midair:
+    movements:
+    - to: [-3807.0, -2720.42]
+    - to: [-3655.0, -2710.42]
+- .dir(N) + .dir(N) midair:
+    coord: [-3575.0, -3031.55]
+- _Shrine::MozoShenno
+
+- .dir(E) HIGH:
+    coord: [-3437.0, -3053.56]
+- .dir(N) + .dir(E) midairs:
+    coord: [-3408.0, -3217.62]
+- _Shrine::ShadaNaw
+
+- .dir(W>) Turn + midairs
+- _Shrine::HiaMiu
+- .dir(E)
+- Clip into mountain
+- _Shrine::ToQuomo:
+    notes: Get claymore
+

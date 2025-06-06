@@ -1,0 +1,138 @@
+- .dir(E) Turn
+- _Shrine::BoshKala
+- .dir(N>) + Midair:
+    notes: Eat
+- _Shrine::WahgoKatta
+- .dir(<E) Turn
+- _Shrine::HilaRao
+- .dir(N.) Turn to fairy:
+    movements:
+    - to: [950.0, 500.14]
+      marker: yellow
+- .dir(<N) Turn:
+    notes: Skip forest, eat 2 shrooms. Get closest radish if needed
+- _Shrine::KayaWan
+- SQ to Beetle:
+    coord: [890.25, 131.28, 157.06]
+- _Shop<Sell Ruby, 3 Frogs>
+- .dir(E>) Turn
+- _Shrine::DakaTuss:
+    notes: Use fairy
+- .dir(S) + .dir(<S):
+    movements:
+    - [1590.81, 634.59]
+    - [1707.94, 838.4]
+    notes: Eat steak
+- .dir(E):
+    coord: [1973.76, 851.5]
+- .item(1 Fairy)
+- .item(3 Endura Carrot)
+- .item(3 Silent Princess)
+- .dir(SW):
+    coord: [1793.89, 1028.21]
+    notes: Eat down to 3 peppers
+- _Shop<5 Carrot + Gut>
+- _Cook<Hasty Elixir>:
+    comment: 3 Frog, Swift, Gut
+    icon-map: null
+- _Cook<1 Swift Carrot>:
+    icon-map: null
+- _Cook<Endura Food>:
+    comment: 3 Endura Carrot
+- _Shop<Break 8 Slots>:
+    coord: [1824.39, 1041.2]
+    notes: Put 1 Pepper, Shroom, Swift, Silent Princess aside, use wood for check
+- Pick up wood
+- Detonate the bomb:
+    notes: Defuse and immediately talk to fire arrow to be immune
+- Buy 1 fire arrow
+- .dir(N)
+- Enter Shrine:
+    icon-doc: shrine-incomplete
+- .italic(- Run close to Right Chest):
+    notes: .italic(Italic text are world actions), normal texts are inventory actions
+- Drop --> .item(Branch, Axe)
+- Equip Hammer
+- .italic(- Open Chest)
+- Move 1 step right then press plus BEFORE AUTOSAVE
+- Drop --> .item(Pot Lid), equip other
+- Hold --> .item(All Material)
+- Unpause, GET AUTOSAVE:
+    notes: If autosave already happened, manually save after doing above
+- Drop --> .item(Material, Food, Shield)
+- Go to first pile with 2 weapons
+- Drop --> .item(Weapon, Bow)
+- .italic(- Pickup all weapon and bow):
+    notes: 3 weapon 1 bow, order doesn't matter
+- UNEQUIP --> Weapon, Bow:
+    notes: Should be after key items
+- .important(Reload -> Shoot, Save)
+- Drop --> .item(Material, Food):
+    notes: Order is drop material, unequip shield, eat all food
+- UNEQUIP --> Shield
+- .important(Reload, Save)
+- Eat Swift Carrot Meal
+- .important(Reload):
+    notes: Done, after WB, eat speed and endura
+# - _:
+#     banner: true
+#     text: General Resources Notes
+#     comment:
+#       You might need to grab a few more wood. You can get at Tasho when doing BF windbomb to Daag Chokah.
+#       In the places where it says Ice Fish Activate SCW (not iSCW), depending on if you wasted too many ice arrows, you can use campfire instead if not raining.
+#       If you need more than 20 ice arrows, get the 10 pack next to Dako Tah. You might also want the knights bow in that case.
+#       You can use FDB for iSCW icing fish
+- _Shrine::TalohNaeg
+- _Shrine::LaknaRokee:
+    presets: _SCW::Buffered
+    notes: Get EOD
+- .dir(N>) + .dir(NE) midair:
+    movements:
+    - to: [2529.23, 215.74, 362.3]
+      marker: red
+- Ride deer to pedestal:
+    coord: [2592.0, 234.0, 451.0]
+- _Shrine::MezzaLo
+- .dir(N>) + midairs
+- _Equipment::Weapon<Trident>
+- .dir(<S) Turn:
+    coord: [3300.73, -483.25]
+- _Shrine::NeezYohma
+- Sell .item(1 Endura Food + Fairies):
+    notes: See end of doc for how many fairies to sell
+- _Shop<20 Ice Arrows>:
+    coord: [3321.65, -480.99]
+    vars:
+      Rupee: .add(340)
+
+- .dir(W):
+    coord: [3105.75, -464.18]
+- _Shrine::DagahKeek:
+    notes: Throw aways spear
+- .dir(SW) + .dir(W) Turn
+- _Shrine::SohKofi
+- Windbomb
+- _Shrine::ShehRata
+- .dir(<N) Turn:
+    coord: [1226.06, -1072.27]
+- Chuchu
+- SQ
+- _Shrine::MirroShaz
+- .dir(S>>) Slight Turn + .dir(<W) + .dir(<W):
+    coord: [991.0, -963.33]
+- _Shrine::NamikaOzz
+- .dir(W>) WB + midairs
+- _Chest<Dinraal Scale>:
+    coord: [-194.0, -1220.05]
+- WB to dock:
+    coord: [-310.05, -1138.57]
+    notes: We get bomb arrows later, not here
+- Drop down + .dir(<S) Turn midair:
+    notes: The midair saves like 10 seconds?? Not worth if you are not comfortable or trying to go for WR
+- _Shrine::SaasKosah
+- Run out and WB
+- _Chest<3AA>:
+    coord: [-64.9, -1041.14]
+- .dir(NW)
+- _Chest<Naydra Scale>:
+    coord: [-176.0, -1164.45]
