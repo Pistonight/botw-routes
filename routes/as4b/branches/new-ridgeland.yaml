@@ -9,7 +9,7 @@
 - _Shrine::KatahChuki
 - .dir(NW) + midair
 - _Shrine::NoyaNeha
-- Updraft + .dir(W) + midair:
+- Updraft + .dir(W) + midair
 - _Shrine::ZaltaWa
 - .dir(S.) + .dir(S>) + midair
 - _Shrine::SheemDagoze
