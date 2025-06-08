@@ -1,5 +1,5 @@
 title: All Shrines (1.8)
-version: v4.0b
+version: v4.1b
 config:
 - plugins:
   - use: split-format

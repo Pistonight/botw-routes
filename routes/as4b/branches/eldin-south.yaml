@@ -9,15 +9,13 @@
 - _Shrine::SahDahaj
 - .dir(E) + run + .dir(<E)
 - _Shrine::ZeKasho
-- BLSS
+- .dir(E.) DT + midairs
 - _Shrine::DahHesho
 - .dir(SE) + .dir(<S)
 - _Shrine::KenaiShakah:
     notes: Hammer the rocks
-    vars:
-      Hammer: .sub(2)
 - Jump out + .dir(SE) midair:
     notes: Strong wind
-- updraft + .dir(NE) super
+- updraft + .dir(NE) + midair
 - _Shrine::KahMael:
     notes: Hammer slab

@@ -4,7 +4,7 @@
   - use: ./branches/castle.yaml
   - _Warp<Leave Castle>:
       color: red
-      coord: [-254.45379961144226,-569.9132445133528]
+      coord: [-254.45, -569.91]
   - use: ./branches/new-ridgeland.yaml
 - Part II:
   - use: ./branches/kt-bloodmoon.yaml

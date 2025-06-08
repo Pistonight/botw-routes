@@ -13,16 +13,18 @@
 - .enemy(Windblight):
     icon-doc: medoh-done
     comment: Skip
-    notes: Eat attack up
+    notes: Eat attack up/cancel speed food
 - .enemy(Waterblight):
     icon-doc: ruta-done
     comment: 1=Old EOD, 2=Same as any%
+    notes: Same as any% = Royal Claymore, but you can't do the 1 cycle because you need to switch to new EOD at the end
 - .enemy(Fireblight):
     icon-doc: rudania-done
-    notes: 1=new EOD 3 slam, new EOD 4 slam, Boomerang 3 throw. 2=same as any%
+    notes: 1=new EOD 3 slam, new EOD 4 slam, Boomerang 3 throw. 2=same as any% (Boomerang 2 + throw + Claymore)
 - .enemy(Thunderblight):
     icon-doc: naboris-done
     comment: Same as any%
+    notes: Claymore bam bam throw
 - Blights:
     counter: .split-end-game(END)
     icon-doc: blights
@@ -32,4 +34,4 @@
     icon: calamity
     icon-priority: 0
     coord: [-253.75, -1066.31]
-    notes: same as any%, with old EOD spin throw and 6AA in the end
+    notes: same as 3AA any%, except you shoot 3 less bomb arrows and spin + throw with old EOD, then 6AA in the end of phase 1

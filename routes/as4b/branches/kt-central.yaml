@@ -1,14 +1,13 @@
 # Start: KT
 - Shield Surf SCW
 - .dir(.S) + .dir(W) midairs:
-    notes: activate with ice fish (just pick up normally, not instant text box)
-    vars:
-      IceArrow: .sub(1)
+    notes: activate with ice fish (just pick up normally, not instant text box). This movement sucks without super
+
 - _Shrine::JolooNah:
     text: .!!(Joloo Nah)
     vars:
       SCW: .add(1)
-      ShockArrow: .sub(1)
+
 # - Good Job doing all .var(SCW) SCWs!:
 #     banner: true
 - .dir(.S) Turn 
@@ -20,4 +19,4 @@
 - .dir(NE) + .dir(NE)
 - _Shrine::KaamYatak
 - .dir(<N) + BTB:
-    notes: TODO- this needs to be day, figure out the TOD
+    notes: .link([Video]https://www.youtube.com/watch?v=IPwCuhEOYHw&t=18427s) Needs to be day. TODO - replace with a better video that doesn't mess up the WB and get the BTB first try

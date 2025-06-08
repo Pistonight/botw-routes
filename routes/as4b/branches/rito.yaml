@@ -2,11 +2,11 @@
 - _Tod::Noon:
     vars:
       Wood: .add(1)
-- BTB
+- BTB:
+    notes: TODO A faster sideway (shoulder/butt) BTB setup is needed to make the TOD cycle. The back BTB won't do.
 - _Shrine::AkhVaquot
 - .dir(S) Turn + Fire arrow
 - _Shrine::BareedaNaag
-- Shield Surf SCW
 - SCW + .dir(W>) Turn
 - _SCW:
     presets: _Shrine::VooLota

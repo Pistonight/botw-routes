@@ -185,30 +185,30 @@
 - _Shrine::ShodaSah
 
 - Glider out + Swim up:
-    coord: [1777.75,3057.812266519957]
+    coord: [1777.75, 3057.81]
 - _Korok::F19
 - .dir(N)
 - _Korok::F17
 - .dir(E>) Turn
 - _Korok::F20
 - .dir(<E) Turn:
-    coord: [2413,2773.1761686906093]
+    coord: [2413.0, 2773.18]
 - _Boss::Hinox::Black
 - Orb 1:
-    coord: [2615.75,2822.0415742922887]
+    coord: [2615.75, 2822.04]
 - .dir(<W) Turn
 - _Korok::F14
 - SQ
 - _Boss::Hinox::Red:
-    coord: [2769,2715.552774672402]
+    coord: [2769.0, 2715.55]
 - Orb 2:
-    coord: [2647,2816.591121736522]
+    coord: [2647.0, 2816.59]
 - Read Tablet
 - SQ:
-    coord: [2694.5,2967.1482626587995]
+    coord: [2694.5, 2967.15]
 - _Boss::Hinox::Blue
 - Orb 3:
-    coord: [2634.75,2861.0555273081936]
+    coord: [2634.75, 2861.06]
 - _Shrine::TawaJinn
 
 - FIXME .dir(NE) super:
@@ -228,7 +228,7 @@
 - .dir(W) Fast
 - _Korok::D53
 - .dir(W) + .dir(S):
-    coord: [2382.5,2114.0197430429134]
+    coord: [2382.5, 2114.02]
 - _Korok::D58
 - Climb Tree + .dir(S>)
 - _Korok::D57
@@ -237,7 +237,7 @@
 - .dir(<W)
 - _Korok::F13
 - .dir(N) + .dir(W) midair:
-    coord: [2287.5,2539.6575646694027]
+    coord: [2287.5, 2539.66]
 - _Korok::F06
 - SQ
 - _Korok::F09
@@ -258,7 +258,7 @@
 
 - .dir(E>) super
 - _Npc<Guy at heart pond>:
-    coord: [2584.90, 290.11, 3547.64]
+    coord: [2584.9, 290.11, 3547.64]
 - .dir(S>)
 - _Korok::F47
 - .dir(S>)
@@ -278,7 +278,7 @@
 - _Korok::F51
 - .dir(N)
 - _Snap<Monument Shard>:
-    coord: [3390.50, 105.66, 3481.83]
+    coord: [3390.5, 105.66, 3481.83]
     comment: SNAP
 - .dir(E.)
 - _Korok::F52:
@@ -288,11 +288,11 @@
     comment: SNAP
 - .dir(NW)
 - _Snap<Monument Shard>:
-    coord: [3532.50, 112.28, 3365.50]
+    coord: [3532.5, 112.28, 3365.5]
     comment: SNAP
 - .dir(W) surf
 - _Npc<Broken Monument Guy>:
-    coord: [3439.86, 114.87, 3344.20]
+    coord: [3439.86, 114.87, 3344.2]
 - _Shrine::KahYah
 
 - .gale(1) + .dir(W) midair
@@ -305,7 +305,7 @@
 - _Korok::F45
 - .dir(S) near shore
 - _Material<Hearty Blueshell Snail>:
-    coord: [2948.86, 106.06, 3462.70]
+    coord: [2948.86, 106.06, 3462.7]
 - _Shop<Buy Octo Balloon>:
     coord: [2952.58, 107.66, 3493.43]
     icon-map: null
@@ -315,7 +315,7 @@
     coord: [2884.25, 112.44, 3413.51]
     comment: Talk Twice. Before 6pm
 - _Npc::SheikaMale<Harpoon Guy>:
-    coord: [2886.5,3442.5]
+    coord: [2886.5, 3442.5]
     comment: Talk Once
     notes: In house if raining.
 - _Korok::F44:
@@ -324,7 +324,7 @@
 - _Npc<Old Man on dock>:
     comment: Rozel
     notes: Select "About the ocean...". Talk twice. In house when raining.
-    coord: [2887.5,3495.5]
+    coord: [2887.5, 3495.5]
 - .dir(<E)
 - _Korok::F36:
     comment: On boat
@@ -376,7 +376,7 @@
 - .dir(E>) FIXME
 - _Korok::N56
 - _Boss::Talus::Luminous:
-    coord: [4558.50, 105.41, 2465.00]
+    coord: [4558.5, 105.41, 2465.0]
 - _Korok::N63
 - Run
 - _Korok::N57

@@ -1,5 +1,5 @@
 # Start: Jitan Sami
-- SCW (Infinity) + dir(<S) DT + midairs
+- SCW + .dir(<S) DT + midairs
 - _SCW::Infinity::Chu<-blessing, Ice, Fire>:
     presets: _Shrine::KorguChideh
 - Run + Glide off:
@@ -19,7 +19,7 @@
     - to: [3308.87, 3552.75]
     - to: [2959.96, 3494.39]
 - _Shop<10 Shock Arrows>:
-    notes: TODO- 10 enough?
+    notes: 10 is enough but if you are just starting, get 20 in case you mess up the chuchu ITB too much
     vars:
       Rupee: .add(140)
 - .dir(<<N)

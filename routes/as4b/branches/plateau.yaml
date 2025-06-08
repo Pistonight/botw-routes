@@ -1,7 +1,7 @@
 - SOR Clip get TOD:
     notes: "Grab more shroom/apple before camp if you need, keep 3 each for IST"
 - Grab Tree Branch:
-    notes: For 2 FDC instances and IST. DO NOT BREAK. If you break it, get a boko bat at cryo camp
+    notes: DO NOT BREAK. If you break it, get a boko bat at cryo camp
 - Whistle spring to camp:
     notes: Whistle sprint so bokos start walking toward you.
 - _Equipment::Shield<Pot Lid>:
@@ -10,7 +10,7 @@
     notes: 4 shrooms, 6 peppers, steak
 - .important(KEEP 3 SHROOM 3 PEPPER)
 - Surf Up + Run:
-    coord: [-1009,2153.1856605381636]
+    coord: [-1009.0, 2153.19]
 - Axe + Arrows + Bow:
     coord: [-1017.35, 287.27, 2169.08]
 - Run + Clip in
@@ -20,16 +20,14 @@
     notes: Pick up arrow if can
 - _Shrine::KehNamut
 - BTB:
-    notes: >
-      If you get unloaded mag, go for it.
-      Otherwise, break metal boxes for arrows. Ideally get more than 5 here.
-      Also get the ruby.
+    notes: You can break the box for some backup arrows and food. You need at least 2 arrows after plat for the guardian in Kaya Wan and 1 for bullet time
 - _Chest<Ruby>:
     coord: [-671.65, 171.79, 1522.61]
 - _Shrine::OmanAu
 - Box Walk + BTB
 - _Shrine::JaBaij
-- WB + Tree
+- WB + Tree:
+    coord: [-649.11, 2075.0]
 - _Plateau
 - .dir(NE) Low:
     color: red

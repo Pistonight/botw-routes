@@ -1,7 +1,7 @@
 # Start: Shae Loya
 - .dir(<<E) Turn to red orb:
     coord: [-2137.5, -908.8]
-    notes: Stasis 6. Use Stone Smasher
+    notes: Stasis 6 with hammer
 - .dir(NW) to other orb:
     coord: [-2271.5, -1039.25]
 - .dir(S) to green
