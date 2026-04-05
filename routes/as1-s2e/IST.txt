@@ -1,0 +1,120 @@
+get axe torch boko-bow potlid
+get hammer
+get slate 4 orb glider
+get soldier-bow
+get 6 pepper 2 shroom 
+get ruby
+get 1 fire-arrow 2 ice-arrow
+
+shoot equip ice-arrow
+sell ruby
+buy 3 hot-frog
+get 4 orb
+equip hammer use weapon 2 times # kill lizalfos
+!write [dura=20] to axe
+!write [dura=4] to pot-lid 
+shoot
+
+# BTB
+get 2 fairy 3 endura-carrot 2 silent-princess
+sell all orb # - trade stam
+get boko-gut 3 carrot # buy carrot second so it's last in the save
+eat all pepper all shroom
+
+save
+# break slots
+:smug hold hot-frog endura-carrot silent-princess carrot boko-gut
+sell all materials[held]
+pick-up all materials !remove hot-frog # ran away
+hold fairy use fairy drop
+!remove endura-carrot; // start roasting
+!remove silent-prin; get wild-green[effect=sneaky]
+!remove swift-carrot; get wild-green[effect=hasty]
+get roasted-endura-carrot
+reload # Get invalid star tab
+get pot-lid drop shield # leave unequipped
+# col1 method2, start shield
+unpause
+entangle key-item drop shield
+unpause drop pause
+entangle key-item drop shield
+unpause drop
+!remove all hot-frog boko-gut swift; get hasty-elixir[level=3]
+!remove all endura-carrot; get wild-green[effect=endura,level=18]
+!remove princess; get wild-green[effect=sneaky]
+!remove princess; get wild-green[effect=sneaky]
+!remove swift-carrot; get wild-green[effect=hasty]
+sort material
+unpause pause
+eat material
+# col1 method1, start at food
+entangle weapon
+:targeting <_>[category=material] drop weapon
+unpause drop pick-up material
+sort material eat material
+entangle weapon
+:targeting <_>[category=material] drop weapon
+unpause drop pick-up material
+sort material
+eat material
+entangle weapon
+:targeting <_>[category=material] drop weapon
+unpause drop
+pick-up carrot
+talk-to impa; untalk;
+save-as autosave-after-impa
+hold fairy use fairy drop
+reload autosave-after-impa
+
+pause unpause save reload
+pause unpause save reload
+pause unpause save reload
+pause unpause save reload
+
+sort food
+# col1 method2, start food 3
+entangle food[category=food, tab=3]
+hold 3 material
+hold swift-carrot fairy
+drop !system[clear-ground]
+get wild-green[hp=116,price=311,effect=speed]
+save reload
+reload autosave-after-impa
+
+eat all swift-carrot
+# eat all of first 2 rows except the last
+eat 8 food
+# middle roasted carrot
+eat roa-en-c[slot=2]
+
+equip soldier-bow fire-arrow
+#------------ Pile 1        Pile 2        Pile 3
+drop          all shield
+save
+# Corruption 1
+eat all but 2 food # keep last 2
+#------------ Pile 1        Pile 2        Pile 3
+drop                        all weapon    all bow
+pick-up       1 shield      all weapon    1 bow
+unequip weapon bow
+reload save
+# Corruption 2
+drop all material 
+eat all food
+#------------ Pile 1        Pile 2  
+drop          all weapon    all bow
+pick-up       4 weapon      2 bow
+unequip weapon shield
+reload shoot save
+drop all fairy
+reload
+
+drop shield
+eat all food[value=1]
+save 
+pick-up shield
+reload
+sort bow
+unpause pause drop bow[slot=2] unpause
+pick-up bow
+
