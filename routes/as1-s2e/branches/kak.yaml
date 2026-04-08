@@ -1,0 +1,59 @@
+# Start: Temple of Time
+- .dir(<<E) + .dir(<<E):
+    notes: TODO optimize
+- _Shrine::BoshKala
+- .dir(<NE) + .dir(N>>)
+- _Shrine::WahgoKatta:
+    notes: Aim at left edge of platform
+- .dir(<<E):
+    notes: Most likely you would need another WB at the river (cryo)
+- _Shrine::HilaRao
+- .dir(N.):
+    coord: [949.19, 138.58, 502.84]
+    markers:
+      - at: [949.19, 138.58, 502.84]
+        color: yellow
+- .dir(<<N):
+    coord: [820.5,197.5]
+- Grab one Hearty Radish for Food:
+    notes: In Master Mode, Fairy is required for Daka Tuss. Alternatively get Pants but I didn't figure out the IST for that yet.
+- Activate Kaya Wan
+- Run to inside Stable:
+    coord: [886.5,176.5]
+- _Shop<Beedle>:
+    comment: Sell Ruby, Buy 3 Frogs
+- .dir(E>>) + Cryo WB
+- Sneakstrike Lizalfos:
+    notes:
+      After sneakstrike, either hit him twice with hammer or shoot with soldier bow and fire arrow (no headshot needed).
+      However keep one fire arrow for roasting carrot later
+- _Shrine::DakaTuss:
+    notes:
+      Similar to S1E strat, but walk forward slightly before you start, and spam ZL + X as soon as you touch water and hold forward.
+      Go for the right ground area and make a cryo block to do a walking SQ
+- .dir(S) H + .dir(<<S) + .dir(N>):
+    movements:
+      - to: [1590.9984881573873,639.9939526295511]
+      - to: [1717.9984881573873,845.9939526295511]
+      - to: [1959.9984881573873,855.9939526295511]
+    notes:
+      This WB chain is pretty hard and requires precise bomb placement to get enough height.
+      Food will be an issue if you mess up. Alternatively you can use the lizalfos to BTB
+      to fairy fountain directly (See BTB Catalog)
+- _Material<Grab>:
+    comment: 2 Fairies, 3 Carrots, 2 NightShade
+- .dir(SW):
+    coord: [1841.9669295102594,998.0766104550239]
+- _Npc<Statue>:
+    comment: Trade 2 Stamina
+- Get Ragdoll
+- use: ./kak-ist.yaml
+- SQ Walk
+- _Shrine::TalohNaeg:
+    notes: Cutscene Skip - Right Peg aim at Left lamp (on the other side of tha arena, next to the gate). H WB
+- _SCW:
+    preset: _Shrine::LaknaRokee
+    text: .important(Lakna Rokee)
+    comment: Get EOD
+    notes: Same as 30FPS except don't buffer
+    

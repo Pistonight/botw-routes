@@ -1,0 +1,108 @@
+- .italic(Run inside Shop) - IST START
+- .important(EAT) All Peppers Apples
+- .important(BUY) Boko Gut, 3 Carrots
+- .important(SAVE)
+- .important(HOLD) .item(Frog, Night, Carrot, Carrot, Gut):
+    notes:
+      If you fail the smuggle and the frog ran away you can reload the save.
+      Alternatively keep 2 peppers or apples to use instead of the frog.
+- .important(PICK UP MATERIALS)
+- HOLD FAIRY BOMB SELF:
+    icon-doc: bomb-self
+- .italic(Run out)
+- .important(ROAST) Endura Carrot:
+    comment: Don't pick up yet
+- .important(COOK) 1 Night then 1 Swift:
+    notes:
+      Cook them separately. If for some reason you are missing
+      Some materials you can also cook any other food here as a placeholder
+- .important(PICK UP) Roasted Endura Carrot
+- _Reload::Split:
+    comment: Invalid Star
+    split-name: Invalid Star
+    notes: TODO - add a link to PE inputs image
+- _Equipment::Shield<Pot Lid>:
+    icon-map: null
+    notes: Get shield, drop old one, leave shield unequipped
+- _EntanglePrompt<Drop Key Items,SHIELD,1>:
+    notes: After dropping slate, unpause pause then do it again to drop glider as well.
+- .important(COOK) Speed 3 Elixir:
+    notes: 3 Frogs, Swift, Gut
+- .important(COOK) 3 Endura Carrot
+- .important(COOK) 1 Night
+- .important(COOK) 1 Night
+- .important(COOK) 1 Swift Carrot
+- _:
+    banner: true
+    text: When doing the steps below you CANNOT UNPAUSE after eating until execute the PE drop
+- .important(SORT) Material
+- .important(EAT) Swift Carrot
+- _EntanglePrompt<Drop Hold Carrot,Food,1>
+- .important(UNPAUSE), then drop and pick-up the carrot
+- REPEAT 3 TIMES:
+    notes: Still pick up the carrot after you are done
+- Go to Paya:
+    notes: Here you might need to slow walk to ensure enough time has passed to trigger an auto save after Impa
+- _Npc::Impa1:
+    notes: Talk Twice, choose B after cutscene
+- .important(CHECK AUTOSAVE)
+- HOLD FAIRY BOMB SELF:
+    icon-doc: bomb-self
+- _Reload::Split:
+    comment: Reload IMPA AUTOSAVE
+    split-name: Impa Autosave
+    notes: If for some reason there is no autosave, go to the cooking pot and pass time
+- _:
+    banner: true
+    text:
+      Open Dpad Menu, then SAVE and RELOAD, .important(REPEAT 4 times).
+      When you are done there should be 2 food in the 3rd row of the 3rd food page
+    vars:
+      counter-istreload: .add(4)
+      counter-istreload-split: .add(4)
+- .important(SORT) Food
+- _EntanglePrompt<Hold 3 Roast,Food 3,1>
+- Hold Swift Fairy, Cook
+- .important(SAVE)
+- _Reload:
+    comment: Reload Manual Save
+    notes: You reload manual then reload the auto save. This is not a mistake
+- _Reload::Split:
+    comment: Reload IMPA AUTOSAVE
+    split-name: Impa Autosave 2
+- .important(EAT) All Swift Carrot
+- .important(EAT) First 8 Food
+- .important(EAT) Roasted Endu. Carrot in row 3
+- .important(EQUIP) Soldier, Fire Arrow
+- .italic(Pile 1) - Drop Shield
+- .important(SAVE)
+- .important(EAT) all but last 2 food
+- .italic(Pile 1) - Drop All Weapons
+- .italic(Pile 2) - Drop All Bows
+- .italic(Pile 2) - Pick up 1 Bow
+- .italic(Pile 1) - Pick up Everything
+- .important(UNEQUIP) Weapon, Bow
+- _Reload::Save:
+    comment: Corruption 1
+- .important(DROP) All Materials
+- .important(EAT) All Food
+- .italic(Pile 1) - Drop All Weapons
+- .italic(Pile 2) - Drop All Bows
+- .italic(Pile 2) - Pick up 2 Bow
+- .italic(Pile 1) - Pick up 4 Weapons
+- .important(UNEQUIP) Weapon, Shield
+- _Reload::ShootSave::Split:
+    split-name: Corruption 1+2
+    comment: Corruption 2
+- .important(DROP) all fairies
+- _Reload
+- .important(DROP) Shield
+- .important(EAT) all single-stack food:
+    notes: All except last in 1st row and first 2 in last row. And obviously the carrots
+- .important(SAVE)
+- .important(PICK UP) Shield
+- _Reload::Split:
+    split-name: WMC
+    comment: WMC Done
+- Dupe Bow:
+    notes: Sort bows, unpause, pause, drop non-WMC soldier, pick it up. Now you should have 2 WMC soldier

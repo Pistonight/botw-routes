@@ -1,0 +1,56 @@
+# Start: Moa Keet
+- .dir(NW>) + .dir(<NW) + .dir(N) Rd Walk + .dir(<W):
+    movements:
+      - to: [2481,-1310]
+      - to: [2149,-1474]
+      - to: [2129,-1567]
+- _Shrine::QuaRaym
+- .dir(N)H + .dir(N.)H + .dir(N)H + .dir(E)H + .dir(N>)H:
+    movements:
+      - to: [1802.5,-1691.5]
+      - to: [1828,-1869.5]
+      - to: [1872.5,-2012]
+      - to: [2019.5,-2023.5]
+- _Shrine::DaqaKoh
+- SCW + .dir(S):
+    movements:
+      - to: [2068.5,-2132.25]
+      - to: [2075.0625,-2041.0625]
+        warp: true
+    notes: Land exactly in the spot as indicated by the map. Stand on a lava pimple and look back
+- _SCW:
+    presets: _Shrine::KayraMah
+    text: .important(Kayra Mah)
+- _Warp::Shrine::DaqaKoh:
+    color: "#00ff00"
+- .dir(<NW) + .dir(N):
+    coord: [1779,-2432]
+- _Shrine::ShaeMosah
+- .dir(<<N) + .dir(<<N)
+- _Shrine::ShoraHah:
+    notes: SQ Walk from middle of elevator at slight angle. Wait a bit before placing Round Bomb and instant detonation
+- Cart + Stasis + .dir(N>) + .dir(<E) WBs:
+    movements:
+      - to: [1612,-3085]
+      - to: [1688,-3075]
+      - to: [1819,-3235]
+- ESC Side + Bomb Walk
+- _Shrine::GoraeTorr
+- .dir(E>) + .dir(E>):
+    notes: Aim off cardinal for faster WB
+- _Shrine::ZunaKai
+- .dir(SE>)
+- _Shrine::TutsuwaNima
+- SCW + .dir(W>) + .dir(<SE) + .dir(E>>):
+    movements:
+      - to: [3875,-2578]
+      - to: [4101,-2313]
+- _SCW::Infinity::Chu<-blessing,Shock,Ice>:
+    presets: _Shrine::RitaagZumo
+    text: .important(Ritaag Zumo)
+    notes: Shock -> Fire also work. The timing is a bit different from S1E so do whatever works for you. Use thunderblade for shock
+- Lizalfos High BTB
+- _Shrine::KatosaAug
+- .dir(N) + Moblin BTB:
+    coord: [4317.5,-2924]
+- _Shrine::TuKaloh

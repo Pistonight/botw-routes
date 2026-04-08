@@ -1,0 +1,24 @@
+# Start: Mezza Lo
+- .dir(S>>) + SQ Walk + .dir(<<S) + .dir(<<S):
+    coord: [2526,782]
+- _Shrine::DowNaeh:
+    notes: SQ Walk from top-right of the big button aim at monk. Wait for 2/5 Stam
+- .dir(N.) HIGH + .dir(.E) HIGH:
+    coord: [2763.5,1174]
+- Moblin BTB:
+    coord: [3004,1116.5]
+    notes: See BTB Catalog
+- _Shrine::MyahmAgana
+- .dir(E) + .dir(.E) + .dir(NE>) + .dir(<NE) + .dir(NE):
+    movements:
+      - to: [3606,2139.5]
+      - to: [3777.5,2050]
+      - to: [4008,1922.5]
+- _Shrine::TahnoOah
+- .dir(N) + .dir(N) + .dir(N) + SQ Walk .dir(W) + .dir(<W):
+    movements:
+      - to: [4188,1376]
+      - to: [4177.5,1259]
+      - to: [4051.5,1278]
+      - to: [3964.5,1352.5]
+- _Shrine::JitanSami

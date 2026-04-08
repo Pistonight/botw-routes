@@ -1,0 +1,32 @@
+# Start: Tena Kosah
+- Kuh Takkar BTB (Moblin Side):
+    movements:
+      - to: [-3514.5,-404.5]
+      - to: [-3539.5,660]
+- SQ Walk + .dir(E>>) + .dir(<S) Midair + .dir(<S):
+    movements:
+      - to: [-3482,739]
+      - to: [-3239,910]
+- Melt Ice with Normal Bow
+- _Shrine::KuhTakkar:
+    notes: Same as S1E but need to stand forward more to throw the bomb
+- SCW + .dir(.N) + .dir(<NW) + .dir(W.):
+    movements:
+      - to: [-3121,1231]
+      - to: [-3145,969]
+      - to: [-3542,692]
+      - to: [-3788,665]
+      - to: [-3852,717.125]
+        warp: true
+- _SCW::AmiiboActivate:
+    presets: _Shrine::KeehaYoog
+    text: .important(Keeha Yoog)
+    notes: Must use amiibo before buffered scw later
+- Surf + SQ Walk + .dir(W) + Midair:
+    movements:
+      - to: [-3841,673]
+      - to: [-3938.5,563.5]
+      - to: [-4293,548]
+- _Shrine::KemaKosassa
+- .dir(.SE) x3
+- _Shrine::ShoDantu

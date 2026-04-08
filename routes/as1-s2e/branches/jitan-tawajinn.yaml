@@ -1,0 +1,23 @@
+# Start: Jitan Sami
+- SCW + Run + .dir(<N):
+    movements:
+      - to: [3913.25,1369.75]
+      - to: [3773,1403]
+- BTB, Talk to Tablet:
+    notes: Make sure camera is moving while activating
+- _SCW::Infinity<-blessing>:
+    presets: _Shrine::TawaJinn
+    text: .important(Tawa Jinn)
+    comment: Get Thunderblade
+- .dir(<<W) + .dir(<<W) + .dir(<<W)
+- _Shrine::QukahNata:
+    notes: .link(https://www.bilibili.com/video/BV1ba42zwE3x)
+- _Tod::Morning<Farosh>:
+    icon-map: null
+- _Shrine::ShodaSah
+- _Shrine::ShaiUtoh
+- .dir(NW>) + .dir(<<W) + .dir(<W) + WB:
+    coord: [1316,3329]
+- _Shrine::KaoMakagh
+- _Shrine::PumaagNitae
+- _Shrine::YaNaga

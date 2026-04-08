@@ -1,0 +1,30 @@
+# Start: Dow Naeh:
+- SCW + .dir(.N)H + .dir(S>)H:
+    movements:
+      - to: [2642.5,1186.5]
+      - to: [2545.5,1414.9895654503262]
+      - to: [2501.875,1495.5598913625818]
+        warp: true
+- _SCW:
+    presets: _Shrine::KamUrog
+    text: .important(Kam Urog)
+- .dir(S)H + .dir(<SW) WBs:
+    coord: [2470,1693.9582618013055]
+- _Shrine::TotoSah
+- .dir(<N) + .dir(<<N)
+- _Shrine::HaDahamar:
+    notes: Safe strat is WB skip first section then Rd Walk (from below not second floor)
+- .dir(<SW) + .dir(NW):
+    coord: [1485,1996.9582618013055]
+- _Shrine::ReeDahee:
+    notes: Turn-before-square WB
+- SCW + Glide past middle of river
+- _SCW:
+    presets:: _Shrine::SheeVaneer
+    text: .important(Shee Vaneer)
+- _Shrine::SheeVenath
+- .dir(<SW) + .dir(S)
+- _Shrine::ShaeKatha
+- _SCW::Infinity::Amiibo<-tos>:
+    presets: _Shrine::ShoqaTatone
+    text: .important(Shota Tatone)

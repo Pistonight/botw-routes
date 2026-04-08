@@ -66,6 +66,12 @@ presets:
         SCW: .add(1)
         bSCW: .add(1)
 
+    Infinity:
+      icon: shrine-iscw$(0)
+      vars:
+        SCW: .add(1)
+        iSCW: .add(1)
+
     _Infinity:
       Auto:
         icon: shrine-iscw$(0)

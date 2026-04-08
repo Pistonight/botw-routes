@@ -1,0 +1,7 @@
+# Start Jitan
+- SCW + .dir(<NE) + WBs:
+    coord: [3923.5,1327]
+- _SCW::Infinity::Chu<-blessing,Fire,Ice>:
+    presets: _Shrine::ShaiYota
+    text: .important(Shai Yota)
+- _Shrine::RuccoMaag

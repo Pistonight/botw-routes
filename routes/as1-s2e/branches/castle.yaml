@@ -1,0 +1,43 @@
+# Start Kaya Wan
+- .dir(.E) H + .dir(<NE) + .dir(NE>):
+    movements:
+      - to: [1050,117]
+      - to: [1222,-206]
+- _Shrine::ShehRata
+- .dir(NW>) + .dir(NW>):
+    coord: [1207.25,-1059]
+- Get ChuChu, WB to shrine
+- _Shrine::MirroShaz
+- .dir(<SW) + .dir(W) + .dir(W)
+- _Shrine::NamikaOzz
+- .dir(<NW) + .dir(W) + .dir(W) + .dir(NW):
+    movements:
+      - to: [502,-966]
+      - to: [257,-1041]
+      - to: [-51,-1077]
+      - to: [-203,-1223]
+    notes: Last WB, aim at right edge of big pillar
+- _Chest<Dinraal Scale>:
+    coord: [-192.5,-1222]
+- WB to docks:
+    notes: Need to stand back more compared to S1E
+- _:
+    banner: true
+    text:
+      For Master Mode, Silver Lizalfos are guaranteed to drop
+      10 Shock Arrows. Kill 2 Lizalfos and get 1 bow and shock arrows.
+      Then WB up to the shrine. For Normal Mode, skip lizalfos here
+      and buy 30 shock arrows in Lurelin (because shock arrows are not guaranteed)
+      and drop at most 5 per lizalfos     
+- .dir(.W) H enter Docks + Run:
+    coord: [-306.00075592130634,-1138.5030236852244]
+- _Shrine::SaasKosah
+- Run up to library:
+    coord: [-147.5,-1047]
+- Shock Kill Lizalfos, get Boomerang
+- SQ Walk to Tower:
+    notes: The AA Tower but don't get AA
+- Aim at Pillar:
+    coord: [-64,-1045]
+- _Chest<Naydra Scale>:
+    coord: [-175.00037796065317,-1168.7515118426122]

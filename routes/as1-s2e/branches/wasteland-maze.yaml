@@ -1,0 +1,33 @@
+# Start: Sho Dantu
+- SCW + .dir(S) Rd Walk + Fast Midair:
+    coord: [-3660.50, 227.86, 1937.40]
+    notes: Mag the bomb arrow chest 10m closer to the shrine then activate
+- _SCW:
+    presets: _Shrine::SasaKai
+    text: .important(Sasa Kai)
+- .dir(SE)
+- _Shrine::DakoTah:
+    comment: Peg SQ Walk
+- .dir(E>>) + .dir(E>>) + Run
+- _Shrine::KayNoh:
+    notes:
+      Use WMC Bow Shoot Switch. Then SQ Walk from the socket on the left to skip
+      the locked door. Then Shoot the final switch again.
+      The Bullet Time for the WB is a bit tricky.
+      You can also WB from the peg like S1E but it's hard.
+- SQ Walk + .dir(<<S):
+    coord: [-2733.5,2370.5]
+- _Shrine::KorshOhu
+- SQ Walk land on Sword
+- .dir(S>>) + .dir(S>>) + .dir(S>>) + Midair
+- _Shrine::MisaeSuma:
+    notes: E/RSC through the door, or through the side
+- .dir(<E) + .dir(<E) + SQ Walk + .dir(<<E)
+- _Shrine::DilaMaag
+- SCW + SQ Walk + BTB:
+    notes: .link(https://www.bilibili.com/video/BV1QhMgznExp/) Requires Amiibo
+- _SCW::Buffered:
+    presets: _Shrine::SumaSahma
+    text: .important(Suma Sahma)
+- .dir(E>>)
+- _Shrine::IshtoSoh

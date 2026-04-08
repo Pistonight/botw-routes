@@ -1,0 +1,26 @@
+# Start: Jitan
+- SCW + .dir(E>>) + BTB:
+    movements:
+      - to: [4036.5,1405]
+      - to: [4788,3700.5]
+      - to: [4737.9375,3771.4375]
+        warp: true
+- _SCW::Infinity::Chu<-blessing, Ice, Fire>:
+    presets: _Shrine::KorguChideh
+    text: .important(Korgu Chideh)
+- Exit Island:
+    movements:
+      - to: [4720,3900]
+      - to: [3683,3319]
+        warp: true
+- _Shrine::MuwoJeem
+- .dir(NE>)
+- _Shrine::ChaasQeta
+- _Warp::Shrine::MuwoJeem:
+    color: cyan
+- SCW + Surf
+- _SCW:
+    presets: _Shrine::KahYah
+    text: .important(Kah Yah)
+- Normal Mode - Buy 30 Shock Arrows
+- _Shrine::YahRin

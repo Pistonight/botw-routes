@@ -2,36 +2,37 @@ get axe torch boko-bow potlid
 get hammer
 get slate 4 orb glider
 get soldier-bow
-get 6 pepper 2 shroom 
 get ruby
 get 1 fire-arrow 2 ice-arrow
 
-shoot equip ice-arrow
 sell ruby
 buy 3 hot-frog
 get 4 orb
-equip hammer use weapon 2 times # kill lizalfos
+equip hammer use weapon 3 times
+# ^ kill lizalfos, note keep one fire arrow,
+# otherwise roasting carrot will be slow
 !write [dura=20] to axe
 !write [dura=4] to pot-lid 
-shoot
+equip ice-arrow shoot # BTB
 
-# BTB
-get 2 fairy 3 endura-carrot 2 silent-princess
-sell all orb # - trade stam
-get boko-gut 3 carrot # buy carrot second so it's last in the save
-eat all pepper all shroom
+
+get 2 fairy 3 endura-carrot 2 nightshade
+# get ragdoll in the air as you drop down
+sell all orb # - trade 2 stam
+get boko-gut 3 carrot
 
 save
-# break slots
-:smug hold hot-frog endura-carrot silent-princess carrot boko-gut
+# break slots (hold everything but fairy)
+:smug hold hot-frog endura-carrot nightshade carrot boko-gut
 sell all materials[held]
-pick-up all materials !remove hot-frog # ran away
-hold fairy use fairy drop
+pick-up all materials
+hold fairy use fairy drop # hold fairy bomb self
 !remove endura-carrot; // start roasting
-!remove silent-prin; get wild-green[effect=sneaky]
+!remove nightshade; get wild-green[effect=sneaky]
 !remove swift-carrot; get wild-green[effect=hasty]
 get roasted-endura-carrot
 reload # Get invalid star tab
+
 get pot-lid drop shield # leave unequipped
 # col1 method2, start shield
 unpause
@@ -41,8 +42,8 @@ entangle key-item drop shield
 unpause drop
 !remove all hot-frog boko-gut swift; get hasty-elixir[level=3]
 !remove all endura-carrot; get wild-green[effect=endura,level=18]
-!remove princess; get wild-green[effect=sneaky]
-!remove princess; get wild-green[effect=sneaky]
+!remove nightshade; get wild-green[effect=sneaky]
+!remove nightshade; get wild-green[effect=sneaky]
 !remove swift-carrot; get wild-green[effect=hasty]
 sort material
 unpause pause

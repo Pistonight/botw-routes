@@ -1,0 +1,70 @@
+- "This route assumes Master Mode. In Normal Mode, you can do the old plat then get Fire+Ice arrows after plat."
+- "Normal Mode also has 1 extra step in the middle of IST"
+- "For BTB setups please refer to run link (which I will add when I do a run) or the BTB catalog: .link(https://restite.org/btb)"
+- "S2E WB Terminology: Walk: walking jump instead of ZL jump. H: The first bomb is required to be delayed and placed very high above the ground (but not too high)"
+- "< and > next to an ordinal direction means you would aim at what would be dead angle in s1e. >>> and <<< are similar"
+- Buffered ITB require faster inputs and it maybe more consistent to simply release ZR and press A at the same time
+- Plateau:
+  - use: ./branches/plateau.yaml
+- Lanayru:
+  - use: ./branches/kak.yaml
+  - use: ./branches/eldin-south.yaml
+- Gerudo:
+  - _Warp::Shrine::KayaWan:
+      color: yellow
+  - _Shrine::KayaWan
+  - use: ./branches/castle.yaml
+  - use: ./branches/rito.yaml
+  - use: ./branches/gerudo.yaml
+  - use: ./branches/wasteland-maze.yaml
+- Naydra:
+  - _Warp::Shrine::MezzaLo:
+      color: yellow
+  - use: ./branches/naydra.yaml
+  - use: ./branches/jitan-tawajinn.yaml
+  - _Warp::Shrine::ShoDantu:
+      color: "#00ff00"
+  - use: ./branches/wasteland.yaml
+  - _Warp::Shrine::JitanSami:
+      color: "#00ff00"
+  - use: ./branches/jitan-eventide.yaml
+- Eldin Lake:
+  - _Warp::Shrine::MoaKeet:
+      color: yellow
+  - use: ./branches/eldin-north.yaml
+  - _Warp::Shrine::JitanSami:
+      color: magenta
+  - use: ./branches/jitan-shaiyota.yaml
+  - _Warp::Shrine::DowNaeh:
+      color: "#00ff00"
+  - use: ./branches/dueling-peaks.yaml
+- Central + Ridgeland:
+  - _Warp::Shrine::KuhTakkar:
+      color: red
+  - use: ./branches/kuh-central.yaml
+#   - _Warp::Shrine::KuhTakkar:
+#       color: "#00ff00"
+#   - use: ./branches/kuh-bloodmoon.yaml
+#   - _Warp::Shrine::TenaKosah:
+#       color: cyan
+#   - use: ./branches/tenakosah-oneshrine.yaml
+#   - _Warp::Shrine::TenaKosah:
+#       color: "#00ff00"
+#   - use: ./branches/ridge.yaml
+# - Hebra:
+#   - _Warp::Shrine::AkhVaquot:
+#       color: "#00ff00"
+#   - use: ./branches/hebra.yaml
+#   - _Warp::Shrine::ShadaNaw:
+#       color: red
+#   - use: ./branches/hebra-south.yaml
+#   - _Warp::Shrine::ShadaNaw:
+#       color: yellow
+#   - use: ./branches/hebra-north.yaml
+#   - use: ./branches/korok-forest.yaml
+#   - use: ./branches/bosses.yaml
+# - GG + More:
+#   - Dark Beast:
+#       counter: .split-dark-beast(GG)
+#       icon-doc: ganon
+#       coord: [-253.75, -1066.31]

@@ -1,0 +1,30 @@
+# Start: Sho Dantu
+- SQ Walk DEFUSE:
+    notes: From Luminous Platform, toward the shrine
+- .dir(<<W) + .dir(<<W)
+- _Shrine::KemaZoos
+- .dir(S>) + .dir(<SW) + .dir(S) + .dir(S):
+    movements:
+      - to: [-4717,2196]
+      - to: [-4747,2427]
+      - to: [-4733,2654]
+    notes:
+      If going for Piston strat, final shot can be WMC Bombs
+- _Shrine::ThoKayu
+- .dir(<<E) + .dir(<NE) + .dir(E>>) + .dir(E>>):
+    movements:
+      - to: [-4579,2732]
+      - to: [-4372,2585]
+      - to: [-4092.5,2782]
+- _Shrine::DaqoChisay
+- SCW + Ride Sand Seal:
+    coord: [-3688,2925]
+    notes:
+      You need to exit the load balancer area
+      while still in range of the shrine. See .link([This discord message]https://discord.com/channels/269611402854006785/303990410500374528/1484616459454775520)
+- _SCW:
+    presets: _Shrine::RaqaZunzo
+    text: .important(Raqa Zunzo)
+    comment: Get Radiant Shield
+- _Shrine::HawaKoth:
+    notes: Mag the gear closer to you then spin attack 4 rotations with Great Thunderblade

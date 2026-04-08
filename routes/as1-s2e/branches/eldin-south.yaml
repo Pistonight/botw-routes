@@ -1,0 +1,59 @@
+# Start: Kak
+- .dir(<NE) + .dir(NE>) + .dir(<NE):
+    coord: [2500,355]
+- Ride Deer:
+    coord: [2589.68, 232.40, 444.25]
+- _Shrine::MezzaLo
+- Run behind shrine .dir(<NE):
+    coord: [2787.5,111]
+- .dir(NE>) + .dir(<NE) + Glide:
+    movements:
+      - to: [3011,-42]
+      - to: [3260,-458]
+      - to: [3307.5,-484.5]
+- Buy 10 Normal Arrow
+- _Shrine::NeezYohma
+- SCW + Run + Glide:
+    coord: [3307.5,-484.5]
+- _SCW:
+    presets: _Shrine::DagahKeek
+    text: .important(Dagah Keek)
+- Run to forward right:
+    coord: [3114.5,-439]
+- .dir(S>) + .dir(<W) + .dir(W>>) + .dir(W):
+    movements:
+      - to: [3084.5,-319]
+      - to: [2803,-208]
+      - to: [2440,-302.5]
+    notes:
+      If you get a really good 2nd WB then take it further and one more would reach the shrine
+- _Shrine::SohKofi:
+    comment: (If Normal Mode) Knights Bow
+    notes: Minor - Any Shot. Modest - 1 Shot Ice. Major - 3 Shot Fire
+- .dir(N) + .dir(N) + Run:
+    movements:
+      - to: [2297,-612]
+      - to: [2297,-871]
+      - to: [2315.5,-901.5]
+- _Shrine::TahMuhl
+- SQ Walk DEFUSE + .dir(NE>):
+    coord: [2389.5,-946]
+- _Shrine::MoaKeet
+- .dir(.N)
+- _Shrine::SahDahaj:
+    notes: .link([Safe Strat]https://youtu.be/hVB-Ed1cimA). Alternatively walk WB from the peg
+- .dir(E) H + Run + SQ Walk + Run
+- _Shrine::ZeKasho:
+    notes: Same as S1E but stand on the line instead of corner, aim at the corner
+- .dir(E>>) + SQ Walk x2 + .dir(<SE):
+    movements:
+      - to: [3201,-1583]
+      - to: [3331,-1589.5]
+- _Shrine::DahHesho
+- .dir(<<S) + .dir(.S) H + Hammer:
+    coord: [4053,-1154]
+- _Shrine::KenaiShakah
+- .dir(SE>) out of cave:
+    coord: [4265,-723]
+- .dir(<NE) + .dir(<NE)
+- _Shrine::KahMael

@@ -1,0 +1,52 @@
+- SOR Clip .important(NO Time of Day)
+- Run:
+    coord: [-956,1963]
+- 6 Peppers:
+    notes: These are food and can be eaten all before IST
+- _Equipment::Shield<Pot Lid>
+- .important(DO NOT GRAB STEAK):
+    notes: If you need extra food before IST, get the 5 herbs behind Mag
+- _Equipment::Weapon<Axe>:
+    coord: [-920.93, 220.65, 1871.83]
+    notes:
+      After getting the axe you can cut the tree for 3 extra apples for food.
+      Sometimes you would also pick up a tree branch from cutting the tree,
+      then you can skip the torch
+- _Equipment::Bow<Traveler's Bow>:
+    coord: [-901.30, 185.00, 1666.30]
+    notes: DO NOT GET ARROWS
+- _Equipment::Weapon<Torch>:
+    icon-map: null
+- _Chest<Fire + Ice Arrows>:
+    coord: [-779.5,1560.5]
+    notes: Get Ice Arrow first which is on the right
+- _Chest<Ruby>:
+    coord: [-670,1524.5]
+- _Shrine::OmanAu
+- Run:
+    movements:
+      - to: [-680.75,1612.5]
+      - to: [-668.75,1636.75]
+- _Tower::GreatPlateau
+- Fall Down and Run
+- _Shrine::JaBaij
+- .dir(NE) Void Out:
+    movements:
+      - to: [-325,1917]
+      - to: [-1020,1796]
+        warp: true
+- Run + BTB:
+    coord: [-1119.75,1781.75]
+- _Shrine::KehNamut
+- BTB
+- _Shrine::OwaDaim:
+    comment: Hammer
+    notes: Don't do the shield jump at the end so you don't get ragdoll for WB after plat (or the temple of time WB)
+- Boulder:
+    coord: [-859.5,2054]
+- WB or Tree:
+    coord: [-812.25,1975.5]
+- _Plateau
+- _Chest<Soldier's Bow>:
+    icon-map: null
+    color: red
