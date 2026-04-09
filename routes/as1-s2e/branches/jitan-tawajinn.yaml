@@ -9,15 +9,23 @@
     presets: _Shrine::TawaJinn
     text: .important(Tawa Jinn)
     comment: Get Thunderblade
-- .dir(<<W) + .dir(<<W) + .dir(<<W)
+- .dir(SW>) + .dir(SW>):
+    notes: Usually need 3 WBs
 - _Shrine::QukahNata:
     notes: .link(https://www.bilibili.com/video/BV1ba42zwE3x)
 - _Tod::Morning<Farosh>:
     icon-map: null
+- .dir(<N) + .dir(W>):
+    movements:
+      - to: [1936,3093]
+      - to: [1787,2953]
 - _Shrine::ShodaSah
+- .dir(S>) + .dir(S>>):
+    notes: WB from the shrine or you will hit the balloon octorok
 - _Shrine::ShaiUtoh
-- .dir(NW>) + .dir(<<W) + .dir(<W) + WB:
-    coord: [1316,3329]
+- SQ Walk up + .dir(W.) x3
 - _Shrine::KaoMakagh
+- .dir(N.) + .dir(.N)
 - _Shrine::PumaagNitae
+- .dir(W>>) x3
 - _Shrine::YaNaga

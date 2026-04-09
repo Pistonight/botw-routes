@@ -1,0 +1,11 @@
+# Start: Ketoh Wawai
+- _Shrine::MaagHalan
+- SCW
+- _SCW:
+    presets: _Shrine::KeoRuug
+    text: .important(Keo Ruug)
+- _Shrine::DaagChokah
+- SCW
+- _SCW:
+    presets: _Shrine::KuhnSidajj
+    text: .important(Kuhn Sidajj)

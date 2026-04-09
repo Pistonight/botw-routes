@@ -26,5 +26,6 @@
     presets: _Shrine::RaqaZunzo
     text: .important(Raqa Zunzo)
     comment: Get Radiant Shield
+- .dir(<<E) + .dir(<<E) + Surf
 - _Shrine::HawaKoth:
     notes: Mag the gear closer to you then spin attack 4 rotations with Great Thunderblade

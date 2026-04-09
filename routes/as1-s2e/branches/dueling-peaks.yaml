@@ -20,7 +20,7 @@
     notes: Turn-before-square WB
 - SCW + Glide past middle of river
 - _SCW:
-    presets:: _Shrine::SheeVaneer
+    presets: _Shrine::SheeVaneer
     text: .important(Shee Vaneer)
 - _Shrine::SheeVenath
 - .dir(<SW) + .dir(S)

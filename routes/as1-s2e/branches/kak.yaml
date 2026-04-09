@@ -52,7 +52,7 @@
 - _Shrine::TalohNaeg:
     notes: Cutscene Skip - Right Peg aim at Left lamp (on the other side of tha arena, next to the gate). H WB
 - _SCW:
-    preset: _Shrine::LaknaRokee
+    presets: _Shrine::LaknaRokee
     text: .important(Lakna Rokee)
     comment: Get EOD
     notes: Same as 30FPS except don't buffer

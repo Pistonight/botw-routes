@@ -5,7 +5,7 @@
       - to: [4788,3700.5]
       - to: [4737.9375,3771.4375]
         warp: true
-- _SCW::Infinity::Chu<-blessing, Ice, Fire>:
+- _SCW::Infinity::Chu<-blessing, Fire, Ice>:
     presets: _Shrine::KorguChideh
     text: .important(Korgu Chideh)
 - Exit Island:
@@ -22,5 +22,7 @@
 - _SCW:
     presets: _Shrine::KahYah
     text: .important(Kah Yah)
+- .dir(<SW) + .dir(W>) + .dir(<NW):
+    coord: [3301,3488.5]
 - Normal Mode - Buy 30 Shock Arrows
 - _Shrine::YahRin

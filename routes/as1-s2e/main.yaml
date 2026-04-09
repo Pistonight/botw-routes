@@ -42,29 +42,31 @@
   - _Warp::Shrine::KuhTakkar:
       color: red
   - use: ./branches/kuh-central.yaml
-#   - _Warp::Shrine::KuhTakkar:
-#       color: "#00ff00"
-#   - use: ./branches/kuh-bloodmoon.yaml
-#   - _Warp::Shrine::TenaKosah:
-#       color: cyan
-#   - use: ./branches/tenakosah-oneshrine.yaml
-#   - _Warp::Shrine::TenaKosah:
-#       color: "#00ff00"
-#   - use: ./branches/ridge.yaml
-# - Hebra:
-#   - _Warp::Shrine::AkhVaquot:
-#       color: "#00ff00"
-#   - use: ./branches/hebra.yaml
-#   - _Warp::Shrine::ShadaNaw:
-#       color: red
-#   - use: ./branches/hebra-south.yaml
-#   - _Warp::Shrine::ShadaNaw:
-#       color: yellow
-#   - use: ./branches/hebra-north.yaml
-#   - use: ./branches/korok-forest.yaml
-#   - use: ./branches/bosses.yaml
-# - GG + More:
-#   - Dark Beast:
-#       counter: .split-dark-beast(GG)
-#       icon-doc: ganon
-#       coord: [-253.75, -1066.31]
+  - _Warp::Shrine::KuhTakkar:
+      color: "#00ff00"
+  - use: ./branches/kuh-bloodmoon.yaml
+  - _Warp::Shrine::TenaKosah:
+      color: cyan
+  - use: ./branches/tenakosah-oneshrine.yaml
+  - _Warp::Shrine::TenaKosah:
+      color: "#00ff00"
+  - use: ./branches/ridge.yaml
+- Hebra:
+  - _Warp::Shrine::AkhVaquot:
+      color: "#00ff00"
+  - use: ./branches/hebra.yaml
+  - _Warp::Shrine::ShadaNaw:
+      color: red
+  - use: ./branches/hebra-south.yaml
+  - _Warp::Shrine::ShadaNaw:
+      color: yellow
+  - use: ./branches/hebra-north.yaml
+  - use: ./branches/korok-forest.yaml
+  - use: ./branches/bosses.yaml
+- GG:
+  - Dark Beast:
+      counter: .split-dark-beast(GG)
+      icon-doc: ganon
+      coord: [-253.75, -1066.31]
+  - "Total SCWs: .var(SCW)"
+  - "Total iSCWs: .var(iSCW)"

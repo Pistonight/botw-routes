@@ -29,7 +29,7 @@
       If you get a really good 2nd WB then take it further and one more would reach the shrine
 - _Shrine::SohKofi:
     comment: (If Normal Mode) Knights Bow
-    notes: Minor - Any Shot. Modest - 1 Shot Ice. Major - 3 Shot Fire
+    notes: Minor - Any Shot. Modest - 2 Shot Fire (1 shot Ice works but if you mess up then it walks away). Major - 3 Shot Fire
 - .dir(N) + .dir(N) + Run:
     movements:
       - to: [2297,-612]

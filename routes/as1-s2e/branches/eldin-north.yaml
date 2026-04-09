@@ -5,13 +5,14 @@
       - to: [2149,-1474]
       - to: [2129,-1567]
 - _Shrine::QuaRaym
-- .dir(N)H + .dir(N.)H + .dir(N)H + .dir(E)H + .dir(N>)H:
+- .dir(N)H + .dir(N.)H + .dir(N>)H + .dir(E)H + .dir(N>)H:
     movements:
       - to: [1802.5,-1691.5]
       - to: [1828,-1869.5]
       - to: [1872.5,-2012]
       - to: [2019.5,-2023.5]
-- _Shrine::DaqaKoh
+- _Shrine::DaqaKoh:
+    notes: SQ Walk (no delay)
 - SCW + .dir(S):
     movements:
       - to: [2068.5,-2132.25]

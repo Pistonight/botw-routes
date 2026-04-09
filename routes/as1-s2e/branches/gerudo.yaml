@@ -2,11 +2,12 @@
 - Kuh Takkar BTB (Moblin Side):
     movements:
       - to: [-3514.5,-404.5]
-      - to: [-3539.5,660]
-- SQ Walk + .dir(E>>) + .dir(<S) Midair + .dir(<S):
+- SQ Walk + SQ Walk + .dir(E>) + .dir(SE>):
     movements:
-      - to: [-3482,739]
-      - to: [-3239,910]
+      - to: [-3539.5,658]
+      - to: [-3465.5,729.5]
+      - to: [-3413.5,831]
+      - to: [-3268,928.5]
 - Melt Ice with Normal Bow
 - _Shrine::KuhTakkar:
     notes: Same as S1E but need to stand forward more to throw the bomb

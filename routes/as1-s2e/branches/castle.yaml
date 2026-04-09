@@ -6,7 +6,8 @@
 - _Shrine::ShehRata
 - .dir(NW>) + .dir(NW>):
     coord: [1207.25,-1059]
-- Get ChuChu, WB to shrine
+- Get ChuChu and Wood
+- WB to Shrine
 - _Shrine::MirroShaz
 - .dir(<SW) + .dir(W) + .dir(W)
 - _Shrine::NamikaOzz
