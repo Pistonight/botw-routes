@@ -13,7 +13,9 @@
 - _Shrine::TotoSah
 - .dir(<N) + .dir(<<N)
 - _Shrine::HaDahamar:
-    notes: Safe strat is WB skip first section then Rd Walk (from below not second floor)
+    notes: 
+      WB skip first section then SQ Walk (from below not second floor) aiming
+      at the lower section of the fence
 - .dir(<SW) + .dir(NW):
     coord: [1485,1996.9582618013055]
 - _Shrine::ReeDahee:
@@ -23,7 +25,8 @@
     presets: _Shrine::SheeVaneer
     text: .important(Shee Vaneer)
 - _Shrine::SheeVenath
-- .dir(<SW) + .dir(S)
+- SQ Walk + .dir(<SW):
+    coord: [1119,1952]
 - _Shrine::ShaeKatha
 - _SCW::Infinity::Amiibo<-tos>:
     presets: _Shrine::ShoqaTatone

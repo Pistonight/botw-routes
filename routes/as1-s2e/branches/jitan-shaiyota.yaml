@@ -1,7 +1,13 @@
 # Start Jitan
-- SCW + .dir(<NE) + WBs:
-    coord: [3923.5,1327]
-- _SCW::Infinity::Chu<-blessing,Fire,Ice>:
+- SCW + .dir(<NE) + .dir(<NE) + .dir(.N):
+    movements:
+      - to: [3923.5,1327]
+      - to: [4216,620]
+- _SCW::Infinity::Amiibo<-blessing>:
     presets: _Shrine::ShaiYota
     text: .important(Shai Yota)
+- .dir(<SW) + .dir(W.) + .dir(W>>):
+    movements:
+      - to: [3996,516]
+      - to: [3672,517.5]
 - _Shrine::RuccoMaag

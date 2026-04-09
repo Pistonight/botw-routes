@@ -8,12 +8,14 @@
 - _Shrine::MaagNorah
 - .dir(<NE):
     coord: [-1842.5,-1648.5]
-- Moblin Side BTB + Midair
+- Moblin Side BTB + .dir(W):
+    notes: Land on one of the pillars at Rito Village
 - _Shrine::AkhVaquot
-- SCW + .dir(.S)
+- SCW + .dir(.S):
+    notes: Fall down to WB, or midair
 - _SCW:
     presets: _Shrine::BareedaNaag
     text: .important(Bareeda Naag)
 - Boko Butt BTB:
-    notes: Use shock arrow for attention (fire will burn boko)
+    notes: Use normal or shock arrow for attention (fire will burn boko)
 - _Shrine::TenaKosah

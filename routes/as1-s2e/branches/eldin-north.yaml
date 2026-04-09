@@ -24,25 +24,27 @@
     text: .important(Kayra Mah)
 - _Warp::Shrine::DaqaKoh:
     color: "#00ff00"
-- .dir(<NW) + .dir(N):
-    coord: [1779,-2432]
+- .dir(<NW)
 - _Shrine::ShaeMosah
-- .dir(<<N) + .dir(<<N)
+- .dir(<<<N) + .dir(<<N)
 - _Shrine::ShoraHah:
     notes: SQ Walk from middle of elevator at slight angle. Wait a bit before placing Round Bomb and instant detonation
-- Cart + Stasis + .dir(N>) + .dir(<E) WBs:
+- Cart + Stasis + .dir(N.)H + .dir(<<E) + .dir(E.) x2:
     movements:
       - to: [1612,-3085]
-      - to: [1688,-3075]
-      - to: [1819,-3235]
+      - to: [1672,-3080]
+      - to: [1718.5,-3296.5]
+      - to: [2180,-3492]
+      - to: [2464,-3436]
 - ESC Side + Bomb Walk
 - _Shrine::GoraeTorr
-- .dir(E>) + .dir(E>):
+- .dir(E>>) + .dir(E):
+    coord: [3052,-3455.5]
     notes: Aim off cardinal for faster WB
 - _Shrine::ZunaKai
-- .dir(SE>)
+- .dir(SE>) x2
 - _Shrine::TutsuwaNima
-- SCW + .dir(W>) + .dir(<SE) + .dir(E>>):
+- SCW + .dir(<S) + .dir(<SE) + .dir(E>>):
     movements:
       - to: [3875,-2578]
       - to: [4101,-2313]

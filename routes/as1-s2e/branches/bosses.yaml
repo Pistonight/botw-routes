@@ -6,12 +6,16 @@
     icon-doc: castle
 - .enemy(Windblight):
     icon-doc: medoh-done
+    comment: Shoot'em
 - .enemy(Waterblight):
     icon-doc: ruta-done
+    comment: Shoot'em
 - .enemy(Fireblight):
     icon-doc: rudania-done
+    comment: Shoot'em
 - .enemy(Thunderblight):
     icon-doc: naboris-done
+    comment: Break, Shoot'em, Break, Shoot'em
 - Blights:
     counter: .split-end-game(END)
     icon-doc: blights
@@ -21,3 +25,4 @@
     icon: calamity
     icon-priority: 0
     coord: [-253.75, -1066.31]
+    comment: Shoot'em
