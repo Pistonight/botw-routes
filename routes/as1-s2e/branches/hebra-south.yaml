@@ -1,6 +1,20 @@
 # Start: Shada Naw
+- .dir(<<S) + .dir(.SE)
 - _Shrine::GomaAsaagh
+- Melt + Surf + .dir(SE>) + .dir(S):
+    coord: [-2655,-2400]
+    notes: Second WB from skull camp
 - _Shrine::LannoKooh
+- Cryo out + .dir(.NE):
+    notes: Guardian Amiibo. Mag the box and use gryo to open the door
 - _Shrine::GeeHarah
-- _Shrine::RinOyaa
+- .dir(N) + .dir(NE>) + .dir(E>) + Surf:
+    movements:
+      - to: [-2395,-2435]
+      - to: [-2125,-2654]
+- _Shrine::RinOyaa:
+    notes: SQ Walk
+- .dir(SE>) + Inside WB:
+    coord: [-1422.5,-2250]
+    notes: Inside WB - drop down to do the first. Delay a bit before detonation for 2nd
 - _Shrine::RonaKachta

@@ -1,11 +1,41 @@
 # Start: Akh Vaquot
-- SCW
+- SCW + .dir(W>>) + .dir(SW):
+    movements:
+      - to: [-3811.5,-1852.5]
+      - to: [-3930,-1731.5]
+      - to: [-4015.4375,-1722.5]
+        warp: true
+    notes: Must do the WB at the pillar to exit the load balancer area
 - _SCW:
     presets: _Shrine::VooLota
     text: .important(Voo Lota)
-- _Shrine::ShaWarvo
-- _Shrine::MakaRah
+    notes: Glide to the side and old way
+- .dir(N>>)
+- _Shrine::ShaWarvo:
+    notes: 2 SQ Walk
+- Climb + .dir(NW>):
+    coord: [-3980,-2536]
+- _Shrine::MakaRah:
+    notes: Need max height
+- Run + .dir(E)H + .dir(N>>) + SQ Walk + .dir(N>)H + SQ Walk:
+    movements:
+      - to: [-3980,-2536]
+      - to: [-3850,-2548]
+      - to: [-3726,-2716]
+      - to: [-3655,-2731]
+      - to: [-3593,-2963]
 - _Shrine::MozoShenno
+- .dir(.E)H + .dir(N)H + .dir(E)H + .dir(.E)H + .dir(.E)H + .dir(<E)H:
+    movements:
+      - to: [-3417.9195925457407,-3074.698472046528]
+      - to: [-3409.9195925457407,-3178.698472046528]
 - _Shrine::ShadaNaw
+- .dir(W>>) and .dir(<NW) WBs
 - _Shrine::HiaMiu
+- SQ Walk .dir(.S) + SQ Walk .dir(E>) + .dir(<E):
+    movements:
+      - to: [-4412,-3704]
+      - to: [-4308,-3688]
+      - to: [-4038,-3751]
+- Clip into cave
 - _Shrine::ToQuomo

@@ -1,5 +1,19 @@
 # Start: Shada Naw
+- .dir(.E) + .dir(.E):
+    notes: Get Boomerang from Lizal
 - _Shrine::RokUwog
-- _Shrine::ShaGehma
+- SQ Walk .dir(N) up + .dir(NE>) + .dir(NE>):
+    coord: [-2365,-3328]
+- _Shrine::ShaGehma:
+    notes: Ramp SQ Walk
+- .dir(<SE) + .dir(E>>) + SQ Walk up + .dir(E):
+    notes: Can also 2 WB to the mountain to the right then 2 East WB
 - _Shrine::QazaTokki
-- _Shrine::KetohWawai
+- SQ Walk up + .dir(<SE) + .dir(E) + .dir(E):
+    movements:
+      - to: [-302,-3198]
+      - to: [64,-3146]
+- .dir(E) Enter Forest + .dir(E):
+    notes: Use fire arrow to light up the area if needed
+- _Shrine::KetohWawai:
+    notes: Can SQ walk to shrine after orb

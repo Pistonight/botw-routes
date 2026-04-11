@@ -1,9 +1,25 @@
 # Start: Kuh Takkar
-- SCW
+- SCW + SQ Walk + .dir(E.) + .dir(E>>) + .dir(<SE):
+    movements:
+      - to: [-3136.5,1287.5]
+      - to: [-3014,1276.5]
+      - to: [-2751,1340]
+      - to: [-2408.5,1445]
 - _SCW:
     presets: _Shrine::JolooNah
     text: .important(Joloo Nah)
+    comment: Ice Fish Activate
+- .dir(<S) + .dir(<S) + .dir(<S)
 - _Shrine::JeeNoh
+- .dir(<NE) + .dir(<N)
 - _Shrine::DahKaso
-- _Shrine::RotaOoh
-- _Shrine::KaamYatak
+- Cryo + SQ Walk + .dir(N) + SQ Walk:
+    movements:
+      - to: [-1625.5,1616]
+      - to: [-1610,1391]
+- _Shrine::RotaOoh:
+    notes: SQ Walk
+- .dir(NE>) + .dir(<NE):
+    notes: Land near the bridge for 2nd WB
+- _Shrine::KaamYatak:
+     notes: Aim direct

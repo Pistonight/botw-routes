@@ -1,11 +1,35 @@
 # Start: Ketoh Wawai
+- .dir(.S) + .dir(<SE) + .dir(E) + .dir(S):
+    movements:
+      - to: [249,-2915]
+      - to: [634,-2689]
+      - to: [857,-2625]
+      - to: [810.25,-2377.5]
+      - to: [565,-2161.25]
+        warp: true
+- Void out + Do Trial
 - _Shrine::MaagHalan
-- SCW
+- SCW + Void out:
+    movements:
+      - to: [471.0625,-2167.875]
+        warp: true
 - _SCW:
     presets: _Shrine::KeoRuug
     text: .important(Keo Ruug)
+- Climb + .dir(W>) to Tasho:
+    coord: [256.19, 281.61, -2229.61]
+- Backflip or 2 forward hop:
+    notes: If you don't have fish that can activate SCW or Wood, get Wood here
 - _Shrine::DaagChokah
-- SCW
+- SCW + .dir(<SE) + Run:
+    notes: Here you want to use the grid line to navigate
+    coord: [283,-2232]
+- .dir(S) + Run to Zooki + .dir(.W):
+    movements:
+      - to: [313,-1996]
+      - to: [251.03, 285.34, -1979.93]
+      - to: [42,-1948]
+    notes: DONT talk to Zooki
 - _SCW:
     presets: _Shrine::KuhnSidajj
     text: .important(Kuhn Sidajj)

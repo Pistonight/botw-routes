@@ -1,3 +1,14 @@
+# Start: Tena Kosah
+- .dir(W>) + Fast Midair
 - _Shrine::ShaeLoya
+- .dir(NE>) + .dir(<<E) to Red:
+    coord: [-2136,-909]
+- .dir(NW):
+    coord: [-2274,-1033]
 - _Shrine::TohYahsa
-- _Shrine::DunbaTaag
+- .dir(W)H + .dir(N)H + .dir(NW>) x2:
+    movements:
+      - to: [-2459,-893]
+      - to: [-2527,-1146]
+- _Shrine::DunbaTaag:
+    notes: Aim more left than S1E

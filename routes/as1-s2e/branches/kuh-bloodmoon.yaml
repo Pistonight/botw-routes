@@ -1,10 +1,23 @@
 # Start Kuh Takkar
-- SCW
+- SCW + .dir(.N) + .dir(<NE) + Midair:
+    coord: [-3123.5,952]
+    notes: First WB goes farther, past the bridge
 - _SCW:
     presets: _Shrine::MijahRokee
     text: .important(Mijah Rokee)
+- .dir(<<S) + .dir(E) + SQ Walk:
+    notes: Last walk from a rock
+    movements:
+      - to: [-2509,545]
+      - to: [-2365,535]
 - _Shrine::MoggLatan
-- _Shrine::SheemDagoze
-- _Shrine::ZaltaWa
+- .dir(NE>) + WB
+- _Shrine::SheemDagoze:
+     notes: Arrow aim spot is higher than S1E
+- .dir(<NE) x2 + Glide a bit
+- _Shrine::ZaltaWa:
+     notes: SQ Walk
+- SQ Walk .dir(E) + .dir(<E)
 - _Shrine::NoyaNeha
+- Updraft + .dir(<SE)
 - _Shrine::KatahChuki

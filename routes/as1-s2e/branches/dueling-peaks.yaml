@@ -28,6 +28,11 @@
 - SQ Walk + .dir(<SW):
     coord: [1119,1952]
 - _Shrine::ShaeKatha
+- .dir(.S) + BTB:
+    movements:
+      - to: [905.25,2374.75]
+      - to: [977.5,2505.25]
+      - to: [29.0157879951048,3653.7236525992084]
 - _SCW::Infinity::Amiibo<-tos>:
     presets: _Shrine::ShoqaTatone
     text: .important(Shota Tatone)

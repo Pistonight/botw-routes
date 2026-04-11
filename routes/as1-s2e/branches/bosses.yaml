@@ -1,21 +1,27 @@
-
-- escape 3WB to scantum
-- Get Skew Bounce
+- .dir(<SW) + Tree .dir(S>>) + Pillar .dir(S):
+    movements:
+      - to: [-177,-1575]
+      - to: [-266,-1307]
+- SWITCH TO BOOMERANG
 - Castle:
     counter: .split-end-game(END)
     icon-doc: castle
 - .enemy(Windblight):
     icon-doc: medoh-done
     comment: Shoot'em
+    notes: Walk to middle in Phase 1, Shoot BOdy; Phase 2 he will not void out, Shoot Body
 - .enemy(Waterblight):
     icon-doc: ruta-done
     comment: Shoot'em
+    notes: Shoot body Phase 1; Phase 2 bullet time 1 shot
 - .enemy(Fireblight):
     icon-doc: rudania-done
     comment: Shoot'em
+    notes: Shoot body Phase 1; Phase 2, get skew bounce. Note it's not needed if Calam gives fire attack, but if he does instant laser than skew bounce is needed.
 - .enemy(Thunderblight):
     icon-doc: naboris-done
-    comment: Break, Shoot'em, Break, Shoot'em
+    comment: Shoot'em
+    notes: Throw boomerang phase 1, shoot; Phase 2 throw boomerang then shoot. To be safe you can get bullet time in Phase 2
 - Blights:
     counter: .split-end-game(END)
     icon-doc: blights
